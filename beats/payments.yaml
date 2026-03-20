@@ -1,0 +1,36 @@
+name: payments
+title: European Payments & Open Banking
+description: Daily briefing on payments regulation, open banking, and fintech 
+  infrastructure across the UK and EU.
+active: true
+
+sources:
+  - url: https://www.fca.org.uk/news/rss.xml
+    name: FCA
+    tier: regulatory
+  - url: https://www.eba.europa.eu/rss.xml
+    name: EBA
+    tier: regulatory
+  - url: https://www.ecb.europa.eu/rss/press.html
+    name: ECB
+    tier: regulatory
+  - url: https://www.gov.uk/search/news-and-communications.atom
+    name: HM Treasury
+    tier: regulatory
+  - url: https://www.finextra.com/rss/headlines.aspx
+    name: Finextra
+    tier: primary
+  - url: https://www.pymnts.com/feed/
+    name: PYMNTS
+    tier: primary
+  - url: https://thepaypers.com/rss
+    name: The Paypers
+    tier: primary
+
+output:
+  format: daily_briefing
+  stories_per_run: 5
+  min_stories: 3
+
+schedule:
+  cron: "0 6 * * 1-5"  # 06:00 UTC, Monday to Friday
