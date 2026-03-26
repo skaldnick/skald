@@ -14,17 +14,32 @@ sources:
   - url: https://www.ecb.europa.eu/rss/press.html
     name: ECB
     tier: regulatory
-  - url: https://www.gov.uk/search/news-and-communications.atom
+  - url: https://www.gov.uk/search/news-and-communications.atom?keywords=%22open+banking%22
     name: HM Treasury
     tier: regulatory
+  - url: https://www.google.com/alerts/feeds/10307432568024476394/7105842768072246404
+    name: Google Alert — open banking
+    tier: google_alert
+  - url: https://www.google.com/alerts/feeds/10307432568024476394/6734328040985392802
+    name: Google Alert — open finance
+    tier: google_alert
+  - url: https://www.google.com/alerts/feeds/10307432568024476394/16372416596677282693
+    name: Google Alert — PSD3
+    tier: google_alert
+  - url: https://www.google.com/alerts/feeds/10307432568024476394/13500249349444643736
+    name: Google Alert — instant payments Europe
+    tier: google_alert
+  - url: https://www.google.com/alerts/feeds/10307432568024476394/2934695885739138194
+    name: Google Alert — payment systems regulator
+    tier: google_alert
+  - url: https://www.google.com/alerts/feeds/10307432568024476394/14717764527932905523
+    name: Google Alert — variable recurring payments
+    tier: google_alert
   - url: https://www.finextra.com/rss/headlines.aspx
     name: Finextra
     tier: primary
   - url: https://www.pymnts.com/feed/
     name: PYMNTS
-    tier: primary
-  - url: https://thepaypers.com/rss
-    name: The Paypers
     tier: primary
 
 output:

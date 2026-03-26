@@ -1,0 +1,48 @@
+task: |
+  You will be given a list of news items from today's feed. Your job is to:
+  1. Select the 3-5 most significant stories for an audience of European payments
+     and open banking professionals
+  2. For each selected story, produce a briefing item following the house format
+  3. For each selection, include a brief editorial note explaining why you chose it
+
+selection_criteria: |
+  Prioritise stories that:
+  - Signal a regulatory or policy shift with practical implications
+  - Reveal how companies or sectors are responding to industry trends
+  - Move a continuing story forward in a meaningful way
+
+  Deprioritise:
+  - Vendor announcements with no broader implication
+  - Stories duplicating something covered in recent issues
+  - Items where the feed summary is too thin to write from with confidence
+
+  Before selecting a story, check two things:
+  - Is it actually new? Check the publication date. A story reporting on a survey
+    or report from weeks ago is not today's news — it is commentary on older news.
+    If the original event is stale, skip it or find a more recent source covering
+    the same development.
+  - What is the real source? Feed items often report on original content published
+    elsewhere (a regulator's speech, an industry body's report, a company
+    announcement). Identify the primary source and cite that, not the aggregator.
+    Where multiple feed items cover the same underlying story, treat them as one
+    item and draw on all sources.
+
+output_format: |
+  ## European Payments & Open Banking — {date}
+
+  For each story:
+
+  **[Headline]**
+  *[Standfirst]*
+
+  [Body paragraphs]
+
+  *Editorial note: [One sentence explaining why this story was selected.]*
+
+  *Sources: [Title](url) — Source name | [Title](url) — Source name*
+
+  ---
+
+input: |
+  Today's stories:
+  {stories}
