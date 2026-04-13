@@ -1,0 +1,12 @@
+{{ define "main" }}
+  <h1>European Payments Briefing</h1>
+  <p style="color:#666; margin-bottom: 2em;">Daily briefings on European payments regulation, open banking, and fintech.</p>
+  <ul class="briefings">
+    {{ range (where .Site.RegularPages "Section" "briefings").ByDate.Reverse }}
+    <li>
+      <a href="{{ .Permalink }}">{{ .Title }}</a>
+      <div class="date">{{ .Date.Format "January 2, 2006" }}</div>
+    </li>
+    {{ end }}
+  </ul>
+{{ end }}
