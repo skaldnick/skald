@@ -40,9 +40,9 @@ def _pipeline_outputs(header: str, stories: list | None = None) -> list:
     """Build the full output list for load_outputs. Stories=None means no-op on story rows."""
     if stories is None:
         # Status-only update — leave story rows unchanged
-        return [gr.update(), gr.update(value=header)] + [gr.update()] * (MAX_STORIES * 4)
+        return [gr.update(value=header)] + [gr.update()] * (MAX_STORIES * 4)
     # Full update — hide all story rows (used for errors)
-    outputs = [[], header]
+    outputs = [header]
     for _ in range(MAX_STORIES):
         outputs += [gr.update(visible=False), gr.update(value=""), gr.update(value="Approve"), gr.update(value="", visible=False)]
     return outputs
@@ -68,7 +68,7 @@ def on_run_and_load():
 
 def on_load_draft():
     stories, header = load_draft()
-    outputs = [stories, f"### {header}"]
+    outputs = [f"### {header}"]
     for i in range(MAX_STORIES):
         if i < len(stories):
             outputs += [
@@ -91,16 +91,20 @@ def on_decision_change(decision):
     return gr.update(visible=decision == "Reject")
 
 
-def on_save(originals, *args):
+def on_save(*args):
     texts = list(args[:MAX_STORIES])
     decisions = list(args[MAX_STORIES : MAX_STORIES * 2])
     reasons = list(args[MAX_STORIES * 2 :])
+
+    originals, _ = load_draft()
+    if not originals:
+        return "No draft loaded — nothing to save."
 
     FEEDBACK_DIR.mkdir(parents=True, exist_ok=True)
     date_str = datetime.now().strftime("%Y-%m-%d")
     records = []
     for orig, edited, decision, reason in zip(originals, texts, decisions, reasons):
-        if not orig:
+        if not edited.strip():
             continue
         records.append({
             "original": orig,
@@ -141,8 +145,6 @@ def on_publish(*args):
 # --- UI ---
 
 with gr.Blocks(title="Skald — Editorial Dashboard") as app:
-    originals_state = gr.State([])
-
     with gr.Row():
         gr.Markdown("# Skald — Editorial Dashboard")
         load_btn = gr.Button("Generate today's draft", variant="primary", scale=0)
@@ -178,7 +180,7 @@ with gr.Blocks(title="Skald — Editorial Dashboard") as app:
             publish_btn = gr.Button("Publish approved", variant="primary", scale=0)
 
     # Load draft — auto on startup and on button click
-    load_outputs = [originals_state, header_md]
+    load_outputs = [header_md]
     for i in range(MAX_STORIES):
         load_outputs += [groups[i], texts[i], decisions[i], reasons[i]]
 
@@ -188,9 +190,10 @@ with gr.Blocks(title="Skald — Editorial Dashboard") as app:
     # Decision → reason visibility
     for dec, rsn in zip(decisions, reasons):
         dec.change(on_decision_change, inputs=dec, outputs=rsn)
+        dec.select(on_decision_change, inputs=dec, outputs=rsn)
 
     if not DEMO_MODE:
-        feedback_inputs = [originals_state] + texts + decisions + reasons
+        feedback_inputs = texts + decisions + reasons
         save_btn.click(on_save, inputs=feedback_inputs, outputs=status_md)
         publish_btn.click(
             on_publish,
