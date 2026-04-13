@@ -7,6 +7,7 @@ from pathlib import Path
 
 import gradio as gr
 
+from dashboard import github_api
 from ingester.fetcher import fetch_beat, filter_recent, filter_keywords
 from generator.client import generate_briefing, save_draft
 
@@ -18,16 +19,25 @@ FEEDBACK_DIR = ROOT / "data" / "feedback"
 SITE_DIR = ROOT / "site" / "content" / "briefings"
 
 
-def load_draft(beat: str = "payments") -> tuple[list[str], str]:
-    date_str = datetime.now().strftime("%Y-%m-%d")
-    path = OUTPUT_DIR / beat / f"{date_str}.md"
-    if not path.exists():
-        return [], f"No draft found for {date_str}."
-    text = path.read_text()
+def _parse_draft(text: str) -> tuple[list[str], str]:
     parts = re.split(r"\n---\n", text)
     header = parts[0].strip()
     stories = [p.strip() for p in parts[1:] if p.strip()]
     return stories, header
+
+
+def load_draft(beat: str = "payments") -> tuple[list[str], str]:
+    date_str = datetime.now().strftime("%Y-%m-%d")
+    if github_api.available():
+        text, _ = github_api.read_file(f"output/{beat}/{date_str}.md")
+        if not text:
+            return [], f"No draft found for {date_str}."
+        return _parse_draft(text)
+    else:
+        path = OUTPUT_DIR / beat / f"{date_str}.md"
+        if not path.exists():
+            return [], f"No draft found for {date_str}."
+        return _parse_draft(path.read_text())
 
 
 def compute_diff(original: str, edited: str) -> str:
@@ -39,9 +49,7 @@ def compute_diff(original: str, edited: str) -> str:
 def _pipeline_outputs(header: str, stories: list | None = None) -> list:
     """Build the full output list for load_outputs. Stories=None means no-op on story rows."""
     if stories is None:
-        # Status-only update — leave story rows unchanged
         return [gr.update(value=header)] + [gr.update()] * (MAX_STORIES * 4)
-    # Full update — hide all story rows (used for errors)
     outputs = [header]
     for _ in range(MAX_STORIES):
         outputs += [gr.update(visible=False), gr.update(value=""), gr.update(value="Approve"), gr.update(value="", visible=False)]
@@ -100,7 +108,6 @@ def on_save(*args):
     if not originals:
         return "No draft loaded — nothing to save."
 
-    FEEDBACK_DIR.mkdir(parents=True, exist_ok=True)
     date_str = datetime.now().strftime("%Y-%m-%d")
     records = []
     for orig, edited, decision, reason in zip(originals, texts, decisions, reasons):
@@ -113,8 +120,20 @@ def on_save(*args):
             "decision": decision,
             "reason": reason or None,
         })
-    path = FEEDBACK_DIR / f"{date_str}.json"
-    path.write_text(json.dumps({"date": date_str, "beat": "payments", "stories": records}, indent=2))
+    payload = json.dumps({"date": date_str, "beat": "payments", "stories": records}, indent=2)
+
+    if github_api.available():
+        ok = github_api.write_file(
+            f"data/feedback/{date_str}.json",
+            payload,
+            f"Save feedback {date_str}",
+        )
+        if not ok:
+            return "Error saving feedback to GitHub."
+    else:
+        FEEDBACK_DIR.mkdir(parents=True, exist_ok=True)
+        (FEEDBACK_DIR / f"{date_str}.json").write_text(payload)
+
     return f"Feedback saved — {len(records)} stories recorded."
 
 
@@ -129,7 +148,6 @@ def on_publish(*args):
     if not approved:
         return "No approved stories to publish."
 
-    SITE_DIR.mkdir(parents=True, exist_ok=True)
     date_str = datetime.now().strftime("%Y-%m-%d")
     date_display = datetime.now().strftime("%B %-d, %Y")
     body = "\n\n---\n\n".join(approved)
@@ -137,9 +155,18 @@ def on_publish(*args):
         f'---\ntitle: "European Payments Briefing — {date_display}"\n'
         f'date: {date_str}\ndraft: false\nbeat: payments\n---\n\n{body}'
     )
-    (SITE_DIR / f"{date_str}.md").write_text(content)
     n = len(approved)
-    return f"Published {n} {'story' if n == 1 else 'stories'} to site/content/briefings/{date_str}.md"
+    path = f"site/content/briefings/{date_str}.md"
+
+    if github_api.available():
+        ok = github_api.write_file(path, content, f"Publish briefing {date_str}")
+        if not ok:
+            return "Error publishing to GitHub."
+    else:
+        SITE_DIR.mkdir(parents=True, exist_ok=True)
+        (SITE_DIR / f"{date_str}.md").write_text(content)
+
+    return f"Published {n} {'story' if n == 1 else 'stories'} to {path}"
 
 
 # --- UI ---
@@ -149,7 +176,7 @@ with gr.Blocks(title="Skald — Editorial Dashboard") as app:
         gr.Markdown("# Skald — Editorial Dashboard")
         load_btn = gr.Button("Generate today's draft", variant="primary", scale=0)
 
-    header_md = gr.Markdown("*Click 'Generate today's draft' to begin.*")
+    header_md = gr.Markdown("*Loading draft...*")
 
     groups, texts, decisions, reasons = [], [], [], []
     for i in range(MAX_STORIES):

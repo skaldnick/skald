@@ -3,3 +3,4 @@ feedparser
 gradio
 python-dotenv
 pyyaml
+requests
