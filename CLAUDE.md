@@ -46,18 +46,36 @@ automated publication.
 - /docs/decisions.md — architectural decisions and rationale
 - /docs/sources.md — feed source registry for the payments beat
 
-## Current status
-Pipeline operational. First briefing generated March 26, 2025.
+## Directory structure (additional)
+```
+/hf-space/       HuggingFace Space repo (dashboard + dependencies, pushed separately)
+/public/         Cloudflare Pages web root (vikingmedia.org landing page + Hugo output)
+/public/skald/   Hugo build output (gitignored — built by Cloudflare Pages on deploy)
+/.github/        GitHub Actions workflows
+```
 
-Components built:
+## Current status
+Full cloud pipeline operational. First briefing published April 13, 2026.
+
+### Cloud architecture
+1. **GitHub Actions** (`generate.yml`) — runs `python -m generator.client` at 06:00 UTC Mon–Fri, commits draft to `output/payments/YYYY-MM-DD.md`
+2. **HuggingFace Space** (`nick385/skald`) — Gradio dashboard reads draft via GitHub API, editor reviews/edits/approves stories, publishes to `site/content/briefings/YYYY-MM-DD.md` via GitHub API commit
+3. **Cloudflare Pages** — auto-deploys on push to main; runs `hugo --minify --source site`, serves from `public/`; live at vikingmedia.org/skald/
+
+### Components built
 - ingester/fetcher.py — feed fetching, normalisation, recency filter (3 days), keyword filter
 - generator/client.py — prompt assembly, Claude API call, draft output
 - prompts/payments/system.yaml — voice, style, editorial stance
 - prompts/payments/story.yaml — selection criteria, news recognition, output format
-- dashboard/app.py — Gradio editorial interface (generate & load, edit, approve/reject, publish)
-- beats/payments.yaml — source config (11 sources: regulatory, Google Alerts, trade press; EBA dropped)
+- dashboard/app.py — Gradio editorial interface (load draft, edit, save feedback, approve/reject, publish)
+- dashboard/github_api.py — GitHub API helpers (read/write files); dashboard uses this when GITHUB_TOKEN set, local filesystem otherwise
+- beats/payments.yaml — source config (11 sources: regulatory, Google Alerts, trade press)
 - beats/payments_filters.yaml — keyword filter config (global + per-source include/exclude, passthrough)
+- site/ — Hugo static site; theme at site/themes/skald/; briefings at site/content/briefings/
+- .github/workflows/generate.yml — scheduled briefing generation
 - tools/fetch_raw.py — fetch and cache raw feed snapshot for offline filter testing
 - tools/test_filters.py — test filter configs against cached snapshots; shows per-source pass/cut
 
-Next priorities: Hugo site scaffold; GitHub Actions schedule; source/keyword management in dashboard.
+### Next priorities
+- Add per-story editorial notes field in dashboard (fact-check flags, verification requests)
+- Keep hf-space/ in sync when dashboard code changes (currently requires manual push)
