@@ -1,0 +1,58 @@
+# Keyword filter config — edit and re-run tools/test_filters.py to see results.
+# Match is case-insensitive; at least one keyword must appear in title or summary.
+#
+# global: applied to every source (unless the source sets passthrough: true)
+# sources: per-source extra keywords merged with global list
+# sources with no entry here are filtered by global keywords only
+
+global:
+  keywords:
+    - open banking
+    - open finance
+    - PSD2
+    - PSD3
+    - PSR
+    - instant payments
+    - SEPA
+    - payment regulation
+    - payment systems
+    - digital euro
+
+sources:
+  # Already topically filtered — pass all through
+  Google Alert — open banking:
+    passthrough: true
+  Google Alert — open finance:
+    passthrough: true
+  Google Alert — PSD3:
+    passthrough: true
+  Google Alert — instant payments Europe:
+    passthrough: true
+  Google Alert — payment systems regulator:
+    passthrough: true
+  Google Alert — variable recurring payments:
+    passthrough: true
+  HM Treasury:
+    passthrough: true
+  FCA:
+    passthrough: true
+
+  # Finextra: broad feed, add extra terms to catch more on-beat stories
+  Finextra:
+    keywords:
+      - payment
+      - T+1
+    exclude:
+      - appointed
+      - appoints
+      - names as
+      - raises $
+      - raises €
+      - valued at
+
+  # ECB: add "payments" to catch stories the global list misses
+  ECB:
+    keywords:
+      - payments
+
+  # PYMNTS: US-heavy, global keywords are sufficient

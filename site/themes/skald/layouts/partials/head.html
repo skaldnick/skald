@@ -1,0 +1,15 @@
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>{{ if .IsHome }}{{ .Site.Title }}{{ else }}{{ .Title }} — {{ .Site.Title }}{{ end }}</title>
+<style>
+  body { font-family: Georgia, serif; max-width: 720px; margin: 40px auto; padding: 0 20px; color: #222; background: #fff; }
+  header { border-bottom: 1px solid #ddd; margin-bottom: 2em; padding-bottom: 1em; }
+  header a { text-decoration: none; color: #222; font-size: 1.1em; font-weight: bold; }
+  h1 { font-size: 1.6em; margin: 0 0 0.3em; }
+  .meta { color: #666; font-size: 0.9em; margin-bottom: 1.5em; }
+  article { line-height: 1.7; }
+  ul.briefings { list-style: none; padding: 0; }
+  ul.briefings li { margin-bottom: 1em; border-bottom: 1px solid #eee; padding-bottom: 1em; }
+  ul.briefings li a { text-decoration: none; color: #222; font-weight: bold; }
+  ul.briefings li .date { color: #666; font-size: 0.85em; }
+</style>

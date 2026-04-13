@@ -8,9 +8,6 @@ sources:
   - url: https://www.fca.org.uk/news/rss.xml
     name: FCA
     tier: regulatory
-  - url: https://www.eba.europa.eu/rss.xml
-    name: EBA
-    tier: regulatory
   - url: https://www.ecb.europa.eu/rss/press.html
     name: ECB
     tier: regulatory

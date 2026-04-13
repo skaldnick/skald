@@ -47,4 +47,17 @@ automated publication.
 - /docs/sources.md — feed source registry for the payments beat
 
 ## Current status
-Early build phase. Directory structure and tooling being established.
+Pipeline operational. First briefing generated March 26, 2025.
+
+Components built:
+- ingester/fetcher.py — feed fetching, normalisation, recency filter (3 days), keyword filter
+- generator/client.py — prompt assembly, Claude API call, draft output
+- prompts/payments/system.yaml — voice, style, editorial stance
+- prompts/payments/story.yaml — selection criteria, news recognition, output format
+- dashboard/app.py — Gradio editorial interface (generate & load, edit, approve/reject, publish)
+- beats/payments.yaml — source config (11 sources: regulatory, Google Alerts, trade press; EBA dropped)
+- beats/payments_filters.yaml — keyword filter config (global + per-source include/exclude, passthrough)
+- tools/fetch_raw.py — fetch and cache raw feed snapshot for offline filter testing
+- tools/test_filters.py — test filter configs against cached snapshots; shows per-source pass/cut
+
+Next priorities: Hugo site scaffold; GitHub Actions schedule; source/keyword management in dashboard.

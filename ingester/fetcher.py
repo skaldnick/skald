@@ -1,3 +1,5 @@
+import re
+
 import feedparser
 import yaml
 from datetime import datetime, timedelta, timezone
@@ -49,6 +51,47 @@ def filter_recent(entries: list[dict], days: int = 3) -> list[dict]:
     if undated:
         print(f"  ({len(undated)} entries had no parseable date and were dropped)")
     return recent
+
+
+def filter_keywords(entries: list[dict], beat_name: str) -> list[dict]:
+    """Apply keyword include/exclude filters from beats/{beat_name}_filters.yaml.
+    Returns entries that pass. Sources marked passthrough skip filtering."""
+    filters_path = Path(__file__).parent.parent / "beats" / f"{beat_name}_filters.yaml"
+    if not filters_path.exists():
+        return entries
+
+    with open(filters_path) as f:
+        config = yaml.safe_load(f)
+
+    global_keywords = [kw.lower() for kw in config.get("global", {}).get("keywords", [])]
+    global_exclude = [kw.lower() for kw in config.get("global", {}).get("exclude", [])]
+    source_configs = config.get("sources", {})
+
+    passed = []
+    for entry in entries:
+        src_cfg = source_configs.get(entry["source"], {})
+
+        if src_cfg.get("passthrough"):
+            passed.append(entry)
+            continue
+
+        extra_include = [kw.lower() for kw in src_cfg.get("keywords", [])]
+        keywords = global_keywords + extra_include
+        include_pattern = re.compile("|".join(re.escape(kw) for kw in keywords), re.IGNORECASE) if keywords else None
+
+        extra_exclude = [kw.lower() for kw in src_cfg.get("exclude", [])]
+        all_exclude = global_exclude + extra_exclude
+        exclude_pattern = re.compile("|".join(re.escape(kw) for kw in all_exclude), re.IGNORECASE) if all_exclude else None
+
+        text = f"{entry['title']} {entry['summary']}"
+        if include_pattern and not include_pattern.search(text):
+            continue
+        if exclude_pattern and exclude_pattern.search(text):
+            continue
+        passed.append(entry)
+
+    print(f"  Keyword filter: {len(passed)} passed, {len(entries) - len(passed)} cut")
+    return passed
 
 
 def fetch_beat(beat_name: str) -> list[dict]:

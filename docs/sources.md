@@ -1,14 +1,13 @@
 # European Payments Beat — Source Registry
 
-## Status: draft — to be validated over first 5 days of operation
+## Status: active — first run completed March 26, 2025. Observations below.
 
 ## Regulatory & official
 - FCA publications: https://www.fca.org.uk/news/rss.xml
   - No param filtering supported. Low volume, payments/regulation is core topic — take full feed, filter lightly.
 - EBA news: https://www.eba.europa.eu/rss.xml
-  - No param filtering supported. Feed covers all of banking regulation — payments content is rare.
-  - Spot-checked 10 recent alerts: zero payments-relevant stories. Keyword filter will rarely fire.
-  - Consider dropping from automated pipeline; monitor manually or revisit when scraping is in scope.
+  - **Dropped.** Feed summaries are HTML boilerplate only — alert body content is not in the feed.
+    Keyword filtering cannot work without content. Scraping required to be useful; out of scope.
   - Payments topic page (scraping required): https://www.eba.europa.eu/publications-and-media/press-releases?text=&topic=219&date=
 - ECB press: https://www.ecb.europa.eu/rss/press.html
   - No topic-filtered feed found (/rss/paym.html 404s). Take full feed, filter client-side.
@@ -58,11 +57,31 @@
 - Fintech Futures — RSS blocked (403); Google News publication feed also blocked (consent wall + feed unavailable). Relevant stories will surface via Google Alerts.
 - EBA RSS — payments content too rare to be useful; topic page requires scraping
 
+## First-run observations (March 26, 2025)
+Feed volumes per source: FCA 20, EBA 10, ECB 15, HM Treasury 20,
+Google Alert — open banking 20, open finance 8, PSD3 0, instant payments 0,
+payment systems regulator 1, variable recurring payments 11, Finextra 46,
+PYMNTS 10. Total: 161 entries; recent (last 3 days): to be confirmed.
+
+Google Alerts: mixed quality on first run. Some results are blog posts and
+commentary rather than primary news. Source-side filtering of alert scope
+(excluding blogs, low-authority domains) is preferable to client-side
+filtering. PSD3 and instant payments alerts returned zero results — may need
+keyword tuning. "Payment regulation" alert excluded early as too sparse.
+
+Finextra dominates volume at 46 entries. Broad coverage; client-side keyword
+filtering will be needed to surface payments-relevant items.
+
+Story selection quality: first run selected 5 strong stories (FCA open
+finance priorities, PSD3 readiness, ECB digital euro, T+1 testing plan,
+Solaris pivot). One issue: model drafted a PSD3 story citing a February EBA
+survey as if it were current — news recognition check in story prompt now
+addresses this.
+
 ## Notes
 Each source should be checked for: update frequency, story relevance ratio,
-duplicate overlap with other sources. Document findings here before locking
-the config.
+duplicate overlap with other sources.
 
-Client-side keyword filtering will be needed for most sources. Suggested
-terms: "open banking", "PSD2", "PSD3", "PSR", "FCA", "EBA", "instant
-payments", "payment regulation", "open finance", "SEPA".
+Client-side keyword filtering will be needed for broad sources (Finextra,
+ECB, EBA). Suggested terms: "open banking", "PSD2", "PSD3", "PSR", "FCA",
+"EBA", "instant payments", "payment regulation", "open finance", "SEPA".

@@ -1,0 +1,5 @@
+baseURL = 'https://vikingmedia.org/skald/'
+languageCode = 'en-us'
+title = 'Skald — European Payments Briefing'
+publishDir = '../public/skald'
+theme = 'skald'

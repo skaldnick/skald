@@ -76,13 +76,15 @@ def save_draft(beat_name: str, content: str) -> Path:
 
 
 if __name__ == "__main__":
-    from ingester.fetcher import fetch_beat, filter_recent
+    from ingester.fetcher import fetch_beat, filter_recent, filter_keywords
 
     print("Fetching feeds...")
     entries = fetch_beat("payments")
     print(f"{len(entries)} entries fetched")
     entries = filter_recent(entries)
     print(f"{len(entries)} entries after recency filter")
+    entries = filter_keywords(entries, "payments")
+    print(f"{len(entries)} entries after keyword filter")
 
     print("Generating briefing...")
     briefing = generate_briefing("payments", entries)

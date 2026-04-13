@@ -98,5 +98,68 @@ in human edits teach the model what "important" means for this beat.
 
 ## Tooling: Claude Code for implementation, Claude.ai for strategy
 Claude Code handles all code generation and file operations.
-Claude.ai (this project) handles architectural decisions, beat design, 
+Claude.ai (this project) handles architectural decisions, beat design,
 prompt strategy, and briefing. DECISIONS.md is the bridge between them.
+
+## Ingester: recency filter at 3 days
+`filter_recent()` in ingester/fetcher.py drops entries older than 3 days
+before passing to the generator. Entries with no parseable date are also
+dropped (logged, not silently discarded). Three days rather than one gives
+coverage over weekends without surfacing stale material. This window can be
+tightened as the pipeline matures and source freshness is better understood.
+
+## Dashboard feedback model: Approve / Reject only
+Two states, no middle ground. Reject requires a reason (free text). The
+reason field is the primary signal for training story selection — "not news",
+"vendor announcement", "already covered", "original event is weeks old" etc.
+Flag was considered and dropped: the distinction between "approve with edits"
+and "approve without edits" is already captured by the text diff. A third
+decision state added complexity without adding a new type of signal.
+
+## Output format: sources per story, multiple sources encouraged
+Sources are placed at the end of each story, not in a block at the end of the
+briefing. Multiple sources per story are encouraged — the story prompt
+instructs the model to treat multiple feed items covering the same underlying
+event as a single story and draw on all of them. This produces richer sourcing
+and surfaces the original source (regulator, industry body, company) rather
+than just the aggregator that picked it up.
+
+## Story prompt: news recognition checks
+The story prompt explicitly instructs the model to check two things before
+selecting a story: (1) is it actually new — check the publication date, flag
+if the underlying event is weeks old; (2) what is the real source — identify
+the primary source, not the aggregator. This addresses a first-run pattern
+where the model selected and wrote up commentary on stale events.
+
+## Style: mechanical consistency rules live in system prompt style block
+A dedicated `style` block in system.yaml is the home for rules with a clear
+correct answer: headline case, date format, number formatting, acronym handling
+etc. Kept separate from `voice` and `editorial_stance` which contain judgement
+guidance. Rules added so far: sentence case headlines; American date format
+(March 26, 2025 — not 26 March; omit year for current year).
+
+## Keyword filter: global + per-source config in beats/{beat}_filters.yaml
+Filter config lives alongside the beat config. Two levels: a global keyword list
+applied to all non-passthrough sources, and per-source overrides that add extra
+include keywords or exclude terms. Sources that are already topically scoped
+(Google Alerts, HM Treasury, FCA) are marked `passthrough: true`.
+
+Matching is substring, case-insensitive, across title + summary. A single keyword
+match in either field passes the entry. Exclude terms override include matches.
+
+The filter errs on the side of inclusion — Claude's story selection is the
+precision filter. The keyword filter's job is noise reduction only.
+
+Tools for iterating on filter configs without hitting the network:
+- tools/fetch_raw.py — cache a live feed snapshot to data/raw/{beat}/{date}.json
+- tools/test_filters.py — run any filter config against a cached snapshot
+
+## EBA: dropped from payments beat
+EBA RSS feed summaries contain only HTML boilerplate (date fields, anonymous
+author markup) — no article content. Keyword filtering cannot work without
+content, and scraping the alert body is out of scope. Dropped April 2026.
+
+## Dashboard: "Generate today's draft" triggers the full pipeline
+The load button runs fetch → recency filter → keyword filter → Claude → save,
+then loads the result into the editor. The auto-load on app startup still just
+reads the last saved draft without triggering an API call.

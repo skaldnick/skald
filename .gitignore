@@ -208,6 +208,7 @@ __marimo__/
 
 # Skald-specific
 /data/feedback/
+/data/raw/
 /output/
 /public/skald/
 .env

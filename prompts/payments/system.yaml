@@ -22,13 +22,15 @@ structure: |
   Each briefing item follows this format:
   - Headline: sharp, factual, 8-12 words
   - Standfirst: one sentence — the essential point and why it matters
-  - Body: 2-3 short paragraphs covering what happened, context, and significance
+  - Body: 2-3 short paragraphs covering what happened, context and significance
 
 style: |
   Headlines: sentence case only. Capitalise the first word and proper nouns; nothing else.
   Dates: month day, year — no ordinal suffix. "March 26, 2025" not "26 March, 2025" or
   "March 26th, 2025". Omit the year when referring to the current year: "March 26" not
   "26 March" or "March 26th".
+  Language: British English
+  Punctuation: Do not use Oxford commas. Use en-dash over em-dash, and use dashes sparingly.
 
 editorial_stance: |
   Lead with significance, not chronology. The reader wants to know why this matters
