@@ -54,28 +54,49 @@ automated publication.
 /.github/        GitHub Actions workflows
 ```
 
+## Keeping hf-space/ in sync
+`hf-space/` is a separate git repo (remote: HuggingFace Spaces). It is a
+near-mirror of the main repo's dashboard code. When `dashboard/app.py` or
+`dashboard/github_api.py` change, the same changes must be applied to
+`hf-space/dashboard/` and pushed separately:
+
+```bash
+cd hf-space/
+git add dashboard/app.py dashboard/github_api.py
+git commit -m "..."
+git push
+```
+
+The HuggingFace Space restarts automatically on push. The two repos can
+diverge if a change is committed to the main repo but not pushed to hf-space —
+check both when debugging dashboard behaviour.
+
 ## Current status
 Full cloud pipeline operational. First briefing published April 13, 2026.
 
 ### Cloud architecture
-1. **GitHub Actions** (`generate.yml`) — runs `python -m generator.client` at 06:00 UTC Mon–Fri, commits draft to `output/payments/YYYY-MM-DD.md`
-2. **HuggingFace Space** (`nick385/skald`) — Gradio dashboard reads draft via GitHub API, editor reviews/edits/approves stories, publishes to `site/content/briefings/YYYY-MM-DD.md` via GitHub API commit
+1. **GitHub Actions** (`generate.yml`) — runs `python -m generator.client` at 06:00 UTC Mon–Fri, commits draft to `output/payments/YYYY-MM-DD.md`. Can also be triggered manually via workflow_dispatch.
+2. **HuggingFace Space** (`nick385/skald`) — Gradio dashboard; editor clicks "Trigger generation" to dispatch the GitHub Actions workflow, then "Load draft" once it completes. Reviews, edits, approves stories, and publishes to `site/content/briefings/YYYY-MM-DD.md` via GitHub API commit.
 3. **Cloudflare Pages** — auto-deploys on push to main; runs `hugo --minify --source site`, serves from `public/`; live at vikingmedia.org/skald/
+
+### Secrets and tokens
+- `ANTHROPIC_API_KEY` — required in GitHub Actions only (not HF Space)
+- `GITHUB_TOKEN` (PAT) — required in HF Space; needs `repo` and `workflow` scopes
 
 ### Components built
 - ingester/fetcher.py — feed fetching, normalisation, recency filter (3 days), keyword filter
-- generator/client.py — prompt assembly, Claude API call, draft output
+- generator/client.py — prompt assembly, Claude API call, draft output; outputs a `title:` line at the top for the dashboard to parse
 - prompts/payments/system.yaml — voice, style, editorial stance
-- prompts/payments/story.yaml — selection criteria, news recognition, output format
-- dashboard/app.py — Gradio editorial interface (load draft, edit, save feedback, approve/reject, publish)
-- dashboard/github_api.py — GitHub API helpers (read/write files); dashboard uses this when GITHUB_TOKEN set, local filesystem otherwise
+- prompts/payments/story.yaml — selection criteria, news recognition, output format; instructs Claude to produce a concise briefing title
+- dashboard/app.py — Gradio editorial interface (trigger generation, load draft, edit, save feedback, approve/reject, publish); pre-fills briefing title from AI draft
+- dashboard/github_api.py — GitHub API helpers (read/write files, dispatch workflows); dashboard uses this when GITHUB_TOKEN set, local filesystem otherwise
 - beats/payments.yaml — source config (11 sources: regulatory, Google Alerts, trade press)
 - beats/payments_filters.yaml — keyword filter config (global + per-source include/exclude, passthrough)
 - site/ — Hugo static site; theme at site/themes/skald/; briefings at site/content/briefings/
-- .github/workflows/generate.yml — scheduled briefing generation
+- .github/workflows/generate.yml — scheduled briefing generation (06:00 UTC Mon–Fri) + manual trigger
 - tools/fetch_raw.py — fetch and cache raw feed snapshot for offline filter testing
 - tools/test_filters.py — test filter configs against cached snapshots; shows per-source pass/cut
 
 ### Next priorities
-- Add per-story editorial notes field in dashboard (fact-check flags, verification requests)
-- Keep hf-space/ in sync when dashboard code changes (currently requires manual push)
+- Design TL;DR/summary product — concise daily digest and/or teaser email, separate from the full briefing
+- Improve formatting and layout of the website and HF Space dashboard

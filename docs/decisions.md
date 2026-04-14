@@ -159,7 +159,34 @@ EBA RSS feed summaries contain only HTML boilerplate (date fields, anonymous
 author markup) — no article content. Keyword filtering cannot work without
 content, and scraping the alert body is out of scope. Dropped April 2026.
 
-## Dashboard: "Generate today's draft" triggers the full pipeline
-The load button runs fetch → recency filter → keyword filter → Claude → save,
-then loads the result into the editor. The auto-load on app startup still just
-reads the last saved draft without triggering an API call.
+## Dashboard: generation is separate from loading
+The dashboard has two buttons: "Trigger generation" dispatches the GitHub
+Actions workflow via the API; "Load draft" reads the committed draft from
+the repo. This keeps the Anthropic API key out of the HF Space entirely —
+generation always runs in GitHub Actions, the dashboard only reads and
+publishes. The auto-load on app startup reads the current draft without
+triggering generation.
+
+## Dashboard: AI-drafted briefing title, editor-confirmed
+The story prompt instructs Claude to output a `title:` line at the top of
+the draft — a four-to-eight word summary of the day's stories. The dashboard
+parses this line, strips it from the display, and pre-fills the "Briefing
+title" field. The editor reviews and edits the title before publishing; it
+becomes the Hugo front matter `title:` and appears as the briefing's label
+in the site's story list.
+
+## HF Space: separate git repo, must be kept in sync
+`hf-space/` is a separate git repo whose remote is the HuggingFace Space.
+It mirrors the main repo's dashboard code but is pushed independently.
+When `dashboard/app.py` or `dashboard/github_api.py` change, the same
+changes must be applied to `hf-space/dashboard/` and pushed. Forgetting
+this is the most common source of the dashboard behaving differently from
+what the code in the main repo suggests.
+
+## Site: briefing title replaces date in the story list
+The homepage briefing list shows a concise story-summary title (AI-drafted,
+editor-confirmed) alongside the date, rather than the generic
+"European Payments Briefing — date" string. Individual briefing pages show
+only the date and content — no repeated title heading. Browser tab titles
+are set per section: "Skald | Content Intelligence" for the homepage,
+"Skald | European Payments Briefing" for individual briefings.
