@@ -1,0 +1,13 @@
+# House style rules extracted from editorial feedback.
+# Populated by: python tools/extract_learning.py
+# Review proposed rules before adding. More recent rules take precedence on conflict.
+- date: "2026-04-13"
+  rule: "In standfirsts, lead with the substantive news or conclusion; move scene-setting subordinate clauses (e.g. 'as X happens') to later in the sentence."
+- date: "2026-04-13"
+  rule: "Use 'such as' not 'including' when introducing non-exhaustive examples."
+- date: "2026-04-13"
+  rule: "Prefer spelling out non-standard abbreviations/acronyms, such as 'account-to-account' instead of 'A2A'."
+- date: "2026-04-13"
+  rule: "Replace dashes used to introduce a consequence or parenthetical mid-sentence with commas."
+- date: "2026-04-14"
+  rule: "Use 'US' not 'United States' in body text."

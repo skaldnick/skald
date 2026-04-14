@@ -1,0 +1,11 @@
+# Stories approved and published. Updated automatically by tools/extract_learning.py.
+# Used by the generator to avoid covering the same ground twice.
+- date: "2026-04-13"
+  stories:
+    - "GoCardless reaches first profitable quarter as payment volumes double"
+    - "UK consumer warnings highlight growing pains for pay-by-bank adoption"
+- date: "2026-04-14"
+  stories:
+    - "FCA publishes open finance roadmap with 2030 target and investment data in scope"
+    - "Wise to move primary listing from London to the US"
+    - "EBA moves to harmonise SEPA reporting across national regulators"
