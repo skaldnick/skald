@@ -85,9 +85,11 @@ Full cloud pipeline operational. First briefing published April 13, 2026.
 
 ### Components built
 - ingester/fetcher.py — feed fetching, normalisation, recency filter (3 days), keyword filter
-- generator/client.py — prompt assembly, Claude API call, draft output; outputs a `title:` line at the top for the dashboard to parse
+- generator/client.py — prompt assembly, Claude API call, draft output; loads style_rules.yaml and recently_covered.yaml and injects both into prompts; outputs a `title:` line at the top for the dashboard to parse
 - prompts/payments/system.yaml — voice, style, editorial stance
 - prompts/payments/story.yaml — selection criteria, news recognition, output format; instructs Claude to produce a concise briefing title
+- prompts/payments/style_rules.yaml — accumulated house style rules extracted from editorial diffs; injected into system prompt on every generation run
+- data/recently_covered.yaml — approved and published story headlines by date; injected into user prompt to prevent repeat coverage; committed to repo so GitHub Actions can access it
 - dashboard/app.py — Gradio editorial interface (trigger generation, load draft, edit, save feedback, approve/reject, publish); pre-fills briefing title from AI draft
 - dashboard/github_api.py — GitHub API helpers (read/write files, dispatch workflows); dashboard uses this when GITHUB_TOKEN set, local filesystem otherwise
 - beats/payments.yaml — source config (11 sources: regulatory, Google Alerts, trade press)
@@ -96,6 +98,16 @@ Full cloud pipeline operational. First briefing published April 13, 2026.
 - .github/workflows/generate.yml — scheduled briefing generation (06:00 UTC Mon–Fri) + manual trigger
 - tools/fetch_raw.py — fetch and cache raw feed snapshot for offline filter testing
 - tools/test_filters.py — test filter configs against cached snapshots; shows per-source pass/cut
+- tools/extract_learning.py — post-session learning tool; auto-updates recently_covered.yaml with approved stories; calls Claude to propose style rules from editorial diffs for human review
+
+### Post-session workflow
+After each editorial session (save feedback in dashboard):
+```bash
+python tools/extract_learning.py   # updates recently_covered.yaml, proposes style rules
+# review output, add keepers to prompts/payments/style_rules.yaml
+git add data/recently_covered.yaml prompts/payments/style_rules.yaml
+git commit -m "..."
+```
 
 ### Next priorities
 - Design TL;DR/summary product — concise daily digest and/or teaser email, separate from the full briefing

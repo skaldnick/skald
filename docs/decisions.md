@@ -15,9 +15,36 @@ quickly and demonstrate consistent automation.
 ## Feedback loop: prompt refinement, not fine-tuning
 Rather than fine-tuning a model (costly, complex, hard to demonstrate), 
 the system logs diffs between AI draft and edited version plus quality 
-scores. Patterns in edits surface as prompt suggestions. Approved edits 
-become few-shot examples injected into future prompts. This is more 
-practical and more demonstrable to clients.
+scores. Patterns in edits surface as prompt suggestions that are reviewed
+and committed as style rules. This is more practical and more demonstrable
+to clients.
+
+## Feedback learning: extracted rules over few-shot examples
+Editorial diffs are analysed by `tools/extract_learning.py` to extract
+style rules, rather than injecting approved examples as few-shot context.
+Rules are more compact, auditable, and composable — a growing set of
+concise rules is easier to review and keep consistent than an expanding
+set of full-text examples. Rules are timestamped; more recent rules take
+precedence on conflict, which handles the "training mode" naturally without
+a config flag.
+
+The extraction is semi-automated: the tool proposes rules, the editor
+reviews the wording (and can generalise them, as with "A2A" → "prefer
+spelling out non-standard abbreviations"), then commits the keepers to
+`prompts/payments/style_rules.yaml`. The generator injects the full
+ruleset into the system prompt on every run.
+
+## Duplicate avoidance: prompt-based recently_covered list
+Approved and published stories are tracked in `data/recently_covered.yaml`
+and injected into the user prompt as a "recently covered — avoid unless
+there is a genuinely new angle" section. Prompt-based over pre-generation
+filtering because it lets Claude make nuanced judgements: a story about
+GoCardless the day after GoCardless was covered can still be selected if
+there is a genuinely new angle, whereas a filter would drop it mechanically.
+
+`recently_covered.yaml` is committed to the repo (unlike feedback data)
+so the cloud pipeline (GitHub Actions) has access to it without any
+additional infrastructure.
 
 ## Dashboard: Gradio on HuggingFace Spaces
 Chosen over custom Flask app. Deploys without infrastructure configuration, 
