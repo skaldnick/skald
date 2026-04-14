@@ -28,6 +28,8 @@ selection_criteria: |
     item and draw on all sources.
 
 output_format: |
+  title: [Four to eight words summarising today's stories, e.g. "GoCardless profits; pay-by-bank friction; PSD3 delay"]
+
   ## European Payments & Open Banking — {date}
 
   For each story:

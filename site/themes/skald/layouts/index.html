@@ -1,6 +1,6 @@
 {{ define "main" }}
   <h1>European Payments Briefing</h1>
-  <p style="color:#666; margin-bottom: 2em;">Daily briefings on European payments regulation, open banking, and fintech.</p>
+  <p style="color:#666; margin-bottom: 2em;">Daily briefings on European payments regulation and open banking.</p>
   <ul class="briefings">
     {{ range (where .Site.RegularPages "Section" "briefings").ByDate.Reverse }}
     <li>

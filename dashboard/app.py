@@ -17,24 +17,31 @@ FEEDBACK_DIR = ROOT / "data" / "feedback"
 SITE_DIR = ROOT / "site" / "content" / "briefings"
 
 
-def _parse_draft(text: str) -> tuple[list[str], str]:
+def _parse_draft(text: str) -> tuple[list[str], str, str]:
+    """Parse draft text. Returns (stories, header, title)."""
+    lines = text.splitlines()
+    title = ""
+    if lines and lines[0].startswith("title:"):
+        title = lines[0][len("title:"):].strip()
+        text = "\n".join(lines[1:]).lstrip()
     parts = re.split(r"\n---\n", text)
     header = parts[0].strip()
     stories = [p.strip() for p in parts[1:] if p.strip()]
-    return stories, header
+    return stories, header, title
 
 
-def load_draft(beat: str = "payments") -> tuple[list[str], str]:
+def load_draft(beat: str = "payments") -> tuple[list[str], str, str]:
+    """Load today's draft. Returns (stories, header, title)."""
     date_str = datetime.now().strftime("%Y-%m-%d")
     if github_api.available():
         text, _ = github_api.read_file(f"output/{beat}/{date_str}.md")
         if not text:
-            return [], f"No draft found for {date_str}."
+            return [], f"No draft found for {date_str}.", ""
         return _parse_draft(text)
     else:
         path = OUTPUT_DIR / beat / f"{date_str}.md"
         if not path.exists():
-            return [], f"No draft found for {date_str}."
+            return [], f"No draft found for {date_str}.", ""
         return _parse_draft(path.read_text())
 
 
@@ -42,16 +49,6 @@ def compute_diff(original: str, edited: str) -> str:
     orig_lines = original.splitlines(keepends=True)
     edit_lines = edited.splitlines(keepends=True)
     return "".join(difflib.unified_diff(orig_lines, edit_lines, fromfile="original", tofile="edited"))
-
-
-def _pipeline_outputs(header: str, stories: list | None = None) -> list:
-    """Build the full output list for load_outputs. Stories=None means no-op on story rows."""
-    if stories is None:
-        return [gr.update(value=header)] + [gr.update()] * (MAX_STORIES * 4)
-    outputs = [header]
-    for _ in range(MAX_STORIES):
-        outputs += [gr.update(visible=False), gr.update(value=""), gr.update(value="Approve"), gr.update(value="", visible=False)]
-    return outputs
 
 
 def on_trigger_generation():
@@ -64,8 +61,8 @@ def on_trigger_generation():
 
 
 def on_load_draft():
-    stories, header = load_draft()
-    outputs = [f"### {header}"]
+    stories, header, title = load_draft()
+    outputs = [f"### {header}", title]
     for i in range(MAX_STORIES):
         if i < len(stories):
             outputs += [
@@ -93,7 +90,7 @@ def on_save(*args):
     decisions = list(args[MAX_STORIES : MAX_STORIES * 2])
     reasons = list(args[MAX_STORIES * 2 :])
 
-    originals, _ = load_draft()
+    originals, _, _ = load_draft()
     if not originals:
         return "No draft loaded — nothing to save."
 
@@ -127,8 +124,9 @@ def on_save(*args):
 
 
 def on_publish(*args):
-    texts = list(args[:MAX_STORIES])
-    decisions = list(args[MAX_STORIES:])
+    briefing_title = args[0]
+    texts = list(args[1:MAX_STORIES + 1])
+    decisions = list(args[MAX_STORIES + 1:])
 
     approved = [
         edited for edited, decision in zip(texts, decisions)
@@ -138,10 +136,10 @@ def on_publish(*args):
         return "No approved stories to publish."
 
     date_str = datetime.now().strftime("%Y-%m-%d")
-    date_display = datetime.now().strftime("%B %-d, %Y")
+    title = briefing_title.strip() or date_str
     body = "\n\n---\n\n".join(approved)
     content = (
-        f'---\ntitle: "European Payments Briefing — {date_display}"\n'
+        f'---\ntitle: "{title}"\n'
         f'date: {date_str}\ndraft: false\nbeat: payments\n---\n\n{body}'
     )
     n = len(approved)
@@ -191,13 +189,21 @@ with gr.Blocks(title="Skald — Editorial Dashboard") as app:
         reasons.append(rsn)
 
     with gr.Row():
+        briefing_title_input = gr.Textbox(
+            placeholder="Briefing title — AI-drafted, edit before publishing",
+            label="Briefing title",
+            scale=1,
+            visible=not DEMO_MODE,
+        )
+
+    with gr.Row():
         status_md = gr.Markdown("")
         if not DEMO_MODE:
             save_btn = gr.Button("Save feedback", variant="secondary", scale=0)
             publish_btn = gr.Button("Publish approved", variant="primary", scale=0)
 
     # Load draft — auto on startup and on button click
-    load_outputs = [header_md]
+    load_outputs = [header_md, briefing_title_input]
     for i in range(MAX_STORIES):
         load_outputs += [groups[i], texts[i], decisions[i], reasons[i]]
 
@@ -215,7 +221,7 @@ with gr.Blocks(title="Skald — Editorial Dashboard") as app:
         save_btn.click(on_save, inputs=feedback_inputs, outputs=status_md)
         publish_btn.click(
             on_publish,
-            inputs=texts + decisions,
+            inputs=[briefing_title_input] + texts + decisions,
             outputs=status_md,
         )
 
