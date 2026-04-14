@@ -8,8 +8,6 @@ from pathlib import Path
 import gradio as gr
 
 from dashboard import github_api
-from ingester.fetcher import fetch_beat, filter_recent, filter_keywords
-from generator.client import generate_briefing, save_draft
 
 MAX_STORIES = 5
 DEMO_MODE = os.environ.get("DEMO_MODE", "false").lower() == "true"
@@ -56,22 +54,13 @@ def _pipeline_outputs(header: str, stories: list | None = None) -> list:
     return outputs
 
 
-def on_run_and_load():
-    yield _pipeline_outputs("*Fetching feeds...*")
-    try:
-        entries = fetch_beat("payments")
-        entries = filter_recent(entries)
-        entries = filter_keywords(entries, "payments")
-        if not entries:
-            yield _pipeline_outputs("**No recent entries found — try again later.**", stories=[])
-            return
-        yield _pipeline_outputs(f"*{len(entries)} entries fetched. Generating briefing — this takes ~30 seconds...*")
-        briefing = generate_briefing("payments", entries)
-        save_draft("payments", briefing)
-    except Exception as e:
-        yield _pipeline_outputs(f"**Pipeline error:** {e}", stories=[])
-        return
-    yield on_load_draft()
+def on_trigger_generation():
+    if not github_api.available():
+        return "*GITHUB_TOKEN not set — cannot trigger workflow.*"
+    ok = github_api.dispatch_workflow("generate.yml")
+    if ok:
+        return "*Workflow triggered — draft will be ready in ~3 minutes. Click **Load draft** when ready.*"
+    return "*Failed to trigger workflow. Check that GITHUB_TOKEN has `actions:write` permission.*"
 
 
 def on_load_draft():
@@ -174,7 +163,8 @@ def on_publish(*args):
 with gr.Blocks(title="Skald — Editorial Dashboard") as app:
     with gr.Row():
         gr.Markdown("# Skald — Editorial Dashboard")
-        load_btn = gr.Button("Generate today's draft", variant="primary", scale=0)
+        trigger_btn = gr.Button("Trigger generation", variant="secondary", scale=0)
+        load_btn = gr.Button("Load draft", variant="primary", scale=0)
 
     header_md = gr.Markdown("*Loading draft...*")
 
@@ -212,7 +202,8 @@ with gr.Blocks(title="Skald — Editorial Dashboard") as app:
         load_outputs += [groups[i], texts[i], decisions[i], reasons[i]]
 
     app.load(on_load_draft, outputs=load_outputs)
-    load_btn.click(on_run_and_load, outputs=load_outputs)
+    trigger_btn.click(on_trigger_generation, outputs=header_md)
+    load_btn.click(on_load_draft, outputs=load_outputs)
 
     # Decision → reason visibility
     for dec, rsn in zip(decisions, reasons):

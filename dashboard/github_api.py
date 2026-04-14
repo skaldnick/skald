@@ -49,3 +49,10 @@ def write_file(path: str, content: str, message: str) -> bool:
         data["sha"] = sha
     response = requests.put(url, headers=_headers(), json=data)
     return response.status_code in (200, 201)
+
+
+def dispatch_workflow(workflow_file: str) -> bool:
+    """Trigger a workflow_dispatch event. Returns True on success."""
+    url = f"https://api.github.com/repos/{GITHUB_REPO}/actions/workflows/{workflow_file}/dispatches"
+    response = requests.post(url, headers=_headers(), json={"ref": GITHUB_BRANCH})
+    return response.status_code == 204
