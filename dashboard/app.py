@@ -5,6 +5,7 @@ import re
 from datetime import datetime
 from pathlib import Path
 
+import anthropic
 import gradio as gr
 
 from dashboard import github_api
@@ -163,6 +164,29 @@ def on_publish(*args):
     return f"Published {n} {'story' if n == 1 else 'stories'} to {path}"
 
 
+def on_generate_title(*args):
+    texts = list(args[:MAX_STORIES])
+    decisions = list(args[MAX_STORIES:])
+    approved = [t for t, d in zip(texts, decisions) if t.strip() and d == "Approve"]
+    if not approved:
+        return gr.update(), "*No approved stories — approve at least one story first.*"
+    api_key = os.environ.get("ANTHROPIC_API_KEY")
+    if not api_key:
+        return gr.update(), "*ANTHROPIC_API_KEY not set — enter title manually.*"
+    client = anthropic.Anthropic(api_key=api_key)
+    resp = client.messages.create(
+        model="claude-haiku-4-5-20251001",
+        max_tokens=60,
+        system=(
+            "You write concise briefing titles for a European payments and open banking newsletter. "
+            "Format: 4–8 words, semicolons separating topics. No quotes, no trailing punctuation. "
+            "Example: 'GoCardless profits; pay-by-bank friction; PSD3 delay'"
+        ),
+        messages=[{"role": "user", "content": f"Generate a briefing title for these approved stories:\n\n{'---'.join(approved)}"}],
+    )
+    return resp.content[0].text.strip(), ""
+
+
 # --- UI ---
 
 with gr.Blocks(title="Skald — Editorial Dashboard") as app:
@@ -202,6 +226,8 @@ with gr.Blocks(title="Skald — Editorial Dashboard") as app:
             scale=1,
             visible=not DEMO_MODE,
         )
+        if not DEMO_MODE:
+            gen_title_btn = gr.Button("Generate title", variant="secondary", scale=0)
 
     with gr.Row():
         status_md = gr.Markdown("")
@@ -230,6 +256,11 @@ with gr.Blocks(title="Skald — Editorial Dashboard") as app:
             on_publish,
             inputs=[briefing_title_input] + texts + decisions,
             outputs=status_md,
+        )
+        gen_title_btn.click(
+            on_generate_title,
+            inputs=texts + decisions,
+            outputs=[briefing_title_input, status_md],
         )
 
 
