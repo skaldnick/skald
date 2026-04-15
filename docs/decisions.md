@@ -210,6 +210,27 @@ changes must be applied to `hf-space/dashboard/` and pushed. Forgetting
 this is the most common source of the dashboard behaving differently from
 what the code in the main repo suggests.
 
+## Dashboard: multi-tab layout for next phase
+The dashboard will be extended to a tabbed interface using `gr.Tab` inside the
+existing `gr.Blocks`. Three tabs:
+
+- **Today** — the existing briefing workflow, unchanged.
+- **Briefings** — lists published briefings (reads `site/content/briefings/`
+  via the GitHub API) and shows them on click. Read-only initially; editing
+  published briefings is deferred until the pattern is established.
+- **Settings** — raw YAML editors for the key config files: system prompt,
+  story prompt, style rules, sources (`beats/payments.yaml`), and keyword
+  filters (`beats/payments_filters.yaml`). Each file is a labelled textarea
+  with a Save button; the GitHub API handles the write.
+
+A structured UI for sources/filters (add/remove rows) was considered and
+deferred in favour of raw YAML editing. The audience is a single technical
+editor, and YAML is readable enough; a bespoke form adds build cost without
+adding much usability.
+
+A separate landing page was considered and dropped — `gr.Tab` provides
+sufficient navigation for three sections without a home-screen layer.
+
 ## Site: briefing title replaces date in the story list
 The homepage briefing list shows a concise story-summary title (AI-drafted,
 editor-confirmed) alongside the date, rather than the generic

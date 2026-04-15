@@ -111,4 +111,9 @@ git commit -m "..."
 
 ### Next priorities
 - Design TL;DR/summary product — concise daily digest and/or teaser email, separate from the full briefing
-- Improve formatting and layout of the website and HF Space dashboard
+- HF Space dashboard redesign — multi-tab layout:
+  - **Today** tab: existing briefing workflow, unchanged
+  - **Briefings** tab: list published briefings, click to view (read-only initially; editing deferred)
+  - **Settings** tab: raw YAML editors for system prompt, story prompt, style rules, sources, and keyword filters — each as a textarea with a Save button
+  - Navigation via `gr.Tab` inside `gr.Blocks`; no separate landing page needed
+- Website layout improvements (separate from dashboard work)
