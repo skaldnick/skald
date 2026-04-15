@@ -27,6 +27,13 @@ def _parse_draft(text: str) -> tuple[list[str], str, str]:
     parts = re.split(r"\n---\n", text)
     header = parts[0].strip()
     stories = [p.strip() for p in parts[1:] if p.strip()]
+    # If the header contains story content (missing --- after the briefing date
+    # line), rescue it: everything before the first bold headline is the real
+    # header; the rest becomes story 1.
+    if "\n\n**" in header:
+        real_header, first_story = header.split("\n\n**", 1)
+        stories.insert(0, "**" + first_story)
+        header = real_header.strip()
     return stories, header, title
 
 
