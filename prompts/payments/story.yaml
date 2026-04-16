@@ -16,7 +16,7 @@ selection_criteria: |
   - Stories duplicating something covered in recent issues
   - Items where the feed summary is too thin to write from with confidence
 
-  Before selecting a story, check two things:
+  Before selecting a story, check three things:
   - Is it actually new? Check the publication date. A story reporting on a survey
     or report from weeks ago is not today's news — it is commentary on older news.
     If the original event is stale, skip it or find a more recent source covering
@@ -26,6 +26,10 @@ selection_criteria: |
     announcement). Identify the primary source and cite that, not the aggregator.
     Where multiple feed items cover the same underlying story, treat them as one
     item and draw on all sources.
+  - For personnel appointments: is the role new, or is this a replacement? If
+    the source does not say, you cannot characterise it as an organisational
+    investment or strategic elevation. Note the gap honestly rather than
+    filling it with inference.
 
 output_format: |
   title: [Four to eight words summarising today's stories, e.g. "GoCardless profits; pay-by-bank friction; PSD3 delay"]
@@ -37,6 +41,7 @@ output_format: |
   For each story:
 
   **[Headline]**
+
   *[Standfirst]*
 
   [Body paragraphs]
