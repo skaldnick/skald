@@ -11,6 +11,7 @@ on:
       - 'prompts/**'
       - 'beats/**'
       - 'requirements.txt'
+      - 'hf-readme.md'
 
 jobs:
   sync:
@@ -39,21 +40,7 @@ jobs:
           cp -r beats hf-deploy/
           cp requirements.txt hf-deploy/
 
-          # Write the Space card README
-          cat > hf-deploy/README.md << 'EOF'
----
-title: Skald
-emoji: ⚔️
-colorFrom: gray
-colorTo: blue
-sdk: gradio
-sdk_version: 6.12.0
-app_file: dashboard/app.py
-pinned: false
----
-
-Skald editorial dashboard — European Payments & Open Banking briefings.
-EOF
+          cp hf-readme.md hf-deploy/README.md
 
           cd hf-deploy
           git add -A
