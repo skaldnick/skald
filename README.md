@@ -2,8 +2,7 @@
 
 An AI-driven content pipeline producing daily briefings. Built as a portfolio demonstration of prompt engineering discipline, editorial feedback loops and a systematic path from human-edited to automated publication.
 
-**Live output:** [vikingmedia.org/skald](https://vikingmedia.org/skald)  
-**Editorial dashboard:** [nick385/skald on HuggingFace Spaces](https://huggingface.co/spaces/nick385/skald)
+**Live output:** [vikingmedia.org/skald](https://vikingmedia.org/skald)
 
 ---
 
