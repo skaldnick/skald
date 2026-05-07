@@ -1,6 +1,6 @@
 # Skald
 
-An AI-driven content pipeline producing daily briefings on European payments and open banking. Built as a portfolio demonstration of prompt engineering discipline, editorial feedback loops, and a systematic path from human-edited to automated publication.
+An AI-driven content pipeline producing daily briefings. Built as a portfolio demonstration of prompt engineering discipline, editorial feedback loops and a systematic path from human-edited to automated publication.
 
 **Live output:** [vikingmedia.org/skald](https://vikingmedia.org/skald)  
 **Editorial dashboard:** [nick385/skald on HuggingFace Spaces](https://huggingface.co/spaces/nick385/skald)
@@ -16,7 +16,7 @@ Each weekday at 06:00 UTC, Skald:
 3. Generates a draft briefing of 3–5 stories, each with a short analysis note
 4. Commits the draft to the repo, ready for editorial review
 
-The editor opens the Gradio dashboard, reviews the draft, edits where needed, and publishes with one click. The published briefing is committed to the Hugo site source and Cloudflare Pages deploys it automatically.
+The editor opens the Gradio dashboard, reviews the draft, edits where needed and publishes with one click. The published briefing is committed to the Hugo site source and Cloudflare Pages deploys it automatically.
 
 ## The editorial feedback loop
 
@@ -24,7 +24,7 @@ Generation quality improves over time through two feedback channels:
 
 **Writing quality** — the dashboard records diffs between the AI draft and the published version. `tools/extract_learning.py` analyses these diffs and proposes style rules for review. Accepted rules are committed to `prompts/payments/style_rules.yaml` and injected into the system prompt on every subsequent run.
 
-**Story selection** — the editor can reject stories with a reason ("not news", "vendor announcement", "already covered"). Rejection reasons become training signal for refining the story selection criteria in the story prompt.
+**Story selection** — the editor can reject stories with a reason (such as "not news", "vendor announcement", "already covered"). Rejection reasons become training signal for refining the story selection criteria in the story prompt.
 
 **Duplicate avoidance** — approved story headlines are committed to `data/recently_covered.yaml`, which is injected into the user prompt so Claude can make nuanced decisions about whether a returning topic has a genuinely new angle.
 
