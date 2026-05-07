@@ -1,6 +1,6 @@
 # Skald
 
-An AI-driven content pipeline producing daily briefings. Built as a portfolio demonstration of prompt engineering discipline, editorial feedback loops and a systematic path from human-edited to automated publication.
+An AI-driven content pipeline with a human editorial feedback loop, producing daily briefings. Built as a portfolio demonstration of prompt engineering discipline, editorial feedback loops and a systematic path from human-edited to automated publication.
 
 **Live output:** [vikingmedia.org/skald](https://vikingmedia.org/skald)
 
