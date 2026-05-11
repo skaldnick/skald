@@ -1,5 +1,0 @@
-baseURL = 'https://vikingmedia.org/skald/'
-languageCode = 'en-us'
-title = 'Skald | Content Intelligence'
-publishDir = '../public/skald'
-theme = 'skald'
