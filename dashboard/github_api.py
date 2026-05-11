@@ -26,9 +26,9 @@ def _headers() -> dict:
     }
 
 
-def read_file(path: str) -> tuple[str | None, str | None]:
+def read_file(path: str, repo: str | None = None) -> tuple[str | None, str | None]:
     """Read a file from the repo. Returns (content, sha) or (None, None)."""
-    url = f"https://api.github.com/repos/{GITHUB_REPO}/contents/{path}"
+    url = f"https://api.github.com/repos/{repo or GITHUB_REPO}/contents/{path}"
     response = requests.get(url, headers=_headers(), params={"ref": GITHUB_BRANCH})
     if response.status_code == 200:
         data = response.json()

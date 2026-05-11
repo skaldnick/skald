@@ -42,7 +42,7 @@ def load_draft(beat: str = "payments") -> tuple[list[str], str, str]:
     """Load today's draft. Returns (stories, header, title)."""
     date_str = datetime.now().strftime("%Y-%m-%d")
     if github_api.available():
-        text, _ = github_api.read_file(f"output/{beat}/{date_str}.md")
+        text, _ = github_api.read_file(f"output/{beat}/{date_str}.md", repo=github_api.GITHUB_PIPELINE_REPO)
         if not text:
             return [], f"No draft found for {date_str}.", ""
         return _parse_draft(text)
