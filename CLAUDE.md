@@ -19,9 +19,11 @@ automated publication.
 /dashboard/      Gradio editorial interface
 /output/         Generated drafts (Markdown, gitignored)
 /data/feedback/  Edit diffs and quality scores (gitignored)
-/site/           Hugo static site source
 /docs/           Project documentation
 ```
+
+Note: the Hugo site source (`site/`) and Cloudflare Pages web root (`public/`) have moved
+to the separate `skaldnick/vikingmedia-site` repo. Skald is pipeline-only.
 
 ## Key conventions
 - Beat configs are YAML; schema defined in /beats/README.md
@@ -48,8 +50,6 @@ automated publication.
 
 ## Directory structure (additional)
 ```
-/public/         Cloudflare Pages web root (vikingmedia.org landing page + Hugo output)
-/public/skald/   Hugo build output (gitignored — built by Cloudflare Pages on deploy)
 /.github/        GitHub Actions workflows
 /hf-readme.md    HuggingFace Space card (README synced to Space on deploy)
 ```
@@ -66,8 +66,8 @@ Full cloud pipeline operational. First briefing published April 13, 2026.
 
 ### Cloud architecture
 1. **GitHub Actions** (`generate.yml`) — runs `python -m generator.client` at 06:00 UTC Mon–Fri, commits draft to `output/payments/YYYY-MM-DD.md`. Can also be triggered manually via workflow_dispatch.
-2. **HuggingFace Space** (`nick385/skald`) — Gradio dashboard; editor clicks "Trigger generation" to dispatch the GitHub Actions workflow, then "Load draft" once it completes. Reviews, edits, approves stories, and publishes to `site/content/briefings/YYYY-MM-DD.md` via GitHub API commit.
-3. **Cloudflare Pages** — auto-deploys on push to main; runs `hugo --minify --source site`, serves from `public/`; live at vikingmedia.org/skald/
+2. **HuggingFace Space** (`nick385/skald`) — Gradio dashboard; editor clicks "Trigger generation" to dispatch the GitHub Actions workflow, then "Load draft" once it completes. Reviews, edits, approves stories, and publishes to `site/content/briefings/YYYY-MM-DD.md` in `skaldnick/vikingmedia-site` via GitHub API commit.
+3. **Cloudflare Pages** — watches `skaldnick/vikingmedia-site`; auto-deploys on push; runs `hugo --minify --source site`, serves from `public/`; live at vikingmedia.org/skald/
 
 ### Secrets and tokens
 - `ANTHROPIC_API_KEY` — required in GitHub Actions only (not HF Space)
@@ -81,10 +81,9 @@ Full cloud pipeline operational. First briefing published April 13, 2026.
 - prompts/payments/style_rules.yaml — accumulated house style rules extracted from editorial diffs; injected into system prompt on every generation run
 - data/recently_covered.yaml — approved and published story headlines by date; injected into user prompt to prevent repeat coverage; committed to repo so GitHub Actions can access it
 - dashboard/app.py — Gradio editorial interface (trigger generation, load draft, edit, save feedback, approve/reject, publish); pre-fills briefing title from AI draft
-- dashboard/github_api.py — GitHub API helpers (read/write files, dispatch workflows); dashboard uses this when GITHUB_TOKEN set, local filesystem otherwise
+- dashboard/github_api.py — GitHub API helpers (read/write files, dispatch workflows); dashboard uses this when GITHUB_TOKEN set, local filesystem otherwise. Uses two repo env vars: GITHUB_REPO (vikingmedia-site, for publishing briefings) and GITHUB_PIPELINE_REPO (skald, for workflow dispatch and reading drafts)
 - beats/payments.yaml — source config (11 sources: regulatory, Google Alerts, trade press)
 - beats/payments_filters.yaml — keyword filter config (global + per-source include/exclude, passthrough)
-- site/ — Hugo static site; theme at site/themes/skald/; briefings at site/content/briefings/
 - .github/workflows/generate.yml — scheduled briefing generation (06:00 UTC Mon–Fri) + manual trigger
 - .github/workflows/sync-hf-space.yml — syncs dashboard and source files to HuggingFace Space on push to main; also triggerable manually
 - tools/fetch_raw.py — fetch and cache raw feed snapshot for offline filter testing
