@@ -10,7 +10,8 @@ import os
 import requests
 
 GITHUB_TOKEN = os.environ.get("GITHUB_TOKEN")
-GITHUB_REPO = os.environ.get("GITHUB_REPO", "skaldnick/skald")
+GITHUB_REPO = os.environ.get("GITHUB_REPO", "skaldnick/vikingmedia-site")
+GITHUB_PIPELINE_REPO = os.environ.get("GITHUB_PIPELINE_REPO", "skaldnick/skald")
 GITHUB_BRANCH = os.environ.get("GITHUB_BRANCH", "main")
 
 
@@ -53,6 +54,6 @@ def write_file(path: str, content: str, message: str) -> bool:
 
 def dispatch_workflow(workflow_file: str) -> bool:
     """Trigger a workflow_dispatch event. Returns True on success."""
-    url = f"https://api.github.com/repos/{GITHUB_REPO}/actions/workflows/{workflow_file}/dispatches"
+    url = f"https://api.github.com/repos/{GITHUB_PIPELINE_REPO}/actions/workflows/{workflow_file}/dispatches"
     response = requests.post(url, headers=_headers(), json={"ref": GITHUB_BRANCH})
     return response.status_code == 204
