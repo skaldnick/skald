@@ -26,5 +26,5 @@ open banking/payments players, and AI evaluation experience at Contextual AI
 
 ## Public output
 vikingmedia.org — static site, Hugo-based, deployed via GitHub Actions.
-HuggingFace Space — editorial dashboard, public demo mode.
+HuggingFace Space — editorial dashboard, private (internal tool only).
 GitHub — public repo (code and prompts), private feedback data.
