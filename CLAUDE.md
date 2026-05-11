@@ -48,28 +48,18 @@ automated publication.
 
 ## Directory structure (additional)
 ```
-/hf-space/       HuggingFace Space repo (dashboard + dependencies, pushed separately)
 /public/         Cloudflare Pages web root (vikingmedia.org landing page + Hugo output)
 /public/skald/   Hugo build output (gitignored — built by Cloudflare Pages on deploy)
 /.github/        GitHub Actions workflows
+/hf-readme.md    HuggingFace Space card (README synced to Space on deploy)
 ```
 
-## Keeping hf-space/ in sync
-`hf-space/` is a separate git repo (remote: HuggingFace Spaces). It is a
-near-mirror of the main repo's dashboard code. When `dashboard/app.py` or
-`dashboard/github_api.py` change, the same changes must be applied to
-`hf-space/dashboard/` and pushed separately:
-
-```bash
-cd hf-space/
-git add dashboard/app.py dashboard/github_api.py
-git commit -m "..."
-git push
-```
-
-The HuggingFace Space restarts automatically on push. The two repos can
-diverge if a change is committed to the main repo but not pushed to hf-space —
-check both when debugging dashboard behaviour.
+## HuggingFace Space sync
+The HuggingFace Space is kept in sync automatically via `.github/workflows/sync-hf-space.yml`.
+Any push to main that touches `dashboard/`, `generator/`, `ingester/`, `prompts/`, `beats/`,
+`requirements.txt`, or `hf-readme.md` triggers the workflow, which clones the Space,
+replaces its contents, and pushes. The workflow can also be triggered manually from the
+Actions tab. There is no separate local `hf-space/` repo to maintain.
 
 ## Current status
 Full cloud pipeline operational. First briefing published April 13, 2026.
@@ -96,6 +86,7 @@ Full cloud pipeline operational. First briefing published April 13, 2026.
 - beats/payments_filters.yaml — keyword filter config (global + per-source include/exclude, passthrough)
 - site/ — Hugo static site; theme at site/themes/skald/; briefings at site/content/briefings/
 - .github/workflows/generate.yml — scheduled briefing generation (06:00 UTC Mon–Fri) + manual trigger
+- .github/workflows/sync-hf-space.yml — syncs dashboard and source files to HuggingFace Space on push to main; also triggerable manually
 - tools/fetch_raw.py — fetch and cache raw feed snapshot for offline filter testing
 - tools/test_filters.py — test filter configs against cached snapshots; shows per-source pass/cut
 - tools/extract_learning.py — post-session learning tool; auto-updates recently_covered.yaml with approved stories; calls Claude to propose style rules from editorial diffs for human review
@@ -116,4 +107,4 @@ git commit -m "..."
   - **Briefings** tab: list published briefings, click to view (read-only initially; editing deferred)
   - **Settings** tab: raw YAML editors for system prompt, story prompt, style rules, sources, and keyword filters — each as a textarea with a Save button
   - Navigation via `gr.Tab` inside `gr.Blocks`; no separate landing page needed
-- Website layout improvements (separate from dashboard work)
+- Independent reporting / contextual research — pre-draft step where Claude identifies claims needing verification, queries a search API, and incorporates results before writing; even a lightweight version (fetching older relevant sources for context) would improve story quality

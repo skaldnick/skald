@@ -152,11 +152,23 @@ and surfaces the original source (regulator, industry body, company) rather
 than just the aggregator that picked it up.
 
 ## Story prompt: news recognition checks
-The story prompt explicitly instructs the model to check two things before
+The story prompt explicitly instructs the model to check three things before
 selecting a story: (1) is it actually new — check the publication date, flag
 if the underlying event is weeks old; (2) what is the real source — identify
-the primary source, not the aggregator. This addresses a first-run pattern
-where the model selected and wrote up commentary on stale events.
+the primary source, not the aggregator; (3) for personnel appointments, is
+the role new or a replacement — if the source does not say, do not characterise
+it as an organisational investment or elevation. This addresses a first-run
+pattern where the model selected and wrote up commentary on stale events, and
+a later pattern where it invented company-specific strategic significance from
+thin appointment stories.
+
+## Editorial stance: company-specific claims require source support
+The system prompt distinguishes between industry-level observations (which
+Claude may make on its own) and company-specific claims (which require
+explicit support in the source material). In particular, characterising a
+hire as an "investment" in a function, or inferring strategic intent from an
+appointment, is not permitted unless the source states it. Industry-level
+analysis of sector trends may stand independently.
 
 ## Style: mechanical consistency rules live in system prompt style block
 A dedicated `style` block in system.yaml is the home for rules with a clear
@@ -202,13 +214,12 @@ title" field. The editor reviews and edits the title before publishing; it
 becomes the Hugo front matter `title:` and appears as the briefing's label
 in the site's story list.
 
-## HF Space: separate git repo, must be kept in sync
-`hf-space/` is a separate git repo whose remote is the HuggingFace Space.
-It mirrors the main repo's dashboard code but is pushed independently.
-When `dashboard/app.py` or `dashboard/github_api.py` change, the same
-changes must be applied to `hf-space/dashboard/` and pushed. Forgetting
-this is the most common source of the dashboard behaving differently from
-what the code in the main repo suggests.
+## HF Space: automated sync via GitHub Actions
+`hf-space/` as a separate local repo was replaced by `.github/workflows/sync-hf-space.yml`,
+which pushes the relevant source directories (`dashboard/`, `generator/`, `ingester/`,
+`prompts/`, `beats/`, `requirements.txt`) to the HuggingFace Space on every push to main
+that touches those paths. The workflow can also be triggered manually. The main repo is
+the single source of truth; there is nothing to keep in sync manually.
 
 ## Dashboard: multi-tab layout for next phase
 The dashboard will be extended to a tabbed interface using `gr.Tab` inside the

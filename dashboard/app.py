@@ -247,7 +247,6 @@ with gr.Blocks(title="Skald — Editorial Dashboard") as app:
     # Decision → reason visibility
     for dec, rsn in zip(decisions, reasons):
         dec.change(on_decision_change, inputs=dec, outputs=rsn)
-        dec.select(on_decision_change, inputs=dec, outputs=rsn)
 
     if not DEMO_MODE:
         feedback_inputs = texts + decisions + reasons
