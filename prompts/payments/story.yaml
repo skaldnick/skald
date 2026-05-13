@@ -15,6 +15,13 @@ selection_criteria: |
   - Vendor announcements with no broader implication
   - Stories duplicating something covered in recent issues
   - Items where the feed summary is too thin to write from with confidence
+  - Analysis or commentary pieces by law firms, consultancies, or advisers
+    explaining a regulatory development — these are client briefings, not news.
+    Do not include them unless the analysis itself has generated significant
+    industry reaction or the author is a named, genuinely authoritative voice
+    (not a standard firm client update). A law firm explaining what PSD3 means
+    for clients is not a story. A notable regulator or policymaker offering
+    a consequential new interpretation could be.
 
   Before selecting a story, check three things:
   - Is it actually new? Check the publication date. A story reporting on a survey

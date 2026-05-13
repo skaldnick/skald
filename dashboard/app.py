@@ -7,6 +7,7 @@ from pathlib import Path
 
 import anthropic
 import gradio as gr
+import yaml
 
 from dashboard import github_api
 
@@ -77,26 +78,57 @@ def on_load_draft():
                 gr.update(visible=True),
                 gr.update(value=stories[i]),
                 gr.update(value="Approve"),
-                gr.update(value="", visible=False),
+                gr.update(value=""),
             ]
         else:
             outputs += [
                 gr.update(visible=False),
                 gr.update(value=""),
                 gr.update(value="Approve"),
-                gr.update(value="", visible=False),
+                gr.update(value=""),
             ]
     return outputs
 
 
-def on_decision_change(decision):
-    return gr.update(visible=decision == "Reject")
+def _extract_headline(story_text: str) -> str:
+    match = re.search(r"\*\*(.+?)\*\*", story_text)
+    return match.group(1) if match else story_text[:80].strip()
+
+
+def _update_yaml_in_pipeline_repo(path: str, date_str: str, headlines: list[str], commit_msg: str) -> bool:
+    """Append a dated list of headlines to a YAML file in the pipeline repo."""
+    if github_api.available():
+        text, _ = github_api.read_file(path, repo=github_api.GITHUB_PIPELINE_REPO)
+        entries = yaml.safe_load(text or "") or []
+    else:
+        local_path = ROOT / path
+        entries = yaml.safe_load(local_path.read_text()) if local_path.exists() else []
+
+    entries = [e for e in (entries or []) if isinstance(e, dict)]
+    existing_dates = {e["date"] for e in entries}
+    if date_str in existing_dates:
+        return True  # already recorded for this date
+
+    entries.append({"date": date_str, "stories": headlines})
+    entries.sort(key=lambda e: e["date"])
+    payload = (
+        f"# Updated automatically by the editorial dashboard.\n"
+        + yaml.dump(entries, allow_unicode=True, sort_keys=False)
+    )
+
+    if github_api.available():
+        return github_api.write_file(path, payload, commit_msg, repo=github_api.GITHUB_PIPELINE_REPO)
+    else:
+        local_path = ROOT / path
+        local_path.parent.mkdir(parents=True, exist_ok=True)
+        local_path.write_text(payload)
+        return True
 
 
 def on_save(*args):
     texts = list(args[:MAX_STORIES])
     decisions = list(args[MAX_STORIES : MAX_STORIES * 2])
-    reasons = list(args[MAX_STORIES * 2 :])
+    notes = list(args[MAX_STORIES * 2 :])
 
     originals, _, _ = load_draft()
     if not originals:
@@ -104,7 +136,7 @@ def on_save(*args):
 
     date_str = datetime.now().strftime("%Y-%m-%d")
     records = []
-    for orig, edited, decision, reason in zip(originals, texts, decisions, reasons):
+    for orig, edited, decision, note in zip(originals, texts, decisions, notes):
         if not edited.strip():
             continue
         records.append({
@@ -112,7 +144,7 @@ def on_save(*args):
             "edited": edited,
             "diff": compute_diff(orig, edited),
             "decision": decision,
-            "reason": reason or None,
+            "notes": note or None,
         })
     payload = json.dumps({"date": date_str, "beat": "payments", "stories": records}, indent=2)
 
@@ -121,6 +153,7 @@ def on_save(*args):
             f"data/feedback/{date_str}.json",
             payload,
             f"Save feedback {date_str}",
+            repo=github_api.GITHUB_PIPELINE_REPO,
         )
         if not ok:
             return "Error saving feedback to GitHub."
@@ -137,20 +170,23 @@ def on_publish(*args):
     decisions = list(args[MAX_STORIES + 1:])
 
     approved = [
-        edited for edited, decision in zip(texts, decisions)
-        if edited.strip() and decision == "Approve"
+        (edited, decision) for edited, decision in zip(texts, decisions)
+        if edited.strip()
     ]
-    if not approved:
+    approved_texts = [t for t, d in approved if d == "Approve"]
+    rejected_texts = [t for t, d in approved if d == "Reject"]
+
+    if not approved_texts:
         return "No approved stories to publish."
 
     date_str = datetime.now().strftime("%Y-%m-%d")
     title = briefing_title.strip() or date_str
-    body = "\n\n---\n\n".join(approved)
+    body = "\n\n---\n\n".join(approved_texts)
     content = (
         f'---\ntitle: "{title}"\n'
         f'date: {date_str}\ndraft: false\nbeat: payments\n---\n\n{body}'
     )
-    n = len(approved)
+    n = len(approved_texts)
     path = f"site/content/briefings/{date_str}.md"
 
     if github_api.available():
@@ -160,6 +196,19 @@ def on_publish(*args):
     else:
         SITE_DIR.mkdir(parents=True, exist_ok=True)
         (SITE_DIR / f"{date_str}.md").write_text(content)
+
+    # Update deduplication files in the pipeline repo
+    approved_headlines = [_extract_headline(t) for t in approved_texts]
+    rejected_headlines = [_extract_headline(t) for t in rejected_texts]
+    _update_yaml_in_pipeline_repo(
+        "data/recently_covered.yaml", date_str, approved_headlines,
+        f"Update recently_covered {date_str}",
+    )
+    if rejected_headlines:
+        _update_yaml_in_pipeline_repo(
+            "data/recently_rejected.yaml", date_str, rejected_headlines,
+            f"Update recently_rejected {date_str}",
+        )
 
     return f"Published {n} {'story' if n == 1 else 'stories'} to {path}"
 
@@ -209,9 +258,9 @@ with gr.Blocks(title="Skald — Editorial Dashboard") as app:
                     scale=0,
                 )
             rsn = gr.Textbox(
-                placeholder="Reason (e.g. 'not news', 'vendor announcement', 'already covered')",
-                label="Reason",
-                visible=False,
+                placeholder="Notes — story selection, style, or rejection reason (optional)",
+                label="Notes",
+                lines=2,
             )
             txt = gr.Textbox(lines=18, label="", show_label=False, container=False)
         groups.append(grp)
@@ -243,10 +292,6 @@ with gr.Blocks(title="Skald — Editorial Dashboard") as app:
     app.load(on_load_draft, outputs=load_outputs)
     trigger_btn.click(on_trigger_generation, outputs=header_md)
     load_btn.click(on_load_draft, outputs=load_outputs)
-
-    # Decision → reason visibility
-    for dec, rsn in zip(decisions, reasons):
-        dec.change(on_decision_change, inputs=dec, outputs=rsn)
 
     if not DEMO_MODE:
         feedback_inputs = texts + decisions + reasons

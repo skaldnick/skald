@@ -7,16 +7,18 @@ Usage:
     python tools/extract_learning.py --all        # all feedback files
 
 What it does:
-  1. Automatically updates data/recently_covered.yaml with approved stories.
-  2. Calls Claude to propose style rules from editorial diffs and prints them.
+  1. Calls Claude to propose style rules from editorial diffs and prints them.
 
 Proposed rules are printed to stdout — review them, then add any worth keeping
 to prompts/payments/style_rules.yaml and commit.
+
+Note: recently_covered.yaml and recently_rejected.yaml are now updated
+automatically by the dashboard on publish. This tool focuses on style rules.
 """
 
 import argparse
 import json
-import re
+import os
 import sys
 from pathlib import Path
 
@@ -26,50 +28,37 @@ from dotenv import load_dotenv
 
 ROOT = Path(__file__).parent.parent
 FEEDBACK_DIR = ROOT / "data" / "feedback"
-RECENTLY_COVERED_PATH = ROOT / "data" / "recently_covered.yaml"
 STYLE_RULES_PATH = ROOT / "prompts" / "payments" / "style_rules.yaml"
 
 
-def extract_headline(story_text: str) -> str:
-    match = re.search(r"\*\*(.+?)\*\*", story_text)
-    return match.group(1) if match else story_text[:80].strip()
+def _try_github_feedback(date_str: str) -> dict | None:
+    """Fetch a feedback file from the GitHub pipeline repo, if available."""
+    load_dotenv(ROOT / ".env", override=True)
+    token = os.environ.get("GITHUB_TOKEN")
+    if not token:
+        return None
+    try:
+        import base64
+        import requests
+        pipeline_repo = os.environ.get("GITHUB_PIPELINE_REPO", "skaldnick/skald")
+        branch = os.environ.get("GITHUB_BRANCH", "main")
+        url = f"https://api.github.com/repos/{pipeline_repo}/contents/data/feedback/{date_str}.json"
+        resp = requests.get(url, headers={"Authorization": f"token {token}"}, params={"ref": branch})
+        if resp.status_code == 200:
+            content = base64.b64decode(resp.json()["content"]).decode()
+            return json.loads(content)
+    except Exception as e:
+        print(f"GitHub fetch failed: {e}", file=sys.stderr)
+    return None
 
 
-def load_recently_covered() -> list[dict]:
-    if not RECENTLY_COVERED_PATH.exists():
-        return []
-    raw = yaml.safe_load(RECENTLY_COVERED_PATH.read_text())
-    return [e for e in (raw or []) if isinstance(e, dict)]
-
-
-def save_recently_covered(entries: list[dict]) -> None:
-    header = (
-        "# Stories approved and published. Updated automatically by tools/extract_learning.py.\n"
-        "# Used by the generator to avoid covering the same ground twice.\n"
-    )
-    RECENTLY_COVERED_PATH.write_text(header + yaml.dump(entries, allow_unicode=True, sort_keys=False))
-
-
-def update_recently_covered(feedback: dict) -> int:
-    """Append approved stories from feedback to recently_covered.yaml. Returns count added."""
-    entries = load_recently_covered()
-    existing_dates = {e["date"] for e in entries}
-    date_str = feedback["date"]
-    if date_str in existing_dates:
-        return 0
-
-    approved = [
-        extract_headline(s["edited"])
-        for s in feedback["stories"]
-        if s["decision"] == "Approve" and s["edited"].strip()
-    ]
-    if not approved:
-        return 0
-
-    entries.append({"date": date_str, "stories": approved})
-    entries.sort(key=lambda e: e["date"])
-    save_recently_covered(entries)
-    return len(approved)
+def load_feedback_file(path: Path) -> dict | None:
+    """Load a feedback JSON from local path, falling back to GitHub."""
+    if path.exists():
+        return json.loads(path.read_text())
+    date_str = path.stem  # filename without extension
+    print(f"Local file not found: {path} — trying GitHub…", file=sys.stderr)
+    return _try_github_feedback(date_str)
 
 
 def load_style_rules() -> list[dict]:
@@ -149,26 +138,31 @@ def main():
     elif args.date:
         feedback_files = [FEEDBACK_DIR / f"{args.date}.json"]
     else:
-        feedback_files = sorted(FEEDBACK_DIR.glob("*.json"))[-1:]
+        # Default: most recent local file, or yesterday/today if none found
+        local_files = sorted(FEEDBACK_DIR.glob("*.json"))
+        feedback_files = local_files[-1:] if local_files else []
 
     if not feedback_files:
-        print("No feedback files found.", file=sys.stderr)
+        print("No local feedback files found. Specify --date YYYY-MM-DD to fetch from GitHub.", file=sys.stderr)
         sys.exit(1)
 
     feedback_list = []
     for path in feedback_files:
-        if not path.exists():
-            print(f"Not found: {path}", file=sys.stderr)
+        feedback = load_feedback_file(path)
+        if feedback is None:
+            print(f"Not found locally or on GitHub: {path.stem}", file=sys.stderr)
             continue
-        feedback = json.loads(path.read_text())
         feedback_list.append(feedback)
-        n = update_recently_covered(feedback)
-        if n:
-            print(f"recently_covered.yaml: added {n} stories from {feedback['date']}")
-        else:
-            print(f"recently_covered.yaml: {feedback['date']} already recorded")
+        print(f"Loaded feedback for {feedback['date']} ({len(feedback.get('stories', []))} stories)")
 
-    print("\nProposing style rules from diffs...\n")
+    if not feedback_list:
+        print("No feedback loaded.", file=sys.stderr)
+        sys.exit(1)
+
+    print("\nNote: recently_covered.yaml and recently_rejected.yaml are updated automatically")
+    print("by the dashboard on publish. Skipping that step here.\n")
+
+    print("Proposing style rules from diffs…\n")
     proposed = propose_style_rules(feedback_list)
 
     if proposed:
