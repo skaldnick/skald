@@ -61,6 +61,13 @@ Any push to main that touches `dashboard/`, `generator/`, `ingester/`, `prompts/
 replaces its contents, and pushes. The workflow can also be triggered manually from the
 Actions tab. There is no separate local `hf-space/` repo to maintain.
 
+### Deploying changes to the Space (from a Claude Code worktree branch)
+1. Commit and push the branch: `git push origin <branch>`
+2. Go to github.com/skaldnick/skald — click **Compare & pull request**
+3. Click **Create pull request**
+4. Click **Merge pull request** → **Confirm merge**
+5. The sync workflow fires automatically; Space is updated within ~2 minutes.
+
 ## Current status
 Full cloud pipeline operational. First briefing published April 13, 2026.
 
@@ -75,29 +82,32 @@ Full cloud pipeline operational. First briefing published April 13, 2026.
 
 ### Components built
 - ingester/fetcher.py — feed fetching, normalisation, recency filter (3 days), keyword filter
-- generator/client.py — prompt assembly, Claude API call, draft output; loads style_rules.yaml and recently_covered.yaml and injects both into prompts; outputs a `title:` line at the top for the dashboard to parse
+- generator/client.py — prompt assembly, Claude API call, draft output; loads style_rules.yaml, recently_covered.yaml, and recently_rejected.yaml and injects all into prompts; outputs a `title:` line at the top for the dashboard to parse
 - prompts/payments/system.yaml — voice, style, editorial stance
 - prompts/payments/story.yaml — selection criteria, news recognition, output format; instructs Claude to produce a concise briefing title
 - prompts/payments/style_rules.yaml — accumulated house style rules extracted from editorial diffs; injected into system prompt on every generation run
-- data/recently_covered.yaml — approved and published story headlines by date; injected into user prompt to prevent repeat coverage; committed to repo so GitHub Actions can access it
-- dashboard/app.py — Gradio editorial interface (trigger generation, load draft, edit, save feedback, approve/reject, publish); pre-fills briefing title from AI draft
-- dashboard/github_api.py — GitHub API helpers (read/write files, dispatch workflows); dashboard uses this when GITHUB_TOKEN set, local filesystem otherwise. Uses two repo env vars: GITHUB_REPO (vikingmedia-site, for publishing briefings) and GITHUB_PIPELINE_REPO (skald, for workflow dispatch and reading drafts)
+- data/recently_covered.yaml — approved and published story headlines by date; updated automatically on publish; injected into user prompt to prevent repeat coverage; committed to repo so GitHub Actions can access it
+- data/recently_rejected.yaml — editorially rejected story headlines by date; updated automatically on publish; injected into user prompt as a hard block against re-selection
+- dashboard/app.py — Gradio editorial interface (trigger generation, load draft, edit, save feedback, approve/reject, publish); pre-fills briefing title from AI draft; updates recently_covered.yaml and recently_rejected.yaml in pipeline repo on publish
+- dashboard/github_api.py — GitHub API helpers (read/write files, dispatch workflows); dashboard uses this when GITHUB_TOKEN set, local filesystem otherwise. Uses two repo env vars: GITHUB_REPO (vikingmedia-site, for publishing briefings) and GITHUB_PIPELINE_REPO (skald, for workflow dispatch, reading drafts, and writing feedback/coverage files)
 - beats/payments.yaml — source config (11 sources: regulatory, Google Alerts, trade press)
 - beats/payments_filters.yaml — keyword filter config (global + per-source include/exclude, passthrough)
 - .github/workflows/generate.yml — scheduled briefing generation (06:00 UTC Mon–Fri) + manual trigger
 - .github/workflows/sync-hf-space.yml — syncs dashboard and source files to HuggingFace Space on push to main; also triggerable manually
 - tools/fetch_raw.py — fetch and cache raw feed snapshot for offline filter testing
 - tools/test_filters.py — test filter configs against cached snapshots; shows per-source pass/cut
-- tools/extract_learning.py — post-session learning tool; auto-updates recently_covered.yaml with approved stories; calls Claude to propose style rules from editorial diffs for human review
+- tools/extract_learning.py — post-session style learning tool; reads feedback JSON (local or from GitHub pipeline repo); calls Claude to propose style rules from editorial diffs for human review; recently_covered/rejected updates are now handled automatically on publish
 
 ### Post-session workflow
-After each editorial session (save feedback in dashboard):
+After each editorial session, to extract style rules from edits:
 ```bash
-python tools/extract_learning.py   # updates recently_covered.yaml, proposes style rules
+python tools/extract_learning.py   # proposes style rules from editorial diffs
 # review output, add keepers to prompts/payments/style_rules.yaml
-git add data/recently_covered.yaml prompts/payments/style_rules.yaml
+git add prompts/payments/style_rules.yaml
 git commit -m "..."
 ```
+Note: recently_covered.yaml and recently_rejected.yaml are updated automatically
+when you click "Publish approved" in the dashboard — no manual step needed.
 
 ### Next priorities
 - Design TL;DR/summary product — concise daily digest and/or teaser email, separate from the full briefing
