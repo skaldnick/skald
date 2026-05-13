@@ -43,6 +43,17 @@ def load_recently_covered(days: int = 7) -> list[dict]:
     return [e for e in entries if e["date"] >= cutoff]
 
 
+def load_recently_rejected(days: int = 28) -> list[dict]:
+    """Load editorially rejected stories within the last N days."""
+    path = ROOT / "data" / "recently_rejected.yaml"
+    if not path.exists():
+        return []
+    raw = yaml.safe_load(path.read_text())
+    entries = [e for e in (raw or []) if isinstance(e, dict)]
+    cutoff = (datetime.now() - timedelta(days=days)).strftime("%Y-%m-%d")
+    return [e for e in entries if e["date"] >= cutoff]
+
+
 def build_system_prompt(system: dict, style_rules: list[dict]) -> str:
     parts = [
         system["role"],
@@ -57,7 +68,7 @@ def build_system_prompt(system: dict, style_rules: list[dict]) -> str:
     return "\n\n".join(parts)
 
 
-def build_user_prompt(story: dict, entries: list[dict], recently_covered: list[dict]) -> str:
+def build_user_prompt(story: dict, entries: list[dict], recently_covered: list[dict], recently_rejected: list[dict] | None = None) -> str:
     stories_text = "\n\n".join([
         f"Source: {e['source']}\nTitle: {e['title']}\nURL: {e['url']}\nSummary: {e['summary']}\nPublished: {e['published']}"
         for e in entries
@@ -76,11 +87,24 @@ def build_user_prompt(story: dict, entries: list[dict], recently_covered: list[d
             + "\n".join(lines)
         )
 
+    rejected_section = ""
+    if recently_rejected:
+        lines = [
+            f"- {e['date']}: {headline}"
+            for e in recently_rejected
+            for headline in e["stories"]
+        ]
+        rejected_section = (
+            "\n\n## Editorially rejected — do not select these stories under any circumstances\n"
+            + "\n".join(lines)
+        )
+
     return (
         story["task"]
         + "\n\n"
         + story["selection_criteria"]
         + covered_section
+        + rejected_section
         + "\n\n"
         + story["output_format"].replace("{date}", date_str)
         + "\n\n"
@@ -93,8 +117,9 @@ def generate_briefing(beat_name: str, entries: list[dict]) -> str:
     system, story = load_prompts(beat_name)
     style_rules = load_style_rules(beat_name)
     recently_covered = load_recently_covered()
+    recently_rejected = load_recently_rejected()
     system_prompt = build_system_prompt(system, style_rules)
-    user_prompt = build_user_prompt(story, entries, recently_covered)
+    user_prompt = build_user_prompt(story, entries, recently_covered, recently_rejected)
 
     client = anthropic.Anthropic(api_key=os.environ["ANTHROPIC_API_KEY"])
     message = client.messages.create(

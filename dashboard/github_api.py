@@ -37,10 +37,11 @@ def read_file(path: str, repo: str | None = None) -> tuple[str | None, str | Non
     return None, None
 
 
-def write_file(path: str, content: str, message: str) -> bool:
+def write_file(path: str, content: str, message: str, repo: str | None = None) -> bool:
     """Create or update a file in the repo. Returns True on success."""
-    url = f"https://api.github.com/repos/{GITHUB_REPO}/contents/{path}"
-    _, sha = read_file(path)  # get SHA if file already exists
+    target_repo = repo or GITHUB_REPO
+    url = f"https://api.github.com/repos/{target_repo}/contents/{path}"
+    _, sha = read_file(path, repo=target_repo)
     data = {
         "message": message,
         "content": base64.b64encode(content.encode()).decode(),
