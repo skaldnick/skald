@@ -289,7 +289,6 @@ with gr.Blocks(title="Skald — Editorial Dashboard") as app:
     for i in range(MAX_STORIES):
         load_outputs += [groups[i], texts[i], decisions[i], reasons[i]]
 
-    app.load(on_load_draft, outputs=load_outputs)
     trigger_btn.click(on_trigger_generation, outputs=header_md)
     load_btn.click(on_load_draft, outputs=load_outputs)
 
