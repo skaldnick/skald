@@ -126,9 +126,12 @@ def generate_briefing(beat_name: str, entries: list[dict]) -> str:
         model=MODEL,
         max_tokens=MAX_TOKENS,
         system=system_prompt,
-        messages=[{"role": "user", "content": user_prompt}],
+        messages=[
+            {"role": "user", "content": user_prompt},
+            {"role": "assistant", "content": "title:"},
+        ],
     )
-    return message.content[0].text
+    return "title:" + message.content[0].text
 
 
 def save_draft(beat_name: str, content: str) -> Path:
