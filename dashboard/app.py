@@ -308,4 +308,4 @@ with gr.Blocks(title="Skald — Editorial Dashboard") as app:
 
 
 if __name__ == "__main__":
-    app.launch(theme=gr.themes.Base())
+    app.launch(theme=gr.themes.Base(), server_name="0.0.0.0")
