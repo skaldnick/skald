@@ -126,12 +126,14 @@ def generate_briefing(beat_name: str, entries: list[dict]) -> str:
         model=MODEL,
         max_tokens=MAX_TOKENS,
         system=system_prompt,
-        messages=[
-            {"role": "user", "content": user_prompt},
-            {"role": "assistant", "content": "title:"},
-        ],
+        messages=[{"role": "user", "content": user_prompt}],
     )
-    return "title:" + message.content[0].text
+    text = message.content[0].text
+    # Strip any reasoning preamble before the title line
+    idx = text.find("title:")
+    if idx > 0:
+        text = text[idx:]
+    return text
 
 
 def save_draft(beat_name: str, content: str) -> Path:
