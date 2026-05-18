@@ -26,10 +26,16 @@ def _headers() -> dict:
     }
 
 
+_TIMEOUT = 15  # seconds
+
+
 def read_file(path: str, repo: str | None = None) -> tuple[str | None, str | None]:
     """Read a file from the repo. Returns (content, sha) or (None, None)."""
     url = f"https://api.github.com/repos/{repo or GITHUB_REPO}/contents/{path}"
-    response = requests.get(url, headers=_headers(), params={"ref": GITHUB_BRANCH})
+    try:
+        response = requests.get(url, headers=_headers(), params={"ref": GITHUB_BRANCH}, timeout=_TIMEOUT)
+    except requests.exceptions.RequestException:
+        return None, None
     if response.status_code == 200:
         data = response.json()
         content = base64.b64decode(data["content"]).decode("utf-8")
@@ -49,12 +55,18 @@ def write_file(path: str, content: str, message: str, repo: str | None = None) -
     }
     if sha:
         data["sha"] = sha
-    response = requests.put(url, headers=_headers(), json=data)
+    try:
+        response = requests.put(url, headers=_headers(), json=data, timeout=_TIMEOUT)
+    except requests.exceptions.RequestException:
+        return False
     return response.status_code in (200, 201)
 
 
 def dispatch_workflow(workflow_file: str) -> bool:
     """Trigger a workflow_dispatch event. Returns True on success."""
     url = f"https://api.github.com/repos/{GITHUB_PIPELINE_REPO}/actions/workflows/{workflow_file}/dispatches"
-    response = requests.post(url, headers=_headers(), json={"ref": GITHUB_BRANCH})
+    try:
+        response = requests.post(url, headers=_headers(), json={"ref": GITHUB_BRANCH}, timeout=_TIMEOUT)
+    except requests.exceptions.RequestException:
+        return False
     return response.status_code == 204
