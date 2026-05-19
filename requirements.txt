@@ -4,3 +4,4 @@ gradio
 python-dotenv
 pyyaml
 requests
+tweepy

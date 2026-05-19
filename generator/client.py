@@ -112,8 +112,25 @@ def build_user_prompt(story: dict, entries: list[dict], recently_covered: list[d
     )
 
 
-def generate_briefing(beat_name: str, entries: list[dict]) -> str:
-    """Call the Claude API and return the generated briefing as a string."""
+def _parse_yaml_response(text: str) -> dict:
+    """Parse a YAML briefing response from Claude. Returns structured dict."""
+    # Strip markdown code fences if present
+    text = text.strip()
+    if text.startswith("```"):
+        lines = text.splitlines()
+        text = "\n".join(lines[1:-1] if lines[-1].strip() == "```" else lines[1:])
+    # Find the start of the YAML (skip any preamble)
+    idx = text.find("title:")
+    if idx > 0:
+        text = text[idx:]
+    data = yaml.safe_load(text)
+    if not isinstance(data, dict) or "stories" not in data:
+        raise ValueError(f"Unexpected YAML structure from Claude:\n{text[:500]}")
+    return data
+
+
+def generate_briefing(beat_name: str, entries: list[dict]) -> dict:
+    """Call the Claude API and return the generated briefing as a structured dict."""
     system, story = load_prompts(beat_name)
     style_rules = load_style_rules(beat_name)
     recently_covered = load_recently_covered()
@@ -128,21 +145,16 @@ def generate_briefing(beat_name: str, entries: list[dict]) -> str:
         system=system_prompt,
         messages=[{"role": "user", "content": user_prompt}],
     )
-    text = message.content[0].text
-    # Strip any reasoning preamble before the title line
-    idx = text.find("title:")
-    if idx > 0:
-        text = text[idx:]
-    return text
+    return _parse_yaml_response(message.content[0].text)
 
 
-def save_draft(beat_name: str, content: str) -> Path:
-    """Write the draft to /output/{beat_name}/{date}.md"""
+def save_draft(beat_name: str, data: dict) -> Path:
+    """Write the structured draft to /output/{beat_name}/{date}.yaml"""
     output_dir = Path(__file__).parent.parent / "output" / beat_name
     output_dir.mkdir(parents=True, exist_ok=True)
     date_str = datetime.now().strftime("%Y-%m-%d")
-    path = output_dir / f"{date_str}.md"
-    path.write_text(content)
+    path = output_dir / f"{date_str}.yaml"
+    path.write_text(yaml.dump(data, allow_unicode=True, sort_keys=False, default_flow_style=False))
     return path
 
 
@@ -163,4 +175,4 @@ if __name__ == "__main__":
     path = save_draft("payments", briefing)
     print(f"Draft saved to {path}")
     print("\n" + "=" * 60 + "\n")
-    print(briefing)
+    print(yaml.dump(briefing, allow_unicode=True, sort_keys=False, default_flow_style=False))

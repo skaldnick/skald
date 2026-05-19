@@ -39,25 +39,26 @@ selection_criteria: |
     filling it with inference.
 
 output_format: |
-  title: [Four to eight words summarising today's stories, e.g. "GoCardless profits; pay-by-bank friction; PSD3 delay"]
+  Respond with a valid YAML document using the structure below. Use literal block
+  scalars (the | character) for the body field. Do not wrap the output in code fences.
 
-  ## European Payments & Open Banking — {date}
+  title: "Four to eight words summarising today's stories — e.g. GoCardless profits; pay-by-bank friction; PSD3 delay"
+  social_post: "One post for X promoting today's briefing. Max 280 characters including {link}. Punchy and engaging — personality and dry humour welcome. Does not need to mention every story; lead with the most interesting angle. Written to make a payments professional want to click. End with {link}."
+  stories:
+    - headline: "Story headline — plain text, no markdown"
+      standfirst: "One sentence that frames the story for a professional audience. No markdown."
+      body: |
+        First paragraph written in the house voice.
 
-  ---
-
-  For each story:
-
-  **[Headline]**
-
-  *[Standfirst]*
-
-  [Body paragraphs]
-
-  *Editorial note: [One sentence explaining why this story was selected.]*
-
-  *Sources: [Title](url) — Source name | [Title](url) — Source name*
-
-  ---
+        Second paragraph. Add further paragraphs as needed, separated by blank lines.
+      editorial_note: "One sentence explaining why this story was selected and merits a reader's attention."
+      sources: "[Article title](https://example.com) — Publication name | [Second title](https://example.com) — Publication name"
+    - headline: "..."
+      standfirst: "..."
+      body: |
+        ...
+      editorial_note: "..."
+      sources: "..."
 
 input: |
   Today's stories:

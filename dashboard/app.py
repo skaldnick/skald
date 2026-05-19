@@ -10,48 +10,40 @@ import gradio as gr
 import yaml
 
 from dashboard import github_api
+from dashboard import x_api
 
 MAX_STORIES = 5
 DEMO_MODE = os.environ.get("DEMO_MODE", "false").lower() == "true"
+BRIEFING_BASE_URL = os.environ.get("BRIEFING_BASE_URL", "https://vikingmedia.org/briefings")
 ROOT = Path(__file__).parent.parent
 OUTPUT_DIR = ROOT / "output"
 FEEDBACK_DIR = ROOT / "data" / "feedback"
 SITE_DIR = ROOT / "site" / "content" / "briefings"
 
 
-def _parse_draft(text: str) -> tuple[list[str], str, str]:
-    """Parse draft text. Returns (stories, header, title)."""
-    lines = text.splitlines()
-    title = ""
-    if lines and lines[0].startswith("title:"):
-        title = lines[0][len("title:"):].strip()
-        text = "\n".join(lines[1:]).lstrip()
-    parts = re.split(r"\n---\n", text)
-    header = parts[0].strip()
-    stories = [p.strip() for p in parts[1:] if p.strip()]
-    # If the header contains story content (missing --- after the briefing date
-    # line), rescue it: everything before the first bold headline is the real
-    # header; the rest becomes story 1.
-    if "\n\n**" in header:
-        real_header, first_story = header.split("\n\n**", 1)
-        stories.insert(0, "**" + first_story)
-        header = real_header.strip()
-    return stories, header, title
-
-
-def load_draft(beat: str = "payments") -> tuple[list[str], str, str]:
-    """Load today's draft. Returns (stories, header, title)."""
+def load_draft(beat: str = "payments") -> dict | None:
+    """Load today's structured YAML draft. Returns parsed dict or None."""
     date_str = datetime.now().strftime("%Y-%m-%d")
+    path = f"output/{beat}/{date_str}.yaml"
     if github_api.available():
-        text, _ = github_api.read_file(f"output/{beat}/{date_str}.md", repo=github_api.GITHUB_PIPELINE_REPO)
+        text, _ = github_api.read_file(path, repo=github_api.GITHUB_PIPELINE_REPO)
         if not text:
-            return [], f"No draft found for {date_str}.", ""
-        return _parse_draft(text)
+            return None
     else:
-        path = OUTPUT_DIR / beat / f"{date_str}.md"
-        if not path.exists():
-            return [], f"No draft found for {date_str}.", ""
-        return _parse_draft(path.read_text())
+        local = OUTPUT_DIR / beat / f"{date_str}.yaml"
+        if not local.exists():
+            return None
+        text = local.read_text()
+    data = yaml.safe_load(text)
+    return data if isinstance(data, dict) and "stories" in data else None
+
+
+def _assemble_web_story(headline: str, standfirst: str, body: str, sources: str) -> str:
+    """Assemble the web-published markdown for one story."""
+    parts = [f"**{headline.strip()}**", f"*{standfirst.strip()}*", body.strip()]
+    if sources.strip():
+        parts.append(f"*Sources: {sources.strip()}*")
+    return "\n\n".join(parts)
 
 
 def compute_diff(original: str, edited: str) -> str:
@@ -70,29 +62,43 @@ def on_trigger_generation():
 
 
 def on_load_draft():
-    stories, header, title = load_draft()
-    outputs = [f"### {header}", title]
+    data = load_draft()
+    date_str = datetime.now().strftime("%B %-d, %Y")
+
+    if not data:
+        header = f"*No draft found for {datetime.now().strftime('%Y-%m-%d')}.*"
+        outputs = [header, "", ""]
+        for _ in range(MAX_STORIES):
+            outputs += [gr.update(visible=False), "", "", "", "", "", "Approve", ""]
+        return outputs
+
+    stories = data.get("stories", [])
+    title = data.get("title", "")
+    briefing_url = f"{BRIEFING_BASE_URL}/{datetime.now().strftime('%Y-%m-%d')}/"
+    social = data.get("social_post", "").replace("{link}", briefing_url)
+    outputs = [f"### European Payments & Open Banking — {date_str}", title, social]
+
     for i in range(MAX_STORIES):
         if i < len(stories):
+            s = stories[i]
             outputs += [
                 gr.update(visible=True),
-                gr.update(value=stories[i]),
+                f"*Editorial note: {s.get('editorial_note', '')}*",
+                gr.update(value=s.get("headline", "")),
+                gr.update(value=s.get("standfirst", "")),
+                gr.update(value=s.get("body", "").strip()),
+                gr.update(value=s.get("sources", "")),
                 gr.update(value="Approve"),
                 gr.update(value=""),
             ]
         else:
             outputs += [
                 gr.update(visible=False),
-                gr.update(value=""),
+                "", "", "", "", "",
                 gr.update(value="Approve"),
                 gr.update(value=""),
             ]
     return outputs
-
-
-def _extract_headline(story_text: str) -> str:
-    match = re.search(r"\*\*(.+?)\*\*", story_text)
-    return match.group(1) if match else story_text[:80].strip()
 
 
 def _update_yaml_in_pipeline_repo(path: str, date_str: str, headlines: list[str], commit_msg: str) -> bool:
@@ -105,14 +111,13 @@ def _update_yaml_in_pipeline_repo(path: str, date_str: str, headlines: list[str]
         entries = yaml.safe_load(local_path.read_text()) if local_path.exists() else []
 
     entries = [e for e in (entries or []) if isinstance(e, dict)]
-    existing_dates = {e["date"] for e in entries}
-    if date_str in existing_dates:
-        return True  # already recorded for this date
+    if any(e["date"] == date_str for e in entries):
+        return True
 
     entries.append({"date": date_str, "stories": headlines})
     entries.sort(key=lambda e: e["date"])
     payload = (
-        f"# Updated automatically by the editorial dashboard.\n"
+        "# Updated automatically by the editorial dashboard.\n"
         + yaml.dump(entries, allow_unicode=True, sort_keys=False)
     )
 
@@ -126,23 +131,36 @@ def _update_yaml_in_pipeline_repo(path: str, date_str: str, headlines: list[str]
 
 
 def on_save(*args):
-    texts = list(args[:MAX_STORIES])
-    decisions = list(args[MAX_STORIES : MAX_STORIES * 2])
-    notes = list(args[MAX_STORIES * 2 :])
+    # args: headlines, standfirsts, bodies, sources_txts, decisions, reasons
+    headlines = list(args[0:MAX_STORIES])
+    standfirsts = list(args[MAX_STORIES:MAX_STORIES * 2])
+    bodies = list(args[MAX_STORIES * 2:MAX_STORIES * 3])
+    sources_list = list(args[MAX_STORIES * 3:MAX_STORIES * 4])
+    decisions = list(args[MAX_STORIES * 4:MAX_STORIES * 5])
+    notes = list(args[MAX_STORIES * 5:])
 
-    originals, _, _ = load_draft()
-    if not originals:
-        return "No draft loaded — nothing to save."
+    original_data = load_draft()
+    original_stories = original_data.get("stories", []) if original_data else []
 
     date_str = datetime.now().strftime("%Y-%m-%d")
     records = []
-    for orig, edited, decision, note in zip(originals, texts, decisions, notes):
-        if not edited.strip():
+    for i, (headline, standfirst, body, sources, decision, note) in enumerate(
+        zip(headlines, standfirsts, bodies, sources_list, decisions, notes)
+    ):
+        if not headline.strip():
             continue
+        edited = _assemble_web_story(headline, standfirst, body, sources)
+        original = ""
+        if i < len(original_stories):
+            s = original_stories[i]
+            original = _assemble_web_story(
+                s.get("headline", ""), s.get("standfirst", ""),
+                s.get("body", "").strip(), s.get("sources", ""),
+            )
         records.append({
-            "original": orig,
+            "original": original,
             "edited": edited,
-            "diff": compute_diff(orig, edited),
+            "diff": compute_diff(original, edited),
             "decision": decision,
             "notes": note or None,
         })
@@ -166,27 +184,36 @@ def on_save(*args):
 
 def on_publish(*args):
     briefing_title = args[0]
-    texts = list(args[1:MAX_STORIES + 1])
-    decisions = list(args[MAX_STORIES + 1:])
-
-    approved = [
-        (edited, decision) for edited, decision in zip(texts, decisions)
-        if edited.strip()
-    ]
-    approved_texts = [t for t, d in approved if d == "Approve"]
-    rejected_texts = [t for t, d in approved if d == "Reject"]
-
-    if not approved_texts:
-        return "No approved stories to publish."
+    social_post = args[1]
+    headlines = list(args[2:MAX_STORIES + 2])
+    standfirsts = list(args[MAX_STORIES + 2:MAX_STORIES * 2 + 2])
+    bodies = list(args[MAX_STORIES * 2 + 2:MAX_STORIES * 3 + 2])
+    sources_list = list(args[MAX_STORIES * 3 + 2:MAX_STORIES * 4 + 2])
+    decisions = list(args[MAX_STORIES * 4 + 2:])
 
     date_str = datetime.now().strftime("%Y-%m-%d")
+    approved, rejected = [], []
+    for headline, standfirst, body, sources, decision in zip(
+        headlines, standfirsts, bodies, sources_list, decisions
+    ):
+        if not headline.strip():
+            continue
+        if decision == "Approve":
+            approved.append((headline, standfirst, body, sources))
+        else:
+            rejected.append(headline)
+
+    if not approved:
+        return "No approved stories to publish."
+
     title = briefing_title.strip() or date_str
-    body = "\n\n---\n\n".join(approved_texts)
+    body_md = "\n\n---\n\n".join(
+        _assemble_web_story(h, sf, b, src) for h, sf, b, src in approved
+    )
     content = (
         f'---\ntitle: "{title}"\n'
-        f'date: {date_str}\ndraft: false\nbeat: payments\n---\n\n{body}'
+        f'date: {date_str}\ndraft: false\nbeat: payments\n---\n\n{body_md}'
     )
-    n = len(approved_texts)
     path = f"site/content/briefings/{date_str}.md"
 
     if github_api.available():
@@ -197,26 +224,36 @@ def on_publish(*args):
         SITE_DIR.mkdir(parents=True, exist_ok=True)
         (SITE_DIR / f"{date_str}.md").write_text(content)
 
-    # Update deduplication files in the pipeline repo
-    approved_headlines = [_extract_headline(t) for t in approved_texts]
-    rejected_headlines = [_extract_headline(t) for t in rejected_texts]
+    approved_headlines = [h for h, *_ in approved]
     _update_yaml_in_pipeline_repo(
         "data/recently_covered.yaml", date_str, approved_headlines,
         f"Update recently_covered {date_str}",
     )
-    if rejected_headlines:
+    if rejected:
         _update_yaml_in_pipeline_repo(
-            "data/recently_rejected.yaml", date_str, rejected_headlines,
+            "data/recently_rejected.yaml", date_str, rejected,
             f"Update recently_rejected {date_str}",
         )
 
-    return f"Published {n} {'story' if n == 1 else 'stories'} to {path}"
+    messages = [f"Published {len(approved)} {'story' if len(approved) == 1 else 'stories'} to {path}"]
+
+    post_text = social_post.strip()
+    if post_text:
+        if x_api.available():
+            ok, result = x_api.post_tweet(post_text)
+            messages.append(f"Posted to X: {result}" if ok else f"X post failed: {result}")
+        else:
+            messages.append("X credentials not configured — social post skipped.")
+    else:
+        messages.append("No social post — skipped.")
+
+    return "\n\n".join(messages)
 
 
 def on_generate_title(*args):
-    texts = list(args[:MAX_STORIES])
+    headlines = list(args[:MAX_STORIES])
     decisions = list(args[MAX_STORIES:])
-    approved = [t for t, d in zip(texts, decisions) if t.strip() and d == "Approve"]
+    approved = [h for h, d in zip(headlines, decisions) if h.strip() and d == "Approve"]
     if not approved:
         return gr.update(), "*No approved stories — approve at least one story first.*"
     api_key = os.environ.get("ANTHROPIC_API_KEY")
@@ -231,7 +268,7 @@ def on_generate_title(*args):
             "Format: 4–8 words, semicolons separating topics. No quotes, no trailing punctuation. "
             "Example: 'GoCardless profits; pay-by-bank friction; PSD3 delay'"
         ),
-        messages=[{"role": "user", "content": f"Generate a briefing title for these approved stories:\n\n{'---'.join(approved)}"}],
+        messages=[{"role": "user", "content": f"Generate a briefing title for these approved story headlines:\n\n" + "\n".join(f"- {h}" for h in approved)}],
     )
     return resp.content[0].text.strip(), ""
 
@@ -246,25 +283,32 @@ with gr.Blocks(title="Skald — Editorial Dashboard") as app:
 
     header_md = gr.Markdown("*Loading draft...*")
 
-    groups, texts, decisions, reasons = [], [], [], []
+    groups = []
+    editorial_note_mds = []
+    headlines, standfirsts, bodies, sources_txts = [], [], [], []
+    decisions, reasons = [], []
+
     for i in range(MAX_STORIES):
         with gr.Group(visible=False) as grp:
             with gr.Row():
                 gr.Markdown(f"#### Story {i + 1}")
-                dec = gr.Radio(
-                    ["Approve", "Reject"],
-                    value="Approve",
-                    label="Decision",
-                    scale=0,
-                )
+                dec = gr.Radio(["Approve", "Reject"], value="Approve", label="Decision", scale=0)
+            ed_note = gr.Markdown("")
+            headline = gr.Textbox(lines=1, label="Headline")
+            standfirst = gr.Textbox(lines=2, label="Standfirst")
+            body = gr.Textbox(lines=12, label="Body", show_label=True)
+            src = gr.Textbox(lines=2, label="Sources")
             rsn = gr.Textbox(
                 placeholder="Notes — story selection, style, or rejection reason (optional)",
                 label="Notes",
                 lines=2,
             )
-            txt = gr.Textbox(lines=18, label="", show_label=False, container=False)
         groups.append(grp)
-        texts.append(txt)
+        editorial_note_mds.append(ed_note)
+        headlines.append(headline)
+        standfirsts.append(standfirst)
+        bodies.append(body)
+        sources_txts.append(src)
         decisions.append(dec)
         reasons.append(rsn)
 
@@ -278,31 +322,42 @@ with gr.Blocks(title="Skald — Editorial Dashboard") as app:
         if not DEMO_MODE:
             gen_title_btn = gr.Button("Generate title", variant="secondary", scale=0)
 
+    social_post_input = gr.Textbox(
+        placeholder="Social post for X — AI-drafted, edit before publishing",
+        label="Social post (X)",
+        lines=3,
+        visible=not DEMO_MODE,
+    )
+
     with gr.Row():
         status_md = gr.Markdown("")
         if not DEMO_MODE:
             save_btn = gr.Button("Save feedback", variant="secondary", scale=0)
             publish_btn = gr.Button("Publish approved", variant="primary", scale=0)
 
-    # Load draft — auto on startup and on button click
-    load_outputs = [header_md, briefing_title_input]
+    # Per-story load outputs: group, editorial_note, headline, standfirst, body, sources, decision, reason
+    load_outputs = [header_md, briefing_title_input, social_post_input]
     for i in range(MAX_STORIES):
-        load_outputs += [groups[i], texts[i], decisions[i], reasons[i]]
+        load_outputs += [
+            groups[i], editorial_note_mds[i],
+            headlines[i], standfirsts[i], bodies[i], sources_txts[i],
+            decisions[i], reasons[i],
+        ]
 
     trigger_btn.click(on_trigger_generation, outputs=header_md)
     load_btn.click(on_load_draft, outputs=load_outputs)
 
     if not DEMO_MODE:
-        feedback_inputs = texts + decisions + reasons
+        feedback_inputs = headlines + standfirsts + bodies + sources_txts + decisions + reasons
         save_btn.click(on_save, inputs=feedback_inputs, outputs=status_md)
         publish_btn.click(
             on_publish,
-            inputs=[briefing_title_input] + texts + decisions,
+            inputs=[briefing_title_input, social_post_input] + headlines + standfirsts + bodies + sources_txts + decisions,
             outputs=status_md,
         )
         gen_title_btn.click(
             on_generate_title,
-            inputs=texts + decisions,
+            inputs=headlines + decisions,
             outputs=[briefing_title_input, status_md],
         )
 
