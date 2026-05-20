@@ -1,0 +1,135 @@
+title: NMI-Dwolla deal; Trump fintech order; Monzo fraud costs; UK regulatory grid
+social_post: 'Trump orders regulators to open payment rails to fintechs. Plus: NMI
+  buys Dwolla, Monzo''s fraud bill jumps 85%, and UK regulators publish a fresh initiative
+  grid. {link}'
+stories:
+- headline: Trump orders regulators to ease fintech access to US payment rails
+  standfirst: An executive order directing federal agencies to review rules governing
+    fintech participation in payment systems signals a deregulatory push that could
+    reshape competitive dynamics for European firms operating in the US.
+  body: 'President Trump signed an executive order on May 19 directing federal financial
+    regulators to review regulations, guidance, supervisory practices and application
+    processes that affect how fintechs interact with banks and payment infrastructure.
+    The order covers access to payment rails, bank-fintech partnerships and licensing
+    frameworks across the broader financial services sector.
+
+
+    The practical effect will depend on how individual agencies respond, but the direction
+    of travel is clear: the administration wants to lower barriers for non-bank payment
+    providers. For European fintechs and payment firms with US operations or ambitions,
+    this could open new avenues for direct participation in clearing and settlement
+    systems. It also sharpens the contrast with Europe''s approach, where PSD3 and
+    the payment services regulation are tightening supervisory requirements for payment
+    institutions rather than loosening them.
+
+
+    The order arrives as debate continues over the CFPB''s open banking rule, which
+    remains paused by a court order. Taken together, the moves suggest the US is pursuing
+    market access for fintechs through executive action rather than the data-sharing
+    frameworks that have defined European open banking policy.
+
+    '
+  editorial_note: A US executive order on fintech payment rail access has direct implications
+    for European firms' US strategies and provides a useful contrast with the EU's
+    regulatory direction.
+  sources: '[White House Pushes FinTech Access to Payment Rails](https://www.pymnts.com/news/regulation/2026/white-house-pushes-fintech-access-to-payment-rails/)
+    — PYMNTS'
+- headline: NMI acquires Dwolla to build out account-to-account payments stack
+  standfirst: The deal combines NMI's white-label payment acceptance platform with
+    Dwolla's account-to-account and open banking capabilities, creating a combined
+    operation processing nearly $700 billion and signalling continued consolidation
+    in embedded payments infrastructure.
+  body: 'NMI, a private equity-backed embedded payments firm, has acquired Dwolla,
+    an API-first platform specialising in account-to-account payments, real-time money
+    movement and open banking connectivity. Dwolla serves more than 400 clients. The
+    financial terms were not disclosed.
+
+
+    The acquisition follows a pattern now well established in payments infrastructure:
+    platform companies buying specialist account-to-account capabilities to offer
+    merchants and software partners alternatives to card rails. NMI''s pitch is a
+    single white-label platform spanning card acceptance, account-to-account transfers
+    and payment orchestration. The deal sits alongside NAB''s acquisition of Banked
+    last week as evidence that acquirers see pay-by-bank infrastructure as a necessary
+    layer rather than a standalone business.
+
+
+    For European observers, the consolidation underscores the gap between account-to-account
+    payments as a technology, which is maturing rapidly, and account-to-account payments
+    as a consumer-facing product, which still lacks the ubiquity and dispute resolution
+    frameworks that cards provide. The acquirers are betting that embedding account-to-account
+    into broader platforms is the path to scale.
+
+    '
+  editorial_note: The second significant account-to-account infrastructure acquisition
+    in a week reinforces a clear consolidation trend relevant to European pay-by-bank
+    strategies.
+  sources: '[NMI Acquires Dwolla to Strengthen Pay by Bank Offering](https://www.pymnts.com/acquisitions/2026/nmi-acquires-dwolla-to-strengthen-a2a-payment-offerings/)
+    — PYMNTS | [NMI acquires Dwolla](https://www.finextra.com/newsarticle/47780/nmi-acquires-dwolla)
+    — Finextra | [NMI''s Latest Deal Snags A2A Platform Dwolla](https://www.digitaltransactions.net/nmis-latest-deal-snags-a2a-platform-dwolla/)
+    — Digital Transactions'
+- headline: Monzo's fraud reimbursement costs surge 85% under PSR mandatory rules
+  standfirst: The digital bank's sharp increase in authorised push payment fraud payouts
+    offers the first clear evidence of how the PSR's reimbursement regime is hitting
+    challenger banks disproportionately.
+  body: 'Monzo has reported an 85% increase in fraud reimbursement payouts, driven
+    by the Payment Systems Regulator''s mandatory reimbursement framework for authorised
+    push payment fraud introduced in October 2024. The regime requires sending payment
+    service providers to reimburse victims up to £85,000 within five business days,
+    with costs shared between sending and receiving firms.
+
+
+    The scale of the increase matters because it quantifies a cost pressure that the
+    industry has discussed in theoretical terms. Challenger banks such as Monzo, which
+    serve younger and more digitally active customer bases, may face higher claim
+    volumes relative to their revenue than traditional high street banks. The figures
+    will likely intensify calls from some quarters to revisit the £85,000 cap or adjust
+    the cost-sharing mechanism.
+
+
+    The data also feeds into the broader question of where fraud liability should
+    sit. The PSR''s framework places it squarely on payment firms, but industry voices,
+    such as those from telecoms and social media platforms, are increasingly being
+    drawn into the debate about upstream responsibility for enabling fraud.
+
+    '
+  editorial_note: First concrete data showing the financial impact of the PSR's APP
+    fraud reimbursement rules on a major UK digital bank — directly relevant to payments
+    strategy.
+  sources: '[Monzo''s fraud payouts soar 85% under UK reimbursement rules](https://www.thebanker.com/content/7028b289-e103-4757-adfa-04007b699e51)
+    — The Banker'
+- headline: UK regulators publish tenth regulatory initiatives grid with PSR merger
+    in view
+  standfirst: The latest cross-regulator grid maps upcoming UK financial services
+    initiatives through 2028, giving firms a consolidated view of the regulatory pipeline
+    as the PSR's planned absorption into the FCA approaches.
+  body: 'The Bank of England, FCA, PSR, PRA and the Pensions Regulator have published
+    the tenth edition of the Regulatory Initiatives Grid, setting out planned consultations,
+    policy statements and rule changes across financial services. The grid is designed
+    to help firms plan for regulatory change by presenting a single timeline of forthcoming
+    initiatives.
+
+
+    For payments firms, the grid arrives at a moment of structural uncertainty. The
+    UK Financial Services Bill, currently making its way through Parliament, will
+    fold the PSR into the FCA. The grid therefore captures a regulatory landscape
+    that is itself about to be reorganised. Firms will want to track which PSR initiatives,
+    such as the APP fraud reimbursement review and ongoing work on interchange and
+    card scheme fees, will carry over intact and which may be reshaped under the FCA''s
+    broader mandate.
+
+
+    The Institute of Chartered Accountants of Scotland, responding to the grid, cautioned
+    against treating regulation purely as a barrier to growth, noting that businesses
+    are unlikely to see substantive effects from many of the listed initiatives before
+    2028. That timeline reinforces the point that regulatory planning in UK payments
+    now requires a multi-year horizon.
+
+    '
+  editorial_note: The grid is a practical planning tool for payments firms, and its
+    publication coincides with major structural changes to UK payments regulation
+    — making it more significant than routine editions.
+  sources: '[Tenth edition of the Regulatory Initiatives Grid](https://www.bankofengland.co.uk/report/2026/tenth-edition-of-the-regulatory-initiatives-grid)
+    — Bank of England | [ICAS warns against viewing regulation as barrier to growth](https://www.theaccountant-online.com/news/icas-warns-against-viewing-regulation/)
+    — The Accountant Online | [Latest edition of the Regulatory Initiatives Grid published](https://www.regulationtomorrow.com/2026/05/latest-edition-of-the-regulatory-initiatives-grid-published-3/)
+    — Global Regulation Tomorrow'
