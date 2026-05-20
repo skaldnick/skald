@@ -213,3 +213,9 @@ __marimo__/
 /public/skald/
 .env
 venv/
+
+# ml/ — model weights, adapters, exported training data
+/ml/models/
+/ml/data/pairs/
+/ml/eval/baseline_outputs.jsonl
+/ml/eval/comparison.jsonl
