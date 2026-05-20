@@ -1,135 +1,133 @@
-title: NMI-Dwolla deal; Trump fintech order; Monzo fraud costs; UK regulatory grid
-social_post: 'Trump orders regulators to open payment rails to fintechs. Plus: NMI
-  buys Dwolla, Monzo''s fraud bill jumps 85%, and UK regulators publish a fresh initiative
-  grid. {link}'
+title: OpenAI enters personal finance; Mastercard targets scam storefronts; NZ tax
+  office explores open banking
+social_post: OpenAI connecting ChatGPT to your bank account via Plaid is either the
+  most useful or most unsettling fintech move of the year. That plus Mastercard's
+  scam detection play and NZ's tax authority eyeing open banking in today's briefing.
+  {link}
 stories:
-- headline: Trump orders regulators to ease fintech access to US payment rails
-  standfirst: An executive order directing federal agencies to review rules governing
-    fintech participation in payment systems signals a deregulatory push that could
-    reshape competitive dynamics for European firms operating in the US.
-  body: 'President Trump signed an executive order on May 19 directing federal financial
-    regulators to review regulations, guidance, supervisory practices and application
-    processes that affect how fintechs interact with banks and payment infrastructure.
-    The order covers access to payment rails, bank-fintech partnerships and licensing
-    frameworks across the broader financial services sector.
+- headline: OpenAI connects ChatGPT to bank accounts via Plaid integration
+  standfirst: OpenAI has launched a personal finance feature letting US users link
+    bank accounts to ChatGPT through Plaid, marking a significant entry by a major
+    AI platform into open banking-powered financial services.
+  body: 'OpenAI is previewing a personal finance experience within ChatGPT that allows
+    Pro subscribers to connect bank and financial accounts using Plaid''s open banking
+    APIs, with Intuit support planned to follow. The feature lets users ask natural-language
+    questions about their spending, balances and transactions, effectively turning
+    a large language model into a financial dashboard.
 
 
-    The practical effect will depend on how individual agencies respond, but the direction
-    of travel is clear: the administration wants to lower barriers for non-bank payment
-    providers. For European fintechs and payment firms with US operations or ambitions,
-    this could open new avenues for direct participation in clearing and settlement
-    systems. It also sharpens the contrast with Europe''s approach, where PSD3 and
-    the payment services regulation are tightening supervisory requirements for payment
-    institutions rather than loosening them.
+    The move matters less for what it does today, which is relatively simple account
+    aggregation, and more for what it signals. OpenAI is the first major generalist
+    AI platform to integrate live financial data via open banking rails. That positions
+    it as a potential distribution channel for financial services, sitting between
+    consumers and their banks in a way that resembles third-party provider access
+    under open banking frameworks but operates outside any financial regulatory perimeter.
 
 
-    The order arrives as debate continues over the CFPB''s open banking rule, which
-    remains paused by a court order. Taken together, the moves suggest the US is pursuing
-    market access for fintechs through executive action rather than the data-sharing
-    frameworks that have defined European open banking policy.
-
-    '
-  editorial_note: A US executive order on fintech payment rail access has direct implications
-    for European firms' US strategies and provides a useful contrast with the EU's
-    regulatory direction.
-  sources: '[White House Pushes FinTech Access to Payment Rails](https://www.pymnts.com/news/regulation/2026/white-house-pushes-fintech-access-to-payment-rails/)
-    — PYMNTS'
-- headline: NMI acquires Dwolla to build out account-to-account payments stack
-  standfirst: The deal combines NMI's white-label payment acceptance platform with
-    Dwolla's account-to-account and open banking capabilities, creating a combined
-    operation processing nearly $700 billion and signalling continued consolidation
-    in embedded payments infrastructure.
-  body: 'NMI, a private equity-backed embedded payments firm, has acquired Dwolla,
-    an API-first platform specialising in account-to-account payments, real-time money
-    movement and open banking connectivity. Dwolla serves more than 400 clients. The
-    financial terms were not disclosed.
-
-
-    The acquisition follows a pattern now well established in payments infrastructure:
-    platform companies buying specialist account-to-account capabilities to offer
-    merchants and software partners alternatives to card rails. NMI''s pitch is a
-    single white-label platform spanning card acceptance, account-to-account transfers
-    and payment orchestration. The deal sits alongside NAB''s acquisition of Banked
-    last week as evidence that acquirers see pay-by-bank infrastructure as a necessary
-    layer rather than a standalone business.
-
-
-    For European observers, the consolidation underscores the gap between account-to-account
-    payments as a technology, which is maturing rapidly, and account-to-account payments
-    as a consumer-facing product, which still lacks the ubiquity and dispute resolution
-    frameworks that cards provide. The acquirers are betting that embedding account-to-account
-    into broader platforms is the path to scale.
+    For European observers, the implications are worth tracking. If consumer AI assistants
+    become a primary interface for financial data, the competitive dynamics of open
+    banking shift considerably. Banks and fintechs that have built consumer-facing
+    apps may find themselves disintermediated not by another financial services firm
+    but by an AI platform with hundreds of millions of users.
 
     '
-  editorial_note: The second significant account-to-account infrastructure acquisition
-    in a week reinforces a clear consolidation trend relevant to European pay-by-bank
-    strategies.
-  sources: '[NMI Acquires Dwolla to Strengthen Pay by Bank Offering](https://www.pymnts.com/acquisitions/2026/nmi-acquires-dwolla-to-strengthen-a2a-payment-offerings/)
-    — PYMNTS | [NMI acquires Dwolla](https://www.finextra.com/newsarticle/47780/nmi-acquires-dwolla)
-    — Finextra | [NMI''s Latest Deal Snags A2A Platform Dwolla](https://www.digitaltransactions.net/nmis-latest-deal-snags-a2a-platform-dwolla/)
-    — Digital Transactions'
-- headline: Monzo's fraud reimbursement costs surge 85% under PSR mandatory rules
-  standfirst: The digital bank's sharp increase in authorised push payment fraud payouts
-    offers the first clear evidence of how the PSR's reimbursement regime is hitting
-    challenger banks disproportionately.
-  body: 'Monzo has reported an 85% increase in fraud reimbursement payouts, driven
-    by the Payment Systems Regulator''s mandatory reimbursement framework for authorised
-    push payment fraud introduced in October 2024. The regime requires sending payment
-    service providers to reimburse victims up to £85,000 within five business days,
-    with costs shared between sending and receiving firms.
+  editorial_note: A major AI company entering financial data aggregation through open
+    banking APIs is a structurally significant development for the industry, even
+    though the initial launch is US-only.
+  sources: '[OpenAI launches personal finance experience preview in US](https://nationaltechnology.co.uk/OpenAI_launches_personal_finance_experience_preview_in_US.php)
+    — National Technology'
+- headline: Mastercard launches merchant verification tool to combat fake storefronts
+  standfirst: Mastercard's new Merchant Trust Services gives banks and payment providers
+    tools to identify fraudulent online storefronts before they process transactions,
+    addressing a growing vector for authorised and unauthorised fraud.
+  body: 'Mastercard has introduced Merchant Trust Services, a product designed to
+    help acquirers, issuers and payment service providers detect and block scam merchants
+    operating fake online stores. The service uses Mastercard''s network data and
+    risk signals to flag suspicious storefronts, aiming to intervene before consumers
+    are defrauded.
 
 
-    The scale of the increase matters because it quantifies a cost pressure that the
-    industry has discussed in theoretical terms. Challenger banks such as Monzo, which
-    serve younger and more digitally active customer bases, may face higher claim
-    volumes relative to their revenue than traditional high street banks. The figures
-    will likely intensify calls from some quarters to revisit the £85,000 cap or adjust
-    the cost-sharing mechanism.
+    Fake merchant sites have become a significant fraud channel, often used to harvest
+    card details or take payment for goods that never arrive. They sit awkwardly across
+    fraud categories, sometimes resulting in chargebacks and sometimes in authorised
+    push payment losses, depending on how the payment is made. For acquirers, onboarding
+    fraudulent merchants creates both financial and reputational risk.
 
 
-    The data also feeds into the broader question of where fraud liability should
-    sit. The PSR''s framework places it squarely on payment firms, but industry voices,
-    such as those from telecoms and social media platforms, are increasingly being
-    drawn into the debate about upstream responsibility for enabling fraud.
-
-    '
-  editorial_note: First concrete data showing the financial impact of the PSR's APP
-    fraud reimbursement rules on a major UK digital bank — directly relevant to payments
-    strategy.
-  sources: '[Monzo''s fraud payouts soar 85% under UK reimbursement rules](https://www.thebanker.com/content/7028b289-e103-4757-adfa-04007b699e51)
-    — The Banker'
-- headline: UK regulators publish tenth regulatory initiatives grid with PSR merger
-    in view
-  standfirst: The latest cross-regulator grid maps upcoming UK financial services
-    initiatives through 2028, giving firms a consolidated view of the regulatory pipeline
-    as the PSR's planned absorption into the FCA approaches.
-  body: 'The Bank of England, FCA, PSR, PRA and the Pensions Regulator have published
-    the tenth edition of the Regulatory Initiatives Grid, setting out planned consultations,
-    policy statements and rule changes across financial services. The grid is designed
-    to help firms plan for regulatory change by presenting a single timeline of forthcoming
-    initiatives.
-
-
-    For payments firms, the grid arrives at a moment of structural uncertainty. The
-    UK Financial Services Bill, currently making its way through Parliament, will
-    fold the PSR into the FCA. The grid therefore captures a regulatory landscape
-    that is itself about to be reorganised. Firms will want to track which PSR initiatives,
-    such as the APP fraud reimbursement review and ongoing work on interchange and
-    card scheme fees, will carry over intact and which may be reshaped under the FCA''s
-    broader mandate.
-
-
-    The Institute of Chartered Accountants of Scotland, responding to the grid, cautioned
-    against treating regulation purely as a barrier to growth, noting that businesses
-    are unlikely to see substantive effects from many of the listed initiatives before
-    2028. That timeline reinforces the point that regulatory planning in UK payments
-    now requires a multi-year horizon.
+    The launch reflects a broader pattern in which card networks are extending their
+    role beyond transaction processing into trust and verification infrastructure.
+    As account-to-account payments grow, the absence of equivalent network-level fraud
+    detection in those channels becomes more conspicuous. Mastercard is, in effect,
+    reinforcing one of the card rails'' key advantages: centralised counterparty risk
+    management.
 
     '
-  editorial_note: The grid is a practical planning tool for payments firms, and its
-    publication coincides with major structural changes to UK payments regulation
-    — making it more significant than routine editions.
-  sources: '[Tenth edition of the Regulatory Initiatives Grid](https://www.bankofengland.co.uk/report/2026/tenth-edition-of-the-regulatory-initiatives-grid)
-    — Bank of England | [ICAS warns against viewing regulation as barrier to growth](https://www.theaccountant-online.com/news/icas-warns-against-viewing-regulation/)
-    — The Accountant Online | [Latest edition of the Regulatory Initiatives Grid published](https://www.regulationtomorrow.com/2026/05/latest-edition-of-the-regulatory-initiatives-grid-published-3/)
-    — Global Regulation Tomorrow'
+  editorial_note: This is a meaningful product move from Mastercard that also illuminates
+    the competitive gap between card-based and account-to-account payment fraud prevention.
+  sources: '[Mastercard fires shots at fake online storefronts](https://www.finextra.com/newsarticle/47784/mastercard-fires-shots-at-fake-online-storefronts)
+    — Finextra'
+- headline: New Zealand's tax authority commissions open banking business case
+  standfirst: New Zealand's Inland Revenue has engaged open banking provider Akahu
+    to build a formal business case for using open banking in tax administration,
+    an early example of a government agency actively exploring open banking as public
+    infrastructure.
+  body: 'New Zealand''s Inland Revenue Department has contracted Akahu, the country''s
+    main open banking intermediary, to develop a business case for integrating open
+    banking into tax processes. The engagement follows New Zealand''s recent introduction
+    of a consumer data right framework, though the country has moved cautiously on
+    full open banking implementation.
+
+
+    The use case is straightforward in principle: open banking connections could allow
+    taxpayers to share verified income and transaction data directly with the tax
+    authority, reducing manual reporting and improving accuracy. But the significance
+    lies in the signal. Government agencies becoming consumers of open banking data,
+    rather than just regulators of it, changes the economics and adoption dynamics
+    of the ecosystem.
+
+
+    For European markets, where tax authorities such as HMRC have explored similar
+    ideas without committing to them, New Zealand''s approach is worth monitoring.
+    If a government agency demonstrates that open banking can materially reduce administrative
+    costs and improve compliance, it strengthens the case for public-sector adoption
+    elsewhere and creates a new category of demand for open banking infrastructure.
+
+    '
+  editorial_note: Government agencies actively building business cases around open
+    banking consumption is a relatively novel development that could reshape how open
+    banking ecosystems are valued and funded.
+  sources: '[NZ Inland Revenue engages external support to build case for open banking
+    use](https://www.globalgovernmentfinance.com/nz-inland-revenue-akahu-open-banking-business-case-support/)
+    — Global Government Finance'
+- headline: TikTok pursues financial services licences in Brazil and the UK
+  standfirst: TikTok is expanding its financial services ambitions with a banking
+    push in Brazil and a payments licence application in the UK, testing whether social
+    commerce platforms can convert vast user bases into payment volumes.
+  body: 'TikTok is pursuing financial services capabilities in two major markets simultaneously.
+    In Brazil, the company is building out banking features, while in the UK it is
+    seeking payments authorisation, according to Retail Banker International. The
+    moves follow TikTok''s established in-app commerce model in Southeast Asia, where
+    TikTok Shop has already integrated payments into the social media experience.
+
+
+    The UK play is particularly relevant for European payments professionals. If TikTok
+    secures a payments licence, it would join a growing set of non-financial platforms,
+    such as Apple and Amazon, that are embedding payment capabilities within their
+    ecosystems. The difference is scale and demographics: TikTok''s user base skews
+    younger and is already habituated to in-app purchasing, potentially making it
+    a more natural payments environment than traditional e-commerce.
+
+
+    The strategic question is whether platforms with massive consumer attention can
+    capture payment flows that currently run through conventional checkout infrastructure.
+    For acquirers, payment service providers and card networks, the entry of another
+    platform with its own payment rails represents both a distribution opportunity
+    and a competitive threat.
+
+    '
+  editorial_note: A major social media platform actively pursuing payments licences
+    in the UK signals growing platform ambition in European payments, with implications
+    for incumbents and regulators alike.
+  sources: '[TikTok expands financial ambitions through Brazil banking push and UK
+    payments play](https://www.retailbankerinternational.com/analyst-comment/tiktok-expands-financial-ambitions-brazil-uk/)
+    — Retail Banker International'
