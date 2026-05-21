@@ -69,7 +69,7 @@ def on_load_draft():
         header = f"*No draft found for {datetime.now().strftime('%Y-%m-%d')}.*"
         outputs = [header, "", ""]
         for _ in range(MAX_STORIES):
-            outputs += [gr.update(visible=False), "", "", "", "", "", "Approve", ""]
+            outputs += ["", "", "", "", "", "Approve", ""]
         return outputs
 
     stories = data.get("stories", [])
@@ -82,22 +82,16 @@ def on_load_draft():
         if i < len(stories):
             s = stories[i]
             outputs += [
-                gr.update(visible=True),
                 f"*Editorial note: {s.get('editorial_note', '')}*",
-                gr.update(value=s.get("headline", "")),
-                gr.update(value=s.get("standfirst", "")),
-                gr.update(value=s.get("body", "").strip()),
-                gr.update(value=s.get("sources", "")),
-                gr.update(value="Approve"),
-                gr.update(value=""),
+                s.get("headline", ""),
+                s.get("standfirst", ""),
+                s.get("body", "").strip(),
+                s.get("sources", ""),
+                "Approve",
+                "",
             ]
         else:
-            outputs += [
-                gr.update(visible=False),
-                "", "", "", "", "",
-                gr.update(value="Approve"),
-                gr.update(value=""),
-            ]
+            outputs += ["", "", "", "", "", "Approve", ""]
     return outputs
 
 
@@ -289,7 +283,7 @@ with gr.Blocks(title="Skald — Editorial Dashboard") as app:
     decisions, reasons = [], []
 
     for i in range(MAX_STORIES):
-        with gr.Column(visible=False) as grp:
+        with gr.Group() as grp:
             with gr.Row():
                 gr.Markdown(f"#### Story {i + 1}")
                 dec = gr.Radio(["Approve", "Reject"], value="Approve", label="Decision", scale=0)
@@ -335,11 +329,11 @@ with gr.Blocks(title="Skald — Editorial Dashboard") as app:
             save_btn = gr.Button("Save feedback", variant="secondary", scale=0)
             publish_btn = gr.Button("Publish approved", variant="primary", scale=0)
 
-    # Per-story load outputs: group, editorial_note, headline, standfirst, body, sources, decision, reason
+    # Per-story load outputs: editorial_note, headline, standfirst, body, sources, decision, reason
     load_outputs = [header_md, briefing_title_input, social_post_input]
     for i in range(MAX_STORIES):
         load_outputs += [
-            groups[i], editorial_note_mds[i],
+            editorial_note_mds[i],
             headlines[i], standfirsts[i], bodies[i], sources_txts[i],
             decisions[i], reasons[i],
         ]
