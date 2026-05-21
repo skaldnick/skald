@@ -66,7 +66,7 @@ Actions tab. There is no separate local `hf-space/` repo to maintain.
 Full cloud pipeline operational. First briefing published April 13, 2026.
 
 ### Cloud architecture
-1. **GitHub Actions** (`generate.yml`) — runs `python -m generator.client` at 06:00 UTC Mon–Fri, commits draft to `output/payments/YYYY-MM-DD.md`. Can also be triggered manually via workflow_dispatch.
+1. **GitHub Actions** (`generate.yml`) — manual trigger only (workflow_dispatch); runs `python -m generator.client`, commits draft to `output/payments/YYYY-MM-DD.md`. Triggered from the HuggingFace Space dashboard.
 2. **HuggingFace Space** (`nick385/skald`) — Gradio dashboard; editor clicks "Trigger generation" to dispatch the GitHub Actions workflow, then "Load draft" once it completes. Reviews, edits, approves stories, and publishes to `site/content/briefings/YYYY-MM-DD.md` in `skaldnick/vikingmedia-site` via GitHub API commit.
 3. **Cloudflare Pages** — watches `skaldnick/vikingmedia-site`; auto-deploys on push; runs `hugo --minify --source site`, serves from `public/`; live at vikingmedia.org/skald/
 
@@ -81,11 +81,11 @@ Full cloud pipeline operational. First briefing published April 13, 2026.
 - prompts/payments/story.yaml — selection criteria, news recognition, output format; instructs Claude to produce a concise briefing title
 - prompts/payments/style_rules.yaml — accumulated house style rules extracted from editorial diffs; injected into system prompt on every generation run
 - data/recently_covered.yaml — approved and published story headlines by date; injected into user prompt to prevent repeat coverage; committed to repo so GitHub Actions can access it
-- dashboard/app.py — Gradio editorial interface (trigger generation, load draft, edit, save feedback, approve/reject, publish); pre-fills briefing title from AI draft
+- dashboard/app.py — Gradio editorial interface (trigger generation, load draft, edit, save feedback, approve/reject, publish); pre-fills briefing title and social post from AI draft; Re-generate button regenerates both from approved stories; social post box shows character count (current / 280)
 - dashboard/github_api.py — GitHub API helpers (read/write files, dispatch workflows); dashboard uses this when GITHUB_TOKEN set, local filesystem otherwise. Uses two repo env vars: GITHUB_REPO (vikingmedia-site, for publishing briefings) and GITHUB_PIPELINE_REPO (skald, for workflow dispatch and reading drafts)
 - beats/payments.yaml — source config (11 sources: regulatory, Google Alerts, trade press)
 - beats/payments_filters.yaml — keyword filter config (global + per-source include/exclude, passthrough)
-- .github/workflows/generate.yml — scheduled briefing generation (06:00 UTC Mon–Fri) + manual trigger
+- .github/workflows/generate.yml — manual trigger only (workflow_dispatch); no scheduled cron
 - .github/workflows/sync-hf-space.yml — syncs dashboard and source files to HuggingFace Space on push to main; also triggerable manually
 - tools/fetch_raw.py — fetch and cache raw feed snapshot for offline filter testing
 - tools/test_filters.py — test filter configs against cached snapshots; shows per-source pass/cut
