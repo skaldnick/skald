@@ -1,6 +1,6 @@
 anthropic
 feedparser
-gradio==6.14.0
+gradio
 python-dotenv
 pyyaml
 requests
