@@ -289,7 +289,7 @@ with gr.Blocks(title="Skald — Editorial Dashboard") as app:
         trigger_btn = gr.Button("Trigger generation", variant="secondary", scale=0)
         load_btn = gr.Button("Load draft", variant="primary", scale=0)
 
-    header_md = gr.Markdown("*Loading draft...*")
+    header_md = gr.Markdown(f"*No draft found for {datetime.now().strftime('%Y-%m-%d')}.*")
 
     groups = []
     editorial_note_mds = []

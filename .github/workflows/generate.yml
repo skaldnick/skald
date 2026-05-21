@@ -1,9 +1,7 @@
 name: Generate daily briefing
 
 on:
-  schedule:
-    - cron: '0 6 * * 1-5'  # 6am UTC, Monday–Friday
-  workflow_dispatch:        # allow manual trigger
+  workflow_dispatch:        # manual trigger only
 
 jobs:
   generate:
