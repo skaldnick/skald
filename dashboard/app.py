@@ -289,7 +289,7 @@ with gr.Blocks(title="Skald — Editorial Dashboard") as app:
     decisions, reasons = [], []
 
     for i in range(MAX_STORIES):
-        with gr.Group(visible=False) as grp:
+        with gr.Column(visible=False) as grp:
             with gr.Row():
                 gr.Markdown(f"#### Story {i + 1}")
                 dec = gr.Radio(["Approve", "Reject"], value="Approve", label="Decision", scale=0)
