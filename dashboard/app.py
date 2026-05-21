@@ -13,6 +13,7 @@ from dashboard import github_api
 from dashboard import x_api
 
 MAX_STORIES = 5
+X_CHAR_LIMIT = 280
 DEMO_MODE = os.environ.get("DEMO_MODE", "false").lower() == "true"
 BRIEFING_BASE_URL = os.environ.get("BRIEFING_BASE_URL", "https://vikingmedia.org/briefings")
 ROOT = Path(__file__).parent.parent
@@ -244,17 +245,18 @@ def on_publish(*args):
     return "\n\n".join(messages)
 
 
-def on_generate_title(*args):
+def on_regenerate(*args):
     headlines = list(args[:MAX_STORIES])
     decisions = list(args[MAX_STORIES:])
     approved = [h for h, d in zip(headlines, decisions) if h.strip() and d == "Approve"]
     if not approved:
-        return gr.update(), "*No approved stories — approve at least one story first.*"
+        return gr.update(), gr.update(), "*No approved stories — approve at least one story first.*"
     api_key = os.environ.get("ANTHROPIC_API_KEY")
     if not api_key:
-        return gr.update(), "*ANTHROPIC_API_KEY not set — enter title manually.*"
+        return gr.update(), gr.update(), "*ANTHROPIC_API_KEY not set — enter title and social post manually.*"
     client = anthropic.Anthropic(api_key=api_key)
-    resp = client.messages.create(
+    headlines_text = "\n".join(f"- {h}" for h in approved)
+    title_resp = client.messages.create(
         model="claude-haiku-4-5-20251001",
         max_tokens=60,
         system=(
@@ -262,9 +264,21 @@ def on_generate_title(*args):
             "Format: 4–8 words, semicolons separating topics. No quotes, no trailing punctuation. "
             "Example: 'GoCardless profits; pay-by-bank friction; PSD3 delay'"
         ),
-        messages=[{"role": "user", "content": f"Generate a briefing title for these approved story headlines:\n\n" + "\n".join(f"- {h}" for h in approved)}],
+        messages=[{"role": "user", "content": f"Generate a briefing title for these approved story headlines:\n\n{headlines_text}"}],
     )
-    return resp.content[0].text.strip(), ""
+    social_resp = client.messages.create(
+        model="claude-haiku-4-5-20251001",
+        max_tokens=100,
+        system=(
+            "You write social posts for X (Twitter) for a European payments and open banking newsletter. "
+            f"Stay well under {X_CHAR_LIMIT} characters — the caller will append 'Today's briefing → {{link}}' (about 30 chars). "
+            "Lead with the most interesting story. Tease 2–3 topics with 'Plus:'. No hashtags. No trailing punctuation. "
+            "Output only the post text, nothing else."
+        ),
+        messages=[{"role": "user", "content": f"Write an X social post for a briefing covering these stories:\n\n{headlines_text}"}],
+    )
+    social = social_resp.content[0].text.strip() + " Today's briefing → {link}"
+    return title_resp.content[0].text.strip(), social, ""
 
 
 # --- UI ---
@@ -314,7 +328,7 @@ with gr.Blocks(title="Skald — Editorial Dashboard") as app:
             visible=not DEMO_MODE,
         )
         if not DEMO_MODE:
-            gen_title_btn = gr.Button("Generate title", variant="secondary", scale=0)
+            regen_btn = gr.Button("Re-generate", variant="secondary", scale=0)
 
     social_post_input = gr.Textbox(
         placeholder="Social post for X — AI-drafted, edit before publishing",
@@ -322,6 +336,8 @@ with gr.Blocks(title="Skald — Editorial Dashboard") as app:
         lines=3,
         visible=not DEMO_MODE,
     )
+    if not DEMO_MODE:
+        social_char_count = gr.Markdown(f"0 / {X_CHAR_LIMIT}")
 
     with gr.Row():
         status_md = gr.Markdown("")
@@ -349,10 +365,15 @@ with gr.Blocks(title="Skald — Editorial Dashboard") as app:
             inputs=[briefing_title_input, social_post_input] + headlines + standfirsts + bodies + sources_txts + decisions,
             outputs=status_md,
         )
-        gen_title_btn.click(
-            on_generate_title,
+        social_post_input.change(
+            fn=lambda text: f"{len(text)} / {X_CHAR_LIMIT}",
+            inputs=social_post_input,
+            outputs=social_char_count,
+        )
+        regen_btn.click(
+            on_regenerate,
             inputs=headlines + decisions,
-            outputs=[briefing_title_input, status_md],
+            outputs=[briefing_title_input, social_post_input, status_md],
         )
 
 
