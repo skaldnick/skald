@@ -1,0 +1,161 @@
+title: Plaid guaranteed payments; AllUnity krona stablecoin; Lloyds embeds tax tools;
+  FICO open banking scores
+social_post: 'Plaid wants to own the risk on pay-by-bank. Plus: a krona-backed stablecoin,
+  FICO scores built on bank data, and Lloyds quietly embedding open banking for SMEs.
+  Today''s briefing → {link}'
+stories:
+- headline: Plaid launches guaranteed pay-by-bank product, absorbing payment risk
+  standfirst: Plaid's new service underwrites account-to-account payment failures,
+    marking a significant step in shifting pay-by-bank from a plumbing layer to a
+    full checkout competitor.
+  body: 'Plaid has launched Guaranteed Payments, a bank payment product that evaluates
+    each transaction in real time and guarantees settlement to the merchant. The service
+    effectively moves Plaid from data connectivity into payment risk underwriting,
+    a substantial expansion of its commercial model and one that positions it more
+    directly against card networks.
+
+
+    The product addresses a persistent barrier to pay-by-bank adoption at the point
+    of sale: merchants bear the risk of returns and insufficient funds, unlike card
+    payments where the acquirer or network absorbs that exposure. By guaranteeing
+    each payment, Plaid removes that asymmetry for merchants willing to route transactions
+    through its infrastructure.
+
+
+    This is the clearest signal yet that the competitive frontier in account-to-account
+    payments is shifting from connectivity to risk and conversion. Plaid is not the
+    first to offer guaranteed bank payments, but its scale in open banking connectivity
+    across the US gives the product an unusually large potential distribution. European
+    pay-by-bank providers will be watching closely, as the same risk-absorption model
+    is likely to define which account-to-account offerings gain serious merchant traction.
+
+    '
+  editorial_note: This product launch has broader strategic implications — it signals
+    how open banking infrastructure providers are moving up the value chain to compete
+    with cards on merchant risk, relevant to European account-to-account payment strategies.
+  sources: '[Plaid''s Payment Assurance and other Digital Transactions News briefs
+    from 5/20/26](https://www.digitaltransactions.net/plaids-payment-assurance-and-other-digital-transactions-news-briefs-from-5-20-26/)
+    — Digital Transactions'
+- headline: AllUnity prepares Swedish krona stablecoin and eyes agentic payments
+  standfirst: A German stablecoin issuer is set to launch the first krona-denominated
+    stablecoin, extending the MiCA-regulated stablecoin landscape beyond the euro.
+  body: 'AllUnity, the German stablecoin venture backed by DWS, Flow Traders and Galaxy
+    Digital, is preparing to launch a Swedish krona-backed stablecoin. The firm is
+    also exploring use cases in agentic payments, where autonomous software agents
+    execute transactions without human intervention.
+
+
+    The move is notable for two reasons. First, it extends Europe''s regulated stablecoin
+    market into a non-euro currency, testing demand for digital cash denominated in
+    smaller European currencies. Second, AllUnity''s interest in agentic payments
+    reflects a growing consensus that machine-initiated transactions will require
+    programmable money with near-instant settlement, a use case where stablecoins
+    may have structural advantages over conventional payment rails.
+
+
+    Sweden is a natural testing ground given its already-low cash usage and the Riksbank''s
+    long-running exploration of an e-krona. A private-sector krona stablecoin operating
+    under MiCA could establish market facts ahead of any central bank digital currency
+    decision, much as euro stablecoins are doing relative to the digital euro.
+
+    '
+  editorial_note: The first krona-denominated stablecoin is a concrete step in the
+    expansion of Europe's regulated digital money landscape, with implications for
+    both CBDC timelines and programmable payment infrastructure.
+  sources: '[AllUnity preps Swedish krona-backed stablecoin](https://www.finextra.com/newsarticle/47790/allunity-preps-swedish-krona-backed-stablecoin)
+    — Finextra'
+- headline: FICO embeds open banking data into US credit scoring via Plaid
+  standfirst: The next-generation UltraFICO score uses consumer-permissioned bank
+    account data to extend credit access to thin-file borrowers, advancing open banking's
+    role in lending decisions.
+  body: 'FICO has rolled out a new version of its UltraFICO Score that incorporates
+    cash flow and balance data from consumer bank accounts via Plaid''s open banking
+    connections. The product targets consumers with thin or non-existent credit files
+    who can demonstrate creditworthiness through their banking behaviour rather than
+    traditional credit bureau records.
+
+
+    Credit scoring is one of the highest-value applications of open banking data,
+    but progress has been uneven. In the UK, open banking-derived affordability data
+    is used in some lending decisions but has not been embedded into the dominant
+    scoring frameworks. FICO''s move to build bank data directly into its flagship
+    product gives the approach far greater distribution in the US market and sets
+    a benchmark that European credit reference agencies will need to consider.
+
+
+    For lenders, the proposition is straightforward: a larger addressable market with
+    better risk discrimination. For the open banking ecosystem, it validates the commercial
+    case for data connectivity beyond payments. The question for Europe is whether
+    equivalent integration into mainstream scoring models follows, or whether open
+    banking credit data remains a parallel input rather than a core component of underwriting.
+
+    '
+  editorial_note: FICO embedding open banking data into its core product is a significant
+    validation of bank account data for credit decisioning, with direct read-across
+    to European open finance ambitions.
+  sources: '[FICO rolls out UltraFICO Score using Plaid cash data](https://www.stocktitan.net/news/FICO/next-generation-ultra-fico-score-now-f0n4kwq7n8vq.html)
+    — Stock Titan'
+- headline: Lloyds offers free Making Tax Digital tool for SMEs via BankiFi
+  standfirst: Lloyds Bank has launched an open banking-powered bookkeeping and tax
+    tool for small businesses, embedding fintech capability directly into its business
+    banking proposition.
+  body: 'Lloyds Bank is now offering small business customers a free tool to manage
+    invoicing, bookkeeping and Making Tax Digital compliance, built by embedded finance
+    provider BankiFi. The service uses open banking to connect business accounts and
+    automate financial record-keeping from a single interface within the bank''s own
+    platform.
+
+
+    The partnership illustrates a maturing pattern in bank-fintech relationships:
+    rather than competing with third-party apps, Lloyds is integrating fintech capability
+    into its own distribution channel. For BankiFi, the deal provides access to one
+    of the UK''s largest SME customer bases. For Lloyds, it adds a retention-focused
+    service layer at a moment when HMRC''s Making Tax Digital requirements are forcing
+    small businesses to adopt digital record-keeping tools.
+
+
+    This is a practical example of what open banking-enabled embedded finance looks
+    like at scale in business banking. The competitive implication is clear: banks
+    that can bundle value-added services around the current account strengthen their
+    position as the primary financial relationship, while those that cannot risk losing
+    SME engagement to accounting platforms such as Xero and QuickBooks that increasingly
+    offer payment and banking features of their own.
+
+    '
+  editorial_note: A concrete example of a major UK bank using open banking and embedded
+    fintech to defend its SME relationship, relevant to the broader competitive dynamics
+    of business banking.
+  sources: '[Lloyds offers free Making Tax Digital tool for small businesses, powered
+    by BankiFi](https://www.openbankingexpo.com/news/lloyds-offers-free-making-tax-digital-tool-for-small-businesses-powered-by-bankifi/)
+    — Open Banking Expo'
+- headline: PPI builds digital euro operating platform to ready banks for launch
+  standfirst: German payments consultancy PPI has developed a platform to help commercial
+    banks connect to the ECB's planned digital euro infrastructure, signalling that
+    preparation is moving from policy debate to technical build.
+  body: 'PPI, a Hamburg-based payments consultancy, has developed an operating platform
+    designed to help banks integrate with the ECB''s Digital Euro Service Platform.
+    The system handles account management, transaction processing and compliance functions
+    that commercial banks will need to offer digital euro wallets and payments to
+    their customers.
+
+
+    The digital euro remains in its preparation phase, with legislation still working
+    through the European Parliament. But the emergence of vendor-built middleware
+    signals that parts of the banking industry are treating the digital euro less
+    as a hypothetical and more as an infrastructure project with a foreseeable timeline.
+    Banks that delay technical preparation risk being caught out if the ECB moves
+    to a pilot phase in the next 18 to 24 months.
+
+
+    PPI''s platform is one of the first commercial products explicitly built for digital
+    euro distribution, positioning the firm to capture an early mover advantage in
+    what could become a significant integration market. For banks, the question is
+    whether to invest now in readiness or wait for greater regulatory certainty, a
+    calculation that grows more pressing as the ECB''s preparation phase advances.
+
+    '
+  editorial_note: The shift from policy discussion to vendor platform-building for
+    the digital euro is a material signal of industry readiness, relevant to bank
+    strategy and infrastructure planning.
+  sources: '[PPI develops digital euro operating platform for banks](https://www.finextra.com/pressarticle/109915/ppi-develops-digital-euro-operating-platform-for-banks)
+    — Finextra'
