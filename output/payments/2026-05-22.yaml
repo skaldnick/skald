@@ -1,0 +1,129 @@
+title: PSR targets Visa and Mastercard profits; TrueLayer expands in Dublin; PSD3
+  timeline firms up
+social_post: 'The PSR wants Visa and Mastercard to open their UK books. Plus: TrueLayer
+  bets on Dublin, PSD3 inches closer, and Malaysia''s open finance push gathers pace.
+  {link}'
+stories:
+- headline: PSR proposes mandatory UK profit reporting for Visa and Mastercard
+  standfirst: The Payment Systems Regulator is moving to require Visa and Mastercard
+    to disclose detailed UK profitability data, a direct consequence of its finding
+    that the card schemes face no effective competition.
+  body: 'The PSR published a proposed direction and consultation on May 21 that would
+    compel Visa and Mastercard to submit regular, detailed financial reports on their
+    UK operations. The regulator wants granular data on revenues, costs and profits
+    generated from card scheme and processing fees in the UK market, going beyond
+    what the schemes currently disclose publicly.
+
+
+    This follows the PSR''s final report on its market review of card scheme and processing
+    fees, which concluded that Mastercard and Visa have increased fees without facing
+    sufficient competitive constraint. The proposed reporting framework is designed
+    to give the regulator an ongoing view of profitability, rather than relying on
+    periodic market reviews to surface pricing concerns after the fact.
+
+
+    The consultation runs until later in the summer. If adopted, the direction would
+    represent a significant increase in regulatory oversight of scheme economics in
+    the UK, and could inform future interventions on pricing. For acquirers, merchants
+    and competing payment methods, the resulting transparency may shift the terms
+    of the debate around interchange and scheme fee levels.
+
+    '
+  editorial_note: This is the most consequential UK payments regulatory development
+    today, directly affecting the two dominant card schemes and potentially reshaping
+    fee negotiations across the industry.
+  sources: '[UK regulator proposes profit reporting rules for Visa and Mastercard](https://www.reuters.com/world/uk/uk-regulator-proposes-profit-reporting-rules-visa-mastercard-2026-05-21/)
+    — Reuters | [UK Regulator Proposes Profit Disclosure Rules for Visa, Mastercard](https://www.globalbankingandfinance.com/uk-regulator-proposes-profit-reporting-rules-visa-mastercard/)
+    — Global Banking & Finance Review | [PSR publishes proposed direction and guidelines](https://www.regulationtomorrow.com/2026/05/psr-publishes-proposed-direction-and-guidelines-regulatory-financial-reporting-in-relation-to-the-market-review-of-card-scheme-and-processing-fees/)
+    — Regulation Tomorrow'
+- headline: TrueLayer expands Dublin operations and appoints Ireland CEO
+  standfirst: TrueLayer has named Pamela Fegan as its Ireland CEO and is expanding
+    its Dublin office, signalling a deeper commitment to the Irish market as a European
+    base for open banking payments.
+  body: 'Fegan, who joins from a policy background in open banking, will lead TrueLayer''s
+    Irish operations. The company says it already powers more than 90 per cent of
+    open banking payment volume through direct connectivity to all of Ireland''s retail
+    banks. The appointment and expansion come as TrueLayer positions Dublin as a hub
+    for its European operations.
+
+
+    The move is notable in the context of post-Brexit regulatory geography. For UK-headquartered
+    open banking firms, maintaining and growing an EU-licensed presence is operationally
+    necessary. TrueLayer''s choice to invest in Dublin, rather than simply maintain
+    a licensing entity there, suggests the company sees Ireland as commercially significant
+    in its own right, not just a passporting convenience.
+
+
+    Whether the Ireland CEO role is newly created or a replacement was not specified
+    in the announcement. The hire does, however, coincide with a broader pattern of
+    open banking providers building out dedicated country leadership as the sector
+    matures beyond its UK origins.
+
+    '
+  editorial_note: A European open banking infrastructure provider deepening its EU
+    footprint is strategically relevant, particularly as PSD3 and the Payment Services
+    Regulation approach.
+  sources: '[TrueLayer Expands Dublin Operations and Appoints Pamela Fegan as Ireland
+    CEO](https://financialit.net/news/people-moves/truelayer-expands-dublin-operations-and-appoints-pamela-fegan-ireland-ceo)
+    — Financial IT'
+- headline: PSD3 and Payment Services Regulation near formal adoption
+  standfirst: The European Parliament and Council have provisionally agreed the PSD3
+    and Payment Services Regulation texts, moving the legislative package into its
+    final phase before publication.
+  body: 'Glenbrook Partners flagged this week that the provisional political agreement
+    between the European Parliament and EU Council brings PSD3 and the accompanying
+    Payment Services Regulation materially closer to formal adoption. Once published
+    in the Official Journal, member states will have a defined transposition period,
+    typically 18 months for the directive component.
+
+
+    The shift from PSD2''s single directive to a regulation-plus-directive structure
+    is the most significant architectural change. The Payment Services Regulation
+    will be directly applicable across the EU without national transposition, reducing
+    the fragmentation that plagued PSD2 implementation. The directive element, PSD3,
+    will handle authorisation and supervision of payment institutions.
+
+
+    For firms already planning their compliance programmes, the provisional agreement
+    narrows the remaining uncertainty. The substantive policy content, covering such
+    areas as open banking access, fraud liability, and strong customer authentication,
+    is now largely settled. The remaining question is timing: how quickly the formal
+    texts are published and when the transposition clock starts.
+
+    '
+  editorial_note: PSD3's progress through the legislative process is the defining
+    regulatory story for European payments this year; each step toward adoption is
+    material for compliance and product planning.
+  sources: '[PSD3 Is Getting Closer for EU Banks](https://glenbrook.com/payments_news/psd3-is-getting-closer-for-eu-banks/)
+    — Glenbrook Partners'
+- headline: Malaysia prepares phased open finance rollout with digital identity integration
+  standfirst: Bank Negara Malaysia is planning to integrate national digital identity
+    schemes with its open finance framework, offering a model for how emerging markets
+    are building consent-driven data sharing from the outset.
+  body: 'Bank Negara Malaysia disclosed that it sees scope for MyDigital ID and other
+    personal data-sharing schemes to feed into the country''s open finance ecosystem
+    as it moves toward phased implementation. The central bank''s approach ties identity
+    verification directly into the data-sharing infrastructure, rather than treating
+    them as separate regulatory workstreams.
+
+
+    This is a different trajectory from Europe and the UK, where open banking was
+    built on top of existing identity and authentication frameworks and is now being
+    extended toward broader open finance. Malaysia is attempting to build both layers
+    simultaneously, which could reduce friction but also increases implementation
+    complexity.
+
+
+    For European observers, the Malaysian approach is worth watching as a reference
+    point. The EU''s own open finance ambitions under the Financial Data Access framework
+    face similar questions about how identity, consent and data portability interact.
+    Markets that get the sequencing right early may avoid the retrofitting challenges
+    that have characterised the European experience.
+
+    '
+  editorial_note: Malaysia's approach to open finance illustrates a distinct regulatory
+    design philosophy that European strategists can benchmark against their own frameworks.
+  sources: '[BNM sees potential for data sharing scheme integration with Open Finance
+    framework](https://theedgemalaysia.com/node/804475) — The Edge Malaysia | [BNM
+    Eyes MyDigital ID Link as Open Finance in Malaysia Takes Shape](https://fintechnews.my/58715/regtech-fintech-regulation-malaysia/open-finance-malaysia/)
+    — Fintech News Malaysia'
