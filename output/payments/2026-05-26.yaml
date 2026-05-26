@@ -1,0 +1,159 @@
+title: CDP-Nexi stake; Georgia lari stablecoin; Mastercard's Brazil losses; offshore
+  gambling and open banking
+social_post: 'Italy''s state lender tightens its grip on Nexi, Tether launches a lari
+  stablecoin with Georgia''s government, and Mastercard tries to spread nearly $1bn
+  in Brazilian bank losses. Monday briefing: {link}'
+stories:
+- headline: Italy's state lender to increase Nexi stake amid private equity interest
+  standfirst: Cassa Depositi e Prestiti is set to raise its holding in Nexi, reinforcing
+    state influence over Europe's largest payment processor as CVC circles with takeover
+    interest.
+  body: 'CDP''s move to increase its stake in Nexi signals Rome''s intent to keep
+    strategic control of the company, which processes the bulk of Italy''s card transactions.
+    The intervention comes as US private equity firm CVC has been reported as exploring
+    an acquisition of the payments group.
+
+
+    Nexi has been at the centre of European payments consolidation since its mergers
+    with SIA and Nets in 2021, creating a processor with scale across card acquiring,
+    issuing and digital payments in more than 25 markets. A private equity bid would
+    represent one of the largest take-private attempts in European payments. CDP raising
+    its stake makes any hostile approach materially harder and more expensive.
+
+
+    The episode underlines a broader pattern: European governments treating payments
+    infrastructure as strategically sensitive. France has taken a similar posture
+    with Worldline, and the EU''s push for domestic payment schemes such as Wero reflects
+    the same instinct. Whether state ownership produces better outcomes for the payments
+    ecosystem is a separate question, but the political direction is clear.
+
+    '
+  editorial_note: State intervention in a major European payments processor is significant
+    for anyone tracking consolidation dynamics and the political economy of payments
+    infrastructure in Europe.
+  sources: '[Italian state lender to raise stake in Nexi](https://www.finextra.com/newsarticle/47803/italian-state-lender-to-raise-stake-in-nexi)
+    — Finextra'
+- headline: Tether and Georgia launch lari-backed stablecoin for instant payments
+  standfirst: Georgia's government has partnered with Tether to issue GEL₮, a lari-denominated
+    stablecoin aimed at domestic instant payments and cross-border trade, making it
+    one of the first sovereign-backed fiat stablecoins outside major economies.
+  body: 'The GEL₮ stablecoin is pegged to the Georgian lari and designed for both
+    domestic point-of-sale payments and remittance corridors. Tether has been building
+    towards this since its 2024 investment in CityPay.io, a Georgian payments firm.
+    The launch represents a different model from MiCA-regulated euro stablecoins:
+    a smaller economy using stablecoin infrastructure to modernise payments without
+    building conventional instant payment rails from scratch.
+
+
+    For European payments professionals, the significance is less about Georgia itself
+    and more about the template. Stablecoins backed by emerging-market currencies
+    and issued via established crypto infrastructure could become a pattern across
+    EU neighbourhood and candidate countries. It also raises questions about interoperability:
+    how these instruments interact with SEPA, the digital euro and cross-border payment
+    frameworks.
+
+
+    The arrangement sits in a regulatory grey zone. Georgia is not subject to MiCA,
+    and the governance of a sovereign-currency stablecoin issued by a private company
+    operating across jurisdictions will attract scrutiny as the model spreads.
+
+    '
+  editorial_note: A government-endorsed fiat stablecoin at Europe's periphery is a
+    concrete development in the stablecoin-as-payment-rail thesis, with implications
+    for cross-border payment strategy.
+  sources: '[Tether and Georgia Launch GEL₮, a Lari Stablecoin for Instant Payments
+    and Cross-Border Trade](https://www.kucoin.com/news/flash/tether-and-georgia-launch-gel-a-lari-stablecoin-for-instant-payments-and-cross-border-trade)
+    — KuCoin News'
+- headline: Mastercard asks Brazilian processors to absorb share of Banco Master losses
+  standfirst: Mastercard is seeking to distribute nearly $1 billion in losses from
+    the collapse of Banco Master across Brazilian payment processors, testing the
+    boundaries of scheme liability frameworks.
+  body: 'The failure of Banco Master has left Mastercard facing substantial losses
+    in Brazil, and the card scheme is now asking processors in the market to absorb
+    a portion of the cost. The move is unusual: schemes typically pass losses through
+    to issuers or acquirers via established chargeback and settlement rules, not through
+    ad hoc loss-sharing requests to processors.
+
+
+    The episode exposes a structural vulnerability in how scheme economics handle
+    institutional failure in markets where a single bank''s collapse can generate
+    systemic losses across the payment chain. For European processors and acquirers,
+    it is a reminder that counterparty risk in scheme relationships is not purely
+    theoretical, particularly as payment volumes grow and concentration increases.
+
+
+    How processors respond will be instructive. Accepting shared losses would set
+    a precedent that schemes can socialise bank failures across the processing layer.
+    Refusing could strain commercial relationships with Mastercard. Either outcome
+    will inform how risk allocation is negotiated in processor-scheme contracts globally.
+
+    '
+  editorial_note: This is a rare window into scheme-processor risk allocation under
+    stress, with direct relevance to how European acquirers and processors think about
+    counterparty exposure.
+  sources: '[Mastercard asks Brazilian payment processors to split Will losses](https://www.finextra.com/newsarticle/47802/mastercard-asks-brazilian-payment-processors-to-split-will-losses)
+    — Finextra'
+- headline: Offshore casinos exploit open banking rails to circumvent consumer protections
+  standfirst: Unlicensed gambling operators are using account-to-account payments
+    to route transactions outside card scheme chargeback frameworks, stripping consumers
+    of refund rights.
+  body: 'A report from Trinity Bugle details how offshore casinos are deliberately
+    adopting open banking payment initiation to avoid the consumer protection mechanisms
+    built into card payments. When a customer pays via account-to-account transfer
+    rather than card, they lose access to chargeback and Section 75 protections, leaving
+    them with no practical route to recover funds from unlicensed operators.
+
+
+    This is the dark side of a trend the industry otherwise welcomes. Open banking
+    payment initiation is cheaper for merchants and eliminates interchange, but it
+    also removes the consumer safeguards that card schemes have built over decades.
+    For legitimate merchants, this trade-off is manageable. For bad actors, it is
+    the entire point.
+
+
+    The development adds weight to arguments that pay-by-bank products need their
+    own consumer protection framework. The UK''s current approach under the PSR''s
+    APP fraud reimbursement rules covers authorised push payment scams but does not
+    replicate the breadth of card scheme protections. As account-to-account payments
+    scale, the gap between card and non-card consumer rights becomes harder to ignore,
+    particularly in sectors such as gambling where fraud and consumer harm are already
+    elevated.
+
+    '
+  editorial_note: Directly relevant to the pay-by-bank consumer protection debate
+    in Europe and the UK, and connects to the previously covered gambling/open banking
+    friction story with a genuinely new angle on how rails are being exploited.
+  sources: '[Offshore Casinos Are Weaponising Open Banking to Steal Your Refund Rights](https://www.trinitybugle.com/world/offshore-casinos-are-weaponising-open-banking-to-steal-your-refund-rights.html)
+    — Trinity Bugle'
+- headline: Alipay launches AI wallet and token-based payments for agentic commerce
+  standfirst: Alipay has introduced what it calls the world's first AI wallet alongside
+    a token-based payment service, building infrastructure for autonomous AI agents
+    to initiate and complete transactions.
+  body: 'Alipay''s new full-stack AI payment solution includes two services: an AI
+    Wallet that allows AI agents to manage payment credentials and transaction logic,
+    and Token Pay, which enables agents to authenticate and pay without direct human
+    intervention at each step. The products are aimed at partners ranging from AI
+    companies to traditional retailers.
+
+
+    The launch is notable less for the specific products than for what it signals
+    about the pace of agentic payments infrastructure development. While European
+    regulators and industry bodies are still debating how AI agents fit within PSD2/PSD3
+    authentication and consent frameworks, Alipay is shipping production systems.
+    The gap between Asian deployment and European deliberation on agentic payments
+    is widening.
+
+
+    For European payments firms, the strategic question is whether agentic commerce
+    infrastructure will be built on domestic rails or imported from platforms such
+    as Alipay. Strong customer authentication requirements, the liability frameworks
+    in PSD3 and the absence of a clear regulatory carve-out for non-human payment
+    initiation all create friction that competitors operating under lighter regimes
+    do not face.
+
+    '
+  editorial_note: Alipay's move concretises the agentic payments discussion that has
+    been largely theoretical in Europe, and sharpens the competitive and regulatory
+    questions facing European firms.
+  sources: '[Alipay delivers full-stack AI payments infrastructure](https://www.finextra.com/pressarticle/109934/alipay-delivers-full-stack-ai-payments-infrastructure)
+    — Finextra'
