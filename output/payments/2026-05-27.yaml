@@ -1,0 +1,137 @@
+title: ChatGPT bank links; open banking gambling harm; GUARD Act debate; NZ real-time
+  payments
+social_post: 'OpenAI lets ChatGPT connect to your bank account. What could possibly
+  go wrong? Also: open banking as an early-warning system for gambling harm, and NZ
+  proves real-time payments on existing rails. {link}'
+stories:
+- headline: ChatGPT connects to US bank accounts, raising consent questions elsewhere
+  standfirst: OpenAI's move to let ChatGPT access bank data via Plaid tests how AI
+    agents interact with open banking frameworks, with Australia already flagging
+    regulatory friction.
+  body: 'OpenAI has enabled ChatGPT to connect to users'' bank accounts through Plaid''s
+    open banking APIs in the US, allowing the AI assistant to view balances, transactions
+    and spending patterns. The feature represents one of the first mainstream uses
+    of an AI agent accessing live financial data through third-party APIs, rather
+    than through a bank''s own app or a dedicated personal finance tool.
+
+
+    Australia''s financial advice sector is watching closely. Industry figures have
+    noted that the country''s Consumer Data Right framework and tighter consent requirements
+    would make a direct equivalent difficult to launch without significant adaptation.
+    The question is not whether AI agents will access banking data — that is a matter
+    of when — but whether existing consent and liability frameworks are built for
+    a world where the party requesting data is an autonomous agent rather than a human
+    user.
+
+
+    For European open banking, the implications are direct. PSD3 and the Financial
+    Data Access regulation are being drafted with human-initiated consent flows in
+    mind. Agentic access — where an AI acts on a user''s behalf across multiple data
+    holders — sits awkwardly within those models. How regulators respond to this US
+    precedent will shape whether Europe''s frameworks accommodate or constrain the
+    next generation of data-driven financial services.
+
+    '
+  editorial_note: The first major consumer AI product connecting directly to bank
+    accounts is a genuinely new development with regulatory implications across every
+    open banking jurisdiction.
+  sources: '[Domestic sector watches on as ChatGPT allows for banking app linkage](https://www.ifa.com.au/domestic-sector-watches-on-as-chatgpt-allows-for-banking-app-linkage/)
+    — IFA'
+- headline: Fintechs use open banking data to detect gambling harm before it escalates
+  standfirst: A growing body of UK fintech practice is using transaction data accessed
+    via open banking to identify early signs of problem gambling, shifting intervention
+    upstream from the point of crisis.
+  body: 'UK fintechs are building affordability and vulnerability checks that draw
+    on open banking transaction data to flag patterns of gambling harm. When a consumer
+    gives consent, providers can see gambling spend alongside rent, loan repayments
+    and income, constructing a fuller picture of financial stress than any single
+    institution holds alone.
+
+
+    The approach is significant because it moves the detection point. Traditional
+    responsible gambling tools rely on operator-side data — deposit limits, session
+    length, self-exclusion registers. Open banking enables a cross-institutional view
+    that can surface problems a single operator cannot see, such as a customer spreading
+    losses across multiple platforms while falling behind on essential payments.
+
+
+    This sits alongside recent concerns about offshore casinos exploiting open banking
+    payment rails to circumvent consumer protections. The same infrastructure that
+    enables harm detection can, without adequate safeguards, facilitate the spending
+    that causes harm. The UK''s evolving framework — encompassing the FCA''s open
+    banking oversight, the Gambling Commission''s affordability proposals and the
+    PSR''s fraud rules — will need to reconcile these competing dynamics.
+
+    '
+  editorial_note: Directly relevant to the European open banking audience, illustrating
+    a concrete and consequential use case that connects to live UK regulatory debates
+    around gambling, affordability and consumer protection.
+  sources: '[FinTech, open banking and early detection of gambling harm](https://businesscloud.co.uk/news/betting-on-the-user-how-fintechs-use-data-to-spot-gambling-harm-before-it-happens/)
+    — BusinessCloud'
+- headline: Cato Institute challenges US GUARD Act as misguided open banking regulation
+  standfirst: The Cato Institute has published a critique of the bipartisan GUARD
+    Financial Data Act, arguing it would impose unnecessary regulatory overhead on
+    open banking arrangements that already function through market-driven agreements.
+  body: 'The GUARD Financial Data Act, introduced in the US Congress as a bipartisan
+    response to the CFPB''s stalled Section 1033 rulemaking, would establish federal
+    standards for third-party access to consumer financial data. The Cato Institute''s
+    critique argues the bill reflects a "pro-regulatory consensus" that misreads how
+    open banking already works in practice, where banks and fintechs negotiate secure
+    data-sharing arrangements bilaterally, often specifically to eliminate screen
+    scraping.
+
+
+    The think tank''s core objection is that mandating standardised access frameworks
+    could undermine the commercial incentives that have driven banks to open APIs
+    voluntarily. It draws an implicit contrast with the European model, where regulatory
+    mandates under PSD2 preceded widespread API adoption, and where the resulting
+    infrastructure has been criticised for uneven quality precisely because banks
+    lacked commercial motivation to build well.
+
+
+    For European observers, the US debate is instructive. The GUARD Act represents
+    one answer to the question Europe is also confronting under the proposed Financial
+    Data Access regulation: whether data sharing works better when compelled by statute
+    or enabled by market negotiation. The Cato critique, whatever one makes of its
+    libertarian premises, articulates the tension clearly.
+
+    '
+  editorial_note: The US open banking legislative debate has direct read-across to
+    Europe's FIDA discussions. This is a substantive policy critique, not a standard
+    firm client update, from a recognised policy institution.
+  sources: '[The GUARD Financial Data Act Reflects a Misguided Pro-Regulatory Consensus](https://www.cato.org/blog/guard-financial-data-act-reflects-misguided-pro-regulatory-consensus)
+    — Cato Institute'
+- headline: BlinkPay and BNZ prove real-time open banking payments in New Zealand
+  standfirst: New Zealand's BlinkPay has demonstrated real-time account-to-account
+    payments averaging two seconds using existing open banking infrastructure, with
+    BNZ the first bank to participate.
+  body: 'BlinkPay has completed a proof of concept showing that real-time payments
+    can work in New Zealand using existing open banking rails, without waiting for
+    a dedicated instant payments system. In tests with BNZ, funds appeared in recipient
+    accounts in an average of two seconds, using the bank''s existing infrastructure
+    and the Payments NZ API framework.
+
+
+    New Zealand currently lacks a real-time retail payments system comparable to the
+    UK''s Faster Payments or Europe''s SEPA Instant. The standard interbank settlement
+    cycle runs overnight. BlinkPay''s demonstration is significant because it shows
+    open banking payment initiation can deliver a real-time experience within a market
+    where the underlying payment infrastructure does not yet support it natively,
+    by keeping the transaction within a single bank''s ledger.
+
+
+    The limitation is obvious: this works for same-bank transfers. Cross-bank real-time
+    settlement still requires infrastructure New Zealand has not yet built. But as
+    a proof point for open banking''s potential to accelerate payment experiences
+    ahead of system-level upgrades, it is relevant beyond New Zealand. Markets with
+    slower legacy infrastructure — and there are several in Europe''s periphery —
+    face the same question of whether overlay services can bridge the gap.
+
+    '
+  editorial_note: While not a European story, this demonstration of open banking compensating
+    for absent instant payment infrastructure has clear relevance to markets still
+    working toward full SEPA Instant adoption.
+  sources: '[BlinkPay and BNZ prove real-time payments capability using open banking](https://www.bnz.co.nz/about-us/news/blinkpay-and-bnz-prove-real-time-payments-capability-using-open-banking)
+    — BNZ | [BlinkPay proves ''near instant'' payments](https://www.nbr.co.nz/te-ao-maori/blinkpay-proves-near-instant-payments/)
+    — NBR | [In a blink: BlinkPay proofs Kiwi real-time payments](https://businessdesk.co.nz/article/finance/in-a-blink-blinkpay-proofs-kiwi-real-time-payments)
+    — BusinessDesk'
