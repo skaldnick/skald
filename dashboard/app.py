@@ -179,12 +179,11 @@ def on_save(*args):
 
 def on_publish(*args):
     briefing_title = args[0]
-    social_post = args[1]
-    headlines = list(args[2:MAX_STORIES + 2])
-    standfirsts = list(args[MAX_STORIES + 2:MAX_STORIES * 2 + 2])
-    bodies = list(args[MAX_STORIES * 2 + 2:MAX_STORIES * 3 + 2])
-    sources_list = list(args[MAX_STORIES * 3 + 2:MAX_STORIES * 4 + 2])
-    decisions = list(args[MAX_STORIES * 4 + 2:])
+    headlines = list(args[1:MAX_STORIES + 1])
+    standfirsts = list(args[MAX_STORIES + 1:MAX_STORIES * 2 + 1])
+    bodies = list(args[MAX_STORIES * 2 + 1:MAX_STORIES * 3 + 1])
+    sources_list = list(args[MAX_STORIES * 3 + 1:MAX_STORIES * 4 + 1])
+    decisions = list(args[MAX_STORIES * 4 + 1:])
 
     date_str = datetime.now().strftime("%Y-%m-%d")
     approved, rejected = [], []
@@ -230,19 +229,17 @@ def on_publish(*args):
             f"Update recently_rejected {date_str}",
         )
 
-    messages = [f"Published {len(approved)} {'story' if len(approved) == 1 else 'stories'} to {path}"]
+    return f"Published {len(approved)} {'story' if len(approved) == 1 else 'stories'} to {path}"
 
+
+def on_post_to_x(social_post: str):
     post_text = social_post.strip()
-    if post_text:
-        if x_api.available():
-            ok, result = x_api.post_tweet(post_text)
-            messages.append(f"Posted to X: {result}" if ok else f"X post failed: {result}")
-        else:
-            messages.append("X credentials not configured — social post skipped.")
-    else:
-        messages.append("No social post — skipped.")
-
-    return "\n\n".join(messages)
+    if not post_text:
+        return "No social post text — nothing to post."
+    if not x_api.available():
+        return "X credentials not configured."
+    ok, result = x_api.post_tweet(post_text)
+    return f"Posted to X: {result}" if ok else f"X post failed: {result}"
 
 
 def on_regenerate(*args):
@@ -277,7 +274,8 @@ def on_regenerate(*args):
         ),
         messages=[{"role": "user", "content": f"Write an X social post for a briefing covering these stories:\n\n{headlines_text}"}],
     )
-    social = social_resp.content[0].text.strip() + " Today's briefing → {link}"
+    briefing_url = f"{BRIEFING_BASE_URL}/{datetime.now().strftime('%Y-%m-%d')}/"
+    social = social_resp.content[0].text.strip() + f" Today's briefing → {briefing_url}"
     return title_resp.content[0].text.strip(), social, ""
 
 
@@ -289,7 +287,7 @@ with gr.Blocks(title="Skald — Editorial Dashboard") as app:
         trigger_btn = gr.Button("Trigger generation", variant="secondary", scale=0)
         load_btn = gr.Button("Load draft", variant="primary", scale=0)
 
-    header_md = gr.Markdown(f"*No draft found for {datetime.now().strftime('%Y-%m-%d')}.*")
+    header_md = gr.Markdown("*No draft loaded — click **Load draft** to begin.*")
 
     groups = []
     editorial_note_mds = []
@@ -330,12 +328,14 @@ with gr.Blocks(title="Skald — Editorial Dashboard") as app:
         if not DEMO_MODE:
             regen_btn = gr.Button("Re-generate", variant="secondary", scale=0)
 
-    social_post_input = gr.Textbox(
-        placeholder="Social post for X — AI-drafted, edit before publishing",
-        label="Social post (X)",
-        lines=3,
-        visible=not DEMO_MODE,
-    )
+    with gr.Row(visible=not DEMO_MODE):
+        social_post_input = gr.Textbox(
+            placeholder="Social post for X — AI-drafted, edit before publishing",
+            label="Social post (X)",
+            lines=3,
+            scale=1,
+        )
+        post_x_btn = gr.Button("Post to X", variant="secondary", scale=0)
     if not DEMO_MODE:
         social_char_count = gr.Markdown(f"0 / {X_CHAR_LIMIT}")
 
@@ -362,9 +362,10 @@ with gr.Blocks(title="Skald — Editorial Dashboard") as app:
         save_btn.click(on_save, inputs=feedback_inputs, outputs=status_md)
         publish_btn.click(
             on_publish,
-            inputs=[briefing_title_input, social_post_input] + headlines + standfirsts + bodies + sources_txts + decisions,
+            inputs=[briefing_title_input] + headlines + standfirsts + bodies + sources_txts + decisions,
             outputs=status_md,
         )
+        post_x_btn.click(on_post_to_x, inputs=social_post_input, outputs=status_md)
         social_post_input.change(
             fn=lambda text: f"{len(text)} / {X_CHAR_LIMIT}",
             inputs=social_post_input,
