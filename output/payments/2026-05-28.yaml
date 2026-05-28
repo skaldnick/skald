@@ -1,0 +1,126 @@
+title: UK banks back card scheme rival; BIS tokenisation; Bank of Finland on payments
+  sovereignty
+social_post: 'UK''s biggest banks are building a domestic payment scheme to take on
+  Visa and Mastercard. Plus: BIS proves tokenised cross-border payments, and the Bank
+  of Finland makes the geopolitical case for European payment autonomy. {link}'
+stories:
+- headline: UK's largest banks back new domestic scheme to challenge Visa and Mastercard
+  standfirst: A consortium of major UK banks is developing a domestic payment initiative
+    that would use open banking rails to compete directly with the card networks on
+    everyday transactions.
+  body: 'The UK Payments Initiative, backed by several of the country''s largest banks,
+    aims to create a domestic alternative to Visa and Mastercard for retail payments.
+    According to documents seen by The Banker, the scheme would initially route account-to-account
+    payments at the point of sale, with the FCA describing its launch as a "concrete"
+    development for UK payment competition.
+
+
+    The move is the most tangible response yet to longstanding regulatory pressure
+    on card scheme fees in the UK. The PSR''s recent proposal to mandate profit reporting
+    by Visa and Mastercard, covered here last week, signalled that the regulator views
+    scheme economics as insufficiently transparent. A bank-backed alternative, if
+    it reaches scale, would give acquirers and merchants a credible negotiating counterweight.
+
+
+    Whether UKPI can overcome the distribution and acceptance challenges that have
+    stalled similar initiatives elsewhere in Europe remains the central question.
+    EPI''s Wero in the eurozone is further along but still fighting for merchant adoption.
+    The UK scheme''s advantage may lie in having regulatory tailwinds and a domestic
+    card market that is unusually concentrated.
+
+    '
+  editorial_note: A bank-backed domestic payment scheme directly challenging Visa
+    and Mastercard is the most consequential UK payments development in years, with
+    clear read-across to European multi-rail strategy.
+  sources: '[UK''s biggest banks back scheme to challenge Visa and Mastercard dominance](https://www.thebanker.com/content/2c2f7d00-f1e6-4854-bbf1-f90c9fe22c13)
+    — The Banker'
+- headline: BIS cross-border tokenisation project proves wholesale settlement prototype
+  standfirst: Project Agorá, involving multiple central banks and private sector participants,
+    has built a working prototype demonstrating that tokenisation can address core
+    inefficiencies in wholesale cross-border payments.
+  body: 'The Bank for International Settlements has published results from Project
+    Agorá, a multi-year initiative that brings together central banks and commercial
+    players to test tokenised settlement of wholesale cross-border payments. The prototype
+    demonstrates that unified ledger technology can compress settlement times and
+    reduce the friction inherent in correspondent banking chains.
+
+
+    The project matters because it moves tokenisation from theoretical promise to
+    demonstrated capability in the specific context where the pain is greatest: wholesale
+    cross-border flows, where settlement still involves multiple intermediaries, time
+    zones and messaging standards. Unlike retail-focused stablecoin experiments, Agorá
+    operates within the institutional trust framework of central bank money.
+
+
+    For European payments infrastructure operators, the signal is that tokenised settlement
+    is converging with existing regulatory and institutional structures rather than
+    competing with them. The question is no longer whether tokenisation works technically,
+    but how quickly it can be embedded into live clearing and settlement systems.
+
+    '
+  editorial_note: A BIS-led prototype proving tokenised wholesale settlement works
+    is a significant infrastructure milestone, relevant to any European bank or processor
+    planning for next-generation cross-border capabilities.
+  sources: '[Tokenisation can improve wholesale cross-border payments - BIS project](https://www.finextra.com/newsarticle/47819/tokenisation-can-improve-wholesale-cross-border-payments---bis-project)
+    — Finextra'
+- headline: Bank of Finland frames European payment autonomy as a geopolitical imperative
+  standfirst: A senior Bank of Finland official has argued that Europe's reliance
+    on non-European payment infrastructure is a strategic vulnerability, calling for
+    accelerated development of domestic payment capabilities.
+  body: 'In a speech published this week, a Bank of Finland representative made an
+    explicit case that European payment sovereignty is now a geopolitical necessity,
+    not merely an industrial policy preference. The argument centres on the risk that
+    dependence on infrastructure controlled outside Europe, whether card networks
+    or messaging systems, creates leverage points that adversaries or even allies
+    could exploit.
+
+
+    The speech places instant payments, the digital euro and domestic scheme initiatives
+    such as EPI within a single strategic frame: building resilient European payment
+    rails that cannot be disrupted by external actors. This framing has been implicit
+    in EU policy for several years but is becoming more direct as the geopolitical
+    environment hardens.
+
+
+    For payments executives, the practical implication is that regulatory and political
+    pressure to adopt European alternatives to incumbent global networks is likely
+    to intensify. The digital euro, SEPA instant payments mandates and support for
+    domestic schemes are not separate policy threads but components of a single sovereignty
+    agenda.
+
+    '
+  editorial_note: Central bank officials explicitly linking payments infrastructure
+    to geopolitical security signals that regulatory pressure on European payment
+    autonomy will intensify, making this essential context for strategic planning.
+  sources: '[Geopolitical uncertainty and the future of payments](https://www.suomenpankki.fi/en/news-and-topical/speeches-and-interviews2/2026/geopolitical-uncertainty-and-the-future-of-payments/)
+    — Suomen Pankki (Bank of Finland)'
+- headline: Plaid launches income verification for UK and European lenders
+  standfirst: Plaid is extending its open banking infrastructure beyond payments and
+    account aggregation into income verification, entering a segment dominated by
+    legacy credit bureau processes.
+  body: 'Plaid has launched an income verification product for the UK and European
+    markets, allowing lenders to verify applicants'' earnings directly from bank transaction
+    data via open banking connections. The product targets a lending workflow that
+    still commonly relies on payslips, employer letters or credit bureau estimates,
+    all of which introduce delays and inaccuracies.
+
+
+    The move is notable less for the product itself, which several open banking providers
+    already offer, than for what it signals about Plaid''s European ambitions. Having
+    launched its pay-by-bank product last week, Plaid is now building a multi-product
+    presence across payments, data and credit decisioning in Europe. This positions
+    it as a direct competitor to incumbents such as Experian and TransUnion in the
+    affordability assessment layer.
+
+
+    For lenders, open banking-based income verification offers real-time data and
+    reduced fraud risk compared to document-based processes. The competitive question
+    is whether Plaid''s brand and distribution, built primarily in the US, can displace
+    providers with deeper existing relationships across European lending markets.
+
+    '
+  editorial_note: Plaid's move into income verification in Europe extends its strategic
+    expansion beyond payments into credit infrastructure, signalling intensifying
+    competition in open banking-powered lending services.
+  sources: '[Plaid launches income verification tool in the UK and Europe](https://www.finextra.com/pressarticle/109960/plaid-launches-income-verification-tool-in-the-uk-and-europe)
+    — Finextra'
