@@ -1,0 +1,140 @@
+title: UKPI goes live; Europe's first agentic payment; Chile updates open finance
+  rules
+social_post: UKPI launches, ING pulls off Europe's first agentic payment, Chile rewrites
+  its open finance rulebook, and XFolio AI picks up a UK payments acqui. Today's briefing
+  → {link}
+stories:
+- headline: FCA welcomes UKPI launch as open banking scheme goes live
+  standfirst: The UK Payments Initiative has formally launched its account-to-account
+    payments scheme, with FCA endorsement and participation from major banks and fintechs,
+    moving variable recurring payments from pilot to commercial reality.
+  body: 'UKPI, the industry body formed to commercialise open banking payments in
+    the UK, went live on June 2 with a scheme enabling recurring and automated account-to-account
+    payments via commercial variable recurring payments. The FCA issued a statement
+    welcoming the launch and confirming it aligns with the regulator''s broader open
+    banking and open finance roadmap.
+
+
+    The scheme has secured backing from the UK''s largest banks and a roster of fintechs,
+    positioning it as a direct alternative to card network rails for subscription
+    and utility payments. UKPI has framed the launch as a step toward reducing merchant
+    dependence on Visa and Mastercard for recurring billing, a goal that has been
+    discussed for years but lacked a coordinated commercial vehicle.
+
+
+    The FCA noted it plans to consult on a long-term regulatory framework for open
+    banking by the end of 2026, contingent on forthcoming legislative powers. That
+    timeline matters: UKPI''s commercial momentum will depend on whether regulatory
+    certainty arrives fast enough to sustain bank and fintech commitment beyond the
+    initial launch.
+
+    '
+  editorial_note: This is the most significant UK open banking development in months
+    — the shift from regulatory framework to live commercial scheme, with explicit
+    FCA backing, is a material step for the market.
+  sources: '[Open banking takes next step forward with launch of UK Payments Initiative
+    scheme](https://www.fca.org.uk/news/statements/open-banking-launch-uk-payments-initiative-scheme)
+    — FCA | [UK Payments Initiative launches to challenge Visa and Mastercard stranglehold](https://www.finextra.com/newsarticle/47842/uk-payments-initiative-launches-to-challenge-visa-and-mastercard-stranglehold)
+    — Finextra | [UK Payments Initiative launches new A2A payments scheme in ''defining
+    moment''](https://www.openbankingexpo.com/news/uk-payments-initiative-launches-new-a2a-payments-scheme-in-defining-moment/)
+    — Open Banking Expo | [UK payments initiative launches open banking recurring
+    payments scheme](https://tradersunion.com/news/regulators/show/2205112-uk-open-banking-recurring-payments/)
+    — Traders Union'
+- headline: ING, Worldline and Mastercard complete Europe's first agentic payment
+  standfirst: A live end-to-end agentic payment transaction in Europe signals that
+    AI-initiated commerce is moving from concept to operational reality, with card
+    network and bank infrastructure already in place to support it.
+  body: 'ING, Worldline and Mastercard have executed what they describe as Europe''s
+    first end-to-end agentic payment transaction. The transaction was completed live,
+    with an AI agent initiating and completing a payment on behalf of a user through
+    existing payment infrastructure, rather than requiring manual intervention at
+    the authorisation stage.
+
+
+    Agentic payments — where AI systems act autonomously to make purchases or settle
+    obligations — have been a talking point since the emergence of commercial AI agents
+    in 2025. This transaction demonstrates that the plumbing to support them already
+    exists within current card and banking rails, rather than requiring entirely new
+    infrastructure. The involvement of a major bank, a large processor and a card
+    network gives the proof point more weight than a startup demo.
+
+
+    The practical question remains how quickly consumer trust and regulatory comfort
+    will catch up with the technical capability. Authentication, liability and consent
+    frameworks for AI-initiated payments are largely unaddressed in current European
+    regulation. But the fact that established players are now executing live transactions,
+    rather than publishing white papers, compresses the timeline for those conversations.
+
+    '
+  editorial_note: Agentic payments have been theoretical until now. A live transaction
+    involving ING, Worldline and Mastercard is the clearest signal yet that incumbents
+    are positioning for this market, making it relevant for payments strategists.
+  sources: '[Worldline, ING, and Mastercard execute first European agentic payment](https://thepaypers.com/payments/news/worldline-ing-and-mastercard-execute-first-european-agentic-payment)
+    — The Paypers | [ING completes live end-to-end European agentic payment transaction](https://www.finextra.com/newsarticle/47844/ing-completes-live-end-to-end-european-agentic-payment-transaction)
+    — Finextra'
+- headline: Chile's financial regulator amends open finance rules with new technical
+    annex
+  standfirst: Chile's CMF has updated its open finance regulation with a detailed
+    technical annex, advancing one of Latin America's most structured approaches to
+    data sharing in financial services.
+  body: 'The Chilean Financial Market Commission (CMF) issued an amendment to General
+    Rule No. 514 on June 1, updating the regulatory framework for the country''s Open
+    Finance System under the Fintech Law. The amendment incorporates a technical annex
+    specifying implementation details for participants in the system.
+
+
+    Chile''s approach is notable for its level of regulatory prescription compared
+    with other Latin American markets. While Brazil has built open finance through
+    central bank-led mandates and Mexico has moved more slowly under its own fintech
+    law, Chile''s CMF has opted for detailed rule-making that leaves less to industry
+    interpretation. The addition of a technical annex suggests the regulator is moving
+    toward operational readiness rather than still debating principles.
+
+
+    For European observers, Chile''s progress is relevant as a comparator for how
+    open finance frameworks develop outside the EU and UK. The CMF''s willingness
+    to iterate on its rules — amending rather than waiting for a comprehensive rewrite
+    — offers a contrast to the EU''s slower legislative cycle around PSD3 and the
+    Financial Data Access regulation.
+
+    '
+  editorial_note: Chile's open finance framework is among the most advanced in Latin
+    America and its regulatory updates offer useful comparative context for European
+    professionals tracking global open finance developments.
+  sources: '[CMF amends regulation on Open Finance System, incorporates Technical
+    Annex](https://www.cmfchile.cl/portal/principal/613/w3-article-110883.html) —
+    CMF Chile'
+- headline: XFolio AI acquires Absolute Payment Solutions to build UK corporate treasury
+    platform
+  standfirst: A Paris-based treasury technology firm has acquired one of the UK's
+    Pay.UK-accredited Bacs providers, combining payment processing with cash management
+    in a single platform for mid-market corporates.
+  body: 'XFolio AI has acquired Absolute Payment Solutions, a Pay.UK-accredited Bacs
+    service provider, to create an integrated treasury and payments platform for UK
+    corporates. The combined offering spans Bacs processing, open banking connectivity,
+    risk management and cash management.
+
+
+    The deal is a small example of a broader pattern: treasury and payments functions
+    converging into unified platforms, driven by corporate demand for fewer systems
+    and better cash visibility. Absolute Payment Solutions'' accreditation as a Bacs
+    service provider — a relatively scarce licence — gives XFolio direct access to
+    UK payment rails rather than relying on intermediaries.
+
+
+    XFolio AI is Paris-based, making this a cross-border acquisition that brings a
+    European treasury technology firm into the UK payments infrastructure layer. For
+    the UK mid-market, the proposition is straightforward: one platform where payments
+    execution and treasury oversight sit together. Whether XFolio can compete effectively
+    against established UK treasury management providers will depend on execution,
+    but the acquisition of a licensed payments provider is a credible entry point.
+
+    '
+  editorial_note: This acquisition illustrates the convergence of treasury and payments
+    technology, and the strategic value of scarce UK payment scheme accreditations
+    — relevant for anyone tracking infrastructure consolidation.
+  sources: '[XFolio AI Acquires Absolute Payment Solutions to Unify Treasury and Payments
+    for UK Corporates](https://www.businesswire.com/news/home/20260602312059/en/XFolio-AI-Acquires-Absolute-Payment-Solutions-to-Unify-Treasury-and-Payments-for-UK-Corporates)
+    — BusinessWire | [XFolio AI buys Absolute Payments to unify treasury and payments
+    for UK corporates](https://www.finextra.com/pressarticle/110002/xfolio-ai-buys-absolute-payments-to-unify-treasury-and-payments-for-uk-corporates)
+    — Finextra'
