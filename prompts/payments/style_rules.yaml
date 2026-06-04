@@ -11,3 +11,5 @@
   rule: "Replace dashes used to introduce a consequence or parenthetical mid-sentence with commas."
 - date: "2026-04-14"
   rule: "Use 'US' not 'United States' in body text."
+- date: "2026-06-04"
+  rule: "Never flag significance explicitly. Do not write sentences that announce importance before explaining it — no 'This matters because', 'The significance here is', 'What this means is', 'Why this is notable', or equivalent framing. Write the substantive point directly; if it belongs in the briefing, the reader will recognise its significance without being told."
