@@ -1,0 +1,165 @@
+title: UKPI scheme goes live; Mastercard adds stablecoin settlement; Wero expands
+  in Germany
+social_post: 'UKPI''s recurring payments scheme is live, Mastercard settles in stablecoins,
+  and Wero reaches German e-commerce. Plus: Cipollone pushes the euro''s digital role
+  and GDS picks Adyen for gov.uk pay-by-bank. {link}'
+stories:
+- headline: UKPI launches commercial variable recurring payments scheme
+  standfirst: GoCardless is the first provider live on the new UK Payments Initiative
+    scheme for recurring account-to-account payments, giving the domestic alternative
+    to cards its first concrete product rails.
+  body: 'The UK Payments Initiative has gone live with a shared rulebook, commercial
+    model and operating standards for variable recurring payments. GoCardless is the
+    scheme''s first active participant, offering what it calls "Recurring Pay by Bank",
+    which pairs real-time API-initiated payments with mandate management for subscriptions
+    and regular billing.
+
+
+    This matters because UKPI has been discussed primarily as an ambition since the
+    UK''s largest banks backed the scheme in late May. The launch of a functioning
+    commercial framework, rather than just a governance structure, is the step that
+    turns it into something merchants and payment service providers can actually build
+    on. Variable recurring payments have long been seen as the use case most likely
+    to drive open banking payment volumes beyond one-off transactions, but have lacked
+    a common scheme to make them interoperable across banks and intermediaries.
+
+
+    The scheme''s success will depend on bank adoption beyond the initial participants
+    and on whether the commercial model offers merchants a compelling enough saving
+    over card-on-file billing. GoCardless''s early participation is notable given
+    its existing direct debit business, positioning it to migrate existing mandates
+    onto faster, data-richer rails.
+
+    '
+  editorial_note: Moves the UKPI story forward from governance announcement to live
+    product, with the first named participant and a concrete commercial framework.
+  sources: '[GoCardless Launches Recurring Pay by Bank as part of New UK Payment Scheme](https://ffnews.com/newsarticle/paytech/gocardless-launches-recurring-pay-by-bank-as-part-of-new-uk-payment-scheme/)
+    — Fintech Finance News | [UKPI launches new open banking payment framework](https://www.fintechfutures.com/open-banking/uk-banks-and-fintechs-unite-to-launch-new-open-banking-payment-framework)
+    — FinTech Futures | [GoCardless backs UKPI scheme launch to drive recurring open
+    banking payments](https://thepaypers.com/payments/news/gocardless-backs-ukpi-scheme-launch-to-drive-recurring-open-banking-payments)
+    — The Paypers | [UK Payments Initiative launches recurring bank scheme](https://itbrief.co.uk/story/uk-payments-initiative-launches-recurring-bank-scheme)
+    — IT Brief UK'
+- headline: Mastercard adds stablecoin settlement to its merchant network
+  standfirst: Mastercard will allow merchants and acquirers to settle transactions
+    in stablecoins, extending digital asset rails from niche crypto use cases into
+    mainstream payment flows.
+  body: 'Mastercard announced at Money20/20 Europe that it is expanding its settlement
+    capabilities to include stablecoin-denominated settlement for merchants. The move
+    lets acquirers and merchants receive funds in stablecoins rather than traditional
+    fiat currencies, integrating digital asset settlement into Mastercard''s existing
+    network infrastructure.
+
+
+    The significance is less about crypto adoption and more about settlement optionality.
+    Stablecoin settlement can reduce the number of intermediaries in cross-border
+    merchant payouts, potentially compressing costs and settlement times. For Mastercard,
+    it also represents a defensive play: as account-to-account and blockchain-based
+    payment alternatives gain traction, embedding stablecoin settlement into the card
+    network keeps volume within Mastercard''s ecosystem rather than ceding it to standalone
+    crypto payment providers.
+
+
+    This follows Mastercard''s recent participation in the ECB''s cross-currency instant
+    payments pilot, signalling a broader strategy of positioning the network as infrastructure-agnostic,
+    capable of routing value across card rails, instant payment systems and now digital
+    asset networks.
+
+    '
+  editorial_note: A major card network integrating stablecoin settlement into mainstream
+    merchant flows is a meaningful step in how digital assets intersect with established
+    payment infrastructure.
+  sources: '[Mastercard expands settlement capabilities](https://www.mastercard.com/us/en/news-and-trends/press/2026/june/mastercard-expands-settlement-capabilities-to-include-stablecoin.html)
+    — Mastercard'
+- headline: ING brings Wero online payments to 10 million German customers
+  standfirst: ING's expansion of Wero to e-commerce in Germany marks the scheme's
+    most significant retail distribution milestone, testing whether EPI's account-to-account
+    alternative can gain traction at online checkout.
+  body: 'ING will extend support for Wero, the European Payments Initiative''s account-to-account
+    payment method, to online shopping for its 10 million German customers. Until
+    now, Wero''s rollout has focused on peer-to-peer transfers. Moving into e-commerce
+    is the use case that will determine whether EPI can genuinely challenge card networks
+    at the point of sale.
+
+
+    Germany is a strategic market for this expansion. German consumers already show
+    a strong preference for non-card payment methods such as PayPal, Klarna and direct
+    bank transfers via Giropay (which Wero is replacing). ING''s large German customer
+    base gives Wero immediate scale, but the real test is merchant acceptance: online
+    retailers need a reason to integrate another payment method, which means Wero
+    must offer either lower costs, higher conversion rates or both.
+
+
+    The move follows a pattern of EPI participants activating Wero in their home markets
+    after the peer-to-peer launch phase. France and Belgium have seen similar progressions.
+    Germany''s size and existing appetite for alternative payments make it the most
+    consequential test yet.
+
+    '
+  editorial_note: Wero's move into German e-commerce is the clearest signal yet of
+    whether EPI can deliver on its promise as a European alternative to card schemes
+    at checkout.
+  sources: '[ING expands Wero payments to online shopping in Germany](https://www.finextra.com/newsarticle/47852/ing-expands-wero-payments-to-online-shopping-in-germany)
+    — Finextra'
+- headline: ECB's Cipollone calls for active push to strengthen euro's global payments
+    role
+  standfirst: ECB executive board member Piero Cipollone has urged Europe to accelerate
+    digital payment infrastructure and capital markets integration to bolster the
+    euro's international standing, framing payments autonomy as essential to monetary
+    sovereignty.
+  body: 'Piero Cipollone used a speech to argue that Europe must move beyond passive
+    reliance on external payment infrastructure and actively strengthen the euro''s
+    role in global transactions. He pointed to the rapid growth of instant payments
+    following EU legislation and the Eurosystem''s pan-European TIPS infrastructure
+    as evidence that coordinated action works, but warned that rising competition
+    from other currencies and payment systems demands further urgency.
+
+
+    The speech builds on a theme Cipollone and other ECB officials have pressed consistently
+    this year: that European payment sovereignty is not an abstract policy goal but
+    a practical requirement for monetary independence. His framing positions instant
+    payments, digital euro work and schemes such as Wero as components of a single
+    strategic effort rather than separate initiatives.
+
+
+    For the industry, the message is that ECB pressure on banks and payment providers
+    to adopt European infrastructure will intensify. Cipollone''s remarks also signal
+    that the ECB sees the competitive landscape, including stablecoin-based settlement
+    and non-European instant payment networks, as a direct challenge to euro-denominated
+    payment flows.
+
+    '
+  editorial_note: Cipollone's speech advances the European payments sovereignty narrative
+    with specific policy implications for infrastructure adoption and digital euro
+    timelines.
+  sources: '[ECB Board Member calls on Europe to actively strengthen the euro''s global
+    role](https://www.cbn.com.cy/article/129919/ecb-board-member-calls-on-europe-to-actively-strengthen-the-euro-s-global-role)
+    — CBN'
+- headline: UK Government Digital Service picks Adyen for open banking on Gov.UK Pay
+  standfirst: The UK's Government Digital Service has appointed Adyen to add open
+    banking payments to the Gov.UK Pay platform, bringing account-to-account payments
+    into public sector transactions.
+  body: 'GDS has selected Adyen to deliver open banking payment functionality on Gov.UK
+    Pay, the centralised payment platform used by government departments and local
+    authorities. The integration will allow citizens to pay for public services directly
+    from their bank accounts, bypassing card networks.
+
+
+    This is a notable reference case for pay-by-bank in the UK. Government payments
+    are high-volume, low-margin transactions where the cost savings from avoiding
+    card interchange are material. If the integration works well, it creates a visible,
+    trusted example of account-to-account payments in everyday use, potentially accelerating
+    consumer familiarity with the payment method.
+
+
+    Adyen''s appointment is also significant competitively. The company has been building
+    out its open banking capabilities alongside its core card acquiring business,
+    and a government contract provides both scale and credibility. The move aligns
+    with the FCA''s broader open finance agenda, which has emphasised expanding data
+    sharing and payment initiation beyond retail financial services.
+
+    '
+  editorial_note: Government adoption of pay-by-bank is a meaningful demand signal
+    for account-to-account payments, and Adyen winning the contract reflects the competitive
+    dynamics among payment providers building open banking capabilities.
+  sources: '[GDS appoints Adyen to bring open banking to Gov.UK Pay](https://www.globalgovernmentfinance.com/gds-govukpay-adyen-open-banking/)
+    — Global Government Finance'
