@@ -76,7 +76,7 @@ def on_load_draft():
     stories = data.get("stories", [])
     title = data.get("title", "")
     briefing_url = f"{BRIEFING_BASE_URL}/{datetime.now().strftime('%Y-%m-%d')}/"
-    social = data.get("social_post", "").replace("{link}", briefing_url)
+    social = data.get("social_post", "").replace("{link}", briefing_url).rstrip(".")
     outputs = [f"### European Payments & Open Banking — {date_str}", title, social]
 
     for i in range(MAX_STORIES):
@@ -268,14 +268,14 @@ def on_regenerate(*args):
         max_tokens=100,
         system=(
             "You write social posts for X (Twitter) for a European payments and open banking newsletter. "
-            f"Stay well under {X_CHAR_LIMIT} characters — the caller will append 'Today's briefing → {{link}}' (about 30 chars). "
+            f"Stay well under {X_CHAR_LIMIT} characters — the caller will append '. Today's briefing → {{link}}' (about 32 chars). "
             "Lead with the most interesting story. Tease 2–3 topics with 'Plus:'. No hashtags. No trailing punctuation. "
             "Output only the post text, nothing else."
         ),
         messages=[{"role": "user", "content": f"Write an X social post for a briefing covering these stories:\n\n{headlines_text}"}],
     )
     briefing_url = f"{BRIEFING_BASE_URL}/{datetime.now().strftime('%Y-%m-%d')}/"
-    social = social_resp.content[0].text.strip() + f" Today's briefing → {briefing_url}"
+    social = social_resp.content[0].text.strip().rstrip(".") + f". Today's briefing → {briefing_url}"
     return title_resp.content[0].text.strip(), social, ""
 
 
