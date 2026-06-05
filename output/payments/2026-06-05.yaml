@@ -1,0 +1,164 @@
+title: EC enforces instant payments; CFIT tackles inclusion; BofA goes real-time cross-border
+social_post: 'The European Commission just fired its first enforcement shots on the
+  Instant Payments Regulation. Plus: Bank of America preps real-time cross-border,
+  and Siemens flags the corporate open banking gap. Today''s briefing → {link}'
+stories:
+- headline: European Commission opens first enforcement cases under instant payments
+    regulation
+  standfirst: The Commission has launched infringement proceedings against member
+    states that have not transposed the Instant Payments Regulation, marking the first
+    concrete enforcement of the October 2025 deadline.
+  body: 'The European Commission''s June infringements package includes proceedings
+    against member states for failing to implement Regulation (EU) 2024/886, which
+    requires euro-area payment service providers to offer instant credit transfers
+    at no premium to standard transfers. The regulation''s first compliance deadline
+    passed in October 2025, and several member states have evidently not completed
+    the necessary transposition.
+
+
+    Enforcement action was widely expected but its arrival matters nonetheless. It
+    signals the Commission will not let instant payments migration drift in the way
+    that earlier SEPA deadlines did. For payment service providers still treating
+    the regulation''s requirements as aspirational, the message is that national regulators
+    will face pressure to act, which will flow downstream to supervised firms.
+
+
+    Separately, Bank of Finland data published this week shows that instant payment
+    volumes in Finland grew materially in 2025, though from a low base, reinforcing
+    the pattern across Europe of adoption accelerating unevenly. The Commission''s
+    willingness to pursue laggards should narrow those gaps.
+
+    '
+  editorial_note: First enforcement actions under the Instant Payments Regulation
+    are a concrete regulatory development with direct operational implications for
+    PSPs across the EU.
+  sources: '[June infringements package: key decisions](https://ec.europa.eu/commission/presscorner/detail/en/inf_26_1084)
+    — European Commission | [Instant payments became more common in 2025](https://www.suomenpankki.fi/en/statistics/statistical-news/payments/2026/instant-payments-became-more-common-in-2025/)
+    — Bank of Finland'
+- headline: Bank of America prepares real-time cross-border payments for corporate
+    clients
+  standfirst: BofA will offer instant cross-border fund transfers via Swift and its
+    CashPro platform, extending real-time settlement beyond domestic rails for corporate,
+    commercial and institutional clients.
+  body: 'Bank of America is preparing to launch a cross-border real-time payments
+    service for corporate, commercial and financial institution clients, using Swift
+    connectivity and its CashPro digital banking platform. The service will allow
+    clients to send and receive funds internationally with instant settlement.
+
+
+    The move reflects growing competitive pressure in transaction banking, where corporate
+    treasurers increasingly expect real-time visibility and settlement across borders,
+    not just domestically. Swift''s own investment in instant cross-border connectivity
+    through its platform has created the infrastructure for correspondent banks to
+    offer these services, and BofA''s adoption signals that tier-one banks now view
+    real-time cross-border as table stakes rather than a premium differentiator.
+
+
+    For European corporates and their banking partners, the development underscores
+    a broader convergence: the distinction between domestic instant payments and cross-border
+    settlement is narrowing, and the banks that cannot offer both will lose share
+    in cash management mandates.
+
+    '
+  editorial_note: A major US bank making real-time cross-border payments operational
+    for corporates is a meaningful step in the convergence of instant and cross-border
+    settlement, relevant to European transaction banking.
+  sources: '[BofA preps cross-border real-time payments service](https://www.finextra.com/newsarticle/47867/bofa-preps-cross-border-real-time-payments-service)
+    — Finextra'
+- headline: PaidBy partners with Mastercard to scale cross-border account-to-account
+    payments
+  standfirst: Mastercard's open finance connectivity will underpin a new cross-border
+    account-to-account payments partnership with PaidBy, aiming to address the fragmentation
+    that limits merchants' ability to scale domestic pay-by-bank internationally.
+  body: 'PaidBy, an account-to-account payments provider owned by Xryma Plc, has partnered
+    with Mastercard to build cross-border account-to-account payment infrastructure.
+    The arrangement combines Mastercard''s open finance network, which connects to
+    bank APIs across multiple markets, with PaidBy''s payment orchestration and settlement
+    layer. The announcement was made at Money20/20 Europe in Amsterdam.
+
+
+    The partnership targets a well-known structural problem: account-to-account payments
+    work well domestically but become fragmented across borders, forcing merchants
+    into separate integrations per market. Mastercard has been steadily building its
+    open finance reach since acquiring Aiia and investing in connectivity infrastructure,
+    and this partnership extends that strategy into cross-border merchant payments.
+
+
+    The broader significance is Mastercard''s continued positioning as infrastructure
+    provider for account-to-account payments, not just card rails. Each partnership
+    of this kind reinforces the network''s role as an intermediary in the account-to-account
+    space, a deliberate hedge against the risk that pay-by-bank methods disintermediate
+    the card schemes entirely.
+
+    '
+  editorial_note: Extends Mastercard's open finance strategy into cross-border account-to-account,
+    illustrating how the card schemes are embedding themselves in the pay-by-bank
+    ecosystem rather than ceding it.
+  sources: '[PaidBy teams up with Mastercard to scale cross-border A2A payments](https://www.openbankingexpo.com/news/paidby-teams-up-with-mastercard-to-scale-cross-border-a2a-payments/)
+    — Open Banking Expo | [PaidBy® by Xryma Plc, partners with Mastercard to scale
+    cross-border account-to-account payments](https://www.prnewswire.com/apac/news-releases/paidby-by-xryma-plc-partners-with-mastercard-to-scale-cross-border-account-to-account-payments-302791360.html)
+    — PR Newswire'
+- headline: CFIT launches coalition to build supported payments for vulnerable customers
+  standfirst: The Centre for Finance, Innovation and Technology has formed a new industry
+    coalition to develop a framework enabling people with learning disabilities to
+    make payments independently with third-party safeguards.
+  body: 'CFIT, the UK body funded by HM Treasury to accelerate fintech adoption, has
+    launched a Financial Inclusion Coalition focused on developing a "supported payments"
+    framework. The initiative aims to enable people with learning disabilities to
+    make everyday payments themselves while allowing a trusted third party to provide
+    oversight, guidance and safeguards. The coalition builds on CFIT''s earlier work
+    on open finance, digital company identity and SME credit access.
+
+
+    The project has its roots in Project Nemo, a CFIT initiative from two years ago
+    that explored how technology could support vulnerable users in financial services.
+    Moving from research to an industry coalition with a specific deliverable, a supported
+    payments framework, represents a step change in ambition.
+
+
+    For payments firms and banks, this matters operationally. Accessibility obligations
+    are tightening across UK financial regulation, and a standard framework for supported
+    payments could become a de facto requirement. Firms that engage early will shape
+    the standards rather than having to retrofit compliance later.
+
+    '
+  editorial_note: A practical industry initiative addressing financial inclusion in
+    payments, with regulatory tailwinds and operational implications for UK payment
+    providers.
+  sources: '[CFIT forms coalition to develop supported payments framework for learning
+    disabled](https://www.finextra.com/newsarticle/47862/cfit-forms-coalition-to-develop-supported-payments-framework-for-learning-disabled)
+    — Finextra | [CFIT launches Financial Inclusion Coalition to develop inclusive
+    payments solutions](https://www.openbankingexpo.com/news/cfit-launches-financial-inclusion-coalition-to-develop-inclusive-payments-solutions/)
+    — Open Banking Expo'
+- headline: Siemens treasury chief flags corporate open banking standards as a missing
+    layer
+  standfirst: Siemens' head of treasury technology has highlighted the absence of
+    corporate-tailored open banking standards as a persistent barrier to API-driven
+    treasury operations, a gap that regulation has so far not addressed.
+  body: 'In an interview with Global Finance, Siemens'' Heiko Nix described the integration
+    of APIs for corporate treasury use as still hampered by the lack of open banking
+    standards designed for corporate, rather than retail, use cases. Slight variations
+    in bank API implementations compound the problem, creating friction that undermines
+    the efficiency gains APIs should deliver.
+
+
+    The observation carries weight coming from one of Europe''s largest corporates.
+    Open banking regulation in Europe was built around retail payment accounts, and
+    while PSD3 and the proposed Payment Services Regulation broaden the scope, corporate
+    treasury remains largely outside the framework''s direct ambitions. Treasurers
+    at large multinationals have the resources to build bespoke connectivity; mid-market
+    corporates do not, and the standardisation gap hits them hardest.
+
+
+    For banks and fintechs selling API-based treasury services, this is a competitive
+    signal. The providers that can offer genuinely standardised, multi-bank API connectivity
+    for corporate use cases, covering cash visibility, payment initiation and reconciliation,
+    will capture the segment. The standards gap is a market opportunity, not just
+    a complaint.
+
+    '
+  editorial_note: A named corporate treasury leader at a major European industrial
+    identifying a specific structural gap in open banking is more valuable than generic
+    commentary — it grounds the standards debate in real operational friction.
+  sources: '[Siemens'' Heiko Nix Details the Corporate Treasury Tech Upgrade](https://gfmag.com/executive-interviews/siemens-heiko-nix-corporate-treasury-tech/)
+    — Global Finance'
