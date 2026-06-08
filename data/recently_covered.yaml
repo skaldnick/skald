@@ -90,3 +90,9 @@
   - Bank of America prepares real-time cross-border payments for corporate clients
   - PaidBy partners with Mastercard to scale cross-border account-to-account payments
   - Siemens treasury chief flags corporate open banking standards as a missing layer
+- date: '2026-06-08'
+  stories:
+  - Airwallex acquires Leapfin to automate reconciliation for cross-border merchants
+  - Backbase integrates Mastercard Move to bring cross-border payments into banking
+    OS
+  - Gov.UK Pay replaces Stripe with Adyen as payment processor
