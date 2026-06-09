@@ -1,0 +1,173 @@
+title: FCA on mortgages; Lloyds AI fraud detection; TrueLayer bank-on-file; ClearBank
+  eurozone push
+social_post: 'The FCA wants open banking to fix mortgage affordability. Also: Lloyds
+  puts AI agents on scam patrol, TrueLayer tries to make bank accounts sticky at checkout,
+  and ClearBank bets on eurozone instant payments. {link}'
+stories:
+- headline: FCA signals open banking data will reshape mortgage affordability checks
+  standfirst: The FCA has outlined plans to use open banking and open finance data
+    to broaden mortgage access, moving beyond traditional income evidence towards
+    real-time transaction-based assessments.
+  body: 'The FCA published a blog post by Emad Aladhal setting out how the regulator
+    intends to modernise mortgage affordability rules to reflect how people actually
+    earn and spend today. The proposal centres on enabling lenders to use open banking
+    data, such as transaction histories and real-time income verification, to assess
+    borrowers who are currently underserved by conventional documentation requirements.
+    Self-employed workers, gig economy participants and those with non-standard income
+    patterns are the clearest beneficiaries.
+
+
+    This is not a new regulatory consultation but a public statement of direction
+    from within the FCA, and it matters because it represents one of the most concrete
+    use cases the regulator has endorsed for open finance beyond payments. The UK''s
+    open banking infrastructure has largely been discussed in terms of payment initiation
+    and account aggregation; the FCA is now explicitly pointing lenders towards using
+    shared financial data to make credit decisions differently.
+
+
+    For mortgage lenders and open banking providers alike, the signal is clear: the
+    FCA expects the market to move towards data-driven affordability. Firms building
+    credit decisioning or income verification tools on open banking rails have a regulatory
+    tailwind, while lenders that continue to rely solely on payslips and bank statements
+    risk falling behind both competitors and supervisory expectations.
+
+    '
+  editorial_note: The FCA publicly articulating a concrete lending use case for open
+    finance data is a meaningful step beyond the usual payments-focused framing, with
+    direct implications for open banking providers and mortgage lenders.
+  sources: '[Opening the door to mortgages: rules focused on better outcomes for people](https://www.fca.org.uk/news/blogs/opening-door-mortgages-rules-focused-better-outcomes-people)
+    — FCA'
+- headline: Lloyds Banking Group deploys agentic AI for real-time scam detection
+  standfirst: Lloyds is using agentic AI to screen payments for fraud in real time
+    across its 28 million customer base, one of the first large-scale deployments
+    of autonomous AI agents in UK banking fraud prevention.
+  body: 'Lloyds Banking Group has expanded its fraud prevention systems to include
+    agentic AI capable of independently checking payments for scam indicators as they
+    are initiated. The system operates in real time, adding an autonomous decision
+    layer to the bank''s existing fraud controls. It covers Lloyds'' full retail and
+    business customer base of 28 million accounts.
+
+
+    The deployment is notable for its scale and its use of agentic rather than conventional
+    rule-based or supervised machine learning approaches. Agentic AI systems can reason
+    across multiple data points and take actions without waiting for human intervention
+    at each step, which is particularly relevant for the speed requirements of instant
+    payments fraud screening. UK banks have been under increasing pressure since the
+    Payment Systems Regulator''s mandatory reimbursement rules took effect, creating
+    a direct financial incentive to stop scams before money leaves accounts rather
+    than compensating victims afterwards.
+
+
+    Lloyds is not the first UK bank to invest heavily in AI-powered fraud detection,
+    but the explicit use of agentic architecture at this scale across a major high-street
+    bank suggests the technology is moving from pilot to production. For other banks
+    and payment providers, it sets a benchmark for what regulators and customers may
+    come to expect.
+
+    '
+  editorial_note: A major UK bank deploying agentic AI at scale for fraud prevention
+    is a concrete signal of how banks are responding to mandatory reimbursement rules
+    and instant payment speeds.
+  sources: '[Lloyds deploys AI agents to check for payment scams in real-time](https://www.finextra.com/newsarticle/47884/lloyds-deploys-ai-agents-to-check-for-payment-scams-in-real-time)
+    — Finextra'
+- headline: TrueLayer launches bank-on-file to challenge card-on-file at checkout
+  standfirst: TrueLayer's new product stores bank account details for repeat purchases,
+    directly targeting the card networks' grip on recurring ecommerce payments.
+  body: 'TrueLayer launched a product called "Bank on File" at Money20/20, designed
+    to let consumers save their bank account as a stored payment method with online
+    merchants, mirroring the card-on-file model that underpins much of ecommerce today.
+    The aim is to make account-to-account payments as frictionless for repeat purchases
+    as stored card credentials, removing the main UX barrier that has limited pay-by-bank
+    adoption in online retail.
+
+
+    The structural challenge for account-to-account payments in ecommerce has always
+    been the authentication step. Card-on-file lets returning customers pay in one
+    click; open banking payments have typically required re-authentication with the
+    bank each time. By storing a tokenised bank account reference, TrueLayer is attempting
+    to close that gap. If it works at scale, it could shift the competitive dynamics
+    between account-to-account and card rails for subscription and repeat-purchase
+    merchants.
+
+
+    The timing is deliberate. With PSD3 and the Payment Services Regulation nearing
+    adoption, and Wero expanding across European markets, the infrastructure and regulatory
+    conditions for stored account-to-account payments are converging. TrueLayer is
+    betting that the open banking ecosystem is mature enough to support persistent
+    payment relationships, not just one-off transfers.
+
+    '
+  editorial_note: This product directly addresses the main friction point limiting
+    account-to-account payments in ecommerce and represents a strategic escalation
+    in the competition between bank rails and card networks.
+  sources: '[TrueLayer Launches ''Bank on File'' at Money20/20 to Direct-Challenge
+    Card Dominance](https://thefintechtimes.com/truelayer-launches-bank-on-file-at-money20-20-to-direct-challenge-card-dominance/)
+    — The Fintech Times'
+- headline: ClearBank positions for eurozone instant payments growth
+  standfirst: ClearBank is expanding its eurozone instant payments capability, betting
+    that the EU's mandatory instant payments regulation will drive demand for cloud-native
+    clearing infrastructure.
+  body: 'ClearBank has signalled its intent to build around projected growth in eurozone
+    instant payments, with its European CEO outlining the firm''s positioning as the
+    regulation mandating full SEPA instant credit transfer availability takes effect.
+    The UK-headquartered clearing bank, which holds a euro banking licence, is targeting
+    fintechs and payment firms that need access to instant euro clearing without building
+    direct connections to legacy infrastructure.
+
+
+    The opportunity is structural. The EU''s instant payments regulation requires
+    all euro-area payment service providers to be able to send and receive instant
+    credit transfers at no premium to standard transfers. Many smaller banks and non-bank
+    payment institutions lack the technical readiness to meet these requirements and
+    will need to access instant payment rails through intermediaries. ClearBank''s
+    cloud-native model, already proven in the UK''s Faster Payments ecosystem, is
+    designed for exactly this kind of agency clearing.
+
+
+    For the broader market, ClearBank''s move illustrates how the instant payments
+    regulation is creating commercial opportunities not just for banks themselves
+    but for the infrastructure providers that sit behind them. The eurozone instant
+    payments market is expected to grow rapidly as the regulatory deadline approaches,
+    and the competition to provide clearing-as-a-service is intensifying.
+
+    '
+  editorial_note: ClearBank's eurozone expansion illustrates how the EU instant payments
+    mandate is reshaping the competitive landscape for clearing infrastructure, a
+    trend with direct implications for fintechs and smaller PSPs.
+  sources: '[ClearBank Positions Around Projected Growth in Eurozone Instant Payments](https://www.tipranks.com/news/private-companies/clearbank-positions-around-projected-growth-in-eurozone-instant-payments)
+    — TipRanks'
+- headline: FDATA proposes tiered model to keep smaller fintechs in Canadian open
+    banking
+  standfirst: FDATA has put forward a tiered accreditation framework for Canada's
+    open banking regime, drawing on the UK's FCA agent model to prevent compliance
+    costs from shutting out smaller participants.
+  body: 'The Financial Data and Technology Association has proposed a model for Canada''s
+    emerging open banking framework that would allow smaller fintechs to participate
+    through a tiered or agent-based accreditation structure rather than meeting the
+    full compliance burden independently. The proposal explicitly references the UK''s
+    FCA-authorised agent model and Australia''s Consumer Data Right framework as precedents.
+
+
+    The concern is straightforward: if open banking accreditation requires the same
+    compliance investment from a five-person fintech as from a major bank, smaller
+    firms will be excluded from the ecosystem. This has been a recurring tension in
+    every jurisdiction that has implemented open banking. In the UK, the agent model
+    allowed smaller third-party providers to operate under the regulatory umbrella
+    of a larger authorised firm, lowering the barrier to entry while maintaining supervisory
+    standards.
+
+
+    Canada is at a formative stage with its open banking legislation. FDATA''s intervention
+    is an attempt to shape the rules before they are set, and the outcome will determine
+    whether Canada''s framework produces a competitive, diverse ecosystem or concentrates
+    data access among a small number of large players. For European observers, it
+    is a useful reference point for how the same design questions are being addressed
+    in PSD3 and the Financial Data Access regulation.
+
+    '
+  editorial_note: Canada's open banking design choices are being actively shaped by
+    lessons from UK and Australian frameworks, making this relevant for European professionals
+    tracking how different jurisdictions handle the same structural trade-offs.
+  sources: '[FDATA proposes model to ensure smaller fintechs can participate in Open
+    Banking in Canada](https://www.openbankingexpo.com/news/fdata-proposes-fintech-model-to-ensure-smaller-players-can-participate-in-open-banking-in-canada/)
+    — Open Banking Expo'
