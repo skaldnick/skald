@@ -96,3 +96,8 @@
   - Backbase integrates Mastercard Move to bring cross-border payments into banking
     OS
   - Gov.UK Pay replaces Stripe with Adyen as payment processor
+- date: '2026-06-09'
+  stories:
+  - FCA signals open banking data will reshape mortgage affordability checks
+  - Lloyds Banking Group deploys agentic AI for real-time scam detection
+  - TrueLayer launches bank-on-file to challenge card-on-file at checkout
