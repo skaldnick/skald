@@ -1,0 +1,156 @@
+title: Visa-OpenAI agentic payments; TIPS goes cross-currency; EBA on AI and open
+  finance
+social_post: 'Visa just handed OpenAI''s AI agents a payment card. Plus: the ECB quietly
+  connects three currencies on TIPS, and the EBA maps out where agentic AI meets open
+  finance. Today''s briefing → {link}'
+stories:
+- headline: Visa partners with OpenAI to enable payments by AI agents
+  standfirst: Visa's deal to let AI agents transact across OpenAI's platform is the
+    clearest signal yet that agentic commerce is moving from concept to infrastructure.
+  body: 'Visa has formed a partnership with OpenAI that will allow AI agents operating
+    on OpenAI''s platform to initiate and complete payments using Visa''s network.
+    The arrangement positions Visa''s rails as a default payment layer for autonomous
+    software agents, a category that both card networks and tech platforms have begun
+    treating as a near-term commercial reality rather than a research curiosity.
+
+
+    The partnership follows a pattern of network-level moves to capture agentic payment
+    flows before they crystallise around alternative rails. Mastercard has made similar
+    signals, and Santander''s Getnet launched agent-initiated merchant acceptance
+    earlier this month. What distinguishes the Visa-OpenAI tie-up is the scale of
+    OpenAI''s consumer and enterprise user base, which gives the integration immediate
+    distribution.
+
+
+    For European payments professionals, the development sharpens a question that
+    PSD3 and the Payment Services Regulation will need to answer: how agent-initiated
+    transactions fit within existing consent, authentication and liability frameworks.
+    If AI agents become a meaningful payment initiation channel, the regulatory treatment
+    of delegated authority and strong customer authentication will require specificity
+    that current drafts do not yet provide.
+
+    '
+  editorial_note: This is the highest-profile agentic commerce partnership to date,
+    combining the largest AI platform with the largest card network, and raises immediate
+    regulatory questions for European payments.
+  sources: '[Visa and OpenAI form agentic commerce partnership](https://www.finextra.com/newsarticle/47900/visa-and-openai-form-agentic-commerce-partnership)
+    — Finextra'
+- headline: ECB launches cross-currency instant payments between euro area, Denmark
+    and Sweden
+  standfirst: TIPS now settles instant payments across euros, Danish kroner and Swedish
+    kronor, creating the first live cross-currency instant payment link in Europe.
+  body: 'The European Central Bank has activated cross-currency settlement on its
+    TIPS infrastructure, enabling payment service providers to send instant payments
+    between accounts denominated in euros, Danish kroner and Swedish kronor. The service
+    went live on June 10, marking the first time TIPS has operated across multiple
+    currencies.
+
+
+    This is a practical milestone for the ECB''s ambition to make TIPS a pan-European
+    utility rather than a eurozone-only system. Denmark and Sweden, both EU members
+    outside the euro area, have been working towards TIPS integration for several
+    years. The go-live means a euro-denominated payment can now reach a recipient''s
+    Swedish krona account in seconds, with currency conversion handled within the
+    settlement process.
+
+
+    The immediate user base is limited to PSPs connected to TIPS in those three currencies,
+    but the architecture is designed to accommodate additional currencies. Norway,
+    which is not an EU member but has explored TIPS participation, is one obvious
+    candidate. For banks and payment processors operating across the Nordics and the
+    eurozone, this reduces the case for maintaining separate domestic and cross-border
+    instant payment channels.
+
+    '
+  editorial_note: A concrete step in making European instant payments cross-border
+    and cross-currency by default, directly relevant to banks and PSPs operating across
+    the euro area and Nordics.
+  sources: '[Cross-currency payments between the euro area, Denmark and Sweden](https://www.ecb.europa.eu/press/intro/news/html/ecb.mipnews260610.en.html)
+    — European Central Bank | [Cross-currency payments between the euro area, Denmark
+    and Sweden go live](https://www.finextra.com/pressarticle/110099/cross-currency-payments-between-the-euro-area-denmark-and-sweden-go-live)
+    — Finextra'
+- headline: Euro Banking Association maps agentic AI's role in open finance
+  standfirst: A new EBA report argues that AI agents acting autonomously within open
+    finance frameworks could reshape embedded finance, but flags unresolved questions
+    on liability and consent.
+  body: 'The Euro Banking Association''s Open Finance Working Group has published
+    a report examining how agentic AI could accelerate embedded finance within open
+    finance ecosystems. The report, titled "Supercharging Embedded Finance", explores
+    scenarios in which AI agents autonomously access financial data and initiate transactions
+    on behalf of consumers and businesses using open finance APIs.
+
+
+    The working group identifies agentic AI as a potential amplifier for open finance
+    adoption, arguing that autonomous agents could drive usage of data-sharing and
+    payment initiation services at a scale and frequency that exceeds manual consumer
+    interaction. The report describes use cases such as agents that continuously optimise
+    treasury positions, auto-switch financial products, or trigger payments based
+    on real-time conditions.
+
+
+    The report also flags governance gaps. Current open finance frameworks assume
+    a human in the loop for consent and authentication. AI agents acting with delegated
+    authority complicate that model, raising questions about liability allocation
+    when an agent acts on stale consent or makes a suboptimal decision. The timing
+    is notable: this is the second publication in a week, after the Visa-OpenAI announcement,
+    to force the question of where autonomous agents sit within European payments
+    regulation.
+
+    '
+  editorial_note: An industry body putting structured thinking around agentic AI and
+    open finance creates a reference point for the regulatory and commercial debates
+    now accelerating in this space.
+  sources: '[EBA Report Says Agentic AI Is Poised to Supercharge Embedded Finance](https://financialit.net/news/artificial-intelligence/eba-report-says-agentic-ai-poised-supercharge-embedded-finance)
+    — Financial IT'
+- headline: BoursoBank integrates Wero for person-to-person payments in France
+  standfirst: France's largest online bank has added Wero to its payment offering,
+    extending the European payment scheme's reach beyond its initial German footprint.
+  body: 'BoursoBank, France''s largest online bank with over seven million customers,
+    has integrated Wero into its payment services. The integration enables BoursoBank
+    customers to send and receive person-to-person instant payments through Wero,
+    which operates on the SEPA instant credit transfer rail.
+
+
+    The move is significant for Wero''s geographic expansion. The scheme, backed by
+    the European Payments Initiative, launched first in Germany and Belgium. ING''s
+    rollout to 10 million German customers was covered last week. BoursoBank''s adoption
+    brings a major French institution onto the platform and tests whether Wero can
+    gain traction in a market where Paylib, the incumbent French mobile payment scheme,
+    already has substantial user penetration.
+
+
+    BoursoBank is owned by Société Générale, one of EPI''s founding shareholders.
+    The integration is therefore expected rather than surprising, but it matters for
+    Wero''s credibility as a pan-European scheme. Each major-market launch that reaches
+    millions of end users strengthens the network effects that Wero needs to compete
+    with established card-based and wallet-based alternatives.
+
+    '
+  editorial_note: Wero's expansion into France through a seven-million-customer bank
+    is a material step in the scheme's effort to build pan-European scale, and advances
+    a continuing story.
+  sources: '[BoursoBank Integrates Wero Into Its Payment Solutions](https://ffnews.com/newsarticle/paytech/boursobank-integrates-wero-into-its-payment-solutions/)
+    — FF News'
+- headline: Token.io appoints Mondu's Gil Danziger as chief technology officer
+  standfirst: The open banking infrastructure provider has hired Gil Danziger from
+    buy-now-pay-later firm Mondu as its new CTO.
+  body: 'Token.io has appointed Gil Danziger as its new chief technology officer.
+    Danziger joins from Mondu, a B2B buy-now-pay-later provider, where he held a senior
+    technology role. Token.io provides open banking payment infrastructure used by
+    banks, payment service providers and merchants to initiate payments directly from
+    customer bank accounts.
+
+
+    The source does not indicate whether this is a newly created role or a replacement.
+    Token.io has been expanding its account-to-account payment capabilities across
+    European markets and recently extended its coverage to additional banking APIs.
+    A CTO appointment at this stage likely reflects the operational demands of scaling
+    infrastructure across fragmented European bank connectivity, though the company
+    has not stated a specific strategic rationale.
+
+    '
+  editorial_note: Token.io is one of the more prominent open banking infrastructure
+    providers in Europe; a CTO hire is worth noting for readers tracking the competitive
+    landscape, even if the strategic implications are not yet clear.
+  sources: '[Token.io appoints Gil Danziger as new CTO](https://www.fintechfutures.com/job-cuts-new-hires/token-io-appoints-gil-danziger-as-new-cto)
+    — FinTech Futures'
