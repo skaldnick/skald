@@ -1,0 +1,136 @@
+title: ETPPA digital euro warning; UKPI recurring payments; SEPA liquidity pressure
+social_post: 'Payment trade body warns the digital euro could lock out open banking
+  providers. Plus: UKPI''s new recurring payments scheme and why instant payments
+  are breaking bank back offices. {link}'
+stories:
+- headline: Trade body warns digital euro could lock out open banking providers
+  standfirst: The European Third Party Providers Association has called on EU policymakers
+    to guarantee that payment initiation providers can access digital euro accounts,
+    arguing current proposals risk undermining open banking principles.
+  body: 'The ETPPA''s intervention targets what it sees as a structural flaw in the
+    emerging digital euro legislative framework: the potential exclusion of licensed
+    payment initiation service providers from digital euro accounts. If enacted as
+    currently drafted, the association argues, the digital euro would create a retail
+    payment instrument that sits outside the open, non-discriminatory access regime
+    established under PSD2 and carried forward into PSD3.
+
+
+    The concern is not abstract. PISPs have built business models on the right to
+    initiate payments from customer accounts held at banks. A digital euro account
+    without equivalent access rights would fragment the regulatory landscape, creating
+    a two-tier system where some payment accounts are open and others are not. The
+    ETPPA is pushing for explicit legislative language ensuring open banking obligations
+    apply to digital euro accounts.
+
+
+    The timing matters. The digital euro regulation is moving through the EU legislative
+    process alongside PSD3 and the Payment Services Regulation, and the interaction
+    between these frameworks will define how Europe''s retail payments infrastructure
+    works for the next decade. If the digital euro is carved out from third-party
+    access rules, it would represent a significant policy reversal at a point when
+    the EU is otherwise deepening its commitment to open finance.
+
+    '
+  editorial_note: A concrete policy conflict between two major EU regulatory workstreams
+    — digital euro and PSD3/open banking — with direct commercial implications for
+    payment initiation providers across Europe.
+  sources: '[ETPPA warns that digital euro proposals could undermine open banking](https://www.finextra.com/pressarticle/110107/etppa-warns-that-digital-euro-proposals-could-undermine-open-banking)
+    — Finextra'
+- headline: UKPI launches recurring payments scheme to scale commercial VRPs
+  standfirst: The UK Payments Initiative has published its new open banking recurring
+    payments scheme, establishing an industry-led framework for commercial variable
+    recurring payments beyond the original sweeping mandate.
+  body: 'UKPI''s scheme provides the rulebook and operational standards needed to
+    move commercial variable recurring payments from pilot to production. Until now,
+    VRPs have been limited in practice to sweeping use cases — moving money between
+    a customer''s own accounts. The new scheme creates the governance layer for broader
+    commercial applications such as subscription billing, utility payments and merchant-initiated
+    collections.
+
+
+    The launch follows the FCA''s open finance roadmap and the National Payments Vision,
+    both of which identified account-to-account recurring payments as a priority.
+    The scheme addresses a chicken-and-egg problem: banks have been reluctant to invest
+    in VRP infrastructure without clear commercial rules, while fintechs and merchants
+    have struggled to build propositions without reliable bank participation. An industry-endorsed
+    scheme lowers the coordination cost on both sides.
+
+
+    Whether this translates into meaningful volume depends on bank adoption. The UK''s
+    major banks control the vast majority of current accounts, and their willingness
+    to implement the scheme''s standards will determine how quickly commercial VRPs
+    become a viable alternative to card-on-file and direct debit for recurring payments.
+
+    '
+  editorial_note: Commercial VRPs have been stuck in an infrastructure gap for years.
+    An industry scheme from UKPI is a necessary — if not sufficient — step toward
+    making account-to-account recurring payments work at scale in the UK.
+  sources: '[UK Payments Initiative launches new open banking recurring payments scheme](https://www.lewissilkin.com/insights/2026/06/11/uk-payments-initiative-launches-new-open-banking-recurring-payments-scheme-102n1ql)
+    — Lewis Silkin | [The A2A Paradigm Shift: How the UK''s National Payments Vision
+    Accelerates Commercial Open Banking](https://www.bobsguide.com/the-a2a-paradigm-shift-how-the-uks-national-payments-vision-accelerates-commercial-open-banking/)
+    — Bobsguide'
+- headline: Devengo becomes first firm certified for cross-border SEPA instant payouts
+  standfirst: Spanish payments firm Devengo has secured OCT Inst certification, enabling
+    it to process cross-border instant payment payouts under the SEPA scheme — a capability
+    that remains rare among non-bank providers.
+  body: 'Devengo''s certification for One-Leg Out Credit Transfer Instant (OCT Inst)
+    allows it to process instant payouts that originate or terminate outside the SEPA
+    zone, bridging euro instant payments with international corridors. The certification
+    positions Devengo as an early mover in a space where most licensed providers are
+    still limited to domestic or intra-SEPA instant transfers.
+
+
+    The development is relevant in the context of the EU''s instant payments regulation,
+    which mandates full SEPA instant reachability for euro-area banks by early 2027.
+    As banks build out their instant payments infrastructure to meet the mandate,
+    the adjacent opportunity is in cross-border flows where instant settlement intersects
+    with payout use cases such as marketplace disbursements, gig economy payments
+    and remittances. OCT Inst certification is the technical prerequisite for serving
+    these corridors.
+
+
+    Devengo is a relatively small player, but the certification illustrates how the
+    regulatory push toward instant payments is creating new infrastructure roles for
+    specialist firms. The question is whether non-bank providers can capture meaningful
+    share of cross-border instant flows before incumbent banks and networks extend
+    their own capabilities.
+
+    '
+  editorial_note: An early OCT Inst certification signals that the instant payments
+    mandate is beginning to create new competitive dynamics in cross-border payouts,
+    a segment worth watching as the 2027 deadline approaches.
+  sources: '[Devengo premieres OCT Inst certification for global payments](https://www.democrata.es/en/economy/devengo-achieves-green-light-to-operate-cross-border-instant-payments-with-european-standard/amp/)
+    — Demócrata'
+- headline: SEPA instant payments mandate forces rethink of bank liquidity management
+  standfirst: As SEPA instant payment volumes scale ahead of the 2027 mandate, banks
+    face growing pressure on intraday liquidity buffers and back-office processes
+    built for batch settlement.
+  body: 'The operational challenge of instant payments is shifting from connectivity
+    to liquidity. A Finextra analysis by Fergus McKie argues that banks'' existing
+    liquidity management frameworks, designed around batch processing windows and
+    predictable settlement cycles, are structurally misaligned with the demands of
+    24/7 real-time settlement. The result is that banks must either hold significantly
+    larger liquidity buffers or invest in real-time cash position monitoring — both
+    of which carry cost.
+
+
+    This is not a new observation, but it is becoming more urgent. The instant payments
+    regulation requires euro-area banks to be fully reachable for SEPA instant credit
+    transfers, and volumes are climbing as early adopters scale. Banks that treated
+    instant payments as a low-volume overlay are discovering that rising transaction
+    counts compound liquidity strain, particularly outside business hours when treasury
+    desks are unstaffed and central bank facilities may be unavailable.
+
+
+    The back-office dimension is equally pressing. Reconciliation, fraud screening
+    and sanctions checking all need to operate in real time to match front-end settlement
+    speeds. Banks that have not automated these functions face a widening gap between
+    the speed at which money moves and the speed at which they can confirm it moved
+    correctly.
+
+    '
+  editorial_note: The liquidity and operational consequences of mandatory instant
+    payments are well understood in theory but under-addressed in practice. This piece
+    usefully articulates the gap as volumes grow.
+  sources: '[Real-time risk: SEPA Instant Payments is rewriting liquidity management](https://www.finextra.com/blogposting/31990/real-time-risk-sepa-instant-payments-is-rewriting-liquidity-management)
+    — Finextra'
