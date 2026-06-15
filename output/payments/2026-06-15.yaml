@@ -1,0 +1,127 @@
+title: APP fraud surges; ACI powers EPI; Adyen buys Orb; open banking for age checks
+social_post: 'UK fraud losses back above £1.2bn, Adyen makes its second acquisition
+  in months, and the UK government wants open banking to verify children''s ages.
+  Today''s briefing: {link}'
+stories:
+- headline: UK fraud losses rise to £1.3 billion as APP scams rebound sharply
+  standfirst: Authorised push payment fraud reversed its 2024 decline and drove an
+    overall increase in UK fraud losses last year, testing the effectiveness of the
+    mandatory reimbursement regime introduced in October 2024.
+  body: 'Criminals stole £1.28 billion through fraud in the UK in 2025, a four per
+    cent increase on the prior year, according to UK Finance''s annual fraud report
+    published June 15. APP fraud, where victims are manipulated into authorising payments
+    to criminals, rose sharply after falling in 2024, the year the Payment Systems
+    Regulator''s mandatory reimbursement framework took effect.
+
+
+    The rebound complicates the narrative around mandatory reimbursement as a deterrent.
+    The framework was designed to shift incentives by making receiving banks share
+    liability, encouraging the industry to invest in prevention. A single year''s
+    data does not settle whether the policy is working, but the direction of travel
+    will intensify scrutiny from consumer groups and regulators alike.
+
+
+    For payment service providers, the figures reinforce that fraud prevention is
+    a cost of doing business that is not yet stabilising. Banks and fintechs building
+    detection capabilities, whether through AI or behavioural analytics, will find
+    fresh urgency in these numbers.
+
+    '
+  editorial_note: The UK Finance annual fraud figures are a key industry benchmark;
+    the APP fraud rebound is directly material to every PSP operating under the reimbursement
+    framework.
+  sources: '[APP fraud back on the rise as crooks stole £1.3bn in 2025 - UK Finance](https://www.finextra.com/newsarticle/47906/app-fraud-back-on-the-rise-as-crooks-stole-13bn-in-2025---uk-finance)
+    — Finextra'
+- headline: ACI Worldwide selected to process instant payments for EPI across Europe
+  standfirst: The European Payments Initiative has chosen ACI Worldwide as its instant
+    payments processing partner, a significant infrastructure decision as EPI scales
+    Wero across the eurozone.
+  body: 'ACI Worldwide announced on June 15 that it will power instant payments processing
+    for EPI, the bank-backed initiative behind the Wero digital payments wallet. The
+    deal positions ACI as a core infrastructure provider for what is intended to become
+    a pan-European alternative to card scheme dominance at the point of sale and in
+    peer-to-peer transfers.
+
+
+    EPI''s choice of processor matters because it signals the initiative is moving
+    from pilot phase into industrial-scale buildout. With the EU Instant Payments
+    Regulation now requiring all eurozone PSPs to support instant credit transfers,
+    EPI needs processing capacity that can handle volume growth across multiple markets
+    simultaneously. ACI''s existing footprint in real-time payments infrastructure
+    across several geographies made it a logical candidate.
+
+
+    For the broader market, the deal underscores that instant payments infrastructure
+    is becoming a competitive battleground in its own right. As Wero expands beyond
+    its initial French and German deployments, the processing layer will determine
+    whether EPI can deliver the speed and reliability needed to compete credibly with
+    Visa, Mastercard and established national schemes.
+
+    '
+  editorial_note: EPI's infrastructure choices are material to the European payments
+    landscape; the selection of a processing partner marks a concrete step in its
+    scaling ambitions.
+  sources: '[ACI Worldwide and EPI to Power Instant Payments in Europe](https://www.businesswire.com/news/home/20260614185807/en/ACI-Worldwide-and-EPI-to-Power-Instant-Payments-in-Europe)
+    — Business Wire'
+- headline: Adyen agrees $335 million acquisition of billing platform Orb
+  standfirst: Adyen's second major acquisition in months signals a deliberate push
+    beyond payment processing into the broader revenue infrastructure stack.
+  body: 'Adyen has agreed to acquire Orb, an enterprise billing platform, for $335
+    million. The deal follows the company''s acquisition earlier this year and marks
+    a shift in strategy for a processor that historically favoured organic growth
+    over M&A.
+
+
+    Orb specialises in usage-based and subscription billing for enterprise clients,
+    a segment that has grown as software and platform businesses move away from flat-rate
+    pricing. By integrating billing directly into its payments platform, Adyen can
+    offer merchants a more complete revenue management layer, reducing the need for
+    third-party billing tools that sit between the payment processor and the merchant''s
+    finance stack.
+
+
+    The acquisition reflects a pattern visible across the payments industry: processors
+    are moving up the value chain from transaction handling into adjacent financial
+    operations such as billing, reconciliation and treasury management. Adyen''s willingness
+    to spend $335 million on a billing platform, after years of minimal acquisition
+    activity, suggests the company sees organic growth in core processing as insufficient
+    to maintain its competitive position against peers making similar moves.
+
+    '
+  editorial_note: Adyen's historically acquistion-averse posture makes this deal strategically
+    notable; two acquisitions in quick succession signals a genuine change in approach.
+  sources: '[Adyen strikes $335m deal for enterprise billing platform Orb](https://www.finextra.com/newsarticle/47910/adyen-strikes-335m-deal-for-enterprise-billing-platform-orb)
+    — Finextra'
+- headline: UK government proposes open banking as an age verification method for
+    social media
+  standfirst: The UK's planned ban on social media for under-16s names open banking
+    data as one of several approved age verification mechanisms, opening a new and
+    potentially large-scale use case for account data sharing.
+  body: 'The UK government is set to announce a ban on social media access for children
+    under 16, with open banking listed among the approved methods for verifying a
+    user''s age. Other proposed mechanisms include passport checks, mobile provider
+    data and facial age estimation. The policy, previewed by Prime Minister Keir Starmer
+    ahead of a formal announcement, would require social media platforms to implement
+    at least one approved verification method.
+
+
+    For the open banking sector, this is a notable expansion of scope. Age verification
+    using bank account data would rely on the identity information banks hold on their
+    customers, accessed via existing open banking APIs. It would represent one of
+    the first large-scale non-financial use cases for open banking infrastructure
+    in the UK, moving beyond payments and creditworthiness into identity services.
+
+
+    The practical questions are substantial. Conversion rates, user willingness to
+    share bank data with social media platforms, and the reliability of bank-held
+    age data will all determine whether open banking verification gains traction alongside
+    simpler methods. But the policy signal is clear: government sees open banking
+    rails as general-purpose digital identity infrastructure, not just a payments
+    tool.
+
+    '
+  editorial_note: Government endorsement of open banking for age verification is a
+    meaningful expansion of the technology's policy footprint beyond financial services.
+  sources: '[UK to unveil under-16 social media ban with face scans](https://www.msn.com/en-gb/news/insight/uk-to-unveil-under-16-social-media-ban-with-face-scans/gm-GMEB320565)
+    — MSN | [Social media ban to be introduced for under 16''s](https://aboutmanchester.co.uk/social-media-ban-to-be-introduced-for-under-16s/)
+    — About Manchester'
