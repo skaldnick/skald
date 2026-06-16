@@ -1,0 +1,179 @@
+title: APP fraud rebounds; ACI joins EPI; mBridge goes live; PSR reimbursement data
+  lands
+social_post: UK fraud losses back above £1.3bn, banks reimburse 89% of APP claims,
+  and pressure shifts firmly to tech platforms. Plus ACI deepens its EPI bet and mBridge
+  inches toward launch. Today's briefing → {link}
+stories:
+- headline: PSR data shows 89% APP fraud reimbursement as losses climb back above
+    £1.3 billion
+  standfirst: UK banks reimbursed the vast majority of in-scope APP fraud claims in
+    the scheme's first months, but total fraud losses rose 4% year on year, intensifying
+    pressure on technology platforms to share the burden.
+  body: 'New Payment Systems Regulator data reveals that 89% of in-scope authorised
+    push payment fraud losses were reimbursed during the first 15 months of the mandatory
+    reimbursement regime. That figure will reassure consumer advocates but confirms
+    what many in the industry expected: the cost burden has landed squarely on payment
+    firms while the upstream causes of fraud remain largely unaddressed.
+
+
+    UK Finance''s annual fraud report, published alongside the PSR figures, puts total
+    UK fraud losses at £1.28 billion for 2025, a 4% increase on the previous year.
+    APP fraud drove the rise, rebounding sharply after a dip in 2024. The PSR has
+    publicly called on technology firms, telecoms operators and banks to collaborate
+    more effectively on prevention, and an independent review by Frontier Economics
+    is due in early 2027.
+
+
+    The political dynamic is shifting. With banks now absorbing most reimbursement
+    costs, the industry''s argument that social media and messaging platforms should
+    face binding obligations is gaining traction. Whether the forthcoming Frontier
+    review recommends extending liability beyond payment firms will be the next inflection
+    point.
+
+    '
+  editorial_note: Advances a continuing story with hard data from the PSR on reimbursement
+    rates and updated annual fraud figures, giving readers the numbers they need to
+    assess the regime's early performance.
+  sources: '[APP fraud shifts focus beyond reimbursement](https://ibsintelligence.com/ibsi-news/app-fraud-shifts-focus-beyond-reimbursement/)
+    — IBS Intelligence | [APP fraud back on the rise as crooks stole £1.3bn in 2025
+    - UK Finance](https://www.finextra.com/newsarticle/47906/app-fraud-back-on-the-rise-as-crooks-stole-13bn-in-2025---uk-finance)
+    — Finextra | [UK Banks Report Surge in APP Fraud Losses as Pressure Mounts on
+    Meta and Tech Platforms](https://econotimes.com/UK-Banks-Report-Surge-in-APP-Fraud-Losses-as-Pressure-Mounts-on-Meta-and-Tech-Platforms-1744309)
+    — EconoTimes'
+- headline: ACI Worldwide integrates Wero wallet, deepening its EPI infrastructure
+    role
+  standfirst: ACI Worldwide is embedding EPI's Wero digital wallet into its payments
+    orchestration platform, extending its position in European instant payments infrastructure
+    beyond clearing into merchant acceptance.
+  body: 'ACI''s partnership with EPI goes beyond the processing contract covered last
+    week. The company will now integrate Wero directly into its orchestration layer,
+    giving banks and merchants connected to ACI''s platform a path to offer Wero as
+    a payment method alongside cards and other instruments. In-store Wero acceptance
+    through ACI is scheduled for 2027.
+
+
+    The move reflects ACI''s strategy of positioning itself as a multi-rail orchestration
+    layer rather than a single-scheme processor. For EPI, it is a distribution play:
+    getting Wero onto the platforms that already serve a large share of European merchant
+    acquiring and bank payment processing. The more orchestration platforms that carry
+    Wero, the faster it can reach the merchant acceptance levels needed to compete
+    with card networks.
+
+
+    ACI''s share price rose over 6% on the announcement, suggesting the market sees
+    the EPI relationship as material to revenue growth. The real test, however, is
+    whether Wero can generate sufficient merchant transaction volume to justify the
+    integration investment, something that remains unproven outside person-to-person
+    payments.
+
+    '
+  editorial_note: 'Builds on the ACI-EPI processing story from June 15 with a substantively
+    new angle: the Wero wallet integration into ACI''s orchestration platform, which
+    has different strategic implications from the clearing contract.'
+  sources: '[ACI Worldwide joins EPI to integrate Wero wallet](https://thepaypers.com/payments/news/aci-worldwide-and-epi-partner-on-wero-instant-payments)
+    — The Paypers | [ACI Worldwide and EPI to Power Instant Payments in Europe](https://financialit.net/news/payments/aci-worldwide-and-epi-power-instant-payments-europe)
+    — Financial IT | [ACI Worldwide (ACIW) Is Up 6.3% After Joining EPI And Powering
+    Wero Wallet Integration](https://finance.yahoo.com/markets/stocks/articles/aci-worldwide-aciw-6-3-160911292.html)
+    — Yahoo Finance'
+- headline: China-backed mBridge cross-border payments platform set for commercial
+    launch
+  standfirst: The mBridge platform, built on distributed ledger technology and backed
+    by the BIS and central banks such as the People's Bank of China, is moving to
+    commercial operation, creating a potential alternative to correspondent banking
+    for cross-border settlement.
+  body: 'mBridge, the multi-central bank digital currency platform designed for cross-border
+    payments, is preparing for its commercial launch, according to a Financial Times
+    report. The platform enables participating central banks to settle cross-border
+    transactions directly using their respective CBDCs, bypassing the correspondent
+    banking network that currently underpins most international payments.
+
+
+    The project has been in development since 2021, initially under BIS Innovation
+    Hub oversight, though the BIS stepped back from the project last year amid concerns
+    about its geopolitical alignment. China''s central role in the initiative has
+    drawn scrutiny from Western policymakers who see mBridge as a potential channel
+    for sanctions circumvention. The commercial launch will test whether those concerns
+    translate into participation restrictions or whether pragmatic demand for cheaper,
+    faster cross-border settlement overrides them.
+
+
+    For European payments professionals, mBridge matters as both a competitive signal
+    and a policy question. If an alternative settlement infrastructure gains traction
+    in Asia and the Middle East, it could fragment the global payments landscape in
+    ways that affect European banks'' correspondent banking revenues and complicate
+    compliance frameworks.
+
+    '
+  editorial_note: A significant infrastructure development with direct implications
+    for European banks involved in cross-border payments and for policymakers considering
+    the digital euro's international role.
+  sources: '[China-led digital payments system mBridge set for commercial launch](https://www.finextra.com/newsarticle/47920/china-led-digital-payments-system-mbridge-set-for-commercial-launch)
+    — Finextra'
+- headline: Mexico's financial regulator pushes overhaul of fintech law covering open
+    finance and crypto
+  standfirst: Mexico's CNBV is pursuing a comprehensive rewrite of its fintech regulation,
+    proposing tiered licensing, faster approvals and formal open finance rules in
+    what would be one of Latin America's most ambitious regulatory updates.
+  body: 'Mexico''s National Banking and Securities Commission, under new chair Ángel
+    Cabrera, is pushing for what the industry is calling ''Fintech 2'', a broad reform
+    of the 2018 Financial Technology Institutions Law. The proposed changes would
+    introduce tiered, risk-based licensing to replace the current one-size-fits-all
+    framework, establish formal open finance oversight and clarify rules around crypto
+    assets.
+
+
+    The original law was a regional pioneer but has been criticised for slow licensing
+    processes that have stifled growth. Industry groups are lobbying for the reforms
+    to accelerate approval timelines while maintaining regulatory rigour. On open
+    finance, Mexico would be following Brazil''s lead in building a structured framework
+    rather than relying on market-led API adoption.
+
+
+    European firms with Latin American operations or expansion plans should watch
+    this closely. Mexico is the region''s second-largest economy and a significant
+    remittance corridor. A modernised regulatory framework could open new market entry
+    paths for European payment providers and open banking platforms, particularly
+    those already operating under PSD2-derived models that map reasonably well to
+    tiered licensing regimes.
+
+    '
+  editorial_note: A material regulatory development in a major economy that could
+    reshape the competitive landscape for European payment firms operating in or eyeing
+    Latin American markets.
+  sources: '[Mexico pushes to overhaul regulations for crypto and open finance](https://coinness.com/en/news/1160490)
+    — CoinNess | [Mexico''s Fintech Industry Pushes for ''Fintech 2'' Reform Under
+    New CNBV Chief Ángel Cabrera](https://www.binance.com/en/square/post/334556586927602)
+    — Binance | [Mexico''s fintech sector advocates for reforms to the Financial Technology
+    Law II](https://www.kucoin.com/news/flash/mexico-s-fintech-sector-pushes-for-financial-tech-2-bill-reforms-to-clarify-crypto-asset-regulations)
+    — KuCoin'
+- headline: Euro Banking Association examines adoption criteria for tokenised money
+  standfirst: The EBA's digital currencies working group has published the second
+    part of its analysis on tokenised money adoption, identifying the practical criteria
+    that will determine whether tokenised deposits and stablecoins gain traction in
+    European wholesale and retail markets.
+  body: 'The Euro Banking Association''s Digital Currencies & Smart Payments Working
+    Group has released an insight note examining the conditions under which tokenised
+    forms of money, such as tokenised deposits, stablecoins and central bank digital
+    currencies, could achieve meaningful adoption. The paper moves beyond theoretical
+    frameworks to assess specific criteria such as interoperability, legal certainty,
+    settlement finality and integration with existing payment infrastructures.
+
+
+    This is the second instalment in the EBA''s tokenised money series. Where the
+    first part mapped the landscape, this note focuses on what would need to be true
+    for banks and payment providers to commit to building on tokenised rails. The
+    working group draws on input from its member institutions, giving the analysis
+    a practitioner perspective that pure policy papers often lack.
+
+
+    The timing is relevant given the ECB''s ongoing digital euro preparations and
+    the European Commission''s work on the MiCA framework for stablecoins. As both
+    regulatory tracks mature, the EBA''s criteria could serve as a practical checklist
+    for institutions evaluating whether and when to invest in tokenised money capabilities.
+
+    '
+  editorial_note: Provides a practitioner-oriented framework for a topic that is moving
+    from theoretical discussion to implementation planning across European banking,
+    and complements the EBA's earlier work on agentic AI covered last week.
+  sources: '[Euro Banking Association analyses drivers for adoption of tokenized money](https://www.finextra.com/pressarticle/110135/euro-banking-association-analyses-drivers-for-adoption-of-tokenized-money)
+    — Finextra'
