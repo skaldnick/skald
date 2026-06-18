@@ -134,3 +134,9 @@
   - Rabobank begins migrating iDEAL to Wero in major test for EPI
   - Verification of payee delays leave European instant payments exposed to fraud
   - Switzerland extends open finance framework to cover pension data
+- date: '2026-06-18'
+  stories:
+  - Access PaySuite picks up Ordo's open banking infrastructure after Neonomics shutdown
+  - BIS completes Project Aperta to prototype cross-border open finance interoperability
+  - PayPal shuts down venture capital arm under new CEO's restructuring
+  - Stripe and AWS build payment layer for AI agents accessing web content
