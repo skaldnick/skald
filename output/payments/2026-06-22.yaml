@@ -1,0 +1,96 @@
+title: Finastra carve-out; Zodia wins EU payment licence; Egypt adopts ISO 20022
+social_post: 'Quiet Sunday but the deals don''t stop: Pollen Street carves out Finastra''s
+  Universal Banking arm, Zodia Custody picks up a Luxembourg payment licence, and
+  Egypt goes live on ISO 20022. {link}'
+stories:
+- headline: Pollen Street carves out Finastra's Universal Banking business
+  standfirst: The private equity firm's acquisition of Finastra's core banking platform
+    marks the second major disposal from Finastra this year, continuing the break-up
+    of one of Europe's largest banking software groups.
+  body: 'Pollen Street Capital has agreed to acquire Finastra''s Universal Banking
+    unit, which serves banks with Essence, a cloud-native core banking platform. The
+    deal is the second significant divestiture from Finastra, which has been restructuring
+    under pressure from its private equity owners to reduce debt and sharpen its portfolio.
+
+
+    The unit being sold provides core banking technology to financial institutions
+    seeking to modernise legacy infrastructure. Essence positions itself as an open
+    banking-enabled platform, making it relevant to banks navigating PSD2 compliance
+    and open finance readiness. Pollen Street, which has form in financial technology
+    investments, will take on the business as a standalone operation.
+
+
+    For European banks relying on Finastra''s universal banking stack, the ownership
+    change raises practical questions about product roadmap continuity, investment
+    levels and strategic direction. Finastra''s ongoing break-up also reshapes the
+    competitive landscape for core banking vendors in Europe, where consolidation
+    among platform providers has accelerated.
+
+    '
+  editorial_note: Finastra is a major supplier to European banks; its progressive
+    break-up reshapes the core banking vendor landscape and has direct implications
+    for institutional buyers.
+  sources: '[Pollen Street acquires Finastra''s Universal Banking unit](https://ibsintelligence.com/ibsi-news/pollen-street-acquires-finastras-universal-banking-unit/)
+    — IBS Intelligence | [Finastra Lines Up Second Banking Software Sale With Universal
+    Banking Deal](https://fintechnews.sg/133391/digital-banking-news-singapore/finastra-universal-banking/)
+    — Fintech News Singapore'
+- headline: Zodia Custody secures EU payment institution licence in Luxembourg
+  standfirst: The crypto custodian backed by Standard Chartered and Northern Trust
+    has won a payment institution licence from Luxembourg's CSSF, giving it a regulated
+    gateway to offer payment services across the EU.
+  body: 'Zodia Custody, the institutional digital asset platform whose shareholders
+    include Standard Chartered, Northern Trust, SBI Holdings, National Australia Bank
+    and Emirates NBD, has been granted a payment institution licence by Luxembourg''s
+    financial regulator. The licence allows Zodia to provide regulated payment services
+    within the EU, extending its reach beyond pure custody.
+
+
+    The move reflects a broader pattern of institutional crypto infrastructure firms
+    seeking European payment licences to bridge digital assets and conventional payment
+    rails. For Zodia, the licence complements its existing custody operations and
+    positions it to offer end-to-end services — holding assets and facilitating the
+    fiat settlement that institutions require.
+
+
+    Luxembourg continues to attract digital asset firms seeking EU market access,
+    alongside Ireland and the Netherlands. The CSSF licence gives Zodia passporting
+    rights, which matters as MiCA implementation tightens the requirements for crypto
+    service providers operating across member states.
+
+    '
+  editorial_note: An institutional crypto custodian obtaining an EU payment licence
+    signals continued convergence between digital asset infrastructure and regulated
+    payments, relevant to banks and payment firms watching this space.
+  sources: '[Zodia Custody secures payment license in Luxembourg](https://www.finextra.com/pressarticle/110189/zodia-custody-secures-payment-license-in-luxembourg)
+    — Finextra'
+- headline: Egypt's banks complete migration to ISO 20022 for financial transfers
+  standfirst: The Central Bank of Egypt has confirmed that all banks operating in
+    the country have adopted ISO 20022, joining a global migration that underpins
+    interoperability with European instant payment and open banking infrastructure.
+  body: 'Egypt''s banking sector has completed its adoption of the ISO 20022 messaging
+    standard for financial transfers, according to the Central Bank of Egypt. The
+    regulator described the migration as foundational for next-generation services
+    such as open banking and advanced data analytics, and as essential for alignment
+    with international payment systems.
+
+
+    The move brings Egypt into line with the standard that SWIFT, the Eurosystem and
+    the UK''s Pay.UK have adopted or are migrating towards. For European payment processors
+    and correspondent banks with Egyptian counterparts, the switch should improve
+    data quality in cross-border transactions, reducing the friction and manual intervention
+    that older message formats require.
+
+
+    ISO 20022 adoption across emerging markets is relevant to European firms because
+    richer, structured data in payment messages supports sanctions screening, fraud
+    detection and straight-through processing. Each country that completes migration
+    reduces a point of friction in the global payment network.
+
+    '
+  editorial_note: While not a European story, Egypt's ISO 20022 completion is directly
+    relevant to European banks and processors managing cross-border payment flows
+    and correspondent banking relationships.
+  sources: '[Banks Operating in Egypt Adopt International ISO 20022 Standard for Financial
+    Transfers](https://www.cbe.org.eg/en/news-publications/news/2026/06/21/08/03/iso-2026)
+    — Central Bank of Egypt | [Egypt upgrades banking system to global ISO 20022 standard](https://english.ahram.org.eg/News/571269.aspx)
+    — Ahram Online'
