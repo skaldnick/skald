@@ -1,0 +1,113 @@
+title: Wero expands to Austria; Volume gets FCA licence; Modulr launches commercial
+  VRPs
+social_post: 'Wero keeps spreading — Austrian banks join EPI as the account-to-account
+  wallet pushes into its fifth market. Plus: Volume gets its own FCA licence and Modulr
+  goes live with commercial VRPs. {link}'
+stories:
+- headline: Austrian banking groups join EPI as Wero expands to fifth market
+  standfirst: Austria's largest banks have become EPI shareholders, extending Wero's
+    account-to-account payment wallet into a ninth-million-population market and reinforcing
+    the initiative's expansion momentum.
+  body: 'Erste Group, Raiffeisen Bank International and the Austrian savings bank
+    sector have joined the European Payments Initiative as shareholders, bringing
+    Wero to Austria. The move adds a market of roughly nine million potential users
+    to Wero''s existing base of 55 million across Germany, France, Belgium and the
+    Netherlands.
+
+
+    The Austrian expansion follows Rabobank''s recent decision to begin migrating
+    iDEAL transactions to Wero in the Netherlands, a significant operational test
+    for the platform. Austria''s addition is notable partly because it brings in banking
+    groups with substantial Central and Eastern European footprints, potentially smoothing
+    future expansion into those markets.
+
+
+    EPI has said it plans to migrate 15 national payment schemes onto Wero over time.
+    Each new market entry tests whether the account-to-account model can displace
+    entrenched domestic schemes and card networks. Austria, where card penetration
+    is lower than in some Western European markets but cash use remains high, presents
+    a different adoption challenge from Wero''s initial launch countries.
+
+    '
+  editorial_note: Wero's geographic expansion is a key continuing story for European
+    payments sovereignty; Austria's entry, and the identity of the banking groups
+    involved, is materially new.
+  sources: '[Austrian banks embrace Wero](https://www.finextra.com/newsarticle/47968/austrian-banks-embrace-wero)
+    — Finextra | [EPI Expands Wero to Austria as Major Banking Groups Join as Shareholders](https://ffnews.com/news/epi-expands-wero-to-austria-as-major-banking-groups-join-as-shareholders)
+    — FF News'
+- headline: Volume secures FCA authorisation to operate open banking payments independently
+  standfirst: Volume Payments has received FCA authorisation as a payment institution,
+    enabling the open banking payment platform to operate under its own licence rather
+    than relying on a third-party provider's permissions.
+  body: 'Volume, which provides a unified payment platform across bank rails, has
+    been authorised by the FCA as an Authorised Payment Institution. The licence allows
+    Volume to initiate payments and provide payment services directly, rather than
+    operating under the regulatory umbrella of another licensed entity.
+
+
+    The timing is relevant given recent consolidation in UK open banking infrastructure.
+    Neonomics shut down earlier this month, with Access PaySuite acquiring its assets.
+    For firms building on open banking rails, holding a direct FCA licence reduces
+    dependency on third-party providers and the counterparty risk that comes with
+    it. Volume''s authorisation positions it among a growing but still relatively
+    small group of open banking-focused firms with their own regulatory standing in
+    the UK market.
+
+    '
+  editorial_note: An independent FCA licence for an open banking payments firm is
+    operationally significant, particularly given recent provider failures in the
+    sector.
+  sources: '[Volume secures FCA authorisation](https://www.finextra.com/pressarticle/110204/volume-secures-fca-authorisation)
+    — Finextra'
+- headline: Modulr launches commercial variable recurring payments under new UK scheme
+  standfirst: Modulr has gone live with commercial variable recurring payments, becoming
+    one of the first providers to offer the service under the UK Payments Initiative's
+    new scheme rules.
+  body: 'Modulr''s launch of commercial variable recurring payments follows the UK
+    Payments Initiative''s rollout of its VRP scheme earlier this month. Modulr was
+    involved in shaping the scheme as a participant and is now among the first to
+    bring the product to market.
+
+
+    Commercial VRPs extend the open banking payment initiation model beyond the sweeping
+    use case — where VRPs have been live for several years — into merchant payments
+    such as subscriptions, utility bills and other recurring charges. The commercial
+    proposition has been slow to materialise, with years of industry debate about
+    liability frameworks, dispute resolution and the economics of displacing direct
+    debits. Modulr''s launch, built on the new centralised scheme rules rather than
+    bilateral agreements, will test whether standardised terms can accelerate adoption
+    where earlier bilateral approaches did not gain traction.
+
+    '
+  editorial_note: Commercial VRPs moving from scheme launch to live product is a meaningful
+    step in a long-running story about whether open banking can compete with direct
+    debits for recurring payments.
+  sources: '[Modulr launches commercial variable recurring payments](https://itbrief.co.uk/story/modulr-launches-commercial-variable-recurring-payments)
+    — IT Brief UK'
+- headline: UK fintech sector calls for legislative stability as open finance stalls
+  standfirst: A bobsguide analysis argues that the UK's transition to open finance
+    and its broader Smart Data economy have slowed materially, hampered by political
+    turnover and insufficient parliamentary time.
+  body: 'The piece, published by bobsguide, makes the case that six prime ministers
+    in ten years have left UK fintech without the legislative continuity needed to
+    advance frameworks for open banking, digital assets and AI oversight. The transition
+    from open banking to open finance, in particular, has lost momentum as the Data
+    (Use and Access) Bill and related initiatives compete for scarce parliamentary
+    attention.
+
+
+    The argument is not new, but the framing is sharper than usual. The UK''s early
+    lead in open banking — built on regulatory mandate rather than legislation — now
+    risks becoming a liability as the next phase requires primary legislation that
+    successive governments have deprioritised. Meanwhile, the EU''s PSD3 and Financial
+    Data Access Regulation are advancing through their own legislative processes,
+    and Switzerland recently extended its open finance framework to cover pension
+    data. The UK''s position as a regulatory reference point for open finance is eroding
+    through inaction rather than any deliberate policy choice.
+
+    '
+  editorial_note: This captures a genuine strategic risk for the UK market — the open
+    finance agenda stalling not through opposition but through legislative neglect
+    — and contextualises it against European progress.
+  sources: '[Six PMs in ten years - UK fintech needs stability now more than ever](https://www.bobsguide.com/six-pms-in-ten-years-uk-fintech-needs-stability-now-more-than-ever/)
+    — bobsguide'
