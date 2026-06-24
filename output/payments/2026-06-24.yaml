@@ -1,0 +1,165 @@
+title: European Parliament advances digital euro; TrueLayer hits £10bn milestone;
+  Moneyhub joins UKPI
+social_post: 'The European Parliament just moved the digital euro past its biggest
+  legislative hurdle yet. Plus: TrueLayer crosses £10bn in monthly payments and Bluecode
+  goes NFC via Discover. Today''s briefing → {link}'
+stories:
+- headline: European Parliament committee backs digital euro negotiating mandate
+  standfirst: The Economic Affairs Committee's green light clears the digital euro's
+    most significant parliamentary hurdle, setting the stage for trilogue negotiations
+    with the Council.
+  body: 'The European Parliament''s Economic Affairs Committee has approved a negotiating
+    mandate on the digital euro regulation, moving the proposal into trilogue – the
+    final stage of EU legislative negotiation between Parliament, Council and Commission.
+    The vote marks the furthest the digital euro has progressed through the legislative
+    process since the Commission tabled its proposal in June 2023.
+
+
+    The mandate preserves key design features: online instant payments functionality
+    alongside an offline mode offering higher privacy protections akin to cash. Members
+    emphasised the digital euro''s role in reducing eurozone dependence on non-European
+    card networks for retail payments, a strategic sovereignty argument that has gained
+    traction since PSD2''s limited impact on scheme-level competition.
+
+
+    Trilogue timelines are unpredictable, but the committee vote removes the main
+    parliamentary bottleneck. The Council''s general approach, agreed earlier this
+    year, differs on points such as holding limits and merchant acceptance obligations,
+    so substantive negotiation remains. For payments firms, the practical question
+    is when – not whether – the digital euro framework will require integration planning.
+
+    '
+  editorial_note: The committee vote is the most concrete forward movement on digital
+    euro legislation in months and has direct implications for European payment processors,
+    banks and wallet providers who will need to accommodate a new instrument.
+  sources: '[European Parliament backs digital euro legislation](https://brusselssignal.eu/2026/06/european-parliament-backs-digital-euro-legislation/)
+    — Brussels Signal | [Digital euro: the Economic Affairs Committee gives the green
+    light to the negotiating mandate](https://en.ilsole24ore.com/art/digital-euro-green-light-from-the-economic-affairs-committee-for-a-negotiating-mandate-AIvA6gpD)
+    — Il Sole 24 Ore'
+- headline: TrueLayer crosses £10 billion in monthly payment volume
+  standfirst: The open banking payments provider says it processed more than £10 billion
+    in a single month, a milestone that tests whether account-to-account payments
+    are reaching the scale needed to challenge cards in key verticals.
+  body: 'TrueLayer has announced it processed over £10 billion in payments in a single
+    month, a figure the company describes as a record. The volume is driven primarily
+    by e-commerce, gaming and financial services – sectors where pay-by-bank conversion
+    rates and instant settlement offer a clear value proposition over card rails.
+
+
+    The milestone is worth contextualising. £10 billion monthly puts TrueLayer''s
+    annualised throughput in the region of £120 billion, significant for an open banking
+    pure-play but still a fraction of UK card volumes. The more telling metric would
+    be growth rate and merchant retention, neither of which the company disclosed.
+    Still, the number signals that account-to-account payments have moved well beyond
+    pilot stage in certain verticals.
+
+
+    For the broader market, TrueLayer''s volume growth arrives as the UK Payments
+    Initiative builds out commercial variable recurring payments infrastructure and
+    Wero scales account-to-account payments across the eurozone. Whether open banking
+    payments can break into everyday retail spending – rather than remaining concentrated
+    in verticals where cards are a poor fit – remains the open question.
+
+    '
+  editorial_note: A concrete volume figure from a major open banking provider is a
+    useful data point for gauging account-to-account payment adoption in Europe, particularly
+    as the sector moves past promotional claims toward measurable scale.
+  sources: '[TrueLayer Hits Record-Breaking Milestone Processing Over 10 Billion in
+    Payments in a Single Month](https://ffnews.com/news/truelayer-hits-record-breaking-milestone-processing-over-10-billion-in-payments-in-a-single-month)
+    — Fintech Finance News'
+- headline: Moneyhub becomes first non-shareholder participant in UK Payments Initiative
+  standfirst: The data and payments platform's admission to UKPI on a non-shareholder
+    basis opens a new participation model that could broaden the scheme's reach beyond
+    its founding banks and fintechs.
+  body: 'Moneyhub has joined the UK Payments Initiative as its first non-shareholder
+    participant, a status that gives it a seat at the table for scheme development
+    without requiring an equity stake. The company''s initial focus will be on open
+    banking payment use cases in pensions and savings – areas where its existing data
+    aggregation and money management tools already operate.
+
+
+    The non-shareholder model matters for UKPI''s trajectory. The scheme launched
+    with nine founding shareholders, predominantly banks and large fintechs. Extending
+    participation to firms like Moneyhub without requiring equity commitment lowers
+    the barrier for specialist providers, particularly those focused on specific verticals
+    rather than general-purpose payments.
+
+
+    UKPI''s Wave 1 covers regulated, lower-risk use cases such as sweeping into pensions
+    and savings – precisely the territory where Moneyhub has built its proposition.
+    Moneyhub''s involvement could accelerate the development of payment initiation
+    flows tailored to wealth and retirement products, an area where direct debit still
+    dominates and variable recurring payments have yet to gain traction.
+
+    '
+  editorial_note: The first use of UKPI's non-shareholder participation model is a
+    structural development for the scheme, signalling how it intends to build ecosystem
+    breadth beyond its founding members.
+  sources: '[Moneyhub joins the UK Payments Initiative](https://www.finextra.com/pressarticle/110211/moneyhub-joins-the-uk-payments-initiative)
+    — Finextra | [Moneyhub joins UKPI as a non-shareholder participant](https://thepaypers.com/payments/news/moneyhub-joins-ukpi-as-first-non-shareholder-participant)
+    — The Paypers'
+- headline: Bluecode launches NFC payments on iOS and Android via Discover network
+  standfirst: The European mobile payment provider's move to NFC contactless, routed
+    through the Discover global network, gives it point-of-sale acceptance at millions
+    of terminals without dependence on Visa or Mastercard rails.
+  body: 'Bluecode has gone live with NFC payments on both iOS and Android, using the
+    Discover network to route transactions. The integration gives Bluecode access
+    to Discover''s global acceptance footprint, enabling contactless payments at terminals
+    across Europe and beyond without relying on Visa or Mastercard infrastructure.
+
+
+    The move addresses Bluecode''s longstanding limitation: its QR-code-based payment
+    method, while functional, struggled for acceptance at physical point of sale where
+    NFC tap-to-pay has become the consumer default. NFC capability on both major mobile
+    platforms removes that friction. Routing through Discover rather than the dominant
+    card schemes aligns with broader European efforts to build payment alternatives
+    with less dependence on US-headquartered networks.
+
+
+    Bluecode operates in Austria and Germany, markets where EPI''s Wero is also expanding.
+    The two are not direct competitors – Bluecode has positioned itself as complementary
+    infrastructure – but the overlap raises questions about how many European payment
+    alternatives the market can sustain. For merchants, the practical benefit is clear:
+    another NFC-capable payment method that settles via existing terminal infrastructure.
+
+    '
+  editorial_note: Bluecode's NFC launch via Discover is a meaningful capability upgrade
+    that connects to the wider European payments sovereignty debate and the competitive
+    dynamics around Wero, scheme independence and terminal acceptance.
+  sources: '[Bluecode brings NFC payments to Android and iOS devices](https://www.finextra.com/pressarticle/110229/bluecode-brings-nfc-payments-to-android-and-ios-devices)
+    — Finextra | [Bluecode launches NFC payments via Discover Network](https://thepaypers.com/payments/news/bluecode-launches-nfc-payments-on-ios-and-android-via-discover-network)
+    — The Paypers'
+- headline: Nordic Capital merges Qred and Liberis to build cross-border SME lending
+    platform
+  standfirst: The private equity firm is combining two portfolio companies – Sweden's
+    Qred and UK-based Liberis – into a single platform for embedded small business
+    financing across Europe.
+  body: 'Nordic Capital is merging Qred, a Swedish SME lender, with Liberis, a UK-headquartered
+    revenue-based finance provider, to create a combined platform targeting small
+    business financing across multiple European markets. The merged entity will operate
+    under the Qred brand and aims to serve SMEs through both direct lending and embedded
+    finance partnerships with payment processors and platforms.
+
+
+    The combination brings together Qred''s direct lending operations in the Nordics
+    with Liberis''s embedded finance model, which distributes working capital products
+    through partners such as payment acquirers. The logic is familiar in private equity-backed
+    fintech: consolidate complementary capabilities, expand geographic reach and build
+    scale economics in a fragmented market.
+
+
+    For the payments industry, the deal is relevant because embedded SME lending increasingly
+    sits alongside payment acceptance as a core value proposition for acquirers and
+    platforms. As more payment processors look to monetise their merchant relationships
+    through financial products, the infrastructure to underwrite and distribute those
+    products becomes a competitive differentiator. Nordic Capital''s bet is that a
+    single cross-border platform can serve that demand more efficiently than fragmented
+    national providers.
+
+    '
+  editorial_note: This merger illustrates ongoing consolidation in embedded SME finance
+    – a sector increasingly intertwined with payment processing – and Nordic Capital's
+    thesis on cross-border scale in European lending infrastructure.
+  sources: '[Nordic Capital Unites Qred and Liberis to Create Global SMB Financing
+    Powerhouse](https://thefintechtimes.com/nordic-capital-unites-qred-and-liberis-to-create-global-smb-financing-powerhouse/)
+    — The Fintech Times'
