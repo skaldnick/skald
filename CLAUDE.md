@@ -20,7 +20,6 @@ automated publication.
 /output/         Generated drafts (Markdown, gitignored)
 /data/feedback/  Edit diffs and quality scores (gitignored)
 /docs/           Project documentation
-/ml/             Experimental fine-tuning pipeline (separate from live pipeline)
 ```
 
 Note: the Hugo site source (`site/`) and Cloudflare Pages web root (`public/`) have moved
