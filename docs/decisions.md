@@ -242,6 +242,20 @@ adding much usability.
 A separate landing page was considered and dropped — `gr.Tab` provides
 sufficient navigation for three sections without a home-screen layer.
 
+## Dashboard: X posting is separate from publishing
+"Publish approved" commits the briefing to GitHub, which triggers a Cloudflare
+Pages build (~1–2 min). The tweet went out before the page was live when X
+posting was wired directly to the publish action. Fixed by giving X its own
+"Post to X" button — the editor publishes, waits for the build, then posts.
+
+The social post URL is embedded at load/regenerate time (not left as a `{link}`
+placeholder), so the text in the box is always ready to post without further
+substitution.
+
+The `. Today's briefing → <url>` suffix is appended in `dashboard/app.py` after
+stripping any trailing period from Claude's output, so the separator period is
+always present and never doubled regardless of how Claude ends the teaser copy.
+
 ## Site: briefing title replaces date in the story list
 The homepage briefing list shows a concise story-summary title (AI-drafted,
 editor-confirmed) alongside the date, rather than the generic
