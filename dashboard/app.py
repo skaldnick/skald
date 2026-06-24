@@ -82,8 +82,10 @@ def on_load_draft():
     for i in range(MAX_STORIES):
         if i < len(stories):
             s = stories[i]
+            warnings = (s.get("verification") or {}).get("warnings") or []
+            warning_md = "".join(f"\n\n⚠️ **Verification flagged:** {w}" for w in warnings)
             outputs += [
-                f"*Editorial note: {s.get('editorial_note', '')}*",
+                f"*Editorial note: {s.get('editorial_note', '')}*{warning_md}",
                 s.get("headline", ""),
                 s.get("standfirst", ""),
                 s.get("body", "").strip(),

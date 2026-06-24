@@ -172,6 +172,10 @@ if __name__ == "__main__":
     print("Generating briefing...")
     briefing = generate_briefing("payments", entries)
 
+    print("Verifying stories...")
+    from generator.verify import verify_briefing
+    briefing = verify_briefing(briefing)
+
     path = save_draft("payments", briefing)
     print(f"Draft saved to {path}")
     print("\n" + "=" * 60 + "\n")
