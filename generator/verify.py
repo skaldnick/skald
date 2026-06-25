@@ -2,10 +2,10 @@
 before it reaches the editor, catching stale sources and unsupported figures
 that slipped past selection."""
 
+import json
 import os
 
 import anthropic
-import yaml
 
 MODEL = "claude-haiku-4-5-20251001"
 MAX_TOKENS = 400
@@ -22,13 +22,11 @@ three things:
    days old.
 3. Unsupported claims — anything stated as fact that your search does not corroborate.
 
-Respond with only a YAML document, no preamble, no code fences:
+Respond with only a single JSON object, no preamble, no code fences:
 
-verified: true or false
-warnings:
-  - "short, specific warning — e.g. 'Source states $10bn, draft says £10bn'"
+{{"verified": true or false, "warnings": ["short, specific warning — e.g. Source states $10bn, draft says £10bn"]}}
 
-If nothing is wrong, return verified: true and warnings: []."""
+If nothing is wrong, return {{"verified": true, "warnings": []}}."""
 
 
 def _parse_response(text: str) -> dict:
@@ -36,7 +34,13 @@ def _parse_response(text: str) -> dict:
     if text.startswith("```"):
         lines = text.splitlines()
         text = "\n".join(lines[1:-1] if lines[-1].strip() == "```" else lines[1:])
-    data = yaml.safe_load(text)
+    start, end = text.find("{"), text.rfind("}")
+    if start == -1 or end == -1:
+        return {"verified": False, "warnings": ["verification response could not be parsed"]}
+    try:
+        data = json.loads(text[start:end + 1])
+    except json.JSONDecodeError:
+        return {"verified": False, "warnings": ["verification response could not be parsed"]}
     if not isinstance(data, dict):
         return {"verified": False, "warnings": ["verification response could not be parsed"]}
     return {
