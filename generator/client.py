@@ -32,15 +32,15 @@ def load_style_rules(beat_name: str) -> list[dict]:
     return [r for r in (raw or []) if isinstance(r, dict)]
 
 
-def load_recently_covered(days: int = 7) -> list[dict]:
-    """Load recently covered stories within the last N days."""
+def load_recently_covered() -> list[dict]:
+    """Load all previously covered stories. Aggregators resurface old stories with
+    fresh publish dates, so a duplicate can be months old — there's no safe recency
+    cutoff for this check, and the file is small enough to inject in full."""
     path = ROOT / "data" / "recently_covered.yaml"
     if not path.exists():
         return []
     raw = yaml.safe_load(path.read_text())
-    entries = [e for e in (raw or []) if isinstance(e, dict)]
-    cutoff = (datetime.now() - timedelta(days=days)).strftime("%Y-%m-%d")
-    return [e for e in entries if e["date"] >= cutoff]
+    return [e for e in (raw or []) if isinstance(e, dict)]
 
 
 def load_recently_rejected(days: int = 28) -> list[dict]:
@@ -83,7 +83,10 @@ def build_user_prompt(story: dict, entries: list[dict], recently_covered: list[d
             for headline in e["stories"]
         ]
         covered_section = (
-            "\n\n## Recently covered — avoid unless there is a genuinely new angle\n"
+            "\n\n## Previously covered — avoid unless there is a genuinely new angle. "
+            "An aggregator republishing an old story under a fresh date does not count "
+            "as new — check the underlying event date against this list, not the feed's "
+            "publish date.\n"
             + "\n".join(lines)
         )
 
