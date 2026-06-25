@@ -1,186 +1,164 @@
-title: Iceland joins TIPS; FCA rethinks AI regulation; PSR targets card scheme reporting
-social_post: 'Iceland signs up for TIPS instant payments in króna. The FCA floats
-  competition-law carve-outs for VRPs. And the PSR wants Visa and Mastercard to open
-  up their books. Today''s briefing: {link}'
+title: Iceland joins TIPS; FCA rethinks AI-era regulation; Worldpay outage; PayPoint
+  acquires open banking CRA
+social_post: 'Iceland joins Europe''s instant payment settlement system, the FCA wants
+  to rethink regulation for AI, and Worldpay goes down during England v Ghana. Today''s
+  briefing: {link}'
 stories:
-- headline: Iceland signs agreement to settle króna payments through TIPS from 2028
-  standfirst: The ECB and Seðlabanki Íslands have agreed to connect Iceland's payment
-    infrastructure to TIPS, extending the Eurosystem's instant settlement platform
-    to a non-euro, non-EU currency for the first time.
-  body: 'Iceland will become the first country outside the EU and EEA''s euro area
-    to settle its domestic currency through TIPS, the Eurosystem''s instant payment
-    settlement infrastructure. Under the agreement announced June 24, Icelandic króna
-    payments will be settled in central bank money from 2028, alongside the euro,
-    Swedish krona and Danish krone already live on the platform.
+- headline: Iceland signs up to TIPS, extending euro instant payments infrastructure
+    beyond the eurozone
+  standfirst: The ECB and Iceland's central bank have agreed to connect the Icelandic
+    króna to TIPS from 2028, making Iceland the latest non-euro country to join Europe's
+    instant settlement infrastructure.
+  body: 'The agreement, announced on June 24, will allow payments in Icelandic króna
+    to settle instantly in central bank money through the Eurosystem''s TARGET Instant
+    Payment Settlement system. Iceland joins Denmark and Sweden, which connected to
+    TIPS as part of the ECB''s cross-currency instant payments initiative launched
+    earlier this month.
 
 
-    The move reflects TIPS''s evolution from a euro-area utility into a broader European
-    settlement backbone. For Iceland, it means domestic instant payments will settle
-    with the finality and resilience of central bank infrastructure rather than commercial
-    bank systems. ECB president Christine Lagarde framed it as reinforcing the integration
-    of Europe''s financial infrastructure.
+    The move reflects the ECB''s strategy of positioning TIPS as a pan-European settlement
+    layer that extends well beyond the euro area. For Iceland, it brings domestic
+    instant payments onto shared infrastructure rather than building in isolation.
+    The 2028 go-live date suggests a substantial technical integration ahead, but
+    the political commitment is now formal.
 
 
-    The practical effect is that Iceland''s banks and payment providers will gain
-    access to the same settlement speed and interoperability already available to
-    their Nordic and European counterparts, without adopting the euro. It also strengthens
-    the ECB''s position as the operator of choice for instant settlement across the
-    continent, at a time when the Instant Payments Regulation is pushing mandatory
-    adoption among EU payment service providers.
+    The broader pattern is clear: TIPS is becoming the default instant settlement
+    backbone for European currencies, euro or otherwise. Each new entrant strengthens
+    the network effects that make it harder for alternative approaches to compete.
 
     '
-  editorial_note: A non-EU, non-euro country connecting its domestic currency to TIPS
-    is a structural expansion of the Eurosystem's reach and relevant to anyone tracking
-    European instant payment infrastructure.
+  editorial_note: This extends a significant trend in European payment infrastructure
+    — TIPS expanding beyond the eurozone — and follows directly from the ECB's recent
+    cross-currency pilot with Denmark and Sweden.
   sources: '[Iceland joins TIPS for instant payments](https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr260624_1~ce8e85127f.en.html)
-    — ECB | [Iceland to join Target Instant Payment Settlement System](https://www.finextra.com/newsarticle/47983/iceland-to-join-target-instant-payment-settlement-system)
+    — European Central Bank | [Iceland to join Target Instant Payment Settlement System](https://www.finextra.com/newsarticle/47983/iceland-to-join-target-instant-payment-settlement-system)
     — Finextra'
   verification:
     verified: false
     warnings:
-    - Headline claim 'first country outside EU and EEA eurozone' is inaccurate—Sweden
-      and Denmark (both EEA but outside eurozone) already settled their currencies
-      on TIPS before Iceland
-- headline: FCA signals willingness to facilitate competition-law collaboration on
-    open banking
-  standfirst: The FCA's chief executive has publicly acknowledged the case for allowing
-    beneficial collaboration under competition law to help commercial variable recurring
-    payments reach scale.
-  body: 'In a speech on rethinking regulation for AI, FCA chief executive Nikhil Rathi
-    made a notable aside on open banking, stating the regulator has "considered the
-    case for beneficial collaboration under competition law, so commercial Variable
-    Recurring Payments can get off the ground." The comment, in a speech published
-    June 24, suggests the FCA recognises that competitive dynamics alone may not be
-    sufficient to drive adoption of commercial VRPs.
+    - The cross-currency instant payments initiative was not what brought Denmark
+      and Sweden to TIPS; they joined TIPS separately (Sweden Feb 2024, Denmark April
+      2025). The cross-currency service enabling payments between their currencies
+      launched later (Oct 2025, formally activated June 8, 2026).
+- headline: FCA chief signals open banking collaboration and AI as priorities in regulatory
+    rethink
+  standfirst: The FCA has set out its thinking on how regulation must adapt to AI,
+    with specific implications for open banking, open finance and competition policy.
+  body: 'In a speech published on June 24, the FCA addressed how artificial intelligence
+    is reshaping the case for regulatory intervention. The regulator explicitly referenced
+    open banking, noting that it has "considered the case for beneficial collaboration
+    under competition law, so commercial Variable Recurring Payments can get off the
+    ground." That framing — treating VRP adoption as a problem partly of coordination,
+    not just competition — marks a notable shift in tone.
 
 
-    The remark is significant because it points to a willingness to create a framework
-    where competing firms can coordinate on standards, pricing or technical integration
-    without falling foul of competition rules. Commercial VRPs have been live in the
-    UK since Modulr''s launch under the new UKPI scheme earlier this month, but merchant
-    and bank adoption remains nascent. Industry participants have repeatedly flagged
-    the difficulty of achieving multilateral agreement on commercial terms without
-    some form of regulatory facilitation.
+    The speech also positioned open finance as an area where the FCA sees a facilitation
+    role for itself, suggesting the regulator views data-sharing frameworks as requiring
+    active stewardship rather than purely market-led development. This aligns with
+    the FCA''s earlier open finance roadmap but adds specificity around AI''s intersection
+    with those frameworks.
 
 
-    Rathi also signalled openness to a broader facilitating role on open finance data
-    sharing, though without committing to specific timelines or mechanisms. For payments
-    firms and banks navigating VRP strategy, the speech is the clearest indication
-    yet that the FCA sees itself as an active enabler rather than a passive observer
-    of commercial open banking.
+    For firms building on open banking rails or preparing for open finance requirements,
+    the speech signals that the FCA is willing to flex competition norms where it
+    sees coordination failures holding back adoption. That has practical consequences
+    for how industry bodies and scheme operators structure VRP rollouts.
 
     '
-  editorial_note: The FCA chief executive publicly acknowledging a possible competition-law
-    carve-out for VRP collaboration is a meaningful signal for firms trying to build
-    commercial models around open banking payments.
+  editorial_note: The FCA explicitly linking competition law flexibility to VRP adoption
+    is a substantive regulatory signal, not just a restatement of existing positions.
+    It matters for anyone involved in commercial VRP deployment.
   sources: '[Rethinking regulation for the age of AI](https://www.fca.org.uk/news/speeches/rethinking-regulation-age-ai)
     — FCA'
   verification:
-    verified: true
-    warnings: []
-- headline: PSR proposes new financial reporting requirements for Mastercard and Visa
-  standfirst: The UK Payment Systems Regulator has launched a consultation on requiring
-    Mastercard and Visa to disclose detailed financial data, as it deepens scrutiny
-    of card scheme economics.
-  body: 'The PSR has proposed new reporting rules that would require Mastercard and
-    Visa to provide detailed financial information about their UK operations. The
-    consultation, reported on June 23, follows the regulator''s long-running market
-    review of card scheme and processing fees, which found that scheme fees had risen
-    significantly without clear competitive pressure.
+    verified: false
+    warnings:
+    - Cannot verify the specific quote about 'beneficial collaboration under competition
+      law' for cVRPs appears in the June 24 speech - search results show only excerpts
+      on AI, agentic systems, and tokenisation, not detailed discussion of open banking
+- headline: Worldpay outage disrupts UK card payments during World Cup match
+  standfirst: Worldpay suffered a service outage on the evening of June 24, leaving
+    some UK merchants unable to process card payments during the England v Ghana World
+    Cup game.
+  body: 'The outage hit pubs and retailers during a peak spending window, with reports
+    of failed card transactions across multiple locations. Worldpay, owned by Global
+    Payments following its 2025 acquisition from GTCR, is one of the UK''s largest
+    payment processors and handles a significant share of in-store card volume.
 
 
-    The proposed requirements would give the PSR regular, structured visibility into
-    how the two networks generate revenue in the UK, going beyond the ad hoc information
-    requests used in previous reviews. For the card schemes, this represents a shift
-    toward ongoing regulatory transparency obligations of the kind more commonly associated
-    with regulated utilities.
-
-
-    The move sits alongside the PSR''s broader programme of work on interchange and
-    scheme fees, and comes as account-to-account payment alternatives such as Wero
-    and commercial VRPs position themselves as lower-cost alternatives to card rails.
-    Increased transparency on card economics could sharpen the comparative case for
-    these alternatives, particularly for merchants weighing the cost of acceptance.
+    High-profile outages during major events expose the concentration risk inherent
+    in payment processing. The UK''s reliance on a small number of acquirers and processors
+    means that a single point of failure can have outsized effects on commerce. The
+    incident will likely feed into ongoing industry discussions about resilience standards
+    and the case for diversifying payment acceptance methods, including account-to-account
+    alternatives that bypass card processing infrastructure entirely.
 
     '
-  editorial_note: Ongoing PSR scrutiny of card scheme economics is directly relevant
-    to the competitive dynamics between card and account-to-account payment models
-    in the UK.
-  sources: '[UK PSR proposes new reporting rules for Mastercard and Visa](https://www.msn.com/en-us/news/technology/uk-psr-proposes-new-reporting-rules-for-mastercard-and-visa/ar-AA23OZzj)
-    — MSN'
+  editorial_note: A Worldpay outage during a major national event is operationally
+    significant and politically visible. It reinforces the resilience argument that
+    underpins several current UK policy discussions, from UKPI to pay-by-bank adoption.
+  sources: '[Worldpay suffers outage during England vs Ghana World Cup game](https://www.finextra.com/newsarticle/47988/worldpay-suffers-outage-during-england-vs-ghana-world-cup-game)
+    — Finextra'
   verification:
     verified: false
     warnings:
-    - Draft states consultation was 'reported on June 23' but PSR published the proposed
-      direction on May 21, 2026, with news coverage on May 22, 2026 — the event is
-      approximately one month old, not recent
-- headline: PayPoint completes AperiData acquisition to build open banking credit
-    data business
-  standfirst: PayPoint has closed its acquisition of credit reference agency and open
-    banking platform AperiData, consolidating real-time financial data capabilities
-    into its payments and commerce infrastructure.
-  body: 'PayPoint has completed the acquisition of AperiData, a UK-based credit reference
-    agency that uses open banking data to provide real-time affordability and creditworthiness
-    assessments. The deal follows a previous £1 million strategic investment and brings
-    AperiData''s platform fully under PayPoint''s ownership.
+    - Worldpay acquisition described as '2025 acquisition' but deal actually closed
+      January 12, 2026—at time of outage, Global Payments owned Worldpay for ~5.5
+      months
+- headline: PayPoint completes AperiData acquisition to build open banking into credit
+    data
+  standfirst: PayPoint has completed its acquisition of AperiData, a UK credit reference
+    agency with an open banking platform, following a previous strategic investment.
+  body: 'The deal gives PayPoint direct ownership of a real-time credit data capability
+    built on open banking rails. AperiData''s platform allows lenders and other organisations
+    to access bank transaction data for affordability assessments and creditworthiness
+    checks, combining traditional credit reference agency functions with open banking
+    data ingestion.
 
 
-    The acquisition positions PayPoint at the intersection of open banking data and
-    credit decisioning, a space where demand is growing from lenders, landlords and
-    regulated sectors such as gambling that require affordability checks. AperiData''s
-    platform ingests bank transaction data via open banking APIs to generate credit
-    scores and income verification in real time, bypassing the lag inherent in traditional
-    credit bureau data.
-
-
-    For the broader market, the deal illustrates how open banking is creating value
-    not just in payments initiation but in the data layer that sits around it. Credit
-    reference and affordability assessment represent one of the more commercially
-    proven use cases for open banking data, and PayPoint''s move to own rather than
-    partner suggests it sees meaningful revenue potential in this segment.
+    The acquisition sits within a broader consolidation pattern in the UK open banking
+    data market. As open banking matures from payment initiation into data-driven
+    decisioning, firms that can combine regulated credit data with real-time bank
+    account information hold an increasingly valuable position. PayPoint''s move reflects
+    the commercial logic of vertically integrating these capabilities rather than
+    relying on third-party open banking providers.
 
     '
-  editorial_note: This acquisition is a concrete example of open banking data commercialisation
-    beyond payments, showing where incumbents see growth in the UK open banking ecosystem.
+  editorial_note: This acquisition illustrates how open banking data is being absorbed
+    into adjacent sectors such as credit referencing, a practical indicator of where
+    open banking's commercial value is consolidating.
   sources: '[PayPoint completes AperiData acquisition to strengthen Open Banking capabilities](https://www.openbankingexpo.com/news/paypoint-completes-aperidata-acquisition-to-strengthen-open-banking-capabilities/)
     — Open Banking Expo | [PayPoint acquires Aperidata](https://www.finextra.com/newsarticle/47980/paypoint-acquires-aperidata)
     — Finextra'
   verification:
     verified: true
     warnings: []
-- headline: Worldpay outage during England World Cup match exposes processor concentration
-    risk
-  standfirst: A Worldpay system failure during England's World Cup match against Ghana
-    left consumers unable to make card payments at pubs and retailers, highlighting
-    the fragility of single-processor dependence.
-  body: 'Worldpay experienced a service outage on the evening of June 24, coinciding
-    with England''s World Cup group stage match against Ghana. The failure prevented
-    card payments at pubs, shops and other venues during one of the highest-traffic
-    periods for UK hospitality, though the duration and root cause have not yet been
-    publicly disclosed.
+- headline: Mastercard and PrivatBank complete Ukraine's first AI agent payment
+  standfirst: Mastercard's Agent Pay product has been used to execute Ukraine's first
+    payment initiated by an AI agent, extending the technology's deployment into a
+    new European market.
+  body: 'The transaction, completed in partnership with PrivatBank, Ukraine''s largest
+    retail bank, used Mastercard''s Agent Pay framework to allow an AI agent to initiate
+    and complete a payment autonomously. The announcement follows Mastercard''s earlier
+    agentic payment demonstration with ING and Worldline in early June, and Visa''s
+    parallel partnership with OpenAI.
 
 
-    The timing amplified the impact and visibility of what might otherwise have been
-    a routine operational incident. For merchants relying solely on Worldpay for card
-    acceptance, the outage meant lost revenue during a peak trading window with no
-    fallback payment rail available.
-
-
-    Processor outages are not new, but they recur often enough to raise questions
-    about resilience planning and the concentration of UK card acquiring through a
-    small number of large processors. The incident may add weight to arguments for
-    payment diversity at the point of sale, whether through multi-acquirer strategies
-    or the availability of alternative rails such as account-to-account payments that
-    route around card processing infrastructure entirely.
+    Agentic payments are moving rapidly from concept to live deployment. The pace
+    of market-by-market rollouts suggests the card networks view AI-initiated transactions
+    as a near-term product category rather than a long-horizon experiment. The choice
+    of Ukraine, a market with high digital payment adoption driven partly by the conflict,
+    underscores how agentic commerce is being tested across diverse conditions rather
+    than confined to Western European pilot markets.
 
     '
-  editorial_note: A high-profile processor outage during a major public event is a
-    recurring prompt for discussion of payment resilience and acquirer concentration
-    in the UK market.
-  sources: '[Worldpay suffers outage during England vs Ghana World Cup game](https://www.finextra.com/newsarticle/47988/worldpay-suffers-outage-during-england-vs-ghana-world-cup-game)
+  editorial_note: The speed at which agentic payments are moving from first European
+    pilot (ING/Worldline, early June) to deployment in additional markets is notable,
+    and signals this is becoming a competitive priority for the card networks.
+  sources: '[Mastercard and PrivatBank complete Ukraine''s first payment executed
+    by an AI agent](https://www.finextra.com/pressarticle/110244/mastercard-and-privatbank-complete-ukraines-first-payment-executed-by-an-ai-agent)
     — Finextra'
   verification:
-    verified: false
-    warnings:
-    - Draft states outage occurred 'June 24' but England vs Ghana match and Worldpay
-      outage occurred on June 23, 2026 (Tuesday evening)
+    verified: true
+    warnings: []
