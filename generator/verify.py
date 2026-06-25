@@ -8,7 +8,7 @@ import os
 import anthropic
 
 MODEL = "claude-haiku-4-5-20251001"
-MAX_TOKENS = 400
+MAX_TOKENS = 1024
 STALE_DAYS = 5
 
 SYSTEM_PROMPT = f"""You are a fact-checker for a European payments news briefing. You will be
@@ -22,27 +22,34 @@ three things:
    days old.
 3. Unsupported claims — anything stated as fact that your search does not corroborate.
 
-Respond with only a single JSON object, no preamble, no code fences:
+Do your research silently, then respond with ONLY a single JSON object as your final
+message — no explanation, no preamble, no commentary, no code fences, before or after it:
 
 {{"verified": true or false, "warnings": ["short, specific warning — e.g. Source states $10bn, draft says £10bn"]}}
 
 If nothing is wrong, return {{"verified": true, "warnings": []}}."""
 
 
+def _unparseable(text: str) -> dict:
+    snippet = text.strip().replace("\n", " ")[:150]
+    return {"verified": False, "warnings": [f"verification response could not be parsed: {snippet!r}"]}
+
+
 def _parse_response(text: str) -> dict:
+    raw = text
     text = text.strip()
     if text.startswith("```"):
         lines = text.splitlines()
         text = "\n".join(lines[1:-1] if lines[-1].strip() == "```" else lines[1:])
     start, end = text.find("{"), text.rfind("}")
     if start == -1 or end == -1:
-        return {"verified": False, "warnings": ["verification response could not be parsed"]}
+        return _unparseable(raw)
     try:
         data = json.loads(text[start:end + 1])
     except json.JSONDecodeError:
-        return {"verified": False, "warnings": ["verification response could not be parsed"]}
+        return _unparseable(raw)
     if not isinstance(data, dict):
-        return {"verified": False, "warnings": ["verification response could not be parsed"]}
+        return _unparseable(raw)
     return {
         "verified": bool(data.get("verified", False)),
         "warnings": [str(w) for w in (data.get("warnings") or [])],
