@@ -263,3 +263,32 @@ editor-confirmed) alongside the date, rather than the generic
 only the date and content — no repeated title heading. Browser tab titles
 are set per section: "Skald | Content Intelligence" for the homepage,
 "Skald | European Payments Briefing" for individual briefings.
+
+## Generation: secondary verification pass against live web search
+A generated story cited a TrueLayer announcement that was actually over a
+year old and had fabricated a £ figure for what the source stated in $. The
+story prompt already asks Claude to self-check date staleness and primary
+sourcing, but that's advisory and got skipped under generation pressure.
+
+Added `generator/verify.py`: an independent fact-check pass that re-checks
+each generated story against live web search (Anthropic's `web_search`
+tool, Haiku model) for currency/figure accuracy, true source recency, and
+unsupported claims, before the draft is saved. Non-blocking — flags surface
+as warnings in the dashboard's editorial note for the editor to weigh, never
+halt generation or publishing.
+
+The verification call asks for a JSON response, not YAML — free-text
+warnings routinely contain colons (e.g. "Source: $10bn, draft: £10bn"),
+which break YAML's unquoted mapping syntax. JSON is colon-safe since
+strings are always quote-delimited. The token budget also needs headroom
+beyond the final answer — the `web_search` tool consumes part of it pulling
+search results into context before the model writes its JSON, so a tight
+`max_tokens` truncates the response mid-object.
+
+## Generation: recently_covered dedup uses full history, not a day window
+A story already published in an earlier briefing got selected again.
+`load_recently_covered()` was windowing the injected history to the last 7
+days, so anything older was invisible to Claude — not ignored, just never
+shown. Aggregators routinely resurface old stories under a fresh publish
+date, so there's no safe recency cutoff for duplicate detection. The file
+is small and grows slowly, so it's injected in full instead of windowed.
