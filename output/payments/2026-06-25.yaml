@@ -1,0 +1,187 @@
+title: Iceland joins TIPS; FCA on AI and open finance; PayPoint acquires AperiData
+social_post: 'Iceland''s króna will be the fifth currency on TIPS. The FCA is rethinking
+  regulation for AI — and nudging open finance forward. Plus: PSR eyes new card scheme
+  reporting rules and PayPoint bolts on open banking capability. {link}'
+stories:
+- headline: Iceland joins TIPS, bringing a fifth currency to euro instant payment
+    rails
+  standfirst: The ECB and Iceland's central bank have agreed to settle Icelandic króna
+    instant payments through TIPS from 2028, extending the Eurosystem's infrastructure
+    to a non-EU, non-euro economy.
+  body: 'The króna will become the fifth currency available on TIPS, joining the euro,
+    Swedish krona, Danish krone and Norwegian krone. The agreement, announced on June
+    24, means Icelandic banks will be able to settle domestic instant payments in
+    central bank money through shared European infrastructure rather than building
+    or maintaining a standalone system.
+
+
+    Iceland is not an EU member but participates in the European Economic Area. Its
+    inclusion follows the pattern set by the Scandinavian central banks that connected
+    their currencies to TIPS between 2024 and 2026. For the ECB, each additional currency
+    reinforces TIPS as a pan-European utility rather than a eurozone-only service.
+    For Iceland, it provides access to settlement infrastructure that would be disproportionately
+    expensive to replicate domestically for a market of roughly 380,000 people.
+
+
+    The operational go-live is set for 2028. The agreement covers settlement only;
+    Icelandic payment service providers will still need to build or adapt front-end
+    services to deliver instant payments to end users.
+
+    '
+  editorial_note: A non-EU currency joining TIPS is a concrete expansion of the Eurosystem's
+    instant payment infrastructure beyond the eurozone, relevant to anyone tracking
+    European payment consolidation.
+  sources: '[Iceland joins TIPS for instant payments](https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr260624_1~ce8e85127f.en.html)
+    — European Central Bank | [Iceland to join Target Instant Payment Settlement System](https://www.finextra.com/newsarticle/47983/iceland-to-join-target-instant-payment-settlement-system)
+    — Finextra'
+  verification:
+    verified: false
+    warnings:
+    - "verification check failed to run: mapping values are not allowed here\n  in\
+      \ \"<unicode string>\", line 2, column 51:\n     ... e key facts from the draft\
+      \ story:\n                                         ^"
+- headline: FCA signals it may facilitate open finance data sharing and AI supervision
+  standfirst: The FCA's chief executive has outlined how the regulator is rethinking
+    its approach for the AI era, explicitly referencing a facilitating role in open
+    finance and competition law considerations for commercial variable recurring payments.
+  body: 'In a speech published on June 24, FCA CEO Nikhil Rathi set out a broad agenda
+    for adapting financial regulation to artificial intelligence. The most pointed
+    section for the payments and open banking sector was his acknowledgement that
+    the FCA has "considered the case for beneficial collaboration under competition
+    law, so commercial Variable Recurring Payments can get off the ground" and that
+    it is "open to other areas where we may need to play a facilitating role" in open
+    finance data sharing.
+
+
+    This is notable because the UK''s open finance agenda has lacked a clear regulatory
+    push since the CMA''s open banking order expired. The FCA has published research
+    questions on how open finance might reshape financial services market structure,
+    but has not committed to a regulatory framework. Rathi''s language stops short
+    of announcing one, but positions the FCA as willing to intervene where market
+    coordination alone is insufficient.
+
+
+    The speech also flagged the FCA''s interest in supervising AI-driven financial
+    services, including agentic AI. For payments firms building AI-powered products,
+    the signal is that the FCA intends to be active rather than reactive in this space.
+
+    '
+  editorial_note: The FCA publicly acknowledging a facilitating role in open finance
+    and VRP competition issues is a meaningful signal for an industry that has been
+    waiting for clearer regulatory direction in the UK.
+  sources: '[Rethinking regulation for the age of AI](https://www.fca.org.uk/news/speeches/rethinking-regulation-age-ai)
+    — FCA'
+  verification:
+    verified: false
+    warnings:
+    - "verification check failed to run: mapping values are not allowed here\n  in\
+      \ \"<unicode string>\", line 17, column 9:\n    verified: false\n          \
+      \  ^"
+- headline: PSR proposes financial reporting requirements for Mastercard and Visa
+  standfirst: The UK Payment Systems Regulator has opened a consultation on rules
+    that would require the card schemes to submit detailed financial performance data,
+    a step towards greater transparency on scheme economics.
+  body: 'The PSR is consulting on proposals to mandate that Mastercard and Visa report
+    financial information covering their UK operations. The move follows the regulator''s
+    long-running scrutiny of card scheme and processing fees, which has already produced
+    market reviews and remedies targeting interchange and scheme fee transparency.
+
+
+    Requiring the schemes to report standardised financial data would give the PSR
+    a more systematic view of how scheme economics are evolving, rather than relying
+    on ad hoc information requests during specific reviews. For merchants and acquirers,
+    the prospect of published or regulator-held data on scheme financial performance
+    could shift the dynamics of fee negotiations and regulatory complaints.
+
+
+    The consultation is at an early stage, and the scope of what would be reported,
+    whether data would be published or held confidentially, and the compliance burden
+    on the schemes are all open questions. But the direction of travel is clear: the
+    PSR wants standing visibility into card scheme finances, not just periodic snapshots.
+
+    '
+  editorial_note: Structural reporting obligations on Mastercard and Visa would represent
+    a step change in UK card scheme oversight, relevant to acquirers, merchants and
+    the schemes themselves.
+  sources: '[UK PSR proposes new reporting rules for Mastercard and Visa](https://www.msn.com/en-us/news/technology/uk-psr-proposes-new-reporting-rules-for-mastercard-and-visa/ar-AA23OZzj)
+    — MSN'
+  verification:
+    verified: false
+    warnings:
+    - "verification check failed to run: mapping values are not allowed here\n  in\
+      \ \"<unicode string>\", line 6, column 27:\n    1. **Consultation Status**:\
+      \ Confirmed. \n                              ^"
+- headline: PayPoint completes AperiData acquisition to add open banking and credit
+    data
+  standfirst: PayPoint has closed its acquisition of AperiData, a UK credit reference
+    agency with an open banking platform, adding real-time income and expenditure
+    verification to its payments and retail services business.
+  body: 'The deal follows a previous £1 million strategic investment by PayPoint in
+    AperiData. AperiData operates as a credit reference agency that uses open banking
+    data to provide real-time affordability and creditworthiness assessments, serving
+    lenders, landlords and other organisations that need to verify an applicant''s
+    financial position.
+
+
+    For PayPoint, the acquisition extends its capabilities beyond payment acceptance
+    and retail services into data-driven financial verification. The combination of
+    open banking connectivity and credit reference status is relatively unusual in
+    the UK market, where most open banking platforms do not hold CRA licences. PayPoint
+    has indicated that the acquisition will support its broader open banking operations,
+    though specific product plans have not been detailed.
+
+
+    The deal is modest in scale but illustrative of how open banking data is being
+    absorbed into adjacent business lines such as credit decisioning and affordability
+    checks, rather than remaining confined to payment initiation.
+
+    '
+  editorial_note: This acquisition illustrates the practical convergence of open banking
+    data and credit reference services, a trend worth tracking as open finance discussions
+    advance in the UK.
+  sources: '[PayPoint completes AperiData acquisition to strengthen Open Banking capabilities](https://www.openbankingexpo.com/news/paypoint-completes-aperidata-acquisition-to-strengthen-open-banking-capabilities/)
+    — Open Banking Expo | [PayPoint acquires Aperidata](https://www.finextra.com/newsarticle/47980/paypoint-acquires-aperidata)
+    — Finextra'
+  verification:
+    verified: false
+    warnings:
+    - "verification check failed to run: mapping values are not allowed here\n  in\
+      \ \"<unicode string>\", line 2, column 82:\n     ... he three key claims in\
+      \ the story:\n                                         ^"
+- headline: Worldline becomes first European acquirer to enable Click to Pay for recurring
+    payments
+  standfirst: Worldline has extended EMVCo's Click to Pay tokenisation standard to
+    subscription and recurring payment flows, a first among European acquirers that
+    could reduce friction and failed payments for merchants with recurring billing.
+  body: 'Click to Pay replaces manual card entry with tokenised credentials stored
+    across the card network, allowing consumers to check out without re-entering card
+    details. Worldline''s extension of this to recurring payments means that subscribers
+    and membership customers can be enrolled using Click to Pay at the point of initial
+    signup, with subsequent charges processed against the stored token.
+
+
+    The practical benefit for merchants is a potential reduction in involuntary churn
+    caused by expired or replaced card numbers. When a consumer''s card is reissued,
+    network-level tokenisation can update the credential automatically, whereas a
+    merchant storing raw card numbers would face a failed payment and need to prompt
+    the customer to re-enter details. This is a well-understood problem in subscription
+    commerce.
+
+
+    Worldline''s first-mover position among European acquirers is worth noting, though
+    the competitive advantage depends on how quickly others follow. The underlying
+    Click to Pay infrastructure is network-operated, so the barrier to entry for other
+    acquirers is integration effort rather than proprietary technology.
+
+    '
+  editorial_note: Extending Click to Pay to recurring payments addresses a real pain
+    point in subscription commerce and signals broader European acquirer adoption
+    of network tokenisation.
+  sources: '[Worldline brings Click to Pay to recurring payments in Europe](https://thepaypers.com/payments/news/worldline-brings-click-to-pay-to-recurring-payments-in-europe)
+    — The Paypers'
+  verification:
+    verified: false
+    warnings:
+    - "verification check failed to run: mapping values are not allowed here\n  in\
+      \ \"<unicode string>\", line 5, column 38:\n     ... ey facts to verify from\
+      \ the body:\n                                         ^"
