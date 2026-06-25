@@ -1,154 +1,186 @@
-title: Iceland joins TIPS; FCA on AI regulation; PayPoint's open banking acquisition;
-  Worldpay outage
-social_post: 'Iceland signs up for euro-area instant payments in króna. The FCA rethinks
-  regulation for AI. And Worldpay went down during the World Cup. Today''s briefing:
-  {link}'
+title: Iceland joins TIPS; FCA rethinks AI regulation; PSR targets card scheme reporting
+social_post: 'Iceland signs up for TIPS instant payments in króna. The FCA floats
+  competition-law carve-outs for VRPs. And the PSR wants Visa and Mastercard to open
+  up their books. Today''s briefing: {link}'
 stories:
 - headline: Iceland signs agreement to settle króna payments through TIPS from 2028
-  standfirst: The ECB and Seðlabanki Íslands have agreed to connect Iceland's króna
-    to the Eurosystem's instant payment settlement infrastructure, extending TIPS
-    to its second non-euro currency.
-  body: 'Iceland will become the latest non-eurozone country to settle its domestic
-    currency through TIPS, following Sweden''s connection of the krona in 2024. The
-    agreement, announced on June 24, means payments in Icelandic króna will be settled
-    instantly in central bank money from 2028.
+  standfirst: The ECB and Seðlabanki Íslands have agreed to connect Iceland's payment
+    infrastructure to TIPS, extending the Eurosystem's instant settlement platform
+    to a non-euro, non-EU currency for the first time.
+  body: 'Iceland will become the first country outside the EU and EEA''s euro area
+    to settle its domestic currency through TIPS, the Eurosystem''s instant payment
+    settlement infrastructure. Under the agreement announced June 24, Icelandic króna
+    payments will be settled in central bank money from 2028, alongside the euro,
+    Swedish krona and Danish krone already live on the platform.
 
 
-    The move reflects a broader pattern of TIPS expanding beyond its original euro-settlement
-    role into a multi-currency instant payment backbone for European countries outside
-    the eurozone. For Iceland, it replaces the need to build or maintain standalone
-    domestic instant payment infrastructure, instead plugging into the ECB''s existing
-    platform.
+    The move reflects TIPS''s evolution from a euro-area utility into a broader European
+    settlement backbone. For Iceland, it means domestic instant payments will settle
+    with the finality and resilience of central bank infrastructure rather than commercial
+    bank systems. ECB president Christine Lagarde framed it as reinforcing the integration
+    of Europe''s financial infrastructure.
 
 
-    ECB president Christine Lagarde framed the agreement as reinforcing European financial
-    integration. For the payments industry, the more practical signal is that TIPS
-    is consolidating its position as the default settlement layer for instant payments
-    across Europe, whether or not a country uses the euro.
+    The practical effect is that Iceland''s banks and payment providers will gain
+    access to the same settlement speed and interoperability already available to
+    their Nordic and European counterparts, without adopting the euro. It also strengthens
+    the ECB''s position as the operator of choice for instant settlement across the
+    continent, at a time when the Instant Payments Regulation is pushing mandatory
+    adoption among EU payment service providers.
 
     '
-  editorial_note: TIPS expanding to another non-euro currency is a meaningful infrastructure
-    development, reinforcing the system's trajectory as a pan-European settlement
-    utility.
+  editorial_note: A non-EU, non-euro country connecting its domestic currency to TIPS
+    is a structural expansion of the Eurosystem's reach and relevant to anyone tracking
+    European instant payment infrastructure.
   sources: '[Iceland joins TIPS for instant payments](https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr260624_1~ce8e85127f.en.html)
     — ECB | [Iceland to join Target Instant Payment Settlement System](https://www.finextra.com/newsarticle/47983/iceland-to-join-target-instant-payment-settlement-system)
     — Finextra'
   verification:
-    verified: true
-    warnings: []
-- headline: FCA signals willingness to facilitate open finance collaboration under
-    competition law
-  standfirst: The FCA's chief executive has outlined a regulatory approach to AI that
-    includes considering beneficial collaboration in open banking and open finance,
-    marking a notable shift in the regulator's posture.
-  body: 'In a speech published on June 24, FCA chief executive Nikhil Rathi set out
-    how the regulator is rethinking its approach for an AI-driven financial services
-    environment. Among several areas covered, Rathi noted the FCA has "considered
-    the case for beneficial collaboration under competition law, so commercial Variable
-    Recurring Payments can get off the ground" and signalled openness to playing a
-    facilitating role in data sharing for open finance.
+    verified: false
+    warnings:
+    - Headline claim 'first country outside EU and EEA eurozone' is inaccurate—Sweden
+      and Denmark (both EEA but outside eurozone) already settled their currencies
+      on TIPS before Iceland
+- headline: FCA signals willingness to facilitate competition-law collaboration on
+    open banking
+  standfirst: The FCA's chief executive has publicly acknowledged the case for allowing
+    beneficial collaboration under competition law to help commercial variable recurring
+    payments reach scale.
+  body: 'In a speech on rethinking regulation for AI, FCA chief executive Nikhil Rathi
+    made a notable aside on open banking, stating the regulator has "considered the
+    case for beneficial collaboration under competition law, so commercial Variable
+    Recurring Payments can get off the ground." The comment, in a speech published
+    June 24, suggests the FCA recognises that competitive dynamics alone may not be
+    sufficient to drive adoption of commercial VRPs.
 
 
-    The speech positions the FCA as actively exploring where it may need to enable
-    coordination between firms rather than simply enforcing market rules. On open
-    finance specifically, the regulator is asking how its introduction might reshape
-    financial services sector structure, a question it plans to explore through a
-    formal research agenda over the next five years.
+    The remark is significant because it points to a willingness to create a framework
+    where competing firms can coordinate on standards, pricing or technical integration
+    without falling foul of competition rules. Commercial VRPs have been live in the
+    UK since Modulr''s launch under the new UKPI scheme earlier this month, but merchant
+    and bank adoption remains nascent. Industry participants have repeatedly flagged
+    the difficulty of achieving multilateral agreement on commercial terms without
+    some form of regulatory facilitation.
 
 
-    For payments and open banking firms, the practical implication is that the FCA
-    appears willing to provide regulatory cover for the kind of industry coordination
-    that VRPs and broader open finance require to scale. Whether that translates into
-    concrete safe harbours or guidance remains to be seen, but the direction is clear.
+    Rathi also signalled openness to a broader facilitating role on open finance data
+    sharing, though without committing to specific timelines or mechanisms. For payments
+    firms and banks navigating VRP strategy, the speech is the clearest indication
+    yet that the FCA sees itself as an active enabler rather than a passive observer
+    of commercial open banking.
 
     '
-  editorial_note: The FCA chief executive publicly acknowledging the need for regulatory
-    facilitation of open finance and VRP collaboration is a substantive policy signal
-    for UK open banking participants.
+  editorial_note: The FCA chief executive publicly acknowledging a possible competition-law
+    carve-out for VRP collaboration is a meaningful signal for firms trying to build
+    commercial models around open banking payments.
   sources: '[Rethinking regulation for the age of AI](https://www.fca.org.uk/news/speeches/rethinking-regulation-age-ai)
     — FCA'
   verification:
-    verified: false
-    warnings:
-    - verification response could not be parsed
-- headline: PayPoint completes AperiData acquisition to deepen open banking and credit
-    data offering
-  standfirst: PayPoint has completed its acquisition of AperiData, a UK credit reference
-    agency and open banking platform, building on a prior £1 million strategic investment.
-  body: 'The acquisition brings AperiData''s real-time credit referencing and open
-    banking data capabilities in-house at PayPoint, which has been steadily expanding
-    beyond its legacy cash and bill payment network into digital services. PayPoint
-    said the deal will strengthen its open banking operations and make it easier for
-    client organisations to access credit and affordability data.
+    verified: true
+    warnings: []
+- headline: PSR proposes new financial reporting requirements for Mastercard and Visa
+  standfirst: The UK Payment Systems Regulator has launched a consultation on requiring
+    Mastercard and Visa to disclose detailed financial data, as it deepens scrutiny
+    of card scheme economics.
+  body: 'The PSR has proposed new reporting rules that would require Mastercard and
+    Visa to provide detailed financial information about their UK operations. The
+    consultation, reported on June 23, follows the regulator''s long-running market
+    review of card scheme and processing fees, which found that scheme fees had risen
+    significantly without clear competitive pressure.
 
 
-    The transaction is modest in scale but illustrative of a broader trend: established
-    payment and financial services companies acquiring specialist open banking firms
-    to integrate data-driven decisioning into their core platforms. PayPoint''s trajectory
-    from a physical payment network to a digitally-enabled services business mirrors
-    a wider shift across the UK payments landscape.
+    The proposed requirements would give the PSR regular, structured visibility into
+    how the two networks generate revenue in the UK, going beyond the ad hoc information
+    requests used in previous reviews. For the card schemes, this represents a shift
+    toward ongoing regulatory transparency obligations of the kind more commonly associated
+    with regulated utilities.
+
+
+    The move sits alongside the PSR''s broader programme of work on interchange and
+    scheme fees, and comes as account-to-account payment alternatives such as Wero
+    and commercial VRPs position themselves as lower-cost alternatives to card rails.
+    Increased transparency on card economics could sharpen the comparative case for
+    these alternatives, particularly for merchants weighing the cost of acceptance.
 
     '
-  editorial_note: A useful example of how mid-market UK payment companies are using
-    acquisitions to build open banking capabilities rather than developing them in-house.
+  editorial_note: Ongoing PSR scrutiny of card scheme economics is directly relevant
+    to the competitive dynamics between card and account-to-account payment models
+    in the UK.
+  sources: '[UK PSR proposes new reporting rules for Mastercard and Visa](https://www.msn.com/en-us/news/technology/uk-psr-proposes-new-reporting-rules-for-mastercard-and-visa/ar-AA23OZzj)
+    — MSN'
+  verification:
+    verified: false
+    warnings:
+    - Draft states consultation was 'reported on June 23' but PSR published the proposed
+      direction on May 21, 2026, with news coverage on May 22, 2026 — the event is
+      approximately one month old, not recent
+- headline: PayPoint completes AperiData acquisition to build open banking credit
+    data business
+  standfirst: PayPoint has closed its acquisition of credit reference agency and open
+    banking platform AperiData, consolidating real-time financial data capabilities
+    into its payments and commerce infrastructure.
+  body: 'PayPoint has completed the acquisition of AperiData, a UK-based credit reference
+    agency that uses open banking data to provide real-time affordability and creditworthiness
+    assessments. The deal follows a previous £1 million strategic investment and brings
+    AperiData''s platform fully under PayPoint''s ownership.
+
+
+    The acquisition positions PayPoint at the intersection of open banking data and
+    credit decisioning, a space where demand is growing from lenders, landlords and
+    regulated sectors such as gambling that require affordability checks. AperiData''s
+    platform ingests bank transaction data via open banking APIs to generate credit
+    scores and income verification in real time, bypassing the lag inherent in traditional
+    credit bureau data.
+
+
+    For the broader market, the deal illustrates how open banking is creating value
+    not just in payments initiation but in the data layer that sits around it. Credit
+    reference and affordability assessment represent one of the more commercially
+    proven use cases for open banking data, and PayPoint''s move to own rather than
+    partner suggests it sees meaningful revenue potential in this segment.
+
+    '
+  editorial_note: This acquisition is a concrete example of open banking data commercialisation
+    beyond payments, showing where incumbents see growth in the UK open banking ecosystem.
   sources: '[PayPoint completes AperiData acquisition to strengthen Open Banking capabilities](https://www.openbankingexpo.com/news/paypoint-completes-aperidata-acquisition-to-strengthen-open-banking-capabilities/)
     — Open Banking Expo | [PayPoint acquires Aperidata](https://www.finextra.com/newsarticle/47980/paypoint-acquires-aperidata)
     — Finextra'
   verification:
     verified: true
     warnings: []
-- headline: Worldpay outage during World Cup match exposes processor concentration
+- headline: Worldpay outage during England World Cup match exposes processor concentration
     risk
-  standfirst: An outage at Worldpay during the England–Ghana World Cup match on June
-    24 left consumers unable to make card payments at pubs and shops across the UK.
-  body: 'The timing could hardly have been worse. Worldpay''s systems went down during
-    a high-profile World Cup fixture, precisely the kind of peak-demand moment when
-    payment reliability is most visible to consumers. Reports indicated that card
-    payments failed at multiple retailers and hospitality venues, forcing customers
-    to find cash or abandon transactions.
+  standfirst: A Worldpay system failure during England's World Cup match against Ghana
+    left consumers unable to make card payments at pubs and retailers, highlighting
+    the fragility of single-processor dependence.
+  body: 'Worldpay experienced a service outage on the evening of June 24, coinciding
+    with England''s World Cup group stage match against Ghana. The failure prevented
+    card payments at pubs, shops and other venues during one of the highest-traffic
+    periods for UK hospitality, though the duration and root cause have not yet been
+    publicly disclosed.
 
 
-    Processor outages are not uncommon, but they tend to generate outsized public
-    attention when they coincide with major events. For the payments industry, the
-    incident is a reminder of the concentration risk inherent in the UK''s acquiring
-    market, where a small number of processors handle the vast majority of card transaction
-    volume. Any single point of failure in that chain has immediate, widespread consumer
-    impact.
+    The timing amplified the impact and visibility of what might otherwise have been
+    a routine operational incident. For merchants relying solely on Worldpay for card
+    acceptance, the outage meant lost revenue during a peak trading window with no
+    fallback payment rail available.
+
+
+    Processor outages are not new, but they recur often enough to raise questions
+    about resilience planning and the concentration of UK card acquiring through a
+    small number of large processors. The incident may add weight to arguments for
+    payment diversity at the point of sale, whether through multi-acquirer strategies
+    or the availability of alternative rails such as account-to-account payments that
+    route around card processing infrastructure entirely.
 
     '
-  editorial_note: A high-profile operational failure at a major processor during a
-    nationally significant event — raises persistent questions about resilience and
-    concentration in UK card acquiring.
+  editorial_note: A high-profile processor outage during a major public event is a
+    recurring prompt for discussion of payment resilience and acquirer concentration
+    in the UK market.
   sources: '[Worldpay suffers outage during England vs Ghana World Cup game](https://www.finextra.com/newsarticle/47988/worldpay-suffers-outage-during-england-vs-ghana-world-cup-game)
     — Finextra'
   verification:
-    verified: true
-    warnings: []
-- headline: PSR consults on new financial reporting requirements for Mastercard and
-    Visa
-  standfirst: The UK Payment Systems Regulator has proposed requiring Mastercard and
-    Visa to report financial data on their UK card scheme operations, extending regulatory
-    oversight of scheme economics.
-  body: 'The PSR''s consultation, published this week, would oblige both card schemes
-    to submit financial information covering their UK operations. The regulator has
-    been steadily increasing its scrutiny of scheme fees and interchange economics,
-    and mandatory reporting would give it a more granular and consistent evidence
-    base for future interventions.
-
-
-    The proposal sits within the PSR''s broader programme of work on card fees, which
-    has already produced market reviews and data collection exercises. Requiring routine
-    financial reporting would formalise what has so far been an ad hoc process, giving
-    the regulator standing access to the data it needs to assess whether scheme fees
-    remain proportionate. For Mastercard and Visa, it represents another layer of
-    UK regulatory oversight on top of the EU''s existing interchange fee regulation.
-
-    '
-  editorial_note: Formalising financial reporting obligations for the card schemes
-    is a meaningful extension of PSR oversight, with direct implications for scheme
-    fee economics in the UK.
-  sources: '[UK PSR proposes new reporting rules for Mastercard and Visa](https://www.msn.com/en-us/news/technology/uk-psr-proposes-new-reporting-rules-for-mastercard-and-visa/ar-AA23OZzj)
-    — MSN'
-  verification:
-    verified: true
-    warnings: []
+    verified: false
+    warnings:
+    - Draft states outage occurred 'June 24' but England vs Ghana match and Worldpay
+      outage occurred on June 23, 2026 (Tuesday evening)
