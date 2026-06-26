@@ -1,0 +1,150 @@
+title: UK payments infrastructure consultation; BoE stablecoin rethink; Airwallex
+  valuation
+social_post: 'The UK is consulting on what comes after Faster Payments. Plus: the
+  Bank of England rethinks stablecoin holding caps and Airwallex hits $11bn. Today''s
+  briefing → {link}'
+stories:
+- headline: UK launches consultation on next-generation retail payments infrastructure
+  standfirst: The Retail Payments Infrastructure Board has opened a consultation on
+    the design of the UK's future retail payment system, the most significant structural
+    review since the New Payments Architecture was shelved.
+  body: 'The Bank of England-led RPIB published its consultation on June 25, inviting
+    industry input on the architecture that will eventually replace the UK''s existing
+    Faster Payments and Bacs systems. The consultation follows the RPIB''s November
+    2025 strategy paper and sits within the broader National Payments Vision framework
+    overseen by HM Treasury, the FCA and the Payment Systems Regulator.
+
+
+    Pay.UK will continue to operate existing systems during the transition, but the
+    consultation signals that the UK is now actively scoping a replacement rather
+    than iterating on what exists. The design choices made here will shape how variable
+    recurring payments, open banking-initiated transfers and overlay services such
+    as confirmation of payee operate for the next decade or more.
+
+
+    The consultation arrives at a moment when the UK is simultaneously launching its
+    new domestic card scheme (UKPI), implementing commercial VRPs and absorbing the
+    SEPA instant payments mandate''s implications for cross-border interoperability.
+    How the next-generation infrastructure accommodates these parallel initiatives
+    will determine whether the UK payments landscape simplifies or fragments further.
+
+    '
+  editorial_note: A foundational consultation that will shape UK payments infrastructure
+    for years — directly relevant to banks, fintechs and payment processors operating
+    in the UK market.
+  sources: '[The Retail Payments Infrastructure Board launches consultation on the
+    next generation UK payments infrastructure](https://www.bankofengland.co.uk/news/2026/june/rpib-launches-consultation-on-next-generation-uk-payments-infrastructure)
+    — Bank of England | [RPIB Consults on UK''s Next-Generation Payments System](https://www.finance-monthly.com/rpib-consultation-uk-next-generation-payments-infrastructure/)
+    — Finance Monthly | [UK''s Retail Payments Infrastructure Board launches consultation](https://www.finextra.com/newsarticle/47997/uks-retail-payments-infrastructure-board-launches-consultation)
+    — Finextra'
+  verification:
+    verified: false
+    warnings:
+    - Draft attributes 'November 2025 strategy paper' to RPIB, but source confirms
+      it was published by PVDC on 7 November 2025 — the RPIB was established to implement
+      PVDC's strategy, not author it
+- headline: Bank of England drops individual holding caps in stablecoin regulatory
+    rethink
+  standfirst: The BoE has revised its approach to stablecoin regulation, removing
+    proposed individual holding limits in a policy statement that clears a path toward
+    a 2027 supervisory regime.
+  body: 'The Bank of England''s updated policy statement abandons the individual holding
+    caps it had previously consulted on for sterling-denominated stablecoins. The
+    original proposal would have limited how much any single person could hold in
+    a regulated stablecoin, a constraint that the industry argued would cripple utility
+    for payments and treasury use cases alike.
+
+
+    By removing the cap, the BoE is signalling a more permissive stance that aligns
+    stablecoin regulation more closely with how electronic money is already treated.
+    The 2027 target date for the full supervisory framework gives issuers and payment
+    firms a clearer timeline for product development and licensing applications.
+
+
+    The shift comes as stablecoin payment rails gain traction across European infrastructure.
+    Mastercard recently added stablecoin settlement to its merchant network, ClearBank
+    Europe launched digital asset rails with SEPA instant payouts, and multiple eurozone
+    initiatives are exploring tokenised money alongside the digital euro. The BoE''s
+    willingness to ease its initial constraints suggests UK regulators want to remain
+    competitive in this space rather than let restrictive rules push activity offshore.
+
+    '
+  editorial_note: A material regulatory shift that will directly affect stablecoin
+    issuers and payment firms planning for the UK market — the removal of holding
+    caps changes the commercial viability equation.
+  sources: '[Bank of England drops individual holding caps in stablecoin rule rethink
+    for 2027](https://www.globalgovernmentfinance.com/bank-of-england-stablecoins-policy-statement/)
+    — Global Government Finance'
+  verification:
+    verified: true
+    warnings: []
+- headline: Airwallex reaches $11 billion valuation with $320 million raise targeting
+    agentic commerce
+  standfirst: Airwallex has raised $320 million at an $11 billion valuation, positioning
+    the cross-border payments firm for a push into autonomous finance and AI-agent-initiated
+    transactions.
+  body: 'The funding round marks a substantial step up for Airwallex, which acquired
+    reconciliation platform Leapfin earlier this month as part of a broader build-out
+    of its infrastructure for cross-border merchants. The $11 billion valuation places
+    it among the most highly valued private payments companies globally.
+
+
+    Airwallex''s stated focus on agentic commerce reflects a pattern emerging across
+    the payments industry. Visa has partnered with OpenAI, ING completed Europe''s
+    first agentic payment with Worldline and Mastercard, and Stripe has built a payment
+    layer for AI agents. Airwallex is betting that cross-border business payments,
+    where complexity and manual processes remain significant, are particularly suited
+    to autonomous execution.
+
+
+    The raise also positions Airwallex for a potential public listing, though the
+    company has not confirmed timing. With Nuvei in advanced talks to acquire Payoneer
+    and OpenPayd pursuing a Nasdaq listing via SPAC, the cross-border payments sector
+    is entering a phase of consolidation and capital markets activity that will reshape
+    the competitive landscape.
+
+    '
+  editorial_note: A significant valuation milestone that reflects both the maturation
+    of cross-border payments infrastructure and the emerging strategic bet on agentic
+    commerce across the industry.
+  sources: '[Airwallex targets agentic commerce after hitting $11bn valuation](https://www.finextra.com/newsarticle/47996/airwallex-targets-agentic-commerce-after-hitting-11bn-valuation)
+    — Finextra'
+  verification:
+    verified: false
+    warnings:
+    - Draft states Nuvei is 'in advanced talks' to acquire Payoneer, but Nuvei announced
+      a definitive agreement on June 15, 2026 (before story date of June 25-26). Should
+      reflect completed agreement, not ongoing talks.
+- headline: FCA confirms BNPL regulation begins July 15 with new consumer protections
+  standfirst: The FCA will begin regulating buy now, pay later products from July
+    15, bringing mandatory affordability checks and complaints rights to a market
+    that has operated largely outside the regulatory perimeter.
+  body: 'The FCA published a blog post on June 25 setting out its case for the new
+    rules, confirming the July 15 start date for BNPL regulation. From that date,
+    BNPL providers will need to conduct affordability assessments, give consumers
+    access to the Financial Ombudsman Service and meet FCA standards on marketing
+    and pre-contractual information.
+
+
+    The timing is notable given TrueLayer''s recent acquisition of a Dutch BNPL firm
+    to add credit at checkout. Open banking-powered affordability checks are increasingly
+    positioned as the mechanism through which BNPL providers can meet regulatory requirements
+    efficiently, using real-time income and spending data rather than static credit
+    bureau records. The FCA''s earlier signals that open banking data would reshape
+    mortgage affordability checks point in the same direction.
+
+
+    For payment firms and open banking providers, the regulatory start date creates
+    immediate commercial demand for compliant data-sharing and verification services.
+    Providers that cannot demonstrate adequate affordability checks by mid-July face
+    enforcement risk in a market the FCA has flagged as a consumer protection priority.
+
+    '
+  editorial_note: A confirmed regulatory deadline with direct operational implications
+    for BNPL providers, open banking data firms and the payment platforms that support
+    them.
+  sources: '[Why stronger Buy Now Pay Later protections are the right step for consumers](https://www.fca.org.uk/news/blogs/why-stronger-buy-now-pay-later-protections-are-right-step-consumers)
+    — FCA'
+  verification:
+    verified: true
+    warnings: []
