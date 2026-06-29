@@ -1,0 +1,44 @@
+title: UK banks launch shared digital identity tool
+social_post: 'Thin Sunday feed, but one story worth your time: UK banks are building
+  a shared digital ID service — and the hard questions about liability, funding and
+  open banking overlap are already surfacing. {link}'
+stories:
+- headline: UK banks launch shared digital identity service for app-based KYC
+  standfirst: Major UK banks are building a joint digital identity tool to streamline
+    remote customer verification, though questions about liability, commercial model
+    and overlap with open banking data remain unresolved.
+  body: 'A consortium of UK banks has announced a shared digital identity service
+    designed to let customers verify their identity remotely through banking apps.
+    The group includes several of the same institutions that collaborated on open
+    banking infrastructure and the now-retired Paym mobile payment registry, suggesting
+    the initiative draws on established interbank cooperation channels.
+
+
+    The service aims to reduce friction in know-your-customer processes by allowing
+    banks and potentially third parties to rely on identity credentials already held
+    by a customer''s bank. If it reaches scale, it could reshape how onboarding works
+    across financial services and beyond, particularly for sectors such as gambling,
+    telecoms and government services that face increasing pressure to improve identity
+    verification.
+
+
+    Several practical questions remain conspicuously open. Who carries liability when
+    a shared credential is used by a third party and proves wrong? How will the service
+    be funded, given that open banking already provides much of the underlying account
+    data for free? And who will drive adoption beyond the founding banks? The UK government''s
+    recent proposal to use open banking for social media age verification hints at
+    the policy appetite for bank-verified identity, but a workable commercial model
+    has yet to emerge.
+
+    '
+  editorial_note: A new interbank digital ID initiative from the UK's largest banks
+    is a significant infrastructure development that intersects directly with open
+    banking, KYC and emerging identity policy — and the unresolved questions around
+    liability and funding make it a story worth tracking.
+  sources: '[UK banks unite on new digital ID tool for apps](https://www.fintechfutures.com/biometrics-id-verification/uk-banks-unite-on-new-digital-id-tool-for-apps)
+    — FinTech Futures | [UK bank ID scheme seeks to transform remote KYC, but who
+    pays, and what happens when...](https://www.retailbankerinternational.com/comment/uk-bank-id-scheme-transform-remote-kyc/)
+    — Retail Banker International'
+  verification:
+    verified: true
+    warnings: []
