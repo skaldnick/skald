@@ -1,0 +1,162 @@
+title: CFPB rewrites open banking rules; agentic payments reach France; UK digital
+  ID goes live
+social_post: 'The CFPB is rewriting US open banking with data limits and fees for
+  fintechs — and the ripple effects for European providers could be significant. Plus:
+  agentic payments land in France, and UK banks launch shared digital ID. {link}'
+stories:
+- headline: CFPB rewrites US open banking rule with data limits and fintech fees
+  standfirst: The CFPB's revised Section 1033 proposal would cap the data fintechs
+    can access and introduce fees for bank-provided APIs, a material shift from the
+    original rule that European open finance providers with US exposure will need
+    to watch closely.
+  body: 'The Consumer Financial Protection Bureau is preparing a revised open banking
+    framework that would allow consumers to share bank data with third parties but
+    impose new restrictions on how much data fintechs can access and permit banks
+    to charge for API connections. The revised rule represents a significant departure
+    from the version finalised under the Biden administration, which had been paused
+    by legal challenges and the CFPB''s own internal upheaval.
+
+
+    The changes reflect sustained lobbying by large US banks, which argued the original
+    rule imposed disproportionate costs while letting fintechs access data without
+    adequate compensation. By introducing data minimisation principles and a fee mechanism,
+    the CFPB is moving closer to a model that resembles aspects of PSD3''s data-sharing
+    provisions, where access is neither unlimited nor free.
+
+
+    For European open banking providers operating in or eyeing the US market, the
+    revised framework reshapes the commercial dynamics. Firms that built US strategies
+    around broad, free data access will need to recalibrate. The rule also feeds into
+    the broader transatlantic divergence on whether open banking infrastructure should
+    be treated as a utility or a commercial product.
+
+    '
+  editorial_note: A substantive policy shift in the world's largest financial market,
+    with direct implications for European providers with US operations and for the
+    global debate on open banking economics.
+  sources: '[CFPB To Introduce Data Limits And Fees For Fintechs In Revised Open Banking
+    Framework](https://www.crowdfundinsider.com/2026/06/288391-cfpb-to-introduce-data-limits-and-fees-for-fintechs-in-revised-open-banking-framework/)
+    — Crowdfund Insider | [Open banking regulation in 2026: federal regulation resurfaces
+    as states bring data sharing into…](https://www.jdsupra.com/legalnews/open-banking-regulation-in-2026-federal-7403206/)
+    — JD Supra'
+  verification:
+    verified: true
+    warnings: []
+- headline: Crédit Agricole completes France's first production agentic payment
+  standfirst: Crédit Agricole, Mastercard and Worldline have carried out France's
+    first agentic payment transaction in a production environment, extending the pattern
+    set by ING's Dutch pilot earlier this month into a second major European market.
+  body: 'The transaction marks the second production-grade agentic payment completed
+    in Europe, following the ING, Worldline and Mastercard pilot in the Netherlands
+    on June 3. That Crédit Agricole — France''s largest retail bank by customers —
+    has moved to production rather than sandbox testing suggests the infrastructure
+    for AI-initiated payments is maturing faster than many anticipated.
+
+
+    Agentic payments, where an AI agent initiates and completes a transaction on behalf
+    of a user, have emerged as a theme across the payments industry in recent weeks.
+    Visa''s partnership with OpenAI, Santander''s Getnet launch and Alipay''s token-based
+    system all point in the same direction, but the European implementations are notable
+    for running through established card network and bank infrastructure rather than
+    building parallel systems.
+
+
+    The speed of adoption across different European markets raises practical questions
+    about authentication, liability and consumer consent that existing regulatory
+    frameworks do not yet fully address. The Euro Banking Association''s recent mapping
+    exercise on agentic AI in open finance underscores how much of the governance
+    framework remains to be defined.
+
+    '
+  editorial_note: A second major European bank moving agentic payments into production
+    within a month signals genuine momentum rather than isolated experimentation,
+    and advances a key theme this briefing has been tracking.
+  sources: '[Crédit Agricole completes agentic payment transaction](https://www.finextra.com/newsarticle/48008/crdit-agricole-completes-agentic-payment-transaction)
+    — Finextra'
+  verification:
+    verified: false
+    warnings:
+    - Article states ING/Worldline/Mastercard pilot occurred 'on June 3' but primary
+      sources confirm announcement and transaction completion was June 2, 2026
+- headline: UK banks launch shared digital identity service for app-based KYC
+  standfirst: The six major UK banks that originally built open banking infrastructure
+    have launched a shared digital identity framework, aiming to replace document-based
+    KYC with reusable, app-based verification.
+  body: 'The service allows customers to verify their identity once through their
+    banking app and reuse that verified identity across participating institutions,
+    eliminating repeated document uploads. The consortium behind the initiative —
+    the same group of banks that were mandated to build open banking APIs under the
+    CMA order — is positioning the framework as an open standard available to the
+    wider market.
+
+
+    The move extends the institutional architecture created for open banking into
+    adjacent use cases. Reusable digital identity has long been identified as a prerequisite
+    for scaling open finance, since onboarding friction remains one of the primary
+    barriers to adoption. By anchoring the identity layer in existing banking apps
+    that consumers already trust, the consortium sidesteps the adoption challenges
+    that have plagued standalone digital identity schemes in the UK.
+
+
+    The timing aligns with the UK government''s recent proposal to use open banking
+    for age verification on social media and the broader Smart Data 2035 strategy.
+    It also comes as the FCA''s open finance roadmap places identity verification
+    at the centre of its implementation plan. Whether smaller banks and fintechs can
+    participate on equal terms will determine whether this becomes genuine infrastructure
+    or a competitive moat for the largest institutions.
+
+    '
+  editorial_note: Extends the open banking institutional model into digital identity
+    — a development with direct implications for open finance adoption and customer
+    onboarding across financial services.
+  sources: '[UK Lenders Launch Open Standard Digital ID Framework to Eliminate KYC
+    Document Friction](https://www.bobsguide.com/uk-lenders-launch-open-standard-digital-id-framework-to-eliminate-kyc-document-friction/)
+    — Bobsguide'
+  verification:
+    verified: false
+    warnings:
+    - Article refers to 'Smart Data 2035 strategy' but FCA roadmap extends to 2030,
+      not 2035
+    - Claim that consortium is 'same group of banks that were mandated to build open
+      banking APIs under the CMA order' is not verified in search results
+- headline: Banks turn to AI to recover funds after instant payments clear
+  standfirst: Financial institutions are deploying AI systems to trace and recover
+    stolen funds after instant payment transactions settle, as the irrevocability
+    of real-time rails compounds fraud losses.
+  body: 'PYMNTS reports that 40% of financial institutions have increased fraud losses
+    linked to instant payments, driven by the fundamental characteristic that makes
+    the rails attractive: finality. Once an instant payment clears, there is no recall
+    mechanism. Banks are now investing in AI tools that can trace fund movements across
+    accounts in real time, identify mule account patterns and trigger freezes at receiving
+    institutions before stolen money is withdrawn or moved again.
+
+
+    The challenge is structural. Europe''s SEPA instant payments regulation, which
+    mandates universal availability from October, will dramatically expand the volume
+    of irrevocable transactions flowing through the system. Verification of payee
+    remains incomplete across Europe, a gap this briefing has previously covered.
+    Without pre-transaction checks, the burden shifts to post-transaction recovery,
+    which is inherently less effective.
+
+
+    The UK''s experience is instructive. Fraud losses rose to £1.3 billion this year,
+    with APP scams rebounding sharply despite mandatory reimbursement rules. The PSR''s
+    data shows reimbursement is working as a consumer protection measure, but it has
+    not reduced the underlying fraud rate. AI-driven fund tracing represents an attempt
+    to address the gap between prevention and recovery, though its effectiveness at
+    scale remains unproven.
+
+    '
+  editorial_note: Directly relevant to European banks preparing for the SEPA instant
+    payments mandate, connecting the fraud recovery challenge to the verification
+    of payee delays and rising UK fraud losses already covered in this briefing.
+  sources: '[Banks Deploy AI to Chase Stolen Funds After Instant Payments Clear](https://www.pymnts.com/news/banking/2026/banks-deploy-ai-to-chase-stolen-funds-after-instant-payments-clear/)
+    — PYMNTS'
+  verification:
+    verified: false
+    warnings:
+    - Draft attributes 40% figure to instant payments fraud losses specifically, but
+      PYMNTS source states 40% of FIs experienced increased fraud losses overall in
+      2024, not specifically linked to instant payments. The regulatory mandate for
+      SEPA instant payments occurred in October 2025 and is now in effect (as of June
+      2026), not a future mandate.
