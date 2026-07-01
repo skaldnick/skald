@@ -1,0 +1,159 @@
+title: Greece joins EuroPA; Open USD stablecoin; Pay.UK liquidity model
+social_post: 'Greece''s instant payments network just went cross-border, Visa and
+  Mastercard are backing a new stablecoin together, and Pay.UK quietly made it easier
+  for new players to join Faster Payments. Today''s briefing: {link}'
+stories:
+- headline: Greece connects IRIS to European instant payments network
+  standfirst: Greece's IRIS instant payments system has joined the EuroPA network,
+    enabling cross-border euro transfers between Greek banks and counterparts across
+    Europe.
+  body: 'Greek banks can now send and receive instant payments across borders through
+    the EuroPA interoperability framework, with DIAS S.A. handling the technical connection.
+    Minister Kyriakos Pierrakakis described IRIS as a centrepiece of Greece''s digital
+    economy strategy, and the cross-border link adds a practical dimension to that
+    claim.
+
+
+    Greece is a relatively late entrant to cross-border instant payments interoperability,
+    but the timing aligns with the EU''s instant payments regulation mandate and broader
+    efforts to build a unified European payments space. Eurobank confirmed it is among
+    the first Greek banks to offer the service.
+
+
+    The move is notable less for Greece''s individual weight in European payment volumes
+    than for the pattern it represents. Each new market joining cross-border instant
+    payment networks raises the baseline expectation for coverage, making holdouts
+    more conspicuous and strengthening the case for schemes such as Wero that depend
+    on pan-European reach.
+
+    '
+  editorial_note: A concrete step in the buildout of cross-border instant payments
+    infrastructure in Europe, relevant to the ongoing regulatory mandate and the competitive
+    positioning of EPI/Wero.
+  sources: '[IRIS Payments connects Greece with European EuroPA network](https://thepaypers.com/payments/news/iris-payments-connects-greece-with-european-europa-network)
+    — The Paypers | [Pierrakakis: IRIS is the success story of the Greek digital economy](https://en.protothema.gr/2026/06/30/pierrakakis-iris-is-the-success-story-of-the-greek-digital-economy/)
+    — ProtoThema | [Eurobank: Digital payments and cross-border money transfers in
+    the EU via IRIS](https://www.euro2day.gr/en2/article/2358163/eurobank-digital-payments-and-crossborder-money-tr)
+    — Euro2day'
+  verification:
+    verified: true
+    warnings: []
+- headline: Visa, Mastercard and Google back Open USD stablecoin launch
+  standfirst: A consortium of major payment networks, banks and technology firms is
+    backing Open USD, a new stablecoin that positions card schemes as participants
+    in, rather than bystanders to, the tokenised money ecosystem.
+  body: 'Visa, Mastercard, US Bank, Google and Coinbase are among dozens of firms
+    supporting Open USD, which is expected to launch later this year. The breadth
+    of the backing group is striking: it spans card networks, a major issuing bank,
+    a crypto-native exchange and a platform company, suggesting an attempt to build
+    a stablecoin with broad commercial acceptance from launch rather than relying
+    on organic adoption.
+
+
+    The announcement follows Mastercard''s recent move to add stablecoin settlement
+    to its merchant network, and sits alongside Tether''s expanding footprint in emerging
+    markets. For European observers, the relevant question is whether Open USD accelerates
+    demand for a euro-denominated equivalent, or whether US-dollar stablecoins continue
+    to dominate by default. The digital euro project and private initiatives such
+    as AllUnity''s planned Swedish krona stablecoin are both attempting to answer
+    that question, but neither is yet in production.
+
+
+    The involvement of both Visa and Mastercard is particularly worth watching. Both
+    networks have historically competed to own the rails; co-sponsoring a shared stablecoin
+    suggests they see tokenised settlement as a layer where collaboration is more
+    valuable than rivalry.
+
+    '
+  editorial_note: The combination of backers makes this more than a routine stablecoin
+    announcement — it signals how incumbent payment networks intend to position themselves
+    in the tokenised money landscape.
+  sources: '[Big payment names back new stablecoin](https://www.finextra.com/newsarticle/48017/big-payment-names-back-new-stablecoin)
+    — Finextra'
+  verification:
+    verified: false
+    warnings:
+    - Draft states AllUnity's Swedish krona stablecoin is 'planned' and 'not yet in
+      production.' SEKAU actually launched on June 19, 2026.
+- headline: Pay.UK introduces flexible liquidity model for Faster Payments access
+  standfirst: Pay.UK has launched a new net sender cap model for Faster Payments,
+    lowering liquidity barriers for smaller and newer participants joining the UK's
+    core instant payments infrastructure.
+  body: 'The new model introduces flexibility in how participants fund their net sender
+    caps, replacing a more rigid structure that effectively set a higher floor for
+    participation. Pay.UK framed the change as a way to widen access to Faster Payments
+    for a broader range of firms.
+
+
+    The timing matters. The UK Payments Initiative is building a new domestic scheme
+    intended to challenge card networks, and its viability depends partly on the breadth
+    of firms connected to core payment rails. Lowering the cost of Faster Payments
+    participation makes it easier for smaller banks, payment institutions and e-money
+    firms to connect directly rather than relying on agency arrangements with larger
+    banks.
+
+
+    Liquidity management has become a persistent theme across European instant payments,
+    with the SEPA instant payments mandate forcing banks to rethink prefunding and
+    intraday liquidity. Pay.UK''s move addresses the same underlying tension: real-time
+    payment systems require real-time liquidity, and rigid capital requirements can
+    exclude the firms most likely to drive innovation at the edges of the network.
+
+    '
+  editorial_note: A structural change to UK payment infrastructure access that directly
+    affects competitive dynamics, particularly relevant alongside UKPI's launch and
+    the broader instant payments liquidity debate.
+  sources: '[Pay.UK launches liquidity model for faster payments](https://www.finextra.com/pressarticle/110304/payuk-launches-liquidity-model-for-faster-payments)
+    — Finextra'
+  verification:
+    verified: false
+    warnings:
+    - Cannot verify the cited Finextra article (ID 110304) or any recent Pay.UK announcement
+      about a 'flexible liquidity model' — no evidence found of this specific announcement.
+      The story may be confusing or conflating the 2025 'New Access Model' with a
+      newer liquidity announcement.
+- headline: CFPB rewrites US open banking rule with narrower data scope and new fees
+  standfirst: The Consumer Financial Protection Bureau has substantially revised its
+    open banking rule, limiting the data companies can access and introducing fees
+    for data sharing, in a shift that narrows the scope of US open finance before
+    it begins.
+  body: 'The rewritten rule scales back the range of data that third parties can request
+    from banks, and for the first time allows financial institutions to charge for
+    API access. Both changes represent a significant departure from the original rule
+    finalised under the Biden administration, which drew heavily on the UK and EU
+    model of free, broad data access.
+
+
+    For European firms with US operations or ambitions, the practical effect is a
+    more constrained US open banking environment than many had anticipated. The fee
+    mechanism in particular diverges from the European approach, where ASPSP access
+    has been provided without charge. Fintechs relying on comprehensive account data
+    for affordability, verification or payment initiation will need to adjust their
+    US product strategies.
+
+
+    The revision also complicates any future push toward reciprocal data-sharing arrangements
+    between the US and Europe. The BIS''s recent Project Aperta prototype for cross-border
+    open finance interoperability assumed broadly comparable data access regimes;
+    a US framework built on narrower data rights and paid access introduces friction
+    that technical standards alone cannot resolve.
+
+    '
+  editorial_note: A material policy shift in the world's largest financial market
+    that directly affects European open banking firms' US strategies and the trajectory
+    of cross-border data interoperability.
+  sources: '[CFPB rewrites US open banking rule with data limits and fintech fees](https://www.google.com/url?rct=j&sa=t&url=https://washingtonreporter.news/exclusive-rep-pat-harrigan-homes-in-on-foreign-fraud-with-latest-legislation/)
+    — previously covered June 30'
+  verification:
+    verified: false
+    warnings:
+    - Story claims rule has been 'rewritten' but CFPB is still in rulemaking process
+      with expected finalization by end of 2026
+    - Original Biden rule prohibited bank fees; story incorrectly suggests Biden rule
+      allowed free access as a departure from original intent
+    - Cited source URL appears broken/incorrect - does not link to verifiable CFPB
+      content
+    - No finalized rewritten rule exists yet to verify claims about narrower data
+      scope
+    - Project Aperta connection to US reciprocal arrangements is speculative and unsupported
+      by sources
