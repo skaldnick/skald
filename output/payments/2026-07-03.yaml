@@ -1,0 +1,198 @@
+title: PayPal joins EPC; UK banks go live on Swift retail; AMLA warned on instant
+  payments monitoring
+social_post: PayPal takes a seat at the European Payments Council, UK banks pilot
+  Swift's retail cross-border framework, and banks warn AMLA that instant payments
+  are outpacing AML checks. Today's briefing → {link}
+stories:
+- headline: PayPal joins European Payments Council as non-bank influence grows
+  standfirst: PayPal has become a member of the European Payments Council, giving
+    the US platform a direct voice in shaping SEPA payment rules and standards.
+  body: 'PayPal announced on July 2 that it has joined the EPC, the body responsible
+    for managing SEPA payment scheme rules and developing payment standards across
+    Europe. The company will contribute to discussions on interoperability, instant
+    payments and fraud prevention, according to Sean Byrne, who leads PayPal''s European
+    operations.
+
+
+    The EPC''s membership has historically been dominated by banks and banking associations.
+    PayPal''s admission reflects the body''s gradual opening to non-bank payment service
+    providers, a shift that accelerated with PSD2 and will deepen further under PSD3
+    and the Payment Services Regulation. With over 430 million active accounts globally
+    and a regulated European banking entity, PayPal brings significant transaction
+    volume and cross-border reach to the table.
+
+
+    For the EPC, the move signals recognition that scheme governance must reflect
+    the diversity of institutions now operating on SEPA rails. For PayPal, it provides
+    direct input into rule-making at a time when European payment sovereignty, instant
+    payments mandates and account-to-account payment standards are all actively being
+    reshaped.
+
+    '
+  editorial_note: A major non-bank payment platform gaining a formal seat in European
+    scheme governance is a structural shift worth flagging for an audience tracking
+    the evolving balance of power in European payments.
+  sources: '[PayPal Joins the European Payments Council](https://newsroom.paypal-corp.com/2026-07-02-PayPal-Joins-the-European-Payments-Council)
+    — PayPal Newsroom | [PayPal Secures EPC Seat to Help Guide Future of European
+    Payments](https://www.pymnts.com/legal/2026/paypal-secures-epc-seat-to-help-guide-future-of-european-payments/)
+    — PYMNTS'
+  verification:
+    verified: true
+    warnings: []
+- headline: Barclays, HSBC, Lloyds and NatWest adopt Swift retail payments framework
+  standfirst: Four of the UK's largest banks will be among the first globally to go
+    live with Swift's new framework for cross-border consumer payments, extending
+    instant payment expectations to retail corridors.
+  body: 'Barclays, HSBC, Lloyds and NatWest are adopting Swift''s consumer payments
+    framework, designed to bring the speed, transparency and predictability of domestic
+    instant payments to cross-border retail transactions. The framework builds on
+    Swift''s existing correspondent banking network but adds standardised processing
+    expectations tailored to consumer use cases such as remittances and person-to-person
+    transfers.
+
+
+    The UK''s early adoption is notable given the parallel domestic debate about next-generation
+    retail payments infrastructure. HM Treasury launched a consultation on that subject
+    last week, and the Payments Vision Delivery Committee published an updated policy
+    paper on July 2 setting out roles and responsibilities in the future retail payments
+    ecosystem. Swift''s framework offers an international complement to those domestic
+    efforts.
+
+
+    Cross-border retail payments have long lagged behind wholesale flows in speed
+    and cost reduction. Swift''s framework is an attempt to close that gap within
+    existing infrastructure rather than building new rails, positioning it as a pragmatic
+    alternative to CBDC-based or blockchain-native approaches to the same problem.
+
+    '
+  editorial_note: Four major UK banks going live on a new cross-border retail framework
+    is a concrete step in the long-running effort to improve consumer cross-border
+    payments, and lands at a moment when the UK is actively redesigning its domestic
+    payments architecture.
+  sources: '[Major UK banks adopt Swift consumer payments framework](https://www.finextra.com/newsarticle/48030/major-uk-banks-adopt-swift-consumer-payments-framework)
+    — Finextra'
+  verification:
+    verified: false
+    warnings:
+    - Claim that 'HM Treasury launched a consultation on that subject last week' is
+      unsupported - no evidence found of a Treasury payments consultation launched
+      in late June 2026. Most recent Treasury consultation-related announcement found
+      was April 21, 2026.
+- headline: Banks warn AMLA that instant payment speeds outpace real-time AML monitoring
+  standfirst: Financial institutions have told the EU's Anti-Money Laundering Authority
+    that the speed of instant payments is making real-time transaction monitoring
+    operationally difficult, raising questions about how compliance will work under
+    the new regime.
+  body: 'Banks and crypto firms have warned AMLA that the near-instantaneous clearing
+    of instant payments creates a fundamental tension with anti-money laundering requirements,
+    according to AML Intelligence. Institutions report that existing monitoring systems
+    struggle to screen transactions meaningfully before funds are irrevocably settled,
+    particularly at the volumes instant payments now generate.
+
+
+    The warning arrives as the EU''s instant payments regulation takes full effect
+    and SEPA instant credit transfers become the default across the eurozone. The
+    regulation requires banks to verify payees and process transfers within seconds,
+    leaving a narrow window for sanctions screening, fraud detection and suspicious
+    transaction reporting. AMLA, which became operational earlier this year, is still
+    developing its supervisory approach to these challenges.
+
+
+    The tension is not new in principle — the UK has grappled with similar issues
+    since Faster Payments launched in 2008 — but the scale is different. Europe''s
+    instant payments mandate applies across 36 countries simultaneously, and the compliance
+    burden falls on institutions with widely varying levels of technical sophistication.
+    How AMLA responds will shape whether instant payments compliance becomes a genuinely
+    risk-based exercise or a box-ticking one.
+
+    '
+  editorial_note: This story surfaces a practical tension at the heart of Europe's
+    instant payments rollout — the collision between settlement speed and AML obligations
+    — that will shape compliance investment and regulatory expectations across the
+    industry.
+  sources: '[Banks and crypto firms warn AMLA that transaction speed blocks real-time
+    monitoring](https://www.amlintelligence.com/2026/07/banks-crypto-warn-amla-transaction-speed-blocks-real-time-monitoring/)
+    — AML Intelligence'
+  verification:
+    verified: false
+    warnings:
+    - Draft states AMLA 'became operational earlier this year' (2026), but AMLA became
+      operational July 1, 2025
+    - SEPA currently covers 41 countries as of May 2025, not the 36 mentioned; the
+      36-country figure is outdated
+    - Instant payments regulation was not 'taking full effect' in 2026 - it became
+      mandatory in October 2025
+- headline: UK Payments Vision Delivery Committee sets out infrastructure roles
+  standfirst: The PVDC has published an updated policy paper defining roles and responsibilities
+    in the UK's future retail payments ecosystem, advancing the coordinated work between
+    Treasury, the Bank of England and the PSR.
+  body: 'The Payments Vision Delivery Committee published an updated policy paper
+    on July 2 setting out how roles and responsibilities should be allocated in the
+    next-generation UK retail payments infrastructure. The paper reflects coordinated
+    work between HM Treasury, the Bank of England, the FCA and the PSR, and follows
+    last week''s Treasury consultation on the same subject.
+
+
+    The PVDC paper addresses the question of who does what in a future ecosystem that
+    is expected to encompass the successor to Faster Payments, new account-to-account
+    payment capabilities such as variable recurring payments, and integration with
+    initiatives like UKPI. The committee is positioning itself as the coordination
+    mechanism between regulators, Pay.UK and industry participants as this transition
+    unfolds.
+
+
+    The timing is deliberate. With the Treasury consultation open, UKPI launching
+    its first participants, and Pay.UK redesigning its liquidity model, the UK is
+    managing several overlapping infrastructure transitions at once. The PVDC paper
+    attempts to impose structure on what could otherwise become a fragmented process.
+
+    '
+  editorial_note: 'This is a governance story rather than a technology story, but
+    it matters: how the UK allocates responsibilities across its payments infrastructure
+    redesign will determine the pace and coherence of that transition.'
+  sources: '[Payments Vision Delivery Committee update: Roles and Responsibilities
+    in the future Retail Payments Ecosystem](https://www.gov.uk/government/publications/national-payments-vision/payments-vision-delivery-committee-update-roles-and-responsibilities-in-the-future-retail-payments-ecosystem)
+    — GOV.UK | [PVDC publishes updated policy paper](https://www.regulationtomorrow.com/2026/07/pvdc-publishes-updated-policy-paper-in-relation-to-roles-and-responsibilities-in-the-future-retail-payments-ecosystem/)
+    — Regulation Tomorrow'
+  verification:
+    verified: false
+    warnings:
+    - Draft attributes recent consultation to 'Treasury' but evidence indicates RPIB
+      (Retail Payments Infrastructure Board) launched the consultation on design of
+      future retail payments infrastructure on 25 June 2026, not Treasury
+- headline: Visa launches threat intelligence platform and runs agentic payments in
+    Europe
+  standfirst: Visa has introduced a cyber threat intelligence service for financial
+    institutions and separately completed agentic commerce transactions with European
+    banks, extending its push into AI-initiated payments.
+  body: 'Visa announced two distinct initiatives on July 3. The first is a threat
+    intelligence platform designed to help banks and payment processors detect and
+    respond to cyber threats, drawing on Visa''s visibility across its global network.
+    The second is a series of agentic commerce transactions carried out with banks
+    across Europe, building on the partnership with OpenAI announced last month.
+
+
+    The agentic payments activity places Visa alongside Mastercard, which completed
+    Europe''s first agentic payment with ING and Worldline in early June, and Crédit
+    Agricole, which ran a production agentic payment in France shortly after. The
+    competitive dynamic is sharpening: card networks, banks and open banking providers
+    are all racing to define how AI agents will initiate and authorise payments.
+
+
+    The threat intelligence platform, meanwhile, reflects the broader industry recognition
+    that payment fraud and cyber risk are converging. As instant payments and agentic
+    commerce reduce human oversight of individual transactions, automated threat detection
+    becomes a more critical layer of the payments stack.
+
+    '
+  editorial_note: The agentic payments angle advances a fast-moving competitive story
+    in European payments, while the threat intelligence launch connects to the broader
+    theme of fraud and cyber risk in an increasingly automated payment environment.
+  sources: '[Visa launches threat intelligence platform; carries out agentic transactions
+    in Europe](https://www.finextra.com/newsarticle/48032/visa-launches-threat-intelligence-platform-carries-out-agentic-transactions-in-europe)
+    — Finextra'
+  verification:
+    verified: false
+    warnings:
+    - Draft states Visa announcement was on 'July 3' but sources confirm it was announced
+      on July 2, 2026
