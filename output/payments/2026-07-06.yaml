@@ -1,0 +1,151 @@
+title: Crédit Agricole takes full merchant payments control; PSR fraud data; digital
+  euro advances
+social_post: Crédit Agricole buys Worldline out of their merchant payments JV, the
+  PSR claims its fraud rules are working, and the digital euro edges closer to a negotiating
+  mandate. Today's briefing → {link}
+stories:
+- headline: Crédit Agricole takes full ownership of Worldline merchant payments venture
+  standfirst: The French bank's buyout of Worldline's stake in their joint merchant
+    payments business signals a broader pattern of large European banks reclaiming
+    direct control of payment acceptance.
+  body: 'Crédit Agricole has acquired Worldline''s stake in Cawl, the merchant payment
+    services joint venture the two established in 2023, giving the bank full ownership.
+    Financial terms were not disclosed.
+
+
+    The move comes as Worldline continues to retrench following a difficult period
+    that has seen its market capitalisation collapse and strategic reviews of several
+    business lines. For Crédit Agricole, taking direct control of merchant acquiring
+    aligns with a trend visible across European banking, where large institutions
+    are pulling payment capabilities back in-house rather than outsourcing them. Crédit
+    Agricole has been notably active in payments this year, having also completed
+    France''s first production agentic payment in late June.
+
+
+    For Worldline, the disposal reduces its operational footprint further at a time
+    when the company is under pressure to simplify. The transaction raises questions
+    about the viability of the bank-processor joint venture model that was fashionable
+    in European acquiring just a few years ago.
+
+    '
+  editorial_note: A concrete example of European banks reversing the outsourcing trend
+    in merchant payments, with implications for Worldline's strategic direction and
+    the broader acquiring market structure.
+  sources: '[Crédit Agricole buys Worldline out of merchant payments JV](https://www.finextra.com/newsarticle/48040/crdit-agricole-buys-worldline-out-of-merchant-payments-jv)
+    — Finextra'
+  verification:
+    verified: true
+    warnings: []
+- headline: PSR says mandatory fraud reimbursement is cutting APP scam losses in the
+    UK
+  standfirst: The Payment Systems Regulator reports fewer victims and higher reimbursement
+    rates under its mandatory APP fraud rules, though the underlying data tells a
+    more complicated story.
+  body: 'The PSR has published an assessment of its mandatory APP fraud reimbursement
+    policy, claiming it is delivering fewer victims, more money returned and greater
+    firm engagement in fraud prevention. The regulator framed the results as validation
+    of the regime introduced in October 2024.
+
+
+    The picture is not entirely straightforward. Earlier data from the PSR itself,
+    published in June, showed overall APP fraud losses climbing back above £1.3 billion,
+    with reimbursement rates at 89%. Meanwhile, Monzo reported an 85% surge in fraud
+    reimbursement costs under the mandatory rules. The PSR''s positive framing suggests
+    it is keen to defend the policy against industry criticism that the reimbursement
+    obligation creates moral hazard and imposes disproportionate costs on sending
+    firms.
+
+
+    The regulator''s intervention comes at a politically sensitive moment. UK fraud
+    losses rose to £1.3 billion in the most recent reporting period, and the payments
+    industry continues to argue that the burden-sharing model needs recalibration.
+    Whether the PSR''s own assessment will quiet that debate or sharpen it remains
+    to be seen.
+
+    '
+  editorial_note: The PSR actively defending its signature policy is noteworthy given
+    ongoing industry pushback on reimbursement costs and the recent data showing losses
+    climbing again.
+  sources: '[PSR lauds results of APP fraud reimbursement policy](https://www.finextra.com/newsarticle/48042/psr-lauds-results-of-app-fraud-reimbursement-policy)
+    — Finextra'
+  verification:
+    verified: false
+    warnings:
+    - Draft conflates total payment fraud losses (£1.28bn in 2025 per UK Finance)
+      with APP-specific losses (£576.4m); the £1.3 billion figure does not apply to
+      APP fraud alone
+- headline: Digital euro moves closer as PYMNTS examines what ECON committee vote
+    means
+  standfirst: The European Parliament's ECON committee approval of the ECB's digital
+    euro negotiating mandate marks a procedural milestone, but the practical and political
+    obstacles between approval and a 2029 launch remain substantial.
+  body: 'Following the ECON committee''s backing of the digital euro negotiating mandate
+    in late June, attention is turning to what the timeline and design choices mean
+    in practice. The ECB is targeting a 2029 launch, and the committee vote moves
+    the proposal toward full parliamentary consideration.
+
+
+    The digital euro sits at the intersection of several live debates in European
+    payments: sovereignty concerns that have driven initiatives such as Wero and UKPI,
+    the role of private-sector stablecoins after Open USD''s launch with Visa and
+    Mastercard backing, and open banking providers'' concerns that the digital euro''s
+    design could lock them out of the ecosystem. The trade body warning in June that
+    the current proposal risks excluding open banking firms has not yet been resolved
+    in the legislative text.
+
+
+    The 2029 target is ambitious given that full parliamentary and Council negotiations
+    have not yet begun, and design questions around offline functionality, privacy,
+    holding limits and intermediary roles remain open. The ECB''s Cipollone has positioned
+    the digital euro as a complement to private payments rather than a competitor,
+    but that framing will be tested as the legislation advances.
+
+    '
+  editorial_note: The ECON vote is a genuine procedural step forward for the digital
+    euro. Coverage contextualises it against the sovereignty, stablecoin and open
+    banking debates that will shape the final outcome.
+  sources: '[Europe Wants Its Own Digital Money Moment](https://www.pymnts.com/news/payments-innovation/2026/europe-wants-its-own-digital-money-moment/)
+    — PYMNTS'
+  verification:
+    verified: true
+    warnings: []
+- headline: Thought Machine crosses $100 million revenue as core banking modernisation
+    accelerates
+  standfirst: The cloud-native core banking vendor's milestone reflects sustained
+    demand for platform replacement across banks and payment firms, though the market
+    remains intensely competitive.
+  body: 'Thought Machine has confirmed it surpassed $100 million in total revenue
+    for the financial year ending December 2025, verified through audited accounts
+    filed this month. The company, which provides cloud-native core banking and payments
+    technology, counts several large banks among its clients.
+
+
+    The milestone is notable less for the figure itself than for what it indicates
+    about the core banking replacement cycle. European banks are under pressure from
+    instant payments mandates, open banking requirements and the proliferation of
+    new payment methods such as Wero and variable recurring payments, all of which
+    strain legacy infrastructure. Thought Machine competes with vendors such as 10x
+    Banking, Mambu and Finzly, as well as incumbent providers modernising their own
+    platforms.
+
+
+    Reaching $100 million in revenue places Thought Machine in a small cohort of next-generation
+    core banking providers that have achieved meaningful commercial scale. Whether
+    the company can sustain growth will depend on converting large-bank proof-of-concept
+    deployments into full migrations, a process that remains slow and complex across
+    the industry.
+
+    '
+  editorial_note: A concrete revenue milestone from a company at the centre of the
+    core banking modernisation trend, relevant to payments professionals evaluating
+    infrastructure decisions.
+  sources: '[Thought Machine hits revenue milestone](https://www.finextra.com/pressarticle/110336/thought-machine-hits-revenue-milestone)
+    — Finextra'
+  verification:
+    verified: false
+    warnings:
+    - Draft claims $100m revenue for FY2025, but most recent confirmed data shows
+      £47.6m (~$60m) for FY2024. No verified audited accounts for FY2025 found.
+    - Story claims accounts 'filed this month' but cannot confirm 2025 year-end audited
+      accounts have been filed yet. Most recent filed accounts are for year-end 2024
+      (reported Oct 2, 2025).
