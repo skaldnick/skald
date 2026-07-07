@@ -43,7 +43,7 @@ output_format: |
   scalars (the | character) for the body field. Do not wrap the output in code fences.
 
   title: "Four to eight words summarising today's stories — e.g. GoCardless profits; pay-by-bank friction; PSD3 delay"
-  social_post: "One post for X promoting today's briefing. Max 280 characters including {link}. Punchy and engaging — personality and dry humour welcome. Does not need to mention every story; lead with the most interesting angle. Written to make a payments professional want to click. End with {link}."
+  social_post: "One post for X promoting today's briefing. Max 280 characters including {link}. Punchy and engaging — personality and dry humour welcome. Does not need to mention every story; lead with the most interesting angle. Never apologise for or flag the number of stories (e.g. 'thin' day, 'just one story') — a single strong story stands on its own. Written to make a payments professional want to click. End with {link}."
   stories:
     - headline: "Story headline — plain text, no markdown"
       standfirst: "One sentence that frames the story for a professional audience. No markdown."
