@@ -1,0 +1,156 @@
+title: Visa exits US open banking; FCA reviews AI in finance; Montenegro readies instant
+  payments
+social_post: 'Visa shuts its US open banking unit, the FCA publishes a major AI review
+  with open finance implications, and Montenegro prepares to go live with instant
+  payments. Today''s briefing: {link}'
+stories:
+- headline: Visa shuts down US open banking unit amid regulatory uncertainty
+  standfirst: Visa has closed its US open banking operation, a direct consequence
+    of the regulatory limbo surrounding the CFPB's rewritten data-sharing rule.
+  body: 'Visa''s decision to wind down the US open banking unit it built through its
+    2020 acquisition of Plaid (after the original merger was blocked) marks a significant
+    retreat. The closure follows months of uncertainty over the scope and enforceability
+    of the CFPB''s open banking rule, which was substantially narrowed in June under
+    the current administration.
+
+
+    The move raises questions about the viability of network-led open banking strategies
+    in a market where the regulatory framework remains unsettled. Visa had positioned
+    the unit as a bridge between its card network and account-to-account data flows,
+    but without a clear federal mandate for data sharing, the commercial case evidently
+    weakened.
+
+
+    For European observers, the contrast is instructive. PSD2 and its successors have
+    created a regulatory baseline that, whatever its shortcomings, provides enough
+    certainty for investment. The US continues to lack that foundation, and Visa''s
+    exit suggests even well-capitalised incumbents are unwilling to build on shifting
+    ground.
+
+    '
+  editorial_note: A major card network exiting open banking in the US has direct implications
+    for how the global competitive landscape develops and underscores the divergence
+    between US and European regulatory approaches.
+  sources: '[Visa pulls plug on U.S. open banking arm amid regulator uncertainty](http://www.msn.com/en-us/money/companies/visa-pulls-plug-on-us-open-banking-arm-amid-regulator-uncertainty-report/ar-AA1L28id)
+    — MSN'
+  verification:
+    verified: false
+    warnings:
+    - Draft claims Visa acquired Plaid in 2020, but the deal was blocked and abandoned
+      in 2021—Visa never completed the Plaid acquisition. Visa acquired Tink instead.
+    - Draft states CFPB rule was 'substantially narrowed in June under the current
+      administration,' but June 2024 saw only partial finalization of standard-setting
+      portions; the main rule was finalized October 2024, and significant narrowing/reconsideration
+      has occurred under Trump in 2025.
+    - Story is approximately 12-13 days old (event announced ~Aug 22-25, 2025), exceeding
+      the 5-day recency threshold.
+- headline: FCA publishes AI review with open finance and agentic payments in scope
+  standfirst: The FCA's Mills Review sets out how AI could reshape UK retail financial
+    services by 2030, with recommendations spanning open finance powers and agentic
+    AI oversight.
+  body: 'The FCA has published a wide-ranging review, led by external adviser Mills,
+    examining how AI will transform retail financial services and what regulatory
+    responses are needed. The review recommends that the FCA seek explicit powers
+    over open finance and addresses how existing regulatory frameworks apply to early
+    agentic AI use cases in payments and advice.
+
+
+    According to The Banker''s reporting on an exclusive interview with FCA officials,
+    the regulator believes its current powers are sufficient to oversee early-stage
+    agentic AI but acknowledges gaps around open finance infrastructure. The FCA appears
+    to be positioning itself as the natural regulator for the data-sharing layer that
+    underpins agentic payments, building on its existing open banking remit.
+
+
+    The review lands at a moment when agentic payments are moving from proof of concept
+    to early production in Europe, with Crédit Agricole, ING and Visa all completing
+    live transactions in recent weeks. The FCA''s willingness to assert jurisdiction
+    over the intersection of AI and open finance signals that regulatory frameworks
+    will need to evolve quickly to keep pace.
+
+    '
+  editorial_note: The Mills Review is a substantive regulatory intervention that connects
+    AI oversight to open finance powers, directly relevant to firms building agentic
+    payment and data-sharing products in the UK.
+  sources: '[FCA publishes landmark review into impact of AI on retail financial services](https://www.fca.org.uk/news/press-releases/fca-publishes-landmark-review-impact-ai-retail-financial-services)
+    — FCA | [AI and the future of retail financial services (The Mills Review)](https://www.fca.org.uk/publications/corporate-documents/mills-review)
+    — FCA | [Existing rules can police early agentic AI, says UK watchdog](https://www.thebanker.com/content/c32b69a6-f8ac-4067-a03c-7756194cd78c)
+    — The Banker'
+  verification:
+    verified: false
+    warnings:
+    - Sheldon Mills is described as 'external adviser' but is actually FCA Executive
+      Director, Consumers and Competition
+    - The Banker article source could not be verified through web search
+- headline: Montenegro to launch instant payments on July 20 using SEPA standards
+  standfirst: Montenegro will go live with domestic instant payments later this month,
+    adopting SEPA standards despite not being an EU member state.
+  body: 'Montenegro''s central bank has confirmed that the country''s instant payment
+    service will launch on July 20, making it one of the first Western Balkan states
+    to implement real-time payments infrastructure built to SEPA standards. The system
+    will initially support domestic transfers, with cross-border connectivity expected
+    to follow.
+
+
+    The decision to build on SEPA standards rather than a proprietary domestic system
+    reflects a broader pattern among EU accession candidates aligning their financial
+    infrastructure with European norms ahead of membership. Iceland''s recent connection
+    to TIPS followed similar logic, extending euro-area payment rails beyond the eurozone''s
+    formal borders.
+
+
+    For the instant payments ecosystem, each new market adopting SEPA-compatible infrastructure
+    widens the addressable network and reinforces the interoperability logic underpinning
+    the EU''s instant payments regulation.
+
+    '
+  editorial_note: Montenegro's adoption of SEPA standards for instant payments illustrates
+    how the EU's regulatory and infrastructure model is extending into neighbouring
+    markets, a trend with practical implications for cross-border payment providers.
+  sources: '[Montenegro ready for July 20 instant payment service launch](https://seenews.com/news/montenegro-ready-for-july-20-instant-payment-service-launch-1297571)
+    — SeeNews'
+  verification:
+    verified: false
+    warnings:
+    - Iceland has not yet 'connected' to TIPS; it signed an agreement on June 24,
+      2026 to join in 2028. Stating Iceland's 'recent connection' is inaccurate—the
+      connection is scheduled for 2028.
+- headline: Canada publishes draft consumer-driven banking regulations
+  standfirst: Canada has released draft regulations for its consumer-driven banking
+    framework, moving one of the last major Western economies closer to a formal open
+    banking regime.
+  body: 'The Canadian government has published proposed consumer-driven banking regulations
+    for public comment, a concrete step after years of consultation and legislative
+    groundwork. The draft rules establish the framework for how banks and accredited
+    third parties will share consumer financial data, with potential extension to
+    insurance and investment products.
+
+
+    Canada''s approach draws on lessons from both the UK''s open banking mandate and
+    Australia''s Consumer Data Right, though it has moved more slowly than either.
+    The publication of draft regulations rather than high-level principles signals
+    that the framework is approaching implementation, though the comment period and
+    subsequent revision process mean live data-sharing is still some way off.
+
+
+    For European firms with Canadian operations or ambitions, the framework''s scope
+    is worth watching. Open Finance Network Canada has flagged the potential for the
+    regime to extend beyond banking into insurance, which would make it broader than
+    most European implementations at launch.
+
+    '
+  editorial_note: Canada publishing draft open banking regulations is a milestone
+    for a major economy that has lagged peers, and the potential insurance scope makes
+    this a distinctive model worth tracking.
+  sources: '[Proposed Consumer-Driven Banking Regulations Released for Comment](https://www.mondaq.com/canada/financial-services/1812276/proposed-consumer-driven-banking-regulations-released-for-comment)
+    — Mondaq (Fasken) | [Financial data sharing in Canada closer to reality](https://insurance-portal.ca/article/financial-data-sharing-in-canada-closer-to-reality/)
+    — Insurance Portal | [Open Banking Milestone: Draft Consumer-Driven Banking Regulations
+    Released](https://www.mondaq.com/canada/financial-services/1812418/open-banking-milestone-draft-consumer-driven-banking-regulations-released)
+    — Mondaq (Fasken)'
+  verification:
+    verified: false
+    warnings:
+    - Event occurred June 27, 2026 — more than 5 days old as of July 7, 2026
+    - Draft regulations explicitly maintain prohibition on insurance data sharing;
+      article's language about 'potential extension to insurance' could imply insurance
+      is within current scope when it is not
