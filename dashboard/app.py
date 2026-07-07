@@ -244,6 +244,21 @@ def on_post_to_x(social_post: str):
     return f"Posted to X: {result}" if ok else f"X post failed: {result}"
 
 
+def _flag_unlisted_terms(social_text: str, headlines_text: str) -> list[str]:
+    """Heuristic guard: capitalized words in the social post that don't appear anywhere
+    in the approved headlines are surfaced as a warning. The model has been observed
+    inventing plausible-sounding but fabricated stories to pad out a thin day, despite
+    being told not to — this doesn't stop that, it just flags it for the editor before
+    they post."""
+    stoplist = {"Plus", "Today", "Read", "The", "European", "Payments", "Open", "Banking"}
+    allowed = set(re.findall(r"[A-Z][a-zA-Z]{2,}", headlines_text))
+    found = sorted(
+        w for w in set(re.findall(r"[A-Z][a-zA-Z]{2,}", social_text))
+        if w not in allowed and w not in stoplist
+    )
+    return found
+
+
 def on_regenerate(*args):
     headlines = list(args[:MAX_STORIES])
     decisions = list(args[MAX_STORIES:])
@@ -265,20 +280,47 @@ def on_regenerate(*args):
         ),
         messages=[{"role": "user", "content": f"Generate a briefing title for these approved story headlines:\n\n{headlines_text}"}],
     )
+    if len(approved) == 1:
+        # A single approved story is where the model has been observed padding the post
+        # with invented "Plus:" items rather than writing about just the one story as
+        # instructed. Removing the "Plus:" option from the prompt entirely for this case
+        # is a stronger guardrail than just telling it not to use one.
+        social_system = (
+            "You write social posts for X (Twitter) for a European payments and open banking newsletter. "
+            f"Stay well under {X_CHAR_LIMIT} characters — the caller will append '. Today's briefing → {{link}}' (about 32 chars). "
+            "There is exactly ONE approved story today. Write the entire post about that single story only. "
+            "Do not add a 'Plus:' section or any other clause. Do not mention, tease, or imply any other story, "
+            "company, country, or regulation under any circumstance — even if it would make the post feel fuller. "
+            "Never flag or apologise for there being only one story (e.g. 'thin' day) — a single strong story "
+            "stands on its own. No hashtags. No trailing punctuation. Output only the post text, nothing else."
+        )
+    else:
+        social_system = (
+            "You write social posts for X (Twitter) for a European payments and open banking newsletter. "
+            f"Stay well under {X_CHAR_LIMIT} characters — the caller will append '. Today's briefing → {{link}}' (about 32 chars). "
+            "Lead with the most interesting story. You MUST mention only stories from the approved headline list "
+            "below — never invent, imply, or tease any topic, company, country, or regulation that is not one of "
+            "the listed headlines, even to fill out a 'Plus:' clause. You may tease 2-3 of the listed headlines with "
+            "'Plus:'. Never flag or apologise for the number of stories. No hashtags. No trailing punctuation. "
+            "Output only the post text, nothing else."
+        )
     social_resp = client.messages.create(
         model="claude-haiku-4-5-20251001",
         max_tokens=100,
-        system=(
-            "You write social posts for X (Twitter) for a European payments and open banking newsletter. "
-            f"Stay well under {X_CHAR_LIMIT} characters — the caller will append '. Today's briefing → {{link}}' (about 32 chars). "
-            "Lead with the most interesting story. Tease 2–3 topics with 'Plus:'. No hashtags. No trailing punctuation. "
-            "Output only the post text, nothing else."
-        ),
+        system=social_system,
         messages=[{"role": "user", "content": f"Write an X social post for a briefing covering these stories:\n\n{headlines_text}"}],
     )
     briefing_url = f"{BRIEFING_BASE_URL}/{datetime.now().strftime('%Y-%m-%d')}/"
-    social = social_resp.content[0].text.strip().rstrip(".") + f". Today's briefing → {briefing_url}"
-    return title_resp.content[0].text.strip(), social, ""
+    social_text = social_resp.content[0].text.strip().rstrip(".")
+    social = social_text + f". Today's briefing → {briefing_url}"
+    unlisted = _flag_unlisted_terms(social_text, headlines_text)
+    status = ""
+    if unlisted:
+        status = (
+            f"*⚠️ Social post mentions terms not found in the approved headlines — "
+            f"check for invented content before posting: {', '.join(unlisted)}*"
+        )
+    return title_resp.content[0].text.strip(), social, status
 
 
 # --- UI ---
