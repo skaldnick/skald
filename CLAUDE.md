@@ -17,8 +17,8 @@ automated publication.
 /ingester/       Feed fetching and normalisation
 /generator/      Claude API calls and draft production
 /dashboard/      Gradio editorial interface
-/output/         Generated drafts (Markdown, gitignored)
-/data/feedback/  Edit diffs and quality scores (gitignored)
+/output/         Generated drafts (YAML) — committed to origin/main, not gitignored
+/data/feedback/  Edit diffs and quality scores — committed to origin/main, not gitignored
 /docs/           Project documentation
 ```
 
@@ -31,9 +31,20 @@ to the separate `skaldnick/vikingmedia-site` repo. Skald is pipeline-only.
 - All Claude API calls go through generator/client.py — no direct API 
   calls elsewhere
 - API keys via environment variables only (.env, never committed)
-- /data/feedback/ is gitignored — do not add to version control
-- /output/ is gitignored — generated files, not source files
+- /output/ and /data/feedback/ ARE committed to origin/main (not gitignored).
+  The HF Space filesystem is ephemeral and there's no database, so git is the
+  pipeline's only persistence layer: `generate.yml` commits each draft to
+  `output/payments/YYYY-MM-DD.yaml`, and the dashboard's Content-API writes
+  commit `data/feedback/YYYY-MM-DD.json` on every "Save feedback". Same pattern
+  as `data/recently_covered.yaml` / `data/recently_rejected.yaml`. Don't
+  reintroduce a gitignore entry for either path — it'll just fight the `git add`
+  in `generate.yml` and the API writes will bypass it anyway.
 - Commit messages: describe what was built and why, not just what changed
+- The dashboard commits to origin/main via the GitHub Content API on its own
+  schedule (drafts, feedback, recently_covered/rejected) — a local clone never
+  sees these and can silently drift days behind. Run `bash tools/check_sync.sh`
+  before starting local work; if it reports you're behind, `git pull --rebase
+  origin main` rather than assuming a plain fast-forward will work.
 
 ## APIs and services
 - Claude API (Anthropic) — content generation
@@ -65,7 +76,7 @@ Actions tab. There is no separate local `hf-space/` repo to maintain.
 Full cloud pipeline operational. First briefing published April 13, 2026.
 
 ### Cloud architecture
-1. **GitHub Actions** (`generate.yml`) — manual trigger only (workflow_dispatch); runs `python -m generator.client`, commits draft to `output/payments/YYYY-MM-DD.md`. Triggered from the HuggingFace Space dashboard.
+1. **GitHub Actions** (`generate.yml`) — manual trigger only (workflow_dispatch); runs `python -m generator.client`, commits draft to `output/payments/YYYY-MM-DD.yaml`. Triggered from the HuggingFace Space dashboard.
 2. **HuggingFace Space** (`nick385/skald`) — Gradio dashboard; editor clicks "Trigger generation" to dispatch the GitHub Actions workflow, then "Load draft" once it completes. Reviews, edits, approves stories, and publishes to `site/content/briefings/YYYY-MM-DD.md` in `skaldnick/vikingmedia-site` via GitHub API commit.
 3. **Cloudflare Pages** — watches `skaldnick/vikingmedia-site`; auto-deploys on push; runs `hugo --minify --source site`, serves from `public/`; live at vikingmedia.org/skald/
 
@@ -90,6 +101,7 @@ Full cloud pipeline operational. First briefing published April 13, 2026.
 - tools/fetch_raw.py — fetch and cache raw feed snapshot for offline filter testing
 - tools/test_filters.py — test filter configs against cached snapshots; shows per-source pass/cut
 - tools/extract_learning.py — post-session learning tool; auto-updates recently_covered.yaml with approved stories; calls Claude to propose style rules from editorial diffs for human review
+- tools/check_sync.sh — fetches origin and reports how many commits local is behind/ahead; run before starting local work, since the dashboard pushes to origin/main independently of any local clone
 
 ### Post-session workflow
 After each editorial session (save feedback in dashboard):

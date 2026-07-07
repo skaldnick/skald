@@ -207,9 +207,11 @@ marimo/_lsp/
 __marimo__/
 
 # Skald-specific
-/data/feedback/
+# NOTE: /output/ and /data/feedback/ are intentionally NOT ignored — they are
+# committed to origin/main by generate.yml and the dashboard's Content-API
+# writes, and are the pipeline's only persistence layer (HF Space filesystem
+# is ephemeral; no database). See CLAUDE.md "Key conventions".
 /data/raw/
-/output/
 /public/skald/
 .env
 venv/
