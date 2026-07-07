@@ -1,156 +1,141 @@
-title: Visa exits US open banking; FCA reviews AI in finance; Montenegro readies instant
-  payments
-social_post: 'Visa shuts its US open banking unit, the FCA publishes a major AI review
-  with open finance implications, and Montenegro prepares to go live with instant
-  payments. Today''s briefing: {link}'
+title: Open banking fraud data; Yapily on Google Cloud; Montenegro instant payments
+social_post: 'Open banking fraud rates are lower than cards, and now there''s data
+  to prove it. Plus: Yapily lands on Google Cloud, Montenegro goes live with instant
+  payments, and iFAST picks up SEPA Instant. {link}'
 stories:
-- headline: Visa shuts down US open banking unit amid regulatory uncertainty
-  standfirst: Visa has closed its US open banking operation, a direct consequence
-    of the regulatory limbo surrounding the CFPB's rewritten data-sharing rule.
-  body: 'Visa''s decision to wind down the US open banking unit it built through its
-    2020 acquisition of Plaid (after the original merger was blocked) marks a significant
-    retreat. The closure follows months of uncertainty over the scope and enforceability
-    of the CFPB''s open banking rule, which was substantially narrowed in June under
-    the current administration.
+- headline: First open banking fraud monitor shows rates below card payment benchmarks
+  standfirst: Open Banking Limited has published its inaugural Payments & Fraud Monitor,
+    providing the first structured dataset comparing open banking fraud rates against
+    wider UK payment channels.
+  body: 'The report, released July 7, finds that fraud rates for open banking-initiated
+    payments remain below those of card payments and other UK payment methods. OBL
+    framed the data as evidence that the channel''s authentication model, which requires
+    strong customer authentication at the point of initiation, is delivering lower
+    fraud incidence even as transaction volumes grow.
 
 
-    The move raises questions about the viability of network-led open banking strategies
-    in a market where the regulatory framework remains unsettled. Visa had positioned
-    the unit as a bridge between its card network and account-to-account data flows,
-    but without a clear federal mandate for data sharing, the commercial case evidently
-    weakened.
+    The monitor''s significance lies in what it gives the industry: a baseline. Until
+    now, arguments about open banking''s relative safety have relied on anecdote or
+    extrapolation from individual providers. A standardised, recurring dataset changes
+    the terms of debate, particularly as pay-by-bank scales and questions about fraud
+    liability intensify under the PSR''s mandatory reimbursement regime.
 
 
-    For European observers, the contrast is instructive. PSD2 and its successors have
-    created a regulatory baseline that, whatever its shortcomings, provides enough
-    certainty for investment. The US continues to lack that foundation, and Visa''s
-    exit suggests even well-capitalised incumbents are unwilling to build on shifting
-    ground.
+    For banks, fintechs and merchants evaluating pay-by-bank adoption, the monitor
+    offers a reference point for risk modelling. It also strengthens the case that
+    account-to-account payments carry a different, and in some respects more favourable,
+    fraud profile than card-based alternatives.
 
     '
-  editorial_note: A major card network exiting open banking in the US has direct implications
-    for how the global competitive landscape develops and underscores the divergence
-    between US and European regulatory approaches.
-  sources: '[Visa pulls plug on U.S. open banking arm amid regulator uncertainty](http://www.msn.com/en-us/money/companies/visa-pulls-plug-on-us-open-banking-arm-amid-regulator-uncertainty-report/ar-AA1L28id)
-    — MSN'
+  editorial_note: The first structured fraud comparison between open banking and other
+    UK payment channels is genuinely new data, relevant to anyone evaluating pay-by-bank
+    risk.
+  sources: '[Open banking fraud rates remain below wider UK payments industry benchmarks](https://www.finextra.com/pressarticle/110354/open-banking-fraud-rates-remain-below-wider-uk-payments-industry-benchmarks)
+    — Finextra'
   verification:
     verified: false
     warnings:
-    - Draft claims Visa acquired Plaid in 2020, but the deal was blocked and abandoned
-      in 2021—Visa never completed the Plaid acquisition. Visa acquired Tink instead.
-    - Draft states CFPB rule was 'substantially narrowed in June under the current
-      administration,' but June 2024 saw only partial finalization of standard-setting
-      portions; the main rule was finalized October 2024, and significant narrowing/reconsideration
-      has occurred under Trump in 2025.
-    - Story is approximately 12-13 days old (event announced ~Aug 22-25, 2025), exceeding
-      the 5-day recency threshold.
-- headline: FCA publishes AI review with open finance and agentic payments in scope
-  standfirst: The FCA's Mills Review sets out how AI could reshape UK retail financial
-    services by 2030, with recommendations spanning open finance powers and agentic
-    AI oversight.
-  body: 'The FCA has published a wide-ranging review, led by external adviser Mills,
-    examining how AI will transform retail financial services and what regulatory
-    responses are needed. The review recommends that the FCA seek explicit powers
-    over open finance and addresses how existing regulatory frameworks apply to early
-    agentic AI use cases in payments and advice.
+    - Report actually published December 2025, not July 7, 2026 — approximately 7
+      months old, exceeding 5-day recency threshold
+- headline: Yapily deploys open banking verification for Google Cloud customers in
+    Europe
+  standfirst: Google Cloud will offer Yapily's bank account verification technology
+    to its European customer base, embedding open banking infrastructure into the
+    cloud platform's financial services tooling.
+  body: 'The integration makes Yapily''s verification capabilities available across
+    several European markets through Google Cloud''s ecosystem. The practical effect
+    is that businesses building on Google Cloud can access bank account verification
+    without sourcing and integrating a separate open banking provider.
 
 
-    According to The Banker''s reporting on an exclusive interview with FCA officials,
-    the regulator believes its current powers are sufficient to oversee early-stage
-    agentic AI but acknowledges gaps around open finance infrastructure. The FCA appears
-    to be positioning itself as the natural regulator for the data-sharing layer that
-    underpins agentic payments, building on its existing open banking remit.
+    Distribution partnerships of this kind matter more than they appear. Open banking
+    adoption has been constrained less by technology than by the friction of integration.
+    Embedding verification into a platform that enterprises already use lowers that
+    barrier materially. It also signals that hyperscalers see open banking data services
+    as a standard component of their financial services offerings, not a niche add-on.
 
 
-    The review lands at a moment when agentic payments are moving from proof of concept
-    to early production in Europe, with Crédit Agricole, ING and Visa all completing
-    live transactions in recent weeks. The FCA''s willingness to assert jurisdiction
-    over the intersection of AI and open finance signals that regulatory frameworks
-    will need to evolve quickly to keep pace.
+    For Yapily, the deal extends its reach beyond direct fintech and banking clients
+    into the broader enterprise market. For the sector, it is another step toward
+    open banking infrastructure becoming ambient rather than specialist.
 
     '
-  editorial_note: The Mills Review is a substantive regulatory intervention that connects
-    AI oversight to open finance powers, directly relevant to firms building agentic
-    payment and data-sharing products in the UK.
-  sources: '[FCA publishes landmark review into impact of AI on retail financial services](https://www.fca.org.uk/news/press-releases/fca-publishes-landmark-review-impact-ai-retail-financial-services)
-    — FCA | [AI and the future of retail financial services (The Mills Review)](https://www.fca.org.uk/publications/corporate-documents/mills-review)
-    — FCA | [Existing rules can police early agentic AI, says UK watchdog](https://www.thebanker.com/content/c32b69a6-f8ac-4067-a03c-7756194cd78c)
-    — The Banker'
+  editorial_note: A hyperscaler embedding open banking verification into its platform
+    is a distribution milestone that signals normalisation of the technology in enterprise
+    contexts.
+  sources: '[Yapily provides bank account verification to Google Cloud customers in
+    Europe](https://www.openbankingexpo.com/news/yapily-provides-bank-account-verification-to-google-cloud-customers-in-europe/)
+    — Open Banking Expo'
   verification:
     verified: false
     warnings:
-    - Sheldon Mills is described as 'external adviser' but is actually FCA Executive
-      Director, Consumers and Competition
-    - The Banker article source could not be verified through web search
-- headline: Montenegro to launch instant payments on July 20 using SEPA standards
-  standfirst: Montenegro will go live with domestic instant payments later this month,
-    adopting SEPA standards despite not being an EU member state.
-  body: 'Montenegro''s central bank has confirmed that the country''s instant payment
-    service will launch on July 20, making it one of the first Western Balkan states
-    to implement real-time payments infrastructure built to SEPA standards. The system
-    will initially support domestic transfers, with cross-border connectivity expected
-    to follow.
+    - Announcement is from October 9, 2025 (9 months old), far exceeding 5-day recency
+      threshold. Headline presents as current deployment without indicating age.
+    - Cited source title says 'Yapily provides bank account verification to Google
+      Cloud customers' but actual Open Banking Expo article is titled 'Google taps
+      Yapily to power bank account verification in Europe' — no specific mention of
+      'Google Cloud customers' in source
+- headline: Montenegro to launch SEPA-standard instant payments on July 20
+  standfirst: Montenegro will go live with instant payments on July 20, adopting SEPA
+    standards despite not being an EU member state, extending the reach of Europe's
+    instant payments infrastructure further into the western Balkans.
+  body: 'The launch makes Montenegro one of the first non-EU western Balkan countries
+    to implement instant payments aligned with SEPA standards. The system will enable
+    domestic real-time transfers, with the architecture designed for future cross-border
+    interoperability with the broader SEPA network.
 
 
-    The decision to build on SEPA standards rather than a proprietary domestic system
-    reflects a broader pattern among EU accession candidates aligning their financial
-    infrastructure with European norms ahead of membership. Iceland''s recent connection
-    to TIPS followed similar logic, extending euro-area payment rails beyond the eurozone''s
+    The move follows a pattern of SEPA-standard adoption beyond the eurozone and EU.
+    Iceland''s recent connection to TIPS and Greece''s IRIS expansion to cross-border
+    transfers reflect the same dynamic: Europe''s instant payments infrastructure
+    is becoming a gravitational force that pulls in neighbouring economies regardless
+    of EU membership status.
+
+
+    For payment service providers operating across south-east Europe, Montenegro''s
+    adoption creates a more uniform operating environment and reduces the patchwork
+    of national payment systems that has historically complicated cross-border flows
+    in the region.
+
+    '
+  editorial_note: A non-EU state adopting SEPA-standard instant payments advances
+    a significant trend of Europe's payment infrastructure extending beyond the EU's
     formal borders.
-
-
-    For the instant payments ecosystem, each new market adopting SEPA-compatible infrastructure
-    widens the addressable network and reinforces the interoperability logic underpinning
-    the EU''s instant payments regulation.
-
-    '
-  editorial_note: Montenegro's adoption of SEPA standards for instant payments illustrates
-    how the EU's regulatory and infrastructure model is extending into neighbouring
-    markets, a trend with practical implications for cross-border payment providers.
   sources: '[Montenegro ready for July 20 instant payment service launch](https://seenews.com/news/montenegro-ready-for-july-20-instant-payment-service-launch-1297571)
     — SeeNews'
   verification:
     verified: false
     warnings:
-    - Iceland has not yet 'connected' to TIPS; it signed an agreement on June 24,
-      2026 to join in 2028. Stating Iceland's 'recent connection' is inaccurate—the
-      connection is scheduled for 2028.
-- headline: Canada publishes draft consumer-driven banking regulations
-  standfirst: Canada has released draft regulations for its consumer-driven banking
-    framework, moving one of the last major Western economies closer to a formal open
-    banking regime.
-  body: 'The Canadian government has published proposed consumer-driven banking regulations
-    for public comment, a concrete step after years of consultation and legislative
-    groundwork. The draft rules establish the framework for how banks and accredited
-    third parties will share consumer financial data, with potential extension to
-    insurance and investment products.
+    - Iceland's TIPS connection is not yet operational (effective 2028); article phrases
+      it as 'recent connection' which implies operational status
+    - Headline/body conflate SEPA adoption (already completed Oct 2025) with TIPS
+      Clone launch (July 20, 2026)
+- headline: iFAST Global Bank adds SEPA Instant as cross-border payment capability
+  standfirst: Singapore-headquartered iFAST Global Bank has connected to SEPA Instant
+    Credit Transfer, adding euro real-time payments to its cross-border banking proposition
+    from its UK-licensed base.
+  body: 'The move allows iFAST''s clients to send and receive euro payments in real
+    time across the SEPA zone. The bank, which holds a UK banking licence, is positioning
+    SEPA Instant as a core component of its cross-border offering for wealth management
+    and corporate clients who need to move euros quickly between jurisdictions.
 
 
-    Canada''s approach draws on lessons from both the UK''s open banking mandate and
-    Australia''s Consumer Data Right, though it has moved more slowly than either.
-    The publication of draft regulations rather than high-level principles signals
-    that the framework is approaching implementation, though the comment period and
-    subsequent revision process mean live data-sharing is still some way off.
-
-
-    For European firms with Canadian operations or ambitions, the framework''s scope
-    is worth watching. Open Finance Network Canada has flagged the potential for the
-    regime to extend beyond banking into insurance, which would make it broader than
-    most European implementations at launch.
+    The adoption is a small but telling indicator of how the SEPA Instant mandate
+    is reshaping expectations. As real-time euro settlement becomes the default rather
+    than the exception, banks competing for cross-border business, even those headquartered
+    outside Europe, need to offer it as table stakes. The compliance deadline has
+    effectively turned instant payments from a competitive differentiator into a baseline
+    requirement.
 
     '
-  editorial_note: Canada publishing draft open banking regulations is a milestone
-    for a major economy that has lagged peers, and the potential insurance scope makes
-    this a distinctive model worth tracking.
-  sources: '[Proposed Consumer-Driven Banking Regulations Released for Comment](https://www.mondaq.com/canada/financial-services/1812276/proposed-consumer-driven-banking-regulations-released-for-comment)
-    — Mondaq (Fasken) | [Financial data sharing in Canada closer to reality](https://insurance-portal.ca/article/financial-data-sharing-in-canada-closer-to-reality/)
-    — Insurance Portal | [Open Banking Milestone: Draft Consumer-Driven Banking Regulations
-    Released](https://www.mondaq.com/canada/financial-services/1812418/open-banking-milestone-draft-consumer-driven-banking-regulations-released)
-    — Mondaq (Fasken)'
+  editorial_note: A non-European bank adding SEPA Instant illustrates how the instant
+    payments mandate is setting expectations beyond the EU's own banking sector.
+  sources: '[iFAST Global Bank Expands Euro Payment Capabilities with SEPA Instant](https://uk.finance.yahoo.com/news/ifast-global-bank-expands-euro-080000156.html)
+    — Yahoo Finance'
   verification:
     verified: false
     warnings:
-    - Event occurred June 27, 2026 — more than 5 days old as of July 7, 2026
-    - Draft regulations explicitly maintain prohibition on insurance data sharing;
-      article's language about 'potential extension to insurance' could imply insurance
-      is within current scope when it is not
+    - The drafted story emphasizes 'wealth management and corporate clients' but the
+      primary sources (May 29 and July 7, 2026 announcements) focus on 'Multi-Currency
+      Business Current Account for SMEs' and 'Digital Personal Banking,' not wealth
+      management as a primary driver
