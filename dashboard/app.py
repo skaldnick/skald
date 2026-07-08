@@ -272,6 +272,9 @@ def on_regenerate(*args):
         return gr.update(), gr.update(), "*ANTHROPIC_API_KEY not set — enter title and social post manually.*"
     client = anthropic.Anthropic(api_key=api_key)
     headlines_text = "\n".join(f"- {h}" for h in approved)
+    briefing_url = f"{BRIEFING_BASE_URL}/{datetime.now().strftime('%Y-%m-%d')}/"
+    link_suffix = f". Today's briefing → {briefing_url}"
+    text_budget = X_CHAR_LIMIT - len(link_suffix)
     title_resp = client.messages.create(
         model="claude-haiku-4-5-20251001",
         max_tokens=60,
@@ -289,7 +292,8 @@ def on_regenerate(*args):
         # is a stronger guardrail than just telling it not to use one.
         social_system = (
             "You write social posts for X (Twitter) for a European payments and open banking newsletter. "
-            f"Stay well under {X_CHAR_LIMIT} characters — the caller will append '. Today's briefing → {{link}}' (about 32 chars). "
+            f"Write no more than {text_budget} characters — the caller will append a fixed "
+            f"{len(link_suffix)}-character link suffix ('. Today's briefing → <url>') to reach the {X_CHAR_LIMIT} total. "
             "There is exactly ONE approved story today. Write the entire post about that single story only. "
             "Do not add a 'Plus:' section or any other clause. Do not mention, tease, or imply any other story, "
             "company, country, or regulation under any circumstance — even if it would make the post feel fuller. "
@@ -299,7 +303,8 @@ def on_regenerate(*args):
     else:
         social_system = (
             "You write social posts for X (Twitter) for a European payments and open banking newsletter. "
-            f"Stay well under {X_CHAR_LIMIT} characters — the caller will append '. Today's briefing → {{link}}' (about 32 chars). "
+            f"Write no more than {text_budget} characters — the caller will append a fixed "
+            f"{len(link_suffix)}-character link suffix ('. Today's briefing → <url>') to reach the {X_CHAR_LIMIT} total. "
             "Lead with the most interesting story. You MUST mention only stories from the approved headline list "
             "below — never invent, imply, or tease any topic, company, country, or regulation that is not one of "
             "the listed headlines, even to fill out a 'Plus:' clause. You may tease 2-3 of the listed headlines with "
@@ -312,9 +317,8 @@ def on_regenerate(*args):
         system=social_system,
         messages=[{"role": "user", "content": f"Write an X social post for a briefing covering these stories:\n\n{headlines_text}"}],
     )
-    briefing_url = f"{BRIEFING_BASE_URL}/{datetime.now().strftime('%Y-%m-%d')}/"
     social_text = social_resp.content[0].text.strip().rstrip(".")
-    social = social_text + f". Today's briefing → {briefing_url}"
+    social = social_text + link_suffix
     unlisted = _flag_unlisted_terms(social_text, headlines_text)
     status = ""
     if unlisted:
