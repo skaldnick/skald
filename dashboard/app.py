@@ -70,7 +70,7 @@ def on_load_draft():
         header = f"*No draft found for {datetime.now().strftime('%Y-%m-%d')}.*"
         outputs = [header, "", ""]
         for _ in range(MAX_STORIES):
-            outputs += ["", "", "", "", "", "Approve", ""]
+            outputs += ["", "", "", "", "", "", "Approve", ""]
         return outputs
 
     stories = data.get("stories", [])
@@ -84,17 +84,19 @@ def on_load_draft():
             s = stories[i]
             warnings = (s.get("verification") or {}).get("warnings") or []
             warning_md = "".join(f"\n\n⚠️ **Verification flagged:** {w}" for w in warnings)
+            sources = s.get("sources", "")
             outputs += [
                 f"*Editorial note: {s.get('editorial_note', '')}*{warning_md}",
                 s.get("headline", ""),
                 s.get("standfirst", ""),
                 s.get("body", "").strip(),
-                s.get("sources", ""),
+                sources,
+                sources,
                 "Approve",
                 "",
             ]
         else:
-            outputs += ["", "", "", "", "", "Approve", ""]
+            outputs += ["", "", "", "", "", "", "Approve", ""]
     return outputs
 
 
@@ -335,7 +337,7 @@ with gr.Blocks(title="Skald — Editorial Dashboard") as app:
 
     groups = []
     editorial_note_mds = []
-    headlines, standfirsts, bodies, sources_txts = [], [], [], []
+    headlines, standfirsts, bodies, sources_txts, sources_mds = [], [], [], [], []
     decisions, reasons = [], []
 
     for i in range(MAX_STORIES):
@@ -347,7 +349,8 @@ with gr.Blocks(title="Skald — Editorial Dashboard") as app:
             headline = gr.Textbox(lines=1, label="Headline")
             standfirst = gr.Textbox(lines=2, label="Standfirst")
             body = gr.Textbox(lines=12, label="Body", show_label=True)
-            src = gr.Textbox(lines=2, label="Sources")
+            src_md = gr.Markdown(label="Sources")
+            src = gr.State("")
             rsn = gr.Textbox(
                 placeholder="Notes — story selection, style, or rejection reason (optional)",
                 label="Notes",
@@ -359,6 +362,7 @@ with gr.Blocks(title="Skald — Editorial Dashboard") as app:
         standfirsts.append(standfirst)
         bodies.append(body)
         sources_txts.append(src)
+        sources_mds.append(src_md)
         decisions.append(dec)
         reasons.append(rsn)
 
@@ -389,12 +393,12 @@ with gr.Blocks(title="Skald — Editorial Dashboard") as app:
             save_btn = gr.Button("Save feedback", variant="secondary", scale=0)
             publish_btn = gr.Button("Publish approved", variant="primary", scale=0)
 
-    # Per-story load outputs: editorial_note, headline, standfirst, body, sources, decision, reason
+    # Per-story load outputs: editorial_note, headline, standfirst, body, sources_md, sources_state, decision, reason
     load_outputs = [header_md, briefing_title_input, social_post_input]
     for i in range(MAX_STORIES):
         load_outputs += [
             editorial_note_mds[i],
-            headlines[i], standfirsts[i], bodies[i], sources_txts[i],
+            headlines[i], standfirsts[i], bodies[i], sources_mds[i], sources_txts[i],
             decisions[i], reasons[i],
         ]
 
