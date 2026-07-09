@@ -13,7 +13,13 @@ selection_criteria: |
 
   Deprioritise:
   - Vendor announcements with no broader implication
-  - Stories duplicating something covered in recent issues
+  - Stories duplicating something covered in recent issues. A different outlet
+    reporting the same underlying fact (same date, same law, same actors) is
+    not a new angle, even from a local or previously-unseen source — a new
+    angle requires a materially different fact: a changed date or figure, a
+    new party involved, or a genuinely subsequent stage of the same process
+    (e.g. law passed -> regulator approval -> go-live) that the earlier
+    coverage did not report. If in doubt, treat it as the same story and skip it.
   - Items where the feed summary is too thin to write from with confidence
   - Analysis or commentary pieces by law firms, consultancies, or advisers
     explaining a regulatory development — these are client briefings, not news.
@@ -60,8 +66,12 @@ output_format: |
         Second paragraph. Add further paragraphs as needed, separated by blank lines.
       editorial_note: |
         One sentence explaining why this story was selected and merits a reader's attention.
+        If it follows up on something in the "Previously covered" list, state the new angle here.
       sources: |
         [Article title](https://example.com) — Publication name | [Second title](https://example.com) — Publication name
+        Cite only today's actual reporting on the story — never cite an entry from the
+        "Previously covered" list as a source; that list is internal context for avoiding
+        duplicates, not something to attribute to the reader.
     - headline: |
         ...
       standfirst: |

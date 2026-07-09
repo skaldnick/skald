@@ -1,0 +1,62 @@
+name: Extract style rule proposals
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'data/feedback/**'
+  workflow_dispatch:        # manual re-run, e.g. to reprocess after a script fix
+
+jobs:
+  extract:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0    # need history to diff before/after for changed feedback files
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+          cache: 'pip'
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Find changed feedback dates
+        id: changed
+        run: |
+          if [ "${{ github.event_name }}" = "push" ]; then
+            DATES=$(git diff --name-only "${{ github.event.before }}" "${{ github.event.after }}" -- 'data/feedback/*.json' \
+              | xargs -n1 basename | sed 's/\.json$//' | tr '\n' ' ')
+          else
+            DATES=""
+          fi
+          echo "dates=$DATES" >> "$GITHUB_OUTPUT"
+
+      - name: Propose style rules
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: |
+          DATES="${{ steps.changed.outputs.dates }}"
+          if [ -n "$DATES" ]; then
+            for d in $DATES; do
+              echo "Processing feedback for $d"
+              python tools/extract_learning.py --date "$d"
+            done
+          else
+            # workflow_dispatch with no changed-file context: process the most recent feedback file
+            python tools/extract_learning.py
+          fi
+
+      - name: Commit proposed rules
+        run: |
+          git config user.name "skald-bot"
+          git config user.email "skald-bot@users.noreply.github.com"
+          git add data/proposed_style_rules.yaml
+          git diff --cached --quiet || git commit -m "Propose style rules from editorial feedback"
+          git pull --rebase origin main
+          git push

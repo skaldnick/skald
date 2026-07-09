@@ -13,3 +13,7 @@
   rule: "Use 'US' not 'United States' in body text."
 - date: "2026-06-04"
   rule: "Never flag significance explicitly. Do not write sentences that announce importance before explaining it — no 'This matters because', 'The significance here is', 'What this means is', 'Why this is notable', or equivalent framing. Write the substantive point directly; if it belongs in the briefing, the reader will recognise its significance without being told."
+- date: "2026-07-08"
+  rule: "Write numbers one to nine as words (one, two, three...); use digits from 10 upward (10, 11, 12...)."
+- date: "2026-07-08"
+  rule: "The standfirst and the body's opening line must not cover the same ground. The standfirst carries the interpretive point (why it matters); the body's first line opens with the concrete news fact (what happened), written as if the standfirst hadn't been read. Do not let the body continue or restate the standfirst's sentence."

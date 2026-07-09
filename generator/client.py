@@ -85,8 +85,11 @@ def build_user_prompt(story: dict, entries: list[dict], recently_covered: list[d
         covered_section = (
             "\n\n## Previously covered — avoid unless there is a genuinely new angle. "
             "An aggregator republishing an old story under a fresh date does not count "
-            "as new — check the underlying event date against this list, not the feed's "
-            "publish date.\n"
+            "as new, and neither does a different outlet reporting the same underlying "
+            "fact — check the underlying event, not the feed's publish date or source. "
+            "This list is internal context only: if you do select a follow-up story, "
+            "cite only today's new source in `sources` and explain the new angle in "
+            "`editorial_note` — never cite an entry from this list as a source.\n"
             + "\n".join(lines)
         )
 

@@ -28,6 +28,12 @@ to the separate `skaldnick/vikingmedia-site` repo. Skald is pipeline-only.
 ## Key conventions
 - Beat configs are YAML; schema defined in /beats/README.md
 - Prompts are YAML files, never hardcoded in Python
+- Every free-text field in a prompt's requested YAML output (headline, standfirst,
+  editorial_note, sources, title, social_post — anywhere the model writes its own
+  prose, not a fixed enum) must be specified as a literal block scalar (`|`), never
+  a double-quoted string. Model-generated text routinely contains quote marks or
+  colons, both of which break quoted/unquoted YAML scalars; block scalars need no
+  escaping. See prompts/payments/story.yaml's output_format for the pattern.
 - All Claude API calls go through generator/client.py — no direct API 
   calls elsewhere
 - API keys via environment variables only (.env, never committed)
@@ -90,27 +96,28 @@ Full cloud pipeline operational. First briefing published April 13, 2026.
 - generator/verify.py — secondary fact-check pass run after generation, before saving the draft; re-checks each story against live web search (Haiku + `web_search` tool) for currency/figure accuracy, true source recency, and unsupported claims; attaches a non-blocking `verification.warnings` list per story
 - prompts/payments/system.yaml — voice, style, editorial stance
 - prompts/payments/story.yaml — selection criteria, news recognition, output format; instructs Claude to produce a concise briefing title
-- prompts/payments/style_rules.yaml — accumulated house style rules extracted from editorial diffs; injected into system prompt on every generation run
+- prompts/payments/style_rules.yaml — accumulated house style rules extracted from editorial feedback; injected into system prompt on every generation run
+- data/proposed_style_rules.yaml — queue of style rules Claude has proposed from recent editorial diffs/notes but which haven't yet been reviewed; populated automatically (see extract_learning.yml below), cleared once reviewed in the dashboard
 - data/recently_covered.yaml — approved and published story headlines by date; injected into user prompt in full (no day-window cutoff — aggregators resurface old stories under fresh publish dates, so any recency cutoff would let duplicates slip through) to prevent repeat coverage; committed to repo so GitHub Actions can access it
-- dashboard/app.py — Gradio editorial interface (trigger generation, load draft, edit, save feedback, approve/reject, publish, post to X); pre-fills briefing title and social post from AI draft; Re-generate button regenerates both from approved stories and embeds the real briefing URL (not a placeholder); social post box shows character count (current / 280); Post to X is a separate button from Publish so the editor can wait for Cloudflare to deploy before tweeting; surfaces verification warnings as a `⚠️ Verification flagged` line in each story's editorial note
+- dashboard/app.py — Gradio editorial interface (trigger generation, load draft, edit, save feedback, approve/reject, publish, post to X); pre-fills briefing title and social post from AI draft; Re-generate button regenerates both from approved stories and embeds the real briefing URL (not a placeholder); social post box shows character count (current / 280); Post to X is a separate button from Publish so the editor can wait for Cloudflare to deploy before tweeting; surfaces verification warnings as a `⚠️ Verification flagged` line in each story's editorial note; "Proposed style rules" section loads data/proposed_style_rules.yaml into an editable textbox (one rule per line) — editing/deleting lines and clicking Save promotes the remainder into prompts/payments/style_rules.yaml and clears the pending queue
 - dashboard/github_api.py — GitHub API helpers (read/write files, dispatch workflows); dashboard uses this when GITHUB_TOKEN set, local filesystem otherwise. Uses two repo env vars: GITHUB_REPO (vikingmedia-site, for publishing briefings) and GITHUB_PIPELINE_REPO (skald, for workflow dispatch and reading drafts)
 - beats/payments.yaml — source config (11 sources: regulatory, Google Alerts, trade press)
 - beats/payments_filters.yaml — keyword filter config (global + per-source include/exclude, passthrough)
 - .github/workflows/generate.yml — manual trigger only (workflow_dispatch); no scheduled cron
 - .github/workflows/sync-hf-space.yml — syncs dashboard and source files to HuggingFace Space on push to main; also triggerable manually
+- .github/workflows/extract_learning.yml — runs on every push to main touching data/feedback/ (also triggerable manually); diffs the push to find which feedback dates changed and runs tools/extract_learning.py --date for each, committing any newly proposed rules to data/proposed_style_rules.yaml
 - tools/fetch_raw.py — fetch and cache raw feed snapshot for offline filter testing
 - tools/test_filters.py — test filter configs against cached snapshots; shows per-source pass/cut
-- tools/extract_learning.py — post-session learning tool; auto-updates recently_covered.yaml with approved stories; calls Claude to propose style rules from editorial diffs for human review
+- tools/extract_learning.py — calls Claude to propose style rules from editorial diffs *and* the editor's own notes field (notes are treated as an authoritative statement of the rule, not just something to infer from a diff), then appends new proposals (deduped against accepted and already-pending rules) to data/proposed_style_rules.yaml for review in the dashboard. Runs automatically via extract_learning.yml; can also be run locally. Does not touch recently_covered.yaml/recently_rejected.yaml — those are updated by the dashboard on publish.
 - tools/check_sync.sh — fetches origin and reports how many commits local is behind/ahead; run before starting local work, since the dashboard pushes to origin/main independently of any local clone
 
 ### Post-session workflow
-After each editorial session (save feedback in dashboard):
-```bash
-python tools/extract_learning.py   # updates recently_covered.yaml, proposes style rules
-# review output, add keepers to prompts/payments/style_rules.yaml
-git add data/recently_covered.yaml prompts/payments/style_rules.yaml
-git commit -m "..."
-```
+Style rule extraction is now automatic: saving feedback in the dashboard commits to
+data/feedback/, which triggers extract_learning.yml to propose new rules into
+data/proposed_style_rules.yaml. The only manual step is reviewing them: open the
+dashboard's "Proposed style rules" section, click **Load proposed rules**, edit or
+delete lines you don't want, and click **Save reviewed rules** — accepted rules are
+committed to prompts/payments/style_rules.yaml and the pending queue is cleared.
 
 ### Next priorities
 - Design TL;DR/summary product — concise daily digest and/or teaser email, separate from the full briefing

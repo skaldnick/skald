@@ -20,6 +20,19 @@ ROOT = Path(__file__).parent.parent
 OUTPUT_DIR = ROOT / "output"
 FEEDBACK_DIR = ROOT / "data" / "feedback"
 SITE_DIR = ROOT / "site" / "content" / "briefings"
+PROPOSED_RULES_REL = "data/proposed_style_rules.yaml"
+STYLE_RULES_REL = "prompts/payments/style_rules.yaml"
+STYLE_RULES_HEADER = (
+    "# House style rules extracted from editorial feedback.\n"
+    "# Populated by: python tools/extract_learning.py\n"
+    "# Review proposed rules before adding. More recent rules take precedence on conflict.\n"
+)
+PROPOSED_RULES_HEADER = (
+    "# Proposed style rules awaiting editorial review.\n"
+    "# Populated automatically by tools/extract_learning.py (via GitHub Actions on push\n"
+    "# to data/feedback/). Review and promote/edit in the dashboard's 'Proposed style\n"
+    "# rules' section — accepted rules move to prompts/payments/style_rules.yaml.\n"
+)
 
 
 def load_draft(beat: str = "payments") -> dict | None:
@@ -127,6 +140,69 @@ def _update_yaml_in_pipeline_repo(path: str, date_str: str, headlines: list[str]
         local_path.parent.mkdir(parents=True, exist_ok=True)
         local_path.write_text(payload)
         return True
+
+
+def _read_repo_yaml_list(path: str) -> list[dict]:
+    """Read a YAML list of dicts from the pipeline repo (or local filesystem)."""
+    if github_api.available():
+        text, _ = github_api.read_file(path, repo=github_api.GITHUB_PIPELINE_REPO)
+    else:
+        local_path = ROOT / path
+        text = local_path.read_text() if local_path.exists() else None
+    entries = yaml.safe_load(text) if text else []
+    return [e for e in (entries or []) if isinstance(e, dict)]
+
+
+def _write_repo_yaml_list(path: str, entries: list[dict], header: str, commit_msg: str) -> bool:
+    payload = header + yaml.dump(entries, allow_unicode=True, sort_keys=False)
+    if github_api.available():
+        return github_api.write_file(path, payload, commit_msg, repo=github_api.GITHUB_PIPELINE_REPO)
+    local_path = ROOT / path
+    local_path.parent.mkdir(parents=True, exist_ok=True)
+    local_path.write_text(payload)
+    return True
+
+
+def on_load_proposed_rules():
+    proposed = _read_repo_yaml_list(PROPOSED_RULES_REL)
+    if not proposed:
+        return "No proposed rules pending review."
+    return "\n".join(f"[{r.get('date', '')}] {r['rule']}" for r in proposed if r.get("rule"))
+
+
+def on_save_reviewed_rules(text: str):
+    """Promote whatever remains in the review textbox into house style rules, then
+    clear the pending queue — lines the editor deleted are treated as rejected."""
+    line_re = re.compile(r"^\[(\d{4}-\d{2}-\d{2})\]\s*(.+)$")
+    today = datetime.now().strftime("%Y-%m-%d")
+    accepted = []
+    for line in text.splitlines():
+        line = line.strip().lstrip("-").strip()
+        if not line:
+            continue
+        m = line_re.match(line)
+        if m:
+            accepted.append({"date": m.group(1), "rule": m.group(2).strip()})
+        else:
+            accepted.append({"date": today, "rule": line})
+
+    if accepted:
+        style_rules = _read_repo_yaml_list(STYLE_RULES_REL)
+        style_rules.extend(accepted)
+        if not _write_repo_yaml_list(
+            STYLE_RULES_REL, style_rules, STYLE_RULES_HEADER,
+            f"Add {len(accepted)} reviewed style rule(s)",
+        ):
+            return "Error saving style rules."
+
+    if not _write_repo_yaml_list(
+        PROPOSED_RULES_REL, [], PROPOSED_RULES_HEADER, "Clear reviewed style rule proposals",
+    ):
+        return f"Saved {len(accepted)} style rule(s), but failed to clear the pending queue — clear it manually."
+
+    if accepted:
+        return f"Saved {len(accepted)} style rule(s) to house style. Pending queue cleared."
+    return "No rules accepted — pending queue cleared."
 
 
 def on_save(*args):
@@ -428,6 +504,22 @@ with gr.Blocks(title="Skald — Editorial Dashboard") as app:
             inputs=headlines + decisions,
             outputs=[briefing_title_input, social_post_input, status_md],
         )
+
+    if not DEMO_MODE:
+        with gr.Group():
+            with gr.Row():
+                gr.Markdown("#### Proposed style rules")
+                load_rules_btn = gr.Button("Load proposed rules", variant="secondary", scale=0)
+                save_rules_btn = gr.Button("Save reviewed rules", variant="primary", scale=0)
+            proposed_rules_box = gr.Textbox(
+                label="One rule per line — edit wording freely, delete a line to reject it",
+                placeholder="Click **Load proposed rules** to check for new rules extracted from recent feedback.",
+                lines=6,
+            )
+            rules_status_md = gr.Markdown("")
+
+        load_rules_btn.click(on_load_proposed_rules, outputs=proposed_rules_box)
+        save_rules_btn.click(on_save_reviewed_rules, inputs=proposed_rules_box, outputs=rules_status_md)
 
 
 if __name__ == "__main__":

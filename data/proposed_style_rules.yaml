@@ -1,0 +1,5 @@
+# Proposed style rules awaiting editorial review.
+# Populated automatically by tools/extract_learning.py (via GitHub Actions on push
+# to data/feedback/). Review and promote/edit in the dashboard's 'Proposed style
+# rules' section — accepted rules move to prompts/payments/style_rules.yaml.
+[]
