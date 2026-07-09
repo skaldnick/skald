@@ -74,9 +74,9 @@ def on_load_draft():
         return outputs
 
     stories = data.get("stories", [])
-    title = data.get("title", "")
+    title = data.get("title", "").strip()
     briefing_url = f"{BRIEFING_BASE_URL}/{datetime.now().strftime('%Y-%m-%d')}/"
-    social = data.get("social_post", "").replace("{link}", briefing_url).rstrip(".")
+    social = data.get("social_post", "").strip().replace("{link}", briefing_url).rstrip(".")
     outputs = [f"### European Payments & Open Banking — {date_str}", title, social]
 
     for i in range(MAX_STORIES):
@@ -84,11 +84,11 @@ def on_load_draft():
             s = stories[i]
             warnings = (s.get("verification") or {}).get("warnings") or []
             warning_md = "".join(f"\n\n⚠️ **Verification flagged:** {w}" for w in warnings)
-            sources = s.get("sources", "")
+            sources = s.get("sources", "").strip()
             outputs += [
-                f"*Editorial note: {s.get('editorial_note', '')}*{warning_md}",
-                s.get("headline", ""),
-                s.get("standfirst", ""),
+                f"*Editorial note: {s.get('editorial_note', '').strip()}*{warning_md}",
+                s.get("headline", "").strip(),
+                s.get("standfirst", "").strip(),
                 s.get("body", "").strip(),
                 sources,
                 sources,

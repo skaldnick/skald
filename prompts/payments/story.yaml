@@ -40,25 +40,38 @@ selection_criteria: |
 
 output_format: |
   Respond with a valid YAML document using the structure below. Use literal block
-  scalars (the | character) for the body field. Do not wrap the output in code fences.
+  scalars (the | character) for every free-text field, exactly as shown — never
+  double-quoted strings. Free text routinely contains quotation marks (e.g. quoting
+  a source directly) which break double-quoted YAML scalars; block scalars need no
+  escaping. Do not wrap the output in code fences.
 
-  title: "Four to eight words summarising today's stories — e.g. GoCardless profits; pay-by-bank friction; PSD3 delay"
-  social_post: "One post for X promoting today's briefing. Write no more than 235 characters of your own text — the {link} placeholder is replaced with a fixed 45-character URL when published, bringing the total to 280. Punchy and engaging — personality and dry humour welcome. Does not need to mention every story; lead with the most interesting angle. Never apologise for or flag the number of stories (e.g. 'thin' day, 'just one story') — a single strong story stands on its own. Written to make a payments professional want to click. End with {link}."
+  title: |
+    Four to eight words summarising today's stories — e.g. GoCardless profits; pay-by-bank friction; PSD3 delay
+  social_post: |
+    One post for X promoting today's briefing. Write no more than 235 characters of your own text — the {link} placeholder is replaced with a fixed 45-character URL when published, bringing the total to 280. Punchy and engaging — personality and dry humour welcome. Does not need to mention every story; lead with the most interesting angle. Never apologise for or flag the number of stories (e.g. 'thin' day, 'just one story') — a single strong story stands on its own. Written to make a payments professional want to click. End with {link}.
   stories:
-    - headline: "Story headline — plain text, no markdown"
-      standfirst: "One sentence that frames the story for a professional audience. No markdown."
+    - headline: |
+        Story headline — plain text, no markdown
+      standfirst: |
+        One sentence that frames the story for a professional audience. No markdown.
       body: |
         First paragraph written in the house voice.
 
         Second paragraph. Add further paragraphs as needed, separated by blank lines.
-      editorial_note: "One sentence explaining why this story was selected and merits a reader's attention."
-      sources: "[Article title](https://example.com) — Publication name | [Second title](https://example.com) — Publication name"
-    - headline: "..."
-      standfirst: "..."
+      editorial_note: |
+        One sentence explaining why this story was selected and merits a reader's attention.
+      sources: |
+        [Article title](https://example.com) — Publication name | [Second title](https://example.com) — Publication name
+    - headline: |
+        ...
+      standfirst: |
+        ...
       body: |
         ...
-      editorial_note: "..."
-      sources: "..."
+      editorial_note: |
+        ...
+      sources: |
+        ...
 
 input: |
   Today's stories:
