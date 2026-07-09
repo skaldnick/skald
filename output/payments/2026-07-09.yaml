@@ -1,0 +1,181 @@
+title: 'Swift shared ledger pilots; Montenegro instant payments; Scottish Power open
+  banking
+
+  '
+social_post: 'Seventeen banks prepare to run live transactions on Swift''s blockchain
+  ledger — plus Montenegro readies SEPA-standard instant payments and open banking
+  reaches energy billing. {link}
+
+  '
+stories:
+- headline: 'Seventeen banks to pilot live transactions on Swift''s shared ledger
+
+    '
+  standfirst: 'Swift is moving its blockchain-based interoperable ledger from sandbox
+    to live transactions, with seventeen banks across six countries testing tokenised
+    deposits for round-the-clock settlement.
+
+    '
+  body: 'The pilot marks a meaningful escalation from Swift''s earlier proof-of-concept
+    work on distributed ledger technology. By using tokenised deposits rather than
+    a new settlement asset, Swift is testing whether existing correspondent banking
+    relationships can support 24/7 payment availability and more efficient liquidity
+    management without requiring participants to adopt an entirely new infrastructure.
+
+
+    Seventeen banks from six countries will participate, though Swift has not disclosed
+    which institutions or jurisdictions are involved. The focus on interoperability
+    — connecting tokenised deposits across different ledger implementations — addresses
+    a practical weakness that has limited earlier DLT settlement experiments, where
+    isolated platforms struggled to achieve the network effects needed for real-world
+    adoption.
+
+
+    The move comes as central banks and market infrastructures are reaching divergent
+    conclusions about DLT''s readiness for wholesale settlement. The Bank of England
+    flagged "significant trade-offs" in its own assessment last May. Swift''s approach
+    sidesteps some of those concerns by layering tokenisation onto existing messaging
+    infrastructure rather than replacing settlement systems wholesale.
+
+    '
+  editorial_note: 'This is the most consequential infrastructure story in today''s
+    feed — Swift moving from proof of concept to live pilots with real banks is a
+    material step for cross-border payments modernisation.
+
+    '
+  sources: '[Banks to pilot live transactions on Swift''s blockchain-based shared
+    ledger](https://www.finextra.com/newsarticle/48060/banks-to-pilot-live-transactions-on-swifts-blockchain-based-shared-ledger)
+    — Finextra
+
+    '
+  verification:
+    verified: false
+    warnings:
+    - Draft states 'Seventeen banks from six countries' but official source states
+      'Seventeen banks from six continents' — incorrect geographic unit
+- headline: 'Montenegro adopts instant payments law to align with EU SEPA standards
+
+    '
+  standfirst: 'Montenegro has passed legislation enabling instant payments based on
+    SEPA standards, with a launch date of July 20, extending the EU''s instant payments
+    infrastructure into the Western Balkans.
+
+    '
+  body: 'The law clears the path for Montenegro to go live with instant payments on
+    July 20, using infrastructure provided by the Bank of Italy, which operates TIPS-based
+    services for central banks outside the eurozone. Montenegro joins a growing list
+    of non-EU countries connecting to European instant payment rails, following Iceland''s
+    recent TIPS connection.
+
+
+    For Montenegro, the move is both a practical modernisation step and a signal of
+    EU alignment ahead of its accession process. The country''s adoption of SEPA standards
+    rather than a purely domestic system means its banks will be interoperable with
+    eurozone counterparts from launch, reducing the friction that typically accompanies
+    cross-border retail payments in candidate countries.
+
+
+    The pattern of SEPA-standard adoption spreading beyond the eurozone''s formal
+    borders reinforces the EU instant payments regulation''s gravitational pull. Each
+    new connection extends the network''s reach and strengthens the case for SEPA
+    instant as the default European retail payment rail.
+
+    '
+  editorial_note: 'This advances the continuing story of SEPA instant payments expanding
+    beyond the eurozone, with a concrete new market and launch date.
+
+    '
+  sources: '[Adoption of law a condition for instant payments](https://en.vijesti.me/news-b/economy-d/816915/adoption-of-the-law-is-a-condition-for-instant-payments)
+    — Vijesti | [Montenegro to launch instant payments on July 20 using SEPA standards](https://www.finextra.com/newsarticle/48060/)
+    — previously covered item
+
+    '
+  verification:
+    verified: false
+    warnings:
+    - The scheduled July 20 launch date is 11 days in the future from today (July
+      9, 2026), exceeding the 5-day recency threshold for news events.
+    - Iceland's TIPS connection is not yet operational—the agreement signed June 24,
+      2026 provides for payment settlement starting in 2028, not immediately.
+- headline: 'Scottish Power uses open banking data for energy affordability checks
+
+    '
+  standfirst: 'Scottish Power has partnered with AperiData to offer customers digital
+    affordability assessments using open banking data, extending open finance use
+    cases beyond financial services into utilities.
+
+    '
+  body: 'The service lets Scottish Power customers share bank transaction data to
+    demonstrate affordability or access support, replacing manual income verification
+    with real-time open banking connections. AperiData, which PayPoint acquired in
+    June, provides the underlying data aggregation and affordability scoring.
+
+
+    Energy is a natural adjacent sector for open banking affordability tools. Utilities
+    face many of the same challenges as lenders — assessing ability to pay, identifying
+    customers in financial difficulty, managing arrears — but have historically lacked
+    access to the transaction-level data that financial services firms use. The FCA''s
+    open finance roadmap and the UK''s broader smart data programme have both pointed
+    toward exactly this kind of cross-sector data sharing.
+
+
+    The partnership illustrates how open banking infrastructure built for payments
+    and lending is finding commercial traction in regulated sectors where affordability
+    assessment is either required or commercially valuable. It also validates PayPoint''s
+    rationale for acquiring AperiData: building open banking into credit and affordability
+    data services beyond traditional financial services.
+
+    '
+  editorial_note: 'Open banking''s expansion into energy billing is a concrete example
+    of the open finance thesis playing out in practice, directly relevant to professionals
+    tracking where these data flows are heading next.
+
+    '
+  sources: '[Scottish Power teams up with AperiData to introduce digital affordability
+    service](https://www.openbankingexpo.com/news/scottish-power-teams-up-with-aperidata-to-introduce-digital-affordability-service/)
+    — Open Banking Expo
+
+    '
+  verification:
+    verified: true
+    warnings: []
+- headline: 'French Banking Federation frames payment sovereignty as strategic priority
+
+    '
+  standfirst: 'The French Banking Federation has published a position paper arguing
+    that European payment sovereignty requires coordinated support for Wero, instant
+    payments and domestic infrastructure to reduce dependence on non-European networks.
+
+    '
+  body: 'The paper sets out French banks'' view that payment sovereignty is not merely
+    a political aspiration but an operational necessity, requiring sustained investment
+    in European-controlled infrastructure. It highlights Wero and SEPA instant payments
+    as the two pillars of this strategy, noting that all six major French banking
+    groups back EPI.
+
+
+    The timing is pointed. Visa pledged €500 million in European investment in June
+    as the sovereignty debate intensified, and Mastercard has been actively positioning
+    itself within European initiatives such as the ECB''s cross-currency TIPS pilot.
+    The FBF paper reads as a response to those moves — an argument that European banks
+    and their governments should not outsource strategic payment capability to non-European
+    schemes, regardless of the investment those schemes offer.
+
+
+    The paper does not break new policy ground, but it crystallises the French banking
+    sector''s stance at a moment when EPI faces real tests of adoption. Rabobank''s
+    iDEAL-to-Wero migration in the Netherlands and Austrian banking groups joining
+    EPI in recent weeks suggest momentum, but Wero still needs to prove it can compete
+    on merchant acceptance and consumer experience, not just on sovereignty arguments.
+
+    '
+  editorial_note: 'This advances the European payment sovereignty narrative with a
+    concrete position from a major national banking federation, adding context to
+    EPI''s expansion push.
+
+    '
+  sources: '[Strengthening Europe''s sovereignty in payments](https://www.fbf.fr/en/strengthening-europes-sovereignty-in-payments/)
+    — French Banking Federation'
+  verification:
+    verified: true
+    warnings: []
