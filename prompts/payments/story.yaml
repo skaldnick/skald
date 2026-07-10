@@ -36,9 +36,12 @@ selection_criteria: |
     the same development.
   - What is the real source? Feed items often report on original content published
     elsewhere (a regulator's speech, an industry body's report, a company
-    announcement). Identify the primary source and cite that, not the aggregator.
-    Where multiple feed items cover the same underlying story, treat them as one
-    item and draw on all sources.
+    announcement). Identify the feed item that is the primary source and cite its
+    ID in `source_ids`, not an aggregator covering the same news. Where multiple
+    feed items cover the same underlying story, list all their IDs in `source_ids`
+    rather than picking just one. Each item in "Today's stories" below is numbered
+    with an `ID:` field — cite only IDs that appear there, and never cite an ID
+    from the "Previously covered" list (those aren't numbered and have no ID).
   - For personnel appointments: is the role new, or is this a replacement? If
     the source does not say, you cannot characterise it as an organisational
     investment or strategic elevation. Note the gap honestly rather than
@@ -49,7 +52,10 @@ output_format: |
   scalars (the | character) for every free-text field, exactly as shown — never
   double-quoted strings. Free text routinely contains quotation marks (e.g. quoting
   a source directly) which break double-quoted YAML scalars; block scalars need no
-  escaping. Do not wrap the output in code fences.
+  escaping. `source_ids` is the one exception: it is a YAML flow-style list of
+  integers (e.g. [3] or [3, 7]), never free text — never write a URL, title, or
+  publication name yourself; see the "What is the real source?" guidance above for
+  what to put there. Do not wrap the output in code fences.
 
   title: |
     Four to eight words summarising today's stories — e.g. GoCardless profits; pay-by-bank friction; PSD3 delay
@@ -67,11 +73,7 @@ output_format: |
       editorial_note: |
         One sentence explaining why this story was selected and merits a reader's attention.
         If it follows up on something in the "Previously covered" list, state the new angle here.
-      sources: |
-        [Article title](https://example.com) — Publication name | [Second title](https://example.com) — Publication name
-        Cite only today's actual reporting on the story — never cite an entry from the
-        "Previously covered" list as a source; that list is internal context for avoiding
-        duplicates, not something to attribute to the reader.
+      source_ids: [3]
     - headline: |
         ...
       standfirst: |
@@ -80,8 +82,7 @@ output_format: |
         ...
       editorial_note: |
         ...
-      sources: |
-        ...
+      source_ids: [...]
 
 input: |
   Today's stories:

@@ -70,8 +70,8 @@ def build_system_prompt(system: dict, style_rules: list[dict]) -> str:
 
 def build_user_prompt(story: dict, entries: list[dict], recently_covered: list[dict], recently_rejected: list[dict] | None = None) -> str:
     stories_text = "\n\n".join([
-        f"Source: {e['source']}\nTitle: {e['title']}\nURL: {e['url']}\nSummary: {e['summary']}\nPublished: {e['published']}"
-        for e in entries
+        f"ID: {i}\nSource: {e['source']}\nTitle: {e['title']}\nURL: {e['url']}\nSummary: {e['summary']}\nPublished: {e['published']}"
+        for i, e in enumerate(entries, start=1)
     ])
     date_str = datetime.now().strftime("%B %-d, %Y")
 
@@ -135,6 +135,28 @@ def _parse_yaml_response(text: str) -> dict:
     return data
 
 
+def _resolve_sources(data: dict, entries: list[dict]) -> dict:
+    """Replace each story's `source_ids` with a `sources` markdown string built
+    from the actual feed entry — the model cites IDs, never URLs, so the link
+    can't be mistyped or copied from the wrong story."""
+    by_id = {i: e for i, e in enumerate(entries, start=1)}
+    for story in data.get("stories", []):
+        ids = story.pop("source_ids", None) or []
+        if isinstance(ids, int):
+            ids = [ids]
+        links = []
+        for sid in ids:
+            entry = by_id.get(sid)
+            if entry is None:
+                print(f"Warning: story {story.get('headline', '')!r} cited unknown source_id {sid!r}")
+                continue
+            links.append(f"[{entry['title']}]({entry['url']}) — {entry['source']}")
+        if not links:
+            print(f"Warning: story {story.get('headline', '')!r} has no resolvable sources")
+        story["sources"] = " | ".join(links)
+    return data
+
+
 def generate_briefing(beat_name: str, entries: list[dict]) -> dict:
     """Call the Claude API and return the generated briefing as a structured dict."""
     system, story = load_prompts(beat_name)
@@ -151,7 +173,8 @@ def generate_briefing(beat_name: str, entries: list[dict]) -> dict:
         system=system_prompt,
         messages=[{"role": "user", "content": user_prompt}],
     )
-    return _parse_yaml_response(message.content[0].text)
+    data = _parse_yaml_response(message.content[0].text)
+    return _resolve_sources(data, entries)
 
 
 def save_draft(beat_name: str, data: dict) -> Path:
