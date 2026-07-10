@@ -23,11 +23,6 @@
 - date: '2026-07-08'
   rule: Write numbers one to nine as words (one, two, three...); use digits from 10
     upward (10, 11, 12...).
-- date: '2026-07-08'
-  rule: The standfirst and the body's opening line must not cover the same ground.
-    The standfirst carries the interpretive point (why it matters); the body's first
-    line opens with the concrete news fact (what happened), written as if the standfirst
-    hadn't been read. Do not let the body continue or restate the standfirst's sentence.
 - date: '2026-07-09'
   rule: 'The standfirst adds context to the headline — the interpretive point, a summary,
     or added explanation — but it is not the opening sentence of the story. The body
