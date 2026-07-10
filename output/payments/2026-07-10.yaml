@@ -1,0 +1,183 @@
+title: 'European Parliament backs digital euro; Citi expands instant payments; Swift
+  ledger pilots go live
+
+  '
+social_post: 'European Parliament clears the digital euro for final negotiations.
+  Plus: Citi opens its instant payments network to 300 partner banks, and Swift''s
+  shared ledger moves to live pilots. {link}
+
+  '
+stories:
+- headline: 'European Parliament votes to advance digital euro to final negotiations
+
+    '
+  standfirst: 'The full Parliament''s backing moves the digital euro into trilogue,
+    setting up the decisive phase of negotiations that will determine whether a CBDC
+    launches by 2029.
+
+    '
+  body: 'The European Parliament voted in favour of creating a digital euro, following
+    the ECON committee''s earlier endorsement of its negotiating mandate in June.
+    The vote authorises the Parliament''s team to enter trilogue discussions with
+    the Council of the EU and the European Commission.
+
+
+    The timeline now points toward a potential 2029 launch, though substantive disagreements
+    remain on issues such as holding limits, the role of intermediaries and the relationship
+    between the digital euro and private payment schemes. The trade body representing
+    open banking providers warned in June that the current legislative text could
+    exclude them from distribution, a concern that trilogue negotiations will need
+    to address.
+
+
+    For banks and payment service providers, the vote converts the digital euro from
+    a policy discussion into a concrete legislative track. Firms that have not yet
+    begun assessing their distribution, liquidity and technical readiness now face
+    a narrowing window before the regulatory framework is finalised.
+
+    '
+  editorial_note: 'The full Parliament vote is a genuinely new stage beyond the ECON
+    committee mandate covered on June 24, advancing the digital euro into its final
+    legislative phase.
+
+    '
+  sources: '[European Parliament backs digital euro, paving way for final negotiations](https://www.finextra.com/newsarticle/48068/european-parliament-backs-digital-euro-paving-way-for-final-negotiations)
+    — Finextra
+
+    '
+  verification:
+    verified: false
+    warnings:
+    - Event occurred 17 days ago (June 23, 2026 ECON committee vote; Parliament plenary
+      vote July 6-9), exceeding 5-day recency threshold
+- headline: 'Citi expands cross-border instant payments network to 300 partner banks
+
+    '
+  standfirst: 'Citigroup is opening its cross-border instant payments infrastructure
+    to correspondent banking partners, a move that extends real-time settlement reach
+    well beyond its own direct client base.
+
+    '
+  body: 'Citigroup announced it is expanding its international instant payments network
+    to partner banks, with around 300 institutions now integrated into the service.
+    The network serves multinational corporate clients through Citi''s Services division,
+    allowing them to initiate and receive cross-border payments that settle in real
+    time.
+
+
+    The expansion reflects a broader shift in which large correspondent banks are
+    positioning instant payment connectivity as a competitive differentiator in transaction
+    banking. Rather than building proprietary networks from scratch, partner banks
+    gain access to Citi''s existing real-time rails across multiple corridors.
+
+
+    For European banks and corporates, the move adds another cross-border instant
+    payments option alongside initiatives such as the ECB''s cross-currency TIPS pilot
+    and Swift''s own real-time ambitions. It also underscores the growing expectation
+    among corporate treasurers that cross-border payments should match the speed domestic
+    instant payments already offer.
+
+    '
+  editorial_note: 'A major correspondent bank scaling instant cross-border payments
+    to hundreds of partners is a meaningful infrastructure development, relevant to
+    European banks weighing their own cross-border instant payments strategy.
+
+    '
+  sources: '[Citigroup expands cross-border instant payments to partner banks](https://www.reuters.com/world/asia-pacific/citigroup-expands-cross-border-instant-payments-partner-banks-2026-07-09/)
+    — Reuters
+
+    '
+  verification:
+    verified: false
+    warnings:
+    - Draft refers to 'ECB's cross-currency TIPS pilot' but TIPS cross-currency service
+      launched October 2025 and is now live, not in pilot phase
+- headline: 'Seventeen banks prepare live transactions on Swift''s shared ledger
+
+    '
+  standfirst: 'Swift''s blockchain-based shared ledger moves from sandbox to live
+    pilot, with 17 banks across six countries testing tokenised deposits for round-the-clock
+    payment availability.
+
+    '
+  body: 'Seventeen banks from six countries will begin piloting live transactions
+    on Swift''s interoperable shared ledger, using tokenised deposits to enable 24/7
+    payment availability and improve liquidity efficiency. The pilot marks a transition
+    from the experimental phase Swift has been running since late 2025 into a production
+    environment with real value at stake.
+
+
+    The shared ledger is designed to sit alongside existing correspondent banking
+    infrastructure rather than replace it, allowing banks to move tokenised commercial
+    bank money across the Swift network without requiring counterparties to adopt
+    the same distributed ledger technology. That interoperability-first approach distinguishes
+    it from standalone tokenisation platforms that require bilateral integration.
+
+
+    The pilot''s progress will be closely watched as a signal of whether tokenised
+    deposits can deliver practical benefits in wholesale payments, or whether the
+    technology remains better suited to securities settlement. For European banks
+    already navigating the ECB''s digital euro preparations and the BIS''s Project
+    Aperta work, Swift''s shared ledger represents another infrastructure layer they
+    may need to engage with in the near term.
+
+    '
+  editorial_note: 'Previously flagged on July 9, but the Finextra article provides
+    detail on the live pilot scope — 17 banks, six countries, tokenised deposits —
+    that warrants full treatment as the story moves from announcement to execution.
+
+    '
+  sources: '[Banks to pilot live transactions on Swift''s blockchain-based shared
+    ledger](https://www.finextra.com/newsarticle/48060/banks-to-pilot-live-transactions-on-swifts-blockchain-based-shared-ledger)
+    — Finextra
+
+    '
+  verification:
+    verified: false
+    warnings:
+    - Story says 'Seventeen banks from six countries' but sources state 'Seventeen
+      banks from six continents'
+- headline: 'French Banking Federation frames payment sovereignty as strategic priority
+
+    '
+  standfirst: 'France''s banking lobby has publicly positioned European payment autonomy
+    as a strategic imperative, adding political weight to the sovereignty argument
+    driving EPI and the digital euro.
+
+    '
+  body: 'The French Banking Federation has set out its view that payment sovereignty
+    should be treated as a strategic priority for Europe, echoing and reinforcing
+    similar arguments made earlier this year by the Bank of Finland and the ECB''s
+    Piero Cipollone. The intervention adds the weight of France''s commercial banking
+    sector to a debate that has largely been framed by central banks and policymakers.
+
+
+    The Federation''s stance comes as several parallel initiatives compete to reduce
+    European dependence on non-European card schemes and payment infrastructure. EPI''s
+    Wero is expanding into its fifth market, the digital euro is advancing through
+    the Parliament, and Visa has responded with a €500 million European investment
+    pledge. France''s banks, several of which are EPI shareholders, have a direct
+    commercial interest in the outcome.
+
+
+    The framing is notable for its explicitness. Where banks have previously supported
+    sovereignty initiatives through participation, the Federation is now articulating
+    payment independence as a matter of strategic necessity, aligning the private
+    sector''s public messaging with the political narrative that European institutions
+    have been building throughout 2026.
+
+    '
+  editorial_note: 'A national banking federation making an explicit sovereignty argument
+    adds a new private-sector voice to a debate previously dominated by central banks
+    and EU institutions, and contextualises the momentum behind EPI and the digital
+    euro.
+
+    '
+  sources: '[French Banking Federation frames payment sovereignty as strategic priority](https://www.finextra.com/newsarticle/48068/european-parliament-backs-digital-euro-paving-way-for-final-negotiations)
+    — Finextra'
+  verification:
+    verified: false
+    warnings:
+    - Bank of Finland article on payment sovereignty cited as 'earlier this year'
+      was published June 13, 2025, not 2026 — appears to be from previous year, not
+      current year 2026
