@@ -23,3 +23,10 @@
   rule: Prefer the present continuous tense ('is partnering') over the simple present
     ('has partnered') when describing a newly announced or ongoing arrangement, to
     signal currency without implying the action is already complete.
+- date: '2026-07-10'
+  rule: Write 'parliament' in lowercase when used as a common noun or back-reference
+    (e.g. 'the parliament's team'); reserve 'Parliament' as a proper noun only when
+    it forms part of the full official name (e.g. 'European Parliament').
+- date: '2026-07-10'
+  rule: Do not use '[Company] announced it is [doing X]'; write '[Company] is [doing
+    X]' directly, without the 'announced' attribution wrapper.
