@@ -1,19 +1,51 @@
 # House style rules extracted from editorial feedback.
 # Populated by: python tools/extract_learning.py
 # Review proposed rules before adding. More recent rules take precedence on conflict.
-- date: "2026-04-13"
-  rule: "In standfirsts, lead with the substantive news or conclusion; move scene-setting subordinate clauses (e.g. 'as X happens') to later in the sentence."
-- date: "2026-04-13"
-  rule: "Use 'such as' not 'including' when introducing non-exhaustive examples."
-- date: "2026-04-13"
-  rule: "Prefer spelling out non-standard abbreviations/acronyms, such as 'account-to-account' instead of 'A2A'."
-- date: "2026-04-13"
-  rule: "Replace dashes used to introduce a consequence or parenthetical mid-sentence with commas."
-- date: "2026-04-14"
-  rule: "Use 'US' not 'United States' in body text."
-- date: "2026-06-04"
-  rule: "Never flag significance explicitly. Do not write sentences that announce importance before explaining it — no 'This matters because', 'The significance here is', 'What this means is', 'Why this is notable', or equivalent framing. Write the substantive point directly; if it belongs in the briefing, the reader will recognise its significance without being told."
-- date: "2026-07-08"
-  rule: "Write numbers one to nine as words (one, two, three...); use digits from 10 upward (10, 11, 12...)."
-- date: "2026-07-08"
-  rule: "The standfirst and the body's opening line must not cover the same ground. The standfirst carries the interpretive point (why it matters); the body's first line opens with the concrete news fact (what happened), written as if the standfirst hadn't been read. Do not let the body continue or restate the standfirst's sentence."
+- date: '2026-04-13'
+  rule: In standfirsts, lead with the substantive news or conclusion; move scene-setting
+    subordinate clauses (e.g. 'as X happens') to later in the sentence.
+- date: '2026-04-13'
+  rule: Use 'such as' not 'including' when introducing non-exhaustive examples.
+- date: '2026-04-13'
+  rule: Prefer spelling out non-standard abbreviations/acronyms, such as 'account-to-account'
+    instead of 'A2A'.
+- date: '2026-04-13'
+  rule: Replace dashes used to introduce a consequence or parenthetical mid-sentence
+    with commas.
+- date: '2026-04-14'
+  rule: Use 'US' not 'United States' in body text.
+- date: '2026-06-04'
+  rule: Never flag significance explicitly. Do not write sentences that announce importance
+    before explaining it — no 'This matters because', 'The significance here is',
+    'What this means is', 'Why this is notable', or equivalent framing. Write the
+    substantive point directly; if it belongs in the briefing, the reader will recognise
+    its significance without being told.
+- date: '2026-07-08'
+  rule: Write numbers one to nine as words (one, two, three...); use digits from 10
+    upward (10, 11, 12...).
+- date: '2026-07-08'
+  rule: The standfirst and the body's opening line must not cover the same ground.
+    The standfirst carries the interpretive point (why it matters); the body's first
+    line opens with the concrete news fact (what happened), written as if the standfirst
+    hadn't been read. Do not let the body continue or restate the standfirst's sentence.
+- date: '2026-07-09'
+  rule: 'The standfirst adds context to the headline — the interpretive point, a summary,
+    or added explanation — but it is not the opening sentence of the story. The body
+    must be self-contained: it explains the story from the beginning (who, what, where,
+    when, why, how), not a continuation of the standfirst''s sentence. Avoid near-verbatim
+    repetition of the same phrasing across headline, standfirst, and body (e.g. headline
+    ''Company does X'', standfirst ''Company something'', body ''Company does X'')
+    — but the body restating or developing the standfirst''s point in more depth and
+    different wording is expected, not a violation.'
+- date: '2026-07-09'
+  rule: Apply the standard words-for-one-to-nine / digits-from-10 rule but avoid starting
+    a headline, standfirst or sentence with digits.
+- date: '2026-07-09'
+  rule: On first use of an abbreviation that must be retained, spell it out in full
+    followed by the abbreviation in parentheses — e.g. 'distributed ledger technology
+    (DLT)' — then use the abbreviation alone for subsequent references. This rule
+    can be ignored for some very common abbreviations (eg, US, UK, UN).
+- date: '2026-07-09'
+  rule: Prefer the present continuous tense ('is partnering') over the simple present
+    ('has partnered') when describing a newly announced or ongoing arrangement, to
+    signal currency without implying the action is already complete.
