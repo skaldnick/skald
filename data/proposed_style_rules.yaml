@@ -2,31 +2,4 @@
 # Populated automatically by tools/extract_learning.py (via GitHub Actions on push
 # to data/feedback/). Review and promote/edit in the dashboard's 'Proposed style
 # rules' section — accepted rules move to prompts/payments/style_rules.yaml.
-- date: '2026-07-09'
-  rule: The standfirst must carry the interpretive or analytical point (why it matters,
-    what it means); move the concrete factual summary (what happened, who is involved,
-    what was announced) to the body's opening line. Do not use the standfirst to restate
-    the headline news.
-- date: '2026-07-09'
-  rule: Write numbers as digits from 17 upward when they appear in headlines; apply
-    the standard words-for-one-to-nine / digits-from-10 rule in body text (e.g. 'seventeen'
-    in a headline becomes 'Banks' generically, and '17' in body text).
-- date: '2026-07-09'
-  rule: On first use of a well-known abbreviation that must be retained, spell it
-    out in full followed by the abbreviation in parentheses — e.g. 'distributed ledger
-    technology (DLT)' — then use the abbreviation alone for subsequent references.
-- date: '2026-07-09'
-  rule: When information is already implied by the headline or a preceding sentence,
-    do not repeat it in the body. Remove redundant restatements of facts the reader
-    has already been given (e.g. restating a participant count that mirrors the headline).
-- date: '2026-07-09'
-  rule: Prefer the present continuous tense ('is partnering') over the simple present
-    ('has partnered') when describing a newly announced or ongoing arrangement, to
-    signal currency without implying the action is already complete.
-- date: '2026-07-10'
-  rule: Write 'parliament' in lowercase when used as a common noun or back-reference
-    (e.g. 'the parliament's team'); reserve 'Parliament' as a proper noun only when
-    it forms part of the full official name (e.g. 'European Parliament').
-- date: '2026-07-10'
-  rule: Do not use '[Company] announced it is [doing X]'; write '[Company] is [doing
-    X]' directly, without the 'announced' attribution wrapper.
+[]
