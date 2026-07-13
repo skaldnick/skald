@@ -1,0 +1,226 @@
+title: 'Australia expands open banking; Mastercard eyes Vocalink sale; Economist weighs
+  US financial supremacy
+
+  '
+social_post: 'Australia pulls non-bank lenders into open banking from November. Meanwhile,
+  Mastercard may sell its Vocalink stake just as the UK builds a domestic scheme to
+  replace it. Plus: The Economist on cracks in US financial supremacy. {link}
+
+  '
+stories:
+- headline: 'Australia brings non-bank lenders into open banking from November
+
+    '
+  standfirst: 'Australia''s Consumer Data Right now covers non-bank lenders, extending
+    mandatory data sharing to a sector that holds a significant share of the country''s
+    mortgage and consumer credit markets.
+
+    '
+  body: 'From July 13, eligible non-bank lenders in Australia must begin sharing product
+    information under the Consumer Data Right (CDR) framework. Full consumer data
+    sharing obligations follow from November. The expansion brings into scope a sector
+    that has grown substantially since the CDR launched with the four major banks
+    in 2020 and was extended to energy providers in 2022.
+
+
+    The move is significant beyond Australia. European and UK policymakers wrestling
+    with the scope of open finance frameworks face a similar question: whether to
+    extend data-sharing obligations beyond deposit-taking institutions to non-bank
+    credit providers. Australia''s phased approach, beginning with product data before
+    requiring consumer-level data sharing, offers one model for managing the compliance
+    burden on smaller lenders.
+
+
+    For European observers, the Australian experience will be instructive on two fronts:
+    whether non-bank participation meaningfully improves switching and price competition
+    in lending markets, and how smaller institutions manage the technical burden of
+    compliance.
+
+    '
+  editorial_note: 'Australia extending open banking to non-bank lenders is a live
+    policy question in Europe and the UK under PSD3/open finance proposals. The phased
+    rollout offers a useful comparison point for this audience.
+
+    '
+  sources: '[Non-bank lenders brought into <b>open banking</b> regime from November
+    | Australian Broker](https://www.google.com/url?rct=j&sa=t&url=https://www.brokernews.com.au/news/breaking-news/nonbank-lenders-brought-into-open-banking-regime-from-november-289643.aspx&ct=ga&cd=CAIyGjVmNjkxZDEzNTU2NWU1MTc6Y29tOmVuOlVT&usg=AOvVaw1-KmXO63ULmfRQT2Tu890d)
+    — Google Alert — open banking | [Non-banks begin product data sharing in CDR regime
+    - Broker Daily](https://www.google.com/url?rct=j&sa=t&url=https://www.brokerdaily.au/regulation/21770-non-banks-begin-product-data-sharing-in-cdr-regime&ct=ga&cd=CAIyGjVmNjkxZDEzNTU2NWU1MTc6Y29tOmVuOlVT&usg=AOvVaw2PGoDN-Gx3ZXukLumUvuME)
+    — Google Alert — open banking | [<b>Open banking</b> expands as non-bank lenders
+    join Consumer Data Right - Cyber Daily](https://www.google.com/url?rct=j&sa=t&url=https://www.cyberdaily.au/tech/13890-open-banking-expands-as-non-bank-lenders-join-consumer-data-right&ct=ga&cd=CAIyGjVmNjkxZDEzNTU2NWU1MTc6Y29tOmVuOlVT&usg=AOvVaw1wKZ4fEFVlMeOZbfWtnuVi)
+    — Google Alert — open banking | [Non-Bank Lenders Enter Consumer Data Right Stage
+    | Mirage News](https://www.google.com/url?rct=j&sa=t&url=https://www.miragenews.com/non-bank-lenders-enter-consumer-data-right-stage-1708702/&ct=ga&cd=CAIyGjVmNjkxZDEzNTU2NWU1MTc6Y29tOmVuOlVT&usg=AOvVaw1YtMcsSmR0pPI9DxllPZm8)
+    — Google Alert — open banking'
+  verification:
+    verified: true
+    warnings: []
+- headline: 'Mastercard considers selling its stake in UK payments firm Vocalink
+
+    '
+  standfirst: 'A potential Vocalink sale would come as UK banks launch a domestic
+    account-to-account scheme designed to reduce dependence on the card networks that
+    currently underpin much of the country''s payment infrastructure.
+
+    '
+  body: 'Mastercard is examining a sale of Vocalink, the UK infrastructure operator
+    that processes Faster Payments, Bacs and LINK ATM transactions, according to a
+    report from Global Banking and Finance. Mastercard acquired Vocalink in 2017 for
+    approximately £700 million, a deal that gave it control of the pipes through which
+    the bulk of UK interbank payments flow.
+
+
+    The timing is notable. The UK Payments Initiative (UKPI) launched in June as a
+    bank-backed domestic scheme explicitly designed to offer an alternative to Visa
+    and Mastercard for retail payments. GoCardless became its first provider, and
+    Moneyhub its first non-shareholder participant. If Mastercard is reassessing its
+    ownership of Vocalink, it may reflect a judgement that the UK infrastructure''s
+    strategic value has shifted as the market moves towards new account-to-account
+    rails.
+
+
+    A change of ownership would raise questions about governance and access terms
+    for the UK''s core payment infrastructure. Pay.UK, the operator that sits atop
+    Vocalink''s technology, is itself the subject of a government consultation on
+    next-generation retail payments infrastructure. Any transaction would likely attract
+    close scrutiny from the Payment Systems Regulator.
+
+    '
+  editorial_note: 'A potential Vocalink divestiture intersects directly with the UKPI
+    launch and the UK''s broader infrastructure review. It signals how card networks
+    are reassessing their positions as domestic account-to-account schemes gain momentum.
+
+    '
+  sources: '[Mastercard Considers Sale of UK Payments Firm Vocalink Stake](https://www.google.com/url?rct=j&sa=t&url=https://www.globalbankingandfinance.com/mastercard-examines-sale-uk-payments-subsidiary-vocalink-ft/&ct=ga&cd=CAIyGmQ2MjhlZWE1MGQ0Zjk5YTU6Y29tOmVuOlVT&usg=AOvVaw2F31cPMfJicKlAyZmRc3bl)
+    — Google Alert — payment systems regulator'
+  verification:
+    verified: false
+    warnings:
+    - Draft states Mastercard 'acquired Vocalink in 2017' — the deal was announced
+      and agreed in July 2016, completed in May 2017. The £700 million price is correct.
+- headline: 'Economist frames instant payments as front in US financial supremacy
+    debate
+
+    '
+  standfirst: 'A new analysis argues that domestic instant payment systems such as
+    Brazil''s Pix are emerging as geopolitical flashpoints, with US trade officials
+    framing them as barriers to American financial services.
+
+    '
+  body: 'The Economist has published an analysis examining threats to US financial
+    supremacy, with domestic instant payment systems featuring prominently. The piece
+    notes that US trade representative Jamieson Greer has complained that Pix, Brazil''s
+    instant payments system, unfairly disadvantages American payment companies, a
+    framing that positions domestic payment infrastructure as a trade issue.
+
+
+    The argument has direct implications for Europe. The ECB''s digital euro project,
+    the EPI/Wero rollout, and the broader push for European payment autonomy, articulated
+    recently by the Bank of Finland and the French Banking Federation, all rest on
+    a similar logic: that domestic payment rails reduce dependence on foreign-owned
+    networks. If the US begins treating such systems as trade barriers, European policymakers
+    building sovereign payment infrastructure may face diplomatic pressure alongside
+    the technical and commercial challenges they already confront.
+
+
+    The piece reflects a shift in how instant payments are discussed at policy level,
+    from financial inclusion and efficiency tools to instruments of economic sovereignty
+    and, potentially, trade friction.
+
+    '
+  editorial_note: 'This reframes the European payment sovereignty debate in geopolitical
+    terms. US trade officials treating domestic instant payment systems as trade barriers
+    is a new dimension that European payments professionals should be tracking.
+
+    '
+  sources: '[Storm clouds gather over America''s financial supremacy - The Economist](https://www.google.com/url?rct=j&sa=t&url=https://www.economist.com/finance-and-economics/2026/07/12/storm-clouds-gather-over-americas-financial-supremacy&ct=ga&cd=CAIyGjQ2YzdlNzNlYWNlZDg4ZTE6Y29tOmVuOlVT&usg=AOvVaw2VGoed5YIp3F9pfrTGHsXD)
+    — Google Alert — instant payments Europe'
+  verification:
+    verified: true
+    warnings: []
+- headline: 'Lissi raises €3.5 million to build EUDI wallet infrastructure for financial
+    services
+
+    '
+  standfirst: 'The German digital identity firm is positioning its technology to support
+    the European Digital Identity (EUDI) wallet framework, with applications spanning
+    KYC, open finance and regulated data sharing.
+
+    '
+  body: 'Lissi, a Berlin-based digital identity company, has raised €3.5 million to
+    expand its infrastructure for the EU Digital Identity (EUDI) wallet. The company
+    sees financial services as a primary use case, with its technology designed to
+    support identity verification, KYC processes and the data-sharing models emerging
+    under open finance regulation.
+
+
+    The EUDI wallet framework, mandated under the revised eIDAS regulation, is intended
+    to give EU citizens a standardised way to prove their identity and share verified
+    credentials across borders. For financial services, it offers a potential replacement
+    for fragmented national KYC processes and a foundation for consent-based data
+    sharing that complements PSD3 and the Financial Data Access (FiDA) regulation.
+
+
+    Lissi''s fundraise is modest, but the company sits at an intersection that matters:
+    identity infrastructure is a prerequisite for scalable open finance, and the firms
+    building wallet-compatible verification tools now will shape how banks and fintechs
+    onboard customers under the new framework.
+
+    '
+  editorial_note: 'EUDI wallet infrastructure is an underappreciated dependency for
+    open finance in Europe. This fundraise highlights the emerging layer of identity
+    technology that will underpin PSD3 and FiDA compliance.
+
+    '
+  sources: '[Lissi Raises €3.5 Million To Expand EUDI Wallet Infrastructure For Europe''s
+    Financial Sector](https://www.google.com/url?rct=j&sa=t&url=https://pulse2.com/lissi-raises-e3-5-million-to-expand-eudi-wallet-infrastructure-for-europes-financial-sector/&ct=ga&cd=CAIyGjgzMWYyODgyNDEyNDM0NTc6Y29tOmVuOlVT&usg=AOvVaw1sFRvmlpmOo7LnKzRbSTJJ)
+    — Google Alert — open finance'
+  verification:
+    verified: false
+    warnings:
+    - Draft describes Lissi as 'Berlin-based' but primary sources (Ventech, Finsmes,
+      Startbase) consistently state 'Frankfurt' or 'Frankfurt am Main'-based
+- headline: 'Greek instant payments surged to 126 million transactions in 2025
+
+    '
+  standfirst: 'IRIS, Greece''s domestic instant payment system, processed €11 billion
+    across 126 million transactions last year, underscoring the rapid adoption trajectory
+    ahead of Greece''s recent connection to the European instant payments network.
+
+    '
+  body: 'Greece''s IRIS instant payment system handled 126 million transactions worth
+    €11 billion in 2025, according to data reported by Indicator.gr. The figures demonstrate
+    strong domestic uptake, particularly among small businesses where instant payments
+    are becoming embedded in everyday transactions.
+
+
+    The data provides useful context for Greece''s connection to the European instant
+    payments network via EuroPA, which went live earlier this month. That cross-border
+    link means Greek consumers and businesses can now send and receive instant payments
+    across the eurozone, extending the reach of a system that has already achieved
+    meaningful domestic scale.
+
+
+    Greece''s trajectory, from a late adopter of digital payments to a market processing
+    over 100 million instant transactions annually, illustrates how quickly adoption
+    can accelerate once infrastructure and regulatory conditions align. It also adds
+    momentum to the European Commission''s enforcement push on the instant payments
+    regulation, with the first cases opened in June against member states lagging
+    behind.
+
+    '
+  editorial_note: 'The IRIS transaction data provides a concrete measure of instant
+    payment adoption in a market that recently connected to the pan-European network.
+    It adds substance to the broader narrative around the instant payments regulation''s
+    impact.
+
+    '
+  sources: '[Surge in IRIS Payments in 2025: 126 Million Transactions Worth €11 Billion
+    - Indicator.gr](https://www.google.com/url?rct=j&sa=t&url=https://indicator.gr/surge-in-iris-payments-in-2025-126-million-transactions-worth-e11-billion&ct=ga&cd=CAIyGjQ2YzdlNzNlYWNlZDg4ZTE6Y29tOmVuOlVT&usg=AOvVaw02psAnDy47oODi0TuAr0g5)
+    — Google Alert — instant payments Europe'
+  verification:
+    verified: false
+    warnings:
+    - Draft states 126 million transactions worth €11 billion, but sources show 126.4
+      million worth €10.9 billion (euro value mismatch)
+    - EuroPA went live June 30, 2026 (13 days old as of July 13), not 'earlier this
+      month' as stated
