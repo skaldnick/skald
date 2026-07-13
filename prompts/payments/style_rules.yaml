@@ -44,3 +44,13 @@
   rule: Prefer the present continuous tense ('is partnering') over the simple present
     ('has partnered') when describing a newly announced or ongoing arrangement, to
     signal currency without implying the action is already complete.
+- date: '2026-07-13'
+  rule: Do not use phrases such as 'The timing is notable', 'This is notable', or
+    any equivalent sentence that announces notability or significance before making
+    a point. Write the substantive point directly.
+- date: '2026-07-13'
+  rule: Use 'judgment' not 'judgement'.
+- date: '2026-07-13'
+  rule: Only include an abbreviation or initialism in parentheses after a term if
+    that abbreviation is used again later in the same piece. If the short form never
+    recurs, spell out the term in full without adding the abbreviation in brackets.
