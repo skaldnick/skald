@@ -322,24 +322,43 @@ def on_post_to_x(social_post: str):
     return f"Posted to X: {result}" if ok else f"X post failed: {result}"
 
 
-def _flag_unlisted_terms(social_text: str, headlines_text: str) -> list[str]:
+# Country name <-> demonym/adjective pairs, so e.g. a headline saying "Greek fintech"
+# doesn't cause a social post saying "Greece" to be flagged as an invented term.
+COUNTRY_DEMONYMS = {
+    "Austria": "Austrian", "Belgium": "Belgian", "Bulgaria": "Bulgarian",
+    "Croatia": "Croatian", "Cyprus": "Cypriot", "Czechia": "Czech",
+    "Denmark": "Danish", "Estonia": "Estonian", "Finland": "Finnish",
+    "France": "French", "Germany": "German", "Greece": "Greek",
+    "Hungary": "Hungarian", "Iceland": "Icelandic", "Ireland": "Irish",
+    "Italy": "Italian", "Latvia": "Latvian", "Lithuania": "Lithuanian",
+    "Luxembourg": "Luxembourgish", "Malta": "Maltese", "Netherlands": "Dutch",
+    "Norway": "Norwegian", "Poland": "Polish", "Portugal": "Portuguese",
+    "Romania": "Romanian", "Slovakia": "Slovak", "Slovenia": "Slovenian",
+    "Spain": "Spanish", "Sweden": "Swedish", "Switzerland": "Swiss",
+    "Turkey": "Turkish", "Britain": "British", "England": "English",
+}
+COUNTRY_DEMONYMS.update({v: k for k, v in COUNTRY_DEMONYMS.items()})
+
+
+def _flag_unlisted_terms(social_text: str, source_text: str) -> list[str]:
     """Heuristic guard: capitalized words in the social post that don't appear anywhere
-    in the approved headlines are surfaced as a warning. The model has been observed
-    inventing plausible-sounding but fabricated stories to pad out a thin day, despite
-    being told not to — this doesn't stop that, it just flags it for the editor before
-    they post."""
+    in the approved headlines/standfirsts are surfaced as a warning. The model has been
+    observed inventing plausible-sounding but fabricated stories to pad out a thin day,
+    despite being told not to — this doesn't stop that, it just flags it for the editor
+    before they post."""
     stoplist = {"Plus", "Today", "Read", "The", "European", "Payments", "Open", "Banking"}
-    allowed = set(re.findall(r"[A-Z][a-zA-Z]{2,}", headlines_text))
+    allowed = set(re.findall(r"[A-Z][a-zA-Z]{2,}", source_text))
     found = sorted(
         w for w in set(re.findall(r"[A-Z][a-zA-Z]{2,}", social_text))
-        if w not in allowed and w not in stoplist
+        if w not in allowed and w not in stoplist and COUNTRY_DEMONYMS.get(w) not in allowed
     )
     return found
 
 
 def on_regenerate(*args):
     headlines = list(args[:MAX_STORIES])
-    decisions = list(args[MAX_STORIES:])
+    standfirsts = list(args[MAX_STORIES:MAX_STORIES * 2])
+    decisions = list(args[MAX_STORIES * 2:])
     approved = [h for h, d in zip(headlines, decisions) if h.strip() and d == "Approve"]
     if not approved:
         return gr.update(), gr.update(), "*No approved stories — approve at least one story first.*"
@@ -348,6 +367,12 @@ def on_regenerate(*args):
         return gr.update(), gr.update(), "*ANTHROPIC_API_KEY not set — enter title and social post manually.*"
     client = anthropic.Anthropic(api_key=api_key)
     headlines_text = "\n".join(f"- {h}" for h in approved)
+    # Headline + standfirst, used only to widen the hallucination-check's allowed-terms
+    # pool (not fed to the model) — standfirsts carry entity/company/country names that
+    # get trimmed out of the deliberately short headline, causing false-positive flags.
+    approved_context = "\n".join(
+        f"- {h}\n  {s}" for h, s, d in zip(headlines, standfirsts, decisions) if h.strip() and d == "Approve"
+    )
     briefing_url = f"{BRIEFING_BASE_URL}/{datetime.now().strftime('%Y-%m-%d')}/"
     link_suffix = f". Today's briefing → {briefing_url}"
     text_budget = X_CHAR_LIMIT - len(link_suffix)
@@ -395,7 +420,7 @@ def on_regenerate(*args):
     )
     social_text = social_resp.content[0].text.strip().rstrip(".")
     social = social_text + link_suffix
-    unlisted = _flag_unlisted_terms(social_text, headlines_text)
+    unlisted = _flag_unlisted_terms(social_text, approved_context)
     status = ""
     if unlisted:
         status = (
@@ -501,7 +526,7 @@ with gr.Blocks(title="Skald — Editorial Dashboard") as app:
         )
         regen_btn.click(
             on_regenerate,
-            inputs=headlines + decisions,
+            inputs=headlines + standfirsts + decisions,
             outputs=[briefing_title_input, social_post_input, status_md],
         )
 
