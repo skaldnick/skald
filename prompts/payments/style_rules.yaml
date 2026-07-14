@@ -54,3 +54,7 @@
   rule: Only include an abbreviation or initialism in parentheses after a term if
     that abbreviation is used again later in the same piece. If the short form never
     recurs, spell out the term in full without adding the abbreviation in brackets.
+- date: '2026-07-14'
+  rule: Use people's names alongside their titles on first reference — e.g. 'Rachel
+    Reeves, the UK chancellor' rather than just 'the UK chancellor'. Name individuals
+    wherever possible to personalise the writing.
