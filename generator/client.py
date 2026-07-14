@@ -188,7 +188,7 @@ def save_draft(beat_name: str, data: dict) -> Path:
 
 
 if __name__ == "__main__":
-    from ingester.fetcher import fetch_beat, filter_recent, filter_keywords
+    from ingester.fetcher import fetch_beat, filter_recent, filter_keywords, resolve_display_sources
 
     print("Fetching feeds...")
     entries = fetch_beat("payments")
@@ -197,13 +197,14 @@ if __name__ == "__main__":
     print(f"{len(entries)} entries after recency filter")
     entries = filter_keywords(entries, "payments")
     print(f"{len(entries)} entries after keyword filter")
+    entries = resolve_display_sources(entries)
 
     print("Generating briefing...")
     briefing = generate_briefing("payments", entries)
 
     print("Verifying stories...")
     from generator.verify import verify_briefing
-    briefing = verify_briefing(briefing)
+    briefing = verify_briefing(briefing, recently_covered=load_recently_covered())
 
     path = save_draft("payments", briefing)
     print(f"Draft saved to {path}")

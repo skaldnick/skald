@@ -13,11 +13,19 @@ MAX_TOKENS = 1024
 STALE_DAYS = 5
 
 
-def _system_prompt(today: str) -> str:
+def _system_prompt(today: str, has_covered_list: bool) -> str:
+    duplicate_check = """
+4. Duplicate coverage — compare this story against the "Previously covered" list below.
+   Flag it if it reports the same underlying event as an earlier entry: a different outlet,
+   a reworded headline, or a follow-up with no materially new fact all count as the same
+   story. A follow-up is only distinct if it reports a genuinely new fact — a changed figure,
+   a new party involved, or a subsequent stage of the same process (e.g. law passed ->
+   regulator approval -> go-live) that the earlier entry did not report. This is a check
+   against the provided list, not a web search.""" if has_covered_list else ""
     return f"""You are a fact-checker for a European payments news briefing. Today's real-world
 date is {today} — treat this as ground truth for any date arithmetic, even if it conflicts
 with your own sense of the current date. You will be given a drafted story (headline, body,
-cited sources). Use web search to check exactly three things:
+cited sources). Use web search to check the following:
 
 1. Currency and figures — every number and currency symbol in the body must match what
    the primary source actually states. Flag any conversion or figure you cannot verify.
@@ -26,7 +34,7 @@ cited sources). Use web search to check exactly three things:
    {today}, given above — not to whatever date you might otherwise assume. Flag if the
    real event is more than {STALE_DAYS} days old.
 3. Unsupported claims — anything stated as fact that your search does not corroborate.
-
+{duplicate_check}
 Do your research silently, then respond with ONLY a single JSON object as your final
 message — no explanation, no preamble, no commentary, no code fences, before or after it:
 
@@ -61,9 +69,21 @@ def _parse_response(text: str) -> dict:
     }
 
 
-def verify_story(story: dict, client: anthropic.Anthropic | None = None, today: str | None = None) -> dict:
-    """Fact-check a single story against the live web. Returns {verified, warnings}.
-    Never raises — failures are reported as a warning so generation isn't blocked."""
+def _covered_text(recently_covered: list[dict]) -> str:
+    lines = [f"- {e['date']}: {h}" for e in recently_covered for h in e.get("stories", [])]
+    return "\n".join(lines)
+
+
+def verify_story(
+    story: dict,
+    client: anthropic.Anthropic | None = None,
+    today: str | None = None,
+    recently_covered: list[dict] | None = None,
+) -> dict:
+    """Fact-check a single story against the live web, and — if recently_covered is
+    given — flag it as a likely duplicate of an already-published story. Returns
+    {verified, warnings}. Never raises — failures are reported as a warning so
+    generation isn't blocked."""
     client = client or anthropic.Anthropic(api_key=os.environ["ANTHROPIC_API_KEY"])
     today = today or datetime.now().strftime("%B %-d, %Y")
     user_prompt = (
@@ -71,11 +91,13 @@ def verify_story(story: dict, client: anthropic.Anthropic | None = None, today: 
         f"Body:\n{story.get('body', '')}\n\n"
         f"Cited sources: {story.get('sources', '')}"
     )
+    if recently_covered:
+        user_prompt += f"\n\nPreviously covered:\n{_covered_text(recently_covered)}"
     try:
         message = client.messages.create(
             model=MODEL,
             max_tokens=MAX_TOKENS,
-            system=_system_prompt(today),
+            system=_system_prompt(today, has_covered_list=bool(recently_covered)),
             tools=[{"type": "web_search_20250305", "name": "web_search"}],
             messages=[{"role": "user", "content": user_prompt}],
         )
@@ -85,11 +107,11 @@ def verify_story(story: dict, client: anthropic.Anthropic | None = None, today: 
         return {"verified": False, "warnings": [f"verification check failed to run: {e}"]}
 
 
-def verify_briefing(briefing: dict) -> dict:
+def verify_briefing(briefing: dict, recently_covered: list[dict] | None = None) -> dict:
     """Run the verification pass over every story in a generated briefing,
     attaching a 'verification' field to each. Mutates and returns the briefing."""
     client = anthropic.Anthropic(api_key=os.environ["ANTHROPIC_API_KEY"])
     today = datetime.now().strftime("%B %-d, %Y")
     for story in briefing.get("stories", []):
-        story["verification"] = verify_story(story, client=client, today=today)
+        story["verification"] = verify_story(story, client=client, today=today, recently_covered=recently_covered)
     return briefing
