@@ -2,17 +2,4 @@
 # Populated automatically by tools/extract_learning.py (via GitHub Actions on push
 # to data/feedback/). Review and promote/edit in the dashboard's 'Proposed style
 # rules' section — accepted rules move to prompts/payments/style_rules.yaml.
-- date: '2026-07-14'
-  rule: Use people's names alongside their titles on first reference — e.g. 'Rachel
-    Reeves, the UK chancellor' rather than just 'the UK chancellor'. Name individuals
-    wherever possible to personalise the writing.
-- date: '2026-07-14'
-  rule: When reporting on a speech or event not yet delivered at the time of publication,
-    use the future tense ('will announce') rather than the past or present perfect
-    ('has announced'), and cite the source event and date — e.g. 'in a Mansion House
-    speech on July 14'.
-- date: '2026-07-14'
-  rule: Do not describe people by their technical specialism alone if a more precise
-    or accurate role title is available. For example, prefer 'payment leaders' over
-    'engineers' when the individuals held leadership rather than purely engineering
-    roles.
+[]
