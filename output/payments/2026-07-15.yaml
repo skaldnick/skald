@@ -1,0 +1,195 @@
+title: 'ECB picks digital euro pilots; UK payments regulation consultation; fintechs
+  challenge CFPB fees
+
+  '
+social_post: 'The ECB just named 36 firms for the digital euro pilot — Stripe, Revolut
+  and Nexi among them. Plus: UK consults on payments regulation overhaul, and US fintechs
+  say the CFPB''s open banking fees violate a Trump executive order. {link}
+
+  '
+stories:
+- headline: 'ECB selects 36 payment providers for digital euro pilot phase
+
+    '
+  standfirst: 'The selection of participants, from major processors to fintechs, sets
+    the shape of the digital euro''s commercial ecosystem ahead of a pilot starting
+    in late 2027.
+
+    '
+  body: 'The European Central Bank has chosen 36 payment service providers to take
+    part in the digital euro pilot, scheduled to begin in the second half of 2027
+    and run for 12 months. The cohort spans incumbent processors such as Nexi alongside
+    fintechs such as Stripe, SumUp and Revolut, signalling the ECB''s intent to test
+    the digital euro across a broad cross-section of the payments market rather than
+    confining it to traditional banking channels.
+
+
+    The selection follows the European Parliament''s vote in July to advance the digital
+    euro regulation to final trilogue negotiations. With legislative and technical
+    workstreams now running in parallel, the pilot will serve as the practical proving
+    ground for distribution models, merchant acceptance and consumer experience. The
+    inclusion of non-bank providers is consistent with the ECB''s stated position
+    that the digital euro should complement private payment solutions, though the
+    trade body representing open banking providers has warned separately that the
+    current legislative text could restrict their participation in the live scheme.
+
+
+    For payments strategists, the participant list is the clearest signal yet of which
+    firms the ECB considers credible distribution partners and where commercial opportunities
+    may sit when the digital euro moves toward production.
+
+    '
+  editorial_note: 'This is a concrete, material step in the digital euro programme
+    — the first public identification of commercial participants. It advances the
+    story beyond the Parliament vote covered on July 10.
+
+    '
+  sources: '[ECB selects 36 payment service providers to join digital euro pilot](https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr260714~8cd07d9d45.en.html)
+    — ECB | [ECB selects 36 PSPs for digital euro pilot phase](https://www.finextra.com/newsarticle/48084/ecb-selects-36-psps-for-digital-euro-pilot-phase?utm_medium=rssfinextra&utm_source=finextrafeed)
+    — Finextra | [Nexi to participate in the digital euro pilot phase](https://www.finextra.com/pressarticle/110408/nexi-to-participate-in-the-digital-euro-pilot-phase?utm_medium=rssfinextra&utm_source=finextrafeed)
+    — Finextra | [Stripe, SumUp and Revolut among firms chosen to test ''digital euro''](https://www.independent.ie/business/stripe-sumup-and-revolut-among-firms-chosen-to-test-digital-euro/a/158690988.html)
+    — Irish Independent'
+  verification:
+    verified: true
+    warnings: []
+- headline: 'UK government opens consultation on modernising payments regulation
+
+    '
+  standfirst: 'The consultation covers tokenised payments, open banking governance
+    and the broader regulatory framework, marking the start of a formal overhaul of
+    UK payment services rules.
+
+    '
+  body: 'The UK government has launched a public consultation on modernising its payment
+    services regulatory framework, addressing how rules should adapt to account for
+    tokenised payments, open banking and evolving market structures. The consultation
+    follows Rachel Reeves''s announcement last week of an open finance push focused
+    on SME lending and sits alongside the separate infrastructure consultation launched
+    in late June.
+
+
+    Where the June consultation focused on next-generation retail payment infrastructure,
+    this exercise targets the regulatory architecture itself — the rules governing
+    authorisation, conduct and supervision of payment firms. The scope explicitly
+    includes how open banking governance should evolve and how the framework should
+    accommodate token-based payment instruments, areas where the UK''s post-Brexit
+    regulatory flexibility gives it room to diverge from the EU''s PSD3 approach.
+
+
+    The timing places two major consultations — on infrastructure and regulation —
+    in the market simultaneously, requiring industry participants to engage on both
+    the plumbing and the rules in parallel. Responses will shape the UK''s competitive
+    positioning relative to the EU''s own payments modernisation programme.
+
+    '
+  editorial_note: 'This is a distinct consultation from the infrastructure one covered
+    on June 26. It targets the regulatory framework itself — authorisation, conduct
+    rules, tokenised payments — and is a genuinely new development.
+
+    '
+  sources: '[UK Government Open Consultation: Modernising Payment Services Regulation](https://mondovisione.com/media-and-resources/news/uk-government-open-consultation-modernising-payment-services-regulation-2026714/)
+    — Mondovisione'
+  verification:
+    verified: false
+    warnings:
+    - No evidence the payments regulation consultation has been formally launched
+      as of July 15, 2026 - sources only indicate it was expected in Q2 2026; Rachel
+      Reeves's July 13-14 announcement focused on SME lending, not an 'open finance
+      push' as primary focus - open finance consultation is planned for 2027
+- headline: 'US fintechs say CFPB open banking fee proposal violates Trump executive
+    order
+
+    '
+  standfirst: 'The industry pushback escalates the dispute over the rewritten Section
+    1033 rule, with fintechs arguing that allowing banks to charge data-sharing fees
+    contradicts the administration''s own deregulatory mandate.
+
+    '
+  body: 'US fintech firms are challenging the Consumer Financial Protection Bureau''s
+    revised open banking rule, arguing that its provision allowing banks to charge
+    fees for customer data sharing violates a Trump executive order aimed at reducing
+    regulatory burdens. The CFPB rewrote its Section 1033 rule in June, narrowing
+    the scope of data covered and introducing a fee mechanism that the original rule
+    had prohibited.
+
+
+    The industry response frames the fee provision not just as bad policy but as legally
+    inconsistent with the administration''s own directives. The CFPB had positioned
+    the rewrite as aligning the rule with the administration''s deregulatory agenda,
+    but fintechs contend that enabling banks to monetise data access creates a new
+    barrier rather than removing one. The National Association of Convenience Stores
+    has separately urged adoption of the open banking rule, arguing it protects consumers''
+    existing legal right to share their own financial data.
+
+
+    The dispute matters beyond the US because the question of who bears the cost of
+    data sharing — and whether incumbents can charge for API access — is live in every
+    open banking jurisdiction. The EU''s PSD3 framework and the UK''s evolving model
+    are both navigating the same tension, and the US outcome will influence how other
+    regulators approach it.
+
+    '
+  editorial_note: 'This materially advances the CFPB open banking story covered on
+    June 30. The fintech challenge introduces a new legal argument (conflict with
+    executive order) and escalates the political dynamics around the rule.
+
+    '
+  sources: '[CFPB Data-Rationing Proposal Violates Trump Order, Fintechs Say](https://news.bloomberglaw.com/banking-law/cfpb-data-rationing-proposal-violates-trump-order-fintechs-say)
+    — Bloomberg Law News | [NACS Urges Adoption of Open Banking Rule](https://www.convenience.org/stay-current/news/2026/july/14/nacs-urges-adoption-of-open-banking-rule)
+    — Convenience'
+  verification:
+    verified: false
+    warnings:
+    - The body states 'The CFPB rewrote its Section 1033 rule in June,' but as of
+      July 15, 2026, the CFPB has not finalized a revised rule. An NPRM is anticipated
+      in July 2026 per the CFPB's regulatory agenda, but no final rewrite has been
+      published. The original rule from October 2024 is still enjoined and under reconsideration.
+- headline: 'GoCardless integrates pay-by-bank into Sage for small business accounting
+
+    '
+  standfirst: 'The partnership embeds open banking payments directly into accounting
+    software used by millions of small businesses, testing whether pay-by-bank can
+    displace cards and direct debits in routine B2B transactions.
+
+    '
+  body: 'GoCardless is expanding its partnership with Sage to integrate its Pay by
+    Bank feature directly within Sage Business Cloud Accounting. The integration allows
+    small businesses to offer open banking payments as a checkout option alongside
+    existing methods, embedding account-to-account payments into the invoicing workflow
+    rather than requiring a separate payment step.
+
+
+    The move is notable for where it positions pay-by-bank: not as a consumer checkout
+    alternative competing with cards at e-commerce scale, but as a B2B payment method
+    integrated into the accounting tools that small businesses already use daily.
+    Sage''s installed base across UK and European SMEs gives the integration immediate
+    distribution, and the combination of payment initiation with accounting reconciliation
+    addresses one of the persistent friction points in small business payments.
+
+
+    GoCardless reported its first profitable quarter earlier this year as payment
+    volumes doubled. Embedding pay-by-bank into established software platforms, rather
+    than competing for placement at consumer checkout, represents a distinct distribution
+    strategy that sidesteps many of the conversion challenges that have slowed pay-by-bank
+    adoption in retail settings.
+
+    '
+  editorial_note: 'This is a specific, well-sourced product integration that illustrates
+    a broader strategic question — whether pay-by-bank gains traction faster through
+    B2B software embedding than through consumer checkout. It complements the GoCardless
+    profitability story covered in April.
+
+    '
+  sources: '[Sage, GoCardless add Pay by Bank for small businesses](https://thepaypers.com/payments/news/sage-gocardless-add-pay-by-bank-for-small-businesses)
+    — The Paypers | [How Open Banking Feature From GoCardless and Sage Aids SMBs](https://fintechmagazine.com/news/gocardless-sage-alliance-helps-smbs-with-open-banking)
+    — FinTech Magazine | [GoCardless expands partnership with Sage to integrate Pay
+    by Bank for small businesses](https://www.openbankingexpo.com/news/gocardless-expands-partnership-with-sage-to-integrate-pay-by-bank-for-small-businesses/)
+    — Openbankingexpo'
+  verification:
+    verified: false
+    warnings:
+    - Draft says 'GoCardless reported its first profitable quarter earlier this year'
+      but sources specify this was the first EBITDA-positive quarter on an adjusted
+      basis in Q4 FY25 (April-June 2025), and the full company still reported net
+      losses of £25.5m for FY25. The profitability claim should be qualified as adjusted
+      EBITDA profitability only.
