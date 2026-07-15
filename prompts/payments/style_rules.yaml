@@ -58,3 +58,19 @@
   rule: Use people's names alongside their titles on first reference — e.g. 'Rachel
     Reeves, the UK chancellor' rather than just 'the UK chancellor'. Name individuals
     wherever possible to personalise the writing.
+- date: '2026-07-15'
+  rule: When naming an individual on first reference, include their title immediately
+    — e.g. 'chancellor Rachel Reeves' or 'Rachel Reeves, the chancellor' — when the
+    title is needed for context.
+- date: '2026-07-15'
+  rule: Do not use 'The move is notable', 'The move is significant', or equivalent
+    constructions that announce notability before making a substantive point. Write
+    the substantive point directly.
+- date: '2026-07-15'
+  rule: Avoid vague temporal references such as 'earlier this year'. Use specific
+    time periods (e.g. 'the last quarter of 2025 (April-June)') when referring to
+    financial or business results.
+- date: '2026-07-15'
+  rule: When citing financial metrics such as profitability, qualify them with the
+    basis of measurement where relevant — e.g. '(based on adjusted Ebitda)' — so the
+    claim is precise rather than unqualified.
