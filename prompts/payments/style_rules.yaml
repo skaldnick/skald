@@ -74,3 +74,17 @@
   rule: When citing financial metrics such as profitability, qualify them with the
     basis of measurement where relevant — e.g. '(based on adjusted Ebitda)' — so the
     claim is precise rather than unqualified.
+- date: '2026-07-16'
+  rule: Avoid vague temporal references such as 'in June' or 'last month' when a specific
+    date is available. Use the precise date (e.g. 'on July 9') or, where only a month
+    is known, the month name. Reserve 'last month' only when the specific date cannot
+    be established.
+- date: '2026-07-16'
+  rule: When introducing a named individual, include their title and, where relevant,
+    the date or context of their appointment — e.g. 'CEO Enrique Lores has already
+    begun restructuring after taking the job in March' rather than 'its new CEO has
+    already begun restructuring'.
+- date: '2026-07-16'
+  rule: Do not open a paragraph with 'The deal is far from certain' or equivalent
+    hedging scene-setters that delay the substantive point. Lead directly with the
+    substantive claim — e.g. 'intense regulatory scrutiny is expected'.
