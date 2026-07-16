@@ -2,22 +2,4 @@
 # Populated automatically by tools/extract_learning.py (via GitHub Actions on push
 # to data/feedback/). Review and promote/edit in the dashboard's 'Proposed style
 # rules' section — accepted rules move to prompts/payments/style_rules.yaml.
-- date: '2026-07-16'
-  rule: Avoid vague temporal references such as 'in June' or 'last month' when a specific
-    date is available. Use the precise date (e.g. 'on July 9') or, where only a month
-    is known, the month name. Reserve 'last month' only when the specific date cannot
-    be established.
-- date: '2026-07-16'
-  rule: When introducing a named individual mid-story (not on the article's first
-    reference), include their title and, where relevant, the date or context of their
-    appointment — e.g. 'CEO Enrique Lores has already begun restructuring after taking
-    the job in March' rather than 'its new CEO has already begun restructuring'.
-- date: '2026-07-16'
-  rule: Do not open a paragraph with 'The deal is far from certain' or equivalent
-    hedging scene-setters that delay the substantive point. Lead directly with the
-    substantive claim — e.g. 'intense regulatory scrutiny is expected' — and use 'However'
-    to signal contrast with the preceding paragraph.
-- date: '2026-07-16'
-  rule: When referencing a committee vote that subsequently went to a full body vote,
-    prefer citing the full body vote with its specific date rather than the committee
-    stage, unless the committee stage is the substantive news.
+[]
