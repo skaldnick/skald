@@ -2,4 +2,24 @@
 # Populated automatically by tools/extract_learning.py (via GitHub Actions on push
 # to data/feedback/). Review and promote/edit in the dashboard's 'Proposed style
 # rules' section — accepted rules move to prompts/payments/style_rules.yaml.
-[]
+- date: '2026-07-17'
+  rule: Do not describe potential significance speculatively in standfirsts with phrases
+    such as 'a potentially significant shift'. State the interpretive point directly
+    and confidently, or omit the qualification.
+- date: '2026-07-17'
+  rule: When a paragraph consists of a single short sentence followed by elaboration,
+    do not split them into separate paragraphs unnecessarily — but a single-sentence
+    paragraph is acceptable when it functions as a clear topic-setting statement (e.g.
+    'The scope is broad.').
+- date: '2026-07-17'
+  rule: In closing paragraphs, avoid restating the headline news as a summary. Instead,
+    close with the forward-looking implication or what it means for the industry —
+    what firms should expect or do next.
+- date: '2026-07-17'
+  rule: When providing industry context in a body paragraph, anchor it with specific
+    dates rather than relative terms — e.g. 'Visa launched its agentic payments capabilities
+    in Europe on July 2' rather than 'Visa recently launched'.
+- date: '2026-07-17'
+  rule: Do not describe a development as 'one of a growing number' in a way that hedges
+    its significance. If the broader trend is worth noting, state the trend directly
+    and let the specific item illustrate it.
