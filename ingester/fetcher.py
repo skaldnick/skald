@@ -1,3 +1,4 @@
+import difflib
 import html
 import re
 
@@ -107,6 +108,28 @@ def filter_recent(entries: list[dict], days: int = 3) -> list[dict]:
     if undated:
         print(f"  ({len(undated)} entries had no parseable date and were dropped)")
     return recent
+
+
+def filter_already_covered(entries: list[dict], covered_headlines: list[str], threshold: float = 0.6) -> list[dict]:
+    """Drop entries whose title closely matches an already-covered or
+    editorially-rejected headline, so a still-recent aggregator republish of
+    an old story doesn't reach the model looking like fresh news. This is a
+    blunt title-similarity filter, not semantic dedup — a genuinely different
+    article reporting the same underlying event under distinct wording will
+    still get through, and relies on the 'previously covered' / 'editorially
+    rejected' prompt instructions to be judged there instead."""
+    def norm(s: str) -> str:
+        return re.sub(r"[^a-z0-9 ]", "", s.lower())
+    normalized = [norm(h) for h in covered_headlines]
+    if not normalized:
+        return entries
+    kept = []
+    for entry in entries:
+        title = norm(entry.get("title", ""))
+        if any(difflib.SequenceMatcher(None, title, c).ratio() >= threshold for c in normalized):
+            continue
+        kept.append(entry)
+    return kept
 
 
 def filter_keywords(entries: list[dict], beat_name: str) -> list[dict]:

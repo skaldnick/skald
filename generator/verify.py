@@ -118,9 +118,16 @@ def verify_story(
 
 def verify_briefing(briefing: dict, recently_covered: list[dict] | None = None) -> dict:
     """Run the verification pass over every story in a generated briefing,
-    attaching a 'verification' field to each. Mutates and returns the briefing."""
+    attaching a 'verification' field to each. Preserves any warnings already
+    present on a story (e.g. the shared-source check in _resolve_sources)
+    rather than overwriting them. Mutates and returns the briefing."""
     client = anthropic.Anthropic(api_key=os.environ["ANTHROPIC_API_KEY"])
     today = datetime.now().strftime("%B %-d, %Y")
     for story in briefing.get("stories", []):
-        story["verification"] = verify_story(story, client=client, today=today, recently_covered=recently_covered)
+        result = verify_story(story, client=client, today=today, recently_covered=recently_covered)
+        pre_existing = (story.get("verification") or {}).get("warnings") or []
+        story["verification"] = {
+            "verified": result["verified"] and not pre_existing,
+            "warnings": pre_existing + result["warnings"],
+        }
     return briefing

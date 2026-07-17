@@ -6,6 +6,8 @@ from pathlib import Path
 import anthropic
 from dotenv import load_dotenv
 
+from ingester.fetcher import filter_already_covered
+
 load_dotenv(Path(__file__).parent.parent / ".env", override=True)
 
 ROOT = Path(__file__).parent.parent
@@ -138,22 +140,41 @@ def _parse_yaml_response(text: str) -> dict:
 def _resolve_sources(data: dict, entries: list[dict]) -> dict:
     """Replace each story's `source_ids` with a `sources` markdown string built
     from the actual feed entry — the model cites IDs, never URLs, so the link
-    can't be mistyped or copied from the wrong story."""
+    can't be mistyped or copied from the wrong story. This guarantees the ID
+    resolves to a real entry, not that it's the *right* one — the model can
+    still cite a valid ID that belongs to an unrelated story, so stories are
+    also checked against each other for a shared cited URL, which usually
+    means one of them got the wrong source_id."""
     by_id = {i: e for i, e in enumerate(entries, start=1)}
-    for story in data.get("stories", []):
+    stories = data.get("stories", [])
+    story_urls = []
+    for story in stories:
         ids = story.pop("source_ids", None) or []
         if isinstance(ids, int):
             ids = [ids]
         links = []
+        urls = set()
         for sid in ids:
             entry = by_id.get(sid)
             if entry is None:
                 print(f"Warning: story {story.get('headline', '')!r} cited unknown source_id {sid!r}")
                 continue
             links.append(f"[{entry['title']}]({entry['url']}) — {entry['source']}")
+            urls.add(entry["url"])
         if not links:
             print(f"Warning: story {story.get('headline', '')!r} has no resolvable sources")
         story["sources"] = " | ".join(links)
+        story_urls.append(urls)
+
+    for i, story in enumerate(stories):
+        shared = set().union(*(u for j, u in enumerate(story_urls) if j != i)) & story_urls[i]
+        if shared:
+            headline = story.get("headline", "").strip()
+            print(f"Warning: story {headline!r} shares a cited source with another story in this briefing")
+            story["verification"] = {
+                "verified": False,
+                "warnings": ["Cited source is also cited by another story in this briefing — likely a wrong or duplicate source_id"],
+            }
     return data
 
 
@@ -163,6 +184,9 @@ def generate_briefing(beat_name: str, entries: list[dict]) -> dict:
     style_rules = load_style_rules(beat_name)
     recently_covered = load_recently_covered()
     recently_rejected = load_recently_rejected()
+    covered_headlines = [h for e in recently_covered for h in e.get("stories", [])]
+    covered_headlines += [h for e in recently_rejected for h in e.get("stories", [])]
+    entries = filter_already_covered(entries, covered_headlines)
     system_prompt = build_system_prompt(system, style_rules)
     user_prompt = build_user_prompt(story, entries, recently_covered, recently_rejected)
 
