@@ -159,6 +159,9 @@ def _resolve_sources(data: dict, entries: list[dict]) -> dict:
             if entry is None:
                 print(f"Warning: story {story.get('headline', '')!r} cited unknown source_id {sid!r}")
                 continue
+            if entry["url"] in urls:
+                print(f"Warning: story {story.get('headline', '')!r} cited source_id {sid!r} more than once")
+                continue
             links.append(f"[{entry['title']}]({entry['url']}) — {entry['source']}")
             urls.add(entry["url"])
         if not links:
