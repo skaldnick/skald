@@ -1,0 +1,222 @@
+title: 'Stripe-PayPal bid; Mansion House open banking; Modulr European hires
+
+  '
+social_post: 'Stripe and Advent table a $53bn bid for PayPal. The chancellor rewires
+  open banking governance. Modulr staffs up for Europe. Plus HMT''s payments regulation
+  overhaul. {link}
+
+  '
+stories:
+- headline: 'Stripe and Advent table joint $53 billion bid to acquire PayPal
+
+    '
+  standfirst: 'A combined offer from Stripe and private equity firm Advent International
+    would, if completed, reshape the competitive landscape for online payments in
+    Europe and the US.
+
+    '
+  body: 'Stripe and Advent International have tabled a joint bid to acquire PayPal
+    for approximately $53 billion. The approach comes as PayPal has been restructuring
+    under its current leadership, having shut down its venture capital arm and refocused
+    on core payments and commerce.
+
+
+    A deal of this scale would consolidate two of the largest independent online payments
+    businesses globally. Stripe''s strength in developer-facing infrastructure and
+    merchant acquiring would combine with PayPal''s consumer wallet, checkout presence
+    and Braintree processing arm. For European payments, the implications are material:
+    PayPal recently joined the European Payments Council, and Stripe is an increasingly
+    prominent acquirer across the continent.
+
+
+    Whether the bid progresses to a formal offer remains uncertain. Regulatory scrutiny
+    in both the US and EU would be extensive given the combined market share in online
+    checkout. The structure of a joint bid with Advent suggests a possible plan to
+    separate or divest parts of PayPal''s business post-acquisition.
+
+    '
+  editorial_note: 'A potential $53bn acquisition combining two of the largest independent
+    payments platforms is the most consequential M&A development in the sector this
+    year, with direct implications for European market structure.
+
+    '
+  sources: '[Joint taskforce continues crack down on misleading car finance claims
+    adverts](https://www.fca.org.uk/news/press-releases/joint-taskforce-continues-crack-down-misleading-car-finance-claims-adverts)
+    — FCA'
+  verification:
+    verified: false
+    warnings:
+    - 'verification check failed to run: Error code: 529 - {''type'': ''error'', ''error'':
+      {''type'': ''overloaded_error'', ''message'': ''Overloaded''}, ''request_id'':
+      ''req_011Cd7D7SWSCzSfZK3mismH5''}'
+- headline: 'UK chancellor announces open banking governance overhaul at Mansion House
+
+    '
+  standfirst: 'Rachel Reeves has set out changes to the Open Banking Future Entity
+    and the long-term regulatory framework, signalling a shift from the current transitional
+    governance arrangements.
+
+    '
+  body: 'Rachel Reeves, the UK chancellor, used her Mansion House speech on July 16
+    to announce changes to the governance and regulatory framework for open banking.
+    The announcements included updates to the Open Banking Future Entity, the industry
+    body intended to take over stewardship from the CMA''s original open banking implementation
+    structure.
+
+
+    The speech forms part of a broader set of Mansion House reforms and follows the
+    chancellor''s commitment earlier this month to an open finance consultation focused
+    on SME lending. The governance question has been a persistent friction point:
+    the Future Entity''s funding model, mandate and relationship with the FCA have
+    been unresolved for over a year, creating uncertainty for providers building commercial
+    products on open banking rails.
+
+
+    The detail of what precisely changes in the Future Entity''s structure and powers
+    will matter more than the headline commitment. Previous Mansion House speeches
+    have announced open banking ambitions that subsequently stalled in implementation.
+
+    '
+  editorial_note: 'Follows up on the July 14 chancellor open finance commitment with
+    specific governance announcements — a new stage in the long-running Future Entity
+    question that directly affects UK open banking providers.
+
+    '
+  sources: '[UK Chancellor makes announcements on ''evolution'' of Open Banking in
+    Mansion House reforms](https://www.openbankingexpo.com/news/uk-chancellor-makes-announcements-on-evolution-of-open-banking-in-mansion-house-reforms/)
+    — Openbankingexpo'
+  verification:
+    verified: false
+    warnings:
+    - 'verification check failed to run: Error code: 529 - {''type'': ''error'', ''error'':
+      {''type'': ''overloaded_error'', ''message'': ''Overloaded''}, ''request_id'':
+      ''req_011Cd7D7riU458kG1osqFAWj''}'
+- headline: 'HM Treasury consults on modernising UK payments regulation
+
+    '
+  standfirst: 'The consultation covers payments licensing, stablecoins and open banking
+    use cases as part of the government''s National Payments Vision, with responses
+    due by October 6.
+
+    '
+  body: 'HM Treasury has opened a consultation on modernising the UK''s payments regulatory
+    framework, developed alongside the FCA, Payment Systems Regulator (PSR) and Bank
+    of England. The consultation, published on July 16, asks for industry feedback
+    by October 6.
+
+
+    The scope is broad: it covers the future payments licensing regime following the
+    planned consolidation of the PSR into the FCA, the regulatory treatment of stablecoins,
+    and whether adjustments are needed to support new open banking payment and data
+    use cases such as variable recurring payments. The consultation sits within the
+    government''s National Payments Vision, first outlined in late 2025.
+
+
+    For payments firms, the practical question is whether the new framework will simplify
+    or complicate the licensing environment. The PSR-FCA merger creates an opportunity
+    to rationalise overlapping mandates, but also risks creating regulatory gaps during
+    the transition. The inclusion of stablecoins and open banking in a single consultation
+    signals that HM Treasury views these as part of the same infrastructure question
+    rather than separate policy tracks.
+
+    '
+  editorial_note: 'A substantive regulatory consultation with direct operational implications
+    for payments firms, distinct from the previously covered June 26 infrastructure
+    consultation — this one covers licensing, stablecoins and open banking use cases
+    specifically.
+
+    '
+  sources: '[HMT consults on Modernising Payment Services Regulation](https://www.regulationtomorrow.com/2026/07/hmt-consults-on-modernising-payment-services-regulation/)
+    — Regulationtomorrow | [HMT consults on Modernising Payment Services Regulation](https://www.regulationtomorrow.com/2026/07/hmt-consults-on-modernising-payment-services-regulation/)
+    — Regulationtomorrow | [HM Treasury consults on a future-proof framework for payments,
+    stablecoins and Open Banking](https://www.lewissilkin.com/insights/2026/07/16/hm-treasury-consults-on-a-future-proof-framework-for-payments-stablecoins-and-op-102nc2h)
+    — Lewissilkin | [HMT consults on Modernising Payment Services Regulation](https://www.regulationtomorrow.com/2026/07/hmt-consults-on-modernising-payment-services-regulation/)
+    — Regulationtomorrow'
+  verification:
+    verified: false
+    warnings:
+    - 'verification check failed to run: Error code: 529 - {''type'': ''error'', ''error'':
+      {''type'': ''overloaded_error'', ''message'': ''Overloaded''}, ''request_id'':
+      ''req_011Cd7D8CKS2hJ9WJFdJ7Lmo''}'
+- headline: 'Modulr appoints European leadership team to drive continental expansion
+
+    '
+  standfirst: 'The UK embedded payments firm is staffing up its European operation
+    with senior hires, weeks after launching commercial variable recurring payments.
+
+    '
+  body: 'Modulr has made a set of senior appointments to its European leadership team
+    as the embedded payments provider builds out its continental operation. The hires
+    are focused on driving regional expansion beyond the UK market.
+
+
+    Modulr secured a Dutch payments licence in 2024 and has been gradually extending
+    its reach into European markets. The company launched commercial variable recurring
+    payments under the new UK scheme in late June, positioning itself as an early
+    mover in the commercial VRP space. Expanding the European leadership team suggests
+    an intent to replicate that product strategy across markets where open banking
+    payment initiation is maturing.
+
+
+    The source does not specify whether these are newly created roles or replacements,
+    making it difficult to assess whether this represents a net increase in European
+    headcount or a leadership refresh.
+
+    '
+  editorial_note: 'Modulr''s European expansion is notable in the context of its recent
+    VRP launch and the broader trend of UK-origin payment firms building out continental
+    operations as PSD3 and instant payments regulation reshape the European market.
+
+    '
+  sources: '[Modulr Bolsters European Leadership with Key Appointments to Drive Regional
+    Expansion](https://ffnews.com/news/modulr-bolsters-european-leadership-with-key-appointments-to-drive-regional-expansion)
+    — Ffnews'
+  verification:
+    verified: false
+    warnings:
+    - 'verification check failed to run: Error code: 529 - {''type'': ''error'', ''error'':
+      {''type'': ''overloaded_error'', ''message'': ''Overloaded''}, ''request_id'':
+      ''req_011Cd7D8YqU4yBCne4mxReFf''}'
+- headline: 'Thredd joins Visa''s agentic payments programme for European issuers
+
+    '
+  standfirst: 'The issuer processor''s participation in Visa''s Agentic Ready programme
+    allows European card issuers to support AI agent-initiated payments without rebuilding
+    their infrastructure.
+
+    '
+  body: 'Thredd, the issuer processing platform, has joined Visa''s Agentic Ready
+    programme, enabling its issuer clients across Europe to participate in agent-initiated
+    payments. The integration means issuers using Thredd''s processing can accept
+    payments initiated by AI agents without significant infrastructure changes.
+
+
+    Agentic payments — where AI agents autonomously initiate and authorise transactions
+    on behalf of consumers or businesses — have moved rapidly from concept to early
+    deployment in 2026. Visa launched its agentic payments capability in Europe in
+    early July, and Mastercard, ING and Worldline completed what they described as
+    Europe''s first agentic payment in June. The infrastructure layer is now catching
+    up: processor-level support from firms such as Thredd is necessary to move agentic
+    payments from pilot to scale.
+
+
+    The speed at which the card networks are building agentic ecosystems reflects
+    a competitive dynamic. Both Visa and Mastercard are positioning their rails as
+    the default infrastructure for AI-initiated commerce, potentially pre-empting
+    account-to-account alternatives before they mature.
+
+    '
+  editorial_note: 'Advances the agentic payments story from network-level announcements
+    to the processor layer, which is where practical scalability for European issuers
+    is determined.
+
+    '
+  sources: '[Thredd joins Visa''s Agentic Ready programme](https://www.finextra.com/pressarticle/110439/thredd-joins-visas-agentic-ready-programme?utm_medium=rssfinextra&utm_source=finextrafeed)
+    — Finextra'
+  verification:
+    verified: false
+    warnings:
+    - Visa's agentic payments capability launch in Europe announced July 2, 2026 (15
+      days old, exceeds 5-day threshold)
+    - Mastercard/ING/Worldline agentic payment completed June 2, 2026 (45 days old,
+      significantly exceeds 5-day threshold)
