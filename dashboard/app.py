@@ -438,7 +438,7 @@ with gr.Blocks(title="Skald — Editorial Dashboard") as app:
         trigger_btn = gr.Button("Trigger generation", variant="secondary", scale=0)
         load_btn = gr.Button("Load draft", variant="primary", scale=0)
 
-    header_md = gr.Markdown("*No draft loaded — click **Load draft** to begin.*")
+    header_md = gr.Markdown("*Checking for today's draft...*")
 
     groups = []
     editorial_note_mds = []
@@ -507,6 +507,7 @@ with gr.Blocks(title="Skald — Editorial Dashboard") as app:
             decisions[i], reasons[i],
         ]
 
+    app.load(on_load_draft, outputs=load_outputs)
     trigger_btn.click(on_trigger_generation, outputs=header_md)
     load_btn.click(on_load_draft, outputs=load_outputs)
 

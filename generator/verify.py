@@ -4,6 +4,7 @@ that slipped past selection."""
 
 import json
 import os
+import time
 from datetime import datetime
 
 import anthropic
@@ -11,6 +12,8 @@ import anthropic
 MODEL = "claude-haiku-4-5-20251001"
 MAX_TOKENS = 1024
 STALE_DAYS = 5
+MAX_ATTEMPTS = 3
+RETRY_BACKOFF_SECONDS = 5
 
 
 def _system_prompt(today: str, has_covered_list: bool) -> str:
@@ -93,18 +96,24 @@ def verify_story(
     )
     if recently_covered:
         user_prompt += f"\n\nPreviously covered:\n{_covered_text(recently_covered)}"
-    try:
-        message = client.messages.create(
-            model=MODEL,
-            max_tokens=MAX_TOKENS,
-            system=_system_prompt(today, has_covered_list=bool(recently_covered)),
-            tools=[{"type": "web_search_20250305", "name": "web_search"}],
-            messages=[{"role": "user", "content": user_prompt}],
-        )
-        text_blocks = [b.text for b in message.content if getattr(b, "type", None) == "text"]
-        return _parse_response("\n".join(text_blocks))
-    except Exception as e:
-        return {"verified": False, "warnings": [f"verification check failed to run: {e}"]}
+
+    last_error = None
+    for attempt in range(MAX_ATTEMPTS):
+        try:
+            message = client.messages.create(
+                model=MODEL,
+                max_tokens=MAX_TOKENS,
+                system=_system_prompt(today, has_covered_list=bool(recently_covered)),
+                tools=[{"type": "web_search_20250305", "name": "web_search"}],
+                messages=[{"role": "user", "content": user_prompt}],
+            )
+            text_blocks = [b.text for b in message.content if getattr(b, "type", None) == "text"]
+            return _parse_response("\n".join(text_blocks))
+        except Exception as e:
+            last_error = e
+            if attempt < MAX_ATTEMPTS - 1:
+                time.sleep(RETRY_BACKOFF_SECONDS * (attempt + 1))
+    return {"verified": False, "warnings": [f"verification check failed to run: {last_error}"]}
 
 
 def verify_briefing(briefing: dict, recently_covered: list[dict] | None = None) -> dict:

@@ -1,7 +1,14 @@
 name: Generate daily briefing
 
 on:
-  workflow_dispatch:        # manual trigger only
+  schedule:
+    # 07:30 UK time, Mon–Fri. GitHub Actions cron has no timezone support, so this
+    # is split into UTC-fixed BST/GMT halves rather than one line that drifts an
+    # hour for six months. Boundary weeks right at the DST switchover (late March,
+    # late October) may still be off by an hour.
+    - cron: '30 6 * 4-10 1-5'      # 07:30 BST (UTC+1), Apr–Oct
+    - cron: '30 7 * 11,12,1,2,3 1-5'  # 07:30 GMT (UTC+0), Nov–Mar
+  workflow_dispatch:        # manual trigger, e.g. from the dashboard
 
 jobs:
   generate:
