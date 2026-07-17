@@ -88,3 +88,7 @@
   rule: Do not open a paragraph with 'The deal is far from certain' or equivalent
     hedging scene-setters that delay the substantive point. Lead directly with the
     substantive claim — e.g. 'intense regulatory scrutiny is expected'.
+- date: '2026-07-17'
+  rule: Do not describe a development as 'one of a growing number' in a way that hedges
+    its significance. If the broader trend is worth noting, state the trend directly
+    and let the specific item illustrate it.
