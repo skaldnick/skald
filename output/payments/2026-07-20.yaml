@@ -1,182 +1,175 @@
-title: 'PayPal rebuffs Stripe bid; BBVA joins Swift retail scheme; ACI weighs billing
-  sale
+title: 'iDEAL-to-Wero migration; ECB digital euro pilot; PayPal bid standoff
 
   '
-social_post: 'PayPal''s board says $53bn isn''t enough. Plus: BBVA goes live on Swift''s
-  retail payments scheme, and ACI Worldwide eyes a breakup. Today''s European payments
-  briefing → {link}
+social_post: 'Dutch banks and PSPs agree the next phase of the iDEAL-to-Wero migration
+  — the biggest live test yet for Europe''s domestic payment sovereignty ambitions.
+  Plus: ECB digital euro pilot selections, and PayPal''s board digs in. {link}
 
   '
 stories:
-- headline: 'PayPal board rejects Stripe-Advent $53 billion bid as too low
+- headline: 'Dutch banks and PSPs agree next phase of iDEAL migration to Wero
 
     '
-  standfirst: 'PayPal''s directors believe the joint offer undervalues the company
-    and could face regulatory obstacles, keeping alive the largest potential deal
-    in payments history.
+  standfirst: 'The transition from the Netherlands'' dominant online payment method
+    to Wero is moving into its most consequential phase, with major acquirers now
+    committed to a joint roadmap.
 
     '
-  body: 'PayPal''s board considers the $53 billion takeover approach from Stripe and
-    Advent International inadequate, according to Reuters. Directors believe the offer
-    undervalues the payments company and have flagged likely regulatory pushback as
-    a further concern.
+  body: 'The European Payments Initiative, Dutch banks such as ABN Amro, ING and Rabobank,
+    and a group of payment service providers such as Adyen, Mollie, Buckaroo and MultiSafepay
+    have agreed the roadmap for the next major stage of transitioning iDEAL to Wero.
+    The announcement follows what EPI described as a successful first step in the
+    migration.
 
 
-    The bid, first reported on July 16, would represent the largest acquisition in
-    the payments industry. A combined Stripe-PayPal entity would bring together two
-    of the biggest online payment processors globally, raising immediate questions
-    about market concentration in checkout and merchant acquiring. Stripe''s core
-    strength in developer-led commerce and PayPal''s consumer wallet and branded checkout
-    would overlap significantly in several segments.
+    The Netherlands is the critical test market for Wero''s ambition to replace entrenched
+    national payment schemes with a pan-European alternative. iDEAL processes the
+    vast majority of Dutch e-commerce payments, making it the highest-volume national
+    scheme Wero has attempted to absorb. The involvement of major acquirers, not just
+    issuing banks, signals that the merchant-side plumbing is now being addressed
+    — a necessary condition for the migration to succeed at checkout.
 
 
-    PayPal has been restructuring under CEO Alex Chriss, who shut down the company''s
-    venture capital arm in June and has been narrowing focus on core payments and
-    commerce. Whether the board''s stance is a negotiating position or a firm rejection
-    remains unclear, but the signal that $53 billion falls short sets a high bar for
-    any revised approach.
+    The agreement comes as Wero continues expanding across Europe, with Austria joining
+    as its fifth market last month. How smoothly the Dutch transition proceeds will
+    shape the willingness of other countries to fold their own national schemes into
+    EPI''s infrastructure.
 
     '
-  editorial_note: 'This moves the Stripe-Advent bid story forward materially: the
-    board''s formal view that the offer is inadequate is the first substantive response
-    since the bid was reported, and shapes what happens next in the most consequential
-    potential deal in payments.
+  editorial_note: 'This advances the Rabobank/iDEAL-to-Wero story previously covered
+    on June 17 — the new angle is the formal agreement of a joint roadmap involving
+    acquirers such as Adyen and Mollie, moving the transition from a single-bank pilot
+    to a market-wide commitment.
+
+    '
+  sources: '[EPI embarks on next phase of iDeal transition to Wero](https://www.finextra.com/pressarticle/110453/epi-embarks-on-next-phase-of-ideal-transition-to-wero?utm_medium=rssfinextra&utm_source=finextrafeed)
+    — Finextra'
+  verification:
+    verified: false
+    warnings:
+    - Draft says Austria is 'fifth market', but sources confirm Austria is the sixth
+      market for Wero expansion
+- headline: 'ECB selects 36 providers for digital euro pilot as Parliament clears
+    path
+
+    '
+  standfirst: 'With the European Parliament having voted to advance the digital euro
+    to final negotiations, the ECB''s selection of pilot participants marks the shift
+    from legislative debate to operational testing.
+
+    '
+  body: 'ECB executive board member Piero Cipollone has set out the cooperative principles
+    underpinning the digital euro''s design, speaking as the central bank prepares
+    to work with 36 payment providers selected for its pilot phase. The speech, published
+    on July 17, frames the digital euro as a public good intended to complement rather
+    than displace private payment solutions.
+
+
+    The pilot selections, announced on July 15, followed the European Parliament''s
+    vote on July 10 to advance the digital euro regulation to trilogue negotiations.
+    The two events together represent the most concrete progress on the project since
+    the ECB''s investigation phase concluded. Cipollone''s emphasis on cooperation
+    appears designed to address industry concerns — raised publicly by trade bodies
+    — that the digital euro could marginalise existing open banking and payment providers.
+
+
+    The pilot phase will test distribution models, offline functionality and merchant
+    acceptance. Which of the 36 selected providers are banks versus fintechs or payment
+    schemes has not been fully disclosed, though the breadth of the selection suggests
+    the ECB is seeking to demonstrate broad ecosystem participation rather than a
+    bank-only model.
+
+    '
+  editorial_note: 'Cipollone''s speech (ID 1) adds substance to the previously covered
+    pilot selection and Parliament vote, articulating the ECB''s positioning on the
+    digital euro''s relationship with private payment providers — a live concern for
+    the open banking industry.
+
+    '
+  sources: '[Piero Cipollone: The cooperative spirit at the heart of the digital euro](https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp260717~b6a156dc40.en.html)
+    — ECB'
+  verification:
+    verified: false
+    warnings:
+    - Draft says pilot selections announced July 15, but ECB official announcement
+      and multiple sources confirm July 14, 2026
+- headline: 'PayPal board holds firm against Stripe-Advent $53bn takeover approach
+
+    '
+  standfirst: 'PayPal''s board considers the joint bid from Stripe and Advent International
+    too low and expects regulatory obstacles, setting up a prolonged standoff over
+    the largest potential payments acquisition in history.
+
+    '
+  body: 'PayPal''s board views the $53 billion takeover offer from Stripe and Advent
+    as undervaluing the company and believes the deal would face significant regulatory
+    scrutiny, according to Reuters. The board has not formally rejected the bid but
+    regards the proposed price as inadequate.
+
+
+    A completed deal would reshape the global payments landscape, combining Stripe''s
+    infrastructure-led model with PayPal''s consumer wallet, merchant network and
+    checkout presence. The regulatory dimension is substantial: the combined entity
+    would dominate online payment processing in the US and Europe, raising competition
+    concerns in multiple jurisdictions. PayPal''s recent restructuring under its current
+    leadership — shutting its venture arm and refocusing on core payments — suggests
+    the board believes it can deliver shareholder value independently.
+
+
+    Whether Stripe and Advent return with a higher offer remains uncertain. PayPal
+    shares had already reflected acquisition speculation, and the board''s stance
+    signals that any deal would need to clear a materially higher price threshold
+    as well as antitrust review on both sides of the Atlantic.
+
+    '
+  editorial_note: 'Advances the Stripe-Advent/PayPal story previously covered on July
+    16 and 20 — the new detail is the board''s explicit reasoning (valuation and regulatory
+    risk), reported via Reuters, which provides the first substantive indication of
+    PayPal''s negotiating position.
 
     '
   sources: '[PayPal board considers $53bn Stripe-Advent offer inadequate - Reuters](https://www.finextra.com/newsarticle/48116/paypal-board-considers-53bn-stripe-advent-offer-inadequate---reuters?utm_medium=rssfinextra&utm_source=finextrafeed)
     — Finextra'
   verification:
-    verified: false
-    warnings:
-    - Draft states Alex Chriss shut down the venture capital arm in June, but Chriss
-      departed as CEO in February 2026 and was replaced by Enrique Lores on March
-      1, 2026. The venture capital arm shutdown occurred under Lores, not Chriss
-    - Draft states the bid was 'first reported on July 16' but the bid was first reported
-      on July 15, 2026. The board's rejection was reported on July 16
-- headline: 'BBVA becomes first Spanish bank live on Swift''s retail payments scheme
+    verified: true
+    warnings: []
+- headline: 'HSBC joins Asian working group on standards for agentic payments
 
     '
-  standfirst: 'The launch extends Swift''s new retail rulebook into Spain, adding
-    momentum to an initiative designed to make cross-border payments for individuals
-    and SMEs faster and more predictable.
+  standfirst: 'The formation of a cross-industry working group focused on agentic
+    commerce standards reflects how quickly AI-initiated payments are moving from
+    proof-of-concept to an interoperability problem.
 
     '
-  body: 'BBVA has gone live on Swift''s new global retail payments scheme from its
-    launch, becoming the first Spanish bank to join the initiative. The scheme establishes
-    a common rulebook for international payments aimed at individuals and small businesses,
-    with commitments around speed, transparency, predictability and round-the-clock
-    availability.
+  body: 'HSBC is joining the Emerging Payments Association Asia''s new AI and Agentic
+    Payments Working Group as a founding member. The group brings together banks,
+    payment networks, fintechs and technology platforms to define standards for AI
+    agent-initiated commerce across the Asia-Pacific region.
 
 
-    Swift launched the retail scheme to bring cross-border payments closer to the
-    experience users expect from domestic instant transfers. Barclays, HSBC, Lloyds
-    and NatWest adopted the framework earlier this month, and BBVA''s participation
-    signals the scheme is gaining traction beyond its initial Anglo-Saxon base. Spain
-    is a significant corridor for remittances and cross-border commerce, particularly
-    with Latin America.
+    Agentic payments — where AI systems autonomously initiate and authorise transactions
+    — have moved rapidly from concept to early production in Europe, with Crédit Agricole,
+    ING and Visa all completing live or pilot transactions in recent months. The formation
+    of a dedicated standards body in Asia-Pacific signals that the industry is beginning
+    to grapple with the interoperability and governance questions that arise when
+    machines, not humans, are the payment initiators. Authentication, liability allocation
+    and consent frameworks all require new thinking when the customer is absent from
+    the transaction flow.
 
 
-    The scheme sits alongside other efforts to improve cross-border retail payments,
-    such as the ECB''s recent cross-currency instant payments pilot on TIPS and Citi''s
-    expansion of its correspondent banking instant payments network. For European
-    banks, the question is how these overlapping initiatives coexist as each scales.
-
-    '
-  editorial_note: 'BBVA''s adoption extends the Swift retail payments scheme to a
-    new market and follows the UK bank cohort covered on July 3, making this a genuine
-    progression of the cross-border retail payments story.
+    HSBC''s involvement is notable given the bank''s scale across both European and
+    Asian markets. Standards developed in one region will inevitably influence regulatory
+    expectations elsewhere, making this working group relevant beyond its Asia-Pacific
+    remit.
 
     '
-  sources: '[BBVA becomes first Spanish bank to launch Swift’s new global retail payments
-    scheme](https://www.finextra.com/pressarticle/110445/bbva-becomes-first-spanish-bank-to-launch-swifts-new-global-retail-payments-scheme?utm_medium=rssfinextra&utm_source=finextrafeed)
+  editorial_note: 'While Asia-focused, HSBC''s involvement and the cross-regional
+    implications for agentic payment standards make this relevant to European professionals
+    tracking the rapid development of AI-initiated commerce infrastructure.
+
+    '
+  sources: '[HSBC joins EPAA agentic AI working group as founding member](https://www.finextra.com/pressarticle/110454/hsbc-joins-epaa-agentic-ai-working-group-as-founding-member?utm_medium=rssfinextra&utm_source=finextrafeed)
     — Finextra'
   verification:
     verified: true
     warnings: []
-- headline: 'ACI Worldwide considers selling its billing division
-
-    '
-  standfirst: 'A potential divestiture would narrow ACI''s focus toward real-time
-    payments infrastructure at a time when the company is processing instant payments
-    for EPI and expanding through acquisitions such as Payment Components.
-
-    '
-  body: 'ACI Worldwide is exploring a sale of its billing division, according to PYMNTS.
-    The billing unit handles biller payment solutions, a business line that sits alongside
-    ACI''s core real-time payments processing and fraud prevention operations.
-
-
-    ACI was selected in June to process instant payments for the European Payments
-    Initiative across Europe, and last year acquired Payment Components, a financial
-    messaging and open banking solutions provider. Shedding the billing business would
-    concentrate ACI''s portfolio on the infrastructure layer for real-time and account-to-account
-    payments, where demand is growing as SEPA instant payment mandates take effect
-    and schemes such as Wero scale.
-
-
-    The move follows a broader pattern in payments infrastructure, where companies
-    are narrowing their focus through selective divestitures. Pollen Street''s carve-out
-    of Finastra''s Universal Banking business in June and Mastercard''s reported consideration
-    of selling Vocalink reflect similar portfolio discipline. Whether ACI finds a
-    buyer at an acceptable price will depend on the billing unit''s standalone economics,
-    which remain undisclosed.
-
-    '
-  editorial_note: 'ACI''s potential divestiture is significant given the company''s
-    growing role in European instant payments infrastructure (EPI processing, Payment
-    Components acquisition) and fits a wider trend of payments firms trimming non-core
-    units.
-
-    '
-  sources: '[ACI Worldwide Considers Putting Billing Division Up For Sale](https://www.pymnts.com/back-office/accounts-receivable/2026/aci-worldwide-considers-putting-billing-division-up-for-sale/)
-    — PYMNTS.com'
-  verification:
-    verified: true
-    warnings: []
-- headline: 'Euroclear appoints Usman Ahmad to lead digital assets strategy
-
-    '
-  standfirst: 'Europe''s largest securities settlement house has hired a dedicated
-    digital assets head as tokenised securities move closer to production use across
-    the continent''s capital markets.
-
-    '
-  body: 'Euroclear has appointed Usman Ahmad as head of digital assets. The role places
-    Ahmad at the centre of the settlement infrastructure operator''s efforts to position
-    itself for tokenised securities, an area where European regulators and market
-    participants are moving from proof-of-concept to pilot-stage work.
-
-
-    The appointment comes as tokenised real-world assets and distributed ledger technology
-    gain regulatory attention across Europe. The BIS completed Project Aperta in June
-    to prototype cross-border open finance interoperability, and Swift is preparing
-    live transactions on its shared ledger with 17 banks. For Euroclear, which settles
-    more than €1 trillion in securities transactions daily, the strategic question
-    is whether tokenised instruments will flow through existing central securities
-    depositories or bypass them entirely.
-
-
-    Whether this is a newly created position or a replacement is not stated in the
-    source. Ahmad''s background and previous role were not detailed in the available
-    information.
-
-    '
-  editorial_note: 'Euroclear is critical infrastructure for European capital markets;
-    a dedicated digital assets leadership appointment signals that tokenised settlement
-    is moving from experimentation toward operational planning at the continent''s
-    core plumbing.
-
-    '
-  sources: '[Euroclear Appoints Usman Ahmad as Head of Digital Assets](https://fintechnews.ch/blockchain_bitcoin/euroclear-usman-ahmad-digital-assets/84735/)
-    — Fintech News Switzerland'
-  verification:
-    verified: false
-    warnings:
-    - Draft states Euroclear 'settles more than €1 trillion in securities transactions
-      daily' - cannot verify this specific daily figure from available sources. Recent
-      Euroclear data reports quarterly/annual turnover and collateral figures, not
-      daily settlement at €1 trillion.
-    - Project Aperta completion date (June 17-18, 2026) is 33 days old, exceeding
-      the 5-day recency threshold.
-    - Swift announcement (July 9, 2026) is 11 days old, exceeding the 5-day recency
-      threshold.
