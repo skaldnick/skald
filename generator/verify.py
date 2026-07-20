@@ -32,10 +32,14 @@ cited sources). Use web search to check the following:
 
 1. Currency and figures — every number and currency symbol in the body must match what
    the primary source actually states. Flag any conversion or figure you cannot verify.
-2. Recency — find the actual publication or announcement date of the underlying event
-   (not an aggregator's republish date). Compute its age by comparing it to today's date,
-   {today}, given above — not to whatever date you might otherwise assume. Flag if the
-   real event is more than {STALE_DAYS} days old.
+2. Recency — identify the single core event this story reports (the news the headline
+   and standfirst are about), and find its actual publication or announcement date (not
+   an aggregator's republish date). Compute its age by comparing it to today's date,
+   {today}, given above — not to whatever date you might otherwise assume. Flag only if
+   that core event is more than {STALE_DAYS} days old. Other developments mentioned in
+   the body purely as background or context (e.g. "this follows X's move last month")
+   are not the story being reported and must not be flagged for age on their own,
+   even if individually older than {STALE_DAYS} days.
 3. Unsupported claims — anything stated as fact that your search does not corroborate.
 {duplicate_check}
 Do your research silently, then respond with ONLY a single JSON object as your final
