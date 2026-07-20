@@ -92,3 +92,15 @@
   rule: Do not describe a development as 'one of a growing number' in a way that hedges
     its significance. If the broader trend is worth noting, state the trend directly
     and let the specific item illustrate it.
+- date: '2026-07-20'
+  rule: In headlines, abbreviate million, billion and trillion to m, bn, and tn respectively
+    — e.g. '$10m', '$10bn', '$10tn'.
+- date: '2026-07-20'
+  rule: Prefer 'say' (or 'said', 'says') over 'believe' or 'believes' when attributing
+    views to individuals or organisations. Use verbs that report what people have
+    stated rather than asserting their internal beliefs.
+- date: '2026-07-20'
+  rule: Do not include editorial notes about missing information — e.g. 'Whether this
+    is a newly created position is not stated in the source' or 'The appointee's background
+    was not available.' If information is absent, simply omit it; do not flag its
+    absence in the text.
