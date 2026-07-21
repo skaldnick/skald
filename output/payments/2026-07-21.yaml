@@ -1,0 +1,189 @@
+title: 'EPI advances iDEAL migration; Montenegro goes live; CFPB signals new rule
+
+  '
+social_post: 'Dutch banks and PSPs agree on the next phase of iDEAL''s migration to
+  Wero — plus Montenegro''s instant payments go live and the CFPB hints at a rewritten
+  open banking rule. Today''s briefing: {link}
+
+  '
+stories:
+- headline: 'Dutch banks and PSPs agree roadmap for next phase of iDEAL-to-Wero migration
+
+    '
+  standfirst: 'EPI, major Dutch banks and nine payment service providers have committed
+    to a joint roadmap for the next stage of migrating iDEAL transactions to Wero,
+    a critical test of whether EPI can consolidate national payment schemes at scale.
+
+    '
+  body: 'The European Payments Initiative has announced that ABN Amro, ING, Rabobank
+    and Dutch payment service providers such as Adyen, Mollie, Buckaroo, CM.com and
+    MultiSafepay have agreed the roadmap for the next major phase of migrating iDEAL
+    to Wero. The announcement follows what EPI described as a successful first step
+    in the transition.
+
+
+    The Netherlands is a pivotal market for EPI''s ambitions. iDEAL dominates Dutch
+    e-commerce with deep consumer and merchant adoption, making a smooth migration
+    essential both operationally and symbolically. Bringing nine acquirers and payment
+    service providers into the agreed roadmap — rather than relying solely on banks
+    — signals that EPI is treating merchant-side infrastructure as a first-order concern,
+    not an afterthought.
+
+
+    The joint commitment does not yet specify a completion date, but the breadth of
+    participants suggests EPI is moving past early pilot stages toward a structured,
+    market-wide rollout. How quickly Dutch consumers and merchants experience the
+    switch will set expectations for Wero''s ability to absorb national schemes elsewhere.
+
+    '
+  editorial_note: 'This advances the previously covered Rabobank iDEAL-to-Wero story
+    with a materially new development: a formal, jointly agreed roadmap now involving
+    nine PSPs alongside the major banks, marking EPI''s shift from pilot to structured
+    rollout.
+
+    '
+  sources: '[EPI embarks on next phase of iDeal transition to Wero](https://www.finextra.com/pressarticle/110453/epi-embarks-on-next-phase-of-ideal-transition-to-wero?utm_medium=rssfinextra&utm_source=finextrafeed)
+    — Finextra'
+  verification:
+    verified: false
+    warnings:
+    - Draft says 'nine acquirers and payment service providers' but official announcement
+      lists 8 PSPs (Adyen, Buckaroo, CM.com, Mollie, Online Payment Platform, PAY.nl,
+      MultiSafepay and PPRO)
+    - Draft lists PSPs as 'such as Adyen, Mollie, Buckaroo, CM.com and MultiSafepay'
+      but omits Online Payment Platform, PAY.nl, and PPRO from the stated list
+- headline: 'Montenegro launches instant payments aligned with SEPA standards
+
+    '
+  standfirst: 'Montenegro''s instant payments system went live on July 20, making
+    it the latest non-EU country to adopt SEPA-aligned infrastructure and extending
+    Europe''s real-time settlement footprint.
+
+    '
+  body: 'Montenegro''s central bank launched domestic instant payments on July 20,
+    enabling transfers that settle in seconds between citizens and businesses. The
+    system has been built to comply with European standards, consistent with the country''s
+    EU accession trajectory.
+
+
+    The Association of Banks of Montenegro confirmed that instant payments are now
+    available in real time, with director Marija Šuković framing the launch as alignment
+    with "the highest European standards." The World Bank''s vice president for Europe
+    attended the launch alongside Montenegro''s minister of European affairs, underscoring
+    the geopolitical dimension of payments infrastructure convergence.
+
+
+    Montenegro joins a growing list of non-eurozone countries — including Iceland,
+    which connected to TIPS in June — adopting euro-area instant payments standards.
+    For banks and processors operating across south-east Europe, the launch creates
+    new interoperability possibilities but also raises questions about how quickly
+    cross-border connectivity will follow domestic go-live.
+
+    '
+  editorial_note: 'The previously covered story reported Montenegro''s planned July
+    20 launch date; this confirms the system is now live, representing a genuinely
+    subsequent stage (law passed → go-live) with on-the-ground confirmation from the
+    central bank and banking association.
+
+    '
+  sources: '[CBCG: Instant payments in Montenegro from today, money arrives in a few
+    seconds](https://en.vijesti.me/news-b/economy-d/818514/cbcg-from-today-instant-payments-in-Montenegro-money-arrives-in-a-few-seconds)
+    — Vijesti | [Association of Banks: Instant payments in the country in real time
+    available to citizens and ...](https://en.vijesti.me/news-b/economy-d/818503/Association-of-banks-makes-instant-payments-in-the-country-available-to-citizens-and-businesses-in-real-time)
+    — En'
+  verification:
+    verified: false
+    warnings:
+    - Article states Iceland 'connected to TIPS in June,' but sources show Iceland
+      only signed an agreement on June 24 with implementation scheduled for 2028,
+      not actual connection
+- headline: 'CFPB acting director signals forthcoming open banking rule at Senate
+    hearing
+
+    '
+  standfirst: 'The acting head of the Consumer Financial Protection Bureau told senators
+    that a new open banking proposal is coming, offering the first concrete indication
+    of the agency''s direction since it rewrote Section 1033 in June.
+
+    '
+  body: 'The CFPB''s acting director defended the agency''s enforcement freeze at
+    a Senate hearing and signalled that a fresh open banking proposal is forthcoming.
+    The statement is the clearest indication yet of how the bureau intends to proceed
+    after its June rewrite of the Section 1033 rule, which narrowed data scope and
+    introduced fees for fintech access to consumer bank data.
+
+
+    The June revision drew sharp criticism from fintechs, who argued it would limit
+    competition by allowing banks to charge for data access. A National Review commentary
+    published alongside the hearing warned that the forthcoming rule risks enabling
+    "data-rationing fees" that would undermine the original intent of open banking.
+    The political fault lines are now clearly drawn: banks favour the narrower scope
+    and fee structure, while fintechs and consumer advocates want broader, free access
+    restored.
+
+
+    For European observers, the US trajectory offers a counterpoint. Where PSD2 and
+    its successors established data access as a regulatory baseline, the US debate
+    remains stuck on whether access should carry a price. The outcome will shape how
+    US-headquartered fintechs with European operations allocate product investment
+    between the two markets.
+
+    '
+  editorial_note: 'The CFPB''s June rewrite was previously covered; this advances
+    the story with the acting director''s first public commitment to a new proposal,
+    made under oath at a Senate hearing — a material new development for firms tracking
+    US-EU open banking divergence.
+
+    '
+  sources: '[CFPB Chief Defends Enforcement Freeze](https://legis1.com/news/cfpb-enforcement-freeze-chief-defends-at-senate)
+    — Legis1 | [Don''t Let Banks Charge Data-Rationing Fees](https://www.nationalreview.com/2026/07/dont-let-banks-charge-data-rationing-fees/)
+    — National Review'
+  verification:
+    verified: false
+    warnings:
+    - Story states 'June rewrite of the Section 1033 rule' but no such rewrite was
+      published in June 2026. The June 30 date was a compliance deadline for the prior
+      Biden rule, not a rewrite date. As of July 16-21, 2026, the CFPB had not yet
+      published its revised proposal but stated it was 'very close' to doing so.
+- headline: 'Abound and ClearScore partner to automate debt consolidation via open
+    banking
+
+    '
+  standfirst: 'ClearScore is integrating its automated debt repayment technology with
+    Abound''s open-banking-powered lending, illustrating how open banking data is
+    moving beyond underwriting into active loan management.
+
+    '
+  body: 'ClearScore, the credit marketplace, is partnering with Abound to scale debt
+    consolidation loans that use open banking data both for credit assessment and
+    for automating the repayment of existing debts. The integration means borrowers
+    taking a consolidation loan through Abound can have their outstanding balances
+    identified and settled automatically using ClearScore''s repayment technology.
+
+
+    The partnership is notable less for its commercial terms than for what it represents
+    structurally. Open banking''s role in consumer lending has largely centred on
+    affordability checks and income verification at the point of underwriting. Using
+    the same data rails to manage post-origination cash flows — identifying creditors,
+    calculating outstanding balances and initiating repayments — extends open banking
+    deeper into the loan lifecycle.
+
+
+    For UK lenders watching open finance regulation take shape, this is an early example
+    of the kind of multi-step, data-dependent product that the FCA''s smart data framework
+    is designed to enable. Whether it scales will depend on borrower willingness to
+    grant the broader data permissions required.
+
+    '
+  editorial_note: 'This vendor partnership is worth covering because it illustrates
+    a structural shift in how open banking data is being used — moving beyond point-of-sale
+    affordability checks into post-origination loan management, which is directly
+    relevant to the UK''s open finance policy direction.
+
+    '
+  sources: '[Abound to Scale Debt Consolidation Loans with ClearScore''s Automated
+    Debt Repayment ...](https://financialit.net/news/lending/abound-scale-debt-consolidation-loans-clearscores-automated-debt-repayment-technology)
+    — Financialit'
+  verification:
+    verified: true
+    warnings: []
