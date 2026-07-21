@@ -3,7 +3,7 @@
 # Review proposed rules before adding. More recent rules take precedence on conflict.
 - date: '2026-04-13'
   rule: In standfirsts, lead with the substantive news or conclusion; move scene-setting
-    subordinate clauses (e.g. 'as X happens') to later in the sentence.
+    subordinate clauses (eg, 'as X happens') to later in the sentence.
 - date: '2026-04-13'
   rule: Use 'such as' not 'including' when introducing non-exhaustive examples.
 - date: '2026-04-13'
@@ -28,7 +28,7 @@
     or added explanation — but it is not the opening sentence of the story. The body
     must be self-contained: it explains the story from the beginning (who, what, where,
     when, why, how), not a continuation of the standfirst''s sentence. Avoid near-verbatim
-    repetition of the same phrasing across headline, standfirst, and body (e.g. headline
+    repetition of the same phrasing across headline, standfirst, and body (eg, headline
     ''Company does X'', standfirst ''Company something'', body ''Company does X'')
     — but the body restating or developing the standfirst''s point in more depth and
     different wording is expected, not a violation.'
@@ -37,7 +37,7 @@
     a headline, standfirst or sentence with digits.
 - date: '2026-07-09'
   rule: On first use of an abbreviation that must be retained, spell it out in full
-    followed by the abbreviation in parentheses — e.g. 'distributed ledger technology
+    followed by the abbreviation in parentheses — eg, 'distributed ledger technology
     (DLT)' — then use the abbreviation alone for subsequent references. This rule
     can be ignored for some very common abbreviations (eg, US, UK, UN).
 - date: '2026-07-09'
@@ -55,12 +55,12 @@
     that abbreviation is used again later in the same piece. If the short form never
     recurs, spell out the term in full without adding the abbreviation in brackets.
 - date: '2026-07-14'
-  rule: Use people's names alongside their titles on first reference — e.g. 'Rachel
+  rule: Use people's names alongside their titles on first reference — eg, 'Rachel
     Reeves, the UK chancellor' rather than just 'the UK chancellor'. Name individuals
     wherever possible to personalise the writing.
 - date: '2026-07-15'
   rule: When naming an individual on first reference, include their title immediately
-    — e.g. 'chancellor Rachel Reeves' or 'Rachel Reeves, the chancellor' — when the
+    — eg, 'chancellor Rachel Reeves' or 'Rachel Reeves, the chancellor' — when the
     title is needed for context.
 - date: '2026-07-15'
   rule: Do not use 'The move is notable', 'The move is significant', or equivalent
@@ -68,44 +68,44 @@
     the substantive point directly.
 - date: '2026-07-15'
   rule: Avoid vague temporal references such as 'earlier this year'. Use specific
-    time periods (e.g. 'the last quarter of 2025 (April-June)') when referring to
+    time periods (eg, 'the last quarter of 2025 (April-June)') when referring to
     financial or business results.
 - date: '2026-07-15'
   rule: When citing financial metrics such as profitability, qualify them with the
-    basis of measurement where relevant — e.g. '(based on adjusted Ebitda)' — so the
+    basis of measurement where relevant — eg, '(based on adjusted Ebitda)' — so the
     claim is precise rather than unqualified.
 - date: '2026-07-16'
   rule: Avoid vague temporal references such as 'in June' or 'last month' when a specific
-    date is available. Use the precise date (e.g. 'on July 9') or, where only a month
+    date is available. Use the precise date (eg, 'on July 9') or, where only a month
     is known, the month name. Reserve 'last month' only when the specific date cannot
     be established.
 - date: '2026-07-16'
   rule: When introducing a named individual, include their title and, where relevant,
-    the date or context of their appointment — e.g. 'CEO Enrique Lores has already
+    the date or context of their appointment — eg, 'CEO Enrique Lores has already
     begun restructuring after taking the job in March' rather than 'its new CEO has
     already begun restructuring'.
 - date: '2026-07-16'
   rule: Do not open a paragraph with 'The deal is far from certain' or equivalent
     hedging scene-setters that delay the substantive point. Lead directly with the
-    substantive claim — e.g. 'intense regulatory scrutiny is expected'.
+    substantive claim — eg, 'intense regulatory scrutiny is expected'.
 - date: '2026-07-17'
   rule: Do not describe a development as 'one of a growing number' in a way that hedges
     its significance. If the broader trend is worth noting, state the trend directly
     and let the specific item illustrate it.
 - date: '2026-07-20'
   rule: In headlines, abbreviate million, billion and trillion to m, bn, and tn respectively
-    — e.g. '$10m', '$10bn', '$10tn'.
+    — eg, '$10m', '$10bn', '$10tn'.
 - date: '2026-07-20'
   rule: Prefer 'say' (or 'said', 'says') over 'believe' or 'believes' when attributing
     views to individuals or organisations. Use verbs that report what people have
     stated rather than asserting their internal beliefs.
 - date: '2026-07-20'
-  rule: Do not include editorial notes about missing information — e.g. 'Whether this
+  rule: Do not include editorial notes about missing information — eg, 'Whether this
     is a newly created position is not stated in the source' or 'The appointee's background
     was not available.' If information is absent, simply omit it; do not flag its
     absence in the text.
 - date: '2026-07-21'
-  rule: Do not state a specific count of participants (e.g. "nine payment service
+  rule: Do not state a specific count of participants (eg, "nine payment service
     providers") when the named examples are introduced with "such as" or "including"
     — that phrasing signals the list isn't exhaustive, and a precise count contradicts
     it.
