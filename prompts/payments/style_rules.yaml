@@ -104,3 +104,8 @@
     is a newly created position is not stated in the source' or 'The appointee's background
     was not available.' If information is absent, simply omit it; do not flag its
     absence in the text.
+- date: '2026-07-21'
+  rule: Do not state a specific count of participants (e.g. "nine payment service
+    providers") when the named examples are introduced with "such as" or "including"
+    — that phrasing signals the list isn't exhaustive, and a precise count contradicts
+    it.
