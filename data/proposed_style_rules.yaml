@@ -2,4 +2,24 @@
 # Populated automatically by tools/extract_learning.py (via GitHub Actions on push
 # to data/feedback/). Review and promote/edit in the dashboard's 'Proposed style
 # rules' section — accepted rules move to prompts/payments/style_rules.yaml.
-[]
+- date: '2026-07-21'
+  rule: Do not include a specific count of participants (e.g. 'nine payment service
+    providers') in the standfirst or body when the named examples already convey the
+    scope. Remove the number if it adds no precision beyond what the names provide.
+- date: '2026-07-21'
+  rule: On first use of an organisation's name in the body, spell it out in full and
+    add the abbreviation in parentheses only if the abbreviation is used again later
+    — consistent with the existing abbreviation rule, applied here to 'The European
+    Payments Initiative (EPI)'.
+- date: '2026-07-21'
+  rule: In headlines, identify key named individuals rather than referring to them
+    only by title or role — e.g. 'CFPB's Vought signals…' rather than 'CFPB acting
+    director signals…'.
+- date: '2026-07-21'
+  rule: When naming an individual at the start of the body, place their name before
+    the title and organisation — e.g. 'Russell Vought, the CFPB's acting director'
+    — not 'The CFPB's acting director [name]'.
+- date: '2026-07-21'
+  rule: Do not open a paragraph with 'The partnership is notable less for X than for
+    Y' or equivalent constructions that announce notability before making a substantive
+    point. Delete the framing sentence and lead directly with the substantive claim.
