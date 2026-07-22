@@ -1,88 +1,83 @@
-title: 'Augustus pivots to stablecoin clearing; Montenegro banks go live on TIPS
+title: 'Augustus pivot; Montenegro instant payments go live; BIS on open finance
 
   '
 social_post: 'A former open banking startup raises $180m to become a stablecoin clearing
-  bank. Plus Montenegro''s banks go live on instant payments, and the BIS charts open
-  finance''s global spread. {link}
+  bank. Plus: Montenegro''s banks go live on TIPS, and the BIS tracks open finance''s
+  global scaling. {link}
 
   '
 stories:
-- headline: 'Augustus raises $180m to build clearing bank for stablecoins
+- headline: 'Augustus raises $180m to pivot from open banking to stablecoin clearing
 
     '
-  standfirst: 'The company formerly known as Ivy, once focused on open banking payments,
-    is repositioning as dedicated clearing infrastructure for stablecoins, reflecting
-    where venture capital sees the next layer of payment plumbing being built.
+  standfirst: 'The company formerly known as Ivy has abandoned its open banking payments
+    network to build clearing infrastructure for stablecoins, marking a notable shift
+    in where venture capital sees opportunity.
 
     '
-  body: 'Augustus has raised $180 million to develop a clearing bank purpose-built
-    for stablecoin settlement. The company, which previously operated as Ivy with
-    a focus on global open banking payments, raised a $20 million Series A in August
-    2023 before pivoting to its current model.
+  body: 'Augustus, which operated as Ivy until its rebrand, has raised $180 million
+    to build a clearing bank for stablecoins. The company previously raised $20 million
+    in a 2023 Series A to expand a global open banking payments network but has since
+    repositioned itself entirely around stablecoin settlement infrastructure.
 
 
-    The fundraise comes as stablecoin infrastructure attracts growing institutional
-    interest. Mastercard added stablecoin settlement to its merchant network in June,
-    Visa and Google backed the Open USD stablecoin launch on July 1, and Lightspark
-    secured Europe''s first combined MiCA and e-money licence earlier this month.
-    Augustus is betting that as stablecoin volumes scale, the clearing and settlement
-    layer will require dedicated banking infrastructure rather than being bolted onto
-    existing rails.
+    The pivot reflects a broader pattern in payments venture funding, where capital
+    is moving from open banking connectivity towards stablecoin and tokenised money
+    infrastructure. Augustus is betting that stablecoins will need dedicated clearing
+    and settlement services analogous to the correspondent banking layer in traditional
+    payments, rather than relying on the crypto exchange infrastructure that handles
+    most stablecoin flows today.
 
 
-    The pivot from open banking to stablecoin clearing is itself instructive. It suggests
-    that some early open banking infrastructure players see greater commercial opportunity
-    in the emerging stablecoin stack than in competing for account-to-account payment
-    volumes, where margins remain thin and incumbents such as Plaid and TrueLayer
-    have established positions.
+    The raise is substantial for a company at this stage and suggests investor conviction
+    that regulated stablecoin clearing will become a distinct infrastructure category.
+    European regulatory frameworks such as MiCA, combined with the proliferation of
+    bank-issued and consortium-backed stablecoins, are creating demand for institutional-grade
+    settlement that sits between issuers and payment networks.
 
     '
-  editorial_note: 'A company pivoting from open banking to stablecoin clearing infrastructure
-    illustrates where capital is flowing and how the payments plumbing landscape is
-    shifting, relevant to readers tracking both open banking and digital asset infrastructure.
+  editorial_note: 'A company pivoting from open banking to stablecoin clearing, with
+    a significant funding round, illustrates where capital is flowing and how the
+    payments infrastructure landscape is shifting.
 
     '
   sources: '[Augustus Raises $180 Million to Build Clearing Bank for Stablecoins](https://www.pymnts.com/news/investment-tracker/2026/augustus-raises-180-million-to-build-clearing-bank-for-stablecoins/)
     — PYMNTS.com'
   verification:
-    verified: false
-    warnings:
-    - Draft states Visa and Google backed Open USD launch on July 1, but the announcement
-      was June 30, 2026; it was not a 'launch' but announcement of future launch
-    - Draft claims Lightspark secured 'Europe's first' combined MiCA and e-money licence,
-      but sources confirm it is 'Estonia's first' - no evidence it is Europe's first
-      overall
+    verified: true
+    warnings: []
 - headline: 'Montenegrin banks go live on TIPS as instant payments launch
 
     '
-  standfirst: 'Multiple Montenegrin banks have activated instant payments on the ECB''s
-    TIPS infrastructure, marking the first live transactions following the country''s
-    July 20 launch date.
+  standfirst: 'Two Montenegrin banks have activated instant payments on the ECB''s
+    TIPS infrastructure, following the country''s adoption of SEPA-aligned instant
+    payments legislation on July 20.
 
     '
-  body: 'Adriatic Bank and Lovćen Banka have gone live with instant payments connected
-    to TIPS, the ECB''s settlement platform, following Montenegro''s scheduled launch
-    on July 20. The go-live makes Montenegro the latest non-eurozone country to connect
-    to TIPS, after Iceland signed up to the platform in June.
+  body: 'Adriatic Bank and Lovćen Banka have both launched instant payments services
+    connected to the ECB''s TARGET Instant Payment Settlement (TIPS) platform, making
+    Montenegro the latest non-eurozone country to go live on European instant payments
+    infrastructure. The launches follow Montenegro''s instant payments law, which
+    took effect on July 20.
 
 
-    Adriatic Bank described the service as operational for both domestic and cross-border
-    euro-denominated transfers, settling in seconds around the clock. Lovćen Banka
-    confirmed it is running what it calls a "TIPS Clone" implementation, indicating
-    it has deployed a local instance of the TIPS architecture. Both banks framed the
-    launch as part of broader alignment with European payment standards.
+    Montenegro uses the euro as its currency without being a eurozone member, which
+    simplifies its integration with TIPS but makes the regulatory alignment with SEPA
+    standards a deliberate policy choice rather than an obligation. The country joins
+    Iceland, which connected to TIPS in June, in extending the reach of European instant
+    payments infrastructure beyond the currency union''s formal borders.
 
 
-    Montenegro''s adoption extends the geographic reach of Europe''s instant payments
-    infrastructure into the Western Balkans. The country''s use of the euro as its
-    de facto currency, despite not being an EU member, makes TIPS connectivity a practical
-    step toward interoperability with the single euro payments area rather than a
-    purely aspirational alignment.
+    For the broader European instant payments ecosystem, each new country connection
+    strengthens the network effect that underpins the regulation''s ambition of pan-European
+    reach. Montenegro''s integration is a practical step, but the accumulating momentum
+    of non-eurozone connections to TIPS signals that the infrastructure is becoming
+    a de facto standard beyond its original jurisdictional scope.
 
     '
   editorial_note: 'This advances the previously covered story of Montenegro''s instant
-    payments law (July 7) to the go-live stage, with named banks confirming live transactions
-    — a genuinely new development in the expansion of Europe''s instant payments footprint.
+    payments law (July 7) to actual go-live, with named banks now processing transactions
+    on TIPS — a genuinely subsequent stage.
 
     '
   sources: '[Adriatic Bank successfully introduced instant payments: Transfer money
@@ -92,41 +87,46 @@ stories:
   verification:
     verified: false
     warnings:
-    - Draft says banks are connected to 'TIPS, the ECB's settlement platform,' but
-      Montenegro's system is TIPS Clone (developed by Banca d'Italia), not the ECB's
-      TIPS. Iceland signed an agreement to join TIPS in 2028, while Montenegro deployed
-      TIPS Clone on July 20, 2026 — these are distinct platforms and arrangements.
+    - Headline states Montenegro banks went 'live on TIPS' but they actually went
+      live on TIPS Clone (a Banca d'Italia platform), not the ECB's TARGET Instant
+      Payment Settlement system
+    - Draft states Iceland 'connected to TIPS in June' but Iceland only signed an
+      agreement in June 2026; actual TIPS connection is scheduled for 2028
 - headline: 'BIS reports rapid scaling of open finance adoption globally
 
     '
   standfirst: 'A new Bank for International Settlements assessment finds open finance
-    adoption accelerating across jurisdictions, providing an authoritative benchmark
-    as European and UK policymakers push their own frameworks forward.
+    adoption accelerating across multiple jurisdictions, providing a data point for
+    policymakers and industry participants tracking the shift from open banking to
+    broader data-sharing frameworks.
 
     '
   body: 'The Bank for International Settlements has published findings indicating
-    that open finance adoption is scaling rapidly across multiple jurisdictions, driven
-    by the growth of digital payments and expanding regulatory frameworks. The assessment
-    covers the broadening of data-sharing regimes beyond traditional banking into
-    areas such as insurance, pensions and investments.
+    that open finance adoption is scaling rapidly, driven by growth in digital payments
+    and expanding regulatory frameworks. The assessment covers the broadening of data-sharing
+    mandates beyond traditional bank account information into areas such as insurance,
+    investments and pensions.
 
 
-    The timing aligns with a concentrated period of policy activity. The UK chancellor
-    announced an open finance push focused on SME lending on July 14, the FCA published
-    its AI review with open finance in scope on July 7, and Switzerland extended its
-    open finance framework to cover pension data in June. The BIS assessment provides
-    a cross-jurisdictional view that contextualises these individual national efforts.
+    The BIS report lands as several jurisdictions are actively extending their frameworks.
+    Switzerland recently expanded its open finance regime to cover pension data, the
+    UK chancellor has announced an open finance consultation focused on SME lending,
+    and the EU''s investor data-sharing proposal applies open finance logic to capital
+    markets. The BIS assessment provides cross-jurisdictional evidence that these
+    individual moves reflect a global trend rather than isolated national experiments.
 
 
-    For European payments professionals, the BIS findings reinforce the direction
-    of travel: open finance is moving from a policy aspiration to an operational reality
-    in a growing number of markets, with regulatory frameworks increasingly reaching
-    beyond payment accounts into broader financial data.
+    For European payments and open banking professionals, the BIS''s institutional
+    endorsement of the scaling trend carries weight with policymakers and may accelerate
+    regulatory timelines. The report''s framing of open finance as a natural extension
+    of digital payment growth, rather than a standalone regulatory initiative, reinforces
+    the case that data-sharing infrastructure is becoming embedded in the payments
+    value chain.
 
     '
-  editorial_note: 'A BIS assessment on global open finance adoption provides an authoritative
-    cross-jurisdictional benchmark at a moment when multiple European and UK frameworks
-    are moving from consultation to implementation.
+  editorial_note: 'A BIS assessment on open finance scaling is material for the European
+    audience given active legislative programmes in the UK, EU and Switzerland; the
+    BIS''s institutional authority makes this more than routine commentary.
 
     '
   sources: '[Bank for International Settlements Says Open Finance Adoption is Rapidly
@@ -135,43 +135,47 @@ stories:
   verification:
     verified: false
     warnings:
-    - FCA published Mills Review on July 6, 2026, not July 7 as stated
-    - UK Chancellor SME lending announcement occurred July 12, 2026; Mansion House
-      speech where it was discussed was July 14
-- headline: 'UK parliamentary group investigates £1bn in rejected crypto transactions
+    - Core BIS report was published March 30, 2026 (84 days old, exceeds 5-day recency
+      threshold)
+    - UK Chancellor's announcement (July 14, 2026) commits to consult in 2027, not
+      to launch consultation now
+    - Switzerland's pension data expansion (June 17, 2026) was over a month ago, contradicting
+      'recently expanded' framing
+- headline: 'UK parliamentary inquiry examines £1bn in rejected crypto transactions
 
     '
-  standfirst: 'A UK parliamentary inquiry into banking barriers for crypto firms has
-    surfaced data showing over £1 billion in rejected transactions, including those
-    initiated through open banking, raising questions about proportionality in financial
-    crime controls.
+  standfirst: 'A UK all-party parliamentary group is investigating banking barriers
+    facing cryptocurrency firms, with evidence showing over £1 billion in rejected
+    payments including transactions initiated through open banking.
 
     '
-  body: 'A UK parliamentary group is investigating barriers that crypto firms face
-    in accessing banking services, with evidence submitted showing approximately £1
-    billion in rejected transactions. The figure covers both card payments and transfers
-    initiated through open banking that were declined or blocked by banks.
+  body: 'A UK parliamentary group is examining the scale of banking access problems
+    for cryptocurrency businesses, with evidence indicating that more than £1 billion
+    in transactions have been rejected. The blocked payments span both card transactions
+    and transfers initiated through open banking, raising questions about whether
+    de-banking practices are creating systemic barriers to lawful crypto activity
+    in the UK.
 
 
-    The inquiry touches on a tension familiar across the payments industry: the balance
-    between fraud prevention obligations and legitimate access to payment infrastructure.
-    Banks have increasingly applied blanket restrictions on crypto-related transactions,
-    citing anti-money laundering requirements, but the scale of rejections documented
-    in the parliamentary evidence suggests the approach may be disproportionate.
+    The inquiry sits alongside the UK government''s broader payments modernisation
+    agenda, which includes consultations on stablecoin regulation and open banking
+    reform. The Bank of England recently dropped individual holding caps in its stablecoin
+    regulatory framework, signalling a more accommodating stance towards digital assets,
+    but the parliamentary evidence suggests that bank-level risk appetite has not
+    shifted to match.
 
 
-    The investigation comes as UK regulators are recalibrating their approach to digital
-    assets more broadly. The Bank of England dropped individual holding caps in its
-    stablecoin regulatory rethink in June, and HM Treasury''s July consultation on
-    modernising payments regulation explicitly includes stablecoins in scope. Whether
-    parliamentary scrutiny of debanking practices translates into regulatory guidance
-    remains to be seen, but the scale of rejected transactions now has a public figure
-    attached to it.
+    The tension between regulatory liberalisation at the policy level and conservative
+    risk management at the bank level is a recurring theme across European markets.
+    For open banking providers, the investigation highlights that payment initiation
+    services can be caught in the same de-risking sweep as direct banking relationships,
+    potentially limiting open banking''s utility as an alternative funding rail for
+    digital asset businesses.
 
     '
-  editorial_note: 'The parliamentary inquiry quantifies crypto debanking at £1bn in
-    rejected transactions — including open banking-initiated ones — at a moment when
-    UK policy on digital assets and payments regulation is actively being rewritten.
+  editorial_note: 'The intersection of crypto de-banking with open banking payment
+    rejection is directly relevant to the audience; parliamentary scrutiny may influence
+    how banks apply risk policies to open banking-initiated payments.
 
     '
   sources: '[UK parliamentary group probes banking barriers for crypto firms](https://es.tradingview.com/news/cointelegraph:6a7cce6de094b:0-uk-parliamentary-group-probes-banking-barriers-for-crypto-firms/)
