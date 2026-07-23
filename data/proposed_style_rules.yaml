@@ -2,4 +2,14 @@
 # Populated automatically by tools/extract_learning.py (via GitHub Actions on push
 # to data/feedback/). Review and promote/edit in the dashboard's 'Proposed style
 # rules' section — accepted rules move to prompts/payments/style_rules.yaml.
-[]
+- date: '2026-07-23'
+  rule: 'On first use of an organisation''s name in the body text, include its abbreviation
+    in parentheses if that abbreviation is used again later in the same piece — eg,
+    ''The Financial Conduct Authority (FCA) is...'' followed by ''The FCA...'' This
+    is consistent with the existing rule: only add the parenthetical abbreviation
+    if the short form recurs.'
+- date: '2026-07-23'
+  rule: Do not state that something launched or happened when the source only confirms
+    plans or an announcement. Use 'announced plans to launch' or equivalent rather
+    than asserting the action as completed when it had not yet occurred at the time
+    of writing.
