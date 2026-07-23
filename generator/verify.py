@@ -45,14 +45,23 @@ cited sources). Use web search to check the following:
 Do your research silently, then respond with ONLY a single JSON object as your final
 message — no explanation, no preamble, no commentary, no code fences, before or after it:
 
-{{"verified": true or false, "warnings": ["short, specific warning — e.g. Source states $10bn, draft says £10bn"]}}
+{{"verified": true or false, "stale": true or false, "duplicate": true or false,
+"warnings": ["short, specific warning — e.g. Source states $10bn, draft says £10bn"]}}
 
-If nothing is wrong, return {{"verified": true, "warnings": []}}."""
+Set "stale" to true if and only if you flagged issue 2 (recency) above. Set "duplicate"
+to true if and only if you flagged issue 4 (duplicate coverage) above — leave it false
+if no "Previously covered" list was given. If nothing is wrong, return
+{{"verified": true, "stale": false, "duplicate": false, "warnings": []}}."""
 
 
 def _unparseable(text: str) -> dict:
     snippet = text.strip().replace("\n", " ")[:150]
-    return {"verified": False, "warnings": [f"verification response could not be parsed: {snippet!r}"]}
+    return {
+        "verified": False,
+        "stale": False,
+        "duplicate": False,
+        "warnings": [f"verification response could not be parsed: {snippet!r}"],
+    }
 
 
 def _parse_response(text: str) -> dict:
@@ -72,6 +81,8 @@ def _parse_response(text: str) -> dict:
         return _unparseable(raw)
     return {
         "verified": bool(data.get("verified", False)),
+        "stale": bool(data.get("stale", False)),
+        "duplicate": bool(data.get("duplicate", False)),
         "warnings": [str(w) for w in (data.get("warnings") or [])],
     }
 
@@ -117,7 +128,12 @@ def verify_story(
             last_error = e
             if attempt < MAX_ATTEMPTS - 1:
                 time.sleep(RETRY_BACKOFF_SECONDS * (attempt + 1))
-    return {"verified": False, "warnings": [f"verification check failed to run: {last_error}"]}
+    return {
+        "verified": False,
+        "stale": False,
+        "duplicate": False,
+        "warnings": [f"verification check failed to run: {last_error}"],
+    }
 
 
 def verify_briefing(briefing: dict, recently_covered: list[dict] | None = None) -> dict:
@@ -132,6 +148,8 @@ def verify_briefing(briefing: dict, recently_covered: list[dict] | None = None) 
         pre_existing = (story.get("verification") or {}).get("warnings") or []
         story["verification"] = {
             "verified": result["verified"] and not pre_existing,
+            "stale": result["stale"],
+            "duplicate": result["duplicate"],
             "warnings": pre_existing + result["warnings"],
         }
     return briefing

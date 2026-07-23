@@ -70,6 +70,40 @@ def build_system_prompt(system: dict, style_rules: list[dict]) -> str:
     return "\n\n".join(parts)
 
 
+def _covered_section(recently_covered: list[dict] | None) -> str:
+    if not recently_covered:
+        return ""
+    lines = [
+        f"- {e['date']}: {headline}"
+        for e in recently_covered
+        for headline in e["stories"]
+    ]
+    return (
+        "\n\n## Previously covered — avoid unless there is a genuinely new angle. "
+        "An aggregator republishing an old story under a fresh date does not count "
+        "as new, and neither does a different outlet reporting the same underlying "
+        "fact — check the underlying event, not the feed's publish date or source. "
+        "This list is internal context only: if you do select a follow-up story, "
+        "cite only today's new source in `sources` and explain the new angle in "
+        "`editorial_note` — never cite an entry from this list as a source.\n"
+        + "\n".join(lines)
+    )
+
+
+def _rejected_section(recently_rejected: list[dict] | None) -> str:
+    if not recently_rejected:
+        return ""
+    lines = [
+        f"- {e['date']}: {headline}"
+        for e in recently_rejected
+        for headline in e["stories"]
+    ]
+    return (
+        "\n\n## Editorially rejected — do not select these stories under any circumstances\n"
+        + "\n".join(lines)
+    )
+
+
 def build_user_prompt(story: dict, entries: list[dict], recently_covered: list[dict], recently_rejected: list[dict] | None = None) -> str:
     stories_text = "\n\n".join([
         f"ID: {i}\nSource: {e['source']}\nTitle: {e['title']}\nURL: {e['url']}\nSummary: {e['summary']}\nPublished: {e['published']}"
@@ -77,42 +111,12 @@ def build_user_prompt(story: dict, entries: list[dict], recently_covered: list[d
     ])
     date_str = datetime.now().strftime("%B %-d, %Y")
 
-    covered_section = ""
-    if recently_covered:
-        lines = [
-            f"- {e['date']}: {headline}"
-            for e in recently_covered
-            for headline in e["stories"]
-        ]
-        covered_section = (
-            "\n\n## Previously covered — avoid unless there is a genuinely new angle. "
-            "An aggregator republishing an old story under a fresh date does not count "
-            "as new, and neither does a different outlet reporting the same underlying "
-            "fact — check the underlying event, not the feed's publish date or source. "
-            "This list is internal context only: if you do select a follow-up story, "
-            "cite only today's new source in `sources` and explain the new angle in "
-            "`editorial_note` — never cite an entry from this list as a source.\n"
-            + "\n".join(lines)
-        )
-
-    rejected_section = ""
-    if recently_rejected:
-        lines = [
-            f"- {e['date']}: {headline}"
-            for e in recently_rejected
-            for headline in e["stories"]
-        ]
-        rejected_section = (
-            "\n\n## Editorially rejected — do not select these stories under any circumstances\n"
-            + "\n".join(lines)
-        )
-
     return (
         story["task"]
         + "\n\n"
         + story["selection_criteria"]
-        + covered_section
-        + rejected_section
+        + _covered_section(recently_covered)
+        + _rejected_section(recently_rejected)
         + "\n\n"
         + story["output_format"].replace("{date}", date_str)
         + "\n\n"
@@ -137,6 +141,29 @@ def _parse_yaml_response(text: str) -> dict:
     return data
 
 
+def _build_source_links(ids: list[int], by_id: dict[int, dict], headline: str = "") -> tuple[str, set[str]]:
+    """Resolve a list of numeric source_ids against the {id: entry} map into a
+    `sources` markdown string, deduping a story's own repeated/duplicate-URL
+    citations. Returns (sources_string, urls_used)."""
+    if isinstance(ids, int):
+        ids = [ids]
+    links = []
+    urls = set()
+    for sid in ids:
+        entry = by_id.get(sid)
+        if entry is None:
+            print(f"Warning: story {headline!r} cited unknown source_id {sid!r}")
+            continue
+        if entry["url"] in urls:
+            print(f"Warning: story {headline!r} cited source_id {sid!r} more than once")
+            continue
+        links.append(f"[{entry['title']}]({entry['url']}) — {entry['source']}")
+        urls.add(entry["url"])
+    if not links:
+        print(f"Warning: story {headline!r} has no resolvable sources")
+    return " | ".join(links), urls
+
+
 def _resolve_sources(data: dict, entries: list[dict]) -> dict:
     """Replace each story's `source_ids` with a `sources` markdown string built
     from the actual feed entry — the model cites IDs, never URLs, so the link
@@ -150,23 +177,7 @@ def _resolve_sources(data: dict, entries: list[dict]) -> dict:
     story_urls = []
     for story in stories:
         ids = story.pop("source_ids", None) or []
-        if isinstance(ids, int):
-            ids = [ids]
-        links = []
-        urls = set()
-        for sid in ids:
-            entry = by_id.get(sid)
-            if entry is None:
-                print(f"Warning: story {story.get('headline', '')!r} cited unknown source_id {sid!r}")
-                continue
-            if entry["url"] in urls:
-                print(f"Warning: story {story.get('headline', '')!r} cited source_id {sid!r} more than once")
-                continue
-            links.append(f"[{entry['title']}]({entry['url']}) — {entry['source']}")
-            urls.add(entry["url"])
-        if not links:
-            print(f"Warning: story {story.get('headline', '')!r} has no resolvable sources")
-        story["sources"] = " | ".join(links)
+        story["sources"], urls = _build_source_links(ids, by_id, story.get("headline", ""))
         story_urls.append(urls)
 
     for i, story in enumerate(stories):
@@ -176,13 +187,19 @@ def _resolve_sources(data: dict, entries: list[dict]) -> dict:
             print(f"Warning: story {headline!r} shares a cited source with another story in this briefing")
             story["verification"] = {
                 "verified": False,
+                "stale": False,
+                "duplicate": False,
                 "warnings": ["Cited source is also cited by another story in this briefing — likely a wrong or duplicate source_id"],
             }
     return data
 
 
-def generate_briefing(beat_name: str, entries: list[dict]) -> dict:
-    """Call the Claude API and return the generated briefing as a structured dict."""
+def generate_briefing(beat_name: str, entries: list[dict]) -> tuple[dict, list[dict]]:
+    """Call the Claude API and return (briefing, filtered_entries). filtered_entries
+    is the already-covered-filtered list actually shown to the model — its 1-based
+    position is what the model's source_ids refer to, so callers doing further
+    source_id-based work (e.g. the revise pass picking a replacement candidate)
+    need this exact list, not whatever was originally passed in."""
     system, story = load_prompts(beat_name)
     style_rules = load_style_rules(beat_name)
     recently_covered = load_recently_covered()
@@ -201,7 +218,7 @@ def generate_briefing(beat_name: str, entries: list[dict]) -> dict:
         messages=[{"role": "user", "content": user_prompt}],
     )
     data = _parse_yaml_response(message.content[0].text)
-    return _resolve_sources(data, entries)
+    return _resolve_sources(data, entries), entries
 
 
 def save_draft(beat_name: str, data: dict) -> Path:
@@ -227,11 +244,23 @@ if __name__ == "__main__":
     entries = resolve_display_sources(entries)
 
     print("Generating briefing...")
-    briefing = generate_briefing("payments", entries)
+    briefing, filtered_entries = generate_briefing("payments", entries)
+
+    print("Checking house style...")
+    from generator.style_check import check_briefing
+    briefing = check_briefing(briefing, load_style_rules("payments"))
 
     print("Verifying stories...")
     from generator.verify import verify_briefing
-    briefing = verify_briefing(briefing, recently_covered=load_recently_covered())
+    recently_covered = load_recently_covered()
+    briefing = verify_briefing(briefing, recently_covered=recently_covered)
+
+    print("Applying fixes and replacements...")
+    from generator.revise import revise_briefing
+    briefing = revise_briefing(
+        briefing, filtered_entries, "payments",
+        recently_covered=recently_covered, recently_rejected=load_recently_rejected(),
+    )
 
     path = save_draft("payments", briefing)
     print(f"Draft saved to {path}")
