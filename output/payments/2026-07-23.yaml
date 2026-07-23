@@ -1,187 +1,257 @@
-title: 'CFPB confirmation hearing; FCA picks Anthropic; hotel chains adopt open banking
-  cards
+title: 'Georgia open finance; Saudi open banking; Wero expansion; digital euro costs
 
   '
-social_post: 'CFPB confirmation hearing puts open banking fees centre stage, FCA taps
-  Anthropic for its AI sandbox, and hotel chains are quietly building open banking
-  into travel spending. Today''s briefing: {link}
+social_post: 'Georgia taps the Bank of Korea for open finance expertise, Saudi Arabia
+  hits 33 licensed payment firms, and banks quietly count the cost of the digital
+  euro. Today''s briefing: {link}
 
   '
 stories:
-- headline: 'CFPB confirmation hearing puts open banking fees and AI oversight in
-    focus
+- headline: 'Georgia''s central bank partners with Bank of Korea on open finance design
 
     '
-  standfirst: 'Brian Johnson''s Senate hearing to lead the CFPB is testing whether
-    the bureau''s rewritten open banking rule, with its controversial data fees for
-    fintechs, will survive political scrutiny.
+  standfirst: 'The National Bank of Georgia is drawing on Korean expertise to build
+    its open finance framework, formalising a bilateral agreement announced this week.
 
     '
-  body: 'The Senate Banking Committee held a confirmation hearing on July 22 for Brian
-    Johnson, nominated to serve as permanent director of the Consumer Financial Protection
-    Bureau. Open banking data fees, a centrepiece of the bureau''s revised rule published
-    in late June under acting director Russell Vought, featured prominently in questioning.
+  body: 'The National Bank of Georgia (NBG) and the Bank of Korea have signed a bilateral
+    agreement under the Knowledge Partnership Program to develop an open finance ecosystem
+    in Georgia. Korean experts will work alongside the NBG team on the concept and
+    design of the framework.
 
 
-    The revised rule narrowed the scope of data banks must share and introduced fees
-    that fintechs would pay to access consumer information, a significant departure
-    from the original 2024 rule that prohibited such charges. Industry trade groups
-    representing credit unions have pressed for a voice in shaping how the final framework
-    works in practice, while fintech lobbies have argued the fee structure violates
-    the Trump administration''s own executive order on reducing regulatory costs.
+    Georgia has been active in digital financial infrastructure this year, having
+    partnered with the Bank of Korea in June on a separate central bank digital currency
+    initiative and launched a lari-backed stablecoin with Tether in May. The open
+    finance agreement extends this relationship into data-sharing infrastructure,
+    an area where South Korea''s regulatory experience — particularly its MyData framework
+    — offers a relatively mature reference model.
 
 
-    Johnson''s confirmation will determine whether the CFPB pursues this fee-based
-    model or revisits it. For European observers, the US approach is diverging sharply
-    from the EU and UK frameworks, where API access costs have been a persistent friction
-    point but outright data fees on third-party providers remain outside the regulatory
-    conversation.
-
-    '
-  editorial_note: 'The CFPB confirmation hearing is the next material stage in the
-    US open banking saga, following the rule rewrite covered in late June. The hearing
-    itself — and the political pressure around data fees — is a genuinely new development
-    with direct relevance to how European professionals benchmark their own regulatory
-    models.
+    For a small economy with an ambitious fintech agenda, the choice of partner is
+    telling. Georgia is looking to jurisdictions with functioning open finance regimes
+    rather than defaulting to European or US models, both of which remain works in
+    progress.
 
     '
-  sources: '[CFPB director nomination hearing 2026: Live coverage](https://www.americanbanker.com/live-blog/cfpb-director-nomination-hearing-2026-live-coverage)
-    — American Banker | [CONSUMER FINANCIAL PROTECTION BUREAU—DCUC wants a voice at
-    CFPB ...](https://www.vitallaw.com/news/consumer-financial-protection-bureau-dcuc-wants-a-voice-at-cfpb-confirmation-hearing/blw01273c6e86bc2c4466b632a05d4644320b)
-    — VitalLaw.com'
-  verification:
-    verified: false
-    warnings:
-    - Story states hearing 'held' on July 22, but Senate Banking Committee hearing
-      scheduled for July 23, 2026
-    - Story claims revised rule 'published in late June' but as of June 26, 2026 rule
-      was still in development with planned release for July
-- headline: 'FCA selects Anthropic for second phase of its AI regulatory sandbox
-
-    '
-  standfirst: 'The UK regulator''s decision to partner with Anthropic signals a shift
-    from broad AI policy statements to hands-on testing, with implications for how
-    AI is supervised in payments and financial services.
-
-    '
-  body: 'The Financial Conduct Authority is partnering with Anthropic, the US AI firm
-    behind the Claude model, for the second phase of its AI sandbox. The programme
-    is designed to let the regulator test how AI tools function in supervised financial
-    services settings before writing formal rules.
-
-
-    The FCA published its AI review earlier in July, placing open finance and agentic
-    payments squarely within scope. Selecting Anthropic — rather than a European AI
-    developer — as the sandbox partner suggests the regulator is prioritising capability
-    over provenance in its testing work. The choice also reflects the reality that
-    the most advanced large language models used in financial services originate outside
-    Europe.
-
-
-    For payments firms exploring agentic commerce and AI-driven processes, the sandbox''s
-    findings will shape what the FCA considers acceptable use. The second phase is
-    expected to examine how AI interacts with regulated activities such as payment
-    initiation, risk assessment and customer communications.
-
-    '
-  editorial_note: 'This moves forward the FCA''s AI-in-financial-services agenda reported
-    in early July. The specific selection of Anthropic is new and consequential —
-    it determines the practical direction of the sandbox and has direct bearing on
-    payments firms building AI-driven products under FCA supervision.
-
-    '
-  sources: '[LATEST: FCA taps Anthropic for AI sandbox second phase](https://www.amlintelligence.com/2026/07/fca-taps-anthropic-for-ai-sandbox-second-phase/)
-    — AML Intelligence'
-  verification:
-    verified: true
-    warnings: []
-- headline: 'Major hotel chains launch open banking debit cards for UK travellers
-
-    '
-  standfirst: 'Hilton, Marriott and IHG have each launched UK debit cards built on
-    open banking rails, using Currensea''s infrastructure to offer real-time exchange
-    rates and loyalty integration at the point of spend.
-
-    '
-  body: 'Three of the world''s largest hotel groups — Hilton, Marriott and IHG — have
-    launched co-branded debit cards in the UK that use open banking connections to
-    customers'' existing bank accounts rather than requiring a separate prepaid balance
-    or credit facility. The cards are built on infrastructure from Currensea, a UK
-    fintech that links directly to users'' current accounts.
-
-
-    The model bypasses traditional card issuance entirely. Customers connect their
-    bank account via open banking, and the Currensea-powered card draws funds in real
-    time, offering foreign exchange rates as low as 0.5% on the top-tier product.
-    Loyalty points accrue directly on spending, creating a proposition that competes
-    with travel credit cards from the major banks.
-
-
-    The convergence of three competing hotel brands on the same open banking model
-    is notable not for the individual launches but for what it reveals about where
-    embedded finance is finding traction. Travel spending — high-value, cross-border,
-    loyalty-driven — is proving a natural fit for open banking distribution beyond
-    the pure fintech segment.
-
-    '
-  editorial_note: 'This is a concrete, commercially significant example of open banking
-    infrastructure being adopted by major non-financial brands in a way that directly
-    challenges incumbent card propositions. It illustrates where embedded open banking
-    is gaining real consumer-facing traction.
-
-    '
-  sources: '[Hilton, Marriott, and IHG Have All Launched UK Debit Cards. Here''s Why.](https://skift.com/2026/07/22/hilton-marriott-and-ihg-have-all-launched-uk-debit-cards-heres-why/)
-    — Skift'
-  verification:
-    verified: false
-    warnings:
-    - IHG uses Revolut's ecosystem, not Currensea's open banking model as the draft
-      implies. Draft states all three use 'open banking connections to customers'
-      existing bank accounts' but Skift source clarifies IHG 'taps Revolut's 75-million-customer
-      ecosystem as a customer acquisition channel' while only Hilton and Marriott
-      use Currensea
-- headline: 'Georgia''s central bank partners with Bank of Korea on open finance framework
-
-    '
-  standfirst: 'The National Bank of Georgia is working with South Korean counterparts
-    to design an open finance ecosystem, extending a bilateral relationship that already
-    produced the country''s lari-backed stablecoin initiative.
-
-    '
-  body: 'The National Bank of Georgia and the Bank of Korea have signed a bilateral
-    agreement under which Korean experts will help design an open finance framework
-    for Georgia. The collaboration falls within the Knowledge Partnership Program,
-    a longer-standing arrangement between the two institutions.
-
-
-    Georgia has been building its digital financial infrastructure at an unusual pace
-    for its size. The country launched a lari-backed stablecoin with Tether in May,
-    and the central bank is now looking to establish the data-sharing rules and technical
-    standards needed for an open finance ecosystem. South Korea''s own open banking
-    system, which has seen rapid consumer adoption since its 2019 launch, provides
-    a relatively mature model to draw from.
-
-
-    The partnership illustrates how open finance frameworks are spreading through
-    bilateral technical cooperation rather than solely through EU or UK regulatory
-    influence. For European providers, Georgia''s emerging infrastructure represents
-    both a potential market and a test of whether open finance models can be adapted
-    outside the EU''s regulatory perimeter.
-
-    '
-  editorial_note: 'Georgia is building an unusually ambitious digital finance stack
-    for a country of its size, and the Korean partnership adds a new dimension. The
-    story is relevant because it shows open finance frameworks propagating through
-    non-EU channels, which has strategic implications for European providers and standard-setters.
+  editorial_note: 'This follows the previously covered Georgia-Korea partnership but
+    covers a materially new development — the open finance bilateral agreement, distinct
+    from the earlier CBDC cooperation.
 
     '
   sources: '[NBG, Bank of Korea sign bilateral agreement within Knowledge Partnership
     Program](https://1tv.ge/lang/en/news/nbg-bank-of-korea-sign-bilateral-agreement-within-knowledge-partnership-program/)
     — 1TV'
+  style_check:
+    compliant: false
+    warnings:
+    - 'Standfirst: ''formalising a bilateral agreement announced this week'' — uses
+      vague temporal reference ''this week'' when a specific date should be used per
+      house style rules on temporal references'
+    - 'Body: ''having partnered with the Bank of Korea in June on a separate central
+      bank digital currency initiative'' — uses vague temporal reference ''in June''
+      when a specific date is available; should use precise date (eg, ''on June 15'')
+      per house style rules'
+    - 'Headline and body: ''open finance'' — abbreviation/acronym not spelled out
+      on first use; while ''open finance'' may be a standard term, if it''s treated
+      as requiring definition elsewhere in the piece, consider whether it needs introduction'
+    - 'Body: ''particularly its MyData framework'' — introduces ''MyData framework''
+      without spelling out what MyData stands for on first reference, inconsistent
+      with the rule requiring abbreviations/acronyms to be spelled out in full on
+      first use'
   verification:
     verified: false
+    stale: false
+    duplicate: true
     warnings:
-    - Draft states Georgia 'launched' a lari-backed stablecoin in May. Sources confirm
-      May 25, 2026 announcement of plans to launch GEL₮, but result index 10-1 states
-      'As of May 2026, no official launch date for GEL₮ has been publicly confirmed'
-      — inaccuracy in launch vs. announcement
+    - Draft claims Georgia partnered with Bank of Korea on CBDC initiative in June
+      2026, but search finds only an open finance/cashless payments partnership (no
+      CBDC agreement). Georgia's CBDC work (Digital Lari) is partnered with Ripple,
+      not Bank of Korea. Story also appears in previously covered list dated 2026-07-23
+      as same event.
+  revision:
+    replaced: false
+    summary:
+    - Flagged as duplicate coverage but no unused candidate was available — kept as-is,
+      editor should review.
+- headline: Saudi Arabia licences 33rd payment firm as open banking regime scales
+  standfirst: SAMA's authorisation of Malaa Company for open banking services brings
+    the total number of licensed payment firms in the kingdom to 33.
+  body: 'The Saudi Central Bank (SAMA) has licensed Malaa Company for Information
+    Technology to provide open banking services, bringing the total number of licensed
+    payment services companies in Saudi Arabia to 33.
+
+
+    Saudi Arabia''s open banking framework, launched in 2022, has moved through its
+    phases more quickly than many Gulf peers. The kingdom''s approach has been to
+    license a broad range of providers — account information and payment initiation
+    — while keeping regulatory oversight centralised under SAMA. At 33 licensed firms,
+    the regime is generating genuine commercial interest rather than remaining a regulatory
+    showcase.
+
+
+    The Gulf''s open banking landscape is increasingly competitive. Bahrain was the
+    early mover, but Saudi Arabia''s larger market and steady licensing pace are drawing
+    more providers. For European open banking firms eyeing international expansion,
+    the Saudi market''s regulatory clarity and scale make it one of the more plausible
+    entry points in the region.'
+  editorial_note: Saudi Arabia's open banking licensing milestones are relevant to
+    a European audience tracking international open finance expansion and potential
+    market opportunities beyond PSD2/PSD3 jurisdictions.
+  sources: '[SAMA Licenses Malaa Company for Information Technology to Provide Open
+    Banking Services](https://www.spa.gov.sa/en/N2639494) — Spa'
+  style_check:
+    compliant: false
+    warnings:
+    - 'Standfirst: ''marks steady expansion'' — this announces significance before
+      making a substantive point. Rewrite directly with the substantive claim (e.g.,
+      ''Malaa Company''s licence brings the total...'' or similar).'
+    - 'Body, paragraph 2: ''Reaching 33 licensed firms signals that the regime is
+      generating genuine commercial interest rather than remaining a regulatory showcase.''
+      — This is hedged analysis (''signals that'') rather than a direct statement.
+      State the substantive point directly without the qualifying language.'
+    - 'Body, paragraph 3: ''Saudi Arabia''s larger market and more aggressive licensing
+      pace are drawing more providers.'' — Avoid vague comparison (''more aggressive'').
+      Either quantify the pace or describe it directly without comparative language
+      that isn''t substantiated in the text.'
+  verification:
+    verified: true
+    stale: false
+    duplicate: false
+    warnings: []
+  revision:
+    replaced: false
+    summary:
+    - Standfirst rewritten to lead with the substantive fact ('brings the total number
+      of licensed payment firms in the kingdom to 33') rather than announcing significance
+      with 'marks steady expansion'.
+    - 'Body paragraph 2: replaced hedged ''Reaching 33 licensed firms signals that
+      the regime is generating genuine commercial interest'' with direct statement
+      ''At 33 licensed firms, the regime is generating genuine commercial interest''.'
+    - 'Body paragraph 3: replaced unsubstantiated comparative ''more aggressive licensing
+      pace'' with ''steady licensing pace'' to avoid vague comparison not supported
+      by data in the text.'
+- headline: 'Banks weigh implementation costs as digital euro pilot phase begins
+
+    '
+  standfirst: 'With 36 providers selected for the ECB''s digital euro pilot, banks
+    are now confronting the practical question of whether the investment case justifies
+    the cost.
+
+    '
+  body: 'As the ECB''s digital euro moves into its pilot phase with 36 selected payment
+    providers, a quieter debate is intensifying among banks about the cost-benefit
+    calculus of participation. Industry analysis from Tieto and others highlights
+    that banks face significant technology investment to support the digital euro
+    alongside existing instant payment infrastructure, with limited clarity on the
+    revenue model.
+
+
+    The European Parliament''s ECON committee voted in July to advance the digital
+    euro regulation to final negotiations, giving the project political momentum.
+    But political momentum and commercial viability are different things. Banks must
+    build new systems for offline capability, holding limits and privacy controls
+    while also completing their SEPA instant payments migration under the EU''s 2025
+    regulation. The parallel implementation burden is substantial.
+
+
+    Trade bodies have already warned that the digital euro''s design could lock out
+    open banking providers from key payment flows. For banks, the concern is more
+    fundamental: mandatory distribution of a product with capped holdings, no interest
+    and regulated fees creates an infrastructure obligation without a clear return.
+    The pilot phase will sharpen these calculations considerably.
+
+    '
+  editorial_note: 'Builds on earlier coverage of the ECON vote and pilot selection
+    by surfacing the commercial cost question banks are now actively grappling with
+    — a dimension not previously covered.
+
+    '
+  sources: '[Digital euro nears reality but banks weigh cost vs reward](https://fintech.global/2026/07/22/digital-euro-nears-reality-but-banks-weigh-cost-vs-reward/)
+    — FinTech Global'
+  style_check:
+    compliant: false
+    warnings:
+    - 'Standfirst: ''36 providers selected'' contradicts the body which states ''36
+      selected payment providers'' — this is near-verbatim repetition of the same
+      phrasing across standfirst and body that should be avoided.'
+    - 'Body: ''Industry analysis from Tieto and others highlights'' — ''Tieto'' is
+      introduced without explanation of what it is (organization type, role, etc.),
+      making it unclear to readers unfamiliar with the entity.'
+    - 'Body: ''under the EU''s 2025 regulation'' — vague temporal reference; should
+      specify the deadline more precisely (e.g., ''by 2025'') or provide the specific
+      date if available.'
+    - 'Body: ''The parallel implementation burden is substantial'' — this announces
+      significance before making the substantive point rather than stating the point
+      directly; the sentence should lead with the concrete impact rather than declaring
+      burden to be ''substantial''.'
+  verification:
+    verified: false
+    stale: true
+    duplicate: true
+    warnings:
+    - ECON committee voted June 23, 2026, not July. July 9 was full Parliament plenary
+      vote.
+    - Core event (ECB selects 36 providers) announced July 14, 2026 - nine days old,
+      exceeds 5-day recency threshold
+    - Duplicate of 2026-07-15 and 2026-07-16 coverage of ECB's 36-provider selection
+      announcement
+  revision:
+    replaced: false
+    summary:
+    - Flagged as stale but no unused candidate was available — kept as-is, editor
+      should review.
+- headline: Viva.com integrates Wero wallet as EPI adds acquiring-side distribution
+  standfirst: The Greek-founded payments group's adoption of Wero signals EPI's push
+    beyond issuing banks into the merchant acceptance layer.
+  body: 'Viva.com, the payments platform in which JPMorgan holds a 48.5% stake, is
+    integrating Wero wallet functionality, becoming one of the first acquirer-side
+    platforms to adopt the European Payments Initiative''s digital wallet. The move
+    extends Wero''s reach beyond the issuing bank relationships that have driven its
+    rollout so far.
+
+
+    EPI''s expansion has followed a deliberate sequence: launch in core markets such
+    as Germany and France, build person-to-person payment volumes, then move into
+    online and point-of-sale commerce. Viva.com''s integration represents progress
+    on the commerce side, giving Wero a route to merchant acceptance across the 24
+    European markets where Viva.com operates.
+
+
+    Wero''s commercial viability depends on merchant adoption, not just consumer uptake.
+    With Rabobank beginning iDEAL-to-Wero migration in the Netherlands and Austrian
+    banks joining EPI in June, the scheme is building breadth. Adding acquiring infrastructure
+    is the piece that turns a wallet into a payment method merchants will accept at
+    scale.'
+  editorial_note: Wero's expansion into acquirer-side distribution through Viva.com
+    is a meaningful new dimension beyond the issuing-bank and P2P rollouts previously
+    covered.
+  sources: '[Viva.com adds Wero wallet after joining European Payments Initiative](https://finance.yahoo.com/markets/currencies/articles/viva-com-adds-wero-wallet-074624419.html)
+    — Yahoo Finance'
+  style_check:
+    compliant: false
+    warnings:
+    - 'Body paragraph 3 opens with ''The acquirer angle matters because'' — this is
+      a significance-flagging construction that announces importance before making
+      the substantive point. The rule states: ''Never flag significance explicitly.
+      Do not write sentences that announce importance before explaining it.'' Rewrite
+      to lead with the substantive claim directly, such as: ''Wero''s commercial viability
+      depends on merchant adoption, not just consumer uptake, making the acquirer
+      angle critical.'''
+  verification:
+    verified: false
+    stale: false
+    duplicate: false
+    warnings:
+    - Story states 'Viva.com, the payments platform owned by JPMorgan since 2024'
+      but JPMorgan acquired 48.5% stake in Jan 2022 (closed Dec 2022), not since 2024,
+      and does not own the company outright (WeRealize owns 51.5%)
+  revision:
+    replaced: false
+    summary:
+    - 'Corrected JPMorgan ownership claim: changed ''owned by JPMorgan since 2024''
+      to ''in which JPMorgan holds a 48.5% stake'', reflecting the minority stake
+      acquired (closed December 2022) rather than outright ownership.'
+    - Removed significance-flagging opener 'The acquirer angle matters because' from
+      paragraph 3 and led directly with the substantive claim about Wero's commercial
+      viability depending on merchant adoption.
