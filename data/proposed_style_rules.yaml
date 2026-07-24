@@ -13,3 +13,32 @@
     plans or an announcement. Use 'announced plans to launch' or equivalent rather
     than asserting the action as completed when it had not yet occurred at the time
     of writing.
+- date: '2026-07-24'
+  rule: For stories originating outside Europe that are relevant to a European audience,
+    the opening sentence (lede) should frame the story in terms of its broader or
+    global relevance — eg, 'could shape how regulators worldwide respond to X'. Mention
+    the specific geographic origin (eg, North America) in the following sentence,
+    not the lede.
+- date: '2026-07-24'
+  rule: Do not start the headline, standfirst, and body opening sentence with the
+    same word or phrase. Vary the opening across all three elements.
+- date: '2026-07-24'
+  rule: Do not apply the abbreviation-in-parentheses rule to the standfirst. In the
+    standfirst, common and recognisable abbreviations (such as FCA, EPI) may be used
+    on first mention without spelling them out. Spell-out-plus-parenthetical is only
+    required in the body text.
+- date: '2026-07-24'
+  rule: Treat the body as a standalone content section for the purpose of abbreviation
+    rules. If an abbreviation is introduced in the standfirst, it must still be spelled
+    out in full on first use in the body, with the abbreviation in parentheses if
+    it recurs within the body — eg, 'the Financial Conduct Authority (FCA)' in the
+    body even if 'FCA' appeared in the standfirst.
+- date: '2026-07-24'
+  rule: When a company name has a recognisable short form (eg, 'Viva' from 'Viva.com'),
+    use the short form consistently after first mention rather than repeating the
+    full branded name each time.
+- date: '2026-07-24'
+  rule: Replace em dashes used to introduce a parenthetical or explanatory clause
+    — such as 'agentic fintech — where AI agents act' — with a comma when the clause
+    is non-parenthetical and flows naturally as a relative clause. Use 'agentic fintech,
+    where AI agents act' instead.
