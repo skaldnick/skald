@@ -1,0 +1,292 @@
+title: 'FDATA framework; Viva.com joins Wero; Zelle fraud ruling
+
+  '
+social_post: 'FDATA wants regulators to get ahead of agentic AI with a new open finance
+  framework. Plus: Wero gains another merchant acquirer and a US judge keeps Zelle''s
+  fraud case alive. {link}
+
+  '
+stories:
+- headline: FDATA proposes framework to govern write access in open finance
+  standfirst: The trade body's new policy paper categorises open finance activities
+    into read, instruct and transact tiers, aiming to give North American regulators
+    a structure for handling agentic AI and payment initiation as the sector moves
+    beyond data-sharing.
+  body: 'The Financial Data and Technology Association (FDATA) has published a policy
+    framework designed to guide regulators in the US and Canada as open finance expands
+    from read-only data access into write access, where third parties can initiate
+    transactions on a consumer''s behalf. The framework introduces three tiers of
+    activity — read, instruct and transact — each with escalating requirements for
+    consumer protection, authentication and liability.
+
+
+    Steve Boms, FDATA''s executive director, said the framework is intended to give
+    policymakers a principles-led approach rather than prescriptive rules, accommodating
+    emerging use cases such as agentic fintech — where AI agents act autonomously
+    on behalf of consumers. The paper argues that without a clear regulatory structure
+    for write access, the industry risks either fragmented national approaches or
+    a regulatory vacuum that could undermine consumer trust.
+
+
+    Several parallel regulatory processes make the framework''s read-instruct-transact
+    taxonomy relevant beyond North America. The FCA''s AI sandbox is actively testing
+    agentic applications, the HM Treasury consultation on payments regulation proposes
+    a statutory right for variable recurring payments, and the ECB''s digital euro
+    work raises questions about how third-party access will function alongside a central
+    bank digital currency. FDATA''s framework is designed to provide a conceptual
+    scaffold that could inform comparable debates in all three areas.'
+  editorial_note: FDATA's framework is a substantive industry contribution to an active
+    policy debate on write access and agentic payments. Though targeted at US and
+    Canadian regulators, it has relevance to the UK payments regulation consultation
+    and European open finance developments.
+  sources: '[FDATA calls for a principles-led framework for the next generation of
+    Open Finance](https://www.openbankingexpo.com/news/fdata-calls-for-a-principles-led-framework-for-the-next-generation-of-open-finance/)
+    — Openbankingexpo | [FDATA Proposes New Policy Framework for Agentic Fintech and
+    Write Access](https://ffnews.com/news/fdata-proposes-new-policy-framework-for-agentic-fintech-and-write-access)
+    — Ffnews'
+  style_check:
+    compliant: false
+    warnings:
+    - 'Paragraph 3, sentence 1: ''The timing aligns with several parallel developments''
+      — This is a scene-setter that delays the substantive point. Lead directly with
+      the substantive claim about regulatory developments rather than announcing the
+      timing''s relevance.'
+    - 'Paragraph 3, sentence 2: ''FDATA''s framework attempts to provide a conceptual
+      scaffold that could inform all three'' — This uses hedging language (''attempts'',
+      ''could'') that softens the substantive point. State more directly what the
+      framework is designed to do.'
+    - Body text uses 'FDATA' as abbreviation on first reference without spelling out
+      'Financial Data and Technology Association' in parentheses, though this is done
+      in the first sentence. However, the rule requires spelling out non-standard
+      abbreviations on first use in parentheses, and while FDATA is spelled out once,
+      the abbreviation should be parenthesized at that first full spelling.
+  verification:
+    verified: false
+    stale: false
+    duplicate: false
+    warnings:
+    - 'Framework scope: White paper is specifically for United States and Canada,
+      not Europe-wide. Article does not clarify that FDATA''s write-access framework
+      targets North American regulators, despite being published in a European payments
+      briefing'
+  revision:
+    replaced: false
+    summary:
+    - Clarified in standfirst and body that the framework targets US and Canadian
+      regulators, not European ones, per the fact-check flag on geographic scope.
+    - Replaced scene-setting opener 'The timing aligns with several parallel developments'
+      with a direct substantive lead about regulatory processes making the taxonomy
+      relevant beyond North America.
+    - Replaced hedging language 'attempts to provide a conceptual scaffold that could
+      inform all three' with the more direct 'is designed to provide a conceptual
+      scaffold that could inform comparable debates in all three areas'.
+    - Added parenthetical '(FDATA)' after the first full spelling of 'Financial Data
+      and Technology Association' to conform with house style on abbreviations.
+    - Updated editorial note to reflect that the framework is North American in scope
+      with cross-border relevance.
+- headline: Viva.com adds Wero wallet as EPI extends merchant reach
+  standfirst: Viva.com has joined EPI and integrated Wero wallet payments into its
+    platform, giving the scheme access to an acquirer network spanning 29 European
+    markets beyond its core Franco-German banking base.
+  body: 'Viva.com, the pan-European merchant acquirer, has joined the European Payments
+    Initiative (EPI) and integrated Wero wallet payments into its platform. The move
+    gives Wero access to Viva.com''s merchant network across 29 European markets,
+    offering a distribution channel that extends well beyond the scheme''s existing
+    footprint in France, Germany, Belgium, the Netherlands and Austria.
+
+
+    Since EPI''s founding in 2020, its central difficulty has been less about technology
+    than about achieving the network effects needed to compete with Visa, Mastercard
+    and domestic schemes. Acquirer adoption is a critical step: merchants will not
+    offer Wero at checkout without processor support, and consumers will not adopt
+    it without merchant acceptance. Viva.com''s participation addresses one side of
+    that equation, though the scheme still faces the harder task of driving consumer
+    demand in markets where card habits are entrenched.
+
+
+    The announcement follows Rabobank''s decision in June 2025 to begin migrating
+    iDEAL transactions to Wero in the Netherlands, and BoursoBank''s integration of
+    Wero for peer-to-peer payments in France. EPI remains in its early scaling phase,
+    but the acquirer side of the network is filling in faster than the consumer side.'
+  editorial_note: Acquirer adoption is a key bottleneck for Wero's scaling ambitions.
+    Viva.com joining EPI is a concrete step that extends the scheme's merchant reach
+    beyond core markets and merits tracking.
+  sources: '[Viva.com adds Wero wallet after joining European Payments Initiative](https://finance.yahoo.com/markets/currencies/articles/viva-com-adds-wero-wallet-074624419.html)
+    — Yahoo Finance'
+  style_check:
+    compliant: false
+    warnings:
+    - 'Standfirst: ''The Greek-headquartered acquirer''s adoption of Wero signals
+      the European Payments Initiative is gaining traction beyond its core Franco-German
+      banking base.'' — This is a scene-setting subordinate clause that should be
+      moved later in the sentence per the rule on standfirst construction. Lead with
+      the substantive news (Viva.com has joined EPI and integrated Wero) rather than
+      the interpretive signal.'
+    - 'Body: ''EPI''s challenge has always been less about technology than about achieving
+      the network effects needed to compete with Visa, Mastercard and domestic schemes.''
+      — This is a vague temporal reference (''has always been''). Use a specific time
+      period instead.'
+    - 'Body: ''The announcement follows Rabobank''s decision in June to begin migrating
+      iDEAL transactions to Wero in the Netherlands'' — Avoid vague temporal references
+      such as ''in June'' when a specific date is available. Use the precise date
+      (e.g., ''on June 15'') or, where only a month is known, include the year for
+      clarity.'
+    - 'Body: ''Each new participant makes it marginally harder for holdout banks and
+      acquirers to stay on the sidelines, but EPI remains in its early scaling phase.''
+      — This statement (''makes it marginally harder'') is hedging language that delays
+      the substantive point. Lead directly with the substantive claim about EPI''s
+      progress or challenges.'
+  verification:
+    verified: false
+    stale: false
+    duplicate: false
+    warnings:
+    - Draft states 'more than 20 European markets' but source confirms 29 markets.
+      While technically correct, this significantly understates Viva.com's actual
+      footprint.
+  revision:
+    replaced: false
+    summary:
+    - Changed 'more than 20 European markets' to '29 European markets' to reflect
+      the source-confirmed figure.
+    - Restructured standfirst to lead with the substantive news (Viva.com joining
+      EPI and integrating Wero) rather than a scene-setting subordinate clause.
+    - Replaced vague 'has always been' with 'Since EPI's founding in 2020' to anchor
+      the temporal reference.
+    - Changed 'in June' to 'in June 2025' for temporal precision, as the specific
+      date was not available.
+    - Replaced hedging final sentence ('Each new participant makes it marginally harder...')
+      with a direct substantive claim about the acquirer side of the network filling
+      in faster than the consumer side.
+- headline: US judge allows New York fraud lawsuit against Zelle to proceed
+  standfirst: A federal judge has denied Zelle operator Early Warning Services' motion
+    to dismiss New York's fraud lawsuit, keeping alive a case that could set expectations
+    for real-time payment operators' liability for fraud losses.
+  body: 'A US judge has rejected a motion by Early Warning Services, the bank consortium
+    behind Zelle, to dismiss a lawsuit brought by New York attorney general Letitia
+    James. The suit alleges Zelle failed to protect users from widespread fraud on
+    its peer-to-peer payments network, and that participating banks did not adequately
+    reimburse victims.
+
+
+    The ruling allows the case to proceed to discovery and potentially trial, keeping
+    pressure on the operator of America''s largest real-time peer-to-peer payment
+    system. The core legal question — whether payment network operators bear responsibility
+    for fraud that flows through their rails — has direct parallels to debates in
+    the UK, where the PSR''s mandatory APP fraud reimbursement regime has already
+    shifted liability onto sending banks and payment firms.
+
+
+    The case tests a different model of accountability from the one emerging in Europe.
+    The UK approach relies on regulation; this case could establish liability through
+    litigation. Either route shapes the commercial calculus for any firm operating
+    instant payment infrastructure, particularly as SEPA instant payments scale and
+    verification of payee remains unevenly implemented.'
+  editorial_note: This ruling has cross-border relevance for European payments professionals
+    because it tests operator liability for fraud on real-time rails — a live issue
+    in Europe as instant payments scale and VoP implementation lags.
+  sources: '[Judge rejects Zelle bid to dismiss lawsuit over fraud losses](https://www.finextra.com/newsarticle/48139/judge-rejects-zelle-bid-to-dismiss-lawsuit-over-fraud-losses?utm_medium=rssfinextra&utm_source=finextrafeed)
+    — Finextra'
+  style_check:
+    compliant: false
+    warnings:
+    - 'Standfirst: ''The ruling keeps alive a case that could set expectations'' —
+      this is scene-setting that should be moved later; lead with the substantive
+      news (the judge''s decision allows the lawsuit to proceed).'
+    - 'Body: ''The ruling does not determine liability but allows the case to proceed''
+      — this hedging phrase (''does not determine liability but'') delays the substantive
+      point; lead directly with what the ruling does accomplish.'
+    - 'Body: ''For European observers, the case is worth watching because'' — this
+      announces significance before the point; remove ''is worth watching because''
+      and state the substantive comparison directly.'
+  verification:
+    verified: true
+    stale: false
+    duplicate: false
+    warnings: []
+  revision:
+    replaced: false
+    summary:
+    - 'Standfirst: Restructured to lead with the substantive news (judge denied the
+      motion to dismiss) and moved the scene-setting clause (''keeping alive a case
+      that could set expectations...'') to the end.'
+    - 'Body paragraph 2: Removed the hedging opener ''The ruling does not determine
+      liability but'' so the sentence leads directly with what the ruling accomplishes
+      (''allows the case to proceed'').'
+    - 'Body paragraph 3: Replaced ''For European observers, the case is worth watching
+      because it tests'' with a direct statement (''The case tests''), removing the
+      significance-announcing phrasing.'
+- headline: Open finance could pose existential threat to advice sector, fintech commentator
+    warns
+  standfirst: Financial advisers risk disintermediation if they fail to engage with
+    open finance data-sharing, according to Ian McKenna of the Financial Technology
+    Research Centre, as the Financial Conduct Authority's (FCA) regulatory framework
+    for the sector takes shape.
+  body: 'Ian McKenna, founder of the Financial Technology Research Centre, has warned
+    that open finance could represent an "existential threat" to the financial advice
+    market if advisers do not adapt to a world where consumers can share portfolio,
+    pension and banking data directly with competing services. The argument is that
+    automated, data-driven tools could replicate much of what advisers currently do,
+    particularly for mass-market clients, at a fraction of the cost.
+
+
+    The warning comes as the FCA develops its open finance regulatory framework, with
+    pensions and investment data explicitly in scope following its roadmap. In Switzerland,
+    industry-led initiatives have begun enabling the sharing of pension data between
+    providers, though these are voluntary rather than regulatory mandates. The UK
+    appears to be moving toward a more structured approach. For advisory firms, the
+    risk is not that open finance will eliminate advice, but that it will compress
+    margins on routine services and redirect client relationships toward platforms
+    that can aggregate and act on data more efficiently.
+
+
+    The underlying dynamic is real: once consumers can consent to share financial
+    data across providers, the switching costs that sustain advisory relationships
+    fall sharply.'
+  editorial_note: This story connects open finance regulation to a concrete commercial
+    consequence in an adjacent sector. It illustrates the disruptive potential of
+    data-sharing mandates beyond payments and banking.
+  sources: '[Open finance could pose ''existential threat'' to advice market](https://www.professionaladviser.com/news/4533114/open-finance-pose-existential-threat-advice-market)
+    — Professional Adviser'
+  style_check:
+    compliant: false
+    warnings:
+    - 'Standfirst: ''FDATA'' is used without being spelled out on first reference.
+      Rule requires abbreviations to be spelled out in full followed by the abbreviation
+      in parentheses on first use.'
+    - 'Body: ''FDATA'' is used multiple times without ever spelling out what the abbreviation
+      stands for. Rule requires full spelling on first reference followed by abbreviation.'
+    - 'Body: ''FCA'' is used without being spelled out on first reference. Rule requires
+      abbreviations to be spelled out in full followed by the abbreviation in parentheses
+      on first use (with exception only for very common abbreviations like US, UK,
+      UN).'
+    - 'Body: ''April 2026'' is vague temporal reference. Rule requires specific dates
+      or dates with context when available rather than just month and year.'
+  verification:
+    verified: false
+    stale: false
+    duplicate: false
+    warnings:
+    - Professional Adviser article attributes the 'existential threat' warning to
+      Ian McKenna (Financial Technology Research Centre) not FDATA; story headline
+      and body attribute it to FDATA. Additionally, claim that 'Switzerland has already
+      extended its open finance framework to cover pension data' is misleading - Switzerland
+      has no statutory open finance framework; industry-led open pension initiatives
+      exist but this is not a regulatory framework extension like the FCA's.
+  revision:
+    replaced: false
+    summary:
+    - Reattributed 'existential threat' warning from FDATA to Ian McKenna of the Financial
+      Technology Research Centre, per the Professional Adviser source.
+    - 'Corrected the Switzerland claim: replaced misleading reference to a statutory
+      open finance framework with accurate description of industry-led voluntary pension
+      data-sharing initiatives.'
+    - Spelled out Financial Conduct Authority (FCA) on first use in the standfirst,
+      with abbreviation used thereafter in the body.
+    - Removed FDATA references entirely since the warning is not attributable to FDATA;
+      headline now reads 'fintech commentator warns'.
+    - Removed 'April 2026' vague temporal reference, replacing with 'its roadmap'
+      — the specific date of the roadmap publication was not available in the source
+      material provided.
+    - Removed the final paragraph's characterisation of FDATA as a potentially self-interested
+      party, since the warning is no longer attributed to FDATA.
