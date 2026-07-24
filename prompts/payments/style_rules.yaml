@@ -29,9 +29,9 @@
     must be self-contained: it explains the story from the beginning (who, what, where,
     when, why, how), not a continuation of the standfirst''s sentence. Avoid near-verbatim
     repetition of the same phrasing across headline, standfirst, and body (eg, headline
-    "Company does X", standfirst "Company something", body "Company does X")
-    — but the body restating or developing the standfirst''s point in more depth and
-    different wording is expected, not a violation.'
+    "Company does X", standfirst "Company something", body "Company does X") — but
+    the body restating or developing the standfirst''s point in more depth and different
+    wording is expected, not a violation.'
 - date: '2026-07-09'
   rule: Apply the standard words-for-one-to-nine / digits-from-10 rule but avoid starting
     a headline, standfirst or sentence with digits.
@@ -68,8 +68,8 @@
     the substantive point directly.
 - date: '2026-07-15'
   rule: Avoid vague temporal references such as "earlier this year". Use specific
-    time periods (eg, "the last quarter of 2025 (April-June)") when referring to
-    financial or business results.
+    time periods (eg, "the last quarter of 2025 (April-June)") when referring to financial
+    or business results.
 - date: '2026-07-15'
   rule: When citing financial metrics such as profitability, qualify them with the
     basis of measurement where relevant — eg, "(based on adjusted Ebitda)" — so the
@@ -105,7 +105,30 @@
     was not available." If information is absent, simply omit it; do not flag its
     absence in the text.
 - date: '2026-07-21'
-  rule: Do not state a specific count of participants (eg, "nine payment service
-    providers") when the named examples are introduced with "such as" or "including"
-    — that phrasing signals the list isn't exhaustive, and a precise count contradicts
-    it.
+  rule: Do not state a specific count of participants (eg, "nine payment service providers")
+    when the named examples are introduced with "such as" or "including" — that phrasing
+    signals the list isn't exhaustive, and a precise count contradicts it.
+- date: '2026-07-24'
+  rule: For stories originating outside Europe that are relevant to a European audience,
+    the opening sentence (lede) should frame the story in terms of its broader or
+    global relevance — eg, 'could shape how regulators worldwide respond to X'. Mention
+    the specific geographic origin (eg, North America) in the following sentence,
+    not the lede.
+- date: '2026-07-24'
+  rule: Do not start the headline, standfirst, and body opening sentence with the
+    same word or phrase. Vary the opening in at least one of the elements.
+- date: '2026-07-24'
+  rule: Do not apply the abbreviation-in-parentheses rule to the standfirst. In the
+    standfirst, common and recognisable abbreviations (such as FCA, EPI) may be used
+    on first mention without spelling them out. Spell-out-plus-parenthetical is only
+    required in the body text.
+- date: '2026-07-24'
+  rule: Treat the body as a standalone content section for the purpose of abbreviation
+    rules. If an abbreviation is introduced in the standfirst, it must still be spelled
+    out in full on first use in the body, with the abbreviation in parentheses if
+    it recurs within the body — eg, 'the Financial Conduct Authority (FCA)' in the
+    body even if 'FCA' appeared in the standfirst.
+- date: '2026-07-24'
+  rule: When a company name has a recognisable short form (eg, 'Viva' from 'Viva.com'),
+    use the short form consistently after first mention rather than repeating the
+    full branded name each time.
