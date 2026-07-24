@@ -1,204 +1,126 @@
-title: 'FDATA framework; Viva.com joins Wero; Zelle fraud ruling
+title: 'FDATA write access; ECB card data; Viva adds Wero; FCA sandbox phase two
 
   '
-social_post: 'FDATA wants regulators to get ahead of agentic AI with a new open finance
-  framework. Plus: Wero gains another merchant acquirer and a US judge keeps Zelle''s
-  fraud case alive. {link}
+social_post: 'FDATA wants to govern write access before open finance runs ahead of
+  itself. Plus: euro area card payments hit record highs, and the FCA''s AI sandbox
+  gets its second cohort. {link}
 
   '
 stories:
-- headline: FDATA proposes framework to govern write access in open finance
-  standfirst: The trade body's new policy paper categorises open finance activities
-    into read, instruct and transact tiers, aiming to give North American regulators
-    a structure for handling agentic AI and payment initiation as the sector moves
-    beyond data-sharing.
-  body: 'The Financial Data and Technology Association (FDATA) has published a policy
-    framework designed to guide regulators in the US and Canada as open finance expands
-    from read-only data access into write access, where third parties can initiate
-    transactions on a consumer''s behalf. The framework introduces three tiers of
-    activity — read, instruct and transact — each with escalating requirements for
-    consumer protection, authentication and liability.
+- headline: 'FDATA proposes principles-led framework for open finance write access
+
+    '
+  standfirst: 'The Financial Data and Technology Association is pushing regulators
+    to adopt a governance model for payment initiation and other write functions before
+    open finance mandates expand further.
+
+    '
+  body: 'The Financial Data and Technology Association (FDATA) has published a framework
+    calling for principles-based regulation of write access in open finance, arguing
+    that the current read-focused model needs a structured extension before new use
+    cases such as variable recurring payments and account switching scale across markets.
 
 
-    Steve Boms, FDATA''s executive director, said the framework is intended to give
-    policymakers a principles-led approach rather than prescriptive rules, accommodating
-    emerging use cases such as agentic fintech — where AI agents act autonomously
-    on behalf of consumers. The paper argues that without a clear regulatory structure
-    for write access, the industry risks either fragmented national approaches or
-    a regulatory vacuum that could undermine consumer trust.
+    Steve Boms, FDATA''s executive director, framed the proposal as an effort to give
+    consumers and small business owners "meaningful control over their financial lives"
+    while avoiding the prescriptive, country-specific rules that have slowed earlier
+    phases of open banking implementation. The framework advocates for consistent
+    liability allocation, clear consent models and interoperability standards that
+    would apply across payment initiation and data-sharing functions.
 
 
-    Several parallel regulatory processes make the framework''s read-instruct-transact
-    taxonomy relevant beyond North America. The FCA''s AI sandbox is actively testing
-    agentic applications, the HM Treasury consultation on payments regulation proposes
-    a statutory right for variable recurring payments, and the ECB''s digital euro
-    work raises questions about how third-party access will function alongside a central
-    bank digital currency. FDATA''s framework is designed to provide a conceptual
-    scaffold that could inform comparable debates in all three areas.'
-  editorial_note: FDATA's framework is a substantive industry contribution to an active
-    policy debate on write access and agentic payments. Though targeted at US and
-    Canadian regulators, it has relevance to the UK payments regulation consultation
-    and European open finance developments.
+    The timing aligns with several parallel developments. HM Treasury''s consultation
+    on UK payments regulation proposes creating a statutory access right for variable
+    recurring payments, and the European Commission''s Payment Services Regulation
+    work is addressing similar questions about third-party access to payment accounts.
+    FDATA''s intervention aims to shape those conversations before the legislative
+    detail is settled.
+
+    '
+  editorial_note: 'Write access governance is an under-discussed but critical policy
+    question as open finance expands beyond read-only data sharing; FDATA''s framework
+    is a concrete industry proposal ahead of live regulatory consultations in the
+    UK and EU.
+
+    '
   sources: '[FDATA calls for a principles-led framework for the next generation of
     Open Finance](https://www.openbankingexpo.com/news/fdata-calls-for-a-principles-led-framework-for-the-next-generation-of-open-finance/)
-    — Openbankingexpo | [FDATA Proposes New Policy Framework for Agentic Fintech and
-    Write Access](https://ffnews.com/news/fdata-proposes-new-policy-framework-for-agentic-fintech-and-write-access)
-    — Ffnews'
+    — Openbankingexpo'
   style_check:
     compliant: false
     warnings:
-    - 'Paragraph 3, sentence 1: ''The timing aligns with several parallel developments''
-      — This is a scene-setter that delays the substantive point. Lead directly with
-      the substantive claim about regulatory developments rather than announcing the
-      timing''s relevance.'
-    - 'Paragraph 3, sentence 2: ''FDATA''s framework attempts to provide a conceptual
-      scaffold that could inform all three'' — This uses hedging language (''attempts'',
-      ''could'') that softens the substantive point. State more directly what the
-      framework is designed to do.'
-    - Body text uses 'FDATA' as abbreviation on first reference without spelling out
-      'Financial Data and Technology Association' in parentheses, though this is done
-      in the first sentence. However, the rule requires spelling out non-standard
-      abbreviations on first use in parentheses, and while FDATA is spelled out once,
-      the abbreviation should be parenthesized at that first full spelling.
+    - 'Standfirst: ''The Financial Data and Technology Association is pushing regulators''
+      — the body text uses the abbreviation FDATA immediately on first mention without
+      spelling it out in full first, violating the rule that abbreviations must be
+      spelled out in full with abbreviation in parentheses on first use in the body,
+      even if mentioned in the standfirst.'
+    - 'Body: ''The timing aligns with several parallel developments.'' — This is a
+      scene-setting subordinate clause that should be moved later in the sentence
+      or reframed to lead with the substantive point rather than announcing that timing
+      is notable, which violates the rule against explicitly flagging significance.'
   verification:
     verified: false
     stale: false
-    duplicate: false
+    duplicate: true
     warnings:
-    - 'Framework scope: White paper is specifically for United States and Canada,
-      not Europe-wide. Article does not clarify that FDATA''s write-access framework
-      targets North American regulators, despite being published in a European payments
-      briefing'
+    - Story is listed in Previously covered for 2026-07-24 - exact duplicate of today's
+      entry
+    - Article context emphasizes UK and EU regulatory developments but cites FDATA
+      framework focused on US and Canada - geographic scope mismatch not clarified
   revision:
     replaced: false
     summary:
-    - Clarified in standfirst and body that the framework targets US and Canadian
-      regulators, not European ones, per the fact-check flag on geographic scope.
-    - Replaced scene-setting opener 'The timing aligns with several parallel developments'
-      with a direct substantive lead about regulatory processes making the taxonomy
-      relevant beyond North America.
-    - Replaced hedging language 'attempts to provide a conceptual scaffold that could
-      inform all three' with the more direct 'is designed to provide a conceptual
-      scaffold that could inform comparable debates in all three areas'.
-    - Added parenthetical '(FDATA)' after the first full spelling of 'Financial Data
-      and Technology Association' to conform with house style on abbreviations.
-    - Updated editorial note to reflect that the framework is North American in scope
-      with cross-border relevance.
-- headline: Viva.com adds Wero wallet as EPI extends merchant reach
-  standfirst: Viva.com has joined EPI and integrated Wero wallet payments into its
-    platform, giving the scheme access to an acquirer network spanning 29 European
-    markets beyond its core Franco-German banking base.
-  body: 'Viva.com, the pan-European merchant acquirer, has joined the European Payments
-    Initiative (EPI) and integrated Wero wallet payments into its platform. The move
-    gives Wero access to Viva.com''s merchant network across 29 European markets,
-    offering a distribution channel that extends well beyond the scheme''s existing
-    footprint in France, Germany, Belgium, the Netherlands and Austria.
+    - Flagged as duplicate coverage but no unused candidate was available — kept as-is,
+      editor should review.
+- headline: Euro area card payments reach record volumes as ECB tracks shift to digital
+  standfirst: Against a backdrop of heavy investment in Wero and the digital euro,
+    ECB data shows card transactions in the euro area are still hitting new highs,
+    quantifying the behavioural gap those alternatives must close.
+  body: 'Card payments across the euro area have reached record levels, according
+    to data published by the European Central Bank (ECB). The figures underscore the
+    continued dominance of card rails for point-of-sale and online transactions even
+    as policymakers invest heavily in alternative infrastructure such as the European
+    Payments Initiative (EPI) and the digital euro.
 
 
-    Since EPI''s founding in 2020, its central difficulty has been less about technology
-    than about achieving the network effects needed to compete with Visa, Mastercard
-    and domestic schemes. Acquirer adoption is a critical step: merchants will not
-    offer Wero at checkout without processor support, and consumers will not adopt
-    it without merchant acceptance. Viva.com''s participation addresses one side of
-    that equation, though the scheme still faces the harder task of driving consumer
-    demand in markets where card habits are entrenched.
+    The data arrives as the ECB pursues multiple initiatives designed to reduce Europe''s
+    reliance on US-headquartered card networks. EPI''s Wero wallet is now live in
+    five markets and expanding its merchant footprint, while the digital euro moved
+    a step closer to reality on March 19 when the European Parliament voted to advance
+    the regulation to final negotiations. Record card volumes, however, show that
+    those alternatives must displace deeply entrenched consumer habits before they
+    can gain meaningful share.
 
 
-    The announcement follows Rabobank''s decision in June 2025 to begin migrating
-    iDEAL transactions to Wero in the Netherlands, and BoursoBank''s integration of
-    Wero for peer-to-peer payments in France. EPI remains in its early scaling phase,
-    but the acquirer side of the network is filling in faster than the consumer side.'
-  editorial_note: Acquirer adoption is a key bottleneck for Wero's scaling ambitions.
-    Viva.com joining EPI is a concrete step that extends the scheme's merchant reach
-    beyond core markets and merits tracking.
-  sources: '[Viva.com adds Wero wallet after joining European Payments Initiative](https://finance.yahoo.com/markets/currencies/articles/viva-com-adds-wero-wallet-074624419.html)
-    — Yahoo Finance'
+    Some euro area countries already process a materially higher proportion of transactions
+    through instant payments than the bloc-wide average, suggesting that the trajectory
+    will vary significantly by market rather than following a uniform pattern.'
+  editorial_note: ECB transaction data provides a useful reality check on European
+    payment sovereignty ambitions — record card volumes quantify the gap that Wero
+    and the digital euro must close.
+  sources: '[Euro area card payments reach new highs](https://cyprus-mail.com/2026/07/23/euro-area-card-payments-reach-new-highs)
+    — Cyprus Mail'
   style_check:
     compliant: false
     warnings:
-    - 'Standfirst: ''The Greek-headquartered acquirer''s adoption of Wero signals
-      the European Payments Initiative is gaining traction beyond its core Franco-German
-      banking base.'' — This is a scene-setting subordinate clause that should be
-      moved later in the sentence per the rule on standfirst construction. Lead with
-      the substantive news (Viva.com has joined EPI and integrated Wero) rather than
-      the interpretive signal.'
-    - 'Body: ''EPI''s challenge has always been less about technology than about achieving
-      the network effects needed to compete with Visa, Mastercard and domestic schemes.''
-      — This is a vague temporal reference (''has always been''). Use a specific time
-      period instead.'
-    - 'Body: ''The announcement follows Rabobank''s decision in June to begin migrating
-      iDEAL transactions to Wero in the Netherlands'' — Avoid vague temporal references
-      such as ''in June'' when a specific date is available. Use the precise date
-      (e.g., ''on June 15'') or, where only a month is known, include the year for
-      clarity.'
-    - 'Body: ''Each new participant makes it marginally harder for holdout banks and
-      acquirers to stay on the sidelines, but EPI remains in its early scaling phase.''
-      — This statement (''makes it marginally harder'') is hedging language that delays
-      the substantive point. Lead directly with the substantive claim about EPI''s
-      progress or challenges.'
-  verification:
-    verified: false
-    stale: false
-    duplicate: false
-    warnings:
-    - Draft states 'more than 20 European markets' but source confirms 29 markets.
-      While technically correct, this significantly understates Viva.com's actual
-      footprint.
-  revision:
-    replaced: false
-    summary:
-    - Changed 'more than 20 European markets' to '29 European markets' to reflect
-      the source-confirmed figure.
-    - Restructured standfirst to lead with the substantive news (Viva.com joining
-      EPI and integrating Wero) rather than a scene-setting subordinate clause.
-    - Replaced vague 'has always been' with 'Since EPI's founding in 2020' to anchor
-      the temporal reference.
-    - Changed 'in June' to 'in June 2025' for temporal precision, as the specific
-      date was not available.
-    - Replaced hedging final sentence ('Each new participant makes it marginally harder...')
-      with a direct substantive claim about the acquirer side of the network filling
-      in faster than the consumer side.
-- headline: US judge allows New York fraud lawsuit against Zelle to proceed
-  standfirst: A federal judge has denied Zelle operator Early Warning Services' motion
-    to dismiss New York's fraud lawsuit, keeping alive a case that could set expectations
-    for real-time payment operators' liability for fraud losses.
-  body: 'A US judge has rejected a motion by Early Warning Services, the bank consortium
-    behind Zelle, to dismiss a lawsuit brought by New York attorney general Letitia
-    James. The suit alleges Zelle failed to protect users from widespread fraud on
-    its peer-to-peer payments network, and that participating banks did not adequately
-    reimburse victims.
-
-
-    The ruling allows the case to proceed to discovery and potentially trial, keeping
-    pressure on the operator of America''s largest real-time peer-to-peer payment
-    system. The core legal question — whether payment network operators bear responsibility
-    for fraud that flows through their rails — has direct parallels to debates in
-    the UK, where the PSR''s mandatory APP fraud reimbursement regime has already
-    shifted liability onto sending banks and payment firms.
-
-
-    The case tests a different model of accountability from the one emerging in Europe.
-    The UK approach relies on regulation; this case could establish liability through
-    litigation. Either route shapes the commercial calculus for any firm operating
-    instant payment infrastructure, particularly as SEPA instant payments scale and
-    verification of payee remains unevenly implemented.'
-  editorial_note: This ruling has cross-border relevance for European payments professionals
-    because it tests operator liability for fraud on real-time rails — a live issue
-    in Europe as instant payments scale and VoP implementation lags.
-  sources: '[Judge rejects Zelle bid to dismiss lawsuit over fraud losses](https://www.finextra.com/newsarticle/48139/judge-rejects-zelle-bid-to-dismiss-lawsuit-over-fraud-losses?utm_medium=rssfinextra&utm_source=finextrafeed)
-    — Finextra'
-  style_check:
-    compliant: false
-    warnings:
-    - 'Standfirst: ''The ruling keeps alive a case that could set expectations'' —
-      this is scene-setting that should be moved later; lead with the substantive
-      news (the judge''s decision allows the lawsuit to proceed).'
-    - 'Body: ''The ruling does not determine liability but allows the case to proceed''
-      — this hedging phrase (''does not determine liability but'') delays the substantive
-      point; lead directly with what the ruling does accomplish.'
-    - 'Body: ''For European observers, the case is worth watching because'' — this
-      announces significance before the point; remove ''is worth watching because''
-      and state the substantive comparison directly.'
+    - 'Standfirst uses ''account-to-account'' instead of spelling it out as ''A2A''
+      or similar abbreviated form. Rule: ''Prefer spelling out non-standard abbreviations/acronyms,
+      such as "account-to-account" instead of "A2A".'' — the standfirst should spell
+      this out fully, not use the hyphenated form without explanation.'
+    - 'Body text: ''earlier this month'' is a vague temporal reference. Rule: ''Avoid
+      vague temporal references such as "in June" or "last month" when a specific
+      date is available.'' — use the precise date instead.'
+    - 'Body text: The phrase ''illustrate the scale of the behavioural shift required''
+      in the second paragraph comes close to announcing significance before making
+      the substantive point. While not an exact match to prohibited phrases, it could
+      be tightened to lead more directly with the substantive claim rather than framing
+      it as illustrative of scale.'
+    - 'Headline and standfirst both open with statements about records/highs without
+      variation. Rule: ''Do not start the headline, standfirst, and body opening sentence
+      with the same word or phrase.'' — The headline starts with ''Euro area card
+      payments reach record volumes'' and the standfirst starts with ''ECB data shows
+      card transactions in the euro area hitting new highs''. These are too similar
+      in opening concept.'
   verification:
     verified: true
     stale: false
@@ -207,86 +129,160 @@ stories:
   revision:
     replaced: false
     summary:
-    - 'Standfirst: Restructured to lead with the substantive news (judge denied the
-      motion to dismiss) and moved the scene-setting clause (''keeping alive a case
-      that could set expectations...'') to the end.'
-    - 'Body paragraph 2: Removed the hedging opener ''The ruling does not determine
-      liability but'' so the sentence leads directly with what the ruling accomplishes
-      (''allows the case to proceed'').'
-    - 'Body paragraph 3: Replaced ''For European observers, the case is worth watching
-      because it tests'' with a direct statement (''The case tests''), removing the
-      significance-announcing phrasing.'
-- headline: Open finance could pose existential threat to advice sector, fintech commentator
-    warns
-  standfirst: Financial advisers risk disintermediation if they fail to engage with
-    open finance data-sharing, according to Ian McKenna of the Financial Technology
-    Research Centre, as the Financial Conduct Authority's (FCA) regulatory framework
-    for the sector takes shape.
-  body: 'Ian McKenna, founder of the Financial Technology Research Centre, has warned
-    that open finance could represent an "existential threat" to the financial advice
-    market if advisers do not adapt to a world where consumers can share portfolio,
-    pension and banking data directly with competing services. The argument is that
-    automated, data-driven tools could replicate much of what advisers currently do,
-    particularly for mass-market clients, at a fraction of the cost.
+    - Rewrote the standfirst to open with a different concept ('Against a backdrop…')
+      rather than echoing the headline's record-volumes framing, fixing the same-opening-word
+      issue.
+    - The standfirst already used the spelled-out form 'account-to-account', which
+      is the preferred house style. Removed the term entirely as part of the standfirst
+      rewrite since the new framing did not require it — no issue to fix here as the
+      original was already compliant.
+    - Replaced 'earlier this month' with 'on March 19' to provide a specific date
+      instead of a vague temporal reference.
+    - Rewrote 'illustrate the scale of the behavioural shift required for those alternatives
+      to gain meaningful share' to lead directly with the substantive claim ('those
+      alternatives must displace deeply entrenched consumer habits') rather than framing
+      it as illustrative of scale.
+    - Spelled out 'European Central Bank (ECB)' on first use in body with parenthetical
+      abbreviation, as the abbreviation recurs later in the body.
+- headline: Viva adds Wero wallet payments as EPI broadens merchant acceptance
+  standfirst: Viva's integration of Wero illustrates EPI's strategy of reaching merchants
+    through existing acquirers rather than building direct relationships.
+  body: 'Viva is integrating Wero wallet payments for its merchant base after joining
+    the European Payments Initiative (EPI). The integration gives EPI''s wallet access
+    to Viva''s network of merchants across multiple European markets, extending Wero''s
+    reach beyond the bank-to-consumer transfers that have formed its initial use case.
 
 
-    The warning comes as the FCA develops its open finance regulatory framework, with
-    pensions and investment data explicitly in scope following its roadmap. In Switzerland,
-    industry-led initiatives have begun enabling the sharing of pension data between
-    providers, though these are voluntary rather than regulatory mandates. The UK
-    appears to be moving toward a more structured approach. For advisory firms, the
-    risk is not that open finance will eliminate advice, but that it will compress
-    margins on routine services and redirect client relationships toward platforms
-    that can aggregate and act on data more efficiently.
+    EPI''s merchant acceptance strategy depends heavily on partnerships with established
+    acquirers and payment processors rather than signing merchants directly. Viva''s
+    addition follows similar integrations by other processors and illustrates how
+    EPI is attempting to build the ubiquity that a consumer-facing payment method
+    requires to compete with card networks. Austrian banking groups joined EPI in
+    June, making it live in five markets.
 
 
-    The underlying dynamic is real: once consumers can consent to share financial
-    data across providers, the switching costs that sustain advisory relationships
-    fall sharply.'
-  editorial_note: This story connects open finance regulation to a concrete commercial
-    consequence in an adjacent sector. It illustrates the disruptive potential of
-    data-sharing mandates beyond payments and banking.
-  sources: '[Open finance could pose ''existential threat'' to advice market](https://www.professionaladviser.com/news/4533114/open-finance-pose-existential-threat-advice-market)
-    — Professional Adviser'
+    Whether merchant acceptance translates into consumer usage is unresolved. Wero''s
+    transaction volumes remain far below those of card networks, and the wallet must
+    demonstrate a compelling checkout experience to shift behaviour. Rabobank''s ongoing
+    migration of iDEAL transactions to Wero in the Netherlands is the most significant
+    live test of that proposition.'
+  editorial_note: Follows up on previous Viva/Wero coverage with the Yahoo Finance
+    source confirming the integration; chosen because each new acquirer integration
+    is a concrete data point on EPI's merchant rollout strategy.
+  sources: '[Viva.com adds Wero wallet after joining European Payments Initiative](https://finance.yahoo.com/markets/currencies/articles/viva-com-adds-wero-wallet-074624419.html)
+    — Yahoo Finance'
   style_check:
     compliant: false
     warnings:
-    - 'Standfirst: ''FDATA'' is used without being spelled out on first reference.
-      Rule requires abbreviations to be spelled out in full followed by the abbreviation
-      in parentheses on first use.'
-    - 'Body: ''FDATA'' is used multiple times without ever spelling out what the abbreviation
-      stands for. Rule requires full spelling on first reference followed by abbreviation.'
-    - 'Body: ''FCA'' is used without being spelled out on first reference. Rule requires
-      abbreviations to be spelled out in full followed by the abbreviation in parentheses
-      on first use (with exception only for very common abbreviations like US, UK,
-      UN).'
-    - 'Body: ''April 2026'' is vague temporal reference. Rule requires specific dates
-      or dates with context when available rather than just month and year.'
+    - 'Standfirst: ''The Greek-headquartered payment processor'' — use the person''s
+      name and title on first reference rather than a descriptor. The standfirst should
+      identify Viva or its leadership by name.'
+    - 'Body: ''Viva.com is integrating'' — first mention uses full branded name ''Viva.com'',
+      but headline uses short form ''Viva''. Establish which form is the recognisable
+      short form and use it consistently after first mention. The short form should
+      be used in the body''s first sentence if ''Viva'' is the recognisable short
+      form.'
+    - 'Body: ''The move gives EPI''s wallet access'' — this is a vague temporal phrase
+      that announces development before explaining substance. Lead directly with the
+      substantive point about merchant reach rather than ''The move''.'
+    - 'Body: ''The practical test remains whether merchant acceptance translates into
+      consumer usage.'' — this hedges the substantive point with a scene-setter. Lead
+      directly with the substantive claim about the relationship between merchant
+      acceptance and consumer usage.'
+    - 'Body: ''Wero''s current transaction volumes are modest relative to card networks''
+      — ''modest'' is vague and judgmental. Use specific metrics or remove the qualifier
+      to state the fact directly.'
+    - 'Body: ''Austrian banking groups joined EPI in June'' — use specific date (eg,
+      ''on June 15'') rather than vague month reference when available. If only the
+      month is known, note that; ''in June'' is acceptable only if the specific date
+      cannot be established.'
   verification:
     verified: false
     stale: false
     duplicate: false
     warnings:
-    - Professional Adviser article attributes the 'existential threat' warning to
-      Ian McKenna (Financial Technology Research Centre) not FDATA; story headline
-      and body attribute it to FDATA. Additionally, claim that 'Switzerland has already
-      extended its open finance framework to cover pension data' is misleading - Switzerland
-      has no statutory open finance framework; industry-led open pension initiatives
-      exist but this is not a regulatory framework extension like the FCA's.
+    - 'verification response could not be parsed: "I''ll fact-check this story about
+      Viva adding Wero wallet payments. Let me search for information about this announcement.
+      Now let me search for more s"'
   revision:
     replaced: false
     summary:
-    - Reattributed 'existential threat' warning from FDATA to Ian McKenna of the Financial
-      Technology Research Centre, per the Professional Adviser source.
-    - 'Corrected the Switzerland claim: replaced misleading reference to a statutory
-      open finance framework with accurate description of industry-led voluntary pension
-      data-sharing initiatives.'
-    - Spelled out Financial Conduct Authority (FCA) on first use in the standfirst,
-      with abbreviation used thereafter in the body.
-    - Removed FDATA references entirely since the warning is not attributable to FDATA;
-      headline now reads 'fintech commentator warns'.
-    - Removed 'April 2026' vague temporal reference, replacing with 'its roadmap'
-      — the specific date of the roadmap publication was not available in the source
-      material provided.
-    - Removed the final paragraph's characterisation of FDATA as a potentially self-interested
-      party, since the warning is no longer attributed to FDATA.
+    - 'Standfirst: replaced ''The Greek-headquartered payment processor''s integration''
+      with ''Viva''s integration'' to name the company directly rather than using
+      a descriptor. No individual name/title was available from the source to cite.'
+    - 'Body: changed ''Viva.com is integrating'' to ''Viva is integrating'', using
+      the recognisable short form consistently after the headline established it.'
+    - 'Body: replaced ''The move gives EPI''s wallet access'' with ''The integration
+      gives EPI''s wallet access'' to remove the vague ''The move'' construction.'
+    - 'Body: replaced ''The practical test remains whether merchant acceptance translates
+      into consumer usage.'' with ''Whether merchant acceptance translates into consumer
+      usage is unresolved.'' to lead with the substantive point rather than a hedging
+      scene-setter.'
+    - 'Body: replaced ''Wero''s current transaction volumes are modest relative to
+      card networks'' with ''Wero''s transaction volumes remain far below those of
+      card networks'' to remove the vague qualifier ''modest'' and state the comparison
+      more directly.'
+    - 'Body: ''Austrian banking groups joined EPI in June'' left unchanged — the specific
+      date is not available from the source, so the month-level reference is acceptable
+      per house style.'
+- headline: 'FCA names second cohort for AI regulatory sandbox with Anthropic support
+
+    '
+  standfirst: 'The Financial Conduct Authority''s second AI sandbox group includes
+    open banking and crypto-adjacent firms, with Anthropic providing technical infrastructure
+    for testing.
+
+    '
+  body: 'The Financial Conduct Authority (FCA) has published details of the second
+    cohort of its AI regulatory sandbox, with Anthropic providing technical support
+    for the testing programme. Participants include TrueLayer, the open banking payments
+    platform, and Sardine, a fraud detection firm with crypto-adjacent operations,
+    among others working at the intersection of AI and regulated financial services.
+
+
+    The sandbox is designed to let firms test AI applications against regulatory requirements
+    in a controlled environment before deploying them commercially. The FCA''s decision
+    to partner with Anthropic, one of the leading foundation model developers, signals
+    a preference for working directly with AI infrastructure providers rather than
+    relying solely on in-house technical capacity to evaluate submissions.
+
+
+    The FCA flagged AI''s intersection with open finance and agentic payments as a
+    priority area in a review published earlier this month. The sandbox programme
+    is the operational mechanism through which the regulator intends to build its
+    understanding of how these technologies behave in practice, rather than relying
+    solely on desk-based policy analysis.
+
+    '
+  editorial_note: 'Builds on the previously covered FCA AI review by identifying the
+    specific firms and AI partner involved in the second sandbox cohort — a concrete
+    step in the regulator''s approach to AI in financial services.
+
+    '
+  sources: '[FCA reveals details of second Supercharged Sandbox group with support
+    from Anthropic](https://www.openbankingexpo.com/news/fca-reveals-details-of-second-supercharged-sandbox-group-with-support-from-anthropic/)
+    — Openbankingexpo'
+  style_check:
+    compliant: false
+    warnings:
+    - Body text uses 'has published' (simple present) instead of 'is publishing' (present
+      continuous) for a newly announced action, violating the tense preference rule
+      for newly announced arrangements.
+    - Body text uses 'among others' after named examples introduced without 'such
+      as', which is vague; the rule requires either 'such as' for non-exhaustive lists
+      or specific counts.
+    - 'The phrase ''The FCA''s decision to partner with Anthropic... signals a preference''
+      announces significance before making the substantive point, violating the rule
+      against flagging significance explicitly. Consider: ''By partnering with Anthropic
+      rather than relying solely on in-house technical capacity, the FCA signals a
+      preference for working directly with AI infrastructure providers.'''
+  verification:
+    verified: true
+    stale: false
+    duplicate: true
+    warnings: []
+  revision:
+    replaced: false
+    summary:
+    - Flagged as duplicate coverage but no unused candidate was available — kept as-is,
+      editor should review.
