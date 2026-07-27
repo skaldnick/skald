@@ -1,0 +1,128 @@
+title: 'Thin feed: Visa''s China agentic transaction; Mastercard virtual cards
+
+  '
+social_post: 'Quiet weekend in European payments, but Visa and Lianlian''s first B2B
+  agentic transaction in China has implications for how the model scales into Europe.
+  Today''s briefing: {link}
+
+  '
+stories:
+- headline: Visa and Lianlian complete China's first B2B agentic transaction
+  standfirst: Cross-border B2B agentic payments raise unresolved questions about authentication,
+    liability and compliance standards that consumer-focused European pilots have
+    not yet had to address.
+  body: 'Visa and Lianlian DigiTech have completed what they describe as the first
+    live business-to-business agentic transaction in China, using Lianlian''s LoopXPay
+    AI agent. The transaction was processed through Visa''s network, with an AI agent
+    initiating and completing a cross-border payment on behalf of a business customer.
+
+
+    The development extends the agentic payments trend that has been gathering pace
+    in Europe. ING, Worldline and Mastercard completed Europe''s first agentic payment
+    in June, Crédit Agricole followed with a production transaction shortly after,
+    and Visa itself ran agentic payments in Europe the same month. Agentic commerce
+    has now crossed into B2B and into a market where AI-native payment infrastructure
+    is developing rapidly.
+
+
+    B2B agentic payments will likely require new standards for authentication, liability
+    and dispute resolution that go beyond what current consumer-focused pilots have
+    tested. Cross-border B2B adds complexity around sanctions screening, trade compliance
+    and multi-currency settlement that consumer-facing agentic transactions do not
+    encounter.'
+  editorial_note: Selected because it advances the agentic payments story from European
+    consumer pilots into cross-border B2B, raising practical questions about standards
+    and compliance that are directly relevant to European infrastructure providers
+    and regulators.
+  sources: '[Visa and Lianlian enable China''s first B2B agentic transaction](https://www.finextra.com/pressarticle/110488/visa-and-lianlian-enable-chinas-first-b2b-agentic-transaction?utm_medium=rssfinextra&utm_source=finextrafeed)
+    — Finextra'
+  style_check:
+    compliant: false
+    warnings:
+    - 'Standfirst: ''agentic commerce is moving from European pilots into cross-border
+      B2B trade'' — this is nearly verbatim repetition of the headline''s core claim.
+      The standfirst should add interpretive context or a summary point distinct from
+      the headline, not restate it in slightly different words.'
+    - 'Body: ''This Chinese transaction marks agentic commerce crossing into B2B and
+      into a market where AI-native payment infrastructure is developing rapidly.''
+      — This uses ''marks'' to announce significance before making the substantive
+      point, similar to ''This is notable''. Lead directly with the substantive claim.'
+    - 'Body: ''For European payments professionals, the question is whether...'' —
+      This opens with a scene-setting framing (''the question is'') that delays the
+      substantive point. Lead directly with the substantive claim about what standards
+      or requirements may be needed.'
+  verification:
+    verified: true
+    stale: false
+    duplicate: false
+    warnings: []
+  revision:
+    replaced: false
+    summary:
+    - 'Standfirst: Replaced near-verbatim restatement of headline with an interpretive
+      point about the unresolved standards and compliance questions raised by B2B
+      agentic payments.'
+    - 'Body paragraph 2: Replaced ''This Chinese transaction marks agentic commerce
+      crossing into'' with ''Agentic commerce has now crossed into'' to remove the
+      significance-announcing construction.'
+    - 'Body paragraph 3: Replaced ''For European payments professionals, the question
+      is whether B2B agentic payments will require'' with ''B2B agentic payments will
+      likely require'' to lead directly with the substantive claim.'
+- headline: Mastercard broadens virtual card platform for B2B payments
+  standfirst: Enhancements to Mastercard's In Control platform reflect continued investment
+    in virtual card infrastructure as card networks defend B2B territory against account-to-account
+    alternatives.
+  body: 'Mastercard has announced a series of enhancements to its In Control virtual
+    card number platform, expanding functionality for corporate buyers and their suppliers.
+    The updates are designed to make virtual cards more scalable for B2B payment flows.
+
+
+    Account-to-account competition in B2B payments is intensifying. NMI''s acquisition
+    of Dwolla, PaidBy''s partnership with Mastercard itself on cross-border account-to-account
+    payments, and the broader push toward instant payment rails for business transactions
+    all represent alternatives to card-based B2B settlement. Mastercard''s response
+    is to deepen the virtual card proposition rather than cede the segment.
+
+
+    Virtual cards have gained traction in corporate travel, procurement and accounts
+    payable because they offer controls, data and reconciliation advantages over traditional
+    invoicing. The platform investment suggests Mastercard treats B2B virtual cards
+    as a durable revenue line, not a transitional product.'
+  editorial_note: Selected because Mastercard's B2B virtual card investment illustrates
+    how card networks are defending commercial payment volumes against the account-to-account
+    alternatives gaining ground in Europe.
+  sources: '[Mastercard expands virtual card programme](https://www.finextra.com/pressarticle/110490/mastercard-expands-virtual-card-programme?utm_medium=rssfinextra&utm_source=finextrafeed)
+    — Finextra'
+  style_check:
+    compliant: false
+    warnings:
+    - 'Standfirst: ''account-to-account'' should be spelled out as ''account-to-account''
+      on first use, or use the abbreviation rule: ''account-to-account (A2A)'' — but
+      per house style, prefer spelling out non-standard abbreviations rather than
+      using A2A'
+    - 'Body, paragraph 2: ''The timing is worth noting'' violates the rule against
+      announcing significance before making a substantive point. Lead directly with
+      the substantive claim about account-to-account competition'
+    - 'Body, paragraph 3: ''Strengthening the platform signals that Mastercard sees
+      B2B virtual cards as a durable revenue line'' uses ''signals'' which is a soft
+      attribution; this reads as editorial assertion rather than reported fact. Consider
+      whether this should be attributed to Mastercard or reframed as a direct statement'
+  verification:
+    verified: true
+    stale: false
+    duplicate: false
+    warnings: []
+  revision:
+    replaced: false
+    summary:
+    - 'Removed ''The timing is worth noting against the backdrop of growing'' opener
+      in paragraph 2, which violated the rule against announcing significance before
+      making a substantive point. Replaced with a direct lead: ''Account-to-account
+      competition in B2B payments is intensifying.'''
+    - Reframed final sentence of paragraph 3 from 'Strengthening the platform signals
+      that Mastercard sees...' to 'The platform investment suggests Mastercard treats...',
+      softening the editorial assertion while keeping it clearly framed as inference
+      rather than reported fact.
+    - Standfirst already spells out 'account-to-account' in full, which is consistent
+      with house style preferring the spelled-out form over the A2A abbreviation.
+      No change needed there.
