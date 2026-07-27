@@ -58,7 +58,8 @@ output_format: |
   what to put there. Do not wrap the output in code fences.
 
   title: |
-    Four to eight words summarising today's stories — e.g. GoCardless profits; pay-by-bank friction; PSD3 delay
+    Four to eight words summarising today's stories — e.g. GoCardless profits; pay-by-bank friction; PSD3 delay.
+    Never editorialise about the feed itself (e.g. "Thin feed", "Quiet day") — describe the news, not the day.
   social_post: |
     One post for X promoting today's briefing. Write no more than 235 characters of your own text — the {link} placeholder is replaced with a fixed 45-character URL when published, bringing the total to 280. Punchy and engaging — personality and dry humour welcome. Does not need to mention every story; lead with the most interesting angle. Never apologise for or flag the number of stories (e.g. 'thin' day, 'just one story') — a single strong story stands on its own. Written to make a payments professional want to click. End with {link}.
   stories:

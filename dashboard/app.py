@@ -416,7 +416,8 @@ def on_regenerate(*args):
         system=(
             "You write concise briefing titles for a European payments and open banking newsletter. "
             "Format: 4–8 words, semicolons separating topics. No quotes, no trailing punctuation. "
-            "Example: 'GoCardless profits; pay-by-bank friction; PSD3 delay'"
+            "Example: 'GoCardless profits; pay-by-bank friction; PSD3 delay'. "
+            "Never editorialise about the feed itself (e.g. 'Thin feed', 'Quiet day') — describe the news, not the day."
         ),
         messages=[{"role": "user", "content": f"Generate a briefing title for these approved story headlines:\n\n{headlines_text}"}],
     )

@@ -133,7 +133,10 @@ schedule); on_regenerate has no try/except around its two API calls. The gradio 
 in requirements.txt stays deliberately unpinned — the Space's Gradio version is
 governed by `sdk_version` in hf-readme.md (currently 6.12.0); a requirements.txt pin
 conflicts with HF's own install and broke the build on 2026-05-21 (pinned in 4d5875e,
-reverted in 99d11d8).
+reverted in 99d11d8). The briefing title has no feedback-diff path (2026-07-27):
+`_save_feedback()` in dashboard/app.py only tracks headline/standfirst/body/sources
+per story, so an editor's title correction never reaches extract_learning.py and
+can't become a learned style rule automatically — noted, not yet implemented.
 
 ### Next priorities
 - Design TL;DR/summary product — concise daily digest and/or teaser email, separate from the full briefing
