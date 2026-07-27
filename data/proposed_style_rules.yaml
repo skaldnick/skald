@@ -2,4 +2,9 @@
 # Populated automatically by tools/extract_learning.py (via GitHub Actions on push
 # to data/feedback/). Review and promote/edit in the dashboard's 'Proposed style
 # rules' section — accepted rules move to prompts/payments/style_rules.yaml.
-[]
+- date: '2026-07-27'
+  rule: The standfirst should expand on or add context to the headline — providing
+    operational detail, factual elaboration, or explanatory background — rather than
+    summarising the interpretive takeaway or analytical conclusion of the article.
+    Save the "so what" framing for the body; use the standfirst to extend the headline
+    with specific, concrete detail about what happened.
