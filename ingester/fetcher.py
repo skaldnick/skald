@@ -162,7 +162,11 @@ def filter_keywords(entries: list[dict], beat_name: str) -> list[dict]:
         all_exclude = global_exclude + extra_exclude
         exclude_pattern = re.compile("|".join(re.escape(kw) for kw in all_exclude), re.IGNORECASE) if all_exclude else None
 
-        text = f"{entry['title']} {entry['summary']}"
+        # Match against HTML-stripped text: Google Alert titles/summaries carry <b>
+        # tags (sometimes wrapping each word separately, splitting multi-word keyword
+        # phrases) and entities like &amp;. Source *names* stay raw — the per-source
+        # configs above key off the original 'Google Alert — ...' names.
+        text = _strip_html(f"{entry['title']} {entry['summary']}")
         if include_pattern and not include_pattern.search(text):
             continue
         if exclude_pattern and exclude_pattern.search(text):

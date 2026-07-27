@@ -111,7 +111,9 @@ def append_proposed_rules(new_rules: list[dict]) -> int:
         if key in seen:
             continue
         seen.add(key)
-        added.append({"date": r.get("date", ""), "rule": r["rule"]})
+        # Block-scalar rule values parse with a trailing newline — strip so the
+        # queue file and the dashboard's one-rule-per-line textbox stay clean.
+        added.append({"date": str(r.get("date", "")), "rule": str(r["rule"]).strip()})
 
     if added:
         pending.extend(added)
@@ -134,12 +136,16 @@ def propose_style_rules(feedback_list: list[dict]) -> str:
     notes = []
     for feedback in feedback_list:
         for story in feedback["stories"]:
-            if story["decision"] != "Approve":
-                continue
-            if story.get("diff"):
+            approved = story.get("decision") == "Approve"
+            # Diffs only from approved stories — edits to a story that was then
+            # rejected anyway aren't a reliable statement of house style. Notes
+            # count either way: a rejection note is often the editor's clearest
+            # statement of a selection rule they want applied in future.
+            if approved and story.get("diff"):
                 diffs.append(f"[{feedback['date']}]\n{story['diff']}")
             if story.get("notes"):
-                notes.append(f"[{feedback['date']}] {story['notes']}")
+                tag = "" if approved else " (note on a REJECTED story — likely a story-selection rule, not a style rule)"
+                notes.append(f"[{feedback['date']}]{tag} {story['notes']}")
 
     if not diffs and not notes:
         return ""
@@ -174,6 +180,8 @@ def propose_style_rules(feedback_list: list[dict]) -> str:
         "- Structural patterns (e.g. how standfirsts lead)",
         "- Punctuation preferences",
         "- Voice or register choices",
+        "- Story-selection judgments from rejection notes (eg, kinds of stories to skip",
+        "  or deprioritise) — phrase these as selection rules",
         "",
         "Ignore:",
         "- One-off factual corrections",
@@ -188,9 +196,13 @@ def propose_style_rules(feedback_list: list[dict]) -> str:
         "",
         f"Diffs to analyse:\n{diffs_text}",
         "",
-        "Output a YAML list of proposed rules only, one per pattern observed. Format:",
+        "Output a YAML list of proposed rules only, one per pattern observed. Write each",
+        "rule as a literal block scalar (the | character), never a double-quoted string —",
+        "rule text routinely contains quote marks or colons, which break quoted YAML",
+        "scalars. Format:",
         '- date: "YYYY-MM-DD"',
-        '  rule: "..."',
+        "  rule: |",
+        "    ...",
         "",
         "Use the date of the note or diff the rule comes from. Be specific and actionable.",
         "Output only the YAML, no explanation.",

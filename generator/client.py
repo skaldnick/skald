@@ -46,7 +46,13 @@ def load_recently_covered() -> list[dict]:
 
 
 def load_recently_rejected(days: int = 28) -> list[dict]:
-    """Load editorially rejected stories within the last N days."""
+    """Load editorially rejected stories within the last N days.
+
+    Deliberately asymmetric with load_recently_covered's no-cutoff: a covered
+    story stays covered forever (aggregators resurface old stories under fresh
+    dates), but a rejection is a time-bound judgment — "not newsworthy that
+    day" — and the same subject can legitimately become newsworthy again, so
+    rejections age out after N days."""
     path = ROOT / "data" / "recently_rejected.yaml"
     if not path.exists():
         return []
@@ -217,6 +223,15 @@ def generate_briefing(beat_name: str, entries: list[dict]) -> tuple[dict, list[d
         system=system_prompt,
         messages=[{"role": "user", "content": user_prompt}],
     )
+    if message.stop_reason == "max_tokens":
+        # Fail loudly: YAML truncated mid-block-scalar usually still parses
+        # cleanly, so a capped response would otherwise become a briefing with
+        # stories or fields silently missing.
+        raise RuntimeError(
+            f"Briefing generation hit the {MAX_TOKENS}-token output cap and was "
+            "truncated — raise MAX_TOKENS or trim the prompt rather than saving "
+            "a partial draft."
+        )
     data = _parse_yaml_response(message.content[0].text)
     return _resolve_sources(data, entries), entries
 

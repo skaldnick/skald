@@ -87,9 +87,11 @@ def on_load_draft():
         return outputs
 
     stories = data.get("stories", [])
-    title = data.get("title", "").strip()
+    # `or ""` not a .get default: an empty `title:` key parses as None, and
+    # None.strip() would crash the load handler.
+    title = (data.get("title") or "").strip()
     briefing_url = f"{BRIEFING_BASE_URL}/{datetime.now().strftime('%Y-%m-%d')}/"
-    social = data.get("social_post", "").strip().replace("{link}", briefing_url).rstrip(".")
+    social = (data.get("social_post") or "").strip().replace("{link}", briefing_url).rstrip(".")
     outputs = [f"### European Payments & Open Banking — {date_str}", title, social]
 
     for i in range(MAX_STORIES):
@@ -99,8 +101,10 @@ def on_load_draft():
             if revision_summary:
                 warning_md = "".join(f"\n\n✓ **Auto-corrected:** {w}" for w in revision_summary)
             else:
-                warnings = (s.get("verification") or {}).get("warnings") or []
-                warning_md = "".join(f"\n\n⚠️ **Verification flagged:** {w}" for w in warnings)
+                v_warnings = (s.get("verification") or {}).get("warnings") or []
+                sc_warnings = (s.get("style_check") or {}).get("warnings") or []
+                warning_md = "".join(f"\n\n⚠️ **Verification flagged:** {w}" for w in v_warnings)
+                warning_md += "".join(f"\n\n⚠️ **Style flagged:** {w}" for w in sc_warnings)
             sources = s.get("sources", "").strip()
             outputs += [
                 f"*Editorial note: {s.get('editorial_note', '').strip()}*{warning_md}",
@@ -127,11 +131,20 @@ def _update_yaml_in_pipeline_repo(path: str, date_str: str, headlines: list[str]
         entries = yaml.safe_load(local_path.read_text()) if local_path.exists() else []
 
     entries = [e for e in (entries or []) if isinstance(e, dict)]
-    if any(e["date"] == date_str for e in entries):
-        return True
-
-    entries.append({"date": date_str, "stories": headlines})
-    entries.sort(key=lambda e: e["date"])
+    existing = next((e for e in entries if e.get("date") == date_str), None)
+    if existing is None:
+        entries.append({"date": date_str, "stories": list(headlines)})
+    else:
+        # Merge, never replace: a same-day republish (eg, after approving one
+        # more story) must add its headlines, but un-approving a story on
+        # republish shouldn't remove a headline that was genuinely published
+        # earlier in the day — once covered, always covered.
+        current = existing.setdefault("stories", [])
+        new = [h for h in headlines if h not in current]
+        if not new:
+            return True  # nothing to add — skip the no-op commit
+        current.extend(new)
+    entries.sort(key=lambda e: e.get("date", ""))
     payload = (
         "# Updated automatically by the editorial dashboard.\n"
         + yaml.dump(entries, allow_unicode=True, sort_keys=False)
@@ -209,15 +222,10 @@ def on_save_reviewed_rules(text: str):
     return "No rules accepted — pending queue cleared."
 
 
-def on_save(*args):
-    # args: headlines, standfirsts, bodies, sources_txts, decisions, reasons
-    headlines = list(args[0:MAX_STORIES])
-    standfirsts = list(args[MAX_STORIES:MAX_STORIES * 2])
-    bodies = list(args[MAX_STORIES * 2:MAX_STORIES * 3])
-    sources_list = list(args[MAX_STORIES * 3:MAX_STORIES * 4])
-    decisions = list(args[MAX_STORIES * 4:MAX_STORIES * 5])
-    notes = list(args[MAX_STORIES * 5:])
-
+def _save_feedback(headlines, standfirsts, bodies, sources_list, decisions, notes) -> str:
+    """Write the day's edit diffs, decisions and notes to data/feedback/. Called
+    by the Save feedback button and automatically on publish, so the learning
+    loop never misses a session because Save wasn't clicked."""
     original_data = load_draft()
     original_stories = original_data.get("stories", []) if original_data else []
 
@@ -261,13 +269,26 @@ def on_save(*args):
     return f"Feedback saved — {len(records)} stories recorded."
 
 
+def on_save(*args):
+    # args: headlines, standfirsts, bodies, sources_txts, decisions, reasons
+    headlines = list(args[0:MAX_STORIES])
+    standfirsts = list(args[MAX_STORIES:MAX_STORIES * 2])
+    bodies = list(args[MAX_STORIES * 2:MAX_STORIES * 3])
+    sources_list = list(args[MAX_STORIES * 3:MAX_STORIES * 4])
+    decisions = list(args[MAX_STORIES * 4:MAX_STORIES * 5])
+    notes = list(args[MAX_STORIES * 5:])
+    return _save_feedback(headlines, standfirsts, bodies, sources_list, decisions, notes)
+
+
 def on_publish(*args):
     briefing_title = args[0]
-    headlines = list(args[1:MAX_STORIES + 1])
-    standfirsts = list(args[MAX_STORIES + 1:MAX_STORIES * 2 + 1])
-    bodies = list(args[MAX_STORIES * 2 + 1:MAX_STORIES * 3 + 1])
-    sources_list = list(args[MAX_STORIES * 3 + 1:MAX_STORIES * 4 + 1])
-    decisions = list(args[MAX_STORIES * 4 + 1:])
+    rest = args[1:]
+    headlines = list(rest[0:MAX_STORIES])
+    standfirsts = list(rest[MAX_STORIES:MAX_STORIES * 2])
+    bodies = list(rest[MAX_STORIES * 2:MAX_STORIES * 3])
+    sources_list = list(rest[MAX_STORIES * 3:MAX_STORIES * 4])
+    decisions = list(rest[MAX_STORIES * 4:MAX_STORIES * 5])
+    notes = list(rest[MAX_STORIES * 5:])
 
     date_str = datetime.now().strftime("%Y-%m-%d")
     approved, rejected = [], []
@@ -288,10 +309,15 @@ def on_publish(*args):
     body_md = "\n\n---\n\n".join(
         _assemble_web_story(h, sf, b, src) for h, sf, b, src in approved
     )
-    content = (
-        f'---\ntitle: "{title}"\n'
-        f'date: {date_str}\ndraft: false\nbeat: payments\n---\n\n{body_md}'
+    # Front matter is built with yaml.dump, not an f-string — the title is model-
+    # or editor-written prose that can contain quote marks or colons, either of
+    # which breaks hand-quoted YAML (same failure class as the block-scalar rule
+    # in CLAUDE.md's prompt conventions).
+    front_matter = yaml.dump(
+        {"title": title, "date": date_str, "draft": False, "beat": "payments"},
+        allow_unicode=True, sort_keys=False, default_flow_style=False,
     )
+    content = f"---\n{front_matter}---\n\n{body_md}"
     path = f"site/content/briefings/{date_str}.md"
 
     if github_api.available():
@@ -313,7 +339,11 @@ def on_publish(*args):
             f"Update recently_rejected {date_str}",
         )
 
-    return f"Published {len(approved)} {'story' if len(approved) == 1 else 'stories'} to {path}"
+    feedback_msg = _save_feedback(headlines, standfirsts, bodies, sources_list, decisions, notes)
+    return (
+        f"Published {len(approved)} {'story' if len(approved) == 1 else 'stories'} to {path}. "
+        + feedback_msg
+    )
 
 
 def on_post_to_x(social_post: str):
@@ -520,7 +550,7 @@ with gr.Blocks(title="Skald — Editorial Dashboard") as app:
         save_btn.click(on_save, inputs=feedback_inputs, outputs=status_md)
         publish_btn.click(
             on_publish,
-            inputs=[briefing_title_input] + headlines + standfirsts + bodies + sources_txts + decisions,
+            inputs=[briefing_title_input] + headlines + standfirsts + bodies + sources_txts + decisions + reasons,
             outputs=status_md,
         )
         post_x_btn.click(on_post_to_x, inputs=social_post_input, outputs=status_md)

@@ -215,6 +215,8 @@ __marimo__/
 /public/skald/
 .env
 venv/
+.claude/
+.DS_Store
 
 # ml/ — model weights, adapters, exported training data
 /ml/models/

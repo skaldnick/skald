@@ -9,7 +9,9 @@ import os
 import anthropic
 
 MODEL = "claude-haiku-4-5-20251001"
-MAX_TOKENS = 512
+# Warnings quote the offending text, so a story with several breaches can run
+# long — 512 proved tight enough to risk truncation (see stop_reason check below).
+MAX_TOKENS = 1024
 
 
 def _system_prompt(style_rules: list[dict]) -> str:
@@ -77,6 +79,12 @@ def check_story(story: dict, style_rules: list[dict], client: anthropic.Anthropi
             system=_system_prompt(style_rules),
             messages=[{"role": "user", "content": user_prompt}],
         )
+        if message.stop_reason == "max_tokens":
+            # Truncated JSON would surface as a bogus "could not be parsed"
+            # warning — treat truncation like an API failure and fail open,
+            # consistent with this check's philosophy (see docstring).
+            print(f"Warning: style check response truncated for {story.get('headline', '')!r} — failing open")
+            return {"compliant": True, "warnings": []}
         return _parse_response(message.content[0].text)
     except Exception as e:
         print(f"Warning: style check failed for {story.get('headline', '')!r}: {e}")

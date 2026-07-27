@@ -1,5 +1,8 @@
 anthropic
 feedparser
+# gradio: deliberately unpinned — the HF Space's version is governed by sdk_version
+# in hf-readme.md (a requirements pin conflicts with HF's install and broke the
+# build 2026-05-21; see commits 4d5875e/99d11d8). Upgrade via sdk_version instead.
 gradio
 python-dotenv
 pyyaml

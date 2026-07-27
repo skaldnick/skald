@@ -29,8 +29,12 @@ jobs:
       - name: Find changed feedback dates
         id: changed
         run: |
-          if [ "${{ github.event_name }}" = "push" ]; then
-            DATES=$(git diff --name-only "${{ github.event.before }}" "${{ github.event.after }}" -- 'data/feedback/*.json' \
+          # Guard against the zero SHA github.event.before carries on a branch-create
+          # or force push — diffing against it fails. --diff-filter=d excludes deleted
+          # feedback files, which would otherwise trigger a run against a missing date.
+          ZERO_SHA="0000000000000000000000000000000000000000"
+          if [ "${{ github.event_name }}" = "push" ] && [ "${{ github.event.before }}" != "$ZERO_SHA" ]; then
+            DATES=$(git diff --name-only --diff-filter=d "${{ github.event.before }}" "${{ github.event.after }}" -- 'data/feedback/*.json' \
               | xargs -n1 basename | sed 's/\.json$//' | tr '\n' ' ')
           else
             DATES=""

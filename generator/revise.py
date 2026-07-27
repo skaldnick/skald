@@ -134,16 +134,17 @@ never cite an entry from the "Previously covered" or "Editorially rejected" list
 
 def generate_replacement(
     beat_name: str,
-    entries: list[dict],
     unused: list[tuple[int, dict]],
     rejection_reason: str,
     recently_covered: list[dict] | None = None,
     recently_rejected: list[dict] | None = None,
     client: anthropic.Anthropic | None = None,
 ) -> dict | None:
-    """Try to select and draft a replacement story from entries not yet cited
-    elsewhere in today's briefing. Returns a resolved story dict (with `sources`
-    already built) or None if there's nothing usable to replace with."""
+    """Try to select and draft a replacement story from `unused` — the (id, entry)
+    pairs not yet cited elsewhere in today's briefing, with ids keeping their
+    1-based position in the filtered entry list the model's source_ids refer to.
+    Returns a resolved story dict (with `sources` already built) or None if
+    there's nothing usable to replace with."""
     if not unused:
         return None
     client = client or anthropic.Anthropic(api_key=os.environ["ANTHROPIC_API_KEY"])
@@ -173,7 +174,12 @@ def generate_replacement(
         data = _unparseable_json(message.content[0].text)
         if data is None or data.get("no_candidate"):
             return None
-        by_id = {i: e for i, e in enumerate(entries, start=1)}
+        # Resolve only against the unused candidates, not the full entry list —
+        # the model is *told* to cite candidate IDs only, but if it cites an ID
+        # already used by another story anyway, resolution must fail (unknown-id
+        # warning in _build_source_links, then None below) rather than recreate
+        # the duplicate-source problem this pass exists to fix.
+        by_id = dict(unused)
         headline = str(data.get("headline", ""))
         sources, _ = _build_source_links(data.get("source_ids") or [], by_id, headline)
         if not sources:
@@ -224,7 +230,7 @@ def revise_briefing(
             used_ids = _used_entry_ids(stories, entries)
             unused = [(i, e) for i, e in enumerate(entries, start=1) if i not in used_ids]
             replacement = generate_replacement(
-                beat_name, entries, unused, reason, recently_covered, recently_rejected, client=client,
+                beat_name, unused, reason, recently_covered, recently_rejected, client=client,
             )
             if replacement:
                 replacement["style_check"] = check_story(replacement, style_rules, client=client)
