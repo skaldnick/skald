@@ -8,3 +8,17 @@
     summarising the interpretive takeaway or analytical conclusion of the article.
     Save the "so what" framing for the body; use the standfirst to extend the headline
     with specific, concrete detail about what happened.
+- date: '2026-07-28'
+  rule: Do not repeat the subject name from the headline as the first word of the
+    standfirst. Where the headline names the company or subject, open the standfirst
+    with a descriptive noun phrase instead — eg, "The British fintech" rather than
+    repeating "Wise".
+- date: '2026-07-28'
+  rule: 'Do not append a source attribution line (eg, "*Sources: [title](url) — Publication*")
+    to the end of articles. Omit source citations from published output entirely.'
+- date: '2026-07-28'
+  rule: Use "including" rather than "such as" when introducing a partial list of named
+    examples within a sentence — prefer "including Lloyds and Barclays" over "such
+    as Lloyds and Barclays".
+- date: '2026-07-28'
+  rule: Refer to HM Treasury as "the Treasury" in body text, not "HM Treasury".
