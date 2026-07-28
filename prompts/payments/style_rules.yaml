@@ -130,3 +130,5 @@
   rule: When a company name has a recognisable short form (eg, 'Viva' from 'Viva.com'),
     use the short form consistently after first mention rather than repeating the
     full branded name each time.
+- date: '2026-07-28'
+  rule: Refer to HM Treasury as "the Treasury" in body text, not "HM Treasury".
