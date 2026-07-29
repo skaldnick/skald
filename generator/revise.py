@@ -24,14 +24,18 @@ from generator.style_check import check_story
 from generator.verify import verify_story
 
 MAX_TOKENS = 2048
-_NON_ACTIONABLE_MARKERS = ("failed to run", "could not be parsed")
+_NON_ACTIONABLE_MARKERS = ("failed to run", "could not be parsed", "could not independently verify")
 
 
 def _actionable(warnings: list[str]) -> list[str]:
-    """Drop warnings that are just pipeline failure markers, not real fixable
-    issues — an earlier pass's own API hiccup shouldn't be handed to the model
-    as something to correct in the story text."""
-    return [w for w in warnings if not any(m in w for m in _NON_ACTIONABLE_MARKERS)]
+    """Drop warnings that aren't real fixable issues: pipeline failure markers
+    (an earlier pass's own API hiccup) and verify.py's "could not independently
+    verify" warnings, which mean the fact-checker's search was inconclusive
+    (e.g. a same-day source not yet indexed) rather than finding an actual
+    contradiction. Handing either to the rewrite model risks it "fixing" a
+    correct story to match a guess — these need editor judgment, not an
+    automatic rewrite."""
+    return [w for w in warnings if not any(m in w.lower() for m in _NON_ACTIONABLE_MARKERS)]
 
 
 def _source_urls(sources_md: str) -> set[str]:
@@ -65,7 +69,12 @@ fact-checking and house-style review. Rewrite ONLY what's necessary to fix each 
 issue — preserve the wording, structure and every fact that isn't flagged. If an issue
 can't actually be addressed by rewriting (e.g. it requires information you don't have),
 leave the related text unchanged and say so plainly in the change summary rather than
-guessing.
+guessing. In particular, only change a specific fact (a date, quarter, figure, name)
+when the issue states clearly, with evidence, what the correct value is — an issue that
+only expresses uncertainty ("may not match", "could not confirm") is not evidence of
+what the right value is, and substituting your own guess risks replacing a correct fact
+with a wrong one. Leave those unchanged and note in "changes" that it could not be
+confirmed either way.
 
 Respond with ONLY a single JSON object as your final message — no explanation, no
 preamble, no commentary, no code fences, before or after it:

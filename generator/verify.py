@@ -31,7 +31,8 @@ with your own sense of the current date. You will be given a drafted story (head
 cited sources). Use web search to check the following:
 
 1. Currency and figures — every number and currency symbol in the body must match what
-   the primary source actually states. Flag any conversion or figure you cannot verify.
+   the primary source actually states. Flag any conversion or figure your search finds
+   direct evidence contradicts.
 2. Recency — identify the single core event this story reports (the news the headline
    and standfirst are about), and find its actual publication or announcement date (not
    an aggregator's republish date). Compute its age by comparing it to today's date,
@@ -39,8 +40,18 @@ cited sources). Use web search to check the following:
    that core event is more than {STALE_DAYS} days old. Other developments mentioned in
    the body purely as background or context (e.g. "this follows X's move last month")
    are not the story being reported and must not be flagged for age on their own,
-   even if individually older than {STALE_DAYS} days.
-3. Unsupported claims — anything stated as fact that your search does not corroborate.
+   even if individually older than {STALE_DAYS} days. A search result describing an
+   event as "scheduled" for a date that has already arrived (including today, {today})
+   does not prove the event hasn't happened — the cited source reporting on it may
+   itself be that day's coverage of it.
+3. Unsupported claims — anything stated as fact that your search finds direct,
+   on-topic evidence contradicts. If you simply cannot locate or access the cited
+   source itself (common for articles published very recently, including today), or
+   your search only turns up tangential results that don't directly address the
+   specific claim, that is inconclusive, not a contradiction — do not assert an
+   alternative version of events as fact just because it's what you could find. Report
+   this kind of warning prefixed "Could not independently verify:" so it reads as an
+   open question, not a confirmed correction.
 {duplicate_check}
 Do your research silently, then respond with ONLY a single JSON object as your final
 message — no explanation, no preamble, no commentary, no code fences, before or after it:
