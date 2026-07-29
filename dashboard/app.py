@@ -2,6 +2,7 @@ import difflib
 import json
 import os
 import re
+from functools import partial
 from datetime import datetime
 from pathlib import Path
 
@@ -37,6 +38,13 @@ PROPOSED_RULES_HEADER = (
     "# to data/feedback/). Review and promote/edit in the dashboard's 'Proposed style\n"
     "# rules' section — accepted rules move to prompts/payments/style_rules.yaml.\n"
 )
+SETTINGS_FILES = [
+    ("System prompt", "prompts/payments/system.yaml"),
+    ("Story prompt", "prompts/payments/story.yaml"),
+    ("Style rules", "prompts/payments/style_rules.yaml"),
+    ("Sources", "beats/payments.yaml"),
+    ("Keyword filters", "beats/payments_filters.yaml"),
+]
 
 
 def load_draft(beat: str = "payments") -> dict | None:
@@ -184,6 +192,28 @@ def _write_repo_yaml_list(path: str, entries: list[dict], header: str, commit_ms
     return True
 
 
+def _read_repo_text(path: str) -> str | None:
+    """Read a file's raw text, with no YAML parsing. Settings-tab files rely on
+    literal block scalars that yaml.safe_load/yaml.dump would reformat away on
+    a round trip, so — unlike _read_repo_yaml_list — this returns exactly what's
+    on disk/in the repo."""
+    if github_api.available():
+        text, _ = github_api.read_file(path, repo=github_api.GITHUB_PIPELINE_REPO)
+        return text
+    local_path = ROOT / path
+    return local_path.read_text() if local_path.exists() else None
+
+
+def _write_repo_text(path: str, content: str, commit_msg: str) -> bool:
+    """Write raw text back verbatim — see _read_repo_text."""
+    if github_api.available():
+        return github_api.write_file(path, content, commit_msg, repo=github_api.GITHUB_PIPELINE_REPO)
+    local_path = ROOT / path
+    local_path.parent.mkdir(parents=True, exist_ok=True)
+    local_path.write_text(content)
+    return True
+
+
 def _rule_snippet(rule_text: str, limit: int = 60) -> str:
     text = re.sub(r"\s+", " ", rule_text.strip())
     return text[:limit] + ("…" if len(text) > limit else "")
@@ -267,6 +297,23 @@ def on_save_reviewed_rules(text: str):
         parts = [p for p in (f"added {added}" if added else "", f"revised {replaced}" if replaced else "") if p]
         return f"Saved: {', '.join(parts)} style rule(s). Pending queue cleared."
     return "No rules accepted — pending queue cleared."
+
+
+def on_load_setting(path: str) -> str:
+    text = _read_repo_text(path)
+    return text if text is not None else f"# Could not load {path} — file not found or read failed."
+
+
+def on_save_setting(path: str, text: str) -> str:
+    """Validate as YAML, then write back exactly as typed — never reformatted,
+    per _read_repo_text/_write_repo_text above."""
+    try:
+        yaml.safe_load(text)
+    except yaml.YAMLError as e:
+        return f"Not saved — invalid YAML: {e}"
+    if not _write_repo_text(path, text, f"Update {path} via dashboard Settings"):
+        return f"Error saving {path}."
+    return f"Saved {path}."
 
 
 def _save_feedback(headlines, standfirsts, bodies, sources_list, decisions, notes) -> str:
@@ -515,70 +562,110 @@ def on_regenerate(*args):
 # --- UI ---
 
 with gr.Blocks(title="Skald — Editorial Dashboard") as app:
-    with gr.Row():
-        gr.Markdown("# Skald — Editorial Dashboard")
-        trigger_btn = gr.Button("Trigger generation", variant="secondary", scale=0)
-        load_btn = gr.Button("Load draft", variant="primary", scale=0)
-
-    header_md = gr.Markdown("*Checking for today's draft...*")
-
-    groups = []
-    editorial_note_mds = []
-    headlines, standfirsts, bodies, sources_txts, sources_mds = [], [], [], [], []
-    decisions, reasons = [], []
-
-    for i in range(MAX_STORIES):
-        with gr.Group() as grp:
+    with gr.Tabs():
+        with gr.Tab("Today"):
             with gr.Row():
-                gr.Markdown(f"#### Story {i + 1}")
-                dec = gr.Radio(["Approve", "Reject"], value="Approve", label="Decision", scale=0)
-            ed_note = gr.Markdown("")
-            headline = gr.Textbox(lines=1, label="Headline")
-            standfirst = gr.Textbox(lines=2, label="Standfirst")
-            body = gr.Textbox(lines=12, label="Body", show_label=True)
-            src_md = gr.Markdown(label="Sources")
-            src = gr.State("")
-            rsn = gr.Textbox(
-                placeholder="Notes — story selection, style, or rejection reason (optional)",
-                label="Notes",
-                lines=2,
-            )
-        groups.append(grp)
-        editorial_note_mds.append(ed_note)
-        headlines.append(headline)
-        standfirsts.append(standfirst)
-        bodies.append(body)
-        sources_txts.append(src)
-        sources_mds.append(src_md)
-        decisions.append(dec)
-        reasons.append(rsn)
+                gr.Markdown("# Skald — Editorial Dashboard")
+                trigger_btn = gr.Button("Trigger generation", variant="secondary", scale=0)
+                load_btn = gr.Button("Load draft", variant="primary", scale=0)
 
-    with gr.Row():
-        briefing_title_input = gr.Textbox(
-            placeholder="Briefing title — AI-drafted, edit before publishing",
-            label="Briefing title",
-            scale=1,
-            visible=not DEMO_MODE,
-        )
+            header_md = gr.Markdown("*Checking for today's draft...*")
+
+            groups = []
+            editorial_note_mds = []
+            headlines, standfirsts, bodies, sources_txts, sources_mds = [], [], [], [], []
+            decisions, reasons = [], []
+
+            for i in range(MAX_STORIES):
+                with gr.Group() as grp:
+                    with gr.Row():
+                        gr.Markdown(f"#### Story {i + 1}")
+                        dec = gr.Radio(["Approve", "Reject"], value="Approve", label="Decision", scale=0)
+                    ed_note = gr.Markdown("")
+                    headline = gr.Textbox(lines=1, label="Headline")
+                    standfirst = gr.Textbox(lines=2, label="Standfirst")
+                    body = gr.Textbox(lines=12, label="Body", show_label=True)
+                    src_md = gr.Markdown(label="Sources")
+                    src = gr.State("")
+                    rsn = gr.Textbox(
+                        placeholder="Notes — story selection, style, or rejection reason (optional)",
+                        label="Notes",
+                        lines=2,
+                    )
+                groups.append(grp)
+                editorial_note_mds.append(ed_note)
+                headlines.append(headline)
+                standfirsts.append(standfirst)
+                bodies.append(body)
+                sources_txts.append(src)
+                sources_mds.append(src_md)
+                decisions.append(dec)
+                reasons.append(rsn)
+
+            with gr.Row():
+                briefing_title_input = gr.Textbox(
+                    placeholder="Briefing title — AI-drafted, edit before publishing",
+                    label="Briefing title",
+                    scale=1,
+                    visible=not DEMO_MODE,
+                )
+                if not DEMO_MODE:
+                    regen_btn = gr.Button("Re-generate", variant="secondary", scale=0)
+
+            with gr.Row(visible=not DEMO_MODE):
+                social_post_input = gr.Textbox(
+                    placeholder="Social post for X — AI-drafted, edit before publishing",
+                    label="Social post (X)",
+                    lines=3,
+                    scale=1,
+                )
+                post_x_btn = gr.Button("Post to X", variant="secondary", scale=0)
+            if not DEMO_MODE:
+                social_char_count = gr.Markdown(f"0 / {X_CHAR_LIMIT}")
+
+            with gr.Row():
+                status_md = gr.Markdown("")
+                if not DEMO_MODE:
+                    save_btn = gr.Button("Save feedback", variant="secondary", scale=0)
+                    publish_btn = gr.Button("Publish approved", variant="primary", scale=0)
+
+            if not DEMO_MODE:
+                with gr.Group():
+                    with gr.Row():
+                        gr.Markdown("#### Proposed style rules")
+                        load_rules_btn = gr.Button("Load proposed rules", variant="secondary", scale=0)
+                        save_rules_btn = gr.Button("Save reviewed rules", variant="primary", scale=0)
+                    proposed_rules_box = gr.Textbox(
+                        label="One rule per line — edit wording freely, delete a line to reject it",
+                        placeholder="Click **Load proposed rules** to check for new rules extracted from recent feedback.",
+                        lines=6,
+                    )
+                    rules_status_md = gr.Markdown("")
+
         if not DEMO_MODE:
-            regen_btn = gr.Button("Re-generate", variant="secondary", scale=0)
-
-    with gr.Row(visible=not DEMO_MODE):
-        social_post_input = gr.Textbox(
-            placeholder="Social post for X — AI-drafted, edit before publishing",
-            label="Social post (X)",
-            lines=3,
-            scale=1,
-        )
-        post_x_btn = gr.Button("Post to X", variant="secondary", scale=0)
-    if not DEMO_MODE:
-        social_char_count = gr.Markdown(f"0 / {X_CHAR_LIMIT}")
-
-    with gr.Row():
-        status_md = gr.Markdown("")
-        if not DEMO_MODE:
-            save_btn = gr.Button("Save feedback", variant="secondary", scale=0)
-            publish_btn = gr.Button("Publish approved", variant="primary", scale=0)
+            with gr.Tab("Settings"):
+                gr.Markdown(
+                    "Raw YAML for the generation pipeline. **Load** fetches the current file; "
+                    "**Save** validates it parses as YAML, then writes your text back exactly as "
+                    "typed — never reformatted — so the literal block scalars (`|`) the prompts "
+                    "and style rules depend on survive the round trip."
+                )
+                for label, setting_path in SETTINGS_FILES:
+                    with gr.Group():
+                        with gr.Row():
+                            gr.Markdown(f"#### {label} (`{setting_path}`)")
+                            load_setting_btn = gr.Button("Load", variant="secondary", scale=0)
+                            save_setting_btn = gr.Button("Save", variant="primary", scale=0)
+                        setting_box = gr.Textbox(
+                            placeholder=f"Click Load to fetch {setting_path}",
+                            lines=16,
+                            show_label=False,
+                        )
+                        setting_status_md = gr.Markdown("")
+                    load_setting_btn.click(partial(on_load_setting, setting_path), outputs=setting_box)
+                    save_setting_btn.click(
+                        partial(on_save_setting, setting_path), inputs=setting_box, outputs=setting_status_md,
+                    )
 
     # Per-story load outputs: editorial_note, headline, standfirst, body, sources_md, sources_state, decision, reason
     load_outputs = [header_md, briefing_title_input, social_post_input]
@@ -612,19 +699,6 @@ with gr.Blocks(title="Skald — Editorial Dashboard") as app:
             inputs=headlines + standfirsts + decisions,
             outputs=[briefing_title_input, social_post_input, status_md],
         )
-
-    if not DEMO_MODE:
-        with gr.Group():
-            with gr.Row():
-                gr.Markdown("#### Proposed style rules")
-                load_rules_btn = gr.Button("Load proposed rules", variant="secondary", scale=0)
-                save_rules_btn = gr.Button("Save reviewed rules", variant="primary", scale=0)
-            proposed_rules_box = gr.Textbox(
-                label="One rule per line — edit wording freely, delete a line to reject it",
-                placeholder="Click **Load proposed rules** to check for new rules extracted from recent feedback.",
-                lines=6,
-            )
-            rules_status_md = gr.Markdown("")
 
         load_rules_btn.click(on_load_proposed_rules, outputs=proposed_rules_box)
         save_rules_btn.click(on_save_reviewed_rules, inputs=proposed_rules_box, outputs=rules_status_md)
