@@ -1,0 +1,9 @@
+{
+  "name": "run-skald-dashboard-driver",
+  "private": true,
+  "type": "module",
+  "description": "Playwright dependency for the Skald dashboard run-skill driver. Not part of the Python pipeline.",
+  "dependencies": {
+    "playwright": "1.62.0"
+  }
+}

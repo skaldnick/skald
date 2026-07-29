@@ -215,7 +215,14 @@ __marimo__/
 /public/skald/
 .env
 venv/
-.claude/
+# .claude/ is tracked except machine-local state — skills (e.g. run-<unit>/)
+# are shared project tooling and belong in the repo, unlike per-machine
+# permissions/worktrees below.
+.claude/settings.local.json
+.claude/launch.json
+.claude/worktrees/
+.claude/skills/**/node_modules/
+.claude/skills/**/package-lock.json
 .DS_Store
 
 # ml/ — model weights, adapters, exported training data
