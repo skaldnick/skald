@@ -1,27 +1,38 @@
 # House style rules extracted from editorial feedback.
 # Populated by: python tools/extract_learning.py
-# Review proposed rules before adding. More recent rules take precedence on conflict.
-- date: '2026-04-13'
+# Each rule has a stable id. A proposal that revises an existing rule carries
+# supersedes: <id> and replaces that rule in place (same id, new date/text) rather
+# than appending alongside it — see tools/extract_learning.py and the dashboard's
+# 'Proposed style rules' section. Rules with no supersede history are still subject
+# to the old convention: more recent rules take precedence on conflict.
+- id: 1
+  date: '2026-04-13'
   rule: In standfirsts, lead with the substantive news or conclusion; move scene-setting
     subordinate clauses (eg, "as X happens") to later in the sentence.
-- date: '2026-04-13'
+- id: 2
+  date: '2026-04-13'
   rule: Prefer spelling out non-standard abbreviations/acronyms, such as "account-to-account"
     instead of "A2A".
-- date: '2026-04-13'
+- id: 3
+  date: '2026-04-13'
   rule: Replace dashes used to introduce a consequence or parenthetical mid-sentence
     with commas.
-- date: '2026-04-14'
+- id: 4
+  date: '2026-04-14'
   rule: Use "US" not "United States" in body text.
-- date: '2026-06-04'
+- id: 5
+  date: '2026-06-04'
   rule: Never flag significance explicitly. Do not write sentences that announce importance
     before explaining it — no "This matters because", "The significance here is",
     "What this means is", "Why this is notable", or equivalent framing. Write the
     substantive point directly; if it belongs in the briefing, the reader will recognise
     its significance without being told.
-- date: '2026-07-08'
+- id: 6
+  date: '2026-07-08'
   rule: Write numbers one to nine as words (one, two, three...); use digits from 10
     upward (10, 11, 12...).
-- date: '2026-07-09'
+- id: 7
+  date: '2026-07-09'
   rule: 'The standfirst adds context to the headline — the interpretive point, a summary,
     or added explanation — but it is not the opening sentence of the story. The body
     must be self-contained: it explains the story from the beginning (who, what, where,
@@ -30,111 +41,144 @@
     "Company does X", standfirst "Company something", body "Company does X") — but
     the body restating or developing the standfirst''s point in more depth and different
     wording is expected, not a violation.'
-- date: '2026-07-09'
+- id: 8
+  date: '2026-07-09'
   rule: Apply the standard words-for-one-to-nine / digits-from-10 rule but avoid starting
     a headline, standfirst or sentence with digits.
-- date: '2026-07-09'
+- id: 9
+  date: '2026-07-09'
   rule: On first use of an abbreviation that must be retained, spell it out in full
     followed by the abbreviation in parentheses — eg, "distributed ledger technology
     (DLT)" — then use the abbreviation alone for subsequent references. This rule
     can be ignored for some very common abbreviations (eg, US, UK, UN).
-- date: '2026-07-09'
+- id: 10
+  date: '2026-07-09'
   rule: Prefer the present continuous tense ("is partnering") over the simple present
     ("has partnered") when describing a newly announced or ongoing arrangement, to
     signal currency without implying the action is already complete.
-- date: '2026-07-13'
+- id: 11
+  date: '2026-07-13'
   rule: Do not use phrases such as "The timing is notable", "This is notable", or
     any equivalent sentence that announces notability or significance before making
     a point. Write the substantive point directly.
-- date: '2026-07-13'
+- id: 12
+  date: '2026-07-13'
   rule: Use "judgment" not "judgement".
-- date: '2026-07-13'
+- id: 13
+  date: '2026-07-13'
   rule: Only include an abbreviation or initialism in parentheses after a term if
     that abbreviation is used again later in the same piece. If the short form never
     recurs, spell out the term in full without adding the abbreviation in brackets.
-- date: '2026-07-14'
+- id: 14
+  date: '2026-07-14'
   rule: Use people's names alongside their titles on first reference — eg, "Rachel
     Reeves, the UK chancellor" rather than just "the UK chancellor". Name individuals
     wherever possible to personalise the writing.
-- date: '2026-07-15'
+- id: 15
+  date: '2026-07-15'
   rule: When naming an individual on first reference, include their title immediately
     — eg, "chancellor Rachel Reeves" or "Rachel Reeves, the chancellor" — when the
     title is needed for context.
-- date: '2026-07-15'
+- id: 16
+  date: '2026-07-15'
   rule: Do not use "The move is notable", "The move is significant", or equivalent
     constructions that announce notability before making a substantive point. Write
     the substantive point directly.
-- date: '2026-07-15'
+- id: 17
+  date: '2026-07-15'
   rule: Avoid vague temporal references such as "earlier this year". Use specific
     time periods (eg, "the last quarter of 2025 (April-June)") when referring to financial
     or business results.
-- date: '2026-07-15'
+- id: 18
+  date: '2026-07-15'
   rule: When citing financial metrics such as profitability, qualify them with the
     basis of measurement where relevant — eg, "(based on adjusted Ebitda)" — so the
     claim is precise rather than unqualified.
-- date: '2026-07-16'
+- id: 19
+  date: '2026-07-16'
   rule: Avoid vague temporal references such as "in June" or "last month" when a specific
     date is available. Use the precise date (eg, "on July 9") or, where only a month
     is known, the month name. Reserve "last month" only when the specific date cannot
     be established.
-- date: '2026-07-16'
+- id: 20
+  date: '2026-07-16'
   rule: When introducing a named individual, include their title and, where relevant,
     the date or context of their appointment — eg, "CEO Enrique Lores has already
     begun restructuring after taking the job in March" rather than "its new CEO has
     already begun restructuring".
-- date: '2026-07-16'
+- id: 21
+  date: '2026-07-16'
   rule: Do not open a paragraph with "The deal is far from certain" or equivalent
     hedging scene-setters that delay the substantive point. Lead directly with the
     substantive claim — eg, "intense regulatory scrutiny is expected".
-- date: '2026-07-17'
+- id: 22
+  date: '2026-07-17'
   rule: Do not describe a development as "one of a growing number" in a way that hedges
     its significance. If the broader trend is worth noting, state the trend directly
     and let the specific item illustrate it.
-- date: '2026-07-20'
+- id: 23
+  date: '2026-07-20'
   rule: Prefer "say" (or "said", "says") over "believe" or "believes" when attributing
     views to individuals or organisations. Use verbs that report what people have
     stated rather than asserting their internal beliefs.
-- date: '2026-07-20'
+- id: 24
+  date: '2026-07-20'
   rule: Do not include editorial notes about missing information — eg, "Whether this
     is a newly created position is not stated in the source" or "The appointee's background
     was not available." If information is absent, simply omit it; do not flag its
     absence in the text.
-- date: '2026-07-21'
+- id: 25
+  date: '2026-07-21'
   rule: Do not state a specific count of participants (eg, "nine payment service providers")
     when the named examples are introduced with "such as" or "including" — that phrasing
     signals the list isn't exhaustive, and a precise count contradicts it.
-- date: '2026-07-24'
+- id: 26
+  date: '2026-07-24'
   rule: For stories originating outside Europe that are relevant to a European audience,
     the opening sentence (lede) should frame the story in terms of its broader or
     global relevance — eg, 'could shape how regulators worldwide respond to X'. Mention
     the specific geographic origin (eg, North America) in the following sentence,
     not the lede.
-- date: '2026-07-24'
+- id: 27
+  date: '2026-07-24'
   rule: Do not start the headline, standfirst, and body opening sentence with the
     same word or phrase. Vary the opening in at least one of the elements.
-- date: '2026-07-24'
+- id: 28
+  date: '2026-07-24'
   rule: Do not apply the abbreviation-in-parentheses rule to the standfirst. In the
     standfirst, common and recognisable abbreviations (such as FCA, EPI) may be used
     on first mention without spelling them out. Spell-out-plus-parenthetical is only
     required in the body text.
-- date: '2026-07-24'
+- id: 29
+  date: '2026-07-24'
   rule: Treat the body as a standalone content section for the purpose of abbreviation
     rules. If an abbreviation is introduced in the standfirst, it must still be spelled
     out in full on first use in the body, with the abbreviation in parentheses if
     it recurs within the body — eg, 'the Financial Conduct Authority (FCA)' in the
     body even if 'FCA' appeared in the standfirst.
-- date: '2026-07-24'
+- id: 30
+  date: '2026-07-24'
   rule: When a company name has a recognisable short form (eg, 'Viva' from 'Viva.com'),
     use the short form consistently after first mention rather than repeating the
     full branded name each time.
-- date: '2026-07-28'
+- id: 31
+  date: '2026-07-28'
   rule: Refer to HM Treasury as "the Treasury" in body text, not "HM Treasury".
-- date: '2026-07-29'
-  rule: In headlines and standfirsts, abbreviate million, billion and trillion to m, bn, and tn respectively
-    — eg, "10k", "$10m", "£10bn", "€10tn", and only for currency or numeric amounts. In body copy, always spell out "million", "billion", and "trillion" in full.
-- date: '2026-07-29'
+- id: 32
+  date: '2026-07-29'
+  rule: In headlines and standfirsts, abbreviate million, billion and trillion to
+    m, bn, and tn respectively — eg, "10k", "$10m", "£10bn", "€10tn", and only for
+    currency or numeric amounts. In body copy, always spell out "million", "billion",
+    and "trillion" in full.
+- id: 33
+  date: '2026-07-29'
   rule: When using dashes in body text, use en-dashes (–) rather than em-dashes (—).
-- date: '2026-07-29'
-  rule: Do not include a decimal place for round or whole numbers. Write "£7 million" not "£7.0 million", "£10 billion" not "£10.0 billion", and so on.
-- date: '2026-07-29'
-  rule: The standfirst and the opening sentence of the body must not be very similar to each other in wording or structure. If the standfirst summarises the key point, the body's opening sentence should not restate it in near-identical language.
+- id: 34
+  date: '2026-07-29'
+  rule: Do not include a decimal place for round or whole numbers. Write "£7 million"
+    not "£7.0 million", "£10 billion" not "£10.0 billion", and so on.
+- id: 35
+  date: '2026-07-29'
+  rule: The standfirst and the opening sentence of the body must not be very similar
+    to each other in wording or structure. If the standfirst summarises the key point,
+    the body's opening sentence should not restate it in near-identical language.

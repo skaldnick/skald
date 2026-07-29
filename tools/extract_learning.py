@@ -8,13 +8,17 @@ Usage:
     python tools/extract_learning.py --all        # all feedback files
 
 What it does:
-  1. Calls Claude to propose style rules from editorial diffs and notes.
+  1. Calls Claude to propose style rules from editorial diffs and notes. A proposal
+     that revises an existing rule (rather than adding a new one) carries a
+     `supersedes: <id>` field naming the rule it replaces.
   2. Appends new proposals (deduped against accepted and already-pending rules)
      to data/proposed_style_rules.yaml.
 
 Proposals sit in that queue until reviewed in the dashboard's "Proposed style
 rules" section, where they can be edited or dropped before being promoted into
-prompts/payments/style_rules.yaml.
+prompts/payments/style_rules.yaml. A promoted rule with `supersedes: <id>`
+replaces that rule in place (same id, new date/text) rather than appending
+alongside it.
 
 Note: recently_covered.yaml and recently_rejected.yaml are updated
 automatically by the dashboard on publish. This tool focuses on style rules.
@@ -86,7 +90,7 @@ def _normalize(rule_text: str) -> str:
 
 
 def _parse_proposed_yaml(text: str) -> list[dict]:
-    """Parse Claude's raw YAML response into a list of {date, rule} dicts."""
+    """Parse Claude's raw YAML response into a list of {date, rule, supersedes} dicts."""
     cleaned = text.strip()
     if cleaned.startswith("```"):
         lines = cleaned.splitlines()
@@ -104,6 +108,7 @@ def append_proposed_rules(new_rules: list[dict]) -> int:
     existing = load_style_rules()
     pending = load_proposed_rules()
     seen = {_normalize(r["rule"]) for r in existing + pending if r.get("rule")}
+    valid_ids = {r["id"] for r in existing if isinstance(r.get("id"), int)}
 
     added = []
     for r in new_rules:
@@ -111,9 +116,17 @@ def append_proposed_rules(new_rules: list[dict]) -> int:
         if key in seen:
             continue
         seen.add(key)
+        # A supersedes id must point at a rule that actually exists — a
+        # hallucinated or already-superseded id would otherwise silently
+        # replace the wrong rule (or nothing) when this is promoted.
+        supersedes = r.get("supersedes")
+        supersedes = supersedes if isinstance(supersedes, int) and supersedes in valid_ids else None
         # Block-scalar rule values parse with a trailing newline — strip so the
         # queue file and the dashboard's one-rule-per-line textbox stay clean.
-        added.append({"date": str(r.get("date", "")), "rule": str(r["rule"]).strip()})
+        entry = {"date": str(r.get("date", "")), "rule": str(r["rule"]).strip()}
+        if supersedes is not None:
+            entry["supersedes"] = supersedes
+        added.append(entry)
 
     if added:
         pending.extend(added)
@@ -153,7 +166,7 @@ def propose_style_rules(feedback_list: list[dict]) -> str:
     existing_rules = load_style_rules()
     pending_rules = load_proposed_rules()
     existing_text = (
-        "\n".join(f"- {r['rule']}" for r in existing_rules)
+        "\n".join(f"- [{r.get('id', '?')}] {r['rule']}" for r in existing_rules)
         if existing_rules
         else "(none yet)"
     )
@@ -186,7 +199,15 @@ def propose_style_rules(feedback_list: list[dict]) -> str:
         "Ignore:",
         "- One-off factual corrections",
         "- Changes that are just different, not demonstrably better",
-        "- Rules already covered by the existing or pending lists below",
+        "- Rules already covered, unchanged, by the existing or pending lists below",
+        "",
+        "Revisions: each existing rule below is shown with its id in brackets, e.g. [12].",
+        "If a diff or note shows the editor doing something a current rule would forbid or",
+        "not cover — narrowing it, widening it, reversing it, or replacing vague wording with",
+        "a precise version — propose the revised rule with a `supersedes: <id>` field naming",
+        "the rule it replaces, rather than treating this as a fresh, unrelated rule or ignoring",
+        "it as a duplicate. Only set supersedes when the new rule is meant to replace the old",
+        "one's guidance outright; omit it entirely for a genuinely new rule.",
         "",
         f"Existing (accepted) rules:\n{existing_text}",
         "",
@@ -203,6 +224,7 @@ def propose_style_rules(feedback_list: list[dict]) -> str:
         '- date: "YYYY-MM-DD"',
         "  rule: |",
         "    ...",
+        "  supersedes: 12  # omit this line entirely unless this rule replaces existing rule [12]",
         "",
         "Use the date of the note or diff the rule comes from. Be specific and actionable.",
         "Output only the YAML, no explanation.",

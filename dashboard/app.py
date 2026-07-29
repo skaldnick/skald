@@ -25,7 +25,11 @@ STYLE_RULES_REL = "prompts/payments/style_rules.yaml"
 STYLE_RULES_HEADER = (
     "# House style rules extracted from editorial feedback.\n"
     "# Populated by: python tools/extract_learning.py\n"
-    "# Review proposed rules before adding. More recent rules take precedence on conflict.\n"
+    "# Each rule has a stable id. A proposal that revises an existing rule carries\n"
+    "# supersedes: <id> and replaces that rule in place (same id, new date/text) rather\n"
+    "# than appending alongside it — see tools/extract_learning.py and the dashboard's\n"
+    "# 'Proposed style rules' section. Rules with no supersede history are still subject\n"
+    "# to the old convention: more recent rules take precedence on conflict.\n"
 )
 PROPOSED_RULES_HEADER = (
     "# Proposed style rules awaiting editorial review.\n"
@@ -180,45 +184,88 @@ def _write_repo_yaml_list(path: str, entries: list[dict], header: str, commit_ms
     return True
 
 
+def _rule_snippet(rule_text: str, limit: int = 60) -> str:
+    text = re.sub(r"\s+", " ", rule_text.strip())
+    return text[:limit] + ("…" if len(text) > limit else "")
+
+
 def on_load_proposed_rules():
     proposed = _read_repo_yaml_list(PROPOSED_RULES_REL)
     if not proposed:
         return "No proposed rules pending review."
-    return "\n".join(f"[{r.get('date', '')}] {r['rule']}" for r in proposed if r.get("rule"))
+    # Show what an existing rule currently says next to a proposal that would
+    # replace it, so the editor doesn't have to cross-reference style_rules.yaml
+    # by id — the snippet is just context and is discarded again on save.
+    by_id = {r["id"]: r for r in _read_repo_yaml_list(STYLE_RULES_REL) if isinstance(r.get("id"), int)}
+    lines = []
+    for r in proposed:
+        if not r.get("rule"):
+            continue
+        tag = f"[{r.get('date', '')}"
+        supersedes = r.get("supersedes")
+        if isinstance(supersedes, int):
+            tag += f" supersedes #{supersedes}"
+            if supersedes in by_id:
+                tag += f': "{_rule_snippet(by_id[supersedes]["rule"])}"'
+        lines.append(f"{tag}] {r['rule']}")
+    return "\n".join(lines)
 
 
 def on_save_reviewed_rules(text: str):
     """Promote whatever remains in the review textbox into house style rules, then
-    clear the pending queue — lines the editor deleted are treated as rejected."""
-    line_re = re.compile(r"^\[(\d{4}-\d{2}-\d{2})\]\s*(.+)$")
+    clear the pending queue — lines the editor deleted are treated as rejected.
+    A line tagged '[date supersedes #N] ...' (from a proposal, or typed by hand)
+    replaces rule N in place, keeping its id but updating date/text — everything
+    else is appended as a new rule with a fresh id."""
+    line_re = re.compile(r"^\[(\d{4}-\d{2}-\d{2})(?:\s+supersedes\s+#(\d+)(?::[^\]]*)?)?\]\s*(.+)$")
     today = datetime.now().strftime("%Y-%m-%d")
-    accepted = []
+    parsed = []
     for line in text.splitlines():
         line = line.strip().lstrip("-").strip()
         if not line:
             continue
         m = line_re.match(line)
         if m:
-            accepted.append({"date": m.group(1), "rule": m.group(2).strip()})
+            date, supersedes, rule = m.group(1), m.group(2), m.group(3).strip()
+            parsed.append({"date": date, "rule": rule, "supersedes": int(supersedes) if supersedes else None})
         else:
-            accepted.append({"date": today, "rule": line})
+            parsed.append({"date": today, "rule": line, "supersedes": None})
 
-    if accepted:
+    added = replaced = 0
+    if parsed:
         style_rules = _read_repo_yaml_list(STYLE_RULES_REL)
-        style_rules.extend(accepted)
+        by_id = {r["id"]: i for i, r in enumerate(style_rules) if isinstance(r.get("id"), int)}
+        next_id = max((r["id"] for r in style_rules if isinstance(r.get("id"), int)), default=0) + 1
+
+        for p in parsed:
+            if p["supersedes"] is not None and p["supersedes"] in by_id:
+                idx = by_id[p["supersedes"]]
+                style_rules[idx] = {"id": p["supersedes"], "date": p["date"], "rule": p["rule"]}
+                replaced += 1
+            else:
+                style_rules.append({"id": next_id, "date": p["date"], "rule": p["rule"]})
+                next_id += 1
+                added += 1
+
+        commit_parts = []
+        if added:
+            commit_parts.append(f"add {added}")
+        if replaced:
+            commit_parts.append(f"revise {replaced}")
         if not _write_repo_yaml_list(
             STYLE_RULES_REL, style_rules, STYLE_RULES_HEADER,
-            f"Add {len(accepted)} reviewed style rule(s)",
+            f"Reviewed style rules: {', '.join(commit_parts)}",
         ):
             return "Error saving style rules."
 
     if not _write_repo_yaml_list(
         PROPOSED_RULES_REL, [], PROPOSED_RULES_HEADER, "Clear reviewed style rule proposals",
     ):
-        return f"Saved {len(accepted)} style rule(s), but failed to clear the pending queue — clear it manually."
+        return f"Saved {len(parsed)} style rule(s), but failed to clear the pending queue — clear it manually."
 
-    if accepted:
-        return f"Saved {len(accepted)} style rule(s) to house style. Pending queue cleared."
+    if parsed:
+        parts = [p for p in (f"added {added}" if added else "", f"revised {replaced}" if replaced else "") if p]
+        return f"Saved: {', '.join(parts)} style rule(s). Pending queue cleared."
     return "No rules accepted — pending queue cleared."
 
 
