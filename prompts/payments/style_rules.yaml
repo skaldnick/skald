@@ -91,9 +91,6 @@
     its significance. If the broader trend is worth noting, state the trend directly
     and let the specific item illustrate it.
 - date: '2026-07-20'
-  rule: In headlines, abbreviate million, billion and trillion to m, bn, and tn respectively
-    — eg, "$10m", "$10bn", "$10tn".
-- date: '2026-07-20'
   rule: Prefer "say" (or "said", "says") over "believe" or "believes" when attributing
     views to individuals or organisations. Use verbs that report what people have
     stated rather than asserting their internal beliefs.
@@ -132,3 +129,12 @@
     full branded name each time.
 - date: '2026-07-28'
   rule: Refer to HM Treasury as "the Treasury" in body text, not "HM Treasury".
+- date: '2026-07-29'
+  rule: In headlines and standfirsts, abbreviate million, billion and trillion to m, bn, and tn respectively
+    — eg, "10k", "$10m", "£10bn", "€10tn", and only for currency or numeric amounts. In body copy, always spell out "million", "billion", and "trillion" in full.
+- date: '2026-07-29'
+  rule: When using dashes in body text, use en-dashes (–) rather than em-dashes (—).
+- date: '2026-07-29'
+  rule: Do not include a decimal place for round or whole numbers. Write "£7 million" not "£7.0 million", "£10 billion" not "£10.0 billion", and so on.
+- date: '2026-07-29'
+  rule: The standfirst and the opening sentence of the body must not be very similar to each other in wording or structure. If the standfirst summarises the key point, the body's opening sentence should not restate it in near-identical language.

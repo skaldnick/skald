@@ -2,17 +2,4 @@
 # Populated automatically by tools/extract_learning.py (via GitHub Actions on push
 # to data/feedback/). Review and promote/edit in the dashboard's 'Proposed style
 # rules' section — accepted rules move to prompts/payments/style_rules.yaml.
-- date: '2026-07-29'
-  rule: Abbreviate million, billion and trillion (m, bn, tn) only in headlines and
-    standfirsts, and only for currency or numeric amounts. In body copy, always spell
-    out "million", "billion", and "trillion" in full.
-- date: '2026-07-29'
-  rule: When using dashes in body text, use en-dashes (–) rather than em-dashes (—).
-- date: '2026-07-29'
-  rule: Do not include a decimal place for round or whole numbers. Write "£7 million"
-    not "£7.0 million", "£10 billion" not "£10.0 billion", and so on.
-- date: '2026-07-29'
-  rule: The standfirst and the opening sentence of the body must not be very similar
-    to each other in wording or structure. If the standfirst summarises the key point,
-    the body's opening sentence should develop, expand, or reframe it — not restate
-    it in near-identical language.
+[]
