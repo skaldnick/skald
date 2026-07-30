@@ -2,4 +2,44 @@
 # Populated automatically by tools/extract_learning.py (via GitHub Actions on push
 # to data/feedback/). Review and promote/edit in the dashboard's 'Proposed style
 # rules' section — accepted rules move to prompts/payments/style_rules.yaml.
-[]
+- date: '2026-07-30'
+  rule: If the standfirst and body are too similar in wording or structure, revise
+    the standfirst to differentiate it — do not rewrite the body to accommodate the
+    standfirst.
+  supersedes: 35
+- date: '2026-07-30'
+  rule: Avoid foreign diacritics and accents in names and proper nouns. Use the accepted
+    British English equivalent where one exists — for example, replace the German
+    umlaut in "Börse" with "Boerse", or the Norwegian ring in "Håland" with "Haaland".
+    Where no standard anglicisation exists, use the closest unaccented rendering.
+- date: '2026-07-30'
+  rule: Do not remove factual comparative detail from the body simply to tighten prose
+    — for example, deleting "total banking assets are a fraction of those in neighbouring
+    Romania" removes context that substantiates the claim. Only cut comparative clauses
+    if they are genuinely redundant or unsourced.
+- date: '2026-07-30'
+  rule: 'Do not apply the abbreviation-in-parentheses rule to an abbreviation that
+    does not recur later in the same piece. In the Moldova diff, "PSD3" and "Financial
+    Data Access regulation" appear at the end of the piece with no further use, so
+    neither requires a parenthetical expansion at that point. This is consistent with
+    rule [13]: only add the parenthetical if the short form is used again.'
+- date: '2026-07-30'
+  rule: When a product or service name is introduced, lead with the parent company
+    and the verb describing the launch or announcement, then introduce the product
+    name as its subject — eg, "MoonPay has launched PayBox, a payment vault…" rather
+    than "MoonPay's new product, PayBox, is a payment vault…". This keeps the company
+    as the active agent and avoids burying the action inside a noun phrase.
+- date: '2026-07-30'
+  rule: 'Use en-dashes (–) rather than colons to introduce a list or elaboration mid-sentence
+    when a colon would be grammatically valid but the connection is illustrative rather
+    than definitional — eg, "a pattern visible across 2026 – Visa''s partnership…"
+    rather than "a pattern visible across 2026: Visa''s partnership…". (This applies
+    only where the existing en-dash rule [33] does not already govern the choice.)'
+  supersedes: 33
+- date: '2026-07-30'
+  rule: In the standfirst, do not open by naming the organisation that is also named
+    in the headline. Instead, begin with the substantive point or action — eg, if
+    the headline identifies the ECB, the standfirst should open with "The move signals…"
+    rather than "The European Central Bank has published…". This avoids redundant
+    repetition of the subject across headline and standfirst.
+  supersedes: 1
