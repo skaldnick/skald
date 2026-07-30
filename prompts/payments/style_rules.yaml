@@ -6,9 +6,12 @@
 # 'Proposed style rules' section. Rules with no supersede history are still subject
 # to the old convention: more recent rules take precedence on conflict.
 - id: 1
-  date: '2026-04-13'
-  rule: In standfirsts, lead with the substantive news or conclusion; move scene-setting
-    subordinate clauses (eg, "as X happens") to later in the sentence.
+  date: '2026-07-30'
+  rule: In the standfirst, do not open by naming the organisation that is also named
+    in the headline. Instead, begin with the substantive point or action — eg, if
+    the headline identifies the ECB, the standfirst should open with "The move signals…"
+    rather than "The European Central Bank has published…". This avoids redundant
+    repetition of the subject across headline and standfirst.
 - id: 2
   date: '2026-04-13'
   rule: Prefer spelling out non-standard abbreviations/acronyms, such as "account-to-account"
@@ -178,7 +181,20 @@
   rule: Do not include a decimal place for round or whole numbers. Write "£7 million"
     not "£7.0 million", "£10 billion" not "£10.0 billion", and so on.
 - id: 35
-  date: '2026-07-29'
-  rule: The standfirst and the opening sentence of the body must not be very similar
-    to each other in wording or structure. If the standfirst summarises the key point,
-    the body's opening sentence should not restate it in near-identical language.
+  date: '2026-07-30'
+  rule: If the standfirst and body are too similar in wording or structure, revise
+    the standfirst to differentiate it — do not rewrite the body to accommodate the
+    standfirst.
+- id: 36
+  date: '2026-07-30'
+  rule: Avoid foreign diacritics and accents in names and proper nouns. Use the accepted
+    British English equivalent where one exists — for example, replace the German
+    umlaut in "Börse" with "Boerse", or the Norwegian ring in "Håland" with "Haaland".
+    Where no standard anglicisation exists, use the closest unaccented rendering.
+- id: 37
+  date: '2026-07-30'
+  rule: When a product or service name is introduced, lead with the parent company
+    and the verb describing the launch or announcement, then introduce the product
+    name as its subject — eg, "MoonPay has launched PayBox, a payment vault…" rather
+    than "MoonPay's new product, PayBox, is a payment vault…". This keeps the company
+    as the active agent and avoids burying the action inside a noun phrase.
