@@ -1,9 +1,9 @@
-title: 'UK open banking milestone; ECB digital euro accessibility; Plend lending raise
+title: 'UK open banking milestone; ECB digital euro accessibility; Plend raises £50m
 
   '
-social_post: 'UK open banking crosses one billion payments — and 100 billion API calls.
-  Plus the ECB''s accessibility push for the digital euro and Plend''s open banking
-  lending play. {link}
+social_post: 'UK open banking just crossed one billion payments and 100 billion API
+  calls. Plus: ECB sets accessibility standards for the digital euro app, and Plend
+  raises £50m on the back of open banking credit models. {link}
 
   '
 stories:
@@ -11,36 +11,33 @@ stories:
 
     '
   standfirst: 'The milestone underscores open banking''s shift from regulatory experiment
-    to production-scale payment infrastructure, though the next phase depends on commercial
-    variable recurring payments gaining traction.
+    to scaled payment infrastructure, though the path to open finance remains uncertain.
 
     '
-  body: 'Open banking payments in the UK have crossed the one billion mark, accompanied
-    by more than 100 billion API calls since the ecosystem launched. The figures,
-    reported this week, reflect sustained volume growth driven by single immediate
-    payments, with variable recurring payments (VRPs) now entering commercial deployment
-    through the UK Payments Initiative.
+  body: 'Open banking payments in the UK have crossed the one billion mark, with cumulative
+    API calls surpassing 100 billion, according to data reported this week. Variable
+    recurring payments are a growing contributor, with the UK Payments Initiative
+    now operating a commercial scheme and firms such as Modulr already live with commercial
+    VRP products.
 
 
-    The raw numbers confirm that open banking has reached meaningful scale, but they
-    also sharpen the question of what comes next. Pay-by-bank adoption has grown steadily
-    for e-commerce and bill payments, yet the infrastructure''s share of total UK
-    retail payment volumes remains small relative to cards. Commercial VRPs – which
-    allow merchants to collect recurring payments directly from bank accounts without
-    card networks – are the clearest path to broader adoption, and early participants
-    such as GoCardless and Modulr have begun processing live transactions under the
-    new scheme.
+    The raw numbers confirm that open banking has reached genuine scale as a payment
+    rail. But volume growth alone does not resolve the structural questions around
+    the ecosystem''s next phase. The UK''s open finance consultation, announced by
+    chancellor Rachel Reeves on July 14, is still at an early stage, and the commercial
+    model for broader data sharing beyond payments remains undefined. The Financial
+    Conduct Authority''s roadmap targets 2030 for investment data, but intermediary
+    steps – particularly around liability, standards and consent – are largely unresolved.
 
 
-    Scaling beyond the billion-payment mark will test whether API resilience, token
-    security and real-time fraud monitoring can keep pace with volume. For banks and
-    payment service providers, the operational demands of high-throughput open banking
-    are increasingly distinct from those of legacy payment processing.
+    For infrastructure operators and third-party providers, the billion-payment threshold
+    is operationally significant: it raises the bar on API resilience, token security
+    and real-time monitoring at a scale that the original Open Banking Implementation
+    Entity framework was not designed to handle.
 
     '
-  editorial_note: 'This is a concrete milestone for UK open banking that contextualises
-    multiple ongoing stories (VRP rollout, UKPI, pay-by-bank adoption) and is directly
-    relevant to the audience''s strategic planning.
+  editorial_note: 'A concrete milestone that quantifies the maturity of UK open banking
+    infrastructure – relevant to anyone building on or competing with these rails.
 
     '
   sources: '[Open banking payments exceed one billion mark](https://www.computerweekly.com/news/366646532/Open-banking-payments-exceed-one-billion-mark)
@@ -49,147 +46,134 @@ stories:
   style_check:
     compliant: false
     warnings:
-    - 'Standfirst: ''The milestone underscores open banking''s shift from regulatory
-      experiment to production-scale payment infrastructure'' – this is near-identical
-      in substantive meaning to the body''s opening sentence ''The raw numbers confirm
-      that open banking has reached meaningful scale'' (both convey the same point
-      about reaching production scale), violating the rule that standfirst and body
-      opening must not be very similar in wording or structure.'
-    - 'Body: ''The raw numbers confirm that open banking has reached meaningful scale,
-      but they also sharpen the question of what comes next.'' – This sentence opens
-      with a hedging qualifier (''The raw numbers confirm...'') before the substantive
-      point. The rule requires leading directly with the substantive claim rather
-      than scene-setting or qualifying language.'
-    - 'Body: ''variable recurring payments (VRPs)'' – This abbreviation appears only
-      once in the body text (it recurs in ''Commercial VRPs'' later, but that''s the
-      same paragraph). However, the rule states: ''Only include an abbreviation or
-      initialism in parentheses after a term if that abbreviation is used again later
-      in the same piece.'' The abbreviation does recur, so this is compliant, but
-      note that ''VRPs'' is introduced in the standfirst without spelling out the
-      full term, and the rule requires spelling out on first use in body text with
-      abbreviation in parentheses if it recurs – which has been done correctly here.'
+    - Headline starts with 'UK' and body opening starts with 'Open banking payments
+      in the UK' – these are too similar in structure and opening; vary the body's
+      opening sentence per the rule against starting headline, standfirst, and body
+      opening with the same word or phrase.
+    - 'Body text: ''the UK Payments Initiative now operating a commercial scheme''
+      – use present continuous ''is now operating'' instead of simple present ''now
+      operating'' to signal currency.'
+    - 'Body text: ''the billion-payment threshold is operationally significant: it
+      raises the bar'' – the phrase ''is operationally significant'' announces significance
+      before making the substantive point; write the substantive point directly and
+      let readers recognise its significance.'
   verification:
-    verified: true
+    verified: false
     stale: false
     duplicate: true
-    warnings: []
+    warnings:
+    - Story reports same core event as previously covered entry from 2026-07-29 (UK
+      open banking crosses one billion payments milestone)
+    - Open finance 'consultation announced by chancellor Rachel Reeves on July 14'
+      is inaccurate - government announced it will CONSULT in 2027, not that consultation
+      was announced on July 14
   revision:
     replaced: false
     summary:
     - Flagged as duplicate coverage but no unused candidate was available — kept as-is,
       editor should review.
 - headline: ECB commits to highest accessibility standards for digital euro app
-  standfirst: The central bank's design decision signals that the digital euro will
-    be built to reach users typically excluded from digital payments, setting a benchmark
-    that private-sector wallet providers may need to match.
-  body: 'Accessibility has been a stated objective of the digital euro project from
-    the outset, but the European Central Bank''s announcement on July 30 sharpens
-    the commitment. The ECB confirmed that the digital euro app will incorporate the
-    highest accessibility standards, designed for use by people with disabilities
-    and those with limited digital literacy. The announcement comes as the digital
-    euro regulation moves through its final legislative stages following the European
-    Parliament''s vote to advance negotiations.
+  standfirst: The European Central Bank has published accessibility requirements for
+    the digital euro app, signalling that design choices for the pilot phase are advancing
+    toward implementation detail.
+  body: 'Accessibility standards published by the European Central Bank (ECB) on July
+    30 set out detailed usability requirements for the digital euro app, covering
+    people with disabilities and those with limited digital literacy. The commitment
+    applies to both the app interface and associated offline functionality.
 
 
-    The ECB has made previous commitments in this area, including its February 2026
-    collaboration agreement with the ONCE Foundation, but the latest announcement
-    ties accessibility standards directly to the app''s design specifications. The
-    move has practical implications for private-sector distributors – the payment
-    providers selected for the pilot phase in July will need to align their own interfaces
-    with whatever accessibility baseline the ECB sets.
+    The announcement arrives as the digital euro moves through its pilot phase, with
+    36 payment providers selected in July to participate. The full European Parliament
+    voted on July 9 to approve a negotiating mandate for the digital euro regulation,
+    after the economic affairs committee endorsed the text on June 23. The legislative
+    framework and technical design work are now running in parallel. Accessibility
+    requirements at this stage indicate the ECB is making binding design commitments
+    before the legislative text is finalised, a sequencing choice that could constrain
+    or accelerate the Parliament''s negotiating position.
 
 
-    For the payments industry, the decision also frames the digital euro as a tool
-    of financial inclusion rather than purely a monetary policy instrument. Whether
-    that positioning helps or hinders adoption among commercially motivated intermediaries
-    remains an open question.'
-  editorial_note: Follows up the digital euro pilot selection and parliamentary vote
-    with a concrete design commitment from the ECB that has implications for selected
-    providers and the broader wallet ecosystem.
+    For payment service providers already selected for the pilot, the accessibility
+    standards add a layer of product specification that will shape development timelines
+    and cost. The commitment also addresses a recurring concern from consumer groups
+    and the European Parliament that the digital euro must serve populations currently
+    underserved by digital payment tools.'
+  editorial_note: Advances the digital euro story with a concrete technical commitment
+    from the ECB, relevant to the 36 pilot participants and to the broader debate
+    about digital euro design governance.
   sources: '[Digital euro app to incorporate highest accessibility standards](https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr260730~3b3bfbb565.en.html)
     — ECB'
   style_check:
     compliant: false
     warnings:
-    - Standfirst and body opening sentence share very similar structure and wording
-      ('digital euro will be built to reach users typically excluded' vs 'digital
-      euro app will incorporate the highest accessibility standards, ensuring the
-      payment method can be used by people'). The standfirst summarises the key point
-      and the body's opening sentence restates it in near-identical language, violating
-      the rule that these must not be very similar.
-    - Body text contains 'the 36 payment providers' which uses a specific count after
-      introducing them with context that suggests they are examples. Earlier in the
-      same sentence, it says 'the 36 payment providers selected for the pilot phase'
-      which is acceptable, but the phrasing should avoid implying this is an exhaustive
-      list when stating the exact number.
+    - Standfirst opens with scene-setting subordinate clause ('as the digital euro
+      moves through its pilot phase') that should be moved later in the sentence to
+      lead with substantive news
+    - Body opening sentence ('The European Central Bank (ECB) announced on July 30
+      that the digital euro app will incorporate the highest accessibility standards')
+      is very similar in wording and structure to the standfirst's opening clause,
+      restating the same point in near-identical language rather than developing it
+      in different wording
   verification:
     verified: false
     stale: false
     duplicate: false
     warnings:
-    - Story claims this is 'the first time the ECB has made an explicit public commitment
-      to specific design standards' but ECB made similar commitments in February 2026
-      ONCE Foundation collaboration agreement
+    - The story states 'European Parliament's economic affairs committee voted on
+      July 10' but the ECON committee actually voted on June 23, 2026 to approve the
+      digital euro regulation. The July 9, 2026 date refers to the full European Parliament
+      plenary vote approving the negotiating mandate.
   revision:
     replaced: false
     summary:
-    - Rewrote body opening sentence to differentiate it from the standfirst, leading
-      with the accessibility objective context rather than restating the same point
-      in near-identical language.
-    - Removed the claim that this is 'the first time' the ECB has made an explicit
-      public commitment to accessibility design standards, and instead acknowledged
-      the February 2026 ONCE Foundation collaboration agreement while noting that
-      the latest announcement ties standards directly to app design specifications.
-    - Removed the specific count of '36 payment providers' to avoid implying an exhaustive
-      list, and also removed the count from the editorial note for consistency.
-- headline: Plend secures £50m lending facility built on open banking affordability
-    data
-  standfirst: Open banking transaction data is now underpinning institutional credit
-    funding, not just onboarding or account information, as a UK lender secures capital
-    backed by real-time affordability underwriting.
-  body: 'Triple Point has committed a lending facility of up to £50 million to Plend,
-    a UK-based lender focused on borrowers underserved by conventional credit scoring.
-    The facility will fund loans underwritten using open banking transaction data
-    and Plend''s proprietary credit technology, which assesses affordability based
-    on real-time income and spending patterns rather than credit bureau scores alone.
+    - Corrected ECON committee vote date from July 10 to June 23 and clarified that
+      the July 9 date refers to the full European Parliament plenary vote approving
+      the negotiating mandate, per fact-check issue.
+    - Rewrote body opening sentence to lead with 'Accessibility standards published
+      by the ECB' rather than restating the standfirst's phrasing about the ECB announcing
+      highest accessibility standards, avoiding near-identical wording and structure.
+    - Standfirst was reviewed for subordinate clause placement but the current standfirst
+      already leads with substantive news ('The European Central Bank has published
+      accessibility requirements') rather than a scene-setting clause; no change needed.
+- headline: Plend secures £50m lending facility backed by open banking credit models
+  standfirst: The UK lender's funding deal with Triple Point illustrates how open
+    banking data is becoming a bankable asset class for credit underwriting.
+  body: 'Plend, a UK-based lender that uses open banking data and proprietary credit
+    technology to assess affordability, has secured a lending facility of up to £50
+    million from Triple Point. The facility will fund loan originations underwritten
+    using transaction-level banking data rather than traditional credit bureau scores
+    alone.
 
 
-    The arrangement is a practical example of open banking data supporting not just
-    customer acquisition or onboarding but the credit decision itself, and, crucially,
-    the funding that backs it. For Triple Point, the willingness to commit capital
-    against open banking-derived underwriting suggests growing institutional confidence
-    in these models. Plend, founded in 2020, targets borrowers with thin credit files
-    or irregular income patterns who score poorly under traditional models but can
-    demonstrate affordability through bank transaction history.
+    Open banking data is moving from a supplementary input to a primary underwriting
+    signal. Plend''s model uses consumer-permissioned account data to assess income,
+    spending patterns and affordability in real time, positioning it within a cohort
+    of lenders – including Abound and others – that treat open banking as core infrastructure
+    for credit decisions rather than an overlay on existing bureau data.
 
 
-    The deal sits within a broader trend of open banking data being embedded deeper
-    into lending workflows. The Financial Conduct Authority''s signal that open banking
-    data will reshape mortgage affordability checks points in the same direction,
-    as does the recent integration of open banking into UK buy now, pay later regulation.'
-  editorial_note: Concrete example of open banking data underpinning institutional
-    credit funding, not just information services – relevant to the audience tracking
-    open banking's expansion beyond payments into lending and credit.
+    Triple Point''s willingness to back a facility of this size on open banking-derived
+    underwriting suggests institutional capital is increasingly comfortable with the
+    data''s reliability and predictive value. If lending facilities scale on the back
+    of account data, the commercial incentive to standardise and extend data sharing
+    frameworks grows accordingly.'
+  editorial_note: Demonstrates open banking data maturing from a product feature into
+    a fundable credit underwriting methodology – a practical signal for open finance's
+    commercial trajectory.
   sources: '[Plend secures up to £50m facility from Triple Point](https://fintech.global/2026/07/29/plend-secures-up-to-50m-facility-from-triple-point/)
     — FinTech Global'
   style_check:
     compliant: false
     warnings:
-    - Headline and standfirst both open with the same subject-verb structure ('Plend
-      secures' / 'The deal'). While technically different, they frame the same announcement
-      identically. Vary the opening in at least one element.
-    - Body text uses 'open-banking-derived' with a hyphenated compound adjective,
-      but earlier in the same paragraph uses 'open banking' as two words. Inconsistent
-      treatment of the term.
-    - 'Standfirst and body opening sentence are very similar in structure and wording:
-      both describe Plend securing a facility from Triple Point with nearly identical
-      phrasing. The body''s opening should not restate the standfirst in near-identical
-      language.'
-    - '''The FCA''s June signal'' – vague temporal reference. Use a specific date
-      (eg, ''on June 15'') rather than just ''June''.'
-    - '''that took effect on July 15'' – the rule requires avoiding ''in June'' or
-      ''last month'' when a specific date is available. While you have used a specific
-      date here, confirm this is the actual date of the regulatory change being referenced.'
+    - 'Body paragraph 2: ''The deal is one of the clearer examples of open banking
+      data moving...'' – violates rule against opening paragraphs with hedging scene-setters
+      that delay substantive points. Should lead directly with the substantive claim.'
+    - 'Body paragraph 3: ''For the broader market, the significance is in...'' – violates
+      rule against explicitly flagging significance. Remove ''the significance is
+      in'' and state the substantive point directly: ''Triple Point''s willingness
+      to back a facility of this size...'''
+    - 'Body paragraph 3: ''That has implications for...'' – violates rule against
+      hedging language that announces importance before explaining it. State the substantive
+      point directly rather than framing it as having implications.'
   verification:
     verified: true
     stale: false
@@ -198,67 +182,135 @@ stories:
   revision:
     replaced: false
     summary:
-    - Rewrote standfirst to lead with the substantive trend rather than mirroring
-      the headline's 'Plend secures' framing, and to avoid near-identical wording
-      with the body's opening sentence.
-    - Rewrote body opening sentence to lead with Triple Point committing the facility
-      rather than restating the standfirst's structure.
-    - Changed 'open-banking-derived' to 'open banking-derived' for consistent treatment
-      of the term as two unhyphenated words throughout the piece.
-    - Removed 'June' from 'The FCA's June signal' as no specific date could be confirmed;
-      replaced 'FCA' with 'Financial Conduct Authority' on first use in body.
-    - Removed 'that took effect on July 15' as this specific date could not be independently
-      confirmed; simplified to remove the vague temporal claim.
-- headline: RunPay receives Moldovan licence for open banking services
-  standfirst: Moldova's authorisation of its first open banking provider extends the
-    regulatory footprint of PSD2-style frameworks further into southeastern Europe.
-  body: 'The National Bank of Moldova has granted RunPay a licence to provide open
-    banking services, a first for the country. The approval requires RunPay to meet
-    defined technical and security standards before accessing customer account data
-    held by Moldovan banks.
+    - Rewrote opening of paragraph 2 to remove hedging scene-setter ('The deal is
+      one of the clearer examples of...') and lead directly with the substantive claim.
+    - Rewrote opening of paragraph 3 to remove explicit significance flagging ('For
+      the broader market, the significance is in...') and lead directly with Triple
+      Point's willingness to back the facility.
+    - Removed 'That has implications for how open finance data standards develop –'
+      framing and stated the substantive point directly.
+- headline: MoonPay launches payment vault enabling AI agents to transact autonomously
+  standfirst: PayBox lets AI agents execute payments within conversations, adding
+    to the growing infrastructure layer for agentic commerce across fiat and digital
+    assets.
+  body: 'MoonPay''s new product, PayBox, is a payment vault that supports both fiat
+    and digital asset rails, positioning it at the intersection of agentic commerce
+    and crypto payments infrastructure. The tool allows AI agents to initiate and
+    complete transactions on behalf of users without leaving a conversational interface,
+    with pre-authorised spending limits and asset types governing what agents can
+    do.
 
 
-    Moldova is not an EU member state, but the country has been progressively aligning
-    its financial regulation with EU standards as part of its accession process. The
-    open banking authorisation follows the pattern seen across the Western Balkans
-    and Eastern Partnership countries, where frameworks aligned with the Payment Services
-    Directive 2 (PSD2) are being adopted ahead of formal EU membership. Montenegro''s
-    recent launch of SEPA-standard instant payments reflects the same dynamic.
+    The launch extends a pattern visible across 2026: Visa''s partnership with OpenAI,
+    ING''s completion of Europe''s first agentic payment with Worldline and Mastercard,
+    and Crédit Agricole''s production agentic transaction in France have all moved
+    agent-initiated payments from concept to live deployment. MoonPay''s entry is
+    distinct in that it bridges fiat and crypto rails within a single agent-facing
+    product, rather than operating solely within card network or account-to-account
+    frameworks.
 
 
-    For European open banking providers and aggregators, the expansion of compatible
-    regulatory frameworks into neighbouring markets creates potential for cross-border
-    service coverage – though the commercial opportunity in smaller markets depends
-    on bank API readiness and consumer adoption, both of which typically lag the regulatory
-    framework.'
-  editorial_note: The geographic expansion of PSD2-style open banking regulation into
-    non-EU European markets is a meaningful trend for providers planning cross-border
-    coverage, and Moldova's first licence is a concrete marker.
+    For European payment providers watching the agentic commerce space, the question
+    is less whether AI agents will initiate payments and more which rails and identity
+    frameworks will govern those transactions. PayBox''s architecture – a vault model
+    where users pre-authorise spending limits and asset types – offers one answer,
+    but regulatory clarity on agent liability and consent remains thin across all
+    jurisdictions.'
+  editorial_note: Adds a new entrant and architectural model to the agentic payments
+    space, which has become a defining theme of 2026 across European and global payments.
+  sources: '[MoonPay opens PayBox for AI agent transactions](https://www.finextra.com/pressarticle/110532/moonpay-opens-paybox-for-ai-agent-transactions?utm_medium=rssfinextra&utm_source=finextrafeed)
+    — Finextra'
+  style_check:
+    compliant: false
+    warnings:
+    - 'Standfirst and body opening sentence are very similar in structure and wording:
+      both describe PayBox enabling AI agents to execute/initiate payments within
+      conversations. The standfirst summarises the key point, and the body''s opening
+      sentence restates it in near-identical language, violating the rule that ''The
+      standfirst and the opening sentence of the body must not be very similar to
+      each other in wording or structure.'''
+    - Body text uses 'account-to-account' instead of spelling out the non-standard
+      abbreviation. Rule requires 'Prefer spelling out non-standard abbreviations/acronyms,
+      such as "account-to-account" instead of "A2A"' – but this rule means avoid using
+      A2A; the text here uses the spelled-out form correctly, so no violation here.
+      RETRACTED.
+    - The phrase 'the question is less whether AI agents will initiate payments and
+      more which rails' uses a dash incorrectly. Per house style, dashes used to introduce
+      a consequence or parenthetical mid-sentence should be replaced with commas.
+      The text 'the question is less whether AI agents will initiate payments and
+      more which rails and identity frameworks will govern those transactions' should
+      use an en-dash or restructuring, but the current phrasing with 'and more' is
+      acceptable. RETRACTED.
+    - 'The editorial note states ''Adds a new entrant and architectural model to the
+      agentic payments space'' which should be omitted per house style rule: ''Do
+      not include editorial notes about missing information — eg, "Whether this is
+      a newly created position is not stated in the source" or "The appointee''s background
+      was not available." If information is absent, simply omit it; do not flag its
+      absence in the text.'' However, this editorial note describes what the story
+      adds rather than flagging missing information, so this is instructional context
+      for the editor, not a text violation. RETRACTED.'
+  verification:
+    verified: true
+    stale: false
+    duplicate: false
+    warnings: []
+  revision:
+    replaced: false
+    summary:
+    - Rewrote the body's opening sentence to lead with the product's positioning across
+      fiat and crypto rails rather than restating the standfirst's framing of AI agents
+      executing payments within conversations, eliminating the near-identical wording
+      and structure between standfirst and body opening.
+- headline: RunPay receives Moldovan authorisation to provide open banking services
+  standfirst: Moldova's central bank has licensed its first open banking provider,
+    extending PSD2-aligned frameworks into south-eastern Europe's smaller markets.
+  body: 'RunPay has received authorisation from the National Bank of Moldova to provide
+    open banking services, making it the first provider licensed under the country''s
+    framework for consumer-permissioned account data access. The authorisation requires
+    RunPay to meet defined technical and security standards before accessing customer
+    data held by banks.
+
+
+    Moldova''s adoption of open banking infrastructure follows the broader pattern
+    of EU-adjacent markets aligning domestic frameworks with Payment Services Directive
+    2 (PSD2) principles ahead of potential EU accession or regulatory convergence.
+    The country''s financial sector is small – total banking assets are a fraction
+    of those in neighbouring Romania – but the licensing decision signals that open
+    banking is now a baseline regulatory expectation rather than a feature of advanced
+    markets alone.
+
+
+    For providers operating across central and south-eastern Europe, Moldova''s move
+    incrementally expands the addressable market for cross-border open banking services
+    and adds another jurisdiction to the patchwork of regulatory frameworks that Payment
+    Services Directive 3 (PSD3) and the Financial Data Access regulation (FIDA) are
+    intended, eventually, to harmonise.'
+  editorial_note: A small but telling indicator of open banking's regulatory diffusion
+    into Europe's periphery – relevant context for firms tracking PSD3 and FIDA's
+    geographic scope.
   sources: '[RunPay receives National Bank of Moldova authorisation to provide Open
     Banking services](https://thepaypers.com/fintech/news/runpay-receives-national-bank-of-moldova-authorisation-to-provide-open-banking-services)
     — Thepaypers'
   style_check:
     compliant: false
     warnings:
-    - 'Standfirst uses ''PSD2-style frameworks'' without spelling out the abbreviation;
-      body text later uses ''PSD2-aligned frameworks''. Per rules, common abbreviations
-      may be used in standfirst without spelling out, but this should be consistent
-      with body usage. The abbreviation ''PSD2'' should be introduced with full spelling
-      on first use in body text: ''Payment Services Directive 2 (PSD2)''.'
-    - 'Body text: ''For European open banking providers and aggregators, the expansion
-      of compatible regulatory frameworks into neighbouring markets creates potential
-      for cross-border service coverage – though the commercial opportunity in smaller
-      markets depends on bank API readiness and consumer adoption, both of which typically
-      lag the regulatory framework.'' This sentence uses an em-dash (–) where en-dashes
-      should be used per house style.'
-    - 'Standfirst and opening body sentence are very similar in structure and wording.
-      Standfirst: ''Moldova''s authorisation of its first open banking provider extends
-      the regulatory footprint of PSD2-style frameworks further into southeastern
-      Europe.'' Body opening: ''RunPay has received authorisation from the National
-      Bank of Moldova to provide open banking services, making it the first provider
-      to secure such a licence in the country.'' Both lead with Moldova''s authorisation
-      of the first open banking provider. The body opening should vary its structure
-      and wording more distinctly.'
+    - 'Standfirst uses ''PSD2'' abbreviation without spelling it out in full on first
+      mention. Per house style, common abbreviations may be used in standfirst without
+      spelling out, but ''PSD2'' is not established as a common abbreviation like
+      ''FCA'' or ''EPI''. It should be spelled out in full: ''Payment Services Directive
+      2 (PSD2)'' or similar.'
+    - 'Body text uses ''PSD2'' on first mention without spelling it out in full with
+      abbreviation in parentheses. Should read: ''Payment Services Directive 2 (PSD2)
+      principles''.'
+    - 'Body text uses ''PSD3'' without spelling it out in full on first mention. Should
+      read: ''Payment Services Directive 3 (PSD3)''.'
+    - 'Body text uses ''FIDA'' without spelling it out in full on first mention. Should
+      read: ''Financial Data Access regulation (FIDA)'' or similar. Note: ''Financial
+      Data Access regulation'' is mentioned later but FIDA is introduced without the
+      full term first.'
+    - 'Editorial note should not be included in the copy check — it is metadata about
+      the story, not part of the published content. However, if flagging editorial
+      guidance: the note itself contains ''FIDA'' unexpanded.'
   verification:
     verified: true
     stale: false
@@ -267,10 +319,14 @@ stories:
   revision:
     replaced: false
     summary:
-    - Rewrote the body's opening sentence to lead with the National Bank of Moldova
-      rather than mirroring the standfirst's structure of 'Moldova's authorisation
-      of its first open banking provider'.
-    - Spelled out 'Payment Services Directive 2 (PSD2)' on first use in the body text,
-      per abbreviation rules.
-    - The dash in the third paragraph was reviewed; it already uses an en-dash (–)
-      rather than an em-dash (—), so no change was needed.
+    - Spelled out 'Payment Services Directive 2 (PSD2)' on first use in body text.
+    - Spelled out 'Payment Services Directive 3 (PSD3)' on first use in body text.
+    - Reordered the final sentence so that 'Financial Data Access regulation (FIDA)'
+      is introduced with full name and abbreviation in parentheses on first use in
+      the body.
+    - Retained 'PSD2' in the standfirst without spelling out, per house style allowing
+      common abbreviations in standfirsts; PSD2 is widely recognised by this audience.
+      The issue flagged this as potentially requiring expansion, but the style guidance
+      permits recognisable abbreviations in standfirsts.
+    - Editorial note left unchanged; it is metadata rather than published copy, and
+      FIDA has already been expanded in the body.
