@@ -2,8 +2,4 @@
 # Populated automatically by tools/extract_learning.py (via GitHub Actions on push
 # to data/feedback/). Review and promote/edit in the dashboard's 'Proposed style
 # rules' section — accepted rules move to prompts/payments/style_rules.yaml.
-- date: '2026-07-31'
-  rule: Do not use "cVRP" as an abbreviation for "commercial variable recurring payments".
-    Write out "commercial VRP" or "commercial variable recurring payments (VRP)" instead.
-    The "c" prefix abbreviation is non-standard; prefer the adjective "commercial"
-    spelled out in full before the standard abbreviation.
+[]
