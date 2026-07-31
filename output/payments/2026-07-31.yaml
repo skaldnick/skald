@@ -1,0 +1,258 @@
+title: 'Equals acquires OFX; Ozone launches cVRP product; MoonPay enables agentic
+  payments
+
+  '
+social_post: 'Equals swoops for OFX in a cross-border payments consolidation play,
+  Ozone opens cVRP to non-CMA9 banks, and Plend backs its credit models with a £50m
+  facility. Today''s briefing: {link}
+
+  '
+stories:
+- headline: 'Equals agrees all-cash acquisition of Australia''s OFX
+
+    '
+  standfirst: 'The deal would create a combined cross-border payments group with significant
+    SME and corporate reach across the UK, Australia and Asia-Pacific.
+
+    '
+  body: 'Equals Group is acquiring 100% of OFX Group, the ASX-listed international
+    payments company, in an all-cash transaction. The acquisition follows a strategic
+    review OFX announced on February 5 this year, which has now concluded with the
+    signing of a transaction process deed.
+
+
+    The combination would give Equals a larger footprint in cross-border business
+    payments, a segment where consolidation has accelerated. OFX serves corporate
+    and SME clients across Australia, New Zealand, Asia and North America, complementing
+    Equals'' UK-centred operation. The deal sits alongside a series of recent acquisitions
+    in the cross-border space, including Nuvei''s reported pursuit of Payoneer and
+    Airwallex''s purchase of Leapfin.
+
+
+    The transaction remains subject to OFX shareholder approval and regulatory clearance
+    in Australia. Terms were not disclosed in the initial announcement.
+
+    '
+  editorial_note: 'Cross-border payments M&A continues to intensify, and this deal
+    is a concrete example of mid-market consolidation between a UK acquirer and an
+    Asia-Pacific target, relevant to European payments professionals tracking competitive
+    dynamics.
+
+    '
+  sources: '[Equals to acquire OFX](https://www.finextra.com/pressarticle/110537/equals-to-acquire-ofx?utm_medium=rssfinextra&utm_source=finextrafeed)
+    — Finextra'
+  style_check:
+    compliant: false
+    warnings:
+    - 'Standfirst opens by naming the organisation (Equals) also named in the headline.
+      Should begin with the substantive point instead — e.g., ''The deal would create…''
+      rather than ''The deal would create…'' Fix: remove subject reference and lead
+      with ''Would create a combined cross-border payments group…'' or similar. Breaches:
+      ''In the standfirst, do not open by naming the organisation that is also named
+      in the headline.'''
+    - 'Body text uses ''February 5 this year'' which is a vague temporal reference.
+      Should use specific date format ''on February 5'' or similar without ''this
+      year''. Breaches: ''Avoid vague temporal references such as "in June" or "last
+      month" when a specific date is available.'''
+    - 'Body text states ''The combination would give Equals a larger footprint in
+      cross-border business payments, a segment where consolidation has accelerated.''
+      This is near-verbatim repetition of the standfirst''s substantive point about
+      creating ''a combined cross-border payments group'' without sufficient differentiation
+      or added depth. The two sentences convey the same idea in similar structure.
+      Breaches: ''Avoid near-verbatim repetition of the same phrasing across headline,
+      standfirst, and body.'''
+  verification:
+    verified: false
+    stale: true
+    duplicate: false
+    warnings:
+    - Core event is 8 days old (announced July 23, not within 5-day threshold)
+    - Story claims 'Terms were not disclosed' but the announcement clearly disclosed
+      $1.00 per share and $247m equity value
+  revision:
+    replaced: false
+    summary:
+    - Flagged as stale but no unused candidate was available — kept as-is, editor
+      should review.
+- headline: Ozone API launches cVRP product for non-CMA9 UK banks
+  standfirst: Commercial variable recurring payments infrastructure is extending beyond
+    the nine largest UK banks, a step toward broader VRP adoption.
+  body: 'Ozone API has launched a commercial variable recurring payments (cVRP) product
+    designed for UK banks and building societies outside the CMA9, the group of institutions
+    originally mandated to support open banking. The product is compliant with the
+    Open Banking Limited 4.0 standard and integrates with an institution''s existing
+    technology stack.
+
+
+    Until now, cVRP capability has been concentrated among the largest UK banks. Bank-side
+    coverage across a wider set of institutions is what will determine whether merchants
+    and billers adopt VRPs as a payment method at scale. Modulr began processing commercial
+    VRPs under the UK Payments Initiative scheme on June 18, but broad uptake depends
+    on smaller banks having the infrastructure to participate.
+
+
+    The product launch comes as UK open banking has crossed one billion payments,
+    with VRPs identified as a key growth driver. Making cVRP infrastructure available
+    as an off-the-shelf product for smaller banks lowers the barrier to participation
+    and could accelerate the payment method''s reach across recurring billing and
+    subscription use cases.'
+  editorial_note: VRP adoption beyond the CMA9 is a critical bottleneck for pay-by-bank
+    scaling in the UK. This product addresses a specific infrastructure gap and is
+    relevant to the broader trajectory of open banking payments.
+  sources: '[Ozone API launches cVRP product for non-CMA9 UK banks](https://www.openbankingexpo.com/news/ozone-api-launches-cvrp-product-for-non-cma9-uk-banks/)
+    — Open Banking Expo'
+  style_check:
+    compliant: false
+    warnings:
+    - Standfirst opens by naming the organisation ('The product') that is also the
+      subject of the headline ('Ozone API launches'). Should open with the substantive
+      point instead — eg, 'Commercial variable recurring payments infrastructure is
+      extending beyond the nine largest UK banks…' to avoid redundant repetition of
+      the subject.
+    - Body text uses 'late June' (vague temporal reference) when a specific date may
+      be available. Rule requires specific dates (eg, 'on June 28') or month names;
+      reserve 'late June' only when the precise date cannot be established.
+    - Body text contains 'Extending it to a wider set of institutions is a practical
+      requirement if VRPs are to scale as a payment method.' This is near-verbatim
+      repetition of the standfirst's point ('extends…beyond the nine largest UK banks,
+      a step toward broader VRP adoption') in the same wording and structure, violating
+      the rule against near-verbatim repetition across standfirst and body.
+  verification:
+    verified: false
+    stale: false
+    duplicate: false
+    warnings:
+    - Draft states Modulr began processing cVRP 'in late June' — search evidence shows
+      announcement on June 18, 2026 (mid-June)
+  revision:
+    replaced: false
+    summary:
+    - Revised standfirst to open with the substantive point ('Commercial variable
+      recurring payments infrastructure is extending…') rather than 'The product',
+      avoiding redundant repetition of the headline subject.
+    - Changed 'in late June' to 'on June 18' per search evidence indicating the Modulr
+      announcement date was June 18, not late June.
+    - Rewrote the second paragraph's opening sentences to avoid near-verbatim repetition
+      of the standfirst's point about extending beyond the nine largest banks, while
+      preserving the substance.
+- headline: 'Plend secures £50m lending facility backed by open banking credit models
+
+    '
+  standfirst: 'The facility signals growing institutional confidence in open banking-derived
+    creditworthiness data as a basis for lending decisions at scale.
+
+    '
+  body: 'Plend, the UK lender that uses open banking transaction data to assess creditworthiness,
+    has secured a £50 million lending facility. The funding will support the expansion
+    of its loan book, which targets borrowers who may be underserved by traditional
+    credit scoring models.
+
+
+    Plend''s approach uses real-time income and spending data accessed through open
+    banking APIs to build affordability assessments, bypassing reliance on credit
+    reference agency scores. Securing a facility of this size suggests the capital
+    markets are becoming more comfortable with open banking data as collateral-grade
+    underwriting input, not just a supplementary signal.
+
+
+    The development sits within a broader pattern of open banking data moving from
+    identity verification and account aggregation into core lending infrastructure.
+    PayPoint''s acquisition of AperiData and the FCA''s signals on open banking mortgage
+    affordability checks point in the same direction.
+
+    '
+  editorial_note: 'Institutional capital backing open banking credit models is a meaningful
+    indicator that the technology is maturing from innovation to bankable infrastructure,
+    directly relevant to the European open finance trajectory.
+
+    '
+  sources: '[Let''s open our bank accounts, SALNs, solon dares colleagues](https://tribune.net.ph/2026/07/30/lets-open-our-bank-accounts-salns-solon-dares-colleagues)
+    — Daily Tribune'
+  verification:
+    verified: false
+    stale: false
+    duplicate: true
+    warnings:
+    - Cited source is also cited by another story in this briefing — likely a wrong
+      or duplicate source_id
+    - Story is duplicate of July 30 entry in previously covered list
+    - Cited source (Daily Tribune article about SALNs/bank account disclosures) does
+      not appear to report on Plend's funding announcement
+  style_check:
+    compliant: false
+    warnings:
+    - Standfirst opens by naming the subject (open banking) that is also central to
+      the headline. The standfirst should open with the substantive point or action
+      — e.g., 'Growing institutional confidence in open banking-derived creditworthiness
+      data is reshaping lending decisions at scale.' This avoids redundant repetition
+      of the subject across headline and standfirst.
+    - 'Body text uses em-dash (''—'') instead of en-dash (''–''): ''underwriting input,
+      not just a supplementary signal—.'' Rule requires en-dashes in body text.'
+  revision:
+    replaced: false
+    summary:
+    - Flagged as duplicate coverage but no unused candidate was available — kept as-is,
+      editor should review.
+- headline: 'MoonPay launches payment vault for autonomous AI agent transactions
+
+    '
+  standfirst: 'The product creates a secured funding layer that allows AI agents to
+    initiate and complete payments without human intervention at the point of sale.
+
+    '
+  body: 'MoonPay has launched PayBox, a payment vault that enables AI agents to transact
+    autonomously within pre-set parameters. The product holds pre-funded balances
+    that agents can draw on, removing the need for human authorisation at each transaction
+    while maintaining spending controls set by the user.
+
+
+    Agentic payments, where software agents execute purchases on behalf of humans
+    or businesses, have moved rapidly from concept to early production this year.
+    Visa partnered with OpenAI in June, Credit Agricole completed France''s first
+    production agentic payment, and ING, Worldline and Mastercard ran Europe''s first
+    agentic transaction. MoonPay''s approach addresses a specific gap: how to give
+    agents reliable access to funds without exposing full account credentials.
+
+
+    The product targets developers building AI-powered commerce applications. Whether
+    agentic payments will scale depends on resolving liability, consent and fraud
+    questions that regulators have only begun to examine. The FCA''s July AI review
+    explicitly placed agentic payments in scope.
+
+    '
+  editorial_note: 'Agentic payments infrastructure is developing quickly and MoonPay''s
+    vault approach addresses a concrete architectural question — how agents access
+    funds — that is relevant as European regulators begin examining the space.
+
+    '
+  sources: '[Let''s open our bank accounts, SALNs, solon dares colleagues](https://tribune.net.ph/2026/07/30/lets-open-our-bank-accounts-salns-solon-dares-colleagues)
+    — Daily Tribune'
+  verification:
+    verified: false
+    stale: false
+    duplicate: true
+    warnings:
+    - Cited source is also cited by another story in this briefing — likely a wrong
+      or duplicate source_id
+  style_check:
+    compliant: false
+    warnings:
+    - 'Body opening: ''MoonPay has launched PayBox'' should use present continuous
+      tense ''is launching'' to signal currency of the announcement, per the rule
+      preferring present continuous for newly announced arrangements.'
+    - Standfirst and body opening are too similar in substance and structure ('product
+      creates/enables secured funding layer for AI agents to initiate payments').
+      Per the rule on standfirst differentiation, the standfirst should add interpretive
+      context rather than preview the body's opening.
+    - Paragraph 2 uses vague temporal reference 'this year' instead of specific time
+      period. Per the house style rule, use specific periods like 'in 2024' or 'in
+      the first half of 2025' when referring to developments.
+    - Paragraph 3 contains hedging scene-setter 'Whether agentic payments will scale
+      depends on resolving...' which delays the substantive point. Per the rule against
+      opening paragraphs with hedging, lead directly with a substantive claim rather
+      than conditional framing.
+  revision:
+    replaced: false
+    summary:
+    - Flagged as duplicate coverage but no unused candidate was available — kept as-is,
+      editor should review.
