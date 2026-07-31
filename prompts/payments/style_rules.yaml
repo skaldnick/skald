@@ -198,3 +198,9 @@
     name as its subject — eg, "MoonPay has launched PayBox, a payment vault…" rather
     than "MoonPay's new product, PayBox, is a payment vault…". This keeps the company
     as the active agent and avoids burying the action inside a noun phrase.
+- id: 38
+  date: '2026-07-31'
+  rule: Do not use "cVRP" as an abbreviation for "commercial variable recurring payments".
+    Write out "commercial VRP" or "commercial variable recurring payments (VRP)" instead.
+    The "c" prefix abbreviation is non-standard; prefer the adjective "commercial"
+    spelled out in full before the standard abbreviation.
