@@ -146,3 +146,7 @@
 - date: '2026-07-30'
   stories:
   - UK open banking passes one billion payments and 100 billion API calls
+- date: '2026-07-31'
+  stories:
+  - Plend secures £50m lending facility backed by open banking credit models
+  - MoonPay launches payment vault for autonomous AI agent transactions
