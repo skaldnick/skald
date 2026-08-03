@@ -1,103 +1,46 @@
-title: 'Partior atomic settlement; FT letter on UK payments sovereignty
+title: 'TrueLayer infrastructure call; Partior atomic settlement; Cover Genius open
+  banking acquisition
 
   '
-social_post: 'Thin pickings today but two stories worth your time: Partior proves
-  atomic settlement across stablecoins and tokenised deposits, and an FT letter sharpens
-  the UK payments sovereignty debate. {link}
+social_post: 'TrueLayer''s CEO makes the case for UK-owned payments infrastructure
+  in the FT. Plus: Partior proves atomic settlement, and Cover Genius buys its way
+  into European open banking rails. {link}
 
   '
 stories:
-- headline: Partior proves atomic settlement across stablecoins and tokenised deposits
-  standfirst: Regulated stablecoins, tokenised deposits and digital assets can settle
-    atomically on shared infrastructure, advancing the case for interoperable digital
-    money in wholesale markets.
-  body: 'Partior, the bank-backed global settlement platform, and digital asset infrastructure
-    provider OpenAssets are completing a joint proof of concept demonstrating atomic
-    delivery-versus-payment across three forms of digital money: digital assets, regulated
-    stablecoins and commercial tokenised deposits. The test shows these instruments
-    can settle simultaneously on a single transaction, eliminating the settlement
-    risk that persists when legs of a trade clear at different times or on different
-    rails.
-
-
-    The result lands as European and global policymakers are actively debating how
-    different forms of tokenised money should interact. The Euro Banking Association
-    published adoption criteria for tokenised money in June, and the BIS completed
-    Project Aperta on cross-border open finance interoperability the same month. A
-    working proof that stablecoins and bank-issued tokenised deposits can coexist
-    in one settlement flow addresses a key concern for central banks and regulators
-    weighing whether these instruments complement or compete with one another.
-
-
-    For wholesale market participants, atomic settlement removes the need for intermediaries
-    to manage counterparty risk between execution and settlement. If the model scales
-    to production, it could reshape how banks, asset managers and payment platforms
-    approach cross-border and cross-asset transactions.'
-  editorial_note: ''
-  sources: '[Partior and OpenAssets PoC proves stablecoins and tokenised deposits
-    can settle atomically](https://www.finextra.com/newsarticle/48180/partior-and-openassets-poc-proves-stablecoins-and-tokenised-deposits-can-settle-atomically?utm_medium=rssfinextra&utm_source=finextrafeed)
-    — Finextra'
-  style_check:
-    compliant: false
-    warnings:
-    - Standfirst opens with 'A proof of concept demonstrates' when the headline identifies
-      Partior — should begin with the substantive point (e.g., 'Regulated stablecoins,
-      tokenised deposits and digital assets can settle atomically...') to avoid redundant
-      repetition of subject across headline and standfirst.
-    - 'Body paragraph 1: ''Partior, the bank-backed global settlement platform, and
-      digital asset infrastructure provider OpenAssets have completed a joint proof
-      of concept'' — uses simple past ''have completed'' instead of present continuous
-      ''are completing'' for a newly announced arrangement.'
-    - Editorial note included in submission — house style rules require omitting editorial
-      notes; if information is absent, simply omit it without flagging absence in
-      text.
-  verification:
-    verified: true
-    stale: false
-    duplicate: false
-    warnings: []
-  revision:
-    replaced: false
-    summary:
-    - Standfirst revised to open with the substantive point ('Regulated stablecoins,
-      tokenised deposits and digital assets can settle atomically…') rather than repeating
-      the subject from the headline.
-    - 'Body paragraph 1: changed ''have completed'' to ''are completing'' to use present
-      continuous for a newly announced arrangement.'
-    - Removed editorial note per house style — editorial notes flagging absent information
-      should be omitted.
-- headline: 'FT letter argues UK must own its payments infrastructure
+- headline: 'TrueLayer CEO calls for UK ownership of payments infrastructure
 
     '
-  standfirst: 'An open banking payments firm uses the Financial Times letters page
-    to press the case that UK payment sovereignty requires domestic ownership of core
-    infrastructure.
+  standfirst: 'A published letter argues that domestic control of payment rails is
+    essential if open banking is to fulfil its competitive promise.
 
     '
-  body: 'A letter published in the Financial Times argues that the UK can no longer
-    rely on foreign-owned payments networks if it is serious about building a competitive
-    and resilient payments market. The letter, from an open banking payments company,
-    frames domestic ownership of infrastructure as a prerequisite for the kind of
-    payments autonomy that policymakers have been debating with increasing urgency.
+  body: 'Francesco Simoneschi, CEO of TrueLayer, has written in the Financial Times
+    that the UK can no longer afford to depend on foreign-owned payments networks
+    if it wants a genuinely competitive and resilient market. The letter frames infrastructure
+    ownership as a precondition for the open banking ecosystem to scale, arguing that
+    reliance on overseas operators leaves the UK exposed.
 
 
-    The intervention follows several months of intensifying discussion around UK payments
-    sovereignty. The UK Payments Initiative launched in June as a domestic alternative
-    to Visa and Mastercard, the Treasury opened a consultation on modernising payments
-    regulation in July, and Mastercard has been exploring a sale of its Vocalink stake.
-    Visa''s €500 million European investment pledge earlier this year was itself a
-    response to the sovereignty debate on the continent.
+    The intervention lands at a moment when UK payments infrastructure is under active
+    review. The Treasury opened a consultation on modernising payments regulation
+    in July, and the UK Payments Initiative launched in June with backing from the
+    country''s largest banks, explicitly positioned as a domestic alternative to Visa
+    and Mastercard. Simoneschi''s letter adds a fintech voice to a debate that has
+    so far been driven primarily by banks, regulators and policymakers.
 
 
-    The letter''s appearance in the FT signals that open banking firms see the current
-    political moment as an opportunity to position account-to-account payments as
-    a domestically owned alternative to card network dominance, not just a cheaper
-    rail but a strategically important one.
+    The argument is not new in substance, but its articulation by a prominent open
+    banking company in a national newspaper sharpens the political dimension. It echoes
+    themes raised by the Bank of Finland and the French Banking Federation earlier
+    this year, both of which framed payment sovereignty as a strategic priority. The
+    question of who owns and operates the rails underpinning account-to-account payments
+    is becoming harder for regulators to sideline.
 
     '
-  editorial_note: 'The letter crystallises the UK payments sovereignty debate at a
-    moment when multiple policy consultations and industry initiatives are actively
-    reshaping the landscape, making it timely despite its brevity.
+  editorial_note: 'A named CEO of a major open banking firm making a public infrastructure-ownership
+    argument in the FT advances the UK payments sovereignty debate, which has been
+    building through UKPI''s launch and the Treasury consultation.
 
     '
   sources: '[Letter: UK can no longer rely on foreign-owned payments networks](https://www.ft.com/content/9fa438e5-8da7-4835-9f81-9ba1c8768ebf)
@@ -105,14 +48,185 @@ stories:
   style_check:
     compliant: false
     warnings:
-    - 'style check response could not be parsed: ''```json {   "compliant": false,   "warnings":
-      [     "Standfirst opens with \''An open banking payments firm\'' which is too
-      similar in structure and subje'''
+    - Standfirst opens by naming the substantive point ('A published letter argues')
+      rather than the named individual and their action. Per the house style rule
+      on standfirsts, this should lead with 'Francesco Simoneschi, CEO of TrueLayer,
+      has argued in a letter that…' to personalise and name the actor before stating
+      the theme.
+    - 'Body text uses ''account-to-account'' in full when this is a non-standard abbreviation
+      that should be spelled out on first use with the abbreviation in parentheses:
+      ''account-to-account (A2A)'' — though the rule also states to prefer spelling
+      out such abbreviations, so ''account-to-account payments'' alone is acceptable;
+      however, if it recurs elsewhere or is a key term, the parenthetical form should
+      be used.'
+    - 'The phrase ''The intervention lands at a moment when'' is vague temporal framing.
+      The specific dates provided (July for the Treasury consultation, June for the
+      UK Payments Initiative) should be embedded directly rather than using ''at a
+      moment when''. Revise to: ''The intervention follows the Treasury''s July consultation
+      on modernising payments regulation and the June launch of the UK Payments Initiative…'''
+    - The phrase 'It echoes themes raised by the Bank of Finland and the French Banking
+      Federation earlier this year' uses the vague temporal reference 'earlier this
+      year'. Per house style, specific dates or months should be used instead — e.g.,
+      'in the first quarter of 2025' or specific month names if available.
+  verification:
+    verified: true
+    stale: false
+    duplicate: true
+    warnings:
+    - 'This story reports the same event as the previously covered entry from 2026-08-03:
+      ''TrueLayer CEO argues UK must own its payments infrastructure'' - identical
+      subject matter with slightly reworded headline'
+  revision:
+    replaced: false
+    summary:
+    - Flagged as duplicate coverage but no unused candidate was available — kept as-is,
+      editor should review.
+- headline: 'Partior and OpenAssets prove atomic settlement across stablecoins and
+    tokenised deposits
+
+    '
+  standfirst: 'A proof of concept demonstrates delivery-versus-payment across regulated
+    stablecoins, digital assets and commercial tokenised deposits on shared infrastructure.
+
+    '
+  body: 'Partior, the bank-backed settlement platform, and digital asset infrastructure
+    provider OpenAssets have completed a joint proof of concept demonstrating atomic
+    delivery-versus-payment across regulated stablecoins, commercial tokenised deposits
+    and digital assets. The test showed that different forms of tokenised money can
+    settle simultaneously on a single transaction, eliminating the settlement risk
+    that arises when legs of a trade complete at different times.
+
+
+    The proof of concept builds on Partior''s earlier work, which has focused on cross-border
+    wholesale settlement using distributed ledger technology. Adding stablecoins and
+    tokenised deposits to the same atomic settlement flow addresses a practical problem:
+    as multiple forms of digital money proliferate, interoperability between them
+    becomes a prerequisite for institutional adoption rather than a theoretical nicety.
+
+
+    The result aligns with broader industry efforts. The BIS completed Project Aperta
+    in June to prototype cross-border open finance interoperability, and Swift is
+    preparing to pilot live transactions on its shared ledger. The Partior-OpenAssets
+    work narrows the gap between prototype and production for multi-asset atomic settlement,
+    though commercial deployment remains some distance away.
+
+    '
+  editorial_note: 'Follows up on the previously covered Partior story from August
+    3 with the same underlying event but now with the full Finextra source providing
+    sufficient detail to write substantively. The atomic settlement of multiple tokenised
+    money forms is a concrete step in wholesale infrastructure evolution relevant
+    to European banks and payment providers.
+
+    '
+  sources: '[Partior and OpenAssets PoC proves stablecoins and tokenised deposits
+    can settle atomically](https://www.finextra.com/newsarticle/48180/partior-and-openassets-poc-proves-stablecoins-and-tokenised-deposits-can-settle-atomically?utm_medium=rssfinextra&utm_source=finextrafeed)
+    — Finextra'
+  style_check:
+    compliant: false
+    warnings:
+    - 'Standfirst opens with ''A proof of concept demonstrates'' but headline names
+      ''Partior and OpenAssets'' — the standfirst should lead with who did what (the
+      companies and their action) rather than the generic ''A proof of concept''.
+      Rule: standfirst should lead with specific, concrete finding or action naming
+      who did what.'
+    - 'Body opens with ''Partior, the bank-backed settlement platform, and digital
+      asset infrastructure provider OpenAssets have completed'' — this repeats the
+      headline''s core naming and action. Vary the opening in at least one element
+      between headline and body opening sentence. Rule: do not start headline and
+      body opening sentence with the same word or phrase.'
+    - 'Abbreviation ''DLT'' used in body (''distributed ledger technology'') without
+      spelling out in full on first use followed by abbreviation in parentheses. Rule:
+      on first use of an abbreviation that must be retained, spell it out in full
+      followed by the abbreviation in parentheses.'
+    - 'Editorial note included in final output (''Follows up on the previously covered
+      Partior story...''). Rule: do not include editorial notes in the copy itself
+      — these are internal guidance only.'
   verification:
     verified: false
     stale: false
+    duplicate: true
+    warnings:
+    - Story reports same event as previously covered entry from 2026-08-03; also,
+      article states 'BIS completed Project Aperta in June' but Project Aperta report
+      was published May 29, 2026
+  revision:
+    replaced: false
+    summary:
+    - Flagged as duplicate coverage but no unused candidate was available — kept as-is,
+      editor should review.
+- headline: 'Cover Genius acquires Friendsurance to embed insurance via open banking
+    rails
+
+    '
+  standfirst: 'The deal gives Cover Genius access to PSD2-based infrastructure connecting
+    directly to European bank accounts, extending embedded finance beyond payments.
+
+    '
+  body: 'Cover Genius, an embedded insurance platform, is acquiring German insurtech
+    Friendsurance to expand across the DACH banking market. Friendsurance''s platform
+    is built on PSD2 open banking infrastructure, using API connections to bank accounts
+    to distribute and manage insurance products within banking apps. The acquisition
+    gives Cover Genius an established architecture for accessing European bank data
+    and embedding protection products alongside existing financial services.
+
+
+    The deal illustrates how open banking rails are being repurposed beyond their
+    original payments and account-information use cases. Friendsurance''s model uses
+    bank connectivity not to initiate payments but to integrate insurance distribution
+    into digital banking environments, leveraging the same regulatory and technical
+    framework that underpins pay-by-bank and account aggregation. The GDPR compliance
+    layer built into Friendsurance''s platform, designed specifically for the German
+    regulatory environment, adds operational value in a market where data protection
+    requirements are strictly enforced.
+
+
+    For European banks evaluating their embedded finance strategies, the acquisition
+    signals that open banking infrastructure is becoming a shared foundation for multiple
+    product categories, not just payments. As PSD2''s successor framework takes shape,
+    the range of commercial models built on top of bank connectivity continues to
+    widen.
+
+    '
+  editorial_note: 'An acquisition that uses PSD2 open banking infrastructure for non-payments
+    embedded finance is a concrete example of how open banking rails are being extended
+    into adjacent product categories, relevant to banks and fintechs considering their
+    platform strategies.
+
+    '
+  sources: '[Cover Genius to accelerate embedded protection across European banking
+    ...](https://www.reinsurancene.ws/cover-genius-to-accelerate-embedded-protection-across-european-banking-with-friendsurance-acquisition/)
+    — Reinsurance News | [Cover Genius acquires Friendsurance to expand DACH banking](https://fintech.global/2026/08/03/cover-genius-acquires-friendsurance-to-expand-dach-banking/)
+    — FinTech Global'
+  style_check:
+    compliant: false
+    warnings:
+    - Standfirst opens with 'The deal gives Cover Genius access' but the headline
+      names Cover Genius and describes the acquisition — this violates the rule against
+      naming the organisation in both headline and standfirst opening. The standfirst
+      should open with the substantive point (e.g., 'PSD2-based infrastructure can
+      now be used to embed insurance in banking apps') rather than restating that
+      Cover Genius gained access.
+    - 'Body paragraph 2, sentence 2: ''The GDPR compliance layer built into Friendsurance''s
+      platform, designed specifically for the German regulatory environment, adds
+      operational value in a market where data protection requirements are strictly
+      enforced.'' — This sentence uses hedging language (''adds operational value'')
+      that announces significance before making the substantive point. State directly
+      what the compliance capability enables or what problem it solves.'
+    - 'Body paragraph 3, sentence 1: ''For European banks evaluating their embedded
+      finance strategies, the acquisition signals that open banking infrastructure
+      is becoming a shared foundation for multiple product categories, not just payments.''
+      — This is an example of stating significance explicitly (''signals that'') before
+      the substantive claim. Rewrite to state the substantive point directly, e.g.,
+      ''Open banking infrastructure is becoming a shared foundation for multiple product
+      categories beyond payments, as illustrated by this acquisition.'''
+  verification:
+    verified: true
+    stale: true
     duplicate: false
     warnings:
-    - 'Could not independently verify: The cited FT letter (content ID 9fa438e5-8da7-4835-9f81-9ba1c8768ebf)
-      could not be accessed via web search to confirm its existence, content, or publication
-      date. This is the core event the story reports on.'
+    - Core event (announcement) is 6 days old, exceeding the 5-day freshness threshold
+  revision:
+    replaced: false
+    summary:
+    - Flagged as stale but no unused candidate was available — kept as-is, editor
+      should review.
