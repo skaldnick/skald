@@ -295,3 +295,7 @@
   stories:
   - Equals agrees all-cash acquisition of Australia's OFX
   - Ozone API launches cVRP product for non-CMA9 UK banks
+- date: '2026-08-03'
+  stories:
+  - Partior proves atomic settlement across stablecoins and tokenised deposits
+  - TrueLayer CEO argues UK must own its payments infrastructure
