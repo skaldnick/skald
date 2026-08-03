@@ -204,3 +204,18 @@
     Write out "commercial VRP" or "commercial variable recurring payments (VRP)" instead.
     The "c" prefix abbreviation is non-standard; prefer the adjective "commercial"
     spelled out in full before the standard abbreviation.
+- id: 39
+  date: '2026-08-03'
+  rule: Do not base a story on a summary or snippet when the primary source document
+    is available. Use the actual source — the full letter, report, or statement —
+    and write the story from its content directly. If the original source contains
+    named individuals, specific arguments, and concrete claims, these must be reflected
+    in the body rather than paraphrased vaguely as "a letter from an open banking
+    payments company".
+- id: 40
+  date: '2026-08-03'
+  rule: The standfirst should lead with a specific, concrete finding or action — naming
+    who did what and what the result was — rather than opening with a general thematic
+    claim about what the story "advances" or "frames". For example, prefer "A proof-of-concept
+    by X and Y has demonstrated Z" over "Regulated stablecoins and tokenised deposits
+    can settle atomically, advancing the case for…".
