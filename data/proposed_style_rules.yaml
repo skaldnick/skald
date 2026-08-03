@@ -2,29 +2,4 @@
 # Populated automatically by tools/extract_learning.py (via GitHub Actions on push
 # to data/feedback/). Review and promote/edit in the dashboard's 'Proposed style
 # rules' section — accepted rules move to prompts/payments/style_rules.yaml.
-- date: '2026-08-03'
-  rule: When reporting on a letter, op-ed, or published statement attributed to a
-    named individual, identify the author by name and title in both the headline and
-    standfirst — eg, "TrueLayer CEO argues…" and "Francesco Simoneschi presses the
-    case…" — rather than referring only to the publication or the organisation. Do
-    not write a headline such as "FT letter argues…" when the author is known; name
-    the person.
-- date: '2026-08-03'
-  rule: Do not base a story on a summary or snippet when the primary source document
-    is available. Use the actual source — the full letter, report, or statement —
-    and write the story from its content directly. If the original source contains
-    named individuals, specific arguments, and concrete claims, these must be reflected
-    in the body rather than paraphrased vaguely as "a letter from an open banking
-    payments company".
-- date: '2026-08-03'
-  rule: Use the simple past tense ("have completed") rather than the present continuous
-    ("are completing") when a proof of concept, study, or project has already been
-    finished and announced. Reserve the present continuous for arrangements that are
-    genuinely ongoing at the time of publication.
-  supersedes: 10
-- date: '2026-08-03'
-  rule: The standfirst should lead with a specific, concrete finding or action — naming
-    who did what and what the result was — rather than opening with a general thematic
-    claim about what the story "advances" or "frames". For example, prefer "A proof-of-concept
-    by X and Y has demonstrated Z" over "Regulated stablecoins and tokenised deposits
-    can settle atomically, advancing the case for…".
+[]
