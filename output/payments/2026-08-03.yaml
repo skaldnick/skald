@@ -1,0 +1,118 @@
+title: 'Partior atomic settlement; FT letter on UK payments sovereignty
+
+  '
+social_post: 'Thin pickings today but two stories worth your time: Partior proves
+  atomic settlement across stablecoins and tokenised deposits, and an FT letter sharpens
+  the UK payments sovereignty debate. {link}
+
+  '
+stories:
+- headline: Partior proves atomic settlement across stablecoins and tokenised deposits
+  standfirst: Regulated stablecoins, tokenised deposits and digital assets can settle
+    atomically on shared infrastructure, advancing the case for interoperable digital
+    money in wholesale markets.
+  body: 'Partior, the bank-backed global settlement platform, and digital asset infrastructure
+    provider OpenAssets are completing a joint proof of concept demonstrating atomic
+    delivery-versus-payment across three forms of digital money: digital assets, regulated
+    stablecoins and commercial tokenised deposits. The test shows these instruments
+    can settle simultaneously on a single transaction, eliminating the settlement
+    risk that persists when legs of a trade clear at different times or on different
+    rails.
+
+
+    The result lands as European and global policymakers are actively debating how
+    different forms of tokenised money should interact. The Euro Banking Association
+    published adoption criteria for tokenised money in June, and the BIS completed
+    Project Aperta on cross-border open finance interoperability the same month. A
+    working proof that stablecoins and bank-issued tokenised deposits can coexist
+    in one settlement flow addresses a key concern for central banks and regulators
+    weighing whether these instruments complement or compete with one another.
+
+
+    For wholesale market participants, atomic settlement removes the need for intermediaries
+    to manage counterparty risk between execution and settlement. If the model scales
+    to production, it could reshape how banks, asset managers and payment platforms
+    approach cross-border and cross-asset transactions.'
+  editorial_note: ''
+  sources: '[Partior and OpenAssets PoC proves stablecoins and tokenised deposits
+    can settle atomically](https://www.finextra.com/newsarticle/48180/partior-and-openassets-poc-proves-stablecoins-and-tokenised-deposits-can-settle-atomically?utm_medium=rssfinextra&utm_source=finextrafeed)
+    — Finextra'
+  style_check:
+    compliant: false
+    warnings:
+    - Standfirst opens with 'A proof of concept demonstrates' when the headline identifies
+      Partior — should begin with the substantive point (e.g., 'Regulated stablecoins,
+      tokenised deposits and digital assets can settle atomically...') to avoid redundant
+      repetition of subject across headline and standfirst.
+    - 'Body paragraph 1: ''Partior, the bank-backed global settlement platform, and
+      digital asset infrastructure provider OpenAssets have completed a joint proof
+      of concept'' — uses simple past ''have completed'' instead of present continuous
+      ''are completing'' for a newly announced arrangement.'
+    - Editorial note included in submission — house style rules require omitting editorial
+      notes; if information is absent, simply omit it without flagging absence in
+      text.
+  verification:
+    verified: true
+    stale: false
+    duplicate: false
+    warnings: []
+  revision:
+    replaced: false
+    summary:
+    - Standfirst revised to open with the substantive point ('Regulated stablecoins,
+      tokenised deposits and digital assets can settle atomically…') rather than repeating
+      the subject from the headline.
+    - 'Body paragraph 1: changed ''have completed'' to ''are completing'' to use present
+      continuous for a newly announced arrangement.'
+    - Removed editorial note per house style — editorial notes flagging absent information
+      should be omitted.
+- headline: 'FT letter argues UK must own its payments infrastructure
+
+    '
+  standfirst: 'An open banking payments firm uses the Financial Times letters page
+    to press the case that UK payment sovereignty requires domestic ownership of core
+    infrastructure.
+
+    '
+  body: 'A letter published in the Financial Times argues that the UK can no longer
+    rely on foreign-owned payments networks if it is serious about building a competitive
+    and resilient payments market. The letter, from an open banking payments company,
+    frames domestic ownership of infrastructure as a prerequisite for the kind of
+    payments autonomy that policymakers have been debating with increasing urgency.
+
+
+    The intervention follows several months of intensifying discussion around UK payments
+    sovereignty. The UK Payments Initiative launched in June as a domestic alternative
+    to Visa and Mastercard, the Treasury opened a consultation on modernising payments
+    regulation in July, and Mastercard has been exploring a sale of its Vocalink stake.
+    Visa''s €500 million European investment pledge earlier this year was itself a
+    response to the sovereignty debate on the continent.
+
+
+    The letter''s appearance in the FT signals that open banking firms see the current
+    political moment as an opportunity to position account-to-account payments as
+    a domestically owned alternative to card network dominance, not just a cheaper
+    rail but a strategically important one.
+
+    '
+  editorial_note: 'The letter crystallises the UK payments sovereignty debate at a
+    moment when multiple policy consultations and industry initiatives are actively
+    reshaping the landscape, making it timely despite its brevity.
+
+    '
+  sources: '[Letter: UK can no longer rely on foreign-owned payments networks](https://www.ft.com/content/9fa438e5-8da7-4835-9f81-9ba1c8768ebf)
+    — Financial Times'
+  style_check:
+    compliant: false
+    warnings:
+    - 'style check response could not be parsed: ''```json {   "compliant": false,   "warnings":
+      [     "Standfirst opens with \''An open banking payments firm\'' which is too
+      similar in structure and subje'''
+  verification:
+    verified: false
+    stale: false
+    duplicate: false
+    warnings:
+    - 'Could not independently verify: The cited FT letter (content ID 9fa438e5-8da7-4835-9f81-9ba1c8768ebf)
+      could not be accessed via web search to confirm its existence, content, or publication
+      date. This is the core event the story reports on.'
