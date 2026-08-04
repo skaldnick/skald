@@ -2,4 +2,33 @@
 # Populated automatically by tools/extract_learning.py (via GitHub Actions on push
 # to data/feedback/). Review and promote/edit in the dashboard's 'Proposed style
 # rules' section — accepted rules move to prompts/payments/style_rules.yaml.
-[]
+- date: '2026-08-04'
+  rule: Do not use vague relative time references such as "the first half of 2025"
+    when a specific year is known. Use the precise year (eg, "2026") or a specific
+    date range where available.
+  supersedes: 17
+- date: '2026-08-04'
+  rule: Do not weaken the body's opening sentence in order to avoid repetition with
+    the standfirst. The body's first sentence is the most important element and must
+    always be strong and direct. If repetition is a problem, revise the standfirst
+    instead.
+  supersedes: 35
+- date: '2026-08-04'
+  rule: When a precise date for an event is available, use it in the body text — eg,
+    "acquired Berlin-based Friendsurance on July 28" — rather than relying on the
+    present continuous tense to signal recency. Reserve the present continuous for
+    arrangements or ongoing situations where no specific date is available.
+  supersedes: 10
+- date: '2026-08-04'
+  rule: Do not open the final paragraph of a story with a phrase that foregrounds
+    the geographic audience — eg, "For European banks, the deal is…". If the point
+    is worth making, state it directly without the audience-framing prefix.
+- date: '2026-08-04'
+  rule: Deprioritise or reject stories where the underlying source material is stale.
+    Do not write up or publish a briefing item based on outdated information.
+- date: '2026-08-04'
+  rule: In the standfirst, do not open by naming the product (eg, "Teya Pro processes…")
+    if the headline already names it. Instead, open with the substantive point or
+    feature — eg, "Most transactions will be processed in less than 2 seconds…" —
+    to avoid redundant repetition of the product name across headline and standfirst.
+  supersedes: 1
