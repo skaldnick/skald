@@ -181,10 +181,11 @@
   rule: Do not include a decimal place for round or whole numbers. Write "£7 million"
     not "£7.0 million", "£10 billion" not "£10.0 billion", and so on.
 - id: 35
-  date: '2026-07-30'
-  rule: If the standfirst and body are too similar in wording or structure, revise
-    the standfirst to differentiate it — do not rewrite the body to accommodate the
-    standfirst.
+  date: '2026-08-04'
+  rule: Do not weaken the body's opening sentence in order to avoid repetition with
+    the standfirst. The body's first sentence is the most important element and must
+    always be strong and direct. If repetition is a problem, revise the standfirst
+    instead.
 - id: 36
   date: '2026-07-30'
   rule: Avoid foreign diacritics and accents in names and proper nouns. Use the accepted
