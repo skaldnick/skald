@@ -1,4 +1,5 @@
 import os
+import re
 import yaml
 from datetime import datetime, timedelta
 from pathlib import Path
@@ -12,7 +13,7 @@ load_dotenv(Path(__file__).parent.parent / ".env", override=True)
 
 ROOT = Path(__file__).parent.parent
 MODEL = "claude-opus-4-6"
-MAX_TOKENS = 4096
+MAX_TOKENS = 8192
 
 
 def load_prompts(beat_name: str) -> tuple[str, str]:
@@ -137,10 +138,14 @@ def _parse_yaml_response(text: str) -> dict:
     if text.startswith("```"):
         lines = text.splitlines()
         text = "\n".join(lines[1:-1] if lines[-1].strip() == "```" else lines[1:])
-    # Find the start of the YAML (skip any preamble)
-    idx = text.find("title:")
-    if idx > 0:
-        text = text[idx:]
+    # Find the start of the YAML (skip any preamble). Anchored to start-of-line
+    # and the `title: |` block-scalar the prompt always requires, rather than a
+    # bare "title:" substring search — a model that rambles about story choices
+    # before the real output can otherwise mention the word "title" first and
+    # slice the response at the wrong point (confirmed 2026-08-04).
+    match = re.search(r"^title:\s*\|", text, re.MULTILINE)
+    if match and match.start() > 0:
+        text = text[match.start():]
     data = yaml.safe_load(text)
     if not isinstance(data, dict) or "stories" not in data:
         raise ValueError(f"Unexpected YAML structure from Claude:\n{text[:500]}")

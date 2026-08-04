@@ -57,6 +57,12 @@ output_format: |
   publication name yourself; see the "What is the real source?" guidance above for
   what to put there. Do not wrap the output in code fences.
 
+  Respond with the YAML document only. Do not precede it with any deliberation,
+  candidate-by-candidate analysis, or commentary on feed quality — weigh selection
+  criteria silently and go straight to the `title:` line. Even on a thin day, pick
+  the best available stories and write the YAML directly rather than narrating the
+  difficulty of the choice.
+
   title: |
     Four to eight words summarising today's stories — e.g. GoCardless profits; pay-by-bank friction; PSD3 delay.
     Never editorialise about the feed itself (e.g. "Thin feed", "Quiet day") — describe the news, not the day.
