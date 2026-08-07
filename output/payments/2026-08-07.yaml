@@ -1,0 +1,277 @@
+title: 'CFPB refiles open banking rule; Deutsche Bank completes Wero rollout; Mastercard
+  tests programmable settlement
+
+  '
+social_post: 'CFPB sends its rewritten open banking rule to the White House, Deutsche
+  Bank group completes its full Wero rollout, and Mastercard tests programmable A2A
+  settlement for UK homebuying. Today''s briefing: {link}
+
+  '
+stories:
+- headline: CFPB submits rewritten open banking rule to White House for review
+  standfirst: The revised Section 1033 proposal moves closer to replacing the Biden-era
+    rule after the bureau sent it to the Office of Information and Regulatory Affairs
+    on August 6.
+  body: 'The Consumer Financial Protection Bureau (CFPB) has submitted a new version
+    of its open banking regulation to the Office of Information and Regulatory Affairs
+    (OIRA), the White House body that reviews proposed federal rules before publication.
+    The submission, made on August 6, marks a concrete step toward replacing the original
+    Section 1033 rule finalised under the Biden administration, which CFPB director
+    Russell Vought signalled in June would be substantially rewritten.
+
+
+    The revised proposal follows the bureau''s June announcement that it would impose
+    limits on the types of data covered and introduce fees that fintechs would pay
+    to access bank-held consumer information. Those provisions drew sharp criticism
+    from fintech trade groups, who argued the fee structure would undermine the rule''s
+    purpose. OIRA review typically takes 90 days but can be extended, meaning a final
+    rule is unlikely before the end of 2026.
+
+
+    For European observers, the US rulemaking trajectory remains relevant as a point
+    of comparison. The original Section 1033 rule drew heavily on open banking models
+    pioneered in the UK and EU. A narrower US rule, with fees layered onto data access,
+    would represent a distinct approach and could influence how other jurisdictions
+    outside Europe frame their own open finance regimes.'
+  editorial_note: This advances the US open banking regulatory story meaningfully
+    from the June rewrite announcement, with the rule now formally entering White
+    House review — a concrete procedural milestone relevant to European firms watching
+    transatlantic regulatory divergence.
+  sources: '[CFPB Submits New Section 1033 “Open Banking” Proposal to OIRA for Review](https://news.vaquill.com/item/6ed06c6a-4c8e-439d-9466-b6b3ac367c9f)
+    — News | [What we know about the CFPB''s forthcoming open-banking rule | Business
+    Information & News](https://today.westlaw.com/Document/I8ecdc2f0911b11f18e07b0e11951504f/View/FullText.html?transitionType=CategoryPageItem&contextData=(sc.Default))
+    — FE | [Mutual advocates hope new rules can halt sector''s long slide—and more
+    in Bankers'' Hours](https://www.linkedin.com/pulse/what-we-know-cfpbs-forthcoming-open-banking-rule-mutual-pscce)
+    — Linkedin'
+  style_check:
+    compliant: false
+    warnings:
+    - 'style check response could not be parsed: ''```json {   "compliant": false,   "warnings":
+      [     "Standfirst opens with \''The revised Section 1033 proposal\'' but the
+      headline names the CFPB. Per ho'''
+  verification:
+    verified: false
+    stale: false
+    duplicate: false
+    warnings:
+    - Draft states submission was made 'late on August 5' but sources confirm the
+      CFPB submitted the revised rule to OIRA on August 6, 2026
+  revision:
+    replaced: false
+    summary:
+    - Corrected the submission date from 'late on August 5' to 'on August 6' in both
+      the standfirst and body, per source confirmation that the CFPB submitted the
+      revised rule to OIRA on August 6, 2026.
+- headline: Deutsche Bank group completes full Wero rollout with norisbank launch
+  standfirst: All three of Deutsche Bank's retail brands now support Wero, completing
+    the largest single banking group deployment of EPI's payment rail.
+  body: 'Deutsche Bank has completed its group-wide rollout of Wero with the launch
+    at norisbank, its direct banking subsidiary. The move follows earlier deployments
+    at Deutsche Bank''s main retail brand and Postbank, making the group the first
+    to bring all its consumer banking units onto the European Payments Initiative''s
+    (EPI) account-to-account instant payment rail.
+
+
+    The rollout is the largest by a single banking group to date and gives Wero access
+    to a substantial share of Germany''s retail banking customer base. Germany is
+    EPI''s largest market by population, and Deutsche Bank''s scale there means the
+    completion has practical significance for Wero''s transaction volumes and merchant
+    adoption prospects. EPI has been expanding across Europe, with Austrian banks
+    joining and the Netherlands progressing its iDEAL-to-Wero migration.
+
+
+    Wero''s Luxembourg launch, originally expected this summer, has been pushed back
+    to June 2026 for customer availability, with merchant migration from Payconiq
+    targeted for completion by September 2026, according to The Paypers. EPI''s market-by-market
+    expansion remains uneven, even as its largest banking group participant reaches
+    full deployment.'
+  editorial_note: ''
+  sources: '[norisbank Launch Completes Deutsche Bank Group''s Full Adoption of Wero](https://www.techtimes.com/articles/323389/20260806/norisbank-launch-completes-deutsche-bank-groups-full-adoption-wero.htm)
+    — Tech Times | [Wero delays Luxembourg launch to 1 September 2026](https://thepaypers.com/payments/news/wero-delays-luxembourg-launch-to-1-september)
+    — The Paypers'
+  style_check:
+    compliant: false
+    warnings:
+    - 'Standfirst opens by naming the organisation also named in headline: ''The addition
+      of norisbank means all three of Deutsche Bank''s retail brands'' – should begin
+      with the substantive point instead, per the rule on avoiding redundant repetition
+      of the subject.'
+    - 'Body text uses em-dash instead of en-dash: ''Postbank, making the group'' should
+      use en-dash (–) not em-dash (—) per house style rules.'
+    - 'Paragraph opens with hedging scene-setter: ''The delay is a reminder that EPI''s
+      market-by-market expansion remains uneven'' – this delays the substantive point.
+      Lead directly with the substantive claim instead.'
+    - 'Editorial note included in final output: ''Deutsche Bank completing its full
+      Wero rollout is a significant milestone for EPI''s adoption'' – editorial notes
+      should not appear in the final copy and this one also flags significance explicitly
+      (''significant milestone''), which violates the rule against flagging significance.'
+    - Abbreviation 'EPI' is used in standfirst without spelling out in full on first
+      mention, violating the rule that spell-out-plus-parenthetical is required in
+      body text even if abbreviated in standfirst. The body does spell it out, but
+      the standfirst should not use 'EPI' without context on first reference.
+    - 'Body text uses vague temporal reference: ''in June'' should be replaced with
+      a specific date where available.'
+  verification:
+    verified: false
+    stale: false
+    duplicate: false
+    warnings:
+    - 'Luxembourg launch: story states ''September 1'' but sources indicate customer
+      availability targeted for June 2026, with September 2026 as end date for merchant
+      migration from Payconiq'
+  revision:
+    replaced: false
+    summary:
+    - Standfirst revised to open with 'All three of Deutsche Bank's retail brands'
+      rather than 'The addition of norisbank means all three of Deutsche Bank's retail
+      brands', avoiding redundant repetition of the organisation named in the headline.
+    - 'Luxembourg launch dates corrected: replaced ''September 1'' with ''June 2026
+      for customer availability, with merchant migration from Payconiq targeted for
+      completion by September 2026''.'
+    - Removed vague temporal reference 'in June' for Austrian banks joining, as no
+      specific date was available from the source; simplified to 'with Austrian banks
+      joining'.
+    - Final paragraph rewritten to remove hedging scene-setter ('The delay is a reminder
+      that') and lead directly with the substantive claim.
+    - Removed editorial note from final output.
+    - EPI abbreviation in standfirst left as-is per the rule that common abbreviations
+      may be used in the standfirst without spelling out; body already spells it out
+      on first use with parenthetical.
+    - No em-dash was present in the body text (the flagged passage used a comma, not
+      a dash), so no dash correction was needed.
+- headline: Mastercard and Pexa test programmable settlement for UK homebuying
+  standfirst: Programmable account-to-account payments could synchronise the multiple
+    fund transfers involved in property chains, applying non-card settlement logic
+    to one of the UK's most manually coordinated transaction types.
+  body: 'Mastercard is working with Pexa, the Australian property exchange platform
+    that entered the UK market in 2022, to test programmable account-to-account payments
+    for synchronised settlement in homebuying. The aim is to use programmable logic
+    to coordinate the multiple simultaneous fund transfers involved in property chains,
+    where a single delayed payment can collapse an entire sequence of linked transactions.
+
+
+    Property completion in England and Wales remains one of the few high-value consumer
+    transactions still reliant on manual payment coordination, typically involving
+    solicitors initiating individual bank transfers and confirming receipt by phone.
+    Pexa''s platform already handles electronic property settlement in Australia,
+    and the Mastercard collaboration applies programmable payment capabilities to
+    the problem.
+
+
+    For Mastercard, the project extends its account-to-account ambitions beyond retail
+    payments and into a domain where card rails have no presence. It also intersects
+    with the UK government''s broader smart data agenda, which has already produced
+    the Centre for Finance, Innovation and Technology Open Property roadmap published
+    in May. Whether the approach can scale in the UK depends on integration with the
+    Land Registry and conveyancing workflows, neither of which is straightforward.'
+  editorial_note: ''
+  sources: '[Mastercard and Pexa explore synchronised settlement for homebuying](https://www.finextra.com/newsarticle/48200/mastercard-and-pexa-explore-synchronised-settlement-for-homebuying?utm_medium=rssfinextra&utm_source=finextrafeed)
+    — Finextra'
+  style_check:
+    compliant: false
+    warnings:
+    - 'Standfirst opens by naming the organisation also named in headline: ''A collaboration
+      exploring account-to-account programmable payments for property transactions
+      signals Mastercard''s push into non-card settlement use cases in the UK.'' Should
+      begin with the substantive point (e.g., ''Programmable account-to-account payments
+      could synchronise fund transfers in property chains'') rather than announcing
+      Mastercard''s strategic push. Violates the rule against opening standfirst by
+      naming the organisation identified in the headline.'
+    - Abbreviation 'CFIT' appears without spelling out in full on first use. The rule
+      requires 'spell it out in full followed by the abbreviation in parentheses'.
+      Should be 'CFIT (full name)' or remove the abbreviation if it does not recur.
+    - Editorial note included but should be removed entirely. Per house style, do
+      not include editorial notes explaining significance or editorial thinking in
+      the copy itself.
+  verification:
+    verified: false
+    stale: false
+    duplicate: false
+    warnings:
+    - Pexa entered the UK market in September 2022, not 2024. It launched a sale and
+      purchase platform expansion in late 2024, but had been operating in the UK since
+      2022.
+  revision:
+    replaced: false
+    summary:
+    - Corrected Pexa's UK market entry date from 2024 to 2022, per the fact-check
+      noting Pexa entered the UK in September 2022.
+    - Revised standfirst to open with the substantive point about programmable payments
+      rather than naming Mastercard, avoiding redundant repetition of the organisation
+      already identified in the headline.
+    - Spelled out CFIT as 'Centre for Finance, Innovation and Technology' on first
+      use in the body, since the abbreviation does not recur and therefore the parenthetical
+      short form is omitted.
+    - Removed editorial note entirely per house style.
+- headline: Abound partners with ClearScore's D-One to widen open banking lending
+  standfirst: Access to 3.5 million additional users via ClearScore's open banking
+    data service extends Abound's real-time income-based credit assessments beyond
+    traditional scoring.
+  body: 'Abound, the UK-based lender that underwrites using open banking and machine
+    learning, is partnering with D-One, the open banking services arm of ClearScore
+    Group, to extend its credit products to a larger pool of borrowers. The integration
+    connects Abound to D-One''s 3.5 million users, allowing it to offer loans based
+    on real-time transaction data rather than static credit bureau scores.
+
+
+    Abound''s model analyses bank transaction data to assess affordability and repayment
+    capacity, targeting borrowers who may be underserved by conventional scoring,
+    including gig workers, the self-employed and those with thin credit files. The
+    partnership with D-One, which provides open banking connectivity within ClearScore''s
+    credit marketplace, effectively embeds Abound''s lending products where consumers
+    are already checking their creditworthiness.
+
+
+    Open banking data is steadily moving from payments into lending decisions. The
+    Financial Conduct Authority''s signal that open banking data could reshape mortgage
+    affordability checks, and chancellor Rachel Reeves''s announcement of an open
+    finance push focused on SME lending, both point toward regulatory endorsement
+    of transaction-data-based credit assessment. Abound''s expansion through D-One
+    applies that logic commercially, reaching borrowers at the point where they are
+    already engaging with their financial data.'
+  editorial_note: This partnership is a concrete example of open banking data being
+    used for lending at meaningful scale, connecting to the FCA's and Treasury's recent
+    policy signals on open finance and credit assessment.
+  sources: '[Abound Partners with D•One to Expand Open Banking Credit Access for 3.5
+    Million Users](https://ffnews.com/news/abound-partners-with-done-to-expand-open-banking-credit-access-for-35-million-users)
+    — Ffnews | [Abound teams up with D•One to offer affordable credit to more people
+    using Open Banking](https://www.openbankingexpo.com/news/abound-teams-up-with-done-to-offer-affordable-credit-to-more-people-using-open-banking/)
+    — Openbankingexpo | [Abound Partners with D•One to Offer Fairer Credit to More
+    People Using Open Banking](https://financialit.net/news/open-banking/abound-partners-done-offer-fairer-credit-more-people-using-open-banking)
+    — Financialit'
+  style_check:
+    compliant: false
+    warnings:
+    - 'Standfirst opens with ''The integration gives Abound access'' — this repeats
+      the subject (Abound, also named in headline) rather than beginning with the
+      substantive point. Revise to open with the action or consequence, eg ''This
+      gives Abound access to 3.5 million additional users…'' (rule: ''In the standfirst,
+      do not open by naming the organisation that is also named in the headline'').'
+    - 'Body text: ''in June'' and ''in July'' are vague temporal references when specific
+      dates are available. Use precise dates such as ''on June [date]'' and ''on July
+      [date]'' instead (rule: ''Avoid vague temporal references such as "in June"
+      or "last month" when a specific date is available'').'
+    - 'Body text: ''The deal sits within a broader pattern'' and ''is a commercial
+      illustration of that direction'' — these sentences announce the significance
+      of the partnership before making the substantive point. Remove hedging scene-setters
+      and lead directly with the substantive claim (rule: ''Do not open a paragraph
+      with... or equivalent hedging scene-setters that delay the substantive point'').'
+  verification:
+    verified: true
+    stale: false
+    duplicate: false
+    warnings: []
+  revision:
+    replaced: false
+    summary:
+    - Revised standfirst to open with 'Access to 3.5 million additional users' rather
+      than naming Abound, avoiding repetition of the headline subject.
+    - Could not replace 'in June' and 'in July' with specific dates because the precise
+      dates of the FCA signal and chancellor's announcement are not available to me.
+      Removed the month references entirely to avoid vague temporal phrasing, and
+      named the individuals (Rachel Reeves) per house style.
+    - Rewrote the final paragraph opening to lead with the substantive claim ('Open
+      banking data is steadily moving from payments into lending decisions') rather
+      than the hedging scene-setter 'The deal sits within a broader pattern'. Replaced
+      'is a commercial illustration of that direction' with a more direct closing
+      sentence.
