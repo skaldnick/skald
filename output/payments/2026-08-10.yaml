@@ -1,0 +1,201 @@
+title: 'US open banking lobbying; LemFi stablecoin remittances; Malaysia open finance
+  launch
+
+  '
+social_post: 'US banks and fintechs are spending big to shape the CFPB''s open banking
+  rule before it leaves the White House. Plus: stablecoin-settled remittances and
+  Malaysia''s open finance push. {link}
+
+  '
+stories:
+- headline: US banks and fintechs escalate lobbying as open banking rule nears approval
+  standfirst: A revised open banking proposal has reached the White House review stage,
+    triggering an intense and well-funded lobbying push from both incumbents and fintechs.
+  body: 'The Consumer Financial Protection Bureau (CFPB) has sent its revised open
+    banking rule to the Office of Information and Regulatory Affairs for White House
+    review, a procedural step that typically precedes finalisation. The revised proposal,
+    which followed the agency''s June rewrite introducing data-sharing limits and
+    fintech access fees, has prompted a surge in lobbying from both sides of the debate.
+
+
+    Traditional banks and their trade groups are pushing to retain provisions that
+    would impose costs on fintechs accessing consumer data, while fintech firms and
+    advocacy groups are lobbying to ensure the rule preserves broad, low-friction
+    data access. Both camps have reportedly spent millions in recent months, reflecting
+    the commercial stakes involved. The rule''s outcome will shape how US consumers
+    share financial data with third parties, with direct implications for account
+    aggregators, neobanks and open banking infrastructure providers.
+
+
+    For European firms, the trajectory of US open banking regulation remains material.
+    Several major European open banking and account-to-account payments companies
+    have US operations or ambitions, and the shape of the CFPB rule will determine
+    the competitive landscape they enter. The contrast with Europe''s more prescriptive
+    regulatory approach – where PSD2 mandated access and PSD3 will refine it – continues
+    to sharpen.'
+  editorial_note: Relevant to European firms with US exposure.
+  sources: '[Open Banking Policy Fight Intensifies as Banks and Fintechs Ramp Up Lobbying](https://www.kucoin.com/news/flash/open-banking-policy-fight-intensifies-as-banks-and-fintechs-ramp-up-lobbying)
+    — KuCoin | [Open banking policy fight sees big spending from traditional banks
+    and fintechs](https://cryptobriefing.com/open-banking-lobbying-banks-fintechs/)
+    — Crypto Briefing | [Vault: Open banking players near the finish line](https://punchbowl.news/article/vault/open-banking-cfpb/)
+    — Punchbowl News'
+  style_check:
+    compliant: false
+    warnings:
+    - 'Standfirst opens by naming the CFPB, which is also the subject of the headline
+      (''US banks and fintechs escalate lobbying as open banking rule nears approval''
+      is about the CFPB''s rule). Per house style, the standfirst should begin with
+      the substantive point (the White House review stage and lobbying) rather than
+      naming the organisation: suggest opening with ''The revised open banking proposal
+      has reached...'' or ''An intense and well-funded lobbying push...'''
+    - Body text uses 'account-to-account' instead of the preferred 'account-to-account
+      (A2A)' on first mention (if A2A recurs, which it doesn't, so this should be
+      spelled out without abbreviation per the rule about only including abbreviations
+      if they recur).
+    - Editorial note included text 'Advances the US open banking rule story materially
+      from the June 30 CFPB rewrite' — editorial notes should not be included in the
+      copy submitted for style review; this appears to be metadata that should be
+      removed.
+  verification:
+    verified: false
+    stale: false
+    duplicate: false
+    warnings:
+    - 'verification response could not be parsed: "I''ll fact-check this story about
+      US banks and fintechs escalating lobbying as the CFPB''s open banking rule nears
+      approval. Let me search for informati"'
+  revision:
+    replaced: false
+    summary:
+    - Standfirst revised to open with 'A revised open banking proposal' rather than
+      naming the CFPB, avoiding redundant repetition of the subject already identified
+      in the headline.
+    - 'Body text: ''account-to-account'' was already spelled out in full and the abbreviation
+      does not recur, so no change was needed — the original was already compliant
+      with house style.'
+    - Editorial note trimmed to remove the internal metadata commentary ('Advances
+      the US open banking rule story materially from the June 30 CFPB rewrite, now
+      reaching White House review with significant industry lobbying disclosed'),
+      retaining only the audience-relevance note.
+- headline: 'LemFi and BVNK partner to settle African remittances via stablecoins
+
+    '
+  standfirst: 'The partnership uses stablecoin rails to accelerate cross-border settlement
+    for diaspora remittances, as UK regulators shape stablecoin payment rules.
+
+    '
+  body: 'LemFi, a remittance platform serving African and Asian diaspora communities,
+    is partnering with BVNK to use stablecoin-based settlement for cross-border payments.
+    The arrangement is designed to reduce settlement times and costs on corridors
+    where traditional correspondent banking remains slow and expensive.
+
+
+    The partnership sits against a backdrop of active UK and European regulatory work
+    on stablecoins in payments. The Payment Systems Regulator (PSR) and the Financial
+    Conduct Authority (FCA) are both developing frameworks for stablecoin use, while
+    the Bank of England has recently relaxed its stance on individual holding caps.
+    Stablecoin settlement for remittances represents a practical, high-volume use
+    case that tests whether regulatory frameworks can keep pace with adoption. For
+    European payment processors and infrastructure providers, diaspora remittance
+    corridors are an early proving ground for stablecoin rails competing with established
+    networks.
+
+    '
+  editorial_note: 'A concrete deployment of stablecoin settlement in a real payment
+    corridor, relevant as UK and EU regulators actively shape stablecoin rules and
+    the market watches for live use cases beyond speculation.
+
+    '
+  sources: '[LemFi and BVNK Partner on Stablecoin Settlement for Remittances](https://thefintechtimes.com/lemfi-and-bvnk-partner-on-stablecoin-settlement-for-remittances/)
+    — The Fintech Times'
+  style_check:
+    compliant: false
+    warnings:
+    - 'Standfirst opening: ''The partnership uses stablecoin rails'' — this repeats
+      the subject (partnership) named in the headline. Open with the substantive point
+      instead, eg ''Stablecoin-based settlement is accelerating...'' or ''Cross-border
+      settlement times are being reduced...'''
+    - 'Body paragraph 2: ''Stablecoin settlement for remittances represents a practical,
+      high-volume use case that tests whether regulatory frameworks can keep pace
+      with adoption'' — this announces significance before making the substantive
+      point. Write the substantive claim directly without framing it as a ''use case
+      that tests'' or equivalent hedging.'
+    - 'Body paragraph 2: ''For European payment processors and infrastructure providers,
+      diaspora remittance corridors are an early proving ground for stablecoin rails''
+      — this is a thematic framing rather than a concrete claim. Anchor to specific
+      evidence or named actors rather than generalising about what corridors represent.'
+  verification:
+    verified: false
+    stale: true
+    duplicate: false
+    warnings:
+    - Partnership announced July 8, 2026; as of August 10, 2026, this core event is
+      33 days old and exceeds the 5-day freshness threshold
+  revision:
+    replaced: false
+    summary:
+    - Flagged as stale but no unused candidate was available — kept as-is, editor
+      should review.
+- headline: Malaysia's PayNet prepares open finance framework for consent-based data
+    sharing
+  standfirst: Payments Network Malaysia is launching Open Finance Malaysia, a consent-based
+    data sharing framework with potential implications for cross-border interoperability
+    standards across Asia-Pacific and beyond.
+  body: 'Payments Network Malaysia (PayNet) is preparing to launch Open Finance Malaysia,
+    a framework for secure, consent-based financial data sharing. The initiative is
+    overseen by Bank Negara Malaysia and represents a structural shift in how Malaysian
+    financial institutions handle customer data access.
+
+
+    Asia-Pacific open finance frameworks are developing rapidly alongside European
+    ones, and the design choices made in markets such as Malaysia – particularly around
+    consent architecture and data scope – will influence whether cross-border interoperability
+    becomes feasible. The Bank for International Settlements (BIS) completed its Project
+    Aperta prototype for cross-border open finance interoperability on May 29, and
+    new national frameworks like Malaysia''s will test whether those standards translate
+    into practice. For European open banking infrastructure providers eyeing expansion,
+    the Asia-Pacific regulatory landscape is becoming increasingly defined.'
+  editorial_note: Malaysia's open finance framework is an Asia-Pacific development
+    relevant to European readers tracking global interoperability and expansion opportunities
+    for open banking infrastructure.
+  sources: '[Banking: PayNet gears up for secure, consent-based data sharing](https://theedgemalaysia.com/node/813725)
+    — The Edge Malaysia'
+  style_check:
+    compliant: false
+    warnings:
+    - 'Standfirst opens with ''The launch of Open Finance Malaysia marks a significant
+      step'' – this announces significance explicitly before making the substantive
+      point, violating the rule against ''This matters because'' framing and equivalent
+      constructions. Rewrite to lead with the concrete action: ''Payments Network
+      Malaysia is launching Open Finance Malaysia, a framework for...'''
+    - Standfirst uses the phrase 'marks a significant step' which violates the rule
+      against announcing significance before explaining the substantive point. Lead
+      with what was done, not its importance.
+    - Body text uses 'BIS' without spelling it out in full on first use. The rule
+      requires 'Bank for International Settlements (BIS)' on first mention, then 'BIS'
+      thereafter.
+    - Editorial note states 'Malaysia's open finance framework is a notable Asia-Pacific
+      development' – this announces notability explicitly, violating the rule against
+      phrases such as 'is notable'. Editorial notes should not be included in the
+      final story; remove this note or rewrite it without significance-flagging language
+      if it is to be retained for internal purposes.
+  verification:
+    verified: false
+    stale: false
+    duplicate: false
+    warnings:
+    - Project Aperta was completed/published on May 29, 2026, not in June as stated.
+      The story says 'The BIS completed its Project Aperta prototype for cross-border
+      open finance interoperability in June' but the official report was published
+      May 29, 2026.
+  revision:
+    replaced: false
+    summary:
+    - Corrected Project Aperta completion date from 'in June' to 'on May 29' per the
+      official report publication date of May 29, 2026.
+    - Rewrote standfirst to lead with the concrete action ('Payments Network Malaysia
+      is launching Open Finance Malaysia…') instead of announcing significance ('marks
+      a significant step').
+    - Spelled out 'Bank for International Settlements (BIS)' on first use in the body
+      text.
+    - Removed 'notable' from the editorial note to avoid explicitly flagging significance.
