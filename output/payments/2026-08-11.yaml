@@ -1,0 +1,260 @@
+title: 'CFPB open banking rewrite; NatWest mortgage verification; Brazil''s Pix goes
+  global
+
+  '
+social_post: 'The CFPB''s open banking rewrite puts data-access fees at the centre
+  of a lobbying battle. Plus: NatWest uses open banking to verify mortgage income,
+  and Brazil moves to export Pix internationally. {link}
+
+  '
+stories:
+- headline: CFPB open banking rewrite centres on data-access fees for fintechs
+  standfirst: Banks could soon charge fintechs for consumer data access under a revised
+    Section 1033 rule heading to the White House for review, reshaping the economics
+    of the US open banking market.
+  body: 'The Consumer Financial Protection Bureau (CFPB) has sent a rewritten version
+    of its open banking rule to the Office of Information and Regulatory Affairs for
+    White House review. The revision is expected to narrow the scope of data that
+    banks must share and introduce a framework under which banks could charge third
+    parties for access, a sharp departure from the original rule''s emphasis on free
+    data portability.
+
+
+    The fee question has become the central fault line. Banks and credit unions, represented
+    by groups including the Consumer Bankers Association, have argued that the original
+    rule effectively mandated an open banking framework that went beyond the statute''s
+    intent. Fintechs counter that introducing fees would undermine the competitive
+    dynamics that Section 1033 was designed to enable, and some have flagged potential
+    conflicts with the Trump administration''s own executive order on reducing regulatory
+    costs.
+
+
+    The rewrite arrives during the August congressional recess, but industry lobbying
+    on both sides has intensified. The outcome will determine whether the US adopts
+    a model closer to Europe''s free-access approach or one that compensates data
+    holders, with implications for any fintech business model built on open banking
+    connectivity.'
+  editorial_note: 'This advances the previously covered CFPB open banking story with
+    a materially new development: the revised rule has been sent to OIRA, and the
+    fee framework has emerged as the defining issue. Directly relevant to European
+    firms watching US regulatory divergence.'
+  sources: '[CFPB Open Banking Rewrite Could Put Data-Access Fees at Center of Section
+    1033 Fight](https://www.pymnts.com/legal/bank-regulation/2026/cfpb-open-banking-rewrite-could-put-data-access-fees-at-center-of-section-1033-fight/)
+    — Pymnts | [Interchange Fight, Open Banking Rule Loom Over Credit Unions During
+    August Recess](https://www.cutoday.info/Fresh-Today/Interchange-Fight-Open-Banking-Rule-Loom-Over-Credit-Unions-During-August-Recess)
+    — Cutoday | [Main Street Ledger: What''s at Stake as the CFPB Reconsiders Its
+    Personal Financial Data ...](https://consumerbankers.com/blog/main-street-ledger-whats-at-stake-as-the-cfpb-reconsiders-its-personal-financial-data-rights-rule/)
+    — Consumerbankers'
+  style_check:
+    compliant: false
+    warnings:
+    - 'Standfirst opens with ''A revised Section 1033 rule'' – this repeats the subject
+      (''open banking rewrite'') already named in the headline. Should open with the
+      substantive point instead, eg ''Banks could soon charge fintechs for consumer
+      data access under a revised Section 1033 rule heading to the White House for
+      review, reshaping the economics of the US open banking market.'' (Violates:
+      ''In the standfirst, do not open by naming the organisation that is also named
+      in the headline.'')'
+    - Body contains 'Office of Information and Regulatory Affairs (OIRA)' but OIRA
+      is not used again in the piece. Per the rule, 'Only include an abbreviation
+      or initialism in parentheses after a term if that abbreviation is used again
+      later in the same piece.' Should write 'Office of Information and Regulatory
+      Affairs' without the abbreviation.
+    - Body contains 'Consumer Bankers Association (CBA)' but CBA is not used again
+      in the piece. Should write 'Consumer Bankers Association' without the abbreviation.
+  verification:
+    verified: false
+    stale: false
+    duplicate: false
+    warnings:
+    - 'verification response could not be parsed: "I''ll fact-check this story by
+      searching for information about the CFPB''s open banking rule rewrite and the
+      claims made in the article. Now I need to c"'
+  revision:
+    replaced: false
+    summary:
+    - Revised standfirst to open with the substantive point ('Banks could soon charge
+      fintechs…') rather than repeating the subject named in the headline.
+    - Removed '(OIRA)' after 'Office of Information and Regulatory Affairs' as the
+      abbreviation is not used again in the piece.
+    - Removed '(CBA)' after 'Consumer Bankers Association' as the abbreviation is
+      not used again in the piece.
+- headline: 'NatWest adopts open banking income verification for mortgage applications
+
+    '
+  standfirst: 'Partnering with Equifax, the bank is using open banking data to verify
+    applicant income in real time, replacing manual document checks in mortgage underwriting.
+
+    '
+  body: 'NatWest is using open banking to verify mortgage applicants'' income and
+    employment status, working with Equifax to pull transaction data directly from
+    applicants'' bank accounts with their consent. The approach replaces the manual
+    submission and review of payslips and bank statements that have long defined mortgage
+    underwriting in the UK.
+
+
+    The integration allows NatWest to cross-reference declared income against actual
+    payment patterns, reducing both processing time and the scope for document fraud.
+    Equifax''s role is to aggregate and structure the open banking data into formats
+    that fit the bank''s existing affordability models.
+
+
+    This follows the Financial Conduct Authority''s (FCA) signal in June that open
+    banking data would reshape mortgage affordability assessments. NatWest''s adoption
+    suggests that shift is now moving from regulatory expectation to operational reality.
+    For open banking providers, mortgage verification represents a high-value, high-volume
+    use case that goes well beyond payments.
+
+    '
+  editorial_note: 'Concrete evidence of open banking penetrating mortgage underwriting
+    at a major UK bank, following the FCA''s June signal on this topic. Advances the
+    regulatory-to-implementation narrative.
+
+    '
+  sources: '[How NatWest & Equifax Combat Mortgage Fraud via Open Banking](https://fintechmagazine.com/articles/how-natwest-equifax-combat-mortgage-fraud-via-open-banking)
+    — FinTech Magazine'
+  style_check:
+    compliant: false
+    warnings:
+    - 'Standfirst opens by naming Equifax, the partner organisation, rather than leading
+      with the substantive action or finding. Should open with ''The bank is using…''
+      or ''NatWest is integrating…'' to avoid redundancy with the headline''s naming
+      of NatWest. Rule: ''In the standfirst, do not open by naming the organisation
+      that is also named in the headline.'''
+    - 'Body text uses ''Financial Conduct Authority (FCA)'' on first mention, but
+      ''FCA'' does not recur in the body after this point, so the abbreviation in
+      parentheses should not be included. Rule: ''Only include an abbreviation or
+      initialism in parentheses after a term if that abbreviation is used again later
+      in the same piece.'''
+    - 'Final paragraph uses phrase ''This follows'' to introduce the FCA signal, which
+      creates weak positioning. More importantly, the final sentence ''For open banking
+      providers, mortgage verification represents a high-value, high-volume use case
+      that goes well beyond payments'' is vague and thematic rather than grounded
+      in concrete claim. Rule: ''Do not open a paragraph with hedging scene-setters
+      that delay the substantive point'' and avoid general thematic claims.'
+  verification:
+    verified: true
+    stale: true
+    duplicate: false
+    warnings:
+    - Core event announced August 4, 2026 is 7 days old as of August 11 — exceeds
+      5-day threshold
+  revision:
+    replaced: false
+    summary:
+    - Flagged as stale but no unused candidate was available — kept as-is, editor
+      should review.
+- headline: Brazil's central bank signals plan to connect Pix to foreign instant payment
+    networks
+  standfirst: Cross-border linkages between national instant payment systems could
+    offer an alternative model to correspondent banking, with implications for European
+    schemes pursuing similar interoperability.
+  body: 'Brazil''s central bank has indicated with increased confidence that it intends
+    to link its instant payment system, Pix, to equivalent platforms in other countries.
+    A report published on August 10 outlined how such connections could lower cross-border
+    transaction costs, accelerate settlement and broaden access for consumers and
+    businesses on both sides.
+
+
+    Pix processed nearly 80 billion transactions domestically in 2025 and has become
+    the dominant retail payment method in Brazil. Connecting it to foreign instant
+    payment systems would test whether bilateral or multilateral linkages between
+    domestic schemes can function as a viable alternative to traditional correspondent
+    banking for cross-border retail and remittance flows.
+
+
+    The ambition mirrors efforts elsewhere. The ECB''s cross-currency instant payments
+    pilot on TIPS, which launched in June connecting the euro area with Denmark and
+    Sweden, and the mBridge project – now governed by its participating central banks
+    after the BIS exited in October 2024 – both pursue variations of the same idea.
+    Brazil''s move adds another major economy to the list of countries actively building
+    cross-border instant payment corridors, reinforcing the trajectory away from card
+    networks and correspondent banks as the default international payment rails.'
+  editorial_note: Brazil's Pix internationalisation is relevant to European professionals
+    because it tests the same cross-border instant payment interoperability model
+    the ECB and EPI are pursuing. Adds a major non-European data point to a core European
+    debate.
+  sources: '[Brazil Signals Surging Confidence in Plan to Export Pix Globally](https://www.pymnts.com/news/payment-methods/2026/brazil-signals-surging-confidence-in-plan-to-export-pix-globally/)
+    — PYMNTS'
+  style_check:
+    compliant: false
+    warnings:
+    - 'style check response could not be parsed: ''```json {   "compliant": false,   "warnings":
+      [     "Standfirst opens with \''Cross-border linkages between national instant
+      payment systems\'' — a genera'''
+  verification:
+    verified: false
+    stale: false
+    duplicate: false
+    warnings:
+    - Draft states Pix processed 'more than 60 billion transactions' in 2025; sources
+      show 79.8 billion transactions actually processed
+    - Draft describes mBridge as 'BIS-backed'; BIS exited the project and transferred
+      governance to participating central banks in October 2024
+  revision:
+    replaced: false
+    summary:
+    - Corrected Pix transaction volume from 'more than 60 billion' to 'nearly 80 billion'
+      to reflect the 79.8 billion figure from sources
+    - 'Corrected mBridge description: removed ''BIS-backed'' and noted that the BIS
+      exited the project and transferred governance to participating central banks
+      in October 2024'
+- headline: 'Belvo launches protocol connecting AI agents to open finance data in
+    Latin America
+
+    '
+  standfirst: 'The Model Context Protocol integration gives AI agents structured access
+    to banking data across multiple Latin American markets, an early implementation
+    of the agentic finance pattern European regulators are beginning to examine.
+
+    '
+  body: 'Belvo has launched a Model Context Protocol (MCP) integration that allows
+    AI agents, including those built on platforms such as ChatGPT, to access open
+    finance data across Latin American banking systems. The infrastructure layer lets
+    AI agents retrieve account balances, transaction histories and other financial
+    data with user consent, enabling personalised financial interactions without requiring
+    users to navigate individual banking apps.
+
+
+    MCP, originally developed by Anthropic, provides a standardised way for AI models
+    to interact with external data sources. Belvo''s implementation applies this to
+    its existing open finance connectivity across markets including Mexico, Brazil
+    and Colombia, effectively turning its API infrastructure into an agentic-ready
+    data layer.
+
+
+    The launch is an early commercial implementation of a pattern European regulators
+    and industry bodies are actively exploring. The Euro Banking Association published
+    its mapping of agentic AI''s role in open finance in June, and the FCA''s July
+    AI review placed agentic payments within its regulatory scope. Belvo''s move in
+    Latin America offers a live reference point for how AI agents might interact with
+    open finance rails at scale.
+
+    '
+  editorial_note: 'While geographically Latin American, this is the first production-grade
+    MCP integration for open finance and directly relevant to the agentic payments
+    and open finance discussions underway at the EBA, FCA and ECB.
+
+    '
+  sources: '[Belvo launches MCP to connect AI to financial data in LatAm](https://www.openbankingexpo.com/news/belvo-launches-mcp-to-connect-ai-to-financial-data-in-latam/)
+    — Open Banking Expo | [Belvo Launches MCP to Bridge AI Agents and Open Finance
+    Data Across Latin America](https://ffnews.com/news/3-new-mcps-connecting-ai-agents-to-open-finance-data-7dfdb5c7)
+    — Ffnews'
+  style_check:
+    compliant: false
+    warnings:
+    - 'style check response could not be parsed: ''```json {   "compliant": false,   "warnings":
+      [     "Standfirst opens by naming the organisation (Belvo) also named in the
+      headline. Rule: \''In the sta'''
+  verification:
+    verified: true
+    stale: true
+    duplicate: false
+    warnings:
+    - Belvo MCP launch appears to be approximately 2 weeks old (late July 2026), exceeding
+      the 5-day recency threshold
+  revision:
+    replaced: false
+    summary:
+    - Flagged as stale but no unused candidate was available — kept as-is, editor
+      should review.
