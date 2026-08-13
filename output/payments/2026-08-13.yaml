@@ -1,0 +1,301 @@
+title: 'BoE digital pound phase two; N26 adds Wero; PSR tightens card scheme oversight
+
+  '
+social_post: 'Bank of England brings stablecoins and the digital pound into trade
+  finance. Plus: N26 rolls out Wero, and the PSR issues final directions on card scheme
+  transparency. {link}
+
+  '
+stories:
+- headline: 'Bank of England tests stablecoin and digital pound interoperability in
+    trade finance pilot
+
+    '
+  standfirst: 'Phase two of the Digital Pound Lab is exploring how regulated stablecoins
+    and a potential digital pound could work together in cross-border SME trade finance,
+    with open finance data feeding automated credit decisions.
+
+    '
+  body: 'The Bank of England has selected Polygon Labs to lead a workstream in the
+    second phase of its Digital Pound Lab, testing how stablecoins and a future digital
+    pound could interoperate within cross-border trade payment flows. A separate workstream,
+    led by NOBO with Dun & Bradstreet and Polygon, will attempt to generate reusable
+    credit profiles for small and medium-sized businesses by combining consent-based
+    wallet transaction data, open finance information and commercial intelligence.
+
+
+    The trial builds on the Bank''s earlier finding that distributed ledger technology
+    presents "significant trade-offs" for wholesale settlement. Phase two narrows
+    the focus to a practical use case – trade finance – where programmable payments
+    and automated credit assessment could reduce friction for SMEs that struggle with
+    traditional documentary credit processes. Smart contracts on Polygon''s infrastructure
+    would govern the settlement logic.
+
+
+    The open finance component is worth watching. If the pilot demonstrates that consent-driven
+    transaction data from multiple sources can produce a bankable credit profile,
+    it offers a template for how open finance rails might extend beyond consumer lending
+    into business credit – a gap that the UK''s forthcoming open finance framework
+    is expected to address.
+
+    '
+  editorial_note: 'This advances the Bank of England''s digital pound work into a
+    concrete, use-case-specific phase, and the integration of open finance data into
+    SME credit profiling is directly relevant to the UK''s open finance policy trajectory.
+
+    '
+  sources: '[BoE Tests Stablecoin-Digital Pound Trade Finance with Polygon-Led Consortium](https://www.kucoin.com/news/flash/boe-tests-stablecoin-digital-pound-trade-finance-with-polygon-led-consortium)
+    — KuCoin | [BoE Tests Stablecoin and Digital Pound for Cross-Border Trade Payments](https://www.kucoin.com/news/flash/boe-tests-stablecoin-and-digital-pound-for-cross-border-trade-payments)
+    — KuCoin | [BOE Phase 2 Trial Puts Stablecoins And The Digital Pound Inside One
+    Trade Finance Payment](https://egamers.io/boe-phase-2-trial-puts-stablecoins-and-the-digital-pound-inside-one-trade-finance-payment/)
+    — Egamers | [Bank of England Tests Stablecoin and Digital Pound in Cross-Border
+    Trade Pilot](https://www.kucoin.com/news/flash/bank-of-england-tests-stablecoin-and-digital-pound-in-cross-border-trade-pilot)
+    — KuCoin | [Bank of England Selects Polygon Labs to Test Digital Pound and Stablecoin
+    Payments](https://www.kucoin.com/news/flash/bank-of-england-selects-polygon-labs-to-test-digital-pound-and-stablecoin-payments)
+    — Kucoin | [Bank of England tests stablecoin, digital pound interoperability in
+    cross-border payments](https://www.tradingview.com/news/cointelegraph:d48549e20094b:0-bank-of-england-tests-stablecoin-digital-pound-interoperability-in-cross-border-payments/)
+    — Tradingview | [BOE Tests Stablecoin and Digital Pound Integration for Modern
+    Finance](https://crypto-economy.com/boe-tests-stablecoin-and-digital-pound/) —
+    Crypto Economy | [Bank of England names Polygon Labs as Digital Pound Lab enters
+    Phase 2](https://www.cryptopolitan.com/polygon-labs-digital-pound-lab-phase-2/)
+    — Cryptopolitan | [Polygon Joins Bank of England to Test Stablecoin & Digital
+    Pound Lab Phase 2](https://www.cryptotimes.io/2026/08/12/polygon-joins-bank-of-england-digital-pound-lab-phase-2/)
+    — Cryptotimes | [Bank of England uses Polygon in cross-border trade finance trial](https://tradersunion.com/news/cryptocurrency-news/show/2976214-bank-of-england-uses-polygon/)
+    — Traders Union | [Bank of England Lab Tests Digital Pound And Stablecoins In
+    SME Trade Finance](https://yellow.com/news/digital-pound-stablecoin-trade) — Yellow
+    | [Bank of England expands digital pound pilot for cross-border trade finance](https://tradersunion.com/news/cryptocurrency-news/show/2975974-bank-england-digital-pound-trade-finance/)
+    — Traders Union'
+  style_check:
+    compliant: false
+    warnings:
+    - 'style check response could not be parsed: ''```json {   "compliant": false,   "warnings":
+      [     "Standfirst opens with \''Phase two of the Digital Pound Lab is exploring\''
+      – this repeats the subjec'''
+  verification:
+    verified: false
+    stale: false
+    duplicate: false
+    warnings:
+    - 'verification response could not be parsed: "I''ll fact-check this story about
+      the Bank of England''s stablecoin and digital pound interoperability pilot.
+      Let me search for information about this a"'
+- headline: N26 launches Wero in Germany and France as EPI widens its retail footprint
+  standfirst: Wero now reaches retail customers at N26 alongside ING, BoursoBank and
+    Viva, widening EPI's effort to build a pan-European payment method that bypasses
+    card networks.
+  body: 'N26 is rolling out Wero, the European Payments Initiative''s (EPI) digital
+    wallet and instant payment solution, directly within its app in Germany and France.
+    Customers can send and receive money in seconds using a phone number or email
+    address, without sharing an IBAN.
+
+
+    Daniel Lappas, N26''s chief product and business officer, said instant payments
+    without an IBAN had been a core feature since the bank''s inception. The Wero
+    integration replaces N26''s proprietary person-to-person transfer with a scheme-level
+    solution that is interoperable across participating banks and markets. EPI has
+    been steadily expanding its reach: ING brought Wero to 10 million German customers
+    in June, BoursoBank has announced plans to integrate it by the end of 2026, Austrian
+    banking groups joined in late June, and Rabobank began migrating iDEAL volumes
+    to Wero in the Netherlands.
+
+
+    The accumulation of launches matters less for any single bank''s scale than for
+    the pattern it establishes. Wero is moving from pilot curiosity to a product with
+    genuine multi-bank, multi-market presence. Whether that translates into merchant
+    acceptance at the point of sale, rather than just person-to-person transfers,
+    remains the harder test.'
+  editorial_note: The steady drumbeat of Wero integrations across banks and markets
+    is the most consequential ongoing story in European payment scheme development.
+    N26's launch adds a major neobank to the roster.
+  sources: '[N26 Expands Instant Payment Offer With Introduction of European Digital
+    Payment Solution Wero](https://financialit.net/news/payments/n26-expands-instant-payment-offer-introduction-european-digital-payment-solution-wero)
+    — Financialit | [N26 adds Wero instant payment solution to its app](https://thepaypers.com/payments/news/n26-adds-wero-instant-payment-solution-to-its-app)
+    — The Paypers | [N26 Rolls Out Wero for Instant Transfers Across Germany and France](https://fintechnews.ch/fintechgermany/n26-wero/84988/)
+    — Fintechnews | [N26 Launches Wero Digital Wallet for IBAN-Free Instant Payments
+    in Germany and France](https://ffnews.com/news/n26-expands-instant-payment-offer-with-introduction-of-european-digital-payment--850215b3)
+    — Ffnews | [N26 adds Wero payments to app](https://www.finextra.com/pressarticle/110635/n26-adds-wero-payments-to-app?utm_medium=rssfinextra&utm_source=finextrafeed)
+    — Finextra'
+  style_check:
+    compliant: false
+    warnings:
+    - Standfirst opens with 'The neobank's integration marks another step in EPI's
+      effort' — this repeats the subject (EPI) named in the headline. Per house style,
+      the standfirst should begin with a substantive point rather than restating the
+      headline's subject. Revise to lead with the concrete finding (e.g., 'Wero now
+      reaches retail customers at N26 alongside ING, BoursoBank and Viva, widening
+      EPI's…').
+    - 'Body text contains ''N26''s addition is significant less for its individual
+      scale than for what the accumulation of launches signals.'' This explicitly
+      announces significance before making the substantive point, violating the rule
+      against ''This matters because'' or equivalent framing. Rewrite directly: ''N26''s
+      addition matters less for its individual scale than for what the accumulation
+      of launches signals'' or simply remove the significance flag and lead with the
+      substantive claim.'
+    - 'Body text contains ''Whether that translates into merchant acceptance at the
+      point of sale – rather than just person-to-person transfers – remains the harder
+      test.'' This uses an em-dash (–) in mid-sentence parenthetical; house style
+      requires commas for this construction. Replace with commas: ''Whether that translates
+      into merchant acceptance at the point of sale, rather than just person-to-person
+      transfers, remains the harder test.'''
+    - 'The standfirst refers to ''recent launches at ING, BoursoBank and Viva'' but
+      the body specifies timing: ''in June'', ''the same month'', and ''late June''.
+      Per house style, avoid vague temporal references in standfirst; use specific
+      dates or months. Replace ''recent launches'' with ''launches in June'' or similar
+      precision.'
+    - 'The headline and standfirst both start with the same subject framing (N26/neobank
+      + EPI). Vary the opening: either revise the standfirst to lead with the concrete
+      action/finding as noted above, or adjust the headline.'
+  verification:
+    verified: false
+    stale: false
+    duplicate: false
+    warnings:
+    - BoursoBank announced Wero integration by end of 2026, did not integrate it in
+      June 2026 as drafted implies
+  revision:
+    replaced: false
+    summary:
+    - 'Corrected BoursoBank timing: replaced ''BoursoBank integrated it in France
+      the same month'' with ''BoursoBank has announced plans to integrate it by the
+      end of 2026'' per the fact-check.'
+    - Revised standfirst to open with 'Wero now reaches retail customers at N26 alongside
+      ING, BoursoBank and Viva' rather than restating the headline's subject (EPI/neobank).
+    - Removed explicit significance flag ('N26's addition is significant less for…')
+      and rewrote the paragraph opening to lead with the substantive claim directly.
+    - Replaced em-dashes with commas in 'Whether that translates into merchant acceptance
+      at the point of sale, rather than just person-to-person transfers, remains the
+      harder test.'
+    - Removed vague 'recent launches' from the standfirst; the standfirst now names
+      the banks directly without a vague temporal marker, while the body retains specific
+      timing details.
+    - Varied the standfirst opening so it no longer mirrors the headline's subject
+      framing.
+- headline: PSR issues final directions on card scheme transparency and consults on
+    payee verification
+  standfirst: Two regulatory actions in a single day tighten oversight of card schemes
+    and signal further expansion of confirmation of payee requirements.
+  body: 'The Payment Systems Regulator (PSR) has published policy statement PS26/1,
+    issuing two final specific directions requiring card schemes to provide enhanced
+    information and improve transparency around their pricing and practices. The directions
+    follow the PSR''s market review, which proposed mandatory UK profit reporting
+    for Visa and Mastercard.
+
+
+    Separately, the PSR has published consultation paper CP26/2 proposing amendments
+    to specific direction 17, which governs confirmation of payee (CoP). The consultation
+    considers extending and expanding CoP requirements, potentially broadening the
+    range of payment service providers that must participate in payee name-checking
+    before payments are sent.
+
+
+    The two publications arrive in the same week that UK fraud losses were reported
+    at £1.3 billion, with authorised push payment scams rebounding sharply. Expanding
+    CoP coverage addresses one of the most straightforward fraud-prevention tools
+    available, while the card scheme transparency directions continue the PSR''s sustained
+    pressure on interchange and scheme fee economics. Together, they represent the
+    regulator pressing on both the account-to-account and card sides of UK payments
+    simultaneously.'
+  editorial_note: ''
+  sources: '[UK PSR Market Review: Final Directions To Card Schemes On Information,
+    Transparency ...](https://www.jdsupra.com/legalnews/uk-psr-market-review-final-directions-8548597/)
+    — Jdsupra | [UK PSR Consults On Extending And Expanding CoP Specific Direction
+    17](https://www.jdsupra.com/legalnews/uk-psr-consults-on-extending-and-2135809/)
+    — JD Supra'
+  style_check:
+    compliant: false
+    warnings:
+    - Standfirst opens by naming the organisation (PSR) that is also named in the
+      headline. Rule requires opening with the substantive point instead — revise
+      to begin with 'Two regulatory actions in a single day tighten oversight...'
+      or similar, avoiding 'The Payment Systems Regulator'
+    - Body text uses 'earlier this year' which is a vague temporal reference. Rule
+      requires specific time periods — replace with the actual month or quarter when
+      the market review proposed mandatory UK profit reporting
+    - Body text uses 'account-to-account' as a spelled-out term but should use 'A2A'
+      abbreviation per house style, or this should be 'A2A (account-to-account)' on
+      first use in body if the abbreviation recurs. Check if A2A is used again; if
+      not, the current spelling is acceptable but the rule prefers the abbreviation
+      form
+    - Editorial note should not be included in the copy check output as per instructions
+      — notes about missing information or editorial context should not appear in
+      final text
+  verification:
+    verified: true
+    stale: false
+    duplicate: false
+    warnings: []
+  revision:
+    replaced: false
+    summary:
+    - Standfirst already opens with 'Two regulatory actions…' and does not name the
+      PSR — no change needed; the flagged issue appears to have been raised against
+      an earlier draft.
+    - Removed 'earlier this year' from the body's first paragraph ('which earlier
+      this year proposed…' → 'which proposed…') because the specific month or quarter
+      of the market review could not be confirmed from available information. Rather
+      than guess, the vague temporal reference was dropped entirely.
+    - Retained 'account-to-account' in spelled-out form because the abbreviation does
+      not recur elsewhere in the piece; house style permits the full term when no
+      subsequent abbreviation is needed.
+    - Removed the editorial note as house style prohibits editorial notes about missing
+      information or context in final text.
+- headline: Jennifer Bailey to leave Apple after leading Apple Pay for over a decade
+  standfirst: One of the most influential figures shaping how consumers interact with
+    payment credentials on mobile devices is stepping down, removing the architect
+    of Apple's payments and wallet business at a moment of regulatory and competitive
+    flux in Europe.
+  body: 'Jennifer Bailey, Apple''s head of payment and wallet services, is leaving
+    the company after more than 25 years. Bailey oversaw the launch and growth of
+    Apple Pay, which has become the dominant mobile wallet in most European markets
+    and a critical piece of infrastructure for card issuers, payment networks and
+    merchants alike.
+
+
+    Her departure comes at a point when Apple''s payments position is under regulatory
+    and competitive pressure in Europe. The Digital Markets Act forced Apple to open
+    NFC access on iPhones to third-party wallets, ending the exclusive position Apple
+    Pay held at the point of sale. The European Payments Initiative''s Bluecode launched
+    NFC payments on iOS via the Discover network in June, and card schemes are exploring
+    alternatives to Apple''s wallet for credential storage.
+
+
+    Who replaces Bailey – and whether Apple reorganises the payments function or treats
+    it as a continuation role – will matter to every European issuer and scheme that
+    has built distribution strategy around Apple Pay''s reach.'
+  editorial_note: Bailey's role shaped mobile payment infrastructure across Europe.
+    Her exit affects issuers, schemes and fintechs whose strategies depend on Apple's
+    wallet ecosystem, particularly as regulatory changes are reshaping that ecosystem.
+  sources: '[Apple Pay and Wallet chief Bailey to leave](https://www.finextra.com/newsarticle/48232/apple-pay-and-wallet-chief-bailey-to-leave?utm_medium=rssfinextra&utm_source=finextrafeed)
+    — Finextra'
+  style_check:
+    compliant: false
+    warnings:
+    - Standfirst opens by naming the subject ('The departure of the executive') rather
+      than leading with the substantive point or action. Should open with what happened
+      (e.g., 'Jennifer Bailey is leaving Apple after…') to avoid the redundancy rule
+      breach of opening with the organisation/subject already named in the headline.
+    - 'Body text uses ''EPI''s Bluecode'' without spelling out ''EPI'' in full on
+      first use. Rule requires: ''Electronic Payment Initiative (EPI)'' or similar
+      on first mention in body, even if the abbreviation appeared in standfirst.'
+    - Editorial note states 'Her exit is material for issuers, schemes and fintechs'
+      – this is flagging significance explicitly ('is material') before making the
+      substantive point, breaching the rule against phrases that announce importance
+      before explaining it. Remove 'is material' and state the substantive consequences
+      directly.
+  verification:
+    verified: false
+    stale: false
+    duplicate: false
+    warnings:
+    - Draft states Bailey leaving 'after 23 years' but sources consistently state
+      'more than 25 years' at Apple
+  revision:
+    replaced: false
+    summary:
+    - Corrected tenure from '23 years' to 'more than 25 years' per source evidence.
+    - Revised standfirst to open with the substantive point rather than naming the
+      subject already identified in the headline.
+    - Spelled out 'EPI' as 'the European Payments Initiative' on first use in body
+      text. Abbreviation not parenthesised as it does not recur.
+    - Removed 'is material' from editorial note and restated the point directly to
+      avoid flagging significance explicitly.
