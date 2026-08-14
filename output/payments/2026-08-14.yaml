@@ -1,0 +1,310 @@
+title: 'Wero expands merchant and neobank reach; Canada drafts open finance specs;
+  BoE tests stablecoin interoperability
+
+  '
+social_post: 'Wero picks up two more deployments in a week, Canada publishes its first
+  open finance technical specs, and the BoE puts stablecoins and a digital pound on
+  the same rail. Today''s briefing: {link}
+
+  '
+stories:
+- headline: N26 integrates Wero as EPI builds neobank distribution across Europe
+  standfirst: Wero gains its first major neobank deployment, extending EPI's reach
+    beyond incumbent banks into a segment with over seven million customers in Germany
+    and France.
+  body: 'N26 has launched Wero directly within its mobile app, enabling its more than
+    seven million customers in Germany and France to send and receive instant payments
+    using only a phone number or email address, without sharing an IBAN. The integration
+    went live on August 12.
+
+
+    Wero''s distribution strategy has so far relied on incumbent banking groups –
+    ING in Germany, BoursoBank in France, and Austrian cooperatives. Adding N26, which
+    operates as a fully licensed bank but with a digital-native user base skewing
+    younger, tests whether Wero can gain traction outside traditional banking relationships.
+    N26''s customers are precisely the demographic most likely to default to card-linked
+    wallets from Apple or Google.
+
+
+    Separately, finby, a European payment service provider and acquirer, announced
+    it is deploying Wero for its e-commerce merchants, marking another step in EPI''s
+    push to move beyond person-to-person payments and into online checkout. The two
+    announcements in the same week suggest EPI is accelerating distribution across
+    both consumer and merchant sides simultaneously.'
+  editorial_note: Wero's neobank expansion sharpens EPI's competitive positioning
+    against card networks and big-tech wallets; the finby merchant deployment adds
+    a second front.
+  sources: '[N26 adds Wero payments to app](https://www.finextra.com/pressarticle/110635/n26-adds-wero-payments-to-app?utm_medium=rssfinextra&utm_source=finextrafeed)
+    — Finextra | [finby boosts Wero to support the future of pan-European payments](https://www.finextra.com/pressarticle/110638/finby-boosts-wero-to-support-the-future-of-pan-european-payments?utm_medium=rssfinextra&utm_source=finextrafeed)
+    — Finextra'
+  style_check:
+    compliant: false
+    warnings:
+    - Standfirst opens with 'The launch' naming the subject already identified in
+      the headline (Wero/EPI). Should begin with the substantive point instead, e.g.,
+      'Wero gains its first major neobank deployment...' rather than 'The launch gives
+      Wero...'
+    - Body text uses 'over seven million customers' but this figure is introduced
+      in the standfirst without source or context. The body should be self-contained
+      and explain where this figure comes from or establish it independently.
+    - Editorial note contains 'This is a meaningful signal' phrasing which announces
+      significance before the substantive point. The note should state the substantive
+      claim directly without hedging with significance-flagging language.
+  verification:
+    verified: true
+    stale: false
+    duplicate: false
+    warnings: []
+  revision:
+    replaced: false
+    summary:
+    - Revised standfirst to open with 'Wero gains its first major neobank deployment'
+      rather than 'The launch gives Wero', avoiding redundant repetition of the headline
+      subject.
+    - Integrated the 'over seven million customers' figure into the body's opening
+      sentence so the body is self-contained and the figure is contextualised alongside
+      N26's customer base.
+    - Revised editorial note to state the substantive claim directly ('sharpens EPI's
+      competitive positioning') rather than flagging significance with 'is a meaningful
+      signal'.
+- headline: Canada publishes first technical specifications for open finance data
+    portability
+  standfirst: Forty-five days of public review are now open on draft standards that
+    give Canadian institutions their first concrete blueprint for implementing consumer-directed
+    data sharing.
+  body: 'Draft technical specifications for open finance data portability in Canada
+    have been published by the Digital Governance Standards Institute and the Open
+    Finance Network of Canada. The documents are open for a 45-day public review period.
+
+
+    Canada''s open banking framework has moved slowly relative to the UK, Australia
+    and the EU. The country passed enabling legislation and designated a lead entity,
+    but has lacked the detailed technical standards that firms need to build against.
+    These draft specifications begin to close that gap, covering how consumer-permissioned
+    financial data should be structured, transmitted and secured.
+
+
+    For European firms operating or expanding in North America, the specifications
+    are worth tracking. Canada''s standards choices, particularly around API design
+    and authentication, will shape whether cross-border open finance interoperability
+    becomes practical or remains aspirational. The Bank for International Settlements''
+    recent Project Aperta work on cross-border open finance makes the Canadian approach
+    directly relevant to the European discussion.'
+  editorial_note: Canada publishing concrete open finance technical specs is a regulatory
+    milestone with implications for cross-border interoperability, relevant to European
+    firms watching North American market access.
+  sources: '[DGSI, OFNC publish draft technical specifications on Open Finance data
+    portability in Canada](https://www.openbankingexpo.com/news/dgsi-ofnc-publish-draft-technical-specifications-on-open-finance-data-portability-in-canada/)
+    — Openbankingexpo'
+  style_check:
+    compliant: false
+    warnings:
+    - 'Standfirst opens by naming DGSI and OFNC, the same organisations identified
+      in the headline as the publishers. Should begin with the substantive point (the
+      blueprint or standards) instead. Violates: ''In the standfirst, do not open
+      by naming the organisation that is also named in the headline.'''
+    - 'Body text uses em-dash in ''The country passed enabling legislation and designated
+      a lead entity, but has lacked the detailed technical standards that firms need
+      to build against. These draft specifications begin to close that gap, covering
+      how consumer-permissioned financial data should be structured, transmitted and
+      secured.'' Should use comma or en-dash instead. Violates: ''Replace dashes used
+      to introduce a consequence or parenthetical mid-sentence with commas.'''
+    - 'Abbreviation ''BIS'' used without spelling out in full on first mention in
+      body. Should be ''Bank for International Settlements (BIS)'' or similar. Violates:
+      ''On first use of an abbreviation that must be retained, spell it out in full
+      followed by the abbreviation in parentheses.'''
+    - 'Body opening ''The Digital Governance Standards Institute (DGSI) and the Open
+      Finance Network of Canada (OFNC) have published...'' repeats the same opening
+      structure and subject as the headline ''Canada publishes first technical specifications...''.
+      While not identical wording, the construction is too similar. Consider opening
+      with the specifications themselves or their significance. Violates: ''Do not
+      start the headline, standfirst, and body opening sentence with the same word
+      or phrase.'''
+  verification:
+    verified: true
+    stale: false
+    duplicate: false
+    warnings: []
+  revision:
+    replaced: false
+    summary:
+    - Revised standfirst to open with the substantive point (the 45-day public review
+      and what the standards provide) rather than naming DGSI and OFNC, which are
+      already identified in the headline.
+    - Restructured body opening sentence to lead with the specifications rather than
+      the organisations, avoiding the same subject-first construction as the headline.
+    - Replaced en-dashes around 'particularly around API design and authentication'
+      with commas, per house style on dashes introducing parentheticals.
+    - Spelled out 'BIS' as 'Bank for International Settlements' on first use in body;
+      since the abbreviation does not recur, the parenthetical form was omitted per
+      house style.
+    - Removed parenthetical abbreviations (DGSI) and (OFNC) from body since neither
+      abbreviation is used again in the piece.
+- headline: Bank of England to test stablecoin and digital pound interoperability
+    in trade finance
+  standfirst: Cross-border settlement using stablecoins alongside a potential digital
+    pound will be trialled in a second phase of the BoE's digital pound lab, with
+    SME credit profiling built on open finance data.
+  body: 'The Bank of England (BoE) is launching a second phase of its digital pound
+    experimentation programme, selecting NOBO Finance, Dun & Bradstreet and Polygon
+    Labs to build and test trade finance use cases. The project will trial interoperability
+    between regulated stablecoins and a potential digital pound for cross-border settlement.
+
+
+    A separate workstream within the same programme aims to construct a portable SME
+    "bankable profile" by combining wallet transaction data, open finance information
+    and commercial intelligence from Dun & Bradstreet. The goal is to give small businesses
+    a reusable, data-rich credit identity that could reduce friction in trade finance
+    applications – a segment where SMEs routinely face rejection due to thin credit
+    files.
+
+
+    The BoE''s earlier digital pound work focused primarily on retail use cases. Pivoting
+    toward trade finance and SME lending suggests the central bank sees wholesale
+    and business applications as a more compelling near-term justification for the
+    infrastructure, particularly given political caution around a retail central bank
+    digital currency.'
+  editorial_note: The BoE moving its digital pound lab into trade finance and open-finance-based
+    SME profiling is a shift from retail experimentation, with direct implications
+    for stablecoin regulation and SME lending.
+  sources: '[Bank of England to trial stablecoin, digital pound in trade finance](https://thepaypers.com/crypto-web3-and-cbdc/news/bank-of-england-to-trial-stablecoin-digital-pound-in-trade-finance)
+    — The Paypers'
+  style_check:
+    compliant: false
+    warnings:
+    - 'Standfirst opens with ''A second phase of the BoE''s digital pound lab'' —
+      this names the organisation (BoE) that is also named in the headline. Should
+      begin with the substantive action instead, such as ''A trial of cross-border
+      settlement using stablecoins…'' to avoid redundant repetition. Violates: ''do
+      not open by naming the organisation that is also named in the headline.'''
+    - 'Body text uses ''Polygon Labs'' without spelling out any abbreviation; however,
+      the more significant issue is the standfirst abbreviates ''Bank of England''
+      as ''BoE'' on first mention. Per house rules, abbreviations must be spelled
+      out in full with the abbreviation in parentheses on first use in the body: should
+      be ''Bank of England (BoE)'' in body text, even though BoE appeared in standfirst.
+      Violates: ''Treat the body as a standalone content section for the purpose of
+      abbreviation rules.'''
+    - 'Editorial note states ''is a substantive shift'' — this flags significance
+      explicitly by using ''substantive'' to announce importance before explaining
+      it. Should state the concrete implications directly without framing language.
+      Violates: ''Never flag significance explicitly.'''
+  verification:
+    verified: false
+    stale: false
+    duplicate: false
+    warnings:
+    - Draft says 'commercial credit data from Dun & Bradstreet,' but sources describe
+      'commercial intelligence,' 'commercial risk data,' or 'business intelligence'
+      instead
+  revision:
+    replaced: false
+    summary:
+    - Standfirst revised to open with the substantive action ('Cross-border settlement
+      using stablecoins…') rather than naming the BoE, which is already in the headline.
+    - Body text now spells out 'Bank of England (BoE)' on first use, treating the
+      body as a standalone section for abbreviation rules.
+    - Replaced 'commercial credit data from Dun & Bradstreet' with 'commercial intelligence
+      from Dun & Bradstreet' to match source terminology.
+    - 'Editorial note: removed ''substantive'' before ''shift'' to avoid explicitly
+      flagging significance.'
+- headline: 'Zilch builds membership model on open banking data and salary advances
+
+    '
+  standfirst: 'New paid tiers and an open-banking-powered salary advance product mark
+    a shift from pure BNPL toward a broader consumer finance platform monetising transaction
+    data.
+
+    '
+  body: 'Zilch has launched two membership tiers – Zilch Extra at £2.99 per month
+    and Zilch Plus – alongside two new features: Zilch Advance, an open-banking-powered
+    salary advance, and Pay Monthly, which lets customers spread purchases over up
+    to 12 months. The company describes it as its most significant product expansion
+    since launch.
+
+
+    Zilch Extra uses an open banking connection to deliver spending insights, cashback
+    rewards and sharper merchant offers. Zilch Advance uses open banking income verification
+    combined with AI-driven affordability assessment to offer eligible customers early
+    access to earned wages. Both products sit under customers'' existing regulated
+    credit agreements.
+
+
+    The expansion illustrates a broader pattern among BNPL providers: using open banking
+    not merely as a payment initiation channel but as the data layer underpinning
+    credit decisions, personalisation and new revenue streams. Zilch is effectively
+    monetising the open banking connection itself through a subscription model, rather
+    than treating it as back-end plumbing. With UK BNPL regulation now in force since
+    July 15, the timing positions Zilch''s credit products within the new regulatory
+    perimeter from launch.
+
+    '
+  editorial_note: 'Zilch''s use of open banking as the commercial foundation of a
+    membership model – not just a payment rail – is a concrete example of how open
+    banking data is being monetised beyond payments.
+
+    '
+  sources: '[Zilch launches new membership tiers](https://www.finextra.com/pressarticle/110633/zilch-launches-new-membership-tiers?utm_medium=rssfinextra&utm_source=finextrafeed)
+    — Finextra | [Zilch launches new membership tiers](https://www.finextra.com/pressarticle/110633/zilch-launches-new-membership-tiers)
+    — Finextra Research'
+  style_check:
+    compliant: false
+    warnings:
+    - 'style check response could not be parsed: ''```json {   "compliant": false,   "warnings":
+      [     "Standfirst opens by naming the organisation (Zilch) that is also named
+      in the headline. Should be'''
+  verification:
+    verified: true
+    stale: false
+    duplicate: false
+    warnings: []
+- headline: 'Flywire and Trustly extend open banking payments to North America
+
+    '
+  standfirst: 'Applying European-tested open banking infrastructure to US and Canadian
+    education and healthcare payments, the partnership signals account-to-account
+    methods gaining ground in verticals where card costs are high.
+
+    '
+  body: 'Flywire has expanded its partnership with Trustly to offer open banking payments
+    across the US and Canada. The arrangement lets payers in Flywire''s core verticals
+    – education, healthcare and travel – pay directly from bank accounts, bypassing
+    card networks.
+
+
+    Trustly built its account-to-account payments business in Europe, where open banking
+    regulation provided the regulatory and technical foundations. Extending the same
+    infrastructure to North America, where no equivalent regulatory mandate exists,
+    requires a different approach: Trustly connects to US and Canadian banks through
+    a combination of legacy ACH rails, the RTP network and bilateral integrations
+    rather than standardised APIs.
+
+
+    For Flywire, the appeal is straightforward. Education and healthcare payments
+    tend to be high-value, low-frequency transactions where card interchange fees
+    are a significant cost. Open banking payments in these verticals carry lower fraud
+    risk than retail e-commerce and offer better conversion than wire transfers, which
+    require manual effort from payers. The expansion reflects a pattern seen across
+    several European open banking infrastructure providers now pushing into North
+    America, including TrueLayer and Plaid.
+
+    '
+  editorial_note: 'A European-built open banking provider scaling its infrastructure
+    into North America illustrates how the model is being exported beyond regulated
+    markets into verticals where the economics favour account-to-account.
+
+    '
+  sources: '[Flywire expands Trustly partnership to deliver Open Banking payments
+    in North America](https://www.openbankingexpo.com/news/flywire-expands-trustly-partnership-to-deliver-open-banking-payments-in-north-america/)
+    — Openbankingexpo | [Flywire expands payment support in US and Canada with Trustly](https://www.electronicpaymentsinternational.com/news/flywire-trustly-us-canada-payments/)
+    — Electronicpaymentsinternational'
+  style_check:
+    compliant: false
+    warnings:
+    - 'style check response could not be parsed: ''```json {   "compliant": false,   "warnings":
+      [     "Standfirst opens with \''Applying European-tested open banking infrastructure
+      to US and Canadian ed'''
+  verification:
+    verified: true
+    stale: false
+    duplicate: false
+    warnings: []
