@@ -1,0 +1,204 @@
+title: 'VRPs, failed payments and Slovenia''s fintech ambitions
+
+  '
+social_post: 'Thin pickings today but one worth reading: failed payments are costing
+  subscription firms 9% of revenue, and VRPs are emerging as part of the fix. Plus
+  Slovenia''s quiet fintech play. {link}
+
+  '
+stories:
+- headline: Failed payments cost subscription firms nine per cent of revenue
+  standfirst: New research from Ecommpay finds that subscription businesses lose an
+    average of nine per cent of annual revenue to payment failures, strengthening
+    the case for card-free alternatives including variable recurring payments.
+  body: 'Subscription businesses are losing an average of nine per cent of annual
+    revenue to payment failures, according to research published by Ecommpay. The
+    study identifies four strategies to address the problem: intelligent automated
+    retries, network tokenisation, direct debit, and variable recurring payments (VRPs).
+
+
+    VRPs, built on open banking rails, offer instant settlement without interchange
+    fees or the card expiry and decline issues that plague traditional recurring card
+    payments. Ecommpay positions them alongside direct debit as a card-free billing
+    method, though VRPs carry the additional advantage of real-time confirmation and
+    flexible payment amounts, making them suited to usage-based or tiered subscription
+    models.
+
+
+    The nine per cent figure underlines a persistent operational drag that subscription
+    businesses have largely treated as a cost of doing business. As VRP infrastructure
+    matures in the UK and commercial VRP propositions reach the market, the case for
+    diversifying away from card-only recurring billing strengthens materially.'
+  editorial_note: Quantifies a concrete commercial problem that VRPs can address,
+    relevant as commercial VRP launches accelerate in the UK market.
+  sources: '[Ecommpay: Failed Payments Cost Subscription Firms 9% of Revenue](https://thefintechtimes.com/ecommpay-failed-payments-cost-subscription-firms-9-of-revenue/)
+    — The Fintech Times'
+  style_check:
+    compliant: false
+    warnings:
+    - Headline opens with 'Failed payments' and body opens with 'Payment failures'
+      — avoid starting the headline and body opening sentence with the same word or
+      phrase. Vary the opening in at least one of the elements.
+    - Standfirst opens with 'Variable recurring payments are gaining traction' but
+      the substantive point (the nine per cent revenue loss quantification) is buried
+      in a secondary clause. The standfirst should lead with the specific, concrete
+      finding — 'new research shows subscription firms lose nine per cent of revenue
+      to payment failures' — rather than opening with a general thematic claim about
+      VRP adoption.
+    - 'Body text uses em-dash (—) in ''card expiry and decline issues that plague
+      traditional recurring card payments. Ecommpay positions them'' should use en-dash
+      (–) or comma instead: check for em-dashes where en-dashes should appear.'
+  verification:
+    verified: true
+    stale: false
+    duplicate: false
+    warnings: []
+  revision:
+    replaced: false
+    summary:
+    - Rewrote standfirst to lead with the specific concrete finding (nine per cent
+      revenue loss) rather than opening with a general thematic claim about VRP adoption.
+    - Changed body opening from 'Payment failures are costing' to 'Subscription businesses
+      are losing' to vary the opening word/phrase from the headline, which begins
+      with 'Failed payments'.
+    - 'Checked body for em-dashes: no em-dashes were present in the text, so no dash
+      substitution was needed.'
+- headline: Slovenia positions itself as a quiet contender in European fintech
+  standfirst: Full alignment with EU digital finance regulation is giving Slovenia
+    a foundation to attract fintech activity despite its small domestic market.
+  body: 'Slovenia''s fintech sector is drawing attention as the country implements
+    the full suite of EU digital finance regulation, including the Payment Services
+    Directive 2, the instant payments mandate, the Digital Operational Resilience
+    Act and the Markets in Crypto-Assets Regulation. The Fintech Times profiles the
+    market as one where regulatory readiness may outpace market size.
+
+
+    The country''s banking sector is compact but digitally mature, and its position
+    within the eurozone and the Single Euro Payments Area removes friction that non-euro
+    EU members still face. For fintechs seeking a compliant, low-cost base within
+    the EU''s regulatory perimeter, Slovenia offers a combination of full harmonisation
+    and limited domestic competition.
+
+
+    Small markets such as Lithuania and Estonia have demonstrated that regulatory
+    environment and licensing speed can outweigh scale, but sustaining momentum requires
+    active policy support and a pipeline of talent. Slovenia''s regulatory readiness
+    alone will not guarantee a meaningful fintech cluster without both.'
+  editorial_note: Relevant to European payments professionals evaluating licensing
+    jurisdictions and market entry points within the EU's evolving regulatory framework.
+  sources: '[Slovenia: Europe''s Quietest Fintech Market Might Be a Major Force](https://thefintechtimes.com/slovenia-europes-quietest-fintech-market-might-be-a-major-force/)
+    — Thefintechtimes'
+  style_check:
+    compliant: false
+    warnings:
+    - Standfirst opens with 'A market profile highlights' rather than the substantive
+      point. Per the rule on standfirst construction, the standfirst should lead with
+      the specific, concrete finding or action — in this case, that Slovenia's full
+      alignment with EU digital finance regulation is giving it a foundation to attract
+      fintech activity. Revise to open with the substantive point, not the source
+      or framing device.
+    - 'Body text uses ''PSD2'' without spelling it out in full on first mention. Rule
+      requires: ''Payment Services Directive 2 (PSD2)'' on first use in the body,
+      then ''PSD2'' subsequently.'
+    - Body text uses 'DORA' abbreviation is not introduced — the full term 'Digital
+      Operational Resilience Act' is given but no abbreviation follows. Per rule,
+      if an abbreviation is to be used later, it must be introduced on first use with
+      the full term followed by the abbreviation in parentheses — eg, 'Digital Operational
+      Resilience Act (DORA)'. If the abbreviation is never used again, the full term
+      alone is correct, which it is here — so this is compliant. However, 'MiCA' abbreviation
+      is not introduced — the full term 'Markets in Crypto-Assets Regulation' is given
+      but no abbreviation follows, and MiCA is never used again, which is compliant.
+    - Paragraph three opens with 'Whether that translates into a meaningful fintech
+      cluster remains to be seen.' This is a hedging scene-setter that delays the
+      substantive point. Per the rule against opening paragraphs with hedging constructions
+      like 'Whether…remains to be seen', lead directly with the substantive claim
+      — eg, 'Sustaining momentum requires active policy support and a pipeline of
+      talent, as demonstrated by Lithuania and Estonia.'
+  verification:
+    verified: true
+    stale: false
+    duplicate: false
+    warnings: []
+  revision:
+    replaced: false
+    summary:
+    - Revised standfirst to open with the substantive point ('Full alignment with
+      EU digital finance regulation…') rather than the framing device ('A market profile
+      highlights…').
+    - Spelled out 'Payment Services Directive 2' in full in the body on first use.
+      Since the abbreviation 'PSD2' does not recur later in the body, no parenthetical
+      abbreviation was added, consistent with house style.
+    - Rewrote the opening of paragraph three to lead with the substantive claim about
+      what small markets have demonstrated and what sustaining momentum requires,
+      removing the hedging scene-setter 'Whether that translates into a meaningful
+      fintech cluster remains to be seen.'
+- headline: 'Critics warn revised US open banking rule could introduce consumer fees
+
+    '
+  standfirst: 'Opposition is mounting to forthcoming changes to the US open banking
+    rule that could allow banks to charge consumers for data access, a departure from
+    the free-access principle embedded in European frameworks.
+
+    '
+  body: 'Critics are warning that a forthcoming revision to the US open banking rule
+    could permit banks to charge new fees for consumer data access. Opponents argue
+    the change would harm consumers and conflict with the Trump administration''s
+    stated deregulatory agenda, which has emphasised reducing costs rather than creating
+    new fee structures.
+
+
+    The criticism follows the Consumer Financial Protection Bureau''s June rewrite
+    of its open banking rule, which introduced data-sharing limits and opened the
+    door to fintech fees. The latest objections focus on the possibility that banks,
+    not just fintechs, could levy charges, potentially discouraging consumers from
+    exercising their data rights.
+
+
+    The US approach continues to diverge from the European model, where PSD2 established
+    free access to payment account data as a baseline. If the revised rule proceeds
+    with fee provisions intact, it would create a structurally different market dynamic,
+    one where data portability carries a direct cost to the consumer rather than being
+    funded through downstream commercial models.
+
+    '
+  editorial_note: 'The fee-access dimension is a genuinely new angle on the US open
+    banking rule, distinct from the June CFPB rewrite previously covered, and the
+    contrast with European free-access norms is directly relevant to this audience.
+
+    '
+  sources: '[Federal rule would harm consumers, conflict with Trump agenda, critics
+    say](https://www.thecentersquare.com/national/article_8333deb5-3a61-4386-927a-73aca4409c8a.html)
+    — National'
+  style_check:
+    compliant: false
+    warnings:
+    - 'Standfirst opens by naming the subject (''Opposition is mounting to forthcoming
+      changes to the US open banking rule'') that is also named in the headline. Should
+      instead open with the substantive point — e.g., ''Banks could charge consumers
+      for data access under forthcoming changes to the US open banking rule, a departure
+      from...'' Violates rule: ''In the standfirst, do not open by naming the organisation
+      that is also named in the headline.'''
+    - 'Body text uses ''PSD2'' without spelling it out on first use. Should be ''Payment
+      Services Directive 2 (PSD2)'' on first reference in body. Violates rule: ''On
+      first use of an abbreviation that must be retained, spell it out in full followed
+      by the abbreviation in parentheses.'''
+    - 'Headline starts with ''Critics'' and body opens with ''Critics are warning''
+      — identical word at the start of both elements. Should vary the opening in at
+      least one. Violates rule: ''Do not start the headline, standfirst, and body
+      opening sentence with the same word or phrase.'''
+  verification:
+    verified: false
+    stale: false
+    duplicate: true
+    warnings:
+    - Story reports same core event as 2026-06-30 entry 'CFPB rewrites US open banking
+      rule with data limits and fintech fees' - both about the revised open banking
+      rule allowing fees
+    - Story's framing of 'Consumer Financial Protection Bureau's June rewrite' is
+      imprecise; CFPB submitted a proposal in early August still under White House
+      review, not a completed June rewrite
+  revision:
+    replaced: false
+    summary:
+    - Flagged as duplicate coverage but no unused candidate was available — kept as-is,
+      editor should review.
