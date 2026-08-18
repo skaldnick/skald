@@ -1,0 +1,277 @@
+title: 'Stripe''s OpenRouter deal; ECB cash data; Ingenico recapitalisation
+
+  '
+social_post: 'Stripe drops $7bn on AI gateway OpenRouter, the ECB finds businesses
+  still prefer cash, and Ingenico secures €150m to reset its balance sheet. Today''s
+  briefing: {link}
+
+  '
+stories:
+- headline: Stripe agrees $7bn acquisition of AI gateway OpenRouter
+  standfirst: Control of the routing layer through which developers connect applications
+    to large language models would extend Stripe's infrastructure ambitions beyond
+    payments.
+  body: 'Stripe is acquiring OpenRouter, the AI model gateway, for $7 billion, according
+    to Bloomberg. OpenRouter acts as an intermediary that lets developers route API
+    calls to competing large language models through a single integration, a function
+    analogous to what Stripe itself does for payment methods.
+
+
+    The acquisition follows Stripe''s earlier moves into AI-adjacent infrastructure,
+    including its joint bid with Advent for PayPal, its partnership with AWS to build
+    a payment layer for AI agents, and its $1 billion purchase of billing platform
+    Metronome in December 2025. Owning a model-routing layer would position Stripe
+    at the intersection of AI compute and commerce, letting it capture billing and
+    metering revenue as AI-native applications scale.
+
+
+    For European payment providers and fintechs building on or competing with Stripe,
+    the next battleground is not just payment rails but the infrastructure layer connecting
+    AI systems to commercial transactions. If AI agents increasingly initiate purchases,
+    the firm that controls both the routing of model calls and the payment execution
+    has a structural advantage.'
+  editorial_note: A $7 billion acquisition by Stripe of an AI infrastructure company
+    accelerates Stripe's pivot toward owning the full AI-to-commerce stack, with competitive
+    implications for European acquirers and payment platforms.
+  sources: '[Stripe agrees $7bn takeover of AI firm OpenRouter - Bloomberg](https://www.finextra.com/newsarticle/48258/stripe-agrees-7bn-takeover-of-ai-firm-openrouter---bloomberg?utm_medium=rssfinextra&utm_source=finextrafeed)
+    — Finextra'
+  style_check:
+    compliant: false
+    warnings:
+    - Standfirst opens with 'The deal would give Stripe control' but the headline
+      names Stripe — this violates the rule against opening the standfirst by naming
+      the organisation also named in the headline. Should open with the substantive
+      point instead, e.g., 'Control of the routing layer through which developers
+      connect applications to large language models would extend Stripe's infrastructure
+      ambitions beyond payments.'
+    - Body paragraph 3 states 'the deal signals that the next battleground is not
+      just payment rails but the infrastructure layer' — this is flagged significance
+      explicitly before making the substantive point, violating the rule against sentences
+      that announce importance. Rewrite to lead directly with the substantive claim.
+    - Editorial note contains 'is significant for European payments professionals'
+      — this flags significance explicitly, which should not appear in editorial notes
+      either. Remove the significance announcement and state the substantive point
+      directly.
+  verification:
+    verified: false
+    stale: false
+    duplicate: false
+    warnings:
+    - Draft states Stripe made a '$335 million purchase of billing platform Orb earlier
+      this year,' but Adyen (not Stripe) acquired Orb for $335 million in June 2026.
+      Stripe acquired Metronome for $1 billion in December 2025.
+  revision:
+    replaced: false
+    summary:
+    - Corrected '$335 million purchase of billing platform Orb earlier this year'
+      to '$1 billion purchase of billing platform Metronome in December 2025' per
+      fact-check noting Orb was acquired by Adyen, not Stripe, and Stripe acquired
+      Metronome for $1 billion in December 2025.
+    - Revised standfirst to open with 'Control of the routing layer…' rather than
+      naming Stripe, avoiding repetition of the organisation already named in the
+      headline.
+    - Removed 'the deal signals that' from the opening of body paragraph 3, leading
+      directly with the substantive claim rather than flagging significance.
+    - Removed 'is significant for European payments professionals because it' from
+      the editorial note, stating the substantive point directly.
+- headline: ECB data shows businesses still prefer cash over digital payments
+  standfirst: The decline in cash acceptance among euro area businesses has stalled,
+    challenging assumptions that underpin initiatives from Wero to the digital euro.
+  body: 'Cash acceptance among euro area businesses, which dropped sharply during
+    the Covid-19 pandemic, has stabilised rather than continuing to fall. New ECB
+    survey data show that companies across the region continue to prefer cash as a
+    payment method, contradicting the narrative that digital payment adoption is on
+    a one-way trajectory.
+
+
+    The findings arrive as policymakers push competing agendas. The ECB''s digital
+    euro project, still in its preparation phase ahead of an operational pilot expected
+    in the second half of 2027, is premised partly on the idea that cash use is declining
+    and a public digital alternative is needed. Simultaneously, the European Payments
+    Initiative''s Wero is expanding across European markets as a digital wallet for
+    real-time payments. Both initiatives assume growing consumer and merchant appetite
+    for non-cash instruments.
+
+
+    For payment providers and scheme operators, the data complicates the business
+    case for displacing cash at the point of sale. If merchant preference for cash
+    proves sticky rather than transitional, the adoption curve for pay-by-bank, wallets
+    and the digital euro is likely to be slower than projected, particularly among
+    smaller businesses where cash handling costs are lower relative to digital payment
+    fees.'
+  editorial_note: ECB primary data on business payment preferences is directly relevant
+    to the commercial assumptions underpinning multiple European payment initiatives,
+    from Wero to the digital euro.
+  sources: '[Companies prefer cash over digital payments - ECB](https://www.finextra.com/newsarticle/48255/companies-prefer-cash-over-digital-payments---ecb?utm_medium=rssfinextra&utm_source=finextrafeed)
+    — Finextra'
+  style_check:
+    compliant: false
+    warnings:
+    - Standfirst opens with 'Fresh survey results' rather than the substantive point;
+      this violates the rule that standfirsts should begin with the interpretive point
+      or action, not a generic descriptor. Consider opening with 'The decline in cash
+      acceptance among businesses has stalled' or similar.
+    - Body opening repeats the headline's subject (ECB/businesses and cash/digital
+      payments) too closely. The headline names 'ECB' and 'cash over digital payments';
+      the body opens 'The European Central Bank has published new data showing that
+      the decline in cash acceptance...'. Vary the opening of at least one element
+      to avoid this repetition.
+    - In the body, 'EPI's Wero' uses an abbreviation (EPI) that does not recur in
+      the remainder of the piece. Per the rule, spell out the abbreviation in full
+      on first use only if it recurs later; since EPI appears only once, write 'European
+      Payments Initiative's Wero' or another full form without parentheses.
+    - The phrase 'the data complicates the business case for displacing cash' in the
+      final paragraph uses 'the data' without a clear antecedent in the immediately
+      preceding context; however, the main rule violation here is that 'the adoption
+      curve for pay-by-bank, wallets and even the digital euro may be slower than
+      projected' introduces uncertainty with 'may be', which softens the substantive
+      claim. Consider strengthening to 'the adoption curve...will likely be slower'
+      or similar to avoid hedging.
+  verification:
+    verified: true
+    stale: false
+    duplicate: false
+    warnings:
+    - Digital euro pilot is in development phase, not operational pilot phase yet;
+      operational pilot starts H2 2027
+  revision:
+    replaced: false
+    summary:
+    - Rewrote standfirst to lead with the substantive point ('The decline in cash
+      acceptance...has stalled') rather than the generic descriptor 'Fresh survey
+      results'.
+    - Varied the body opening to avoid repeating the headline's subject too closely;
+      the body now leads with 'Cash acceptance among euro area businesses' rather
+      than 'The European Central Bank has published new data showing'.
+    - Corrected digital euro project status from 'pilot phase with 36 selected providers'
+      to 'preparation phase ahead of an operational pilot expected in the second half
+      of 2027'.
+    - Spelled out 'European Payments Initiative' in full instead of the abbreviation
+      'EPI', which did not recur in the piece.
+    - Strengthened 'may be slower than projected' to 'is likely to be slower than
+      projected' to reduce hedging; also removed 'even' before 'the digital euro'
+      for cleaner phrasing.
+- headline: Ingenico secures €150m from PIMCO-led investors to reset capital structure
+  standfirst: Fresh capital provides financial headroom after a prolonged period of
+    ownership uncertainty and competitive pressure from software-based acceptance.
+  body: 'Ingenico has agreed a capital structure reset anchored by a €150 million
+    investment from a group of global investors led by PIMCO. The fresh capital is
+    intended to stabilise the company''s balance sheet after years of transition since
+    its take-private by Apollo-backed Poseidon in 2022.
+
+
+    The terminal industry is under pressure from multiple directions. Software-based
+    acceptance, including tap-to-pay on smartphones, is eroding demand for dedicated
+    hardware, while integrated payment platforms such as Adyen and Stripe offer merchants
+    end-to-end solutions that bypass traditional terminal economics. Ingenico''s European
+    competitors, including Worldline, which sold its terminals business to Apollo
+    Funds in 2022, have been restructuring around similar pressures.
+
+
+    The investment suggests Ingenico''s backers see enough remaining value in its
+    installed base and enterprise relationships to justify recapitalisation rather
+    than sale or wind-down. European merchants and acquirers depend on Ingenico as
+    a significant provider of in-store acceptance infrastructure across the region,
+    making its financial stability a material consideration for the physical payments
+    supply chain.'
+  editorial_note: A €150 million recapitalisation of one of Europe's largest terminal
+    providers is a concrete data point on the financial health and strategic direction
+    of physical payment acceptance infrastructure.
+  sources: '[Ingenico secures €150 million in fresh capital](https://www.finextra.com/pressarticle/110649/ingenico-secures-150-million-in-fresh-capital?utm_medium=rssfinextra&utm_source=finextrafeed)
+    — Finextra'
+  style_check:
+    compliant: false
+    warnings:
+    - Standfirst opens with 'The recapitalisation gives the payment terminal maker'
+      — this names the subject (payment terminal maker/Ingenico) which is also named
+      in the headline. Should begin with the substantive point (eg, 'Financial headroom
+      follows...') to avoid redundant repetition across headline and standfirst.
+    - Body paragraph three opens with 'For European merchants and acquirers, Ingenico's
+      financial stability matters because...' — this is a 'This matters because' construction
+      that announces significance explicitly before making the substantive point.
+      Should lead directly with the substantive claim instead (eg, 'European merchants
+      and acquirers depend on Ingenico as a significant provider...').
+  verification:
+    verified: false
+    stale: false
+    duplicate: false
+    warnings:
+    - Draft says take-private by 'Poseidon in 2020' - Apollo/Poseidon took Ingenico
+      private in October 2022, not 2020
+    - Draft says Worldline 'sold its terminal business to Dedalus in 2023' - Worldline
+      sold TSS/Ingenico to Apollo Funds (deal closed October 2022), no Dedalus involvement
+      found
+  revision:
+    replaced: false
+    summary:
+    - Corrected take-private date from 2020 to 2022 per Apollo/Poseidon acquisition
+      timeline.
+    - 'Corrected Worldline terminal sale: changed buyer from ''Dedalus'' to ''Apollo
+      Funds'' and date from 2023 to 2022, reflecting the actual transaction.'
+    - Revised standfirst to open with 'Fresh capital provides…' rather than naming
+      the payment terminal maker, avoiding redundant repetition of the headline's
+      subject.
+    - Rewrote final paragraph's second sentence to lead with the substantive claim
+      ('European merchants and acquirers depend on Ingenico…') rather than using a
+      'matters because' construction that announces significance before stating it.
+- headline: Thunes and Fiserv partner on cross-border merchant payouts
+  standfirst: The collaboration is connecting Thunes's cross-border payment network
+    to Fiserv's merchant ecosystem, targeting platforms and marketplaces that need
+    to settle with international sellers.
+  body: 'Thunes is partnering with Fiserv to handle international payouts for global
+    platforms and marketplaces within Fiserv''s merchant ecosystem. The arrangement
+    allows merchants and sellers connected through Fiserv to receive cross-border
+    disbursements via Thunes''s network, which covers more than 140 countries through
+    direct connections to mobile wallets, bank accounts and card networks.
+
+
+    Cross-border payouts for marketplace sellers remain a fragmented and operationally
+    complex segment. Most large acquirers and payment service providers handle the
+    inbound collection side but rely on third parties for outbound disbursements,
+    particularly in emerging markets where local payment methods dominate. Thunes
+    has built its business specifically on this outbound corridor, competing with
+    Payoneer, Hyperwallet (PayPal) and Airwallex.
+
+
+    European platforms operating global marketplaces stand to benefit directly, given
+    Fiserv processes a substantial volume of European merchant transactions. Reduced
+    settlement times and costs for cross-border seller payouts would shape how European
+    marketplace operators choose their payment stack.'
+  editorial_note: ''
+  sources: '[Thunes to support payouts for Fiserv''s merchant ecosystem](https://www.finextra.com/pressarticle/110653/thunes-to-support-payouts-for-fiservs-merchant-ecosystem?utm_medium=rssfinextra&utm_source=finextrafeed)
+    — Finextra'
+  style_check:
+    compliant: false
+    warnings:
+    - Standfirst opens by naming the organisations also named in the headline ('Thunes'
+      and 'Fiserv'), violating the rule to avoid redundant repetition of the subject.
+      Should begin with the substantive point instead — eg, 'The collaboration connects...'
+      rather than repeating the companies.
+    - 'Body text uses ''is partnering'' (present continuous) correctly, but the standfirst
+      uses ''connects'' (simple present) for a newly announced arrangement. Should
+      use present continuous: ''is connecting'' to signal currency.'
+    - Final paragraph weakens the opening with 'could influence' and hedging language
+      ('If the integration reduces...'), which delays the substantive point. This
+      approaches the violation of not opening with scene-setting hedges.
+    - Editorial note should not be included in the copy check output — it is metadata
+      and should be removed or not flagged as part of the story itself.
+  verification:
+    verified: false
+    stale: false
+    duplicate: false
+    warnings:
+    - Draft states Thunes covers 'more than 130 countries', but official sources state
+      network reaches 'over 140 countries'
+  revision:
+    replaced: false
+    summary:
+    - Corrected country coverage from 'more than 130 countries' to 'more than 140
+      countries' per official sources.
+    - Changed standfirst verb from 'connects' (simple present) to 'is connecting'
+      (present continuous) to reflect a newly announced arrangement.
+    - Removed redundant naming of Thunes and Fiserv from standfirst opening, now begins
+      with 'The collaboration'.
+    - Rewrote final paragraph to lead with the substantive point directly rather than
+      opening with hedging language ('If the integration reduces... could influence').
+    - Removed editorial note content as it is metadata and should not appear in the
+      story output.
