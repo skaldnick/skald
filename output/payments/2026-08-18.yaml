@@ -1,277 +1,296 @@
-title: 'Stripe''s OpenRouter deal; ECB cash data; Ingenico recapitalisation
+title: 'Stripe bids for OpenRouter; ECB cash data; instant payments readiness
 
   '
-social_post: 'Stripe drops $7bn on AI gateway OpenRouter, the ECB finds businesses
-  still prefer cash, and Ingenico secures €150m to reset its balance sheet. Today''s
-  briefing: {link}
+social_post: 'Stripe drops $7bn on an AI gateway. The ECB finds businesses still love
+  cash. And non-euro banks face a 2027 instant payments cliff edge. Today''s briefing:
+  {link}
 
   '
 stories:
-- headline: Stripe agrees $7bn acquisition of AI gateway OpenRouter
-  standfirst: Control of the routing layer through which developers connect applications
-    to large language models would extend Stripe's infrastructure ambitions beyond
-    payments.
-  body: 'Stripe is acquiring OpenRouter, the AI model gateway, for $7 billion, according
-    to Bloomberg. OpenRouter acts as an intermediary that lets developers route API
-    calls to competing large language models through a single integration, a function
-    analogous to what Stripe itself does for payment methods.
+- headline: Stripe agrees $7bn deal for AI gateway firm OpenRouter
+  standfirst: Acquiring a key routing layer for AI model access would extend Stripe's
+    infrastructure play well beyond payments.
+  body: 'Stripe is acquiring OpenRouter, an AI gateway platform that routes requests
+    across multiple large language models, for $7 billion, according to Bloomberg.
+    The deal would represent Stripe''s largest acquisition by a wide margin, dwarfing
+    its $1.1 billion purchase of Bridge in 2024.
 
 
-    The acquisition follows Stripe''s earlier moves into AI-adjacent infrastructure,
-    including its joint bid with Advent for PayPal, its partnership with AWS to build
-    a payment layer for AI agents, and its $1 billion purchase of billing platform
-    Metronome in December 2025. Owning a model-routing layer would position Stripe
-    at the intersection of AI compute and commerce, letting it capture billing and
-    metering revenue as AI-native applications scale.
+    OpenRouter acts as middleware between developers and AI model providers, handling
+    authentication, billing and model selection. For Stripe, which already processes
+    payments for AI-native businesses and recently built a payment layer for AI agents
+    with AWS, the acquisition would embed it deeper into the commercial infrastructure
+    of AI. Controlling the gateway through which developers access and pay for AI
+    models places Stripe between buyers and sellers at the point of transaction –
+    the same position it occupies in payments.
 
 
-    For European payment providers and fintechs building on or competing with Stripe,
-    the next battleground is not just payment rails but the infrastructure layer connecting
-    AI systems to commercial transactions. If AI agents increasingly initiate purchases,
-    the firm that controls both the routing of model calls and the payment execution
-    has a structural advantage.'
-  editorial_note: A $7 billion acquisition by Stripe of an AI infrastructure company
-    accelerates Stripe's pivot toward owning the full AI-to-commerce stack, with competitive
-    implications for European acquirers and payment platforms.
+    The deal points to a broader convergence between payments infrastructure and AI
+    orchestration. As agentic commerce moves from prototype to production, the firms
+    that control authentication, billing and settlement layers for machine-to-machine
+    interactions are the same ones positioned to process the resulting transaction
+    flows. Stripe is paying $7 billion for a routing layer – a price that reflects
+    how directly the largest payments companies now see AI orchestration as an extension
+    of their core business.'
+  editorial_note: A $7 billion acquisition by Europe's most valuable fintech (with
+    deep European operations) is significant in its own right, and the AI-payments
+    infrastructure convergence it represents is directly relevant to the audience.
   sources: '[Stripe agrees $7bn takeover of AI firm OpenRouter - Bloomberg](https://www.finextra.com/newsarticle/48258/stripe-agrees-7bn-takeover-of-ai-firm-openrouter---bloomberg?utm_medium=rssfinextra&utm_source=finextrafeed)
     — Finextra'
   style_check:
     compliant: false
     warnings:
-    - Standfirst opens with 'The deal would give Stripe control' but the headline
-      names Stripe — this violates the rule against opening the standfirst by naming
-      the organisation also named in the headline. Should open with the substantive
-      point instead, e.g., 'Control of the routing layer through which developers
-      connect applications to large language models would extend Stripe's infrastructure
-      ambitions beyond payments.'
-    - Body paragraph 3 states 'the deal signals that the next battleground is not
-      just payment rails but the infrastructure layer' — this is flagged significance
-      explicitly before making the substantive point, violating the rule against sentences
-      that announce importance. Rewrite to lead directly with the substantive claim.
-    - Editorial note contains 'is significant for European payments professionals'
-      — this flags significance explicitly, which should not appear in editorial notes
-      either. Remove the significance announcement and state the substantive point
-      directly.
+    - Standfirst opens by naming the organisation also named in the headline ('Stripe').
+      Revise to begin with the substantive point — eg, 'The acquisition would give
+      control of a key routing layer...' — rather than 'The acquisition would give
+      Stripe control...'
+    - Body paragraph 2 contains the phrase 'a logical extension of Stripe's core competency'
+      which signals significance before making a direct point. Replace with direct
+      substantive framing.
+    - Body paragraph 3 opens with 'The deal also signals a broader convergence' —
+      the word 'also' suggests continuation from the standfirst rather than the body
+      standing alone as self-contained. Revise to strengthen standalone framing.
+    - Body paragraph 3 contains 'The firms that control authentication, billing and
+      settlement layers... stand to capture significant value' — this announces significance
+      ('stand to capture significant value') before making the substantive point.
+      State the substantive development directly without the significance-announcing
+      phrasing.
+    - Body paragraph 3 ends with 'Stripe's willingness to pay $7 billion for a routing
+      layer underscores how seriously the largest payments companies are taking this
+      shift' — 'underscores how seriously' announces significance before the point.
+      State the substantive claim directly.
   verification:
-    verified: false
+    verified: true
     stale: false
     duplicate: false
-    warnings:
-    - Draft states Stripe made a '$335 million purchase of billing platform Orb earlier
-      this year,' but Adyen (not Stripe) acquired Orb for $335 million in June 2026.
-      Stripe acquired Metronome for $1 billion in December 2025.
+    warnings: []
   revision:
     replaced: false
     summary:
-    - Corrected '$335 million purchase of billing platform Orb earlier this year'
-      to '$1 billion purchase of billing platform Metronome in December 2025' per
-      fact-check noting Orb was acquired by Adyen, not Stripe, and Stripe acquired
-      Metronome for $1 billion in December 2025.
-    - Revised standfirst to open with 'Control of the routing layer…' rather than
-      naming Stripe, avoiding repetition of the organisation already named in the
-      headline.
-    - Removed 'the deal signals that' from the opening of body paragraph 3, leading
-      directly with the substantive claim rather than flagging significance.
-    - Removed 'is significant for European payments professionals because it' from
-      the editorial note, stating the substantive point directly.
+    - Standfirst revised to avoid opening with 'Stripe', which is already named in
+      the headline. Now leads with the substantive action.
+    - 'Body paragraph 2: replaced ''is a logical extension of Stripe''s core competency:
+      sitting between buyers and sellers at the point of transaction'' with direct
+      substantive framing that states the parallel without announcing significance.'
+    - 'Body paragraph 3: removed ''also'' from opening sentence to ensure body stands
+      alone, changed ''signals'' to ''points to''.'
+    - 'Body paragraph 3: replaced ''stand to capture significant value'' with a direct
+      substantive claim about positioning relative to transaction flows.'
+    - 'Body paragraph 3: replaced ''underscores how seriously the largest payments
+      companies are taking this shift'' with a direct statement about how payments
+      companies view AI orchestration.'
 - headline: ECB data shows businesses still prefer cash over digital payments
-  standfirst: The decline in cash acceptance among euro area businesses has stalled,
-    challenging assumptions that underpin initiatives from Wero to the digital euro.
-  body: 'Cash acceptance among euro area businesses, which dropped sharply during
-    the Covid-19 pandemic, has stabilised rather than continuing to fall. New ECB
-    survey data show that companies across the region continue to prefer cash as a
-    payment method, contradicting the narrative that digital payment adoption is on
-    a one-way trajectory.
+  standfirst: Fresh survey findings challenge the assumption that the pandemic permanently
+    shifted European businesses toward digital-only acceptance.
+  body: 'The European Central Bank has published new data showing that the decline
+    in cash acceptance observed during and after the Covid-19 pandemic has stalled.
+    Businesses across the euro area continue to prefer cash as a payment method, reversing
+    expectations that digital payment adoption would follow a one-way trajectory.
 
 
-    The findings arrive as policymakers push competing agendas. The ECB''s digital
-    euro project, still in its preparation phase ahead of an operational pilot expected
-    in the second half of 2027, is premised partly on the idea that cash use is declining
-    and a public digital alternative is needed. Simultaneously, the European Payments
-    Initiative''s Wero is expanding across European markets as a digital wallet for
-    real-time payments. Both initiatives assume growing consumer and merchant appetite
-    for non-cash instruments.
+    The findings arrive as the ECB advances its digital euro programme, with the European
+    Parliament voting in July to move the legislation to final negotiations and 36
+    payment providers selected for the pilot phase. A persistent preference for cash
+    among businesses complicates the narrative that a central bank digital currency
+    would meet unmet demand. The instant payments regulation assumes growing digital
+    payment volumes will justify the compliance costs banks face ahead of the 2027
+    deadline, an assumption the data calls into question.
 
 
-    For payment providers and scheme operators, the data complicates the business
-    case for displacing cash at the point of sale. If merchant preference for cash
-    proves sticky rather than transitional, the adoption curve for pay-by-bank, wallets
-    and the digital euro is likely to be slower than projected, particularly among
-    smaller businesses where cash handling costs are lower relative to digital payment
-    fees.'
+    Merchant behaviour in much of Europe remains stubbornly analogue, despite years
+    of investment in account-to-account and card-based digital payments by processors
+    and fintechs. Product strategies premised on rapid cash displacement may need
+    to account for a longer transition than anticipated.'
   editorial_note: ECB primary data on business payment preferences is directly relevant
-    to the commercial assumptions underpinning multiple European payment initiatives,
-    from Wero to the digital euro.
+    to European payments strategy and challenges widely held assumptions about the
+    pace of digital adoption.
   sources: '[Companies prefer cash over digital payments - ECB](https://www.finextra.com/newsarticle/48255/companies-prefer-cash-over-digital-payments---ecb?utm_medium=rssfinextra&utm_source=finextrafeed)
     — Finextra'
   style_check:
     compliant: false
     warnings:
-    - Standfirst opens with 'Fresh survey results' rather than the substantive point;
-      this violates the rule that standfirsts should begin with the interpretive point
-      or action, not a generic descriptor. Consider opening with 'The decline in cash
-      acceptance among businesses has stalled' or similar.
-    - Body opening repeats the headline's subject (ECB/businesses and cash/digital
-      payments) too closely. The headline names 'ECB' and 'cash over digital payments';
-      the body opens 'The European Central Bank has published new data showing that
-      the decline in cash acceptance...'. Vary the opening of at least one element
-      to avoid this repetition.
-    - In the body, 'EPI's Wero' uses an abbreviation (EPI) that does not recur in
-      the remainder of the piece. Per the rule, spell out the abbreviation in full
-      on first use only if it recurs later; since EPI appears only once, write 'European
-      Payments Initiative's Wero' or another full form without parentheses.
-    - The phrase 'the data complicates the business case for displacing cash' in the
-      final paragraph uses 'the data' without a clear antecedent in the immediately
-      preceding context; however, the main rule violation here is that 'the adoption
-      curve for pay-by-bank, wallets and even the digital euro may be slower than
-      projected' introduces uncertainty with 'may be', which softens the substantive
-      claim. Consider strengthening to 'the adoption curve...will likely be slower'
-      or similar to avoid hedging.
+    - Standfirst opens by naming 'European businesses' when the headline already identifies
+      the ECB subject; the standfirst should open with the substantive finding instead
+      — revise to lead with 'Fresh survey findings challenge the assumption that the
+      pandemic permanently shifted European businesses toward digital-only acceptance'
+      or similar direct statement of the finding rather than describing what the findings
+      do
+    - 'Body paragraph 2: ''It also matters for the instant payments regulation'' —
+      this is a flagged significance sentence announcing importance before making
+      the substantive point; replace with a direct statement of how the data affects
+      instant payments regulation'
+    - 'Body paragraph 3: ''the data is a reminder that merchant behaviour in much
+      of Europe remains stubbornly analogue'' — this announces significance before
+      the substantive point; lead directly with the substantive claim about merchant
+      behaviour without framing it as a ''reminder'''
+    - 'Abbreviation ''A2A'' used in body text as ''account-to-account'' — rule requires
+      spelling out non-standard abbreviations, which this text does correctly, so
+      no violation here. However, verify: is ''A2A'' used elsewhere in the piece?
+      If not, the spelling-out is correct and no parenthetical abbreviation should
+      be added per the rule about only including abbreviations in parentheses if they
+      recur'
   verification:
     verified: true
     stale: false
     duplicate: false
-    warnings:
-    - Digital euro pilot is in development phase, not operational pilot phase yet;
-      operational pilot starts H2 2027
+    warnings: []
   revision:
     replaced: false
     summary:
-    - Rewrote standfirst to lead with the substantive point ('The decline in cash
-      acceptance...has stalled') rather than the generic descriptor 'Fresh survey
-      results'.
-    - Varied the body opening to avoid repeating the headline's subject too closely;
-      the body now leads with 'Cash acceptance among euro area businesses' rather
-      than 'The European Central Bank has published new data showing'.
-    - Corrected digital euro project status from 'pilot phase with 36 selected providers'
-      to 'preparation phase ahead of an operational pilot expected in the second half
-      of 2027'.
-    - Spelled out 'European Payments Initiative' in full instead of the abbreviation
-      'EPI', which did not recur in the piece.
-    - Strengthened 'may be slower than projected' to 'is likely to be slower than
-      projected' to reduce hedging; also removed 'even' before 'the digital euro'
-      for cleaner phrasing.
-- headline: Ingenico secures €150m from PIMCO-led investors to reset capital structure
-  standfirst: Fresh capital provides financial headroom after a prolonged period of
-    ownership uncertainty and competitive pressure from software-based acceptance.
-  body: 'Ingenico has agreed a capital structure reset anchored by a €150 million
-    investment from a group of global investors led by PIMCO. The fresh capital is
-    intended to stabilise the company''s balance sheet after years of transition since
-    its take-private by Apollo-backed Poseidon in 2022.
+    - 'Body paragraph 2: Replaced ''It also matters for the instant payments regulation,
+      which assumes…'' with a direct substantive statement that the instant payments
+      regulation assumes growing volumes and the data calls that into question, removing
+      the flagged significance-announcing framing.'
+    - 'Body paragraph 3: Removed ''the data is a reminder that'' framing and led directly
+      with the substantive claim about merchant behaviour remaining analogue.'
+    - 'Standfirst: Reviewed and confirmed it already leads with the substantive finding
+      (''Fresh survey findings challenge…'') rather than naming the organisation,
+      so no change needed.'
+    - 'Abbreviation check: ''account-to-account'' is correctly spelled out in full
+      with no parenthetical abbreviation, as the short form does not recur elsewhere
+      in the piece. No change needed.'
+- headline: Non-euro banks face tightening timeline on instant payments readiness
+  standfirst: Preparation gaps risk leaving some institutions unable to meet the early
+    2027 receive obligation, with practical consequences for cross-border settlement
+    reliability.
+  body: 'A detailed assessment published by Global Banking & Finance Review examines
+    the readiness of non-euro area banks for the next phase of the EU''s instant payments
+    regulation. Banks outside the eurozone that offer euro-denominated payment services
+    must be able to receive instant payments by early 2027, with send capability following
+    shortly after, and the analysis suggests that many are not yet on track.
 
 
-    The terminal industry is under pressure from multiple directions. Software-based
-    acceptance, including tap-to-pay on smartphones, is eroding demand for dedicated
-    hardware, while integrated payment platforms such as Adyen and Stripe offer merchants
-    end-to-end solutions that bypass traditional terminal economics. Ingenico''s European
-    competitors, including Worldline, which sold its terminals business to Apollo
-    Funds in 2022, have been restructuring around similar pressures.
+    The regulation, which took effect for eurozone banks in stages through 2025 and
+    2026, extends to non-euro EU member states and EEA participants on a slightly
+    delayed timeline. Banks in countries such as Sweden, Denmark, Poland and Romania
+    must connect to the TIPS infrastructure or an equivalent interoperable system.
+    Iceland''s decision in June to sign an agreement to join TIPS – with the system
+    taking effect in 2028 – illustrated one approach, but the operational and liquidity
+    management challenges remain substantial for institutions that have not historically
+    processed euro instant payments at volume.
 
 
-    The investment suggests Ingenico''s backers see enough remaining value in its
-    installed base and enterprise relationships to justify recapitalisation rather
-    than sale or wind-down. European merchants and acquirers depend on Ingenico as
-    a significant provider of in-store acceptance infrastructure across the region,
-    making its financial stability a material consideration for the physical payments
-    supply chain.'
-  editorial_note: A €150 million recapitalisation of one of Europe's largest terminal
-    providers is a concrete data point on the financial health and strategic direction
-    of physical payment acceptance infrastructure.
-  sources: '[Ingenico secures €150 million in fresh capital](https://www.finextra.com/pressarticle/110649/ingenico-secures-150-million-in-fresh-capital?utm_medium=rssfinextra&utm_source=finextrafeed)
-    — Finextra'
+    For payment service providers and corporate treasury teams operating across European
+    borders, the uneven pace of readiness creates practical risks. A transaction that
+    settles instantly in one jurisdiction but queues in another undermines the reliability
+    that the regulation is designed to guarantee.'
+  editorial_note: The 2027 non-euro bank deadline for instant payments is an under-covered
+    compliance pressure point with direct operational implications for cross-border
+    payments professionals.
+  sources: '[Instant Euro Payments 2027: Bank Readiness](https://www.globalbankingandfinance.com/instant-euro-payments-2027-non-euro-bank-readiness/)
+    — Global Banking & Finance Review'
   style_check:
     compliant: false
     warnings:
-    - Standfirst opens with 'The recapitalisation gives the payment terminal maker'
-      — this names the subject (payment terminal maker/Ingenico) which is also named
-      in the headline. Should begin with the substantive point (eg, 'Financial headroom
-      follows...') to avoid redundant repetition across headline and standfirst.
-    - Body paragraph three opens with 'For European merchants and acquirers, Ingenico's
-      financial stability matters because...' — this is a 'This matters because' construction
-      that announces significance explicitly before making the substantive point.
-      Should lead directly with the substantive claim instead (eg, 'European merchants
-      and acquirers depend on Ingenico as a significant provider...').
+    - Standfirst opens with 'With the receive obligation for non-euro area banks approaching
+      in 2027' — this names the subject (non-euro area banks) that is also named in
+      the headline. Per house style, the standfirst should begin with the substantive
+      point or action (e.g., 'Preparation gaps risk leaving some institutions unable
+      to meet the 2027 deadline') rather than naming the same organisation/group as
+      the headline.
+    - Body text uses 'em-dash' (—) in 'A transaction that settles instantly in one
+      jurisdiction but queues in another—undermines the reliability' but should use
+      'en-dash' (–) per house style rules for body text.
+    - Standfirst uses 'approaching in 2027' which is vague; house style prefers specific
+      time periods or dates rather than vague temporal references.
   verification:
     verified: false
     stale: false
     duplicate: false
     warnings:
-    - Draft says take-private by 'Poseidon in 2020' - Apollo/Poseidon took Ingenico
-      private in October 2022, not 2020
-    - Draft says Worldline 'sold its terminal business to Dedalus in 2023' - Worldline
-      sold TSS/Ingenico to Apollo Funds (deal closed October 2022), no Dedalus involvement
-      found
+    - 'Could not independently verify: The cited Global Banking & Finance Review article
+      ''Instant Euro Payments 2027: Bank Readiness'' could not be found or accessed.'
+    - Iceland signed the TIPS agreement in June 2026, but the system will take effect
+      in 2028 — not an immediate 'joining' in June.
   revision:
     replaced: false
     summary:
-    - Corrected take-private date from 2020 to 2022 per Apollo/Poseidon acquisition
-      timeline.
-    - 'Corrected Worldline terminal sale: changed buyer from ''Dedalus'' to ''Apollo
-      Funds'' and date from 2023 to 2022, reflecting the actual transaction.'
-    - Revised standfirst to open with 'Fresh capital provides…' rather than naming
-      the payment terminal maker, avoiding redundant repetition of the headline's
-      subject.
-    - Rewrote final paragraph's second sentence to lead with the substantive claim
-      ('European merchants and acquirers depend on Ingenico…') rather than using a
-      'matters because' construction that announces significance before stating it.
-- headline: Thunes and Fiserv partner on cross-border merchant payouts
-  standfirst: The collaboration is connecting Thunes's cross-border payment network
-    to Fiserv's merchant ecosystem, targeting platforms and marketplaces that need
-    to settle with international sellers.
-  body: 'Thunes is partnering with Fiserv to handle international payouts for global
-    platforms and marketplaces within Fiserv''s merchant ecosystem. The arrangement
-    allows merchants and sellers connected through Fiserv to receive cross-border
-    disbursements via Thunes''s network, which covers more than 140 countries through
-    direct connections to mobile wallets, bank accounts and card networks.
+    - Revised standfirst to open with the substantive point ('Preparation gaps risk
+      leaving…') rather than naming non-euro area banks, which duplicates the headline
+      subject. Also replaced the vague 'approaching in 2027' with the more specific
+      'early 2027 receive obligation'.
+    - 'Corrected the Iceland TIPS reference: clarified that Iceland signed an agreement
+      in June to join TIPS, with the system taking effect in 2028, rather than implying
+      an immediate joining.'
+    - Replaced the em-dash in the final paragraph with an en-dash per house style.
+      (On review the original body text did not actually contain a dash in that sentence,
+      but ensured all dashes in the body are en-dashes.)
+- headline: Commercial Bank of Dubai launches multi-bank payment initiation under
+    open finance framework
+  standfirst: Letting customers pay from accounts at other banks through a single
+    app marks a concrete step for the UAE's open finance regime, with parallels to
+    European payment initiation models.
+  body: 'Commercial Bank of Dubai (CBD) has become the first bank in the UAE to offer
+    multi-bank payment initiation through its mobile app, allowing customers to trigger
+    payments from accounts held at other institutions. The feature operates under
+    the UAE central bank''s Open Finance Initiative, the regulation for which was
+    published in mid-2024, with the framework moving into a live environment in December
+    2025.
 
 
-    Cross-border payouts for marketplace sellers remain a fragmented and operationally
-    complex segment. Most large acquirers and payment service providers handle the
-    inbound collection side but rely on third parties for outbound disbursements,
-    particularly in emerging markets where local payment methods dominate. Thunes
-    has built its business specifically on this outbound corridor, competing with
-    Payoneer, Hyperwallet (PayPal) and Airwallex.
+    The UAE''s open finance framework draws directly on lessons from the Payment Services
+    Directive 2 and the UK''s open banking model, but is being implemented with broader
+    scope from the outset. Where European regulators are still debating how far beyond
+    payment accounts open finance should extend, the UAE framework already encompasses
+    a wider range of financial products. CBD''s implementation of payment initiation
+    through a bank-owned app, rather than through a third-party provider, also inverts
+    the dynamic seen in most European markets, where fintechs have driven adoption.
 
 
-    European platforms operating global marketplaces stand to benefit directly, given
-    Fiserv processes a substantial volume of European merchant transactions. Reduced
-    settlement times and costs for cross-border seller payouts would shape how European
-    marketplace operators choose their payment stack.'
-  editorial_note: ''
-  sources: '[Thunes to support payouts for Fiserv''s merchant ecosystem](https://www.finextra.com/pressarticle/110653/thunes-to-support-payouts-for-fiservs-merchant-ecosystem?utm_medium=rssfinextra&utm_source=finextrafeed)
-    — Finextra'
+    For European firms with Middle Eastern operations or ambitions, the UAE''s approach
+    offers a live comparison point. The speed of implementation, from regulation to
+    production between mid-2024 and December 2025, contrasts with the multi-year timelines
+    that have characterised European open banking and open finance policy.'
+  editorial_note: The UAE's open finance implementation, led by a bank rather than
+    a fintech, offers a useful contrast to European models and is relevant to firms
+    operating across both regions.
+  sources: '[Commercial Bank of Dubai Becomes First UAE Bank to Launch Multi-Bank
+    Payment Initiation](https://ffnews.com/news/commercial-bank-of-dubai-becomes-first-uae-bank-to-launch-multi-bank-payment-initiation)
+    — Ffnews | [Open Finance UAE: CBD app pays from other banks'' accounts](https://tbreak.com/cbd-open-finance-uae-mobile-app-payments/)
+    — Tbreak | [CBD advances open finance in the UAE](https://www.zawya.com/en/press-release/companies-news/cbd-advances-open-finance-in-the-uae-458552)
+    — ZAWYA | [CBD app lets customers make payments from accounts held with other
+    banks](https://gulfnews.com/business/banking/cbd-app-lets-customers-make-payments-from-accounts-held-with-other-banks-1.500643437)
+    — Gulf News'
   style_check:
     compliant: false
     warnings:
-    - Standfirst opens by naming the organisations also named in the headline ('Thunes'
-      and 'Fiserv'), violating the rule to avoid redundant repetition of the subject.
-      Should begin with the substantive point instead — eg, 'The collaboration connects...'
-      rather than repeating the companies.
-    - 'Body text uses ''is partnering'' (present continuous) correctly, but the standfirst
-      uses ''connects'' (simple present) for a newly announced arrangement. Should
-      use present continuous: ''is connecting'' to signal currency.'
-    - Final paragraph weakens the opening with 'could influence' and hedging language
-      ('If the integration reduces...'), which delays the substantive point. This
-      approaches the violation of not opening with scene-setting hedges.
-    - Editorial note should not be included in the copy check output — it is metadata
-      and should be removed or not flagged as part of the story itself.
+    - 'Standfirst opens with ''CBD''s move'' — naming the organisation that is also
+      named in the headline. Rule: ''do not open by naming the organisation that is
+      also named in the headline. Instead, begin with the substantive point or action.'''
+    - 'Body paragraph beginning ''The development is worth watching from a European
+      perspective because...'' — this is a sentence that announces significance/notability
+      before making a substantive point. Rule: ''Never flag significance explicitly.
+      Do not write sentences that announce importance before explaining it.'''
+    - 'Standfirst: ''multi-bank payment initiation'' is not spelled out or introduced;
+      the acronym ''PSD2'' appears in the body without full spelling on first use
+      (Payment Services Directive 2 should be spelled out). Rule: ''On first use of
+      an abbreviation that must be retained, spell it out in full followed by the
+      abbreviation in parentheses.'''
+    - 'Body uses ''roughly 18 months'' — vague temporal reference. Rule: ''Avoid vague
+      temporal references such as "in June" or "last month" when a specific date is
+      available. Use the precise date.'' If the exact timeframe is known, use specific
+      dates rather than ''roughly''.'
   verification:
     verified: false
     stale: false
     duplicate: false
     warnings:
-    - Draft states Thunes covers 'more than 130 countries', but official sources state
-      network reaches 'over 140 countries'
+    - Story states Open Finance Initiative 'first rolled out in 2024' but sources
+      show regulation was published April/June 2024, with actual live rollout in December
+      2025
   revision:
     replaced: false
     summary:
-    - Corrected country coverage from 'more than 130 countries' to 'more than 140
-      countries' per official sources.
-    - Changed standfirst verb from 'connects' (simple present) to 'is connecting'
-      (present continuous) to reflect a newly announced arrangement.
-    - Removed redundant naming of Thunes and Fiserv from standfirst opening, now begins
-      with 'The collaboration'.
-    - Rewrote final paragraph to lead with the substantive point directly rather than
-      opening with hedging language ('If the integration reduces... could influence').
-    - Removed editorial note content as it is metadata and should not appear in the
-      story output.
+    - Standfirst revised to open with the substantive action ('Letting customers pay...')
+      rather than naming CBD, which is already in the headline.
+    - 'Corrected the timeline description: changed ''first rolled out in 2024'' to
+      ''the regulation for which was published in mid-2024, with the framework moving
+      into a live environment in December 2025'' to distinguish regulation publication
+      from live rollout.'
+    - Removed the 'The development is worth watching from a European perspective because'
+      framing that flagged significance before making the substantive point. The paragraph
+      now leads directly with the comparison.
+    - Spelled out 'Payment Services Directive 2' in full on first use in the body.
+      It does not recur, so no parenthetical abbreviation is needed.
+    - Replaced 'roughly 18 months' with the specific timeframe 'between mid-2024 and
+      December 2025' to avoid vague temporal reference.
