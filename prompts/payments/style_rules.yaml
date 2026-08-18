@@ -214,9 +214,25 @@
     in the body rather than paraphrased vaguely as "a letter from an open banking
     payments company".
 - id: 40
-  date: '2026-08-03'
-  rule: The standfirst should lead with a specific, concrete finding or action — naming
-    who did what and what the result was — rather than opening with a general thematic
-    claim about what the story "advances" or "frames". For example, prefer "A proof-of-concept
-    by X and Y has demonstrated Z" over "Regulated stablecoins and tokenised deposits
-    can settle atomically, advancing the case for…".
+  date: '2026-08-18'
+  rule: The standfirst must name the specific stakes or consequences of the story
+    — naming the initiatives, programmes or competitive dynamics affected — rather
+    than making a generic thematic claim. For example, prefer "The decline in cash
+    acceptance among euro area businesses has stalled, challenging assumptions that
+    underpin initiatives from Wero to the digital euro" over "Fresh survey findings
+    challenge the assumption that the pandemic permanently shifted European businesses
+    toward digital-only acceptance."
+- id: 41
+  date: '2026-08-18'
+  rule: When the standfirst opens without naming the organisation from the headline
+    (per rule [1]), it may still use a short descriptive clause that identifies the
+    action and its consequences directly. The standfirst should not be a vague scene-setter;
+    it must anchor the reader in the specific development and name the affected parties
+    or programmes where they add precision.
+- id: 42
+  date: '2026-08-18'
+  rule: Do not lead a story on a non-European market development primarily as a comparative
+    lesson for European readers. If the development is relevant to a European audience,
+    cover it on its own merits first. Framing the entire story as "what Europe can
+    learn from X" reduces the story to an editorial opinion piece rather than a news
+    item.
