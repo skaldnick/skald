@@ -2,4 +2,8 @@
 # Populated automatically by tools/extract_learning.py (via GitHub Actions on push
 # to data/feedback/). Review and promote/edit in the dashboard's 'Proposed style
 # rules' section — accepted rules move to prompts/payments/style_rules.yaml.
-[]
+- date: '2026-08-19'
+  rule: Do not include stories that contain no new development, announcement, or meaningful
+    change in status. A story must have a clear news hook — an event, decision, publication,
+    or shift — not merely a topic of general interest. Reject items where the editor
+    note or review concludes "No news".
