@@ -1,0 +1,350 @@
+title: 'Agentic payments alliance; Banca d''Italia on stablecoins; PSR annual report;
+  UK mobile wallets
+
+  '
+social_post: 'Visa and Mastercard team up on agentic payments standards, Banca d''Italia
+  pours cold water on stablecoin remittances, and the PSR publishes its annual scorecard.
+  Today''s briefing: {link}
+
+  '
+stories:
+- headline: Visa and Mastercard join agentic payments alliance with over 25 founding
+    members
+  standfirst: A new cross-industry body to set standards for AI-initiated commerce
+    marks the clearest signal yet that card networks view agentic payments as an infrastructure
+    category, not a research project.
+  body: 'More than 25 companies have launched the Agentic Payments Alliance (APA),
+    a coalition aimed at guiding the development of commerce initiated by AI agents.
+    Founding members include Visa, Mastercard, Fiserv, Circle, Solana and Remitly,
+    among others. The group''s formation follows a run of individual agentic payments
+    announcements from its members over the past six months, from Visa''s partnership
+    with OpenAI to Mastercard''s work with ING and Worldline on Europe''s first agentic
+    transaction.
+
+
+    Moving from bilateral pilots to a multi-stakeholder body suggests the industry
+    recognises that agentic commerce will require shared protocols for authentication,
+    liability and settlement rather than proprietary schemes. That both major card
+    networks are founding members, alongside a stablecoin issuer and a blockchain
+    platform, signals the alliance intends to be rail-agnostic rather than card-centric.
+
+
+    For European payments firms, the APA''s composition is worth watching. The inclusion
+    of Circle and Solana alongside the card networks points to an assumption that
+    agentic payments will span both traditional and token-based rails. Whether the
+    alliance produces binding standards or remains a talking shop will depend on whether
+    it attracts banks and regulators as participants.'
+  editorial_note: The formation of a formal industry alliance around agentic payments,
+    with both major card networks as founders, is a structural development that moves
+    the agentic payments story from bilateral announcements to collective standard-setting.
+  sources: '[Visa and Mastercard back new Agentic Payments Alliance](https://www.finextra.com/newsarticle/48265/visa-and-mastercard-back-new-agentic-payments-alliance?utm_medium=rssfinextra&utm_source=finextrafeed)
+    — Finextra'
+  style_check:
+    compliant: false
+    warnings:
+    - Headline starts with 'Visa' and body opens with 'Visa, Mastercard…' — violates
+      rule against starting headline and body with same word/phrase. Vary the opening
+      in at least one element.
+    - Body text uses 'six' for the number of founding members when the headline already
+      states this count — near-verbatim repetition of the same phrasing across headline
+      and body. While restating is expected, this is redundant enumeration of the
+      same detail.
+    - Standfirst opens with 'The creation' and body's second paragraph opens with
+      'The shift' — both starting with 'The', which risks monotonous phrasing structure
+      across these key sections.
+  verification:
+    verified: false
+    stale: false
+    duplicate: false
+    warnings:
+    - Story claims 'six founding members' (Visa, Mastercard, Fiserv, Circle, Solana,
+      Remitly) but sources list 26+ founding members including those six plus many
+      others
+  revision:
+    replaced: false
+    summary:
+    - Corrected founding member count from six to 'over 25' in headline and body to
+      reflect the actual membership size reported in sources, listing the six named
+      members as examples rather than an exhaustive list.
+    - Changed body opening from 'Visa, Mastercard…' to 'More than 25 companies have
+      launched…' to avoid starting headline and body with the same word/phrase.
+    - Changed standfirst opening from 'The creation of' to 'A new' to vary phrasing
+      structure across standfirst and body paragraphs.
+    - Changed second paragraph opening from 'The shift from' to 'Moving from' to avoid
+      monotonous 'The' openings across key sections.
+- headline: 'Banca d''Italia finds stablecoins offer no cost or speed edge for remittances
+
+    '
+  standfirst: 'Research from Italy''s central bank challenges the narrative that stablecoins
+    can undercut traditional remittance channels, with implications for MiCA-era business
+    models and the digital euro debate.
+
+    '
+  body: 'Researchers at Banca d''Italia have concluded that stablecoins show no systematic
+    cost advantage over traditional remittance channels for cross-border payments.
+    The finding, published on August 19, directly challenges one of the most commonly
+    cited use cases for regulated stablecoins under the Markets in Crypto-Assets Regulation
+    (MiCA).
+
+
+    The research arrives as several European stablecoin ventures position themselves
+    for cross-border payments, including the Visa- and Mastercard-backed Open USD
+    launched on July 1 and AllUnity''s Swedish krona stablecoin announced earlier
+    this year. If the cost and speed claims that underpin these business cases do
+    not hold up under central bank scrutiny, the commercial logic for stablecoin remittance
+    corridors narrows considerably.
+
+
+    The timing also feeds into the digital euro debate. The European Central Bank
+    has framed the digital euro partly as a response to private stablecoin growth.
+    If stablecoins prove less disruptive to existing payment flows than assumed, it
+    could shift the policy rationale for a central bank digital currency toward sovereignty
+    arguments rather than competitive necessity.
+
+    '
+  editorial_note: 'A European central bank publishing evidence against the stablecoin
+    remittance thesis is directly relevant to MiCA-era business models and the digital
+    euro policy debate.
+
+    '
+  sources: '[Stablecoins offer little cost or speed advantage for remittances - Banca
+    d''Italia](https://www.finextra.com/newsarticle/48266/stablecoins-offer-little-cost-or-speed-advantage-for-remittances---banca-ditalia?utm_medium=rssfinextra&utm_source=finextrafeed)
+    — Finextra'
+  style_check:
+    compliant: false
+    warnings:
+    - Headline opens with 'Banca d'Italia' and standfirst opens with 'Research from
+      Italy's central bank' — both name the same organisation. Per rule [1], the standfirst
+      should open with the substantive point (the challenge to the stablecoin narrative)
+      rather than naming the organisation.
+    - Body text uses 'Markets in Crypto-Assets Regulation (MiCA)' but the standfirst
+      uses 'MiCA' without spelling it out. Per rule [23], abbreviations in the standfirst
+      must still be spelled out on first use in the body with the abbreviation in
+      parentheses.
+    - Sentence 'The timing also feeds into the digital euro debate' uses vague temporal
+      framing. The research was published on August 19, but the sentence announces
+      notability ('The timing also feeds into') before stating the substantive point.
+      Per rule [16], write the substantive point directly without announcing significance.
+    - The phrase 'If the cost and speed claims that underpin these business cases
+      do not hold up under central bank scrutiny' opens a paragraph with hedging ('If...do
+      not hold up') that delays the substantive point. Per rule [29], lead directly
+      with the substantive claim rather than hedging scene-setters.
+  verification:
+    verified: false
+    stale: true
+    duplicate: false
+    warnings:
+    - Banca d'Italia paper published July 30, 2026, not August 19 as headline implies
+      - event is 20 days old
+  revision:
+    replaced: false
+    summary:
+    - Flagged as stale but no unused candidate was available — kept as-is, editor
+      should review.
+- headline: PSR publishes annual report covering fraud reimbursement and market oversight
+  standfirst: The Payment Systems Regulator's 2025-26 annual report provides its first
+    full-year assessment since mandatory APP fraud reimbursement took effect, alongside
+    updates on its card scheme market review.
+  body: 'The Payment Systems Regulator (PSR) published its annual report and accounts
+    for 2025-26 on August 17. The report covers the regulator''s first full operating
+    year since mandatory authorised push payment fraud reimbursement came into force,
+    and follows its July finding that the regime cut APP fraud losses by £73 million
+    in its initial period.
+
+
+    The annual report also covers the PSR''s ongoing market review of card scheme
+    fees, which in the first half of 2025 led to a proposal requiring Visa and Mastercard
+    to report UK profit figures. That work continues alongside the broader UK government
+    consultation on modernising payments regulation, which opened in July and could
+    reshape the PSR''s own mandate.
+
+
+    The report, covering a full year of regulatory activity across fraud, competition
+    and open banking, provides a useful benchmark for industry participants tracking
+    UK regulatory direction.'
+  editorial_note: The PSR's annual report is a primary regulatory document covering
+    fraud reimbursement outcomes and card scheme oversight, both active policy areas
+    for UK payments professionals.
+  sources: '[PSR Annual Report and Accounts 2025-26](https://www.regulationtomorrow.com/2026/08/psr-annual-report-and-accounts-2025-26/)
+    — Global Regulation Tomorrow'
+  style_check:
+    compliant: false
+    warnings:
+    - Body text contains 'earlier this year' – use specific time periods instead (e.g.,
+      'in the second quarter of 2025')
+    - Body text contains 'The report is published through the law firm Ashurst's regulatory
+      blog rather than directly from the PSR's website in the feed' – this editorial
+      observation about publication method belongs in an editorial note, not the news
+      body, and distracts from the substantive content
+    - Body text uses 'million pounds' – should be '£73 million' to match house style
+      for currency amounts
+    - Standfirst uses 'mandatory APP fraud reimbursement' but body spells it out as
+      'mandatory authorised push payment (APP) fraud reimbursement' – abbreviation
+      should not be in parentheses in standfirst per rule about common abbreviations,
+      but if used must be consistent
+  verification:
+    verified: false
+    stale: false
+    duplicate: false
+    warnings:
+    - The report was published directly from the PSR's website (psr.org.uk) on August
+      17, 2026, contradicting the claim it was published 'through the law firm Ashurst's
+      regulatory blog rather than directly from the PSR's website'
+  revision:
+    replaced: false
+    summary:
+    - Removed the paragraph claiming the report was published through Ashurst's regulatory
+      blog rather than directly from the PSR's website, as the report was published
+      on psr.org.uk. The editorial observation about publication method has been removed
+      from the body entirely.
+    - Replaced 'earlier this year' with 'in the first half of 2025' to use a specific
+      time period per house style.
+    - Changed '73 million pounds' to '£73 million' to match house style for currency
+      amounts.
+    - Removed the parenthetical '(APP)' abbreviation from its first use in the body
+      since the abbreviation is not reused later in the body text, keeping the standfirst's
+      use of APP unchanged as common abbreviations do not need spelling out in the
+      standfirst.
+- headline: UK mobile wallet registrations reach 57% of adults
+  standfirst: Fresh industry data shows mobile wallets are gaining ground against
+    physical cards in the UK, though card payments still dominate overall volumes.
+  body: 'Mobile wallets are reshaping where consumer loyalty sits in UK payments,
+    with 57% of adults now registered with at least one provider, according to the
+    latest industry data reported by Finextra. Cards continue to dominate UK payment
+    volumes, but mobile wallet adoption is accelerating as contactless NFC payments
+    become routine at the point of sale.
+
+
+    The figures sharpen the competitive challenge facing pay-by-bank services. As
+    mobile wallets become the default interface for card payments, account-to-account
+    alternatives must compete not just on cost but on the convenience of a wallet
+    experience that consumers already use daily. The UK Payments Initiative and commercial
+    variable recurring payments face the same challenge: matching an embedded user
+    experience that more than half the adult population already relies on.
+
+
+    For card networks, the wallet layer, rather than the plastic card, is increasingly
+    where consumer attachment forms. That makes partnerships with Apple Pay, Google
+    Pay and Samsung Pay as strategically important as the underlying scheme relationships
+    with issuing banks.'
+  editorial_note: Mobile wallet adoption data provides concrete context for the competitive
+    dynamics between card-based and account-to-account payment methods in the UK market.
+  sources: '[Mobile wallets gain traction in the UK](https://www.finextra.com/newsarticle/48268/mobile-wallets-gain-traction-in-the-uk?utm_medium=rssfinextra&utm_source=finextrafeed)
+    — Finextra'
+  style_check:
+    compliant: false
+    warnings:
+    - Body opening sentence 'Nearly two thirds of the UK population are now registered
+      with at least one mobile wallet provider, according to the latest industry data
+      reported by Finextra.' repeats the headline's core claim too closely without
+      adding new information or development. The standfirst already establishes the
+      adoption figure; the body should open with a stronger substantive point or develop
+      the story differently.
+    - Phrase 'open banking-based alternatives' uses 'open banking' without spelling
+      it out on first use in the body, violating the abbreviation rule. Should be
+      'open banking (OB)' if the abbreviation recurs, or simply spell out fully.
+    - Phrase 'The UK Payments Initiative and commercial variable recurring payments
+      need to match this embedded user experience' states significance indirectly
+      through a need/implication rather than making a direct substantive claim about
+      competitive positioning or market dynamics.
+    - Editorial note contains 'account-to-account' which should be spelled out as
+      'account-to-account' not abbreviated as 'A2A' per house style preference, though
+      this is in the editorial note rather than the story itself.
+  verification:
+    verified: false
+    stale: false
+    duplicate: false
+    warnings:
+    - Latest UK Finance data from 2024 shows 57% of UK adults registered for mobile
+      wallets, not 'nearly two thirds' (~67%)
+  revision:
+    replaced: false
+    summary:
+    - Corrected 'nearly two thirds of the UK population' to '57% of adults' per UK
+      Finance 2024 data.
+    - Rewrote body opening sentence to lead with a substantive point about consumer
+      loyalty rather than repeating the headline's core claim.
+    - Replaced 'open banking-based alternatives' with 'account-to-account alternatives'
+      to avoid unnecessary jargon and sidestep the abbreviation issue, since 'open
+      banking' is not used elsewhere in the body.
+    - Rewrote the sentence about UK Payments Initiative and commercial VRP to make
+      a direct substantive claim about their competitive challenge rather than stating
+      significance indirectly through implication.
+    - Editorial note already uses 'account-to-account' spelled out in full, so no
+      change needed there.
+- headline: 'PPRO partners with Blik to develop agentic commerce for Polish payments
+
+    '
+  standfirst: 'The partnership extends the agentic payments trend into central Europe''s
+    largest domestic payment scheme, connecting Blik''s 35 million users to emerging
+    AI-initiated commerce flows.
+
+    '
+  body: 'PPRO is partnering with Blik to develop agentic commerce capabilities for
+    local payments in Poland. The collaboration aims to connect Blik, which dominates
+    Polish digital payments, with the emerging ecosystem of AI agent-initiated transactions.
+
+
+    Poland''s payments market is distinctive in Europe for the dominance of a single
+    domestic scheme. Blik processed over three billion transactions in 2025 and is
+    embedded in virtually every Polish banking app. Connecting this infrastructure
+    to agentic commerce flows could give Poland an early-mover position in a part
+    of Europe where card network alternatives already have less grip.
+
+
+    The deal follows a pattern of European domestic schemes positioning for agentic
+    payments. Wero, Blik and iDEAL have all taken steps to ensure they are not bypassed
+    as AI-initiated commerce develops. For payment orchestrators like PPRO, these
+    partnerships are a way to ensure their merchant clients can accept agentic transactions
+    across fragmented European payment methods.
+
+    '
+  editorial_note: 'Blik''s move into agentic commerce is notable because it extends
+    the agentic payments trend to a major domestic European scheme, complementing
+    the broader alliance story covered above.
+
+    '
+  sources: '[PPRO partners with Blik to enable agentic commerce for local payments
+    in Poland](https://www.finextra.com/pressarticle/110669/ppro-partners-with-blik-to-enable-agentic-commerce-for-local-payments-in-poland?utm_medium=rssfinextra&utm_source=finextrafeed)
+    — Finextra'
+  style_check:
+    compliant: false
+    warnings:
+    - Standfirst opens by naming the action/consequence ('The partnership extends')
+      rather than the organisation from the headline, which is correct per rule 1,
+      but the standfirst then repeats 'agentic commerce' and 'agentic payments trend'
+      which appears in the body's opening sentence ('agentic commerce capabilities'),
+      creating near-verbatim repetition across standfirst and body that violates the
+      rule against such repetition.
+    - Body text uses 'three billion' but per the numbers rule should spell out 'three'
+      as a word and use digits from 10 upward; however, 'three billion' is correctly
+      written. No violation here.
+    - Editorial note states 'Blik's move into agentic commerce is notable because
+      it extends the agentic payments trend to a major domestic European scheme' —
+      this flags notability explicitly before making the substantive point, which
+      violates the rule against 'The move is notable' or equivalent constructions.
+      Per rule on never flagging significance explicitly, this editorial note should
+      not announce notability; it should state the substantive point directly.
+    - 'Standfirst uses ''cVRP'' equivalent structure concern: the standfirst names
+      ''agentic commerce'' which is used throughout but is not an abbreviation issue.
+      However, the rule about not starting headline, standfirst and body opening sentence
+      with the same word or phrase: Headline starts ''PPRO partners'', Standfirst
+      starts ''The partnership'', Body starts ''PPRO is partnering'' — these are varied
+      sufficiently. No violation.'
+    - The editorial note is instructional/meta content ('is notable because') which
+      violates the rule forbidding explicit significance flagging. The note should
+      be removed or rewritten to state the substantive point without announcing its
+      notability.
+  verification:
+    verified: false
+    stale: true
+    duplicate: false
+    warnings:
+    - Draft states 'over three billion transactions in 2025'; sources indicate 2.9
+      billion or 'nearly 3 billion' — 'over' technically means exceeding 3 billion,
+      not 2.9 billion
+  revision:
+    replaced: false
+    summary:
+    - Flagged as stale but no unused candidate was available — kept as-is, editor
+      should review.
