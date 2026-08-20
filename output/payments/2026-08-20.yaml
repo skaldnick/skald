@@ -1,0 +1,280 @@
+title: 'Personetics-Plaid integration; Modulr gains CHAPS access; Midnite adopts pay-by-bank
+
+  '
+social_post: 'Personetics taps Plaid''s open banking data to help banks fight for
+  account primacy. Plus: Modulr settles directly at the BoE, and pay-by-bank lands
+  in UK sports betting. {link}
+
+  '
+stories:
+- headline: Personetics integrates Plaid open banking data to sharpen bank personalisation
+  standfirst: The integration lets incumbents use external account data as a competitive
+    input, sharpening the contest for account primacy against challengers and non-bank
+    financial apps.
+  body: 'Personetics, the AI-based banking personalisation platform, is integrating
+    Plaid''s open banking connectivity to give financial institutions a fuller picture
+    of their customers'' financial lives. The combined offering lets banks ingest
+    data from accounts held elsewhere and run it through Personetics'' AI models to
+    generate personalised insights, triggers and recommendations.
+
+
+    Customers increasingly spread their financial activity across multiple providers,
+    and without visibility of that external behaviour, banks struggle to offer relevant
+    products or retain primacy. By pulling in open banking data alongside on-us transaction
+    records, Personetics says it can identify patterns, such as subscription leakage
+    or salary diversion, that would otherwise be invisible to the primary bank.
+
+
+    The integration is available to banks and credit unions already using either platform.
+    It positions open banking data not as a compliance exercise or a fintech-facing
+    API but as a competitive input for incumbents trying to hold ground against challengers
+    and non-bank financial apps.'
+  editorial_note: 'This illustrates a maturing use case for open banking data: banks
+    deploying it defensively to retain customers, not just fintechs using it to acquire
+    them. The partnership between a major data aggregator and an AI personalisation
+    vendor signals that open finance is becoming a core input for incumbent strategy.'
+  sources: '[Personetics partners with Plaid to help banks win account primacy with
+    Open Finance](https://www.openbankingexpo.com/news/personetics-partners-with-plaid-to-help-banks-win-account-primacy-with-open-finance/)
+    — Openbankingexpo | [Personetics integrates Plaid open banking data](https://finance.yahoo.com/technology/ai/articles/personetics-integrates-plaid-open-banking-112241523.html)
+    — Yahoo Finance | [Personetics integrates Plaid open banking data to offer banks
+    wider customer view](https://app.dealroom.co/news/feed/personetics-integrates-plaid-open-banking-data-to-offer-banks-wider-customer-view)
+    — App | [Personetics Partners with Plaid to Help Banks Win Account Primacy with
+    Open Finance Intelligence](https://glenbrook.com/payments_news/personetics-partners-with-plaid-to-help-banks-win-account-primacy-with-open-finance-intelligence/)
+    — Glenbrook'
+  style_check:
+    compliant: false
+    warnings:
+    - 'Standfirst opens with ''Banks and credit unions can now combine external account
+      data'' — this repeats the substance of the headline (''Personetics integrates
+      Plaid open banking data'') without adding interpretive context or explanation.
+      The standfirst should add context, not restate the headline''s action in different
+      words. Consider opening with the competitive consequence instead: ''The move
+      lets incumbents...'' or ''This addresses a specific problem for...'''
+    - 'Body paragraph 2 states ''The partnership addresses a specific competitive
+      problem for incumbent banks'' — this is a near-verbatim restatement of the standfirst''s
+      framing (''sharpening the contest for account primacy''). While the body develops
+      the point in more depth, the opening of this paragraph should be stronger and
+      more direct rather than echoing the standfirst''s interpretive claim. Lead with
+      the substantive claim: ''Customers increasingly spread their financial activity
+      across multiple providers...'''
+  verification:
+    verified: true
+    stale: false
+    duplicate: false
+    warnings: []
+  revision:
+    replaced: false
+    summary:
+    - Rewrote standfirst to open with the competitive consequence ('The integration
+      lets incumbents…') rather than restating the headline's action ('Banks and credit
+      unions can now combine…').
+    - Revised body paragraph 2 opening to lead directly with the substantive claim
+      ('Customers increasingly spread their financial activity…') rather than echoing
+      the standfirst's framing with 'The partnership addresses a specific competitive
+      problem for incumbent banks'.
+- headline: Modulr becomes direct CHAPS participant, settling at the Bank of England
+  standfirst: Direct settlement access to the UK's high-value payment scheme gives
+    a non-bank payments platform participation in all three main interbank schemes
+    alongside Faster Payments and the UK Payments Initiative.
+  body: 'Modulr has become a direct participant in CHAPS, the UK''s same-day high-value
+    payment system, settling directly at the Bank of England. The move gives the payments
+    automation platform direct access to all three of the UK''s main interbank payment
+    schemes alongside Faster Payments and Bacs.
+
+
+    For Modulr''s client base of fintechs, platforms and embedded finance providers,
+    direct CHAPS participation removes the need to route high-value transactions through
+    a sponsor bank. That reduces counterparty risk and latency for payments that exceed
+    Faster Payments thresholds. As a founding shareholder of the UK Payments Initiative
+    (UKPI), Modulr is also among the first providers offering commercial variable
+    recurring payments, giving it a broad position across the UK payments stack.
+
+
+    Modulr joins a small but growing group of non-bank payment service providers settling
+    directly at the central bank, a trend the Bank of England has actively encouraged
+    as part of its push to diversify the payments landscape. Banks'' exclusive hold
+    on direct scheme access continues to erode as more non-bank providers meet the
+    operational and regulatory requirements for direct participation.'
+  editorial_note: A non-bank gaining direct CHAPS access is still relatively rare
+    and signals the continuing diversification of UK payments infrastructure participation
+    beyond traditional banks, relevant to the ongoing debate about scheme access and
+    competition.
+  sources: '[Modulr becomes Chaps direct participant](https://www.finextra.com/pressarticle/110686/modulr-becomes-chaps-direct-participant?utm_medium=rssfinextra&utm_source=finextrafeed)
+    — Finextra | [London Based Fintech Modulr Gains Direct Access To Major UK Payment
+    Systems](https://www.crowdfundinsider.com/2026/08/298858-london-based-fintech-modulr-gains-direct-access-to-major-uk-payment-systems/)
+    — Crowdfundinsider'
+  style_check:
+    compliant: false
+    warnings:
+    - Standfirst opens with 'Direct settlement access to the UK's high-value payment
+      scheme marks a significant step' — this violates the rule against flagging significance
+      explicitly. The phrase 'marks a significant step' announces importance before
+      explaining substantive consequences. Revise to lead with the substantive point
+      directly.
+    - Body text contains 'The broader pattern here is the continued erosion of banks'
+      exclusive hold on direct scheme access.' This violates the rule against starting
+      paragraphs with scene-setting that delays the substantive point. Lead directly
+      with the substantive claim rather than announcing a pattern first.
+    - 'Standfirst uses ''marks a significant step'' which violates the rule: ''Never
+      flag significance explicitly. Do not write sentences that announce importance
+      before explaining it.'''
+  verification:
+    verified: true
+    stale: false
+    duplicate: false
+    warnings: []
+  revision:
+    replaced: false
+    summary:
+    - Revised standfirst to remove 'marks a significant step' — replaced with a substantive
+      description of what direct settlement access delivers, per the rule against
+      flagging significance explicitly.
+    - Rewrote the opening of the final paragraph to lead with the substantive claim
+      ('Modulr joins a small but growing group…') rather than announcing a pattern
+      ('The broader pattern here is…'), per the rule against scene-setting that delays
+      the substantive point.
+- headline: Sports betting platform Midnite launches pay-by-bank via TrueLayer
+  standfirst: UK gambling operators are steadily adopting open banking payments as
+    the sector adjusts to regulatory pressure around affordability and responsible
+    gambling, and this latest integration illustrates the trend's commercial momentum.
+  body: 'Pay-by-bank is gaining another foothold in UK gambling. Midnite, the sports
+    betting platform, is launching deposits and withdrawals through TrueLayer''s open
+    banking infrastructure, letting players fund accounts and receive winnings without
+    entering card details, with transactions processed through direct bank connections.
+
+
+    UK gambling has become a conspicuous growth sector for pay-by-bank adoption. Open
+    banking rails offer operators faster settlement, lower processing costs and, critically,
+    a data layer that can support the financial risk assessments now required by the
+    UK Gambling Commission. The commission confirmed in July that open banking data
+    can be used for affordability checks, and operators have been moving to integrate
+    the capability into their payment flows.
+
+
+    For TrueLayer, the deal extends its presence in a vertical where it already counts
+    several UK operators as clients. The gambling sector''s regulatory environment,
+    which demands both frictionless deposits and responsible spending controls, makes
+    it a natural testing ground for pay-by-bank''s ability to combine payments with
+    data-driven compliance.'
+  editorial_note: UK gambling continues to be one of the most active verticals for
+    open banking payment adoption, driven by regulatory requirements around affordability.
+    This deal builds on previously covered themes (Gambling Commission confirmation,
+    TrueLayer's growth) and shows continued commercial momentum.
+  sources: '[Sports betting platform Midnite launches Pay by Bank in the UK via TrueLayer](https://www.openbankingexpo.com/news/sports-betting-platform-midnite-launches-pay-by-bank-in-the-uk-via-truelayer/)
+    — Openbankingexpo | [Midnite Adds TrueLayer Pay by Bank](https://igamingfuture.com/midnite-adds-truelayer-pay-by-bank/)
+    — iGaming Future'
+  style_check:
+    compliant: false
+    warnings:
+    - 'Standfirst: ''adds to a growing list'' – do not describe a development as ''one
+      of a growing number'' in a way that hedges its significance. State the trend
+      directly and let the specific item illustrate it.'
+    - 'Body, paragraph 2: ''critically, a data layer'' – replace dash used to introduce
+      a consequence or parenthetical mid-sentence with a comma.'
+    - 'Body, paragraph 3: ''For TrueLayer, the deal extends'' – do not start the headline,
+      standfirst, and body opening sentence with the same word or phrase. The headline
+      starts with ''Sports betting platform Midnite'', the standfirst with ''The integration'',
+      but this paragraph opens a new subject with ''For TrueLayer''. However, the
+      body''s opening sentence (''Midnite, the UK sports betting platform, is launching...'')
+      does not vary sufficiently from the headline''s opening subject. The body should
+      open more directly and distinctly.'
+  verification:
+    verified: true
+    stale: false
+    duplicate: false
+    warnings: []
+  revision:
+    replaced: false
+    summary:
+    - Standfirst rewritten to state the trend directly rather than using the hedging
+      'adds to a growing list' construction.
+    - Body opening sentence rewritten to lead with the broader trend ('Pay-by-bank
+      is gaining another foothold in UK gambling') rather than repeating the headline's
+      subject ('Midnite'), ensuring variation across headline, standfirst and body
+      opening.
+    - Kept 'critically' with comma separation as already present — the flagged dash
+      issue did not apply as the original text used commas, not dashes, around 'critically'.
+      No change needed.
+- headline: Cyprus prepares proxy-based payments to replace IBAN for domestic transfers
+  standfirst: The rollout would make Cyprus one of the smaller euro area markets to
+    adopt phone-number-based addressing, building on an instant payments network that
+    already ranks among Europe's largest relative to population.
+  body: 'Cyprus is preparing to let consumers and businesses send payments using a
+    mobile phone number instead of an IBAN, according to local reports. The shift
+    to proxy-based addressing is part of the country''s broader build-out of instant
+    payments infrastructure, which has already produced one of Europe''s densest acceptance
+    networks relative to the size of the economy.
+
+
+    Instant payments in Cyprus reached significant volumes through June 2026, reflecting
+    rapid adoption since the country connected to European instant payment rails.
+    Proxy lookup services – which map a phone number or email address to a bank account
+    – are a key component of the EU''s instant payments regulation, designed to reduce
+    friction and error rates in initiating transfers.
+
+
+    The move aligns Cyprus with markets such as the Netherlands, Finland and France
+    that have already implemented or are rolling out proxy-based payment initiation.
+    For smaller euro area economies, proxy services are particularly consequential:
+    they lower the barrier to instant payment adoption by eliminating the need for
+    payers to know or correctly enter a 24-character IBAN.'
+  editorial_note: This is a new development not previously covered. It advances the
+    European instant payments story by showing a smaller euro area market implementing
+    proxy-based addressing, which is a practical requirement of the instant payments
+    regulation. Source is a Cypriot news outlet (Kathimerini English edition) with
+    specific detail on the country's instant payment volumes and infrastructure.
+  sources: '[Goodbye, IBAN: Cyprus prepares to send money by phone number](https://knews.kathimerini.com.cy/en/business/goodbye-iban-cyprus-prepares-to-send-money-by-phone-number)
+    — Knews'
+  style_check:
+    compliant: false
+    warnings:
+    - 'Body opening: ''Cyprus is preparing to let consumers and businesses send payments
+      using a mobile phone number instead of an IBAN'' – this repeats the headline''s
+      core claim too directly. The body''s first sentence should be stronger and more
+      substantive; consider revising the standfirst instead to avoid this near-verbatim
+      repetition across headline and body.'
+    - 'Body paragraph 2: ''Instant payments in Cyprus reached significant volumes
+      through June 2026'' – avoid vague temporal references. Use a specific date (e.g.,
+      ''by June 30, 2026'') or clarify whether this is a quarterly figure.'
+    - 'Body paragraph 3: ''The move aligns Cyprus with markets such as...'' – This
+      sentence announces the point before making it substantively. Lead with the substantive
+      claim (e.g., ''Proxy services lower the barrier to instant payment adoption
+      for smaller economies by eliminating the need for payers to know or correctly
+      enter a 24-character IBAN''), then reference the comparable markets.'
+    - 'Body paragraph 3: ''For smaller euro area economies, proxy services are particularly
+      consequential'' – This is a notability announcement. Remove this framing and
+      lead directly with the substantive consequence about reducing barriers to adoption.'
+  verification:
+    verified: false
+    stale: false
+    duplicate: false
+    warnings:
+    - Story states '24-character IBAN' but Cyprus IBAN is 28 characters per Central
+      Bank of Cyprus
+  revision:
+    replaced: true
+    summary:
+    - 'Replaced: original story flagged as stale (CJEU judgment delivered 16 July
+      2026, now 35 days old (exceeds 5-day threshold)); swapped in an unused candidate.'
+    - 'Note: the replacement was also flagged — Story states ''24-character IBAN''
+      but Cyprus IBAN is 28 characters per Central Bank of Cyprus'
+    - 'Note: the replacement was also flagged — Body opening: ''Cyprus is preparing
+      to let consumers and businesses send payments using a mobile phone number instead
+      of an IBAN'' – this repeats the headline''s core claim too directly. The body''s
+      first sentence should be stronger and more substantive; consider revising the
+      standfirst instead to avoid this near-verbatim repetition across headline and
+      body.'
+    - 'Note: the replacement was also flagged — Body paragraph 2: ''Instant payments
+      in Cyprus reached significant volumes through June 2026'' – avoid vague temporal
+      references. Use a specific date (e.g., ''by June 30, 2026'') or clarify whether
+      this is a quarterly figure.'
+    - 'Note: the replacement was also flagged — Body paragraph 3: ''The move aligns
+      Cyprus with markets such as...'' – This sentence announces the point before
+      making it substantively. Lead with the substantive claim (e.g., ''Proxy services
+      lower the barrier to instant payment adoption for smaller economies by eliminating
+      the need for payers to know or correctly enter a 24-character IBAN''), then
+      reference the comparable markets.'
+    - 'Note: the replacement was also flagged — Body paragraph 3: ''For smaller euro
+      area economies, proxy services are particularly consequential'' – This is a
+      notability announcement. Remove this framing and lead directly with the substantive
+      consequence about reducing barriers to adoption.'
