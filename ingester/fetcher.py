@@ -69,11 +69,18 @@ def _split_title_publisher(title: str) -> tuple[str, str | None]:
     return title, None
 
 
+_GENERIC_SUBDOMAINS = {"www", "app", "m", "amp", "web", "go", "news"}
+
+
 def _domain_label(url: str) -> str:
     """Fallback publisher label derived from the article URL when the title
-    doesn't carry one — e.g. https://www.pymnts.com/... -> 'Pymnts'."""
-    netloc = re.sub(r"^www\.", "", urlparse(url).netloc)
-    return netloc.split(".")[0].capitalize() if netloc else "Unknown source"
+    doesn't carry one — e.g. https://www.pymnts.com/... -> 'Pymnts'. Skips
+    generic subdomains (www, app, ...) rather than just 'www', so a URL like
+    https://app.dealroom.co/... labels as 'Dealroom', not 'App' (confirmed
+    2026-08-04: three Dealroom entries all mislabeled this way)."""
+    labels = urlparse(url).netloc.split(".")
+    labels = [l for l in labels if l.lower() not in _GENERIC_SUBDOMAINS]
+    return labels[0].capitalize() if labels else "Unknown source"
 
 
 def resolve_display_sources(entries: list[dict]) -> list[dict]:
