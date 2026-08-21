@@ -2,4 +2,33 @@
 # Populated automatically by tools/extract_learning.py (via GitHub Actions on push
 # to data/feedback/). Review and promote/edit in the dashboard's 'Proposed style
 # rules' section — accepted rules move to prompts/payments/style_rules.yaml.
-[]
+- date: '2026-08-21'
+  rule: Do not open the standfirst by framing the story as a problem or gap that the
+    development addresses. Lead with the development itself — what it does and how
+    — rather than with the challenge it solves. For example, prefer "The new three-way
+    partnership combines open banking rails with identity and commerce orchestration
+    to verify identity, intent and payment authorisation when an AI agent acts on
+    a consumer's behalf" over "A practical gap in agentic payments – how to verify
+    identity, intent and payment authorisation when an AI agent acts on a consumer's
+    behalf – is the target of a new three-way partnership".
+- date: '2026-08-21'
+  rule: Do not extend the standfirst to include competitive positioning, market-race
+    framing, or broader industry context beyond what directly describes the development.
+    The standfirst should describe what the development is and does; competitive or
+    contextual implications belong in the body. For example, omit phrases such as
+    "positioning the bank against high-street rivals and newer AI-native fintechs
+    in the race to embed intelligence into everyday banking" from a standfirst that
+    already conveys the core development.
+  supersedes: 40
+- date: '2026-08-21'
+  rule: 'Do not restructure a colon or dash-introduced list mid-sentence into a separate
+    clause when the surrounding sentence can absorb it cleanly with a preposition.
+    For example, prefer "reflects a growing pattern among digital banks of embedding
+    AI directly into the banking interface" over "reflects a growing pattern among
+    digital banks: embedding AI directly into the banking interface".'
+  supersedes: 3
+- date: '2026-08-21'
+  rule: When the publication year of a cited document or event is clear from context,
+    omit the year from month references — write "completed in June" rather than "completed
+    in June 2024". Only include the year when it would otherwise be ambiguous.
+  supersedes: 19
