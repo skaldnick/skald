@@ -17,9 +17,12 @@
   rule: Prefer spelling out non-standard abbreviations/acronyms, such as "account-to-account"
     instead of "A2A".
 - id: 3
-  date: '2026-04-13'
-  rule: Replace dashes used to introduce a consequence or parenthetical mid-sentence
-    with commas.
+  date: '2026-08-21'
+  rule: 'Do not restructure a colon or dash-introduced list mid-sentence into a separate
+    clause when the surrounding sentence can absorb it cleanly with a preposition.
+    For example, prefer "reflects a growing pattern among digital banks of embedding
+    AI directly into the banking interface" over "reflects a growing pattern among
+    digital banks: embedding AI directly into the banking interface".'
 - id: 4
   date: '2026-04-14'
   rule: Use "US" not "United States" in body text.
