@@ -1,0 +1,78 @@
+title: 'Thin satisfactory feed; supplier data meets instant payments regulation
+
+  '
+social_post: 'Slim pickings today but one piece worth your time: how Europe''s instant
+  payments regime is turning supplier data into financial infrastructure ahead of
+  the September 20 deadline. {link}
+
+  '
+stories:
+- headline: 'Supplier data becomes compliance infrastructure under instant payments
+    rules
+
+    '
+  standfirst: 'Europe''s September 20 verification of payee deadline is forcing banks
+    to treat supplier master data as a core component of payment-control infrastructure,
+    not back-office administration.
+
+    '
+  body: 'Banks preparing for the next phase of Europe''s instant payments regulation
+    are discovering that supplier data quality – long treated as an operational housekeeping
+    issue – now sits directly in the payment authorisation chain. Under the verification
+    of payee requirements taking effect on September 20, payment service providers
+    must match payee names against account details before releasing funds, making
+    incomplete or inconsistent supplier records a potential source of failed or blocked
+    transactions.
+
+
+    The shift recasts supplier onboarding and data maintenance from procurement functions
+    into compliance-critical processes. Firms with fragmented supplier databases,
+    inconsistent naming conventions or outdated account details face the prospect
+    of legitimate payments being flagged or rejected, with knock-on effects for working
+    capital and supplier relationships.
+
+
+    For corporates and their banking partners, the practical implication is that verification
+    of payee readiness cannot be treated as a purely technical integration. It requires
+    upstream data remediation across procurement and treasury systems – work that
+    many firms have not yet begun with the deadline now less than a month away.
+
+    '
+  editorial_note: 'Advances the continuing story on verification of payee implementation
+    by highlighting the practical corporate data-quality challenge ahead of the September
+    20 deadline – a concrete operational angle not previously covered.
+
+    '
+  sources: '[Instant Payments Are Turning Supplier Data Into Financial Infrastructure](https://www.finextra.com/blogposting/32608/instant-payments-are-turning-supplier-data-into-financial-infrastructure)
+    — Finextra Research'
+  style_check:
+    compliant: false
+    warnings:
+    - Standfirst opens by naming the regulation ('Europe's September 20 verification
+      of payee deadline') that is also the subject of the headline. Per rule 1, the
+      standfirst should open with the substantive point or action (e.g., 'Banks are
+      discovering that supplier data quality...') rather than naming the regulatory
+      scheme first.
+    - 'Body text uses em-dash (—) instead of en-dash (–) in: ''payment service providers
+      must match payee names against account details before releasing funds, making
+      incomplete or inconsistent supplier records a potential source of failed or
+      blocked transactions.'' Per the en-dash rule, this should use an en-dash.'
+    - The phrase 'with the deadline now less than a month away' in the final paragraph
+      is a vague temporal reference. Rule requires specific dates or time periods
+      where available. Since the deadline is September 20 (as stated in the standfirst),
+      the sentence should specify 'with the deadline on September 20' or similar precise
+      dating rather than 'less than a month away'.
+  verification:
+    verified: false
+    stale: true
+    duplicate: false
+    warnings:
+    - Story states VOP requirements 'taking effect on September 20' but VOP became
+      mandatory October 9, 2025. September 20, 2026 marks when rulebook version 1.1
+      takes effect (updates to existing requirement, not initial mandate). Story discusses
+      imminent deadline when requirement already in effect for 9+ months.
+  revision:
+    replaced: false
+    summary:
+    - Flagged as stale but no unused candidate was available — kept as-is, editor
+      should review.
