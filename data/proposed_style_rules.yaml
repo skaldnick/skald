@@ -2,21 +2,4 @@
 # Populated automatically by tools/extract_learning.py (via GitHub Actions on push
 # to data/feedback/). Review and promote/edit in the dashboard's 'Proposed style
 # rules' section — accepted rules move to prompts/payments/style_rules.yaml.
-- date: '2026-08-25'
-  rule: Do not include source attribution footnotes or hyperlinked source lists at
-    the end of a story. Remove any lines beginning with "*Sources:" or equivalent
-    citation blocks. Sources are editorial background and should not appear in published
-    body text.
-- date: '2026-08-25'
-  rule: Do not open a paragraph by repeating the subject (company or person name)
-    when the previous sentence or paragraph has already established it as the topic.
-    Instead, restructure the sentence to lead with a different element — eg, begin
-    with a participial phrase ("Founded in 2018 by Ozan Ozerk, OpenPayd…") rather
-    than restating the name as the grammatical subject ("OpenPayd, founded in 2018
-    by Ozan Ozerk,…").
-- date: '2026-08-25'
-  rule: Do not select stories based on non-professional survey results. Surveys conducted
-    among general or non-specialist populations, or informal polls without professional
-    or institutional backing, do not meet the threshold for inclusion. Only include
-    survey-based stories where the survey was conducted by a recognised industry body,
-    research firm, regulator, or equivalent professional source.
+[]
