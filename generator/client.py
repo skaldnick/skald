@@ -1,5 +1,6 @@
 import os
 import re
+import time
 import yaml
 from datetime import datetime, timedelta
 from pathlib import Path
@@ -14,6 +15,8 @@ load_dotenv(Path(__file__).parent.parent / ".env", override=True)
 ROOT = Path(__file__).parent.parent
 MODEL = "claude-opus-4-6"
 MAX_TOKENS = 8192
+MAX_PARSE_ATTEMPTS = 3
+RETRY_BACKOFF_SECONDS = 5
 
 
 def load_prompts(beat_name: str) -> tuple[str, str]:
@@ -222,23 +225,40 @@ def generate_briefing(beat_name: str, entries: list[dict]) -> tuple[dict, list[d
     user_prompt = build_user_prompt(story, entries, recently_covered, recently_rejected)
 
     client = anthropic.Anthropic(api_key=os.environ["ANTHROPIC_API_KEY"])
-    message = client.messages.create(
-        model=MODEL,
-        max_tokens=MAX_TOKENS,
-        system=system_prompt,
-        messages=[{"role": "user", "content": user_prompt}],
-    )
-    if message.stop_reason == "max_tokens":
-        # Fail loudly: YAML truncated mid-block-scalar usually still parses
-        # cleanly, so a capped response would otherwise become a briefing with
-        # stories or fields silently missing.
-        raise RuntimeError(
-            f"Briefing generation hit the {MAX_TOKENS}-token output cap and was "
-            "truncated — raise MAX_TOKENS or trim the prompt rather than saving "
-            "a partial draft."
+    last_error = None
+    for attempt in range(MAX_PARSE_ATTEMPTS):
+        message = client.messages.create(
+            model=MODEL,
+            max_tokens=MAX_TOKENS,
+            system=system_prompt,
+            messages=[{"role": "user", "content": user_prompt}],
         )
-    data = _parse_yaml_response(message.content[0].text)
-    return _resolve_sources(data, entries), entries
+        if message.stop_reason == "max_tokens":
+            # Fail loudly: YAML truncated mid-block-scalar usually still parses
+            # cleanly, so a capped response would otherwise become a briefing with
+            # stories or fields silently missing.
+            raise RuntimeError(
+                f"Briefing generation hit the {MAX_TOKENS}-token output cap and was "
+                "truncated — raise MAX_TOKENS or trim the prompt rather than saving "
+                "a partial draft."
+            )
+        try:
+            data = _parse_yaml_response(message.content[0].text)
+        except (yaml.YAMLError, ValueError) as e:
+            # The model occasionally drops the required `|` block-scalar indicator
+            # on a free-text field (confirmed 2026-08-25: a colon inside social_post
+            # broke the parse with "mapping values are not allowed here"), which a
+            # same-prompt retry reliably fixes since it's sampling noise, not a
+            # prompt defect — a manual re-trigger of the failed run succeeded first try.
+            last_error = e
+            print(f"Warning: briefing YAML failed to parse (attempt {attempt + 1}/{MAX_PARSE_ATTEMPTS}): {e}")
+            if attempt < MAX_PARSE_ATTEMPTS - 1:
+                time.sleep(RETRY_BACKOFF_SECONDS * (attempt + 1))
+            continue
+        return _resolve_sources(data, entries), entries
+    raise RuntimeError(
+        f"Briefing generation produced unparseable YAML after {MAX_PARSE_ATTEMPTS} attempts: {last_error}"
+    )
 
 
 def save_draft(beat_name: str, data: dict) -> Path:

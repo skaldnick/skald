@@ -43,7 +43,20 @@ cited sources). Use web search to check the following:
    even if individually older than {STALE_DAYS} days. A search result describing an
    event as "scheduled" for a date that has already arrived (including today, {today})
    does not prove the event hasn't happened — the cited source reporting on it may
-   itself be that day's coverage of it.
+   itself be that day's coverage of it. If your search surfaces an earlier, related
+   announcement about the same companies or product (e.g. a partnership or plan agreed
+   months ago), check whether this story reports that same announcement again or a
+   distinct, later stage of the same process (e.g. partnership agreed -> integration
+   goes live; law passed -> regulator approval -> go-live) — the story's own wording
+   (e.g. "is now live", "has launched", "granted approval") is the primary evidence of
+   which. Only the earlier announcement being re-reported is stale; a later stage is a
+   new core event dated to when *that stage* happened, not when the process began. Also
+   distinguish an event's occurrence date from when it first received substantive press
+   coverage: a regulatory or corporate action that happened more than {STALE_DAYS} days
+   ago but is only now being reported in depth (the cited source is among the first
+   substantive coverage, not a rehash of prior reporting) is still current news to this
+   audience — do not flag it as stale solely because the underlying record predates the
+   coverage.
 3. Unsupported claims — anything stated as fact that your search finds direct,
    on-topic evidence contradicts. If you simply cannot locate or access the cited
    source itself (common for articles published very recently, including today), or
