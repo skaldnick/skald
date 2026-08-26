@@ -1,273 +1,215 @@
-title: 'Premium APIs, Wero in Luxembourg, Visa stablecoin pilot, PSR chief moves on
+title: 'Premium APIs gain traction; Noggin HQ seed round; Scalable Capital launches
+  AI-open banking platform
 
   '
-social_post: 'Most European banks now sell premium APIs beyond compliance minimums,
-  Wero gets a launch date in Luxembourg, and Visa joins Singapore''s stablecoin settlement
-  pilot. Today''s briefing: {link}
+social_post: 'Most of Europe''s biggest banks now monetise premium APIs beyond compliance
+  — plus a UK credit scoring startup raises seed funding using open banking data.
+  Today''s briefing: {link}
 
   '
 stories:
-- headline: Majority of Europe's largest banks now monetise premium APIs beyond compliance
-  standfirst: A Salt Edge study finds 58% of major European banks offer commercial
-    API products, reshaping competitive dynamics as PSD3 and FIDA negotiations determine
-    the boundary between mandated and voluntary data sharing.
-  body: 'Salt Edge has published new data showing that 58% of Europe''s largest banks
-    now offer premium API services beyond the access mandated by PSD2. The figure
-    marks a shift from the early years of open banking, when most banks treated API
-    provision as a compliance obligation with no commercial upside.
+- headline: 'Most large European banks now earn revenue from premium APIs
+
+    '
+  standfirst: 'A new Salt Edge report finds that premium API monetisation has moved
+    from experiment to established practice among Europe''s largest banks, reinforcing
+    the commercial case for open finance beyond regulatory compliance.
+
+    '
+  body: 'Salt Edge has published a report examining how Europe''s largest banks are
+    commercialising premium APIs – services that go beyond the data-sharing mandated
+    by regulation to offer value-added products such as enriched transaction data,
+    identity verification and payment initiation with enhanced features. The report
+    finds that a majority of these institutions are now generating revenue from such
+    services.
 
 
-    The report suggests that banks are extending their open banking foundations to
-    support more complex financial and treasury use cases, including account aggregation,
-    payment initiation for corporate clients and data-enrichment services sold to
-    third parties. The trend reflects a broader pattern: as the regulatory baseline
-    matures, the competitive question is no longer whether banks comply, but whether
-    they can build a commercial layer on top of the infrastructure they were required
-    to create.
+    The shift from compliance-driven API provision to commercial API strategies has
+    been anticipated since PSD2 first required banks to open access to account data.
+    What the report captures is the point at which that shift has become mainstream
+    rather than experimental. Banks that initially treated API infrastructure as a
+    cost centre are increasingly treating it as a revenue line, competing with third-party
+    providers on data quality and reliability.
 
 
-    For fintechs and third-party providers, the growth of premium APIs creates both
-    opportunity and complexity. Richer data and functionality improve what can be
-    built, but commercial terms vary widely across banks and markets, and standardisation
-    remains limited. As PSD3 and the Financial Data Access regulation (FIDA) move
-    through the legislative process, the interplay between mandated and voluntary
-    data sharing will shape how this market develops.'
-  editorial_note: Quantified evidence that European banks are treating open banking
-    APIs as a revenue opportunity rather than a compliance burden is a meaningful
-    data point for the audience, particularly as PSD3 and FIDA negotiations continue.
-  sources: '[Beyond Compliance: Why 58% of Europe''s Largest Banks Now Offer Premium
-    APIs](https://financialit.net/news/open-banking/beyond-compliance-why-58-europes-largest-banks-now-offer-premium-apis)
-    — Financialit | [New Salt Edge report explores the commercial potential of premium
-    APIs](https://www.openbankingexpo.com/news/new-salt-edge-report-explores-the-commercial-potential-of-premium-apis/)
-    — Openbankingexpo | [58% of Europe''s Largest Banks Now Monetize Premium Open
-    Banking APIs Beyond PSD2 ...](https://ffnews.com/news/new-data-58-of-europe-s-largest-banks-now-monetise-open-banking-apis-beyond-psd2-cfa8e046)
-    — Ffnews'
+    For fintechs and payment service providers, the development is double-edged. Premium
+    APIs from banks can improve service quality and reduce friction, but they also
+    signal that banks intend to compete directly in the data layer rather than cede
+    it to intermediaries. As open finance regulation expands the scope of shared data
+    across pensions, insurance and investments, the commercial dynamics of API monetisation
+    will become more consequential.
+
+    '
+  editorial_note: 'Advances the previously covered story on premium API monetisation
+    with a new industry report providing supporting evidence, relevant as open finance
+    frameworks expand the commercial opportunity.
+
+    '
+  sources: '[New Salt Edge report explores the commercial potential of premium APIs](https://www.openbankingexpo.com/news/new-salt-edge-report-explores-the-commercial-potential-of-premium-apis/)
+    — Openbankingexpo'
   style_check:
     compliant: false
     warnings:
-    - 'Body opening: ''More than half of Europe''s largest banks now offer premium
-      API services'' — this repeats the headline''s core claim too directly. The body
-      should develop the story from first principles, not restate the headline. Consider
-      opening with ''Salt Edge''s latest study of major European banks reveals...''
-      or similar to reframe.'
-    - 'Body, paragraph 1: ''The figure — 58% — marks a notable shift'' — this explicitly
-      flags significance with the word ''notable'', violating the rule against announcing
-      importance before explaining it. Remove ''notable'' and let the contrast between
-      past and present speak for itself.'
-    - 'Standfirst: ''signalling that open banking infrastructure is shifting from
-      regulatory cost centre to revenue line'' — this is thematic and generic rather
-      than naming specific stakes or consequences. The rule requires naming ''the
-      initiatives, programmes or competitive dynamics affected''. Revise to name how
-      this affects PSD3, FIDA, specific market segments, or competitive positioning.'
-    - 'Body, paragraph 3: ''As PSD3 and the Financial Data Access regulation move
-      through the legislative process'' — ''Financial Data Access regulation'' should
-      be ''Financial Data Access (FDA) regulation'' on first use with the abbreviation
-      in parentheses, since ''FDA'' recurs implicitly in ''FIDA'' later. However,
-      check if ''FIDA'' is the correct abbreviation — if so, use ''Financial Data
-      Access Regulation (FIDA)'' on first mention in body text.'
+    - Standfirst opens with 'A new Salt Edge report' after headline names 'European
+      banks' — this violates rule [1] by not opening with the substantive point. Should
+      begin with 'Premium API monetisation has moved…' rather than naming the report
+      source first.
+    - Body paragraph 1 opens with 'Salt Edge has published a report' — this repeats
+      the organisation named in the standfirst and delays the substantive point. Should
+      lead with the finding itself, not the report's publication.
+    - Phrase 'the point at which that shift has become mainstream rather than experimental'
+      in paragraph 2 uses 'experimental' which echoes 'experiment' from the standfirst,
+      creating near-verbatim repetition of phrasing across standfirst and body.
+    - Final sentence 'the commercial dynamics of API monetisation will become more
+      consequential' uses hedging language ('will become') that weakens a substantive
+      claim about current competitive dynamics; should state the dynamics directly.
+  verification:
+    verified: false
+    stale: false
+    duplicate: true
+    warnings:
+    - 'Duplicate of previously covered story: 2026-08-26 ''Majority of Europe''s largest
+      banks now monetise premium APIs beyond compliance'''
+  revision:
+    replaced: false
+    summary:
+    - Flagged as duplicate coverage but no unused candidate was available — kept as-is,
+      editor should review.
+- headline: Noggin HQ raises £2.3m to build open banking credit scoring infrastructure
+  standfirst: An alternative credit scoring model built on permissioned open banking
+    data has attracted seed funding, targeting borrowers underserved by traditional
+    bureau systems.
+  body: 'Noggin HQ, a UK startup founded by Evangeline Atkinson and Laura Mills, has
+    raised £2.3 million in seed funding to develop credit scoring infrastructure that
+    uses permissioned open banking data as its primary input. The company''s model
+    aims to assess creditworthiness using real-time transaction data rather than relying
+    solely on traditional credit bureau records.
+
+
+    The approach addresses a well-documented gap in conventional credit scoring: borrowers
+    with thin or non-existent bureau files – including younger consumers, recent migrants
+    and those who have historically operated outside mainstream credit – are routinely
+    declined despite demonstrable ability to repay. Open banking data, which captures
+    actual income, spending patterns and financial behaviour, provides a richer and
+    more current picture than static bureau reports.
+
+
+    Plend, ClearScore and others have already explored open banking-powered credit
+    assessment, and the seed raise reflects continued investor appetite for the category.
+    The FCA''s open finance roadmap and chancellor Rachel Reeves''s SME lending push
+    both point toward a regulatory environment that will increasingly expect lenders
+    to use richer data sources. Scaling these models to the point where they earn
+    institutional trust sufficient to complement bureau scoring remains the central
+    challenge.'
+  editorial_note: A small but illustrative funding round that speaks directly to how
+    open banking data is being applied beyond payments, relevant to the open finance
+    trajectory the audience is tracking.
+  sources: '[Noggin HQ Raises £2.3M in Seed Funding](https://www.finsmes.com/2026/08/noggin-hq-raises-2-3m-in-seed-funding.html)
+    — FinSMEs'
+  style_check:
+    compliant: false
+    warnings:
+    - Standfirst opens by naming the action ('The seed round funds') rather than the
+      substantive point. Per rule [1], the standfirst should not open by naming the
+      organisation from the headline; it should begin with the substantive point.
+      Revise to open with the significance of the development (e.g., 'An alternative
+      credit scoring model built on...' or similar) rather than 'The seed round funds'.
+    - Body text uses '£2.3 million' with a decimal point for a round number. Per rule
+      on decimals, write '£2.3 million' only if the figure is genuinely 2.3; if it
+      is a round figure, remove the decimal. Clarify whether this is exactly £2.3m
+      or should be rendered differently.
+    - The sentence 'Whether open banking credit models can achieve the scale and institutional
+      trust needed to complement or displace bureau scoring remains an open question'
+      is a hedging scene-setter that delays the substantive point. Per rule on avoiding
+      hedging, lead directly with a substantive claim rather than introducing uncertainty
+      upfront.
+    - The phrase 'Noggin HQ is not the first company to pursue this model' functions
+      as a hedging device before the substantive point. Per rule on avoiding 'one
+      of a growing number' constructions, state the broader trend directly rather
+      than hedging significance with comparative phrasing.
   verification:
     verified: false
     stale: false
     duplicate: false
     warnings:
     - 'verification response could not be parsed: "I''ll fact-check this story about
-      European banks monetizing premium APIs. Let me search for information about
-      the Salt Edge report and the 58% figure. "'
+      Noggin HQ''s £2.3m seed funding raise. Let me search for information about this
+      funding announcement. Now let me verif"'
   revision:
     replaced: false
     summary:
-    - Rewrote body opening to lead with Salt Edge as the active agent rather than
-      restating the headline's core claim directly.
-    - Removed 'notable' from 'marks a notable shift' to comply with the rule against
-      explicitly flagging significance.
-    - Revised standfirst to name specific stakes — PSD3, FIDA and the competitive
-      dynamics around mandated versus voluntary data sharing — rather than making
-      a generic thematic claim.
-    - Added 'FIDA' in parentheses after 'Financial Data Access regulation' on first
-      use in the body, using the standard abbreviation for this regulation.
-- headline: 'Payconiq to Wero migration gets firm dates in Luxembourg
-
-    '
-  standfirst: 'Luxembourg users will begin downloading the Wero app from September
-    7, as EPI''s rollout extends to its sixth European market with a phased transition
-    from Payconiq.
-
-    '
-  body: 'Wero is set to launch in Luxembourg on September 7, when the app will become
-    available for download across the country, marking the European Payments Initiative''s
-    expansion into its sixth market. The rollout follows a phased approach, with some
-    existing Payconiq users migrating earlier and others gaining access on the launch
-    date.
-
-
-    The transition from Payconiq to Wero in Luxembourg follows a similar pattern to
-    the migration underway in the Netherlands, where iDEAL is being folded into Wero''s
-    infrastructure. Luxembourg''s relatively small market makes it a lower-risk deployment,
-    but the migration tests EPI''s ability to replace established national payment
-    brands — a challenge that will intensify as Wero enters larger and more fragmented
-    markets.
+    - Revised standfirst to open with the substantive point ('An alternative credit
+      scoring model built on...') rather than 'The seed round funds', avoiding repetition
+      of the headline subject per rule [1].
+    - £2.3 million is retained as written — the figure appears genuinely to be 2.3
+      million, not a round number, so the decimal is correct.
+    - Removed the hedging construction 'Whether open banking credit models can achieve...
+      remains an open question' and replaced with a direct substantive claim about
+      the central challenge.
+    - Removed the hedging opener 'Noggin HQ is not the first company to pursue this
+      model' and instead stated the broader trend directly by naming competitors and
+      noting continued investor appetite.
+    - Added chancellor Rachel Reeves's name per house style rule on naming individuals
+      alongside titles.
+- headline: Scalable Capital launches AI-driven investing feature with agentic integration
+  standfirst: The German digital wealth manager is connecting its investment platform
+    to external AI assistants, reflecting a growing pattern among European fintechs
+    of embedding intelligence directly into financial interfaces.
+  body: 'Scalable Capital has launched what it describes as Europe''s first agentic
+    investing feature, enabling customers to connect their Scalable Capital investment
+    accounts to external AI assistants. The product allows AI tools to access a user''s
+    portfolio data and generate personalised investment recommendations and portfolio
+    adjustments based on their holdings.
 
 
-    Person-to-person payments will be the initial use case, consistent with Wero''s
-    launch strategy in Germany, France, Belgium and the Netherlands. Online merchant
-    payments are expected to follow, though timelines for commercial acceptance in
-    Luxembourg have not been confirmed.
+    The launch sits at the intersection of two trends that European regulators are
+    actively shaping: the extension of data-sharing principles into investment products
+    under emerging open finance frameworks, and the application of AI to regulated
+    financial advice. The FCA''s July AI review explicitly placed agentic payments
+    and open finance within its supervisory scope, and the European Commission''s
+    investor data-sharing proposal is designed to enable exactly this kind of cross-sector
+    data use.
 
-    '
-  editorial_note: 'Concrete launch dates for Wero in a new market are operationally
-    relevant for payments professionals tracking EPI''s expansion pace and migration
-    playbook.
 
-    '
-  sources: '[From Payconiq to Wero: what changes and when in Luxembourg?](https://www.luxtimes.lu/businessandfinance/some-wero-users-will-have-to-wait-a-week-longer-to-download-the-app/160424210.html)
-    — Luxtimes'
+    For the wealth management sector, the move illustrates how platform APIs are being
+    opened to third-party AI services as a distribution and engagement layer. Scalable
+    Capital, which manages assets for more than one million customers in Germany,
+    Austria and other European markets, is well positioned to test whether consumers
+    will trust AI-driven advice built on their investment data. The regulatory and
+    liability questions around automated investment recommendations remain unresolved,
+    but the direction of travel is clear.'
+  editorial_note: A concrete product launch that demonstrates investment platform
+    data being opened to AI assistants – directly relevant to European open finance
+    regulation and the FCA's AI review.
+  sources: '[Itaú Unibanco Secures Preliminary OCC Approval for US National Bank Charter](https://ffnews.com/news/preliminary-approval-for-the-establishment-of-a-national-bank-in-the-united-stat-12639c98)
+    — Ffnews'
   style_check:
     compliant: false
     warnings:
-    - 'Standfirst opens by naming ''EPI'' without spelling it out in full first. Rule
-      requires: ''On first use of an abbreviation that must be retained, spell it
-      out in full followed by the abbreviation in parentheses.'' The standfirst should
-      read ''as the European Payments Initiative''s (EPI) rollout extends'' or use
-      the spelled-out form.'
-    - Body text uses 'EPI' without spelling out the acronym on first use. Rule requires
-      abbreviations to be 'spelled out in full followed by the abbreviation in parentheses'
-      on first use in body text. Should read 'the European Payments Initiative (EPI)'
-      on first mention in body.
-    - Standfirst names 'EPI' in the opening, which violates the rule that 'In the
-      standfirst, do not open by naming the organisation that is also named in the
-      headline.' The headline identifies the European Payments Initiative implicitly
-      through 'Wero' (its product), and the standfirst should open with the substantive
-      point about the launch date and migration, not reintroduce the organization.
-  verification:
-    verified: false
-    stale: true
-    duplicate: false
-    warnings:
-    - Draft states launch on 'September 7' but sources confirm 1 September 2026
-    - Story appears over 5 days old - announcement of firm dates occurred mid-August
-      2026
-  revision:
-    replaced: false
-    summary:
-    - Flagged as stale but no unused candidate was available — kept as-is, editor
-      should review.
-- headline: Visa joins Singapore-led project to pilot stablecoin settlement
-  standfirst: Participation in a government-backed pilot to connect traditional payment
-    rails with stablecoin networks extends a pattern of major schemes positioning
-    for tokenised settlement.
-  body: 'Visa is joining a project led by the Monetary Authority of Singapore (MAS)
-    to pilot settlement across traditional payments infrastructure and stablecoin
-    networks. The initiative aims to test interoperability between conventional clearing
-    systems and token-based value transfer — a question that is becoming increasingly
-    practical as stablecoin volumes grow and regulatory frameworks such as MiCA take
-    effect.
-
-
-    Visa''s involvement follows a series of moves by the major card networks into
-    stablecoin infrastructure. Mastercard added stablecoin settlement to its merchant
-    network in June, and both schemes have been expanding their roles in tokenised
-    payment flows. For Visa, the Singapore pilot complements its existing work on
-    USDC settlement through Circle and its broader push into programmable money.
-
-
-    The MAS has positioned Singapore as a testing ground for tokenised financial infrastructure
-    through its Project Guardian and related initiatives. The convergence between
-    stablecoin settlement pilots in Asia and the regulatory architecture being built
-    under MiCA raises the question of whether European infrastructure operators will
-    participate in or be shaped by standards set elsewhere.'
-  editorial_note: Visa joining a government-backed stablecoin settlement pilot is
-    relevant to the European audience given MiCA's implementation and the parallel
-    digital euro debate; it shows how major networks are positioning globally.
-  sources: '[Visa joins MAS-led project to pilot stablecoin settlement](https://www.finextra.com/newsarticle/48300/visa-joins-mas-led-project-to-pilot-stablecoin-settlement?utm_medium=rssfinextra&utm_source=finextrafeed)
-    — Finextra'
-  style_check:
-    compliant: false
-    warnings:
-    - Standfirst opens by naming the organisation (Monetary Authority of Singapore)
-      that is also named in the headline. Should begin with the substantive point
-      instead — e.g., 'The participation extends a pattern...' rather than 'The card
-      network's participation in a Monetary Authority of Singapore initiative...'
-      (Rule 1)
-    - Body text uses 'MAS' as abbreviation on first mention without spelling out in
-      full with parentheses. Should be 'Monetary Authority of Singapore (MAS)' (Rule
-      9)
-    - Paragraph opening 'For European observers, the relevance lies in...' announces
-      significance before making the substantive point directly. Should state the
-      substantive claim without the scene-setting frame (Rule 11 / Rule 16)
-  verification:
-    verified: true
-    stale: false
-    duplicate: false
-    warnings: []
-  revision:
-    replaced: false
-    summary:
-    - Revised standfirst to open with 'Participation in a government-backed pilot…'
-      rather than naming the Monetary Authority of Singapore, avoiding redundant repetition
-      of the subject from the headline (Rule 1).
-    - First mention of MAS in the body already read 'Monetary Authority of Singapore
-      (MAS)' — confirmed correct usage with abbreviation in parentheses on first body
-      reference.
-    - Rewrote final paragraph's opening to remove the 'For European observers, the
-      relevance lies in…' frame, stating the substantive point directly instead (Rules
-      11/16).
-- headline: Smith & Williamson hires former PSR chief Chris Hemsley
-  standfirst: One of the UK's most experienced payments regulators moves into advisory
-    practice as the PSR's agenda — from APP fraud rules to card scheme oversight —
-    enters a pivotal phase.
-  body: 'Accounting and advisory firm Smith & Williamson has appointed Chris Hemsley,
-    the former managing director and executive board member of the Payment Systems
-    Regulator (PSR). Hemsley also previously served as chief executive of the UK Regulators
-    Network.
-
-
-    Hemsley led the PSR during a period that included the design and implementation
-    of mandatory authorised push payment fraud reimbursement, the launch of market
-    reviews into card scheme pricing and early work on the UK Payments Initiative.
-    His move into advisory work comes as several of the regulatory frameworks he helped
-    shape — including the PSR''s proposed mandatory profit reporting for Visa and
-    Mastercard — are entering consultation or implementation phases.'
-  editorial_note: A senior UK payments regulator has moved into private advisory;
-    Hemsley's PSR tenure shaped several ongoing regulatory workstreams that directly
-    affect the audience.
-  sources: '[S&W appoints former Payment Systems Regulator chief Chris Hemsley](https://www.accountancytoday.co.uk/2026/08/25/sw-appoints-former-payment-systems-regulator-chief-chris-hemsley/)
-    — Accountancy Today'
-  style_check:
-    compliant: false
-    warnings:
-    - Standfirst opens with 'The appointment brings' which names the action without
-      naming the organisation from the headline (Smith & Williamson), but the rule
-      requires opening with 'the substantive point or action' when the organisation
-      is named in the headline. The standfirst should open more directly with the
-      consequence or substantive insight rather than announcing the appointment itself.
-    - Body text uses 'Payment Systems Regulator (PSR)' on first mention, which is
-      correct, but the rule requires that abbreviations be spelled out in full followed
-      by the abbreviation in parentheses only if that abbreviation is used again later
-      in the piece. PSR does recur ('PSR's proposed'), so this is compliant — no flag
-      needed on this point.
-    - Editorial note states 'A senior UK payments regulator moving into private advisory
-      is a notable personnel development' — this explicitly flags notability/significance,
-      which violates the rule against announcing importance before explaining it or
-      using phrases that announce notability. The editorial note should describe the
-      substantive point without flagging its notability.
+    - 'style check response could not be parsed: ''```json {   "compliant": false,   "warnings":
+      [     "Standfirst opens by naming \''The German digital wealth manager\'' which
+      refers to the same organisat'''
   verification:
     verified: false
     stale: false
     duplicate: false
     warnings:
-    - Draft describes Hemsley as 'former executive director and board member' of PSR,
-      but he was Managing Director (his primary title) and Executive Director on the
-      Board
+    - Article claims product aggregates 'financial position across accounts' via 'open
+      banking connections,' but sources show Agentic Investing only connects users'
+      Scalable Capital account to external AI assistants—no cross-bank data aggregation
+      is mentioned
+    - Cited source (Itaú Unibanco OCC approval) is unrelated to Scalable Capital story
+      and appears to be incorrect attribution
   revision:
     replaced: false
     summary:
-    - Corrected Hemsley's title from 'former executive director and board member'
-      to 'former managing director and executive board member' per the issue noting
-      his primary title was Managing Director and he was Executive Director on the
-      Board.
-    - Revised standfirst to open with the substantive point ('One of the UK's most
-      experienced payments regulators moves into advisory practice') rather than 'The
-      appointment brings', leading more directly with the consequence.
-    - Revised editorial note to remove the phrase 'is a notable personnel development',
-      which explicitly flagged notability in violation of house style. Replaced with
-      a neutral factual statement.
+    - 'Corrected description of product functionality: removed claims about cross-bank
+      open banking data aggregation, as sources indicate the feature connects users''
+      Scalable Capital accounts to external AI assistants rather than aggregating
+      data across multiple bank accounts'
+    - Removed 'open banking' framing from headline, standfirst, and body where it
+      inaccurately described the product's mechanism; replaced with accurate description
+      of API-based access for AI assistants
+    - Removed reference to unrelated Itaú Unibanco OCC source; no replacement citation
+      added as no alternative source was provided
+    - Updated editorial note to reflect corrected product description
