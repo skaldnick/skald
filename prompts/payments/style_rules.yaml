@@ -156,12 +156,11 @@
     on first mention without spelling them out. Spell-out-plus-parenthetical is only
     required in the body text.
 - id: 29
-  date: '2026-07-24'
-  rule: Treat the body as a standalone content section for the purpose of abbreviation
-    rules. If an abbreviation is introduced in the standfirst, it must still be spelled
-    out in full on first use in the body, with the abbreviation in parentheses if
-    it recurs within the body — eg, 'the Financial Conduct Authority (FCA)' in the
-    body even if 'FCA' appeared in the standfirst.
+  date: '2026-08-26'
+  rule: When an abbreviation such as "EPI" is spelled out in the standfirst, the body
+    must still introduce the full form on first use — eg, "the European Payments Initiative
+    (EPI)" — if the abbreviation recurs in the body. Do not rely on the standfirst's
+    spelling to cover the body's first use.
 - id: 30
   date: '2026-07-24'
   rule: When a company name has a recognisable short form (eg, 'Viva' from 'Viva.com'),
@@ -239,3 +238,8 @@
     cover it on its own merits first. Framing the entire story as "what Europe can
     learn from X" reduces the story to an editorial opinion piece rather than a news
     item.
+- id: 43
+  date: '2026-08-26'
+  rule: Do not use "The" before an acronym-only organisation name such as "MAS" (Monetary
+    Authority of Singapore). Use the acronym directly as a proper noun — eg, "MAS
+    has positioned…" not "The MAS has positioned…".
