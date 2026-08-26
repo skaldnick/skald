@@ -1,0 +1,273 @@
+title: 'Premium APIs, Wero in Luxembourg, Visa stablecoin pilot, PSR chief moves on
+
+  '
+social_post: 'Most European banks now sell premium APIs beyond compliance minimums,
+  Wero gets a launch date in Luxembourg, and Visa joins Singapore''s stablecoin settlement
+  pilot. Today''s briefing: {link}
+
+  '
+stories:
+- headline: Majority of Europe's largest banks now monetise premium APIs beyond compliance
+  standfirst: A Salt Edge study finds 58% of major European banks offer commercial
+    API products, reshaping competitive dynamics as PSD3 and FIDA negotiations determine
+    the boundary between mandated and voluntary data sharing.
+  body: 'Salt Edge has published new data showing that 58% of Europe''s largest banks
+    now offer premium API services beyond the access mandated by PSD2. The figure
+    marks a shift from the early years of open banking, when most banks treated API
+    provision as a compliance obligation with no commercial upside.
+
+
+    The report suggests that banks are extending their open banking foundations to
+    support more complex financial and treasury use cases, including account aggregation,
+    payment initiation for corporate clients and data-enrichment services sold to
+    third parties. The trend reflects a broader pattern: as the regulatory baseline
+    matures, the competitive question is no longer whether banks comply, but whether
+    they can build a commercial layer on top of the infrastructure they were required
+    to create.
+
+
+    For fintechs and third-party providers, the growth of premium APIs creates both
+    opportunity and complexity. Richer data and functionality improve what can be
+    built, but commercial terms vary widely across banks and markets, and standardisation
+    remains limited. As PSD3 and the Financial Data Access regulation (FIDA) move
+    through the legislative process, the interplay between mandated and voluntary
+    data sharing will shape how this market develops.'
+  editorial_note: Quantified evidence that European banks are treating open banking
+    APIs as a revenue opportunity rather than a compliance burden is a meaningful
+    data point for the audience, particularly as PSD3 and FIDA negotiations continue.
+  sources: '[Beyond Compliance: Why 58% of Europe''s Largest Banks Now Offer Premium
+    APIs](https://financialit.net/news/open-banking/beyond-compliance-why-58-europes-largest-banks-now-offer-premium-apis)
+    — Financialit | [New Salt Edge report explores the commercial potential of premium
+    APIs](https://www.openbankingexpo.com/news/new-salt-edge-report-explores-the-commercial-potential-of-premium-apis/)
+    — Openbankingexpo | [58% of Europe''s Largest Banks Now Monetize Premium Open
+    Banking APIs Beyond PSD2 ...](https://ffnews.com/news/new-data-58-of-europe-s-largest-banks-now-monetise-open-banking-apis-beyond-psd2-cfa8e046)
+    — Ffnews'
+  style_check:
+    compliant: false
+    warnings:
+    - 'Body opening: ''More than half of Europe''s largest banks now offer premium
+      API services'' — this repeats the headline''s core claim too directly. The body
+      should develop the story from first principles, not restate the headline. Consider
+      opening with ''Salt Edge''s latest study of major European banks reveals...''
+      or similar to reframe.'
+    - 'Body, paragraph 1: ''The figure — 58% — marks a notable shift'' — this explicitly
+      flags significance with the word ''notable'', violating the rule against announcing
+      importance before explaining it. Remove ''notable'' and let the contrast between
+      past and present speak for itself.'
+    - 'Standfirst: ''signalling that open banking infrastructure is shifting from
+      regulatory cost centre to revenue line'' — this is thematic and generic rather
+      than naming specific stakes or consequences. The rule requires naming ''the
+      initiatives, programmes or competitive dynamics affected''. Revise to name how
+      this affects PSD3, FIDA, specific market segments, or competitive positioning.'
+    - 'Body, paragraph 3: ''As PSD3 and the Financial Data Access regulation move
+      through the legislative process'' — ''Financial Data Access regulation'' should
+      be ''Financial Data Access (FDA) regulation'' on first use with the abbreviation
+      in parentheses, since ''FDA'' recurs implicitly in ''FIDA'' later. However,
+      check if ''FIDA'' is the correct abbreviation — if so, use ''Financial Data
+      Access Regulation (FIDA)'' on first mention in body text.'
+  verification:
+    verified: false
+    stale: false
+    duplicate: false
+    warnings:
+    - 'verification response could not be parsed: "I''ll fact-check this story about
+      European banks monetizing premium APIs. Let me search for information about
+      the Salt Edge report and the 58% figure. "'
+  revision:
+    replaced: false
+    summary:
+    - Rewrote body opening to lead with Salt Edge as the active agent rather than
+      restating the headline's core claim directly.
+    - Removed 'notable' from 'marks a notable shift' to comply with the rule against
+      explicitly flagging significance.
+    - Revised standfirst to name specific stakes — PSD3, FIDA and the competitive
+      dynamics around mandated versus voluntary data sharing — rather than making
+      a generic thematic claim.
+    - Added 'FIDA' in parentheses after 'Financial Data Access regulation' on first
+      use in the body, using the standard abbreviation for this regulation.
+- headline: 'Payconiq to Wero migration gets firm dates in Luxembourg
+
+    '
+  standfirst: 'Luxembourg users will begin downloading the Wero app from September
+    7, as EPI''s rollout extends to its sixth European market with a phased transition
+    from Payconiq.
+
+    '
+  body: 'Wero is set to launch in Luxembourg on September 7, when the app will become
+    available for download across the country, marking the European Payments Initiative''s
+    expansion into its sixth market. The rollout follows a phased approach, with some
+    existing Payconiq users migrating earlier and others gaining access on the launch
+    date.
+
+
+    The transition from Payconiq to Wero in Luxembourg follows a similar pattern to
+    the migration underway in the Netherlands, where iDEAL is being folded into Wero''s
+    infrastructure. Luxembourg''s relatively small market makes it a lower-risk deployment,
+    but the migration tests EPI''s ability to replace established national payment
+    brands — a challenge that will intensify as Wero enters larger and more fragmented
+    markets.
+
+
+    Person-to-person payments will be the initial use case, consistent with Wero''s
+    launch strategy in Germany, France, Belgium and the Netherlands. Online merchant
+    payments are expected to follow, though timelines for commercial acceptance in
+    Luxembourg have not been confirmed.
+
+    '
+  editorial_note: 'Concrete launch dates for Wero in a new market are operationally
+    relevant for payments professionals tracking EPI''s expansion pace and migration
+    playbook.
+
+    '
+  sources: '[From Payconiq to Wero: what changes and when in Luxembourg?](https://www.luxtimes.lu/businessandfinance/some-wero-users-will-have-to-wait-a-week-longer-to-download-the-app/160424210.html)
+    — Luxtimes'
+  style_check:
+    compliant: false
+    warnings:
+    - 'Standfirst opens by naming ''EPI'' without spelling it out in full first. Rule
+      requires: ''On first use of an abbreviation that must be retained, spell it
+      out in full followed by the abbreviation in parentheses.'' The standfirst should
+      read ''as the European Payments Initiative''s (EPI) rollout extends'' or use
+      the spelled-out form.'
+    - Body text uses 'EPI' without spelling out the acronym on first use. Rule requires
+      abbreviations to be 'spelled out in full followed by the abbreviation in parentheses'
+      on first use in body text. Should read 'the European Payments Initiative (EPI)'
+      on first mention in body.
+    - Standfirst names 'EPI' in the opening, which violates the rule that 'In the
+      standfirst, do not open by naming the organisation that is also named in the
+      headline.' The headline identifies the European Payments Initiative implicitly
+      through 'Wero' (its product), and the standfirst should open with the substantive
+      point about the launch date and migration, not reintroduce the organization.
+  verification:
+    verified: false
+    stale: true
+    duplicate: false
+    warnings:
+    - Draft states launch on 'September 7' but sources confirm 1 September 2026
+    - Story appears over 5 days old - announcement of firm dates occurred mid-August
+      2026
+  revision:
+    replaced: false
+    summary:
+    - Flagged as stale but no unused candidate was available — kept as-is, editor
+      should review.
+- headline: Visa joins Singapore-led project to pilot stablecoin settlement
+  standfirst: Participation in a government-backed pilot to connect traditional payment
+    rails with stablecoin networks extends a pattern of major schemes positioning
+    for tokenised settlement.
+  body: 'Visa is joining a project led by the Monetary Authority of Singapore (MAS)
+    to pilot settlement across traditional payments infrastructure and stablecoin
+    networks. The initiative aims to test interoperability between conventional clearing
+    systems and token-based value transfer — a question that is becoming increasingly
+    practical as stablecoin volumes grow and regulatory frameworks such as MiCA take
+    effect.
+
+
+    Visa''s involvement follows a series of moves by the major card networks into
+    stablecoin infrastructure. Mastercard added stablecoin settlement to its merchant
+    network in June, and both schemes have been expanding their roles in tokenised
+    payment flows. For Visa, the Singapore pilot complements its existing work on
+    USDC settlement through Circle and its broader push into programmable money.
+
+
+    The MAS has positioned Singapore as a testing ground for tokenised financial infrastructure
+    through its Project Guardian and related initiatives. The convergence between
+    stablecoin settlement pilots in Asia and the regulatory architecture being built
+    under MiCA raises the question of whether European infrastructure operators will
+    participate in or be shaped by standards set elsewhere.'
+  editorial_note: Visa joining a government-backed stablecoin settlement pilot is
+    relevant to the European audience given MiCA's implementation and the parallel
+    digital euro debate; it shows how major networks are positioning globally.
+  sources: '[Visa joins MAS-led project to pilot stablecoin settlement](https://www.finextra.com/newsarticle/48300/visa-joins-mas-led-project-to-pilot-stablecoin-settlement?utm_medium=rssfinextra&utm_source=finextrafeed)
+    — Finextra'
+  style_check:
+    compliant: false
+    warnings:
+    - Standfirst opens by naming the organisation (Monetary Authority of Singapore)
+      that is also named in the headline. Should begin with the substantive point
+      instead — e.g., 'The participation extends a pattern...' rather than 'The card
+      network's participation in a Monetary Authority of Singapore initiative...'
+      (Rule 1)
+    - Body text uses 'MAS' as abbreviation on first mention without spelling out in
+      full with parentheses. Should be 'Monetary Authority of Singapore (MAS)' (Rule
+      9)
+    - Paragraph opening 'For European observers, the relevance lies in...' announces
+      significance before making the substantive point directly. Should state the
+      substantive claim without the scene-setting frame (Rule 11 / Rule 16)
+  verification:
+    verified: true
+    stale: false
+    duplicate: false
+    warnings: []
+  revision:
+    replaced: false
+    summary:
+    - Revised standfirst to open with 'Participation in a government-backed pilot…'
+      rather than naming the Monetary Authority of Singapore, avoiding redundant repetition
+      of the subject from the headline (Rule 1).
+    - First mention of MAS in the body already read 'Monetary Authority of Singapore
+      (MAS)' — confirmed correct usage with abbreviation in parentheses on first body
+      reference.
+    - Rewrote final paragraph's opening to remove the 'For European observers, the
+      relevance lies in…' frame, stating the substantive point directly instead (Rules
+      11/16).
+- headline: Smith & Williamson hires former PSR chief Chris Hemsley
+  standfirst: One of the UK's most experienced payments regulators moves into advisory
+    practice as the PSR's agenda — from APP fraud rules to card scheme oversight —
+    enters a pivotal phase.
+  body: 'Accounting and advisory firm Smith & Williamson has appointed Chris Hemsley,
+    the former managing director and executive board member of the Payment Systems
+    Regulator (PSR). Hemsley also previously served as chief executive of the UK Regulators
+    Network.
+
+
+    Hemsley led the PSR during a period that included the design and implementation
+    of mandatory authorised push payment fraud reimbursement, the launch of market
+    reviews into card scheme pricing and early work on the UK Payments Initiative.
+    His move into advisory work comes as several of the regulatory frameworks he helped
+    shape — including the PSR''s proposed mandatory profit reporting for Visa and
+    Mastercard — are entering consultation or implementation phases.'
+  editorial_note: A senior UK payments regulator has moved into private advisory;
+    Hemsley's PSR tenure shaped several ongoing regulatory workstreams that directly
+    affect the audience.
+  sources: '[S&W appoints former Payment Systems Regulator chief Chris Hemsley](https://www.accountancytoday.co.uk/2026/08/25/sw-appoints-former-payment-systems-regulator-chief-chris-hemsley/)
+    — Accountancy Today'
+  style_check:
+    compliant: false
+    warnings:
+    - Standfirst opens with 'The appointment brings' which names the action without
+      naming the organisation from the headline (Smith & Williamson), but the rule
+      requires opening with 'the substantive point or action' when the organisation
+      is named in the headline. The standfirst should open more directly with the
+      consequence or substantive insight rather than announcing the appointment itself.
+    - Body text uses 'Payment Systems Regulator (PSR)' on first mention, which is
+      correct, but the rule requires that abbreviations be spelled out in full followed
+      by the abbreviation in parentheses only if that abbreviation is used again later
+      in the piece. PSR does recur ('PSR's proposed'), so this is compliant — no flag
+      needed on this point.
+    - Editorial note states 'A senior UK payments regulator moving into private advisory
+      is a notable personnel development' — this explicitly flags notability/significance,
+      which violates the rule against announcing importance before explaining it or
+      using phrases that announce notability. The editorial note should describe the
+      substantive point without flagging its notability.
+  verification:
+    verified: false
+    stale: false
+    duplicate: false
+    warnings:
+    - Draft describes Hemsley as 'former executive director and board member' of PSR,
+      but he was Managing Director (his primary title) and Executive Director on the
+      Board
+  revision:
+    replaced: false
+    summary:
+    - Corrected Hemsley's title from 'former executive director and board member'
+      to 'former managing director and executive board member' per the issue noting
+      his primary title was Managing Director and he was Executive Director on the
+      Board.
+    - Revised standfirst to open with the substantive point ('One of the UK's most
+      experienced payments regulators moves into advisory practice') rather than 'The
+      appointment brings', leading more directly with the consequence.
+    - Revised editorial note to remove the phrase 'is a notable personnel development',
+      which explicitly flagged notability in violation of house style. Replaced with
+      a neutral factual statement.
