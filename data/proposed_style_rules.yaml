@@ -2,13 +2,4 @@
 # Populated automatically by tools/extract_learning.py (via GitHub Actions on push
 # to data/feedback/). Review and promote/edit in the dashboard's 'Proposed style
 # rules' section — accepted rules move to prompts/payments/style_rules.yaml.
-- date: '2026-08-26'
-  rule: When an abbreviation such as "EPI" is spelled out in the standfirst, the body
-    must still introduce the full form on first use — eg, "the European Payments Initiative
-    (EPI)" — if the abbreviation recurs in the body. Do not rely on the standfirst's
-    spelling to cover the body's first use.
-  supersedes: 29
-- date: '2026-08-26'
-  rule: Do not use "The" before an acronym-only organisation name such as "MAS" (Monetary
-    Authority of Singapore). Use the acronym directly as a proper noun — eg, "MAS
-    has positioned…" not "The MAS has positioned…".
+[]
