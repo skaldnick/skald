@@ -2,13 +2,4 @@
 # Populated automatically by tools/extract_learning.py (via GitHub Actions on push
 # to data/feedback/). Review and promote/edit in the dashboard's 'Proposed style
 # rules' section — accepted rules move to prompts/payments/style_rules.yaml.
-- date: '2026-08-27'
-  rule: Do not cover the publication of quarterly or annual results as a story in
-    its own right. Results are only worth covering if they are genuinely notable —
-    for example, a record profit, a surprising turnaround, or an unexpected loss —
-    and even then only if the company is a large or particularly significant player
-    in the payments sector.
-- date: '2026-08-27'
-  rule: Do not run stories that are stale — that is, where the news event or announcement
-    is no longer current. Only cover developments that are timely and recent enough
-    to be of immediate relevance to readers.
+[]
