@@ -243,3 +243,10 @@
   rule: Do not use "The" before an acronym-only organisation name such as "MAS" (Monetary
     Authority of Singapore). Use the acronym directly as a proper noun — eg, "MAS
     has positioned…" not "The MAS has positioned…".
+- id: 44
+  date: '2026-08-27'
+  rule: Do not cover the publication of quarterly or annual results as a story in
+    its own right. Results are only worth covering if they are genuinely notable —
+    for example, a record profit, a surprising turnaround, or an unexpected loss —
+    and even then only if the company is a large or particularly significant player
+    in the payments sector.
