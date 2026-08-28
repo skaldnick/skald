@@ -2,17 +2,4 @@
 # Populated automatically by tools/extract_learning.py (via GitHub Actions on push
 # to data/feedback/). Review and promote/edit in the dashboard's 'Proposed style
 # rules' section — accepted rules move to prompts/payments/style_rules.yaml.
-- date: '2026-08-28'
-  rule: 'Only include an abbreviation in parentheses after a term if that abbreviation
-    is used again later in the same piece. If the short form never recurs, spell out
-    the term in full without adding the abbreviation in brackets. Apply this at the
-    sentence level: if "FCA" appears only once in the body, write "Financial Conduct
-    Authority" without the parenthetical "(FCA)".'
-  supersedes: 13
-- date: '2026-08-28'
-  rule: Do not include parenthetical date or sourcing references such as "reported
-    on August 27" or "disclosed on August 27" in the body text when the date has already
-    been established in context or is not the primary focus. If the date is genuinely
-    needed for precision, integrate it naturally into the sentence rather than as
-    a parenthetical aside — eg, "The initiative, announced on August 27," is acceptable
-    only if the date adds meaningful context; otherwise omit it entirely.
+[]
