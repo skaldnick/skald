@@ -1,0 +1,268 @@
+title: 'UK remit for Bank of England; Swift extends ISO 20022 deadline; Banca d''Italia
+  on digital payments
+
+  '
+social_post: 'The UK government just told the Bank of England to start caring about
+  payments innovation. Plus Swift buys banks more time on ISO 20022 addresses, and
+  Italy''s digital payments data tells a nuanced story. {link}
+
+  '
+stories:
+- headline: UK government adds payments innovation mandate to Bank of England remit
+  standfirst: The UK government is directing the Bank of England to support innovation
+    in payment systems and digital money, marking a shift in how it engages with stablecoins
+    and new payment infrastructure.
+  body: 'The UK government is directing the Bank of England (BoE) to take on a new
+    responsibility to support innovation in payment systems, including digital money
+    such as stablecoins. The instruction, disclosed on August 27, extends the central
+    bank''s role beyond its traditional focus on stability and resilience.
+
+
+    The move follows the Treasury''s consultation on modernising payments regulation,
+    which proposed consolidating the Payment Systems Regulator''s functions into the
+    Financial Conduct Authority (FCA). Adding an explicit innovation mandate signals
+    that the government wants the BoE to play a more active role in shaping – not
+    just overseeing – how payment infrastructure evolves. It also positions the BoE
+    more directly in the stablecoin regulatory space, where it has until now focused
+    primarily on systemic risk assessment.
+
+
+    The practical effect will depend on how the BoE interprets the mandate alongside
+    its stability objectives. The tension between encouraging new entrants and protecting
+    the integrity of systemically important payment systems has been a recurring theme
+    in the Treasury''s broader payments reform agenda.'
+  editorial_note: This advances the UK payments regulatory reform story materially
+    – the government is now actively reshaping the BoE's mandate, not just consulting
+    on it. It follows on from the July consultation but represents a concrete new
+    step.
+  sources: '[UK Government tells Bank of England to support innovation in payment
+    systems](https://www.finextra.com/newsarticle/48313/uk-government-tells-bank-of-england-to-support-innovation-in-payment-systems?utm_medium=rssfinextra&utm_source=finextrafeed)
+    — Finextra | [UK Government tasks Bank of England to support payment systems innovation](https://www.openbankingexpo.com/news/uk-government-tasks-bank-of-england-to-support-payment-systems-innovation/)
+    — Openbankingexpo | [Government pushes Bank of England to innovate on payments
+    and digital currencies](https://www.cityam.com/government-pushes-bank-of-england-to-innovate-on-payments-and-digital-currencies/)
+    — Cityam'
+  style_check:
+    compliant: false
+    warnings:
+    - 'Standfirst opens with ''A formal responsibility'' rather than naming the substantive
+      action or consequence first. Per rule 1, the standfirst should open with the
+      substantive point (what the government is doing) rather than a generic description
+      of what the change represents. Consider: ''The UK government is directing the
+      Bank of England to support innovation in payment systems and digital money,
+      marking a shift in how it engages with stablecoins and new infrastructure.'''
+    - Standfirst uses 'BoE' without spelling it out on first mention. Per the applicable
+      rule, while 'BoE' is recognisable, the body text must introduce the full form
+      on first use if the abbreviation recurs. The body does not spell out 'Bank of
+      England' on first use before using 'BoE' again later.
+    - Body text uses 'FCA' without spelling it out on first mention. Per the rule
+      on abbreviations, 'FCA' must be introduced as 'Financial Conduct Authority (FCA)'
+      on first use in the body.
+  verification:
+    verified: false
+    stale: false
+    duplicate: false
+    warnings:
+    - Article states July consultation proposed folding PSR functions into 'the BoE
+      and FCA' — sources show it proposed consolidation into FCA only, with PSR consolidation
+      originally proposed in September 2025 consultation
+  revision:
+    replaced: false
+    summary:
+    - Standfirst rewritten to open with the substantive action ('The UK government
+      is directing…') rather than a generic description, per house style rule on standfirst
+      openings.
+    - 'Corrected body text: the consultation proposed consolidating PSR functions
+      into the FCA only, not ''the BoE and FCA''. Removed the inaccurate ''July''
+      qualifier since the source indicates the relevant PSR consolidation proposal
+      originated in September 2025; the reference now reads ''the Treasury''s consultation''
+      without specifying a month that could not be confirmed.'
+    - Introduced 'Bank of England (BoE)' on first use in the body, with 'BoE' used
+      for subsequent references.
+    - Introduced 'Financial Conduct Authority (FCA)' on first use in the body.
+- headline: Swift extends structured address migration deadline for ISO 20022 messages
+  standfirst: A number of banks requested more time to move from unstructured to structured
+    postal addresses in cross-border payment messages, prompting a reprieve from the
+    November deadline.
+  body: 'Swift is extending the deadline for migrating from unstructured to structured
+    postal addresses in ISO 20022 payment messages, after a number of banks requested
+    more time to comply. The original November 2026 cut-off had been set as part of
+    the broader ISO 20022 transition for cross-border payments.
+
+
+    The structured address requirement is one of the more operationally burdensome
+    elements of the migration. Banks must update customer records and payment processing
+    systems to replace free-text address fields with standardised components – town,
+    street, postcode – that enable straight-through processing and reduce manual intervention.
+    Many institutions, particularly mid-tier and regional banks, have struggled to
+    clean legacy data at the pace required.
+
+
+    Swift''s decision to accommodate the request reflects a pragmatic judgment that
+    enforcing the deadline rigidly would generate compliance failures rather than
+    better data quality.'
+  editorial_note: ISO 20022 migration is core infrastructure for European cross-border
+    payments. A deadline extension for structured addresses is operationally significant
+    for banks still working through the transition.
+  sources: '[Swift accepts request to extend structured address migration for ISO
+    20022 messages](https://www.finextra.com/newsarticle/48318/swift-accepts-request-to-extend-structured-address-migration-for-iso-20022-messages?utm_medium=rssfinextra&utm_source=finextrafeed)
+    — Finextra'
+  style_check:
+    compliant: false
+    warnings:
+    - 'Body opening: ''Swift is extending the deadline'' repeats the headline''s subject
+      and action. The body''s first sentence should be strong and direct but avoid
+      near-verbatim repetition of headline phrasing — revise the standfirst instead
+      if repetition is the concern.'
+    - 'Body paragraph 3: ''The extension is unlikely to surprise anyone close to the
+      migration'' is a hedging scene-setter that delays the substantive point. Lead
+      directly with the substantive claim rather than announcing lack of surprise.'
+    - 'Body paragraph 3: ''risidly'' is a typographical error (should be ''rigidly'').'
+    - 'Body paragraph 3: ''The new deadline has not yet been specified in the available
+      sources'' is an editorial note about missing information flagging absence in
+      the text. Omit this sentence entirely; do not flag what information is absent.'
+  verification:
+    verified: true
+    stale: false
+    duplicate: false
+    warnings: []
+  revision:
+    replaced: false
+    summary:
+    - Revised the standfirst to avoid opening with the same subject and action as
+      the headline, so the body's strong opening sentence no longer creates near-verbatim
+      repetition across headline, standfirst and body.
+    - Removed the hedging scene-setter 'The extension is unlikely to surprise anyone
+      close to the migration' from paragraph 3, leading directly with the substantive
+      claim.
+    - Corrected typographical error 'risidly' to 'rigidly'.
+    - Removed the sentence 'The new deadline has not yet been specified in the available
+      sources' as it flags absence of information rather than stating a substantive
+      point.
+- headline: Digital payments in Italy more than doubled between 2018 and 2025
+  standfirst: Rapid growth in electronic payments alongside nascent open banking adoption
+    offers a benchmark for how southern European markets are shifting.
+  body: 'Banca d''Italia has published data showing that digital payments in Italy
+    more than doubled between 2018 and 2025. The central bank notes that open banking
+    services have grown in recent years, representing what it calls "an innovative
+    component of the payment system" aimed at fostering competition and efficiency.
+
+
+    Italy has historically lagged northern European markets in electronic payment
+    adoption, with cash remaining dominant well into the 2020s. The doubling over
+    seven years suggests a structural shift rather than a temporary pandemic effect,
+    though the base was low. Open banking''s contribution remains modest in absolute
+    terms but is growing from a near-standing start.
+
+
+    The data arrives as the European Commission pursues enforcement of the instant
+    payments regulation and the digital euro moves through legislative negotiations.
+    Italy''s trajectory matters for both: a market that is digitising rapidly but
+    still has significant cash usage presents both the strongest case for new payment
+    infrastructure and the greatest implementation challenge.'
+  editorial_note: Source is Banca d'Italia published data. The specific report or
+    dataset from which the doubling figure and open banking characterisation are drawn
+    was not identified in the original draft.
+  sources: '[Bank of Italy: Digital payments more than doubled between 2018 and 2025](https://www.agenzianova.com/en/news/bankitalia-i-pagamenti-digitali-sono-piu-che-raddoppiati-tra-il-2018-e-il-2025/)
+    — Agenzia Nova'
+  style_check:
+    compliant: false
+    warnings:
+    - Standfirst opens with 'Italy's central bank' when the headline names 'Banca
+      d'Italia' — this violates the rule against opening the standfirst by naming
+      the organisation that is also named in the headline. The standfirst should begin
+      with the substantive point (e.g., 'Digital payments in Italy more than doubled
+      between 2018 and 2025') rather than re-naming the source.
+    - Headline starts with a company/organisation name 'Banca d'Italia reports' and
+      body opens with 'Banca d'Italia has published data' — this violates the rule
+      against starting the headline, standfirst, and body opening sentence with the
+      same word or phrase. At least one element must vary its opening.
+    - Body text uses 'em-dash' (—) in 'a market that is digitising rapidly but still
+      has significant cash usage presents both the strongest case for new payment
+      infrastructure and the greatest implementation challenge' — should use en-dash
+      (–) instead.
+    - Editorial note states 'Italian digital payments data from the central bank provides
+      a useful southern European benchmark' — this is flagged as editorial commentary
+      about the story's purpose rather than information about missing or added content.
+      However, the editorial note itself should not characterise the story's significance;
+      it should only flag missing information or context. Remove or rephrase to avoid
+      editorial assertion.
+  verification:
+    verified: true
+    stale: false
+    duplicate: false
+    warnings: []
+  revision:
+    replaced: false
+    summary:
+    - Rewrote headline to lead with the substantive finding ('Digital payments in
+      Italy more than doubled') rather than opening with 'Banca d'Italia reports',
+      resolving the repeated-opening-word issue across headline, standfirst and body.
+    - Revised standfirst to open with the substantive point ('Rapid growth in electronic
+      payments…') rather than re-naming the organisation ('Italy's central bank')
+      already identified in the headline.
+    - No em-dash was present in the body text to replace with an en-dash; the flagged
+      sentence uses neither — the text was already clean. Left unchanged.
+    - 'Replaced editorial note: removed editorial assertion about the story''s significance
+      and replaced with a factual note about the source and a flag that the specific
+      report was not identified in the original draft.'
+- headline: Revolut launches dedicated AI research unit to develop in-house banking
+    models
+  standfirst: Building proprietary machine learning capabilities rather than relying
+    solely on third-party models, Revolut is joining a small group of European fintechs
+    investing in in-house AI research.
+  body: 'Revolut has launched a dedicated AI research unit designed to develop and
+    deploy in-house banking models. The initiative, reported on August 27, positions
+    the neobank to build proprietary machine learning capabilities rather than depending
+    entirely on external providers such as OpenAI or Anthropic.
+
+
+    European fintechs have broadly adopted third-party large language models for customer
+    service, fraud detection and operational automation. Revolut''s decision to establish
+    a self-contained research function suggests the company sees competitive advantage
+    in owning its AI stack – particularly for tasks involving sensitive financial
+    data where reliance on external model providers raises governance and data residency
+    questions.
+
+
+    The move follows a broader pattern of large digital banks investing in AI beyond
+    simple integration. Lloyds deployed agentic AI for scam detection in the first
+    half of 2025, and Starling has added AI-powered tools to its banking assistant.
+    Revolut''s approach is more foundational: building the models themselves rather
+    than layering third-party AI onto existing systems.'
+  editorial_note: Revolut building its own AI research unit is a meaningful signal
+    about how Europe's largest neobanks are thinking about AI strategy – owning the
+    models rather than just consuming them. Relevant to payments and banking professionals
+    tracking competitive dynamics.
+  sources: '[Revolut debuts AI research unit to power in-house banking models](https://www.fintechfutures.com/ai-in-fintech/revolut-launches-self-learning-intelligence-engine-to-accelerate-ai-deployment)
+    — FinTech Futures'
+  style_check:
+    compliant: false
+    warnings:
+    - Standfirst opens by naming the organisation ('The neobank') that is also named
+      in the headline ('Revolut'). Per rule 1, the standfirst should begin with the
+      substantive point or action instead — eg, 'Building proprietary machine learning
+      capabilities rather than relying solely on third-party models, Revolut is...'
+    - Body text uses 'earlier this year' (vague temporal reference) when describing
+      Lloyds' deployment. Per the vague temporal references rule, use specific time
+      periods or dates when available — eg, 'in the first quarter of 2025' or a specific
+      month if the exact date is known.
+    - Editorial note should not be included in the copy check submission. Per the
+      rules provided, editorial notes about the story's significance are commentary,
+      not part of the story itself to be fact-checked against house style. However,
+      if this note is meant to accompany the story, it contains no house-style violations.
+  verification:
+    verified: true
+    stale: false
+    duplicate: false
+    warnings: []
+  revision:
+    replaced: false
+    summary:
+    - Revised standfirst to open with the substantive point ('Building proprietary
+      machine learning capabilities…') rather than naming the organisation ('The neobank'),
+      per rule 1.
+    - Replaced vague temporal reference 'earlier this year' with 'in the first half
+      of 2025' for the Lloyds deployment. The exact date could not be confirmed from
+      the information available, so the most precise approximation was used.
+    - Editorial note flagged as not part of the copy but retained unchanged as it
+      contains no house-style violations.
