@@ -71,10 +71,12 @@
   date: '2026-07-13'
   rule: Use "judgment" not "judgement".
 - id: 13
-  date: '2026-07-13'
-  rule: Only include an abbreviation or initialism in parentheses after a term if
-    that abbreviation is used again later in the same piece. If the short form never
-    recurs, spell out the term in full without adding the abbreviation in brackets.
+  date: '2026-08-28'
+  rule: 'Only include an abbreviation in parentheses after a term if that abbreviation
+    is used again later in the same piece. If the short form never recurs, spell out
+    the term in full without adding the abbreviation in brackets. Apply this at the
+    sentence level: if "FCA" appears only once in the body, write "Financial Conduct
+    Authority" without the parenthetical "(FCA)".'
 - id: 14
   date: '2026-07-14'
   rule: Use people's names alongside their titles on first reference — eg, "Rachel
