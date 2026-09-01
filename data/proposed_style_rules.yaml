@@ -2,20 +2,4 @@
 # Populated automatically by tools/extract_learning.py (via GitHub Actions on push
 # to data/feedback/). Review and promote/edit in the dashboard's 'Proposed style
 # rules' section — accepted rules move to prompts/payments/style_rules.yaml.
-- date: '2026-09-01'
-  rule: Do not frame a paragraph around its relevance to European readers by opening
-    with "For European payments professionals, …" or equivalent constructions. If
-    the European dimension is genuinely relevant, state it directly as part of the
-    narrative without prefacing it with an audience-address clause.
-  supersedes: 42
-- date: '2026-09-01'
-  rule: Do not include a sentence or clause that explicitly flags a date or timing
-    detail — such as "published in May" — unless that date is material to the story.
-    If the date adds no substantive meaning, omit it rather than inserting it as a
-    qualifier.
-  supersedes: 19
-- date: '2026-09-01'
-  rule: Do not cover a story that merely restates or summarises existing public information
-    without advancing it. A story must add something new — a development, a decision,
-    a consequence, or a perspective not yet reported. If the item only repeats what
-    is already known without moving the story forward, reject it.
+[]
