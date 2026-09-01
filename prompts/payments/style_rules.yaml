@@ -234,12 +234,11 @@
     it must anchor the reader in the specific development and name the affected parties
     or programmes where they add precision.
 - id: 42
-  date: '2026-08-18'
-  rule: Do not lead a story on a non-European market development primarily as a comparative
-    lesson for European readers. If the development is relevant to a European audience,
-    cover it on its own merits first. Framing the entire story as "what Europe can
-    learn from X" reduces the story to an editorial opinion piece rather than a news
-    item.
+  date: '2026-09-01'
+  rule: Do not frame a paragraph around its relevance to European readers by opening
+    with "For European payments professionals, …" or equivalent constructions. If
+    the European dimension is genuinely relevant, state it directly as part of the
+    narrative without prefacing it with an audience-address clause.
 - id: 43
   date: '2026-08-26'
   rule: Do not use "The" before an acronym-only organisation name such as "MAS" (Monetary
