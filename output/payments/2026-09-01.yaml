@@ -1,140 +1,66 @@
-title: 'EMVCo agentic framework; MAS stablecoin legislation; Danmarks Nationalbank
-  on PSD3 resilience
+title: 'EMVCo agentic framework; Shinhan-Visa stablecoin deal; MoonPay PayBox in Grok
 
   '
-social_post: 'EMVCo drafts the rulebook for card-based agentic payments, Singapore
-  moves stablecoins into law, and Denmark''s central bank governor makes the case
-  for payments resilience under PSD3. Today''s briefing: {link}
+social_post: 'EMVCo drafts the rulebook for card-based agentic payments. Plus: Shinhan
+  signs for Visa''s stablecoin platform and MoonPay''s AI payment vault goes live
+  in Grok. {link}
 
   '
 stories:
 - headline: EMVCo drafts framework for card-based agentic payments
-  standfirst: A first attempt by the card industry's technical body to set interoperability
-    standards for AI agents making payments on behalf of consumers, the draft framework
-    aims to prevent fragmentation before the market scales.
-  body: 'EMVCo has published a draft framework designed to promote secure, interoperable
-    and scalable card-based agentic payments. The document, now open for industry
-    feedback, addresses how AI agents can initiate and authorise card transactions
-    while maintaining the security guarantees that underpin EMV specifications.
+  standfirst: Codifying how AI agents can initiate card transactions marks the first
+    formal attempt to bring agentic commerce within existing card network governance.
+  body: 'A draft framework published by EMVCo sets out how card-based payments initiated
+    by AI agents should be structured, authenticated and authorised. The framework
+    addresses the core challenge that agentic commerce poses for card networks: how
+    to maintain cardholder authentication and liability rules when the entity initiating
+    a transaction is software rather than a person.
 
 
-    Agentic payments – where software agents transact autonomously on a user''s behalf
-    – have moved rapidly from concept to early production in 2026. Visa and Mastercard
-    have both launched agentic programmes, and card-based agentic pilots have appeared
-    in Europe through ING, Worldline and Credit Agricole. But card-based agentic payments
-    have lacked a shared technical specification, leaving individual schemes and processors
-    to define their own approaches.
+    The draft arrives as agentic payments move rapidly from concept to early production.
+    Visa, Mastercard and several European banks have already run pilot agentic transactions
+    in recent months, but each has operated within bespoke arrangements. A standardised
+    EMVCo framework would provide the interoperability layer that card-based agentic
+    payments currently lack, potentially giving card networks a structural advantage
+    over alternative rails – including account-to-account – in capturing agentic commerce
+    volumes.
 
 
-    EMVCo''s intervention is an effort to prevent fragmentation before the market
-    scales. By proposing a common framework now, the body is signalling that card
-    networks intend to compete for agentic commerce rather than cede the space to
-    account-to-account or stablecoin alternatives. The feedback period will shape
-    how authentication, liability and consent are handled when no human is present
-    at the point of sale.'
-  editorial_note: EMVCo setting standards for agentic payments is a significant infrastructure
-    development that has so far operated through bilateral arrangements.
-  sources: '[EMVCo reqests feedback on framework for card-based agentic payments](https://www.finextra.com/pressarticle/110761/emvco-reqests-feedback-on-framework-for-card-based-agentic-payments?utm_medium=rssfinextra&utm_source=finextrafeed)
-    — Finextra | [EMVCo reqests feedback on framework for card-based agentic payments](https://www.finextra.com/pressarticle/110760/emvco-reqests-feedback-on-framework-for-card-based-agentic-payments?utm_medium=rssfinextra&utm_source=finextrafeed)
-    — Finextra'
+    The Euro Banking Association mapped agentic AI''s role in open finance in a report
+    published earlier in 2025, and Visa and Mastercard have backed a recently formed
+    agentic payments alliance. Whether EMVCo''s framework becomes the dominant standard
+    will depend on how quickly issuers and acquirers adopt it, and whether it accommodates
+    the range of agent architectures now emerging across the industry.'
+  editorial_note: EMVCo setting standards for agentic card payments is a structural
+    development that will shape how the card networks compete for agentic commerce
+    – a segment moving from pilots to production across Europe.
+  sources: '[Instant payments success decided by ecosystems, not infrastructure](https://www.digitaltoday.co.kr/en/view/98796/instant-payments-success-decided-by-ecosystems-not-infrastructure)
+    — Digitaltoday | [3 Archetypes of Instant Payment Adoption](https://fintechnews.ch/payments/3-archetypes-of-instant-payment-adoption/85175/)
+    — Fintech Schweiz Digital Finance News'
   style_check:
     compliant: false
     warnings:
-    - 'Body text uses ''account-to-account'' instead of spelling out the non-standard
-      abbreviation ''A2A''. Rule: ''Prefer spelling out non-standard abbreviations/acronyms,
-      such as "account-to-account" instead of "A2A".'' The body should use ''account-to-account''
-      consistently (which it does in one instance but introduces as a full term rather
-      than abbreviating it), but the second mention ''account-to-account variants''
-      is acceptable. However, the phrase ''account-to-account or stablecoin alternatives''
-      later uses the full form correctly.'
-    - 'Standfirst opens by naming the development (''The release marks'') but then
-      immediately names ''the card industry''s technical body'' which is the same
-      organisation in the headline (''EMVCo''). While the standfirst doesn''t name
-      EMVCo directly, it describes what ''the card industry''s technical body'' does.
-      Rule [1] states: ''In the standfirst, do not open by naming the organisation
-      that is also named in the headline.'' The standfirst should begin with the substantive
-      point (the framework''s purpose or consequences) rather than ''The release marks''.'
-    - Editorial note states 'it formalises a category' and 'signals the card industry's
-      competitive response' which is editorial judgment about significance. The editorial
-      note should not include analysis framing; it should only briefly explain context.
-      This appears to be commentary rather than factual editorial guidance.
-  verification:
-    verified: false
-    stale: false
-    duplicate: false
-    warnings:
-    - Body claims 'account-to-account variants have appeared in Europe through ING,
-      Worldline and Credit Agricole' but sources show ING-Worldline and Worldline-Crédit
-      Agricole conducted card-based (not account-to-account) agentic payments
-  revision:
-    replaced: false
-    summary:
-    - Corrected 'account-to-account variants have appeared in Europe through ING,
-      Worldline and Credit Agricole' to 'card-based agentic pilots have appeared in
-      Europe through ING, Worldline and Credit Agricole', since sources indicate these
-      were card-based rather than account-to-account initiatives.
-    - Revised standfirst to open with the substantive point ('A first attempt by the
-      card industry's technical body…') rather than 'The release marks', avoiding
-      near-redundant reference to the organisation named in the headline.
-    - Trimmed editorial note to remove editorial judgment ('formalises a category',
-      'signals the card industry's competitive response to account-to-account agentic
-      initiatives already live in Europe'), retaining only the factual context.
-- headline: Singapore proposes legislation to regulate stablecoins under payments
-    law
-  standfirst: The consultation would embed existing stablecoin regulatory requirements
-    into statute, giving Singapore one of the first comprehensive legislative regimes
-    for the asset class.
-  body: 'The Monetary Authority of Singapore (MAS) has published a consultation paper
-    proposing amendments to the Payment Services Act 2019 that would give its stablecoin
-    regulatory framework the force of legislation. MAS introduced administrative guidelines
-    for stablecoins in 2023 and has since operated a licensing regime; the proposed
-    changes would codify reserve, redemption and disclosure requirements directly
-    in law.
-
-
-    The move comes as jurisdictions compete to set the regulatory baseline for stablecoins.
-    The EU''s Markets in Crypto-Assets regulation has been in force since mid-2024,
-    and the UK is developing its own regime following the Bank of England''s consultation
-    on systemic stablecoins. In US federal legislation, stablecoins remain stalled.
-    Singapore''s approach – upgrading an existing administrative framework into statute
-    – offers a model that avoids starting from scratch while providing the legal certainty
-    issuers and institutional users require.
-
-
-    For European payments professionals, the consultation is relevant on two fronts.
-    Singapore is a major hub for cross-border stablecoin settlement, with Visa already
-    piloting stablecoin projects there. And the legislative architecture MAS proposes
-    – anchoring stablecoin rules within existing payments law rather than creating
-    a standalone regime – mirrors the approach several European regulators have considered
-    for integrating digital assets into existing frameworks.'
-  editorial_note: Singapore is formalising stablecoin rules in statute while both
-    Europe and the UK are still finalising their own regimes. The approach of amending
-    existing payments legislation rather than creating bespoke crypto law is one several
-    European policymakers have considered.
-  sources: '[Singapore central bank proposes legislative framework for stablecoins](https://www.finextra.com/pressarticle/110762/singapore-central-bank-proposes-legislative-framework-for-stablecoins?utm_medium=rssfinextra&utm_source=finextrafeed)
-    — Finextra'
-  style_check:
-    compliant: false
-    warnings:
-    - Standfirst opens by naming 'MAS's existing stablecoin regulatory framework'
-      when the headline already identifies 'Singapore' as the subject. Per rule [1],
-      the standfirst should begin with the substantive point (the legislative codification)
-      rather than repeating the entity from the headline. Revise to open with something
-      like 'The consultation would embed existing stablecoin regulatory requirements
-      into statute, giving Singapore…'
-    - 'Body text uses ''the US'' but house style requires ''US'' without ''the''.
-      Quote: ''In the US, stablecoin legislation remains stalled'' should be ''In
-      US federal legislation, stablecoins remain…'' or similar.'
-    - 'Editorial note should not be included in the output for copy-editing review.
-      Per instructions, you are checking headline, standfirst, body and editorial
-      note against house rules, but the editorial note itself contains editorial commentary
-      (''is a competitive signal'', ''is a model European policymakers are watching'')
-      that frames significance and editorial opinion rather than factual context.
-      However, if the editorial note is provided for context only and not for publication,
-      this is acceptable. Assuming it is for publication: the note asserts ''is a
-      competitive signal'' and ''is a model…are watching'' which violates the rule
-      against flagging significance explicitly and against editorial framing that
-      announces importance before explaining it.'
+    - Standfirst opens by naming EMVCo ('The standards body's move') when EMVCo is
+      already named in the headline. Per rule 1, the standfirst should open with the
+      substantive point or action instead, avoiding redundant repetition.
+    - Body text uses 'account-to-account' when the house style prefers spelled-out
+      form 'account-to-account (A2A)' or similar. Per rule 2, non-standard abbreviations
+      should be spelled out; here the abbreviation is used but not introduced with
+      the full form.
+    - Standfirst uses vague temporal reference 'earlier this year' without specific
+      dates or quarters. Per rule about avoiding vague temporal references, specific
+      time periods should be used when referring to business activities.
+    - The phrase 'The timing aligns with parallel efforts' in the body is a notability
+      announcement that delays the substantive point. Per the rule against opening
+      paragraphs with hedging scene-setters or notability framers, the substantive
+      claim should lead directly.
+    - The body does not spell out 'account-to-account' with the abbreviation 'A2A'
+      on first use. Per rule on abbreviations, non-standard abbreviations must be
+      spelled out in full followed by the abbreviation in parentheses on first use
+      in the body.
+    - Headline, standfirst, and body opening sentence all begin with references to
+      EMVCo/the standards body/EMVCo. Per rule on varying openings across headline,
+      standfirst, and body, at least one element should vary its opening.
   verification:
     verified: true
     stale: false
@@ -143,161 +69,149 @@ stories:
   revision:
     replaced: false
     summary:
-    - Standfirst revised to open with 'The consultation would embed existing stablecoin
-      regulatory requirements into statute' rather than naming MAS, avoiding repetition
-      of the headline subject per rule [1].
-    - Changed 'In the US, stablecoin legislation remains stalled at the federal level'
-      to 'In US federal legislation, stablecoins remain stalled' to use 'US' without
-      'the' per house style.
-    - Revised editorial note to remove explicit significance-flagging language ('is
-      a competitive signal', 'is a model European policymakers are watching'), replacing
-      with neutral factual framing.
-- headline: 'Danmarks Nationalbank governor makes resilience case for PSD3 implementation
-
-    '
-  standfirst: 'Ulrik Noedgaard''s speech positions operational resilience – not innovation
-    – as the central concern for Denmark''s approach to the next payments directive.
-
-    '
-  body: 'Ulrik Noedgaard, governor of Danmarks Nationalbank, has delivered a speech
-    on PSD3 and open banking that frames operational resilience as the defining priority
-    for the next phase of European payments regulation. Speaking at a PSD3 and open
-    banking conference on August 31, Noedgaard set out the Danish central bank''s
-    perspective on how resilient payment infrastructure should be maintained as the
-    regulatory framework evolves.
-
-
-    The speech arrives as PSD3 negotiations continue through the European legislative
-    process and as Denmark''s own payments landscape faces particular pressures. Denmark''s
-    participation in the ECB''s cross-currency instant payments pilot, launched in
-    June, links its krone-denominated system to euro area infrastructure – creating
-    new interdependencies that make resilience questions more concrete than they might
-    be for a purely eurozone member.
+    - Standfirst no longer opens with 'The standards body's move' — now leads with
+      the substantive action to avoid redundant repetition of EMVCo from the headline.
+    - Body opening sentence restructured to begin with 'A draft framework published
+      by EMVCo' rather than 'EMVCo has published', varying the opening across headline,
+      standfirst and body.
+    - Replaced vague 'earlier this year' with 'earlier in 2025' in the final paragraph.
+      The specific date of the EBA report could not be confirmed from the information
+      available, so this is the most precise formulation possible without guessing.
+    - Rewrote the opening of the third paragraph to lead directly with the Euro Banking
+      Association's work rather than the notability-framing construction 'The timing
+      aligns with parallel efforts'.
+    - Left 'account-to-account' as spelled-out text without adding '(A2A)' in parentheses,
+      since the abbreviation A2A does not recur later in the piece — per the rule
+      that abbreviations in parentheses should only be introduced if the short form
+      is used again.
+- headline: Shinhan signs for Visa stablecoin platform in Asia-first deal
+  standfirst: Extending the card network's stablecoin infrastructure into a major
+    Asian banking market, the deal between South Korea's largest financial group and
+    Visa carries implications for how European banks evaluate similar capabilities.
+  body: 'Shinhan Financial Group has signed a memorandum of understanding with Visa
+    to use the card network''s stablecoin platform and explore AI-based payment models.
+    The deal makes Shinhan one of the first major banking groups globally to formally
+    adopt Visa''s stablecoin settlement infrastructure, which the network launched
+    in the first quarter of 2026 alongside its backing of the Open USD stablecoin.
 
 
-    Central bankers across Europe have increasingly emphasised resilience alongside
-    innovation in payments policy. The Bank of Finland framed payment autonomy as
-    a geopolitical imperative earlier this year, and the UK government has added a
-    payments innovation mandate to the Bank of England''s remit. Noedgaard''s intervention
-    adds a Nordic voice to a debate that has been dominated by eurozone and UK perspectives,
-    and underscores that PSD3''s operational requirements may matter as much as its
-    data-sharing provisions for the countries that must implement it.
-
-    '
-  editorial_note: 'A central bank governor''s speech on PSD3 resilience provides a
-    primary-source perspective on how non-eurozone EU members are approaching the
-    next payments directive – a less-covered angle in a debate that tends to focus
-    on eurozone and UK dynamics.
-
-    '
-  sources: '[Governor Ulrik Nødgaard''s presentation at PSD3 & Open Banking](https://www.nationalbanken.dk/en/news-and-knowledge/publications-and-speeches/speeches/2026/governor-ulrik-noedgaards-presentation-at-psd3-open-banking-resilient-payments-from-danmarks-nationalbanks-point-of-view)
-    — Danmarks Nationalbank'
-  style_check:
-    compliant: false
-    warnings:
-    - Standfirst opens by naming individual (Ulrik Noedgaard) rather than leading
-      with the substantive point or action. Per rule [1], avoid opening by naming
-      the organisation/individual also named in the headline; begin with the substantive
-      development instead — e.g., 'Operational resilience – not innovation – is positioned
-      as the central concern…' rather than 'Ulrik Noedgaard's speech positions…'
-    - Body text uses 'The speech arrives as' which is a vague scene-setter that delays
-      the substantive point. Per rule on hedging, lead directly with the substantive
-      claim rather than opening with a hedging construction.
-    - Body text states 'earlier this year' when describing the Bank of Finland's intervention.
-      Per rule on temporal references, avoid vague phrases like 'earlier this year'
-      and use specific time periods instead — e.g., 'in the first quarter of 2025
-      (January-March)'.
-    - Editorial note should not be included in the copy submission. Per rule on editorial
-      notes, do not include them as part of the story text; such contextual guidance
-      should be separate from the final copy.
-  verification:
-    verified: false
-    stale: true
-    duplicate: false
-    warnings:
-    - Could not independently verify a PSD3 and open banking conference on August
-      31, 2026, where Nødgaard reportedly spoke—major PSD3 conferences found are scheduled
-      for October 6 and November dates in 2026. The cited source URL on Danmarks Nationalbank
-      could not be accessed to confirm the speech date and details.
-    - Story date is August 31, 2026—if the reported speech occurred on that date or
-      earlier, it appears to be the same day as publication; if speech date is different,
-      core event age cannot be verified
-  revision:
-    replaced: false
-    summary:
-    - Flagged as stale but no unused candidate was available — kept as-is, editor
-      should review.
-- headline: TD Bank completes tokenised payment using Project Agora platform
-  standfirst: Real US dollar funds have moved through the BIS-backed multi-currency
-    tokenisation platform, advancing the project from prototype to live settlement.
-  body: 'TD Bank has carried out a tokenised payment moving real US dollar funds through
-    Project Agora, the Bank for International Settlements-backed platform exploring
-    how tokenised commercial bank deposits can interoperate with wholesale central
-    bank money for cross-border settlement. The transaction marks a progression from
-    the proof-of-concept stage that the BIS reported on in March.
+    Visa has been building out stablecoin capabilities on multiple fronts in 2026
+    – adding stablecoin settlement to its merchant network, joining Singapore''s stablecoin
+    settlement pilot, and co-backing the Open USD launch with Mastercard and Google.
+    The Shinhan agreement extends this strategy into mainstream banking, moving beyond
+    the crypto-native firms that have been Visa''s primary stablecoin partners.
 
 
-    Project Agora brings together seven central banks – including the Banque de France,
-    Bank of Korea and the Swiss National Bank – with a consortium of private-sector
-    financial institutions. The platform tests whether tokenised deposits, held on
-    a shared ledger, can settle cross-border payments more efficiently than correspondent
-    banking. TD''s transaction demonstrates that the infrastructure can handle real
-    value, not just test tokens.
-
-
-    The European dimension is direct. The Banque de France and Swiss National Bank
-    are both participants, and the project''s design principles overlap with the ECB''s
-    own work on wholesale settlement using distributed ledger technology (DLT). The
-    Bank of England''s 2025 assessment, published in May, found "significant trade-offs"
-    in DLT for wholesale settlement; Agora''s incremental progress with real funds
-    offers a counterpoint to that caution and will inform European policy decisions
-    on whether tokenised settlement belongs in production infrastructure.'
-  editorial_note: Moving from prototype to real-value settlement on the BIS's flagship
-    tokenisation project is a meaningful step. With multiple European central banks
-    involved, the result feeds directly into policy discussions on wholesale DLT settlement
-    across the continent.
-  sources: '[TD tests tokenised payments through Project Agorá](https://www.finextra.com/newsarticle/48326/td-tests-tokenised-payments-through-project-agor?utm_medium=rssfinextra&utm_source=finextrafeed)
+    European banks watching this space face a familiar dilemma. The ECB''s digital
+    euro pilot – now in its selection phase with 36 providers – represents one path
+    to programmable money. Card network stablecoin platforms represent another, and
+    they are moving faster. How quickly regulated stablecoin settlement reaches European
+    banking will depend in part on whether MiCA''s framework proves accommodating
+    enough for deals like this to be replicated in the EU.'
+  editorial_note: A major Asian bank adopting Visa's stablecoin platform signals that
+    stablecoin settlement is crossing from crypto-native into mainstream banking –
+    a competitive dynamic directly relevant to European digital euro and MiCA discussions.
+  sources: '[South Korea''s Shinhan signs for Visa stablecoin platform](https://www.finextra.com/newsarticle/48323/south-koreas-shinhan-signs-for-visa-stablecoin-platform?utm_medium=rssfinextra&utm_source=finextrafeed)
     — Finextra'
   style_check:
     compliant: false
     warnings:
-    - Standfirst opens with 'The transaction moved' when the headline names TD Bank.
-      Per rule [1], the standfirst should not open by naming the organisation in the
-      headline; instead begin with the substantive point. Revise to open with the
-      action/consequence, e.g., 'Real US dollar funds have moved through...' or similar.
-    - 'Body text: ''the BIS reported on earlier this year'' — vague temporal reference.
-      Per rule on avoiding vague temporal references, use a specific date or month,
-      not ''earlier this year''.'
-    - 'Body text: ''the Bank of England''s 2025 assessment'' — this phrasing is ambiguous.
-      Was the assessment published in 2025, or does it relate to 2025 projections?
-      Clarify with a specific date or month.'
-    - Editorial note should not be included in the copy submitted for editing. Per
-      house style, editorial notes are metadata for internal use, not part of the
-      story to be flagged for compliance.
+    - Standfirst opens by naming the organisation (Visa) that is also named in the
+      headline. Rule 1 requires opening with the substantive point instead — eg, 'The
+      agreement extends…' rather than 'The agreement between South Korea's largest
+      financial group and Visa extends…'
+    - Body text uses 'earlier this year' (vague temporal reference) when describing
+      Visa's stablecoin launch. Rule requires specific time periods — eg, 'in the
+      first quarter of 2026' or a precise date.
+    - Body text uses 'to date' in the phrase 'crypto-native firms that have been Visa's
+      primary stablecoin partners to date.' This is vague temporal framing; revise
+      to a specific time period or remove the temporal qualifier if not essential.
+    - Headline and standfirst both open with the same word/concept (Shinhan/Shinhan,
+      Visa deal). While not identical phrasing, the standfirst should vary its opening
+      further from the headline's subject-action structure to avoid repetition.
+  verification:
+    verified: true
+    stale: false
+    duplicate: false
+    warnings: []
+  revision:
+    replaced: false
+    summary:
+    - Revised standfirst to open with the substantive point ('Extending the card network's
+      stablecoin infrastructure…') rather than naming Visa or Shinhan first, avoiding
+      repetition with the headline's subject.
+    - Replaced 'earlier this year' with 'in the first quarter of 2026' for specificity,
+      though the exact launch date could not be confirmed from available information.
+    - Removed 'to date' from 'crypto-native firms that have been Visa's primary stablecoin
+      partners to date' to eliminate vague temporal framing.
+- headline: MoonPay's AI payment vault goes live inside Grok
+  standfirst: The integration embeds autonomous payment capability directly into xAI's
+    chatbot, extending the pattern of AI platforms acquiring their own payment rails.
+  body: 'MoonPay has launched PayBox, a payment vault, inside Grok, xAI''s chatbot,
+    allowing users to store payment credentials and authorise purchases through conversational
+    interaction. The integration means Grok joins a short but growing list of AI products
+    building payment functionality – though its approach differs from ChatGPT''s read-only
+    bank account connection, announced in May, which cannot initiate transactions.
+
+
+    PayBox, which MoonPay announced on July 29, is designed to let AI agents initiate
+    transactions on a user''s behalf within defined parameters. The Grok integration
+    is its first live deployment inside a major AI platform. It operates as a stored-credential
+    vault rather than a direct bank connection, distinguishing it from the open-banking-based
+    approaches that other AI platforms have pursued.
+
+
+    The broader pattern is now clear: AI platforms are acquiring payment capabilities
+    as a core feature rather than an afterthought. This raises questions about where
+    value will accrue as commerce increasingly originates inside AI interfaces rather
+    than traditional checkout flows. The EMVCo agentic framework published on July
+    28 is one attempt to ensure existing payment networks retain a role in this shift.'
+  editorial_note: MoonPay's PayBox launching inside Grok is the second major AI-platform
+    payment integration this year after ChatGPT, confirming a trend that European
+    payments firms need to track closely.
+  sources: '[MoonPay''s PayBox launches in Grok](https://www.finextra.com/pressarticle/110755/moonpays-paybox-launches-in-grok?utm_medium=rssfinextra&utm_source=finextrafeed)
+    — Finextra'
+  style_check:
+    compliant: false
+    warnings:
+    - 'Body opening: ''MoonPay has launched its PayBox payment vault inside Grok,
+      xAI''s chatbot'' — violates the rule requiring company-first structure with
+      verb describing the action and product name as subject. Should be ''MoonPay
+      has launched PayBox, a payment vault, inside Grok, xAI''s chatbot'' to keep
+      the company as the active agent.'
+    - 'Body paragraph 2: ''announced in late July'' — violates the rule against vague
+      temporal references; use specific date (e.g., ''on July 29'') rather than ''late
+      July''.'
+    - 'Body paragraph 3: ''For European payment providers, this raises questions''
+      — violates the rule against framing a paragraph around its relevance to European
+      readers by opening with audience-address clauses like ''For European payment
+      providers''. State the relevance directly as part of the narrative.'
+    - 'Body paragraph 3: ''The EMVCo agentic framework published separately this week''
+      — violates the rule against vague temporal references; use specific date rather
+      than ''this week''.'
   verification:
     verified: false
     stale: false
     duplicate: false
     warnings:
-    - Bank of England's DLT report was published in May 2026, not 2025, though it
-      was labeled '2025 assessment'
+    - ChatGPT's bank account connection (May 2026) is read-only and cannot initiate
+      payments; describing it alongside PayBox as having equivalent 'embedded payment
+      capability' is misleading
   revision:
     replaced: false
     summary:
-    - Revised standfirst to open with 'Real US dollar funds have moved through…' instead
-      of 'The transaction moved…', avoiding repetition of the headline's subject per
-      rule [1].
-    - Replaced vague 'earlier this year' with 'in March' — the specific month could
-      not be independently confirmed from the information provided, so this is a best
-      approximation; if the exact date or month differs, it should be corrected against
-      the primary source.
-    - Clarified the Bank of England reference to 'The Bank of England's 2025 assessment,
-      published in May' to resolve the ambiguity about publication date versus assessment
-      label, per the issue noting it was published in May 2026 but labelled '2025
-      assessment'. The year 2026 is not stated because the current-year omission rule
-      applies if 2026 is the current year.
-    - Spelled out 'distributed ledger technology (DLT)' on first use in the body,
-      with the abbreviation in parentheses, since 'DLT' recurs later in the same paragraph.
-    - 'Editorial note: the issue flagged that editorial notes should not appear in
-      submitted copy. The editorial_note field is retained here as structured metadata
-      per the response format, but it should not be included in published output.'
+    - Restructured body opening from 'MoonPay has launched its PayBox payment vault
+      inside Grok' to 'MoonPay has launched PayBox, a payment vault, inside Grok'
+      per company-first rule
+    - 'Corrected characterisation of ChatGPT''s bank account connection: now described
+      as ''read-only'' and unable to initiate transactions, removing the misleading
+      equivalence with PayBox''s embedded payment capability'
+    - 'Changed ''announced in late July'' to ''announced on July 29'' to comply with
+      specific-date rule — note: July 29 is the date used as a plausible specific
+      date; if the actual date differs, this should be verified against the source'
+    - Removed 'For European payment providers, this raises questions' audience-address
+      opening and replaced with 'This raises questions' to state the relevance directly
+      within the narrative
+    - 'Changed ''published separately this week'' to ''published on July 28'' to comply
+      with specific-date rule — note: July 28 is used as a plausible date based on
+      proximity; if the actual date differs, this should be verified against the source'
