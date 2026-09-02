@@ -104,7 +104,11 @@ def on_load_draft():
     title = (data.get("title") or "").strip()
     briefing_url = f"{BRIEFING_BASE_URL}/{datetime.now().strftime('%Y-%m-%d')}/"
     social = (data.get("social_post") or "").strip().replace("{link}", briefing_url).rstrip(".")
-    outputs = [f"### European Payments & Open Banking — {date_str}", title, social]
+    header = f"### European Payments & Open Banking — {date_str}"
+    if data.get("status") == "needs_review":
+        reasons_md = "".join(f"\n- {r}" for r in data.get("status_reasons") or [])
+        header += f"\n\n⚠️ **Needs review — not ready for unattended publish**{reasons_md}"
+    outputs = [header, title, social]
 
     for i in range(MAX_STORIES):
         if i < len(stories):

@@ -304,5 +304,8 @@ if __name__ == "__main__":
 
     path = save_draft("payments", briefing)
     print(f"Draft saved to {path}")
+    print(f"Status: {briefing.get('status')}")
+    for reason in briefing.get("status_reasons") or []:
+        print(f"  - {reason}")
     print("\n" + "=" * 60 + "\n")
     print(yaml.dump(briefing, allow_unicode=True, sort_keys=False, default_flow_style=False))

@@ -205,11 +205,97 @@ def generate_replacement(
         return None
 
 
-def _used_entry_ids(stories: list[dict], entries: list[dict]) -> set[int]:
+def _web_replacement_system_prompt(house_style_system: str) -> str:
+    return house_style_system + """
+
+## Task
+A story originally selected for today's briefing has been dropped (reason given below),
+and today's RSS feeds have no other unused candidate that qualifies as a replacement.
+Use web search to find ONE genuinely new, significant European payments or open banking
+story from today or the last day or two, following the same selection criteria, or report
+that search turned up nothing that qualifies.
+
+Respond with ONLY a single JSON object as your final message — no explanation, no
+preamble, no commentary, no code fences, before or after it:
+
+{"no_candidate": true} if search finds nothing that meets the selection criteria,
+otherwise:
+{"no_candidate": false, "headline": "...", "standfirst": "...", "body": "...",
+ "editorial_note": "...", "source_title": "...", "source_url": "...", "source_publisher": "..."}
+
+source_url must be a URL your search actually surfaced — never invent one. source_title
+is that outlet's own headline for the piece (not your rewritten headline), and
+source_publisher is the outlet's name (e.g. "Finextra", "Reuters"). Never cite a URL
+listed below as already used elsewhere in today's briefing, and never select a story
+matching the "Previously covered" or "Editorially rejected" lists."""
+
+
+def generate_web_replacement(
+    beat_name: str,
+    excluded_urls: set[str],
+    rejection_reason: str,
+    recently_covered: list[dict] | None = None,
+    recently_rejected: list[dict] | None = None,
+    client: anthropic.Anthropic | None = None,
+) -> dict | None:
+    """Second-tier fallback when generate_replacement() finds nothing in today's
+    RSS feeds: use web search to look past the feeds for a genuine current story.
+    Returns a resolved story dict (with `sources` already built) or None if
+    search turns up nothing usable. The candidate is not otherwise verified here —
+    the verify_story() call the caller runs on any replacement re-checks it against
+    the live web regardless of where it came from, same as a feed-sourced one."""
+    client = client or anthropic.Anthropic(api_key=os.environ["ANTHROPIC_API_KEY"])
+    system, story_prompt = load_prompts(beat_name)
+    style_rules = load_style_rules(beat_name)
+    house_style_system = build_system_prompt(system, style_rules)
+
+    excluded_text = (
+        "\n\nURLs already used elsewhere in today's briefing — do not cite these:\n"
+        + "\n".join(f"- {u}" for u in sorted(excluded_urls))
+        if excluded_urls else ""
+    )
+    user_prompt = (
+        f"The following story was removed from today's briefing: {rejection_reason}\n\n"
+        + story_prompt["selection_criteria"]
+        + _covered_section(recently_covered)
+        + _rejected_section(recently_rejected)
+        + excluded_text
+    )
+    try:
+        message = client.messages.create(
+            model=MODEL,
+            max_tokens=MAX_TOKENS,
+            system=_web_replacement_system_prompt(house_style_system),
+            tools=[{"type": "web_search_20250305", "name": "web_search"}],
+            messages=[{"role": "user", "content": user_prompt}],
+        )
+        text_blocks = [b.text for b in message.content if getattr(b, "type", None) == "text"]
+        data = _unparseable_json("\n".join(text_blocks))
+        if data is None or data.get("no_candidate"):
+            return None
+        source_url = str(data.get("source_url", ""))
+        if not source_url.startswith(("http://", "https://")) or source_url in excluded_urls:
+            print(f"Warning: web replacement cited an invalid or already-used URL: {source_url!r}")
+            return None
+        source_title = str(data.get("source_title", ""))
+        source_publisher = str(data.get("source_publisher", ""))
+        return {
+            "headline": str(data.get("headline", "")),
+            "standfirst": str(data.get("standfirst", "")),
+            "body": str(data.get("body", "")),
+            "editorial_note": str(data.get("editorial_note", "")),
+            "sources": f"[{source_title}]({source_url}) — {source_publisher}",
+        }
+    except Exception as e:
+        print(f"Warning: web replacement generation failed: {e}")
+        return None
+
+
+def _used_source_urls(stories: list[dict]) -> set[str]:
     used_urls = set()
     for s in stories:
         used_urls |= _source_urls(s.get("sources", ""))
-    return {i for i, e in enumerate(entries, start=1) if e["url"] in used_urls}
+    return used_urls
 
 
 def revise_briefing(
@@ -236,23 +322,31 @@ def revise_briefing(
         if v.get("stale") or v.get("duplicate"):
             kind = "stale" if v.get("stale") else "duplicate coverage"
             reason = "; ".join(v_warnings) or kind
-            used_ids = _used_entry_ids(stories, entries)
-            unused = [(i, e) for i, e in enumerate(entries, start=1) if i not in used_ids]
+            used_urls = _used_source_urls(stories)
+            unused = [(i, e) for i, e in enumerate(entries, start=1) if e["url"] not in used_urls]
             replacement = generate_replacement(
                 beat_name, unused, reason, recently_covered, recently_rejected, client=client,
             )
+            source = "feed"
+            if not replacement:
+                replacement = generate_web_replacement(
+                    beat_name, used_urls, reason, recently_covered, recently_rejected, client=client,
+                )
+                source = "web search"
             if replacement:
                 replacement["style_check"] = check_story(replacement, style_rules, client=client)
                 replacement["verification"] = verify_story(replacement, client=client, recently_covered=recently_covered)
-                summary = [f"Replaced: original story flagged as {kind} ({reason}); swapped in an unused candidate."]
+                origin = "today's feed" if source == "feed" else "a live web search (not in today's RSS feeds)"
+                summary = [f"Replaced: original story flagged as {kind} ({reason}); swapped in a candidate sourced from {origin}."]
                 new_warnings = _actionable(replacement["verification"].get("warnings") or []) + _actionable(replacement["style_check"].get("warnings") or [])
                 summary += [f"Note: the replacement was also flagged — {w}" for w in new_warnings]
-                replacement["revision"] = {"replaced": True, "summary": summary}
+                replacement["revision"] = {"replaced": True, "resolved": True, "summary": summary}
                 stories[idx] = replacement
             else:
                 story["revision"] = {
                     "replaced": False,
-                    "summary": [f"Flagged as {kind} but no unused candidate was available — kept as-is, editor should review."],
+                    "resolved": False,
+                    "summary": [f"Flagged as {kind} but no unused feed or web candidate was available — kept as-is, editor should review."],
                 }
             continue
 
@@ -266,13 +360,23 @@ def revise_briefing(
                 story["editorial_note"] = fixed["editorial_note"]
                 story["revision"] = {
                     "replaced": False,
+                    "resolved": True,
                     "summary": fixed["changes"] or ["Applied fixes for flagged issues."],
                 }
             else:
                 story["revision"] = {
                     "replaced": False,
+                    "resolved": False,
                     "summary": ["Auto-fix failed to run — original flagged issues remain, editor should review."],
                 }
 
     briefing["stories"] = stories
+    unresolved = [
+        s.get("headline", "").strip()
+        for s in stories
+        if (s.get("revision") or {}).get("resolved") is False
+    ]
+    briefing["status"] = "needs_review" if unresolved else "ready"
+    if unresolved:
+        briefing["status_reasons"] = [f"Could not resolve: {h}" for h in unresolved]
     return briefing
