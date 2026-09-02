@@ -2,14 +2,4 @@
 # Populated automatically by tools/extract_learning.py (via GitHub Actions on push
 # to data/feedback/). Review and promote/edit in the dashboard's 'Proposed style
 # rules' section — accepted rules move to prompts/payments/style_rules.yaml.
-- date: '2026-09-02'
-  rule: Do not include the total count of participants in a headline when the body
-    or standfirst already provides context. If the number appears in the body, omit
-    it from the headline to avoid leading with a digit and to keep headlines concise
-    — eg, prefer "Global banks commit to joint stablecoin venture" over "Twenty-one
-    global banks commit to joint stablecoin venture".
-- date: '2026-09-02'
-  rule: Do not include a parenthetical list of named examples (eg, "including Deutsche
-    Bank, Lloyds and Credit Agricole") in the standfirst when those names do not add
-    essential context at that level. Reserve named examples for the body, where they
-    can be introduced with proper attribution and context.
+[]
