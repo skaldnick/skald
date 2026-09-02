@@ -14,6 +14,12 @@ MAX_TOKENS = 1024
 STALE_DAYS = 5
 MAX_ATTEMPTS = 3
 RETRY_BACKOFF_SECONDS = 5
+# The prompt asks for four distinct checks (currency, recency, unsupported claims,
+# duplicate coverage) in one call, so several searches per story-check is normal —
+# this caps runaway chains, not the compound check itself. Confirmed via the Console's
+# cost report (2026-09-02): web search averaged ~4-5 searches per story-check with no
+# cap at all, at $10/1,000 searches billed separately from token cost.
+MAX_SEARCHES = 5
 
 
 def _system_prompt(today: str, has_covered_list: bool) -> str:
@@ -143,7 +149,7 @@ def verify_story(
                 model=MODEL,
                 max_tokens=MAX_TOKENS,
                 system=_system_prompt(today, has_covered_list=bool(recently_covered)),
-                tools=[{"type": "web_search_20250305", "name": "web_search"}],
+                tools=[{"type": "web_search_20250305", "name": "web_search", "max_uses": MAX_SEARCHES}],
                 messages=[{"role": "user", "content": user_prompt}],
             )
             text_blocks = [b.text for b in message.content if getattr(b, "type", None) == "text"]
