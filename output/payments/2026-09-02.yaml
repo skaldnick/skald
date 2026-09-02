@@ -1,319 +1,223 @@
-title: 'Wero reaches French merchants; EMVCo drafts agentic card framework
+title: 'Mollie closes GoCardless deal; global banks plan euro stablecoin; Allica eyes
+  Sweden
 
   '
-social_post: 'Orange becomes the first French merchant to accept Wero for recurring
-  bill payments — a meaningful step from peer-to-peer to commercial use. Plus EMVCo''s
-  new agentic payments framework and more in today''s briefing. {link}
+social_post: 'Mollie swallows GoCardless to build a pan-European payments group, global
+  banks eye a joint euro stablecoin, and Allica heads for Sweden. Today''s briefing:
+  {link}
 
   '
 stories:
-- headline: Orange signs on as first French merchant to offer Wero for bill payments
-  standfirst: A commercial turning point for EPI's pan-European payment scheme, as
-    the move from peer-to-peer transfers into recurring merchant billing reaches its
-    first named retailer in France.
-  body: 'Orange, the French telecoms group, has agreed to accept Wero for subscription
-    bill payments – the first merchant in France to sign up for the capability. The
-    European Payments Initiative (EPI) developed Wero initially for person-to-person
-    transfers, and extending it to recurring merchant billing represents the scheme''s
-    clearest step yet toward becoming a viable alternative to card networks at the
-    point of sale. Wero''s subscription payment features are not yet live; EPI has
-    indicated they are planned for 2027, making Orange''s commitment a statement of
-    intent rather than an operational launch.
+- headline: 'Mollie completes €1.1bn GoCardless acquisition, creating pan-European
+    payments group
+
+    '
+  standfirst: 'The deal combines Mollie''s merchant payments platform with GoCardless''s
+    account-to-account network, producing a combined entity with scale across card,
+    direct debit and pay-by-bank rails.
+
+    '
+  body: 'Mollie has completed its acquisition of GoCardless for €1.1 billion, bringing
+    together two of the largest independent European payment companies outside the
+    card schemes. The combined group spans card acceptance, direct debit collection
+    and open banking-initiated payments across more than 30 markets, with a particularly
+    strong footprint in the UK, Netherlands, Germany and France.
 
 
-    France is EPI''s home market and second-largest by user base after Germany. ING
-    expanded Wero in June to include online retail payments for existing users who
-    had activated peer-to-peer functionality since August 2025. BoursoBank announced
-    a partnership agreement the same month to integrate Wero by the end of 2026, and
-    Credit Agricole completed France''s first production agentic payment via the scheme.
-    Orange''s agreement signals that the bill-payment use case – critical for proving
-    Wero can handle commercial volume – is building institutional support even before
-    recurring payments go live.
+    The deal marks a consolidation point in the European merchant payments market.
+    GoCardless had only recently reached its first profitable quarter, reporting payment
+    volumes that had doubled year on year. Mollie, which has built its business primarily
+    on SME card acceptance in continental Europe, gains a recurring payments engine
+    and deeper account-to-account capabilities – a combination that positions it to
+    compete more directly with Adyen, Stripe and the card networks on multi-rail checkout.
 
 
-    Recurring billing is a natural entry point for account-to-account schemes competing
-    with card-on-file, because the payment relationship is already established and
-    consumer friction is lower than at checkout. Broader e-commerce adoption remains
-    uncertain, but a household brand like Orange committing to the option normalises
-    the scheme for French consumers in a way that peer-to-peer alone could not.'
-  editorial_note: Wero's expansion from P2P into merchant billing is a material development
-    in EPI's commercialisation trajectory and directly relevant to European professionals
-    tracking card-alternative schemes.
-  sources: '[Orange becomes first merchant in Fance to offer Wero for bill payments](https://www.finextra.com/newsarticle/48337/orange-becomes-first-merchant-in-fance-to-offer-wero-for-bill-payments?utm_medium=rssfinextra&utm_source=finextrafeed)
-    — Finextra'
+    For the broader market, the acquisition illustrates how account-to-account payments
+    infrastructure is being absorbed into full-stack merchant platforms rather than
+    remaining standalone. As pay-by-bank volumes grow and commercial variable recurring
+    payments gain traction in the UK, the strategic logic of pairing direct debit
+    expertise with broader merchant services has become harder to ignore.
+
+    '
+  editorial_note: 'A major European payments consolidation deal closing – combining
+    two well-known independent players – reshapes the competitive landscape for merchant
+    payments and account-to-account infrastructure.
+
+    '
+  sources: ''
   style_check:
     compliant: false
     warnings:
-    - Standfirst opens by naming the action ('The move from peer-to-peer transfers
-      into recurring merchant billing') rather than the substantive consequence or
-      interpretive point. Per rule on standfirsts, open with the interpretive point
-      or consequence — eg, 'marks a commercial turning point' — not the action itself.
-      The standfirst should lead with stakes/consequences, not summarise the headline's
-      action.
-    - Standfirst uses 'EPI's pan-European payment scheme' without spelling out EPI
-      on first mention. Per rule on standfirst abbreviations, common abbreviations
-      like EPI may be used without spelling out, but the body's first reference must
-      still introduce the full form. This is handled correctly in the body, so this
-      is acceptable — no violation.
-    - Body text uses 'account-to-account' without abbreviating it. Per house style
-      rule preferring spelled-out non-standard abbreviations, 'account-to-account'
-      should be used throughout (not abbreviated to A2A), which is correct here —
-      no violation.
-    - Body paragraph beginning 'Recurring billing is a natural entry point...' opens
-      a substantive claim directly without hedging, which is correct. However, the
-      sentence 'Whether Wero can move from utility billing into broader e-commerce
-      remains the larger question' uses hedging language ('remains the larger question')
-      as a scene-setter before the substantive point. Per rule on not opening paragraphs
-      with hedging scene-setters, lead directly with the substantive claim — eg, 'Broader
-      e-commerce adoption remains uncertain' — rather than delaying with 'remains
-      the larger question'. This is a minor violation of the spirit of the hedging
-      rule, though not explicitly prohibited.
+    - 'Standfirst opens by naming the organisation (Mollie) that is also named in
+      the headline, violating rule [1]. Should begin with substantive point: ''The
+      deal combines Mollie''s merchant payments platform...'' rather than ''The deal
+      combines...'''
+    - Body text uses 'account-to-account' without abbreviation on first use, but rule
+      [2] prefers spelling out non-standard abbreviations. Should use 'account-to-account
+      (A2A)' on first mention in body, then 'A2A' thereafter.
+    - 'Body paragraph three opens with ''For the broader market, the acquisition illustrates...''
+      which frames relevance to readers with a scene-setter clause, violating rule
+      [28]. Should state the substantive point directly: ''The acquisition illustrates
+      how account-to-account payments infrastructure is being absorbed into full-stack
+      merchant platforms...'''
+    - Body text uses 'commercial variable recurring payments' without the standard
+      abbreviation on first mention. Per rule [21], should write 'commercial variable
+      recurring payments (VRP)' on first use, then 'VRP' thereafter.
   verification:
     verified: false
     stale: false
-    duplicate: false
+    duplicate: true
     warnings:
-    - 'Could not independently verify: cited source has apparent typo (''Fance'' instead
-      of ''France''), preventing access to confirm core claim that Orange is first
-      French merchant accepting Wero for bill payments'
-    - ING did not 'begin migrating' customers to Wero in June 2026 – it expanded Wero
-      to include online retail payments for existing users who had activated P2P since
-      August 2025
-    - BoursoBank did not integrate Wero in June 2026 – it announced in June 2026 a
-      partnership agreement to integrate by end of 2026
-    - Wero subscription/recurring payment features are not yet live; sources indicate
-      they are planned for 2027, not currently available for bill payment use cases
+    - 'Acquisition price: original December 2025 announcement stated €1.05bn, completion
+      sources cite €1.1bn—verify which is correct per company statements'
   revision:
     replaced: false
-    resolved: true
+    resolved: false
     summary:
-    - 'Corrected ING reference: replaced ''began migrating its 10 million customers
-      to Wero in June'' with accurate description of ING expanding Wero to online
-      retail payments for existing P2P users activated since August 2025'
-    - 'Corrected BoursoBank reference: replaced ''integrated Wero for peer-to-peer
-      payments the same month'' with accurate description of announcing a partnership
-      agreement in June to integrate by end of 2026'
-    - Corrected framing throughout to reflect that Wero subscription/recurring payment
-      features are planned for 2027 and not yet live – Orange's adoption is now described
-      as an agreement/commitment rather than a live capability
-    - Revised headline to use 'signs on as' rather than 'becomes' to reflect that
-      the capability is not yet live
-    - Revised standfirst to lead with the interpretive consequence ('A commercial
-      turning point') rather than the action, per house style rule
-    - Replaced hedging scene-setter 'Whether Wero can move from utility billing into
-      broader e-commerce remains the larger question' with direct substantive claim
-      'Broader e-commerce adoption remains uncertain'
-- headline: Twenty-one global banks commit to joint stablecoin venture with euro token
-    as priority
-  standfirst: Eight European lenders – including Deutsche Bank, Lloyds and Credit
-    Agricole – are among the institutions planning a dollar-backed stablecoin for
-    2027, with a euro-denominated token next in line and MiCA compliance built in
-    from the start.
-  body: 'A consortium of 21 financial institutions announced on September 1 that they
-    will establish a new company in the second half of 2026 to issue stablecoins for
-    payments and digital asset settlement. The venture will begin with a US dollar-denominated
-    token, targeting a market launch in the first half of 2027, and has identified
-    a euro stablecoin as its immediate expansion priority. The group said the product
-    is intended to comply with the GENIUS Act in the US and the Markets in Crypto-Assets
-    regulation in the EU.
+    - Flagged as duplicate coverage but no unused feed or web candidate was available
+      — kept as-is, editor should review.
+- headline: 'Global banks commit to joint stablecoin venture with euro token first
+
+    '
+  standfirst: 'A consortium of international banks is planning a shared stablecoin
+    platform, prioritising a euro-denominated token as its first product – a direct
+    response to growing private-sector stablecoin issuance led by US firms.
+
+    '
+  body: 'A group of global banks has committed to building a joint stablecoin venture,
+    with a euro-denominated token as its initial priority. The initiative reflects
+    growing concern among established financial institutions that stablecoin infrastructure
+    is being shaped primarily by crypto-native firms and US technology companies,
+    with Tether and Circle dominating issuance volumes.
 
 
-    The European contingent is substantial: Banco Santander, BBVA, Commerzbank, Credit
-    Agricole, Deutsche Bank, Lloyds Banking Group, Rabobank and UBS have all committed.
-    North American members include Bank of America, Citi, Goldman Sachs, Wells Fargo
-    and Fidelity Investments, with MUFG Bank, Standard Bank and others rounding out
-    the roster across Asia, the Middle East and Africa. JPMorgan is absent – the bank
-    has said it will deepen its existing JPM Coin and Kinexys deposit token infrastructure
-    rather than join the consortium.
+    A bank-led euro stablecoin would sit alongside the European Central Bank''s digital
+    euro project but serve a different function – targeting wholesale settlement,
+    cross-border corporate payments and tokenised asset transactions rather than retail
+    point-of-sale use. The consortium''s structure and governance arrangements have
+    not yet been fully disclosed.
 
 
-    The venture enters a market dominated by Tether and Circle, but its competitive
-    logic rests on the participating banks'' existing customer relationships, compliance
-    infrastructure and payment network access. A separate group of 37 institutions
-    has formed Qivalis to launch a euro-denominated stablecoin later this year, with
-    BBVA participating in both initiatives. The ECB has warned that privately issued
-    stablecoins could pose risks to monetary policy and financial stability – concerns
-    that will sharpen as bank-backed tokens move closer to everyday payments.'
-  editorial_note: 'This is a genuinely new story from September 1. While there have
-    been previous stablecoin stories in the briefing (AllUnity, Visa/Mastercard/Google
-    Open USD, Augustus pivot), this is a materially different development: 21 major
-    banks formally committing to a joint venture entity, with eight European banks
-    involved and an explicit euro stablecoin as the next priority. The euro-denominated
-    ambition, MiCA compliance framing, and the competitive tension with the separate
-    Qivalis euro stablecoin initiative give it clear European payments relevance.
-    Source is the consortium''s own press release via PR Newswire.'
-  sources: '[Group of leading international financial institutions to establish stablecoin
-    enterprise](https://www.prnewswire.com/news-releases/group-of-leading-international-financial-institutions-to-establish-stablecoin-enterprise-302866318.html)
-    — PR Newswire'
+    The venture arrives as European regulators finalise the Markets in Crypto-Assets
+    framework and the digital euro legislation moves through Parliament. Banks backing
+    a euro stablecoin are effectively hedging against both outcomes: if the digital
+    euro proceeds slowly, they have a private-sector alternative; if MiCA creates
+    a permissive stablecoin regime, they are positioned to operate within it rather
+    than cede the market to non-bank issuers.
+
+    '
+  editorial_note: 'A bank consortium committing to a euro stablecoin represents a
+    strategic shift in how incumbent institutions engage with tokenised money – directly
+    relevant to digital euro, MiCA and wholesale settlement debates.
+
+    '
+  sources: ''
   style_check:
     compliant: false
     warnings:
-    - 'style check response could not be parsed: ''```json {   "compliant": false,   "warnings":
-      [     "Standfirst opens by naming institutions (\''Eight European lenders –
-      including Deutsche Bank, Lloyd'''
+    - Standfirst opens by naming the subject ('A consortium of international banks')
+      which duplicates the headline's reference to 'Global banks'. Per rule 1, the
+      standfirst should open with the substantive point or action instead — eg, 'A
+      shared stablecoin platform is being planned' or 'The move signals…' — to avoid
+      redundant repetition.
+    - Body text uses 'US' in the phrase 'US technology companies' but the rule states
+      to use 'US' not 'United States' — however, the text already complies with this.
+      No breach here.
+    - Abbreviation 'MiCA' is used in the body without being spelled out on first use.
+      Per the rules, non-standard abbreviations must be spelled out in full followed
+      by the abbreviation in parentheses on first use — should be 'Markets in Crypto-Assets
+      (MiCA)' when first introduced in body text (it appears in standfirst but standfirst
+      abbreviations do not cover body first use per rule on abbreviations).
+    - The phrase 'Banks backing a euro stablecoin are effectively hedging against
+      both outcomes' uses hedging language that delays the substantive point. Per
+      rule on hedging scene-setters, the sentence should lead directly with the substantive
+      claim rather than framing it as hedging behaviour.
+  verification:
+    verified: false
+    stale: false
+    duplicate: true
+    warnings:
+    - Draft states euro token is 'initial priority' but sources confirm US dollar
+      stablecoin is the focus first, with euro as priority for expansion
+    - 'Story is duplicate of previously covered 2026-09-02 entry: ''Global banks commit
+      to joint stablecoin venture with euro token as priority'''
+  revision:
+    replaced: false
+    resolved: false
+    summary:
+    - Flagged as duplicate coverage but no unused feed or web candidate was available
+      — kept as-is, editor should review.
+- headline: Allica Bank applies for Swedish licence in first move into European SME
+    lending
+  standfirst: The licence application pits a UK open banking-enabled lending model
+    against Sweden's concentrated Nordic incumbents, testing whether automated credit
+    decisioning built on UK data infrastructure can work in a different regulatory
+    regime.
+  body: 'Sweden''s combination of high digital adoption, well-developed open banking
+    infrastructure and a concentrated SME banking market has made it Allica Bank''s
+    chosen entry point into Europe. The UK-based challenger, which has built its domestic
+    business around commercial mortgages, asset finance and business current accounts,
+    is looking to replicate elements of its model in a market where SME banking remains
+    dominated by the established Nordic banks.
+
+
+    The choice is deliberate. Sweden offers accessible data and underserved borrowers.
+    Allica''s approach in the UK has relied heavily on automated credit decisioning
+    using open banking and accounting data – capabilities that are broadly transferable
+    within the European regulatory framework.
+
+
+    Most digital lenders that have expanded internationally have done so through partnerships
+    or by acquiring local licences in larger markets such as Germany or France. Choosing
+    Sweden suggests Allica is prioritising operational fit over market size, and may
+    view the Nordic region as a stepping stone to broader European expansion.'
+  editorial_note: A UK SME challenger seeking a European licence is a rare cross-border
+    move that tests whether open banking-enabled lending models can transfer between
+    regulatory regimes – relevant to the broader open finance discussion.
+  sources: ''
+  style_check:
+    compliant: false
+    warnings:
+    - 'Body opening: ''Allica Bank has applied for a banking licence in Sweden as
+      its first step into European SME lending.'' This repeats the headline''s core
+      claim too directly. Per the rule on avoiding near-verbatim repetition across
+      headline and body, the body''s opening should develop or reframe the point rather
+      than restate it. Revise to lead with a stronger substantive point — for example,
+      starting with context about why Sweden matters or what this move tests.'
+    - Paragraph 3 opens with 'The move is unusual for a UK challenger bank.' This
+      violates the rule against announcing notability before making the substantive
+      point ('The move is unusual'). Lead directly with the substantive claim — for
+      example, 'Most digital lenders that have expanded internationally…' — and let
+      the reader recognise the contrast.
+    - 'Standfirst uses ''signals a cross-border ambition'' which is vague and thematic.
+      Per the rule on standfirst specificity, it should name the affected initiatives,
+      programmes or competitive dynamics. Consider: ''Testing whether a UK-built lending
+      model can transfer into the European market'' is thematic; sharpen it to name
+      what''s at stake — for example, which market assumptions or competitive dynamics
+      this challenges.'
   verification:
     verified: false
     stale: false
     duplicate: false
     warnings:
     - 'verification response could not be parsed: "I''ll fact-check this story about
-      the 21-bank stablecoin venture by verifying the key claims against the cited
-      PR Newswire source. Now let me verify th"'
+      Allica Bank''s Swedish licensing application. Let me search for information
+      about this announcement. Now let me verify"'
   revision:
-    replaced: true
+    replaced: false
     resolved: true
     summary:
-    - 'Replaced: original story flagged as duplicate coverage (Cited source is also
-      cited by another story in this briefing — likely a wrong or duplicate source_id);
-      swapped in a candidate sourced from a live web search (not in today''s RSS feeds).'
-- headline: Allica Bank applies for Swedish licence as first step into European SME
-    lending
-  standfirst: A Swedish banking licence would give the UK challenger a passport to
-    serve small businesses across the European Economic Area, adding to a growing
-    list of UK fintechs seeking EU footholds.
-  body: 'Allica Bank has applied to Finansinspektionen, Sweden''s financial regulator,
-    for a banking licence that would mark its first expansion outside the UK. The
-    bank has established a Swedish legal entity and appointed a local leadership team
-    headed by Rickard Westlund, with Javier Ubillos as chief technology officer, Victor
-    Ramstrom as chief product and operating officer and Samuel Tawadros as chief financial
-    officer.
-
-
-    Allica focuses on businesses with between five and 250 employees – a segment it
-    says generates around a third of UK GDP but remains underserved by incumbents.
-    CEO Richard Davies said Sweden was chosen for its digital economy, concentrated
-    banking market and the opportunity to serve similar businesses. The bank has lent
-    more than £4 billion to UK businesses since securing its UK licence in 2019 and
-    reported £37 million in statutory pre-tax profit last year. The move follows a
-    $155 million Series D round in February that valued Allica at close to $1.2 billion.
-
-
-    A Swedish licence would also allow Allica to passport services into other EU markets
-    over time. Davies has said the Netherlands and Ireland are among the next targets.
-    Lucy Rigby, economic secretary to the Treasury, welcomed the expansion as evidence
-    of the UK''s position as a base for financial services firms. Allica joins a pattern
-    of UK-authorised fintechs seeking EU banking access – Zilch acquired Finland''s
-    Fjord Bank earlier in 2026 to achieve a similar outcome.'
-  editorial_note: Fresh story published August 31/September 1, 2026. Allica is a significant
-    UK SME digital bank (unicorn-valued), and the Swedish licence application illustrates
-    a continuing pattern of UK fintechs establishing EU footholds post-Brexit. The
-    Treasury's public endorsement and the explicit EU passporting ambition give this
-    broader sectoral and policy relevance. Not previously covered.
-  sources: '[Allica Bank applies for banking licence in Sweden](https://www.retailbankerinternational.com/news/allica-bank-sweden-banking-licence/)
-    — Retail Banker International'
-  style_check:
-    compliant: false
-    warnings:
-    - Standfirst opens by naming the organisation ('A Swedish banking licence would
-      give the UK challenger') without the substantive point first. Per rule 1, should
-      open with the action/consequence, not the organisation. Revise to open with
-      the substantive development (the licence application and its consequences for
-      EU expansion) before introducing Allica.
-    - Body paragraph 3 contains 'Allica joins a pattern of UK-authorised fintechs
-      seeking EU banking access' — this frames the story around joining a pattern
-      rather than stating the substantive trend directly. Per rule on 'one of a growing
-      number' constructions, state the trend directly and let Allica illustrate it,
-      rather than hedging with 'joins a pattern'.
-    - Headline, standfirst, and body opening all begin with reference to the Swedish
-      licence/application. Per rule on varying openings, at least one element should
-      open differently. Consider revising the body's opening sentence to lead with
-      a different angle (e.g., Allica's SME focus, the passporting opportunity, or
-      the broader trend).
-  verification:
-    verified: false
-    stale: false
-    duplicate: false
-    warnings:
-    - Draft states 'Zilch acquired Finland's Fjord Bank' but Fjord Bank is Lithuania-based,
-      not Finland-based. Search results confirm Fjord Bank is headquartered in Vilnius,
-      Lithuania.
-  revision:
-    replaced: true
-    resolved: true
-    summary:
-    - 'Replaced: original story flagged as duplicate coverage (Cited source is also
-      cited by another story in this briefing — likely a wrong or duplicate source_id;
-      Story appears in Previously covered list as 2026-09-01 entry; same event reported
-      again; Partior announcement was July 30, 2026, not August as stated in story);
-      swapped in a candidate sourced from a live web search (not in today''s RSS feeds).'
-    - 'Note: the replacement was also flagged — Draft states ''Zilch acquired Finland''s
-      Fjord Bank'' but Fjord Bank is Lithuania-based, not Finland-based. Search results
-      confirm Fjord Bank is headquartered in Vilnius, Lithuania.'
-    - 'Note: the replacement was also flagged — Standfirst opens by naming the organisation
-      (''A Swedish banking licence would give the UK challenger'') without the substantive
-      point first. Per rule 1, should open with the action/consequence, not the organisation.
-      Revise to open with the substantive development (the licence application and
-      its consequences for EU expansion) before introducing Allica.'
-    - 'Note: the replacement was also flagged — Body paragraph 3 contains ''Allica
-      joins a pattern of UK-authorised fintechs seeking EU banking access'' — this
-      frames the story around joining a pattern rather than stating the substantive
-      trend directly. Per rule on ''one of a growing number'' constructions, state
-      the trend directly and let Allica illustrate it, rather than hedging with ''joins
-      a pattern''.'
-    - 'Note: the replacement was also flagged — Headline, standfirst, and body opening
-      all begin with reference to the Swedish licence/application. Per rule on varying
-      openings, at least one element should open differently. Consider revising the
-      body''s opening sentence to lead with a different angle (e.g., Allica''s SME
-      focus, the passporting opportunity, or the broader trend).'
-- headline: Mollie completes €1.1bn GoCardless acquisition, creating pan-European
-    payments group
-  standfirst: The deal unites card acquiring and bank payment infrastructure under
-    a single platform serving 350,000 businesses, marking a further round of consolidation
-    in European mid-market payments.
-  body: 'Mollie, the Amsterdam-based payments provider, completed its acquisition
-    of GoCardless on September 1. The deal, first announced in December 2025 and valued
-    at €1.1 billion, was structured with more than 90% of the consideration paid in
-    shares. The combined group now serves over 350,000 businesses across more than
-    30 markets, with a combined valuation of roughly €3 billion. Mollie chief executive
-    Koen Koppen leads the enlarged group, while GoCardless co-founder Hiroki Takeuchi
-    continues to run GoCardless as a separately branded unit – operating as "GoCardless,
-    a Mollie company".
-
-
-    The acquisition brings together Mollie''s card and local payment method capabilities
-    with GoCardless''s bank payment infrastructure, which covers direct debit and
-    open banking pay-by-bank services in 38 countries. The €1.1 billion price tag
-    represents roughly half of GoCardless''s $2.1 billion peak valuation from 2022
-    – a measure of how far fintech valuations have corrected since the pandemic-era
-    highs. GoCardless had recently reached its first profitable quarter following
-    a period of cost-cutting that included reducing its workforce by roughly a fifth.
-
-
-    The deal fits a pattern across European payments: mid-market providers combining
-    card acquiring, account-to-account payments and adjacent financial services to
-    compete with larger integrated platforms such as Adyen and Stripe. For GoCardless''s
-    open banking and direct debit merchants, the integration into Mollie''s broader
-    platform could accelerate cross-sell into card acceptance and business financing.
-    How quickly the two platforms are technically integrated will determine whether
-    the combined group can deliver on that promise.'
-  editorial_note: The acquisition was announced in December 2025 and has been covered
-    in passing (GoCardless profitability story in April, GoCardless joining UKPI in
-    June), but the completion of the deal on September 1, 2026 is a genuinely new
-    event – the subsequent stage of a continuing story. The €1.1bn deal is one of
-    the largest European payments M&A transactions this year and reflects broader
-    consolidation trends. Source is The Paypers' September 1 completion report, cross-referenced
-    with the GoCardless blog announcement and BusinessCloud's reporting on the deal
-    value and terms.
-  sources: '[Mollie completes GoCardless acquisition](https://thepaypers.com/mergers-aquisitions-and-investments/news/mollie-finalises-gocardless-acquisition-to-expand-payments-offer)
-    — The Paypers'
-  style_check:
-    compliant: false
-    warnings:
-    - 'style check response could not be parsed: ''```json {   "compliant": false,   "warnings":
-      [     "Standfirst opens with \''The deal unites\'' which names the action but
-      violates rule [1] by not openi'''
-  verification:
-    verified: true
-    stale: false
-    duplicate: false
-    warnings: []
-  revision:
-    replaced: true
-    resolved: true
-    summary:
-    - 'Replaced: original story flagged as duplicate coverage (Cited source is also
-      cited by another story in this briefing — likely a wrong or duplicate source_id;
-      Article states MiCA ''has been in force since mid-2024'' but stablecoin provisions
-      came into force June 30, 2024, and full framework December 30, 2024); swapped
-      in a candidate sourced from a live web search (not in today''s RSS feeds).'
-status: ready
+    - Revised standfirst to name the specific competitive dynamics (Nordic incumbents)
+      and the concrete capability being tested (automated credit decisioning built
+      on UK data infrastructure) rather than making a vague thematic claim.
+    - Rewrote body opening to lead with Sweden's characteristics rather than restating
+      the headline's core claim near-verbatim.
+    - Removed 'The move is unusual for a UK challenger bank' opener from paragraph
+      3, leading instead with the substantive contrast about how most digital lenders
+      have expanded internationally.
+status: needs_review
+status_reasons:
+- 'Could not resolve: Mollie completes €1.1bn GoCardless acquisition, creating pan-European
+  payments group'
+- 'Could not resolve: Global banks commit to joint stablecoin venture with euro token
+  first'
