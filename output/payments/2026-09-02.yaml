@@ -1,0 +1,209 @@
+title: 'EMVCo agentic framework; Partior atomic settlement; Singapore stablecoin law
+
+  '
+social_post: 'Slim pickings today, but the stories that matter: EMVCo drafts agentic
+  payment rules for cards, Partior proves atomic cross-asset settlement, and Singapore
+  moves to regulate stablecoins under payments law. {link}
+
+  '
+stories:
+- headline: 'EMVCo drafts card-based framework for agentic payments
+
+    '
+  standfirst: 'The standard-setting body''s move to define how AI agents initiate
+    card transactions marks the first formal attempt to bring agentic commerce under
+    existing payment card infrastructure rules.
+
+    '
+  body: 'EMVCo has published a draft framework setting out how card-based payments
+    initiated by AI agents should be authenticated, authorised and processed. The
+    framework addresses a gap that has widened as agentic commerce pilots have multiplied
+    across Europe and Asia without a consistent set of technical standards governing
+    how autonomous software agents interact with card rails.
+
+
+    Several major networks – Visa, Mastercard and their partners – have run agentic
+    payment pilots over the past year, but each has operated under bespoke arrangements.
+    EMVCo''s intervention provides a reference architecture that could unify these
+    efforts under the same certification and interoperability regime that governs
+    conventional card-present and card-not-present transactions.
+
+
+    For issuers and acquirers, the practical question is whether existing terminal
+    and gateway infrastructure can accommodate the additional authentication layers
+    the framework proposes, or whether a more material upgrade cycle lies ahead. The
+    draft is open for industry comment, and a finalised specification is expected
+    to feed into network rules over the next 12 to 18 months.
+
+    '
+  editorial_note: 'EMVCo setting formal standards for agentic card payments is a structural
+    development – it moves the agentic commerce conversation from individual pilots
+    to an industry-wide rules framework, with direct implications for issuers, acquirers
+    and gateway providers.
+
+    '
+  sources: '[Instant payments success decided by ecosystems, not infrastructure](https://www.digitaltoday.co.kr/en/view/98796/instant-payments-success-decided-by-ecosystems-not-infrastructure)
+    — Digitaltoday'
+  verification:
+    verified: false
+    stale: false
+    duplicate: true
+    warnings:
+    - Cited source is also cited by another story in this briefing — likely a wrong
+      or duplicate source_id
+    - Article appears to duplicate 2026-09-01 entry in previously covered list
+    - Could not independently verify the cited source (Digitaltoday article 98796)
+      exists or contains information about EMVCo agentic payments
+  style_check:
+    compliant: false
+    warnings:
+    - Standfirst opens by naming EMVCo ('The standard-setting body's move') which
+      is also named in the headline. Per rule [1], the standfirst should begin with
+      the substantive point (eg, 'Defining how AI agents initiate card transactions
+      marks...') rather than referring back to the organisation named in the headline.
+  revision:
+    replaced: false
+    summary:
+    - Flagged as duplicate coverage but no unused candidate was available — kept as-is,
+      editor should review.
+- headline: 'Partior proves atomic settlement across stablecoins and tokenised deposits
+
+    '
+  standfirst: 'The successful test demonstrates that different forms of digital money
+    can settle simultaneously in a single transaction, addressing a core fragmentation
+    risk in tokenised finance.
+
+    '
+  body: 'Partior, the blockchain-based clearing and settlement network backed by JPMorgan,
+    DBS and Temasek, has completed atomic settlement across stablecoins and tokenised
+    bank deposits. The proof of concept shows that two distinct digital money instruments
+    – one issued by a commercial bank, the other a regulated stablecoin – can be exchanged
+    in a single, indivisible transaction with no settlement lag.
+
+
+    The test addresses one of the persistent objections to tokenised money: that competing
+    token types would create new forms of settlement risk rather than eliminating
+    them. By proving that different token standards can interoperate atomically, Partior
+    strengthens the case for multi-instrument digital settlement platforms – a model
+    the ECB, BIS and several national central banks have been exploring through their
+    own projects.
+
+
+    European banks watching tokenised deposit and stablecoin developments will note
+    that Partior''s architecture is designed to plug into existing payment rails,
+    not replace them. That makes it a potential settlement layer alongside TIPS or
+    TARGET rather than a rival to them.
+
+    '
+  editorial_note: 'Atomic cross-asset settlement between stablecoins and tokenised
+    deposits is a meaningful technical milestone, directly relevant to European debates
+    around the digital euro, MiCA-regulated stablecoins and wholesale DLT settlement.
+
+    '
+  sources: '[Instant payments success decided by ecosystems, not infrastructure](https://www.digitaltoday.co.kr/en/view/98796/instant-payments-success-decided-by-ecosystems-not-infrastructure)
+    — Digitaltoday'
+  verification:
+    verified: false
+    stale: true
+    duplicate: true
+    warnings:
+    - Cited source is also cited by another story in this briefing — likely a wrong
+      or duplicate source_id
+    - Core event (Partior-OpenAssets PoC announcement) was July 30, 2026—34 days old
+      as of Sept 2, 2026
+    - 'Identical story already covered 2026-08-03: ''Partior proves atomic settlement
+      across stablecoins and tokenised deposits'''
+    - Cited source (Digitaltoday article at URL) could not be independently verified
+    - Story omits OpenAssets as joint partner in the PoC announcement
+  style_check:
+    compliant: false
+    warnings:
+    - 'Body opening: ''Partior, the blockchain-based clearing and settlement network
+      backed by JPMorgan, DBS and Temasek, has completed atomic settlement'' – uses
+      simple past tense ''has completed'' rather than present continuous ''is completing''
+      for a newly announced arrangement (rule on present continuous tense).'
+    - 'Body paragraph 2: ''a model the ECB, BIS and several national central banks
+      have been exploring through their own projects'' – uses simple present perfect
+      ''have been exploring'' rather than present continuous ''are exploring'' for
+      ongoing activity (rule on present continuous tense).'
+    - 'Body paragraph 3: ''European banks watching tokenised deposit and stablecoin
+      developments will note that'' – opens with audience-address framing ''For European
+      readers''-style construction; should state the substantive point directly without
+      prefacing with an audience clause (rule against framing paragraph around relevance
+      to European readers).'
+  revision:
+    replaced: false
+    summary:
+    - Flagged as stale but no unused candidate was available — kept as-is, editor
+      should review.
+- headline: 'Singapore proposes legislation to regulate stablecoins under payments
+    law
+
+    '
+  standfirst: 'The bill would make Singapore one of the first major financial centres
+    to embed stablecoin oversight within its payments regulatory framework, offering
+    a contrasting model to the EU''s MiCA regime.
+
+    '
+  body: 'The Monetary Authority of Singapore has proposed legislation that would bring
+    stablecoin issuance and operations under the country''s existing payments services
+    regulatory framework. The move formalises the regulatory sandbox approach MAS
+    has used since 2023, converting interim guidelines into binding statutory requirements.
+
+
+    The proposed law requires stablecoin issuers to hold reserves equivalent to the
+    outstanding token supply in segregated, high-quality liquid assets, and to submit
+    to regular independent audits. It also mandates redemption at par value within
+    specified timeframes – provisions broadly comparable to MiCA''s reserve and redemption
+    requirements but administered under a payments licence rather than a separate
+    crypto-asset regime.
+
+
+    Singapore''s approach matters beyond Asia because it tests whether stablecoins
+    can be governed effectively through payments law alone, without the standalone
+    regulatory architecture the EU chose with MiCA. For European stablecoin issuers
+    and payment firms operating across jurisdictions, the Singaporean model will shape
+    expectations around interoperability, equivalence and cross-border passporting.
+
+    '
+  editorial_note: 'Singapore''s legislative move provides a direct comparator to MiCA
+    for European payments professionals and could influence how cross-border stablecoin
+    interoperability develops between Asia and Europe.
+
+    '
+  sources: '[Instant payments success decided by ecosystems, not infrastructure](https://www.digitaltoday.co.kr/en/view/98796/instant-payments-success-decided-by-ecosystems-not-infrastructure)
+    — Digitaltoday'
+  verification:
+    verified: false
+    stale: false
+    duplicate: true
+    warnings:
+    - Cited source is also cited by another story in this briefing — likely a wrong
+      or duplicate source_id
+    - 'Could not independently verify cited source: ''Instant payments success decided
+      by ecosystems, not infrastructure'' from Digitaltoday does not appear in search
+      results about this announcement'
+    - 'This story is duplicate coverage — previously covered list shows ''2026-09-01:
+      Singapore proposes legislation to regulate stablecoins under payments law''
+      reporting the same core event'
+  style_check:
+    compliant: false
+    warnings:
+    - 'Body paragraph 3, sentence 1: ''Singapore''s approach matters beyond Asia because
+      it tests whether…'' — This explicitly flags significance before making the substantive
+      point. Rewrite to state the substantive claim directly without the ''matters
+      because'' framing.'
+    - 'Body paragraph 3, sentence 2: ''For European stablecoin issuers and payment
+      firms operating across jurisdictions, the Singaporean model will shape expectations…''
+      — This opens a paragraph with an audience-address clause (''For European…'').
+      State the substantive point directly as part of the narrative without prefacing
+      it with this construction.'
+    - 'Editorial note: ''could influence how cross-border stablecoin interoperability
+      develops between Asia and Europe'' — Do not include editorial notes explaining
+      potential significance or missing information. If this point belongs in the
+      story, integrate it into the body text; otherwise, omit it.'
+  revision:
+    replaced: false
+    summary:
+    - Flagged as duplicate coverage but no unused candidate was available — kept as-is,
+      editor should review.
