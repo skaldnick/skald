@@ -2,18 +2,4 @@
 # Populated automatically by tools/extract_learning.py (via GitHub Actions on push
 # to data/feedback/). Review and promote/edit in the dashboard's 'Proposed style
 # rules' section — accepted rules move to prompts/payments/style_rules.yaml.
-- date: '2026-09-03'
-  rule: When a term such as "account-to-account" forms part of a product's proper
-    name (eg, "A2A Protect"), do not spell out the abbreviation within that product
-    name or add a parenthetical. Treat the product name as a fixed proper noun and
-    reproduce it exactly — eg, "A2A Protect" not "account-to-account (A2A) Protect".
-    The general rule to spell out non-standard abbreviations applies only when the
-    abbreviation is used as a standalone term, not when it is embedded in a trademarked
-    or branded product name.
-  supersedes: 2
-- date: '2026-09-03'
-  rule: Avoid vague temporal references such as "in March" or "in June" when a specific
-    date is available. Use the precise date (eg, "on 14 March") or, where only a month
-    is known, the month name. Reserve relative references only when the specific date
-    cannot be established.
-  supersedes: 19
+[]
