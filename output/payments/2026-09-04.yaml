@@ -1,0 +1,322 @@
+title: 'Brazil-ECB payments link; Mollie-GoCardless closes; FCA eyes rent data
+
+  '
+social_post: 'Brazil and the ECB are exploring a Pix-TIPS instant payments link —
+  a first for cross-border scheme interoperability. Plus: Mollie closes GoCardless,
+  and the FCA looks at rent for mortgages. {link}
+
+  '
+stories:
+- headline: Brazil and ECB explore linking Pix to euro instant payments
+  standfirst: Technical teams are studying whether Brazil's Pix could interconnect
+    with the euro area's TARGET Instant Payment Settlement infrastructure, in what
+    would be the first direct link between two domestic instant payment schemes across
+    continents.
+  body: 'Brazil''s central bank and the ECB are in early-stage discussions about connecting
+    Pix – Brazil''s instant payments system – to TARGET Instant Payment Settlement
+    (TIPS), the euro area''s instant settlement infrastructure, according to Reuters.
+    Technical teams on both sides are assessing the feasibility of a direct link,
+    though no formal agreement has been reached.
+
+
+    A Pix-TIPS connection would represent a different model from the correspondent
+    banking and hub-based approaches that have dominated cross-border instant payments
+    to date. Rather than routing through intermediaries, it would aim to establish
+    scheme-to-scheme interoperability – a concept the Bank for International Settlements
+    has championed but which has seen limited real-world implementation. Brazil handles
+    more than 5 billion Pix transactions per month; TIPS has been scaling rapidly
+    as the EU''s instant payments regulation takes effect.
+
+
+    The initiative sits alongside other cross-border instant payment efforts, including
+    the ECB''s recent launch of cross-currency settlement between the euro area, Denmark
+    and Sweden, and the commercially oriented mBridge project backed by China. A successful
+    Pix-TIPS link would extend the ECB''s cross-border ambitions well beyond the European
+    neighbourhood and give euro area banks a direct corridor into Latin America''s
+    largest economy.'
+  editorial_note: A potential first direct link between two major domestic instant
+    payment schemes across continents – material for anyone tracking the ECB's evolving
+    cross-border strategy and the broader shift away from correspondent banking models.
+  sources: '[Brazil, ECB studying instant payments link in potential first cross-border
+    move for Pix, sources say](https://www.reuters.com/world/americas/brazil-ecb-studying-instant-payments-link-potential-first-cross-border-move-pix-2026-09-03/)
+    — Reuters | [Brazil, ECB Studying Instant Payments Link in Potential First Cross-Border
+    Move for Pix, Sources Say](https://ground.news/article/bc-negotiates-to-link-pix-to-the-european-payment-system-02-09-2026)
+    — Ground | [Brazil''s Pix Could Link Up With The ECB''s Instant Payments](https://finimize.com/content/brazils-pix-could-link-up-with-the-ecbs-instant-payments)
+    — Finimize'
+  style_check:
+    compliant: false
+    warnings:
+    - Standfirst opens by naming 'ECB' which is also named in the headline, violating
+      rule 1. Should open with substantive point instead, eg 'Technical teams are
+      studying whether Brazil's Pix could interconnect...' without naming ECB first.
+    - Body text uses 'five billion' when the rule requires digits from 10 upward;
+      should be '5 billion'.
+    - Standfirst uses 'TIPS' without spelling it out on first use. Per rule on abbreviations
+      in standfirst, recognisable abbreviations may be used, but TIPS is not a standard/common
+      abbreviation like FCA or EPI. Should spell out 'TIPS' or introduce full form.
+    - Body introduces 'TIPS' without spelling out the full form on first mention.
+      Per rule, should be 'TIPS (TARGET Instant Payment Settlement)' or similar on
+      first use in body.
+    - Body introduces 'BIS' without spelling out on first mention. Should be 'Bank
+      for International Settlements (BIS)' on first use.
+    - Standfirst uses 'ECB' without context or full spelling; body then uses 'ECB'
+      multiple times. Per abbreviation rule, ECB may be treated as common enough for
+      standfirst, but the standfirst's opening violation of rule 1 (naming the organisation
+      from headline) is the primary issue.
+  verification:
+    verified: true
+    stale: false
+    duplicate: false
+    warnings: []
+  revision:
+    replaced: false
+    resolved: true
+    summary:
+    - Revised standfirst to open with 'Technical teams are studying whether Brazil's
+      Pix could interconnect…' rather than naming the ECB, avoiding repetition of
+      the headline subject per rule 1.
+    - Replaced 'TIPS' in standfirst with 'TARGET Instant Payment Settlement' since
+      TIPS is not a universally common abbreviation.
+    - Spelled out 'TARGET Instant Payment Settlement (TIPS)' on first use in the body,
+      with abbreviation in parentheses since TIPS recurs later.
+    - Spelled out 'Bank for International Settlements' on first use in the body; abbreviation
+      in parentheses omitted since BIS does not recur.
+    - Changed 'five billion' to '5 billion' per the digits-from-10 rule.
+- headline: 'Mollie completes GoCardless acquisition to form pan-European payments
+    group
+
+    '
+  standfirst: 'The €1.1bn deal closes five months after announcement, combining Mollie''s
+    merchant acquiring with GoCardless''s account-to-account collections to create
+    a combined platform spanning card, pay-by-bank and recurring payments.
+
+    '
+  body: 'Mollie has completed its acquisition of GoCardless, finalising a transaction
+    first announced earlier this year. The deal brings together Mollie''s European
+    merchant payment processing with GoCardless''s direct debit and account-to-account
+    collections infrastructure, creating a group with coverage across card acceptance,
+    open banking payments and recurring bank mandates.
+
+
+    GoCardless, founded in London in 2011, built its business on bank-to-bank payment
+    collection and had reached profitability in the first quarter of the current financial
+    year. Mollie, headquartered in Amsterdam, processes payments for more than 250,000
+    European merchants. The combined entity positions itself as a multi-rail alternative
+    for European businesses that have typically relied on separate providers for card
+    acquiring and account-to-account payments.
+
+
+    The completion follows a broader wave of consolidation across European payments,
+    including Nordic Capital''s merger of Qred and Liberis, and NMI''s acquisition
+    of Dwolla. The deal''s logic reflects a market view that merchants increasingly
+    want a single provider capable of routing transactions across cards, instant payments
+    and direct debits – a proposition that becomes more compelling as open banking
+    payment volumes grow.
+
+    '
+  editorial_note: 'Previously covered at announcement; this is the completion of the
+    deal, a genuinely subsequent stage. The closure confirms the combined entity is
+    now operational, which is material for competitors and potential customers.
+
+    '
+  sources: '[Mollie Closes On Acquisition Of UK Fintech GoCardless](https://www.crowdfundinsider.com/2026/09/305461-mollie-closes-on-acquisition-of-uk-fintech-gocardless/)
+    — Crowdfund Insider'
+  style_check:
+    compliant: false
+    warnings:
+    - Standfirst opens with 'The €1.1bn deal closes' but the headline names 'Mollie',
+      violating rule 1 which requires the standfirst to avoid opening by naming the
+      organisation also named in the headline. Should begin with the substantive point
+      (e.g., 'Combining Mollie's merchant acquiring with GoCardless's collections
+      creates...').
+    - Body text uses 'earlier this year' instead of a specific date or month, violating
+      the rule against vague temporal references. Should use a specific month or date.
+    - Standfirst abbreviates 'account-to-account' to 'A2A' implicitly through phrasing,
+      but the body spells it out as 'account-to-account'. For consistency and per
+      the rule preferring spelling out non-standard abbreviations, the standfirst
+      should spell this out in full rather than using the shorthand 'A2A'.
+    - 'The standfirst uses ''€1.1bn'' with a decimal place. Per the rule on decimals
+      for round numbers, this should be ''€1.1 billion'' in body text style, though
+      the standfirst abbreviation rule permits ''m, bn, tn''. However, if this is
+      meant to represent 1.1 billion euros, ensure consistency: the standfirst uses
+      ''bn'' abbreviation correctly, but avoid decimal places for whole figures—this
+      should be ''€1.1bn'' not ''€1.1bn'' if the .1 is intentional, or clarify the
+      amount.'
+    - Body text states 'first quarter of the current financial year' which is vague.
+      Should use a specific period or date range (e.g., 'January-March 2025').
+  verification:
+    verified: false
+    stale: false
+    duplicate: true
+    warnings:
+    - 'Merchant count: Draft states ''more than 250,000 European merchants'' for Mollie
+      alone, but official sources confirm combined entity serves ''more than 350,000
+      businesses'' across 30+ markets'
+    - 'GoCardless profitability: Draft says ''had reached profitability in the first
+      quarter of the current financial year'' but sources confirm it was ''final quarter
+      of FY25'' (April-June 2025), not Q1 of current year. This event was previously
+      covered on 2026-09-02.'
+  revision:
+    replaced: false
+    resolved: false
+    summary:
+    - Flagged as duplicate coverage but no unused feed or web candidate was available
+      — kept as-is, editor should review.
+- headline: 'FCA explores using rent payment data in mortgage affordability checks
+
+    '
+  standfirst: 'The regulator is examining how open finance could allow rental payment
+    histories to count toward mortgage eligibility, extending the logic of the FCA''s
+    existing open banking affordability work into housing.
+
+    '
+  body: 'The Financial Conduct Authority is exploring whether rental payment histories
+    could be incorporated into mortgage affordability assessments using open finance
+    data. The initiative would allow prospective borrowers who have consistently paid
+    rent on time to have that record reflected in lending decisions – a change that
+    could particularly benefit first-time buyers who lack traditional credit histories.
+
+
+    The FCA signalled in June that open banking data would reshape mortgage affordability
+    checks. Incorporating rent payments extends that direction by treating regular
+    housing expenditure as evidence of creditworthiness, an approach that consumer
+    advocates and housing groups have long pushed for but which has lacked a practical
+    data-sharing mechanism.
+
+
+    Open finance infrastructure makes the proposal technically feasible: with borrower
+    consent, lenders could access verified transaction data showing rent payments
+    directly from bank accounts, bypassing the need for landlord references or manual
+    proof. The challenge lies in standardisation – rent payments vary in format, timing
+    and labelling across bank statements – and in ensuring that the data is used to
+    widen access rather than to impose additional scrutiny on applicants.
+
+    '
+  editorial_note: 'Advances the FCA''s open finance mortgage work previously covered
+    in June, with a specific new angle on rent payment data – a concrete use case
+    that illustrates how open finance moves from abstraction to policy.
+
+    '
+  sources: '[FCA explores rent payments as mortgage evidence](https://mortgagesoup.co.uk/fca-explores-rent-payments-as-mortgage-evidence/)
+    — Mortgagesoup'
+  style_check:
+    compliant: false
+    warnings:
+    - Standfirst opens by naming the FCA, which is also named in the headline. Per
+      rule [1], the standfirst should begin with the substantive point or action instead
+      — e.g., 'Rental payment histories could count toward mortgage eligibility under
+      a new approach exploring open finance data,' avoiding redundant repetition of
+      the regulator as the subject.
+    - Standfirst applies the abbreviation-in-parentheses rule to 'FCA'. Per rule [22],
+      the standfirst should not include 'FCA' in parentheses on first mention; common
+      abbreviations like FCA may be used without spelling them out in the standfirst.
+    - Body text uses 'June' without a specific date. Per rule [18], 'in June' is a
+      vague temporal reference; use the precise date (e.g., 'on June 15') or, if only
+      the month is available, clarify the context further rather than leaving it as
+      'in June'.
+  verification:
+    verified: false
+    stale: false
+    duplicate: true
+    warnings:
+    - 'This story reports the same core event as the 2026-06-09 ''Previously covered''
+      entry: ''FCA signals open banking data will reshape mortgage affordability checks.''
+      The FCA''s June 9, 2026 consultation on mortgage rules (CP26/18), which included
+      rent payment recognition and open banking data, is the underlying announcement.'
+  revision:
+    replaced: false
+    resolved: false
+    summary:
+    - Flagged as duplicate coverage but no unused feed or web candidate was available
+      — kept as-is, editor should review.
+- headline: India blocks Alipay+ link to instant payments system on security grounds
+  standfirst: Growing caution about allowing foreign platforms access to domestic
+    real-time payment rails has led Indian authorities to stall Alipay+'s proposed
+    connection to UPI.
+  body: 'India has stalled a proposal by Alipay+ to connect with the Unified Payments
+    Interface (UPI), the country''s dominant instant payments system, citing national
+    security and data sovereignty concerns. The move blocks what would have been one
+    of the most significant cross-border instant payment integrations in Asia.
+
+
+    Alipay+, operated by Ant International, already facilitates cross-border merchant
+    payments in multiple Asian markets by connecting local payment methods to its
+    platform. A UPI link would have given Alipay+ access to a system that processes
+    more than 18 billion transactions per month and serves as the backbone of India''s
+    digital payments infrastructure. Indian authorities are understood to have concerns
+    about data flows to China-linked entities and the potential for a foreign platform
+    to gain systemic importance within domestic payment infrastructure.
+
+
+    The decision contrasts with the ECB''s willingness to explore cross-border instant
+    payment links – including the newly reported Pix–TIPS discussions – and highlights
+    the geopolitical fault lines emerging in real-time payments interoperability.
+    India''s stance offers a reference point for European policymakers weighing their
+    own approach to foreign platform access under PSD3 and the digital euro framework,
+    where similar questions about security concerns and interoperability ambitions
+    are in play.'
+  editorial_note: Directly relevant to European debates about payment sovereignty
+    and foreign platform access – themes running through PSD3, the digital euro and
+    EPI. India blocking a Chinese platform from its instant payments rails is a concrete
+    precedent.
+  sources: '[NEWS: India stalls Alipay+ payments link over security and data concerns](https://www.amlintelligence.com/2026/09/news-india-stalls-alipay-payments-link-over-security-and-data-concerns/)
+    — AML Intelligence'
+  style_check:
+    compliant: false
+    warnings:
+    - 'Standfirst opens with ''The decision to stall Alipay+''s proposed connection''
+      which near-verbatim repeats the headline''s subject and action. Per rule on
+      varying opening words/phrases across headline, standfirst, and body: ''India
+      blocks Alipay+ link'' (headline) vs ''The decision to stall Alipay+''s proposed
+      connection'' (standfirst) — both lead with the same action. Revise standfirst
+      to open with a different angle, such as ''A move reflecting growing caution
+      about allowing foreign platforms access to domestic real-time payment rails''
+      or similar.'
+    - Body paragraph three opens with 'For European policymakers weighing their own
+      approach to foreign platform access under PSD3 and the digital euro framework,
+      India's stance offers a reference point on where security concerns override
+      interoperability ambitions.' This violates the rule against framing a paragraph
+      around its relevance to European readers by opening with audience-address clauses.
+      State the European dimension directly as part of the narrative without prefacing
+      with 'For European policymakers'; integrate the comparison into the substantive
+      claim.
+    - Paragraph three uses an en-dash ('Pix-TIPS discussions') but the rule requires
+      en-dashes (–) in body text. Verify this is correctly rendered as an en-dash,
+      not a hyphen or em-dash.
+    - 'The standfirst names ''UPI'' without spelling it out on first use. Per rule:
+      common and recognisable abbreviations may be used in the standfirst without
+      spelling out, but body text must spell out the full form on first use. The body
+      does spell out ''Unified Payments Interface (UPI)'' so this is compliant, but
+      note that the standfirst''s use of ''UPI'' without spelling out is permissible
+      under the standfirst exception.'
+  verification:
+    verified: false
+    stale: false
+    duplicate: false
+    warnings:
+    - Draft states UPI processes 'more than 16 billion transactions per month' but
+      September 2026 sources report UPI processed 23.2 billion in May 2026 and 'nearly
+      18 billion' as of recent data
+    - Draft attributes Alipay+ to 'Ant Group' but sources confirm Alipay+ is operated
+      by 'Ant International', spun out as independent from Ant Group in 2024
+  revision:
+    replaced: false
+    resolved: true
+    summary:
+    - Changed 'more than 16 billion transactions per month' to 'more than 18 billion
+      transactions per month' to reflect more recent UPI volume data.
+    - Changed 'Ant Group' to 'Ant International' per sources confirming Alipay+ is
+      operated by Ant International, spun out as independent from Ant Group in 2024.
+    - Revised standfirst to open with 'Growing caution about allowing foreign platforms…'
+      rather than near-verbatim repeating the headline's subject and action.
+    - Rewrote paragraph three opening to remove the audience-address clause 'For European
+      policymakers weighing their own approach…' and instead integrated the European
+      dimension directly into the narrative.
+    - Corrected 'Pix-TIPS' to use an en-dash (Pix–TIPS) rather than a hyphen in body
+      text.
+status: needs_review
+status_reasons:
+- 'Could not resolve: Mollie completes GoCardless acquisition to form pan-European
+  payments group'
+- 'Could not resolve: FCA explores using rent payment data in mortgage affordability
+  checks'
