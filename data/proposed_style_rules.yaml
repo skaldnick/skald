@@ -2,10 +2,4 @@
 # Populated automatically by tools/extract_learning.py (via GitHub Actions on push
 # to data/feedback/). Review and promote/edit in the dashboard's 'Proposed style
 # rules' section — accepted rules move to prompts/payments/style_rules.yaml.
-- date: '2026-09-04'
-  rule: Do not include interpretive or superlative framing in the standfirst — such
-    as "in what would be the first direct link between two domestic instant payment
-    schemes across continents" or "extending the logic of the FCA's existing open
-    banking affordability work into housing". The standfirst should state the substantive
-    development plainly; leave interpretation and contextualisation to the body text
-    where it can be properly supported.
+[]
