@@ -1,238 +1,239 @@
-title: 'Swift ledger goes live; Pay.UK on AI fraud; ECB-Pix link advances
+title: 'ECB-Pix link; PayTabs acquires Amazon Payments MENA; Pay.UK on AI fraud
 
   '
-social_post: 'BNP Paribas and HSBC run the first corporate treasury transaction on
-  Swift''s shared ledger. Plus: Pay.UK''s fraud chief on AI-driven scams and the ECB-Pix
-  interlinking story moves forward. {link}
+social_post: 'Slim pickings today but the ECB''s exploration of a TIPS-Pix link is
+  worth your attention — cross-border instant payments just got more concrete. Plus
+  PayTabs picks up Amazon''s MENA payments ops. {link}
 
   '
 stories:
-- headline: BNP Paribas and HSBC complete first corporate payment on Swift's shared
-    ledger
-  standfirst: The shift from pilot to production use of Swift's distributed ledger
-    – marked by a Siemens treasury transaction – is a milestone for banks exploring
-    tokenised settlement infrastructure.
-  body: 'BNP Paribas and HSBC have executed the first corporate treasury payment on
-    Swift''s blockchain-based shared ledger, processing a transaction for Siemens.
-    The move takes the ledger – first announced in September 2025 and opened to live
-    bank pilots in July – from controlled testing into live corporate use.
+- headline: Revolut wins conditional US bank charter after OCC rejects Wise and Bunq
+  standfirst: Conditional approval from the OCC clears the hardest regulatory hurdle
+    for Revolut's planned 2027 US bank launch – a path that two other European fintechs
+    failed to secure this year.
+  body: 'The US Office of the Comptroller of the Currency granted Revolut preliminary
+    conditional approval on September 2 to establish Revolut Bank US, National Association,
+    a branchless digital bank headquartered in Stamford, Connecticut. CEO Nik Storonsky
+    described it as a first step toward bringing the company''s full product range
+    to the US market. The proposed bank would offer deposits, personal loans, credit
+    cards and stablecoin-based remittances, with an initial capital contribution of
+    roughly $95 million. Revolut must still secure deposit insurance from the Federal
+    Deposit Insurance Corporation, approval from the Federal Reserve and a final sign-off
+    from the OCC before the bank can open. The company is targeting the first half
+    of 2027.
 
 
-    Swift had previously confirmed that banks would begin piloting live transactions
-    on the platform, but the involvement of a major corporate treasury operation gives
-    the initiative a practical reference point. Siemens treasury chief Joerg Bermuller
-    has been among the most vocal corporate advocates for open banking standards in
-    payments infrastructure, and the company''s participation signals genuine demand
-    from the buy side.
+    The approval arrives after the OCC denied charter applications from both Wise
+    in July and Bunq in August, raising questions about the agency''s appetite for
+    foreign fintech applicants. Revolut''s review took 176 days from its March filing
+    – longer than the OCC''s 120-day target and slower than the 121-day review for
+    Brazil''s Nubank. The conditional approval excludes retail foreign exchange, merchant
+    acquiring and correspondent banking for foreign banks, each of which requires
+    a separate supervisory non-objection – an unusual restriction that distinguishes
+    this charter from others issued this year.
 
 
-    The transaction demonstrates that Swift''s approach – layering distributed ledger
-    technology onto existing correspondent banking relationships – can handle real
-    corporate flows. The gap between prototype and production has narrowed, though
-    whether this model scales to high-volume treasury operations remains an open question.'
-  editorial_note: 'Follows up on the July 9 story about banks piloting live transactions
-    on Swift''s shared ledger, with a material new development: the first completed
-    corporate treasury payment involving named counterparties.'
-  sources: '[BNP Paribas and HSBC complete first corporate treasury transaction on
-    Swift''s blockchain ledger](https://www.finextra.com/newsarticle/48347/bnp-paribas-and-hsbc-complete-first-corporate-treasury-transaction-on-swifts-blockchain-ledger?utm_medium=rssfinextra&utm_source=finextrafeed)
+    Revolut serves more than 80 million customers globally and has accumulated banking
+    licences in the UK, France, Australia and Mexico. A federal US charter would replace
+    the company''s current reliance on partner banks for deposits and payment processing,
+    giving it direct access to Fedwire and ACH. With Wise forced to refile and Bunq
+    turned away, Revolut is now the European fintech closest to operating as a fully
+    licensed US bank.'
+  editorial_note: 'This story is from September 3 (OCC decision dated September 2)
+    and has not been previously covered. It is a genuinely significant regulatory
+    milestone for Europe''s largest neobank by customer count, with broader implications
+    for European fintech expansion into the US. The contrast with Wise''s and Bunq''s
+    rejected applications provides useful context on the OCC''s evolving posture toward
+    foreign fintechs. The Fintech Futures article is cited as the primary source,
+    supplemented by detail from the OCC''s published Corporate Decision #1390 and
+    TechTimes analysis.'
+  sources: '[Revolut wins conditional approval for US bank charter](https://www.fintechfutures.com/regulatory-actions/revolut-wins-conditional-approval-for-us-bank-charter)
+    — Fintech Futures'
+  style_check:
+    compliant: false
+    warnings:
+    - Standfirst opens with 'Conditional approval from the OCC' but headline names
+      'Revolut' — this violates the rule against opening the standfirst by naming
+      the organisation also named in the headline. The standfirst should open with
+      the substantive point (e.g., 'The move clears...') rather than restating the
+      subject.
+    - Body text uses 'roughly $95 million' — decimal precision (.0) rule violation
+      not applicable here, but the word 'roughly' introduces vagueness where a specific
+      figure from the OCC decision should be used if available.
+    - Standfirst uses 'OCC' without spelling it out on first mention — the rule requires
+      abbreviations to be spelled out in parentheses on first use in the body, but
+      the standfirst has already introduced it as 'OCC'. The body must still spell
+      out 'Office of the Comptroller of the Currency (OCC)' on first use, which it
+      does correctly.
+  verification:
+    verified: false
+    stale: false
+    duplicate: false
+    warnings:
+    - 'Story lists three restricted product lines (retail FX, merchant acquiring,
+      correspondent banking); OCC approval actually restricts four: these three plus
+      FX forward contracts'
+  revision:
+    replaced: true
+    resolved: true
+    summary:
+    - 'Replaced: original story flagged as duplicate coverage (Cited source is also
+      cited by another story in this briefing — likely a wrong or duplicate source_id;
+      Pix transaction volume: draft states ''45 billion transactions in 2025'', but
+      sources confirm 79.7 billion; Announcement date: draft attributes to ''September
+      4'', but Reuters broke story Sept 3; Folha/ECB document coverage was Sept 4;
+      Same event already covered in Previously Covered list for 2026-09-04); swapped
+      in a candidate sourced from a live web search (not in today''s RSS feeds).'
+    - 'Note: the replacement was also flagged — Story lists three restricted product
+      lines (retail FX, merchant acquiring, correspondent banking); OCC approval actually
+      restricts four: these three plus FX forward contracts'
+    - 'Note: the replacement was also flagged — Standfirst opens with ''Conditional
+      approval from the OCC'' but headline names ''Revolut'' — this violates the rule
+      against opening the standfirst by naming the organisation also named in the
+      headline. The standfirst should open with the substantive point (e.g., ''The
+      move clears...'') rather than restating the subject.'
+    - 'Note: the replacement was also flagged — Body text uses ''roughly $95 million''
+      — decimal precision (.0) rule violation not applicable here, but the word ''roughly''
+      introduces vagueness where a specific figure from the OCC decision should be
+      used if available.'
+    - 'Note: the replacement was also flagged — Standfirst uses ''OCC'' without spelling
+      it out on first mention — the rule requires abbreviations to be spelled out
+      in parentheses on first use in the body, but the standfirst has already introduced
+      it as ''OCC''. The body must still spell out ''Office of the Comptroller of
+      the Currency (OCC)'' on first use, which it does correctly.'
+- headline: PayTabs agrees $100m deal to acquire Amazon's MENA payments operations
+  standfirst: The acquisition gives PayTabs Amazon's regional payment infrastructure
+    and merchant relationships, reshaping the competitive landscape for digital payments
+    across the Middle East.
+  body: 'Amazon has agreed to transfer its Middle East and North Africa payments operations
+    to Saudi Arabia-based PayTabs in a deal worth $100 million. The transaction hands
+    PayTabs the technology stack and merchant relationships that Amazon built to support
+    its e-commerce platform across the region.
+
+
+    PayTabs, which provides payment processing and gateway services to merchants across
+    MENA, gains a significant boost in scale and credibility. Amazon''s payments operation
+    in the region – built initially to serve its own marketplace after acquiring Souq.com
+    – includes local acquiring capabilities and integrations with regional payment
+    methods that would have taken years to replicate organically.
+
+
+    The deal signals that the region''s payment infrastructure is consolidating around
+    local and regional players rather than global platforms. Amazon''s decision to
+    exit the payments side of its MENA business mirrors a broader pattern of global
+    technology companies selectively retreating from payment operations in markets
+    where local regulatory and commercial dynamics favour domestic specialists.'
+  editorial_note: ''
+  sources: '[PayTabs to acquire Amazon Payments Mena operations](https://www.finextra.com/newsarticle/48356/paytabs-to-acquire-amazon-payments-mena-operations?utm_medium=rssfinextra&utm_source=finextrafeed)
     — Finextra'
   style_check:
     compliant: false
     warnings:
-    - Headline and standfirst both open with the same core subject and action ('BNP
-      Paribas and HSBC' / 'A Siemens treasury transaction'). Per rule on varying openings
-      across headline, standfirst, and body, at least one element should differ. The
-      standfirst should open with the substantive point rather than naming parties
-      that appear in the headline.
-    - Body paragraph 1 opens with 'BNP Paribas and HSBC have executed' — this repeats
-      the headline's opening parties and action, creating near-identical phrasing
-      across headline and body opening. Per rule on not weakening the body's opening
-      to avoid repetition, the body should be strong and direct, but if repetition
-      is unavoidable, revise the standfirst instead. Revise the standfirst to open
-      with the substantive point (the shift from pilot to production, or the implications
-      for tokenised settlement), not the transaction parties.
-    - Diacritics used in proper noun 'Bermüller' — per rule on foreign diacritics,
-      use 'Bermuller' or the accepted British English equivalent.
-    - 'Phrase ''For European banks evaluating tokenised settlement, the transaction
-      demonstrates…'' opens a paragraph with an audience-address clause (''For European…'').
-      Per rule against framing paragraphs by audience relevance this way, state the
-      European dimension directly as part of the narrative without prefacing it. Revise
-      to: ''The transaction demonstrates that Swift''s approach – used by European
-      banks evaluating tokenised settlement – can handle real corporate flows…'' or
-      similar.'
-    - Sentence 'Whether this model scales to high-volume treasury operations remains
-      to be proven, but the gap between prototype and production has narrowed' opens
-      with hedging ('Whether… remains to be proven'). Per rule against opening paragraphs
-      with hedging scene-setters that delay substantive points, lead directly with
-      the substantive claim. Revise to open with 'The gap between prototype and production
-      has narrowed, though whether the model scales to high-volume treasury operations
-      depends on…' or similar.
-  verification:
-    verified: false
-    stale: false
-    duplicate: false
-    warnings:
-    - Ledger was first announced in September 2025, not July. July 2026 was when banks
-      were announced to pilot live transactions
-    - 'Could not independently verify: Jörg Bermüller is Head of Cash and Risk Management
-      at Merck KGaA per available sources, not identified as Siemens treasury chief'
-  revision:
-    replaced: false
-    resolved: true
-    summary:
-    - 'Corrected timeline: ledger first announced in September 2025, with live bank
-      pilots beginning in July, per issue flagging the original ''first announced
-      as a pilot vehicle in July'' as inaccurate.'
-    - Revised standfirst to open with the substantive point ('The shift from pilot
-      to production use…') rather than naming parties already in the headline, avoiding
-      repetition across headline and standfirst.
-    - Removed umlaut from 'Bermüller', now rendered as 'Bermuller' per house style
-      on foreign diacritics.
-    - Removed audience-address clause 'For European banks evaluating tokenised settlement'
-      from the opening of the final paragraph; restructured to state the point directly.
-    - Restructured final sentence to lead with the substantive claim ('The gap between
-      prototype and production has narrowed') rather than opening with the hedging
-      clause ('Whether this model scales…').
-- headline: Pay.UK warns AI-driven fraud is the fastest-moving threat to UK payments
-  standfirst: David Crawford, Pay.UK's chief strategy and transformation officer,
-    frames AI-generated fraud as outpacing current defences and links it to the proposed
-    merger of the PSR into the FCA.
-  body: 'David Crawford, Pay.UK''s chief strategy and transformation officer, has
-    identified AI-driven fraud as the most rapidly evolving risk facing the UK payments
-    system. Crawford said the speed and sophistication of AI-generated scams are advancing
-    faster than the industry''s capacity to detect them, creating a widening gap between
-    attackers and defenders.
-
-
-    Crawford placed the fraud challenge alongside broader structural shifts, including
-    the proposed merger of the Payment Systems Regulator into the Financial Conduct
-    Authority under the Financial Services and Markets Bill. That consolidation –
-    still subject to parliamentary scrutiny – would reshape how fraud policy and payments
-    oversight interact in the UK.
-
-
-    The warning reinforces a pattern visible across European payments: as instant
-    payment volumes grow and new rails such as open banking expand the attack surface,
-    the fraud tooling question becomes increasingly urgent. UK fraud losses rose to
-    £1.3 billion in the most recent reporting period, with authorised push payment
-    scams rebounding sharply after mandatory reimbursement rules took effect.'
-  editorial_note: A named payments infrastructure figure connecting AI fraud risk
-    to live regulatory reform gives this weight beyond a generic fraud warning. Relevant
-    to the ongoing UK regulatory restructuring debate.
-  sources: '[Pay.UK''s David Crawford: AI fraud Is The Fastest-Moving Shift](https://thefintechtimes.com/pay-uks-david-crawford-ai-fraud-is-the-fastest-moving-shift/)
-    — The Fintech Times'
-  style_check:
-    compliant: false
-    warnings:
-    - 'style check response could not be parsed: ''```json {   "compliant": false,   "warnings":
-      [     "Standfirst opens by naming Pay.UK, which is also named in the headline.
-      Per rule [1], the standfi'''
-  verification:
-    verified: false
-    stale: false
-    duplicate: false
-    warnings:
-    - 'Title incorrect: Story identifies Crawford as ''head of financial crime'' but
-      cited source and Pay.UK official records show his title is ''Chief Strategy
-      and Transformation Officer'''
-  revision:
-    replaced: false
-    resolved: true
-    summary:
-    - Corrected David Crawford's title from 'head of financial crime' to 'chief strategy
-      and transformation officer' in both the standfirst and body, per cited source
-      and Pay.UK official records.
-- headline: Wero goes live in Luxembourg with first in-store payments capability
-  standfirst: The launch makes Luxembourg EPI's fifth market and – through the Payconiq
-    migration – the first where Wero supports point-of-sale acceptance, a milestone
-    in the scheme's progression beyond peer-to-peer and e-commerce.
-  body: 'The European Payments Initiative (EPI) held a press conference in Luxembourg
-    on September 2 to mark the start of the Payconiq-to-Wero migration. Throughout
-    September, Wero is becoming progressively available to Luxembourg consumers and
-    merchants as the country''s five participating banks – BGL BNP Paribas, Banque
-    Internationale a Luxembourg, Raiffeisen, Spuerkeess and Post Luxembourg – move
-    through the different phases of the transition. Payconiq''s platform will shut
-    permanently on September 30, giving users and merchants a single month to switch.
-
-
-    The migration matters beyond Luxembourg''s 300,000 Payconiq users because it introduces
-    a capability Wero has lacked elsewhere: in-store payments. In Germany, France
-    and Belgium, Wero has operated as a peer-to-peer and e-commerce tool. By absorbing
-    Payconiq''s established QR-code merchant network, Luxembourg becomes the first
-    market where Wero functions at the physical point of sale. Existing Payconiq QR
-    codes on invoices and in shops will remain scannable via the Wero app until the
-    end of 2026, with merchants required to replace them with Wero-branded codes by
-    the end of September.
-
-
-    Hakan Sekulu, chief executive of Worldline in Luxembourg, said success depends
-    on strong customer adoption, easy integration and frictionless checkout. The compressed
-    timetable – one month of parallel running before Payconiq closes – will test whether
-    EPI''s approach of coordinated, market-wide switchovers can deliver a smoother
-    transition than the gradual rollouts seen in its other markets.'
-  editorial_note: This is a genuinely new development beyond the August 26 story ('Payconiq
-    to Wero migration gets firm dates in Luxembourg'), which covered the announced
-    timeline. The September 2 press conference marks the actual go-live, with EPI
-    confirming that Luxembourg is the first market where Wero supports in-store POS
-    payments via the Payconiq QR network migration. Source is chronicle.lu's report
-    from the EPI press event.
-  sources: '[Payconiq Payment System Officially Transitions to Wero Platform in Luxembourg](https://www.chronicle.lu/category/banking/63148-payconiq-payment-system-officially-transitions-to-wero-platform-in-luxembourg)
-    — Chronicle.lu'
-  style_check:
-    compliant: false
-    warnings:
-    - 'Standfirst opens with ''The launch'' naming the action but the headline already
-      names the action (''goes live''). Per rule on not starting headline, standfirst
-      and body opening sentence with the same word or phrase, the standfirst should
-      vary its opening. Consider: ''Luxembourg becomes EPI''s fifth market and – through
-      the Payconiq migration – the first where Wero supports point-of-sale acceptance,
-      a milestone in the scheme''s progression beyond peer-to-peer and e-commerce.'''
-    - 'Body paragraph 2 states ''The migration matters beyond Luxembourg''s 300,000
-      Payconiq users because…'' — this is an explicit significance-flagging construction
-      (''matters because'') that violates the rule against announcing importance before
-      explaining it. Rewrite as: ''Beyond Luxembourg''s 300,000 Payconiq users, the
-      migration introduces a capability Wero has lacked elsewhere: in-store payments.'''
-    - The standfirst uses 'EPI' on first mention without spelling out 'European Payments
-      Initiative'. While common abbreviations like EPI may be used without spelling
-      out in the standfirst per rule, the body must still introduce the full form
-      on first use. The body does this correctly ('The European Payments Initiative
-      (EPI)'), but the editorial note says this is a follow-up to an August 26 story.
-      If EPI has already been spelled out in prior coverage in the same publication
-      cycle, consider whether re-spelling it in body text is necessary. However, based
-      on standalone copy review, this is acceptable.
+    - Standfirst opens by naming 'the Saudi processor' when the headline identifies
+      PayTabs — this violates the rule against opening the standfirst by naming the
+      organisation also named in the headline. Begin with the substantive point instead,
+      eg 'The acquisition gives PayTabs Amazon's regional payment infrastructure…'
+    - Paragraph three opens with 'For European payments firms with MENA ambitions,
+      the deal signals…' — this violates the rule against framing a paragraph around
+      its relevance to European readers by opening with an audience-address clause.
+      State the European dimension directly as part of the narrative without prefacing
+      it with this construction.
+    - The editorial note should not be included in the final copy — editorial notes
+      are internal only and should not appear in published text.
   verification:
     verified: true
     stale: false
     duplicate: false
     warnings: []
   revision:
-    replaced: true
+    replaced: false
     resolved: true
     summary:
-    - 'Replaced: original story flagged as duplicate coverage (Pix transaction volume:
-      Draft states ''over 60 billion'' for 2025, but sources state approximately 79.8-80
-      billion transactions in 2025); swapped in a candidate sourced from a live web
-      search (not in today''s RSS feeds).'
-    - 'Note: the replacement was also flagged — Standfirst opens with ''The launch''
-      naming the action but the headline already names the action (''goes live'').
-      Per rule on not starting headline, standfirst and body opening sentence with
-      the same word or phrase, the standfirst should vary its opening. Consider: ''Luxembourg
-      becomes EPI''s fifth market and – through the Payconiq migration – the first
-      where Wero supports point-of-sale acceptance, a milestone in the scheme''s progression
-      beyond peer-to-peer and e-commerce.'''
-    - 'Note: the replacement was also flagged — Body paragraph 2 states ''The migration
-      matters beyond Luxembourg''s 300,000 Payconiq users because…'' — this is an
-      explicit significance-flagging construction (''matters because'') that violates
-      the rule against announcing importance before explaining it. Rewrite as: ''Beyond
-      Luxembourg''s 300,000 Payconiq users, the migration introduces a capability
-      Wero has lacked elsewhere: in-store payments.'''
-    - 'Note: the replacement was also flagged — The standfirst uses ''EPI'' on first
-      mention without spelling out ''European Payments Initiative''. While common
-      abbreviations like EPI may be used without spelling out in the standfirst per
-      rule, the body must still introduce the full form on first use. The body does
-      this correctly (''The European Payments Initiative (EPI)''), but the editorial
-      note says this is a follow-up to an August 26 story. If EPI has already been
-      spelled out in prior coverage in the same publication cycle, consider whether
-      re-spelling it in body text is necessary. However, based on standalone copy
-      review, this is acceptable.'
+    - Revised standfirst to open with 'The acquisition gives PayTabs…' rather than
+      naming 'the Saudi processor', avoiding redundant repetition of the organisation
+      named in the headline.
+    - Removed the audience-address clause 'For European payments firms with MENA ambitions,'
+      from the opening of paragraph three, letting the substantive point lead directly.
+    - Removed the editorial note as it is internal only and should not appear in published
+      text.
+- headline: Pay.UK warns AI-driven fraud is the fastest-moving threat to UK payments
+  standfirst: Artificial intelligence has been identified as the most rapidly evolving
+    fraud vector facing UK payments, with implications for how banks and fintechs
+    design real-time defences.
+  body: 'Pay.UK has flagged AI-driven fraud as the most urgent and fastest-moving
+    threat facing the UK payments system. The warning comes as total fraud losses
+    reached £1.3 billion in the latest full-year figures, with authorised push payment
+    scam losses accounting for £576.4 million, and as the Payment Systems Regulator''s
+    (PSR) mandatory reimbursement regime puts increasing financial pressure on sending
+    banks.
+
+
+    The concern centres on AI''s capacity to generate convincing social engineering
+    attacks at scale – deepfake voice and video, personalised phishing and real-time
+    manipulation of victims during payment journeys. Pay.UK''s assessment is that
+    the sophistication of these attacks is outpacing the industry''s ability to deploy
+    countermeasures, particularly where detection relies on static rules rather than
+    adaptive models.
+
+
+    The warning reinforces the case being made by several UK banks and regulators
+    that fraud prevention must shift from transaction-level screening to system-wide
+    intelligence sharing. It also adds urgency to the ongoing Treasury consultation
+    on modernising payments regulation, which includes proposals to expand Pay.UK''s
+    role and mandate.'
+  editorial_note: 'Pay.UK''s assessment carries weight as the operator of Faster Payments
+    and Bacs. The AI fraud warning connects directly to several live policy threads
+    – the Treasury''s payments modernisation consultation, the PSR''s reimbursement
+    regime, and the Financial Conduct Authority''s AI review – making it relevant
+    to a broad professional audience. Note: the cited source does not support this
+    story (it covers an unrelated ECB-Brazil payments system link). The correct source
+    for Pay.UK''s AI fraud warning must be identified before publication.'
+  sources: '[ECB explores link between Tips and Brazil''s Pix](https://www.finextra.com/newsarticle/48350/ecb-explores-link-between-tips-and-brazils-pix?utm_medium=rssfinextra&utm_source=finextrafeed)
+    — Finextra'
+  verification:
+    verified: false
+    stale: false
+    duplicate: false
+    warnings:
+    - Cited source is also cited by another story in this briefing — likely a wrong
+      or duplicate source_id
+    - Cited source (ECB-Pix link article) does not support the story about Pay.UK's
+      AI fraud warning — it covers an unrelated ECB-Brazil payments system link
+    - Story states APP losses 'climbed back to £1.3 billion' but latest data shows
+      £1.3bn is total fraud losses for 2025; APP-specific losses were £576.4 million
+  style_check:
+    compliant: false
+    warnings:
+    - Standfirst opens by naming the organisation ('The operator of the UK's core
+      interbank payment systems') that is also identified in the headline ('Pay.UK').
+      Per rule [1], the standfirst should begin with the substantive point (e.g.,
+      'Artificial intelligence has been identified as...') rather than naming the
+      organisation.
+    - Body text uses 'PSR's' without spelling out the abbreviation on first use. Per
+      rule [8], non-common abbreviations must be spelled out in full on first mention
+      in body text — should be 'Payment Systems Regulator (PSR)' or 'Payment Systems
+      Regulator's'.
+    - Body text uses 'FCA's' without spelling out the abbreviation on first use in
+      the editorial note context. While the editorial note is not body text, if the
+      FCA is referenced in body text, it must be introduced as 'Financial Conduct
+      Authority (FCA)' on first mention per rule [8].
+  revision:
+    replaced: false
+    resolved: true
+    summary:
+    - Standfirst rewritten to open with the substantive point ('Artificial intelligence
+      has been identified…') rather than naming the organisation already identified
+      in the headline, per rule [1].
+    - 'Corrected fraud figure: replaced ''authorised push payment scam losses climbed
+      back to £1.3 billion'' with ''total fraud losses reached £1.3 billion… with
+      authorised push payment scam losses accounting for £576.4 million'' to reflect
+      the correct breakdown.'
+    - Spelled out 'Payment Systems Regulator' with abbreviation '(PSR)' on first use
+      in body text, per rule [8]. PSR abbreviation recurs later so parenthetical is
+      warranted.
+    - Spelled out 'Financial Conduct Authority' in full in the editorial note (no
+      parenthetical added as it appears only once there), per rule [8].
+    - Added editorial note flagging that the cited source does not support this story
+      and must be replaced before publication — the source covers an unrelated ECB-Brazil
+      payments system link.
 status: ready
