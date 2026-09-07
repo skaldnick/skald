@@ -2,28 +2,4 @@
 # Populated automatically by tools/extract_learning.py (via GitHub Actions on push
 # to data/feedback/). Review and promote/edit in the dashboard's 'Proposed style
 # rules' section — accepted rules move to prompts/payments/style_rules.yaml.
-- date: '2026-09-07'
-  rule: Do not use en-dashes to introduce parenthetical asides mid-sentence. Instead,
-    use parentheses for genuinely parenthetical information — eg, "the ledger (first
-    announced in September 2025)" rather than "the ledger – first announced in September
-    2025 –". Reserve en-dashes for other uses such as list introductions or ranges.
-  supersedes: 3
-- date: '2026-09-07'
-  rule: Do not restructure a dash-introduced appositive or parenthetical phrase mid-sentence
-    into a relative clause when the information can be wrapped cleanly in parentheses
-    or absorbed via a preposition. For example, prefer "That consolidation, which
-    is still subject to parliamentary scrutiny, would reshape…" over "That consolidation
-    – still subject to parliamentary scrutiny – would reshape…" when the aside is
-    a qualifying clause rather than a list or elaboration.
-- date: '2026-09-07'
-  rule: Do not open a paragraph by framing its point as a reinforcement of a broader
-    pattern visible across a region — eg, "The warning reinforces a pattern visible
-    across European payments:". If the broader context is relevant, state it directly
-    as part of the narrative without the framing clause. Drop the scene-setter and
-    lead with the substantive point.
-  supersedes: 42
-- date: '2026-09-07'
-  rule: Do not cover a story that has already been reported in a previous briefing.
-    If the core news event (eg, a scheduled launch date, a previously announced milestone)
-    was covered in an earlier issue, do not republish it as a new story even if a
-    new source has picked it up.
+[]
