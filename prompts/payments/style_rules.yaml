@@ -251,3 +251,11 @@
     for example, a record profit, a surprising turnaround, or an unexpected loss —
     and even then only if the company is a large or particularly significant player
     in the payments sector.
+- id: 45
+  date: '2026-09-07'
+  rule: Do not restructure a dash-introduced appositive or parenthetical phrase mid-sentence
+    into a relative clause when the information can be wrapped cleanly in parentheses
+    or absorbed via a preposition. For example, prefer "That consolidation, which
+    is still subject to parliamentary scrutiny, would reshape…" over "That consolidation
+    – still subject to parliamentary scrutiny – would reshape…" when the aside is
+    a qualifying clause rather than a list or elaboration.
