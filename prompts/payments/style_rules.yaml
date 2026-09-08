@@ -17,12 +17,9 @@
   rule: Prefer spelling out non-standard abbreviations/acronyms, such as "account-to-account"
     instead of "A2A".
 - id: 3
-  date: '2026-08-21'
-  rule: 'Do not restructure a colon or dash-introduced list mid-sentence into a separate
-    clause when the surrounding sentence can absorb it cleanly with a preposition.
-    For example, prefer "reflects a growing pattern among digital banks of embedding
-    AI directly into the banking interface" over "reflects a growing pattern among
-    digital banks: embedding AI directly into the banking interface".'
+  date: '2026-09-08'
+  rule: Do not open a paragraph with a colon-introduced binary question when the sentence
+    can be
 - id: 4
   date: '2026-04-14'
   rule: Use "US" not "United States" in body text.
@@ -178,8 +175,9 @@
     currency or numeric amounts. In body copy, always spell out "million", "billion",
     and "trillion" in full.
 - id: 33
-  date: '2026-07-29'
-  rule: When using dashes in body text, use en-dashes (–) rather than em-dashes (—).
+  date: '2026-09-08'
+  rule: Do not use an em-dash or en-dash to introduce a trailing participial or resultative
+    clause
 - id: 34
   date: '2026-07-29'
   rule: Do not include a decimal place for round or whole numbers. Write "£7 million"
@@ -259,3 +257,41 @@
     is still subject to parliamentary scrutiny, would reshape…" over "That consolidation
     – still subject to parliamentary scrutiny – would reshape…" when the aside is
     a qualifying clause rather than a list or elaboration.
+- id: 46
+  date: '2026-09-08'
+  rule: at the end of a sentence when a comma integrates it more cleanly. For example,
+    prefer
+- id: 47
+  date: '2026-09-08'
+  rule: '"access Federal Reserve payment systems directly, ending its reliance on
+    partner banks"'
+- id: 48
+  date: '2026-09-08'
+  rule: over "access Federal Reserve payment systems directly – ending its reliance
+    on partner banks".
+- id: 49
+  date: '2026-09-08'
+  rule: Do not capitalise the individual words of a proposed or informal framework
+    name when it
+- id: 50
+  date: '2026-09-08'
+  rule: is being described rather than cited as an official proper noun. Write "a
+    BRICS+ digital
+- id: 51
+  date: '2026-09-08'
+  rule: payments and open finance framework" rather than "a BRICS+ Digital Payments
+    and Open
+- id: 52
+  date: '2026-09-08'
+  rule: Finance Framework" unless the name has been formally adopted and capitalised
+    by the
+- id: 53
+  date: '2026-09-08'
+  rule: issuing body.
+- id: 54
+  date: '2026-09-08'
+  rule: recast with a preposition. For example, prefer "face a strategic question
+    about whether X
+- id: 55
+  date: '2026-09-08'
+  rule: 'or Y" over "face a strategic question: whether X or Y".'
