@@ -1,332 +1,288 @@
-title: 'BNP Paribas-HSBC Swift ledger pilot; Pay.UK AI fraud warning; BRICS open finance
-  framework
+title: 'Swiss stablecoin expands; FCA mortgage sprint; CPMI cyber toolkit
 
   '
-social_post: 'BNP Paribas and HSBC complete the first corporate payment on Swift''s
-  shared ledger. Pay.UK flags AI-driven fraud as payments'' fastest-moving threat.
-  Plus BRICS pushes for interoperable digital payments. {link}
+social_post: 'SIX and Twint join Switzerland''s bank-backed stablecoin project, the
+  FCA explores open finance for mortgages, and global standard-setters publish new
+  cyber resilience guidance for payment infrastructures. Today''s briefing: {link}
 
   '
 stories:
-- headline: Revolut secures conditional US bank charter from OCC
-  standfirst: Conditional approval to form a national bank clears the hardest regulatory
-    hurdle for Europe's most valuable fintech, setting up a direct presence in the
-    world's largest financial market by 2027.
-  body: 'The US Office of the Comptroller of the Currency granted Revolut preliminary
-    conditional approval on September 2 to organise as a branchless digital bank headquartered
-    in Stamford, Connecticut, under the name Revolut Bank US, National Association.
-    The charter, published as Corporate Decision #1390, would allow Revolut to hold
-    federally insured deposits, issue credit cards and personal loans, and access
-    Federal Reserve payment systems directly – ending its reliance on partner banks
-    for US operations.
+- headline: SIX and Twint join Swiss franc stablecoin project backed by major banks
+  standfirst: The addition of Switzerland's core exchange infrastructure and dominant
+    mobile payment platform broadens a bank-led stablecoin initiative that could shape
+    how tokenised money develops in a major European financial centre.
+  body: 'SIX, the operator of Switzerland''s financial market infrastructure, and
+    Twint, the country''s most widely used mobile payment service, are joining a Swiss
+    franc stablecoin project promoted by several of the country''s largest banks.
+    The addition of both the exchange infrastructure and the consumer-facing payment
+    network significantly extends the initiative''s potential reach.
 
 
-    Revolut filed its charter application in March, led by US CEO Cetin Duransoy,
-    a former Capital One and Raisin US executive appointed when the application was
-    submitted. The OCC''s conditional approval letter requires an initial capital
-    contribution of at least $95 million. Revolut, which serves more than 80 million
-    customers globally and is valued at $75 billion, has said it expects to launch
-    the US bank in the first half of 2027.
+    Switzerland has moved faster than most European jurisdictions on tokenised assets,
+    with SIX Digital Exchange already operating a regulated platform for digital securities.
+    Adding a CHF stablecoin with broad institutional backing would create a domestic
+    settlement asset that sits alongside the digital euro initiatives taking shape
+    in the eurozone. Twint''s involvement suggests the consortium sees a retail dimension,
+    not just wholesale settlement.
 
 
-    Conditional approval is not a final green light. Revolut must still obtain deposit
-    insurance from the Federal Deposit Insurance Corporation and approval from the
-    Federal Reserve before the bank can open. Clearing the OCC stage is widely regarded
-    as the most demanding part of the process – and comes after Wise, another London-based
-    fintech, had its own US trust charter application rejected by the OCC earlier
-    this year on anti-money-laundering grounds.'
-  editorial_note: Story selected because Revolut's US bank charter is a material development
-    for Europe's largest neobank and has direct competitive implications for the European
-    payments sector. It has not been previously covered and the September 3 news is
-    recent enough to qualify. The Wise OCC rejection (previously covered July 28)
-    provides useful context. Primary source is the FinTech Futures report from September
-    4, supplemented by Bloomberg and Crowdfund Insider reporting.
-  sources: '[Revolut wins conditional approval for US bank charter](https://www.fintechfutures.com/regulatory-actions/revolut-wins-conditional-approval-for-us-bank-charter)
-    — FinTech Futures'
+    A global consortium of 21 banks spanning North America, Europe, East Asia, the
+    Middle East and Africa separately committed last week to a joint stablecoin venture
+    with a euro token as an early priority. Switzerland''s initiative is distinct
+    but parallel, reflecting a broader trend in which incumbent financial institutions
+    are moving to occupy tokenised money territory before stablecoin-native firms
+    establish dominance.'
+  editorial_note: The entry of SIX and Twint materially expands a Swiss bank stablecoin
+    effort that now spans infrastructure, retail payments and major domestic lenders,
+    relevant as tokenised money initiatives accelerate globally.
+  sources: '[SIX and Twint join Swiss bank stablecoin project](https://www.finextra.com/newsarticle/48360/six-and-twint-join-swiss-bank-stablecoin-project?utm_medium=rssfinextra&utm_source=finextrafeed)
+    — Finextra'
   style_check:
     compliant: false
     warnings:
-    - Standfirst opens with 'Conditional approval' which repeats the headline's subject
-      matter. Per rule on varying opening words/phrases across headline, standfirst,
-      and body, at least one element should vary. Suggest revising standfirst to lead
-      with a substantive point — e.g., 'Revolut clears the hardest regulatory hurdle
-      for Europe's most valuable fintech, with conditional approval to form a national
-      bank setting up a direct presence in the world's largest financial market by
-      2027.'
-    - 'Body paragraph three opens: ''Conditional approval is not a final green light.''
-      This is a hedging scene-setter that delays the substantive point. Per rule against
-      opening paragraphs with hedging language like ''The deal is far from certain'',
-      lead directly with the substantive claim — e.g., ''Revolut must still obtain
-      deposit insurance from the Federal Deposit Insurance Corporation and approval
-      from the Federal Reserve before the bank can open.'''
-    - Standfirst does not name the specific affected initiatives or competitive dynamics
-      as required by the rule stating 'The standfirst must name the specific stakes
-      or consequences of the story — naming the initiatives, programmes or competitive
-      dynamics affected — rather than making a generic thematic claim.' Consider adding
-      reference to implications for European payment players or specific programmes
-      affected.
-  verification:
-    verified: false
-    stale: true
-    duplicate: false
-    warnings:
-    - Core event (September 2-3 OCC approval) is 6 days old, exceeding the 5-day recency
-      threshold
-  revision:
-    replaced: true
-    resolved: true
-    summary:
-    - 'Replaced: original story flagged as duplicate coverage (Cited source is also
-      cited by another story in this briefing — likely a wrong or duplicate source_id;
-      Cited source ''ECB and Brazil explore cross-border link between TIPS and Pix''
-      does not match story content - appears to be wrong article reference; Story
-      duplicates previously covered entry from 2026-09-07 with identical headline
-      and event); swapped in a candidate sourced from a live web search (not in today''s
-      RSS feeds).'
-    - 'Note: the replacement was also flagged — Core event (September 2-3 OCC approval)
-      is 6 days old, exceeding the 5-day recency threshold'
-    - 'Note: the replacement was also flagged — Standfirst opens with ''Conditional
-      approval'' which repeats the headline''s subject matter. Per rule on varying
-      opening words/phrases across headline, standfirst, and body, at least one element
-      should vary. Suggest revising standfirst to lead with a substantive point —
-      e.g., ''Revolut clears the hardest regulatory hurdle for Europe''s most valuable
-      fintech, with conditional approval to form a national bank setting up a direct
-      presence in the world''s largest financial market by 2027.'''
-    - 'Note: the replacement was also flagged — Body paragraph three opens: ''Conditional
-      approval is not a final green light.'' This is a hedging scene-setter that delays
-      the substantive point. Per rule against opening paragraphs with hedging language
-      like ''The deal is far from certain'', lead directly with the substantive claim
-      — e.g., ''Revolut must still obtain deposit insurance from the Federal Deposit
-      Insurance Corporation and approval from the Federal Reserve before the bank
-      can open.'''
-    - 'Note: the replacement was also flagged — Standfirst does not name the specific
-      affected initiatives or competitive dynamics as required by the rule stating
-      ''The standfirst must name the specific stakes or consequences of the story
-      — naming the initiatives, programmes or competitive dynamics affected — rather
-      than making a generic thematic claim.'' Consider adding reference to implications
-      for European payment players or specific programmes affected.'
-- headline: Pay.UK warns AI-driven fraud is the fastest-moving threat to UK payments
-  standfirst: AI-enabled scams are advancing faster than the rule-based defences most
-    UK banks rely on, sharpening the case for coordinated industry investment in real-time,
-    AI-powered detection.
-  body: 'Pay.UK has identified AI-driven fraud as the most rapidly evolving threat
-    to the UK payments system, signalling that the sophistication and speed of AI-enabled
-    attacks are outpacing the detection capabilities currently deployed across the
-    sector.
-
-
-    The warning arrives against a backdrop of rising UK fraud losses. Total payment
-    fraud losses reached £1.3 billion in figures published in June, with authorised
-    push payment scams accounting for £576.4 million of that total. The Payment Systems
-    Regulator''s mandatory reimbursement regime has shifted the financial burden squarely
-    onto sending banks. AI is accelerating that problem: deepfake voice and video
-    scams, AI-generated phishing and automated social engineering are all becoming
-    harder to intercept with rule-based monitoring systems.
-
-
-    Pay.UK''s position as operator of Faster Payments gives its assessment particular
-    weight. The organisation''s framing of AI fraud as a systemic rather than institution-level
-    risk adds pressure on banks and payment service providers to invest in real-time,
-    AI-powered defences – and exposes gaps in regulatory frameworks that were designed
-    around older, slower forms of financial crime.'
-  editorial_note: Pay.UK's explicit identification of AI fraud as the fastest-moving
-    systemic threat to UK payments is new and carries weight given the operator's
-    central role. Relevant to ongoing debates about fraud liability, reimbursement
-    costs and defensive AI investment.
-  sources: '[ECB and Brazil explore cross-border link between TIPS and Pix](https://paymentsindustryintelligence.com/ecb-and-brazil-explore-cross-border-link-between-tips-and-pix/)
-    — Paymentsindustryintelligence'
+    - Standfirst opens with 'Switzerland's dominant exchange and mobile payment platform
+      are joining' — this repeats the substantive action from the headline ('SIX and
+      Twint join') rather than opening with a distinct interpretive point or context.
+      Per rule on standfirst function, the standfirst should add context, interpretation,
+      or summary distinct from the headline's core claim.
+    - Body paragraph 3 states 'The project arrives as European banks are separately
+      committing to a joint stablecoin venture' — this uses 'The project arrives as'
+      which is a weak temporal connector. The sentence should lead directly with the
+      substantive point about European banks' parallel commitment rather than framing
+      it as a temporal coincidence.
+    - Standfirst names 'six banks' without naming them specifically, then body text
+      also references 'six of the country's largest banks' without naming them. Per
+      rule on specificity, if the banks are material to the story, they should be
+      named. If they cannot be named, the phrasing should avoid a specific count ('such
+      as six major banks') rather than stating 'six' precisely.
+    - Editorial note refers to 'six major banks' but the headline and body text say
+      'six of the country's largest banks' — this is a minor inconsistency in phrasing,
+      though not a house style violation per se.
+    - Standfirst contains vague phrasing 'could shape how tokenised money develops'
+      — this is somewhat weaker than the body's more direct claim about what the initiative
+      represents. However, the standfirst does name the specific stakes (tokenised
+      money development in Switzerland as a major European financial centre), so this
+      passes the rule on naming specific stakes.
   verification:
     verified: false
     stale: false
     duplicate: false
     warnings:
-    - Cited source is also cited by another story in this briefing — likely a wrong
-      or duplicate source_id
-    - Article states APP losses 'rebounded to £1.3 billion' but UK Finance 2026 report
-      (June 2026) shows APP fraud losses at £576.4 million; £1.3 billion refers to
-      total payment fraud losses, not APP specifically
-    - Article describes Pay.UK as operator of 'the incoming UK Payments Initiative'
-      but UKPI is an independent, industry-owned scheme formed by Token.io and other
-      firms—not operated by Pay.UK
-  style_check:
-    compliant: false
-    warnings:
-    - Standfirst opens with 'The warning from the UK's retail payments operator' –
-      this names the organisation (Pay.UK) that is also named in the headline. Per
-      rule [1], the standfirst should begin with the substantive point (e.g., 'AI-driven
-      fraud is outpacing detection systems') rather than identifying the source organisation.
-    - Body paragraph 3 states 'raises questions about whether existing regulatory
-      frameworks are keeping pace' – this is a hedging construction that delays the
-      substantive point. Per rule on hedging scene-setters, lead directly with the
-      concrete claim rather than framing it as a question or uncertainty.
-    - Standfirst uses 'as fraud tactics evolve faster than legacy detection systems'
-      – this near-verbatim repeats the body's phrasing 'outpacing the detection capabilities
-      currently deployed across the sector'. While some development is expected, this
-      mirrors the exact substantive claim too closely across both elements.
+    - Draft describes the September 1-2 stablecoin announcement as 'European banks'
+      committing to a venture, but sources show it was a global consortium of 21 banks
+      spanning North America, Europe, East Asia, Middle East and Africa—not exclusively
+      European.
   revision:
     replaced: false
     resolved: true
     summary:
-    - 'Corrected fraud figures: replaced ''APP scam losses rebounded to £1.3 billion''
-      with total payment fraud losses of £1.3 billion and APP-specific losses of £576.4
-      million, per UK Finance 2026 report'
-    - Removed incorrect reference to Pay.UK operating 'the incoming UK Payments Initiative'
-      — UKPI is an independent industry-owned scheme, not operated by Pay.UK
-    - Revised standfirst to open with the substantive point about AI-enabled scams
-      rather than naming Pay.UK's role, avoiding redundant repetition of the headline's
-      subject per rule [1]
-    - Replaced hedging construction 'raises questions about whether existing regulatory
-      frameworks are keeping pace' with a direct claim about gaps in regulatory frameworks
-    - Revised standfirst wording to avoid near-verbatim repetition of the body's phrasing
-      about outpacing detection capabilities
-    - Could not independently verify the cited source or confirm whether it is duplicated
-      with another story — flagging for editorial review
-- headline: BRICS summit report proposes interoperable digital payments and open finance
-    framework
-  standfirst: Cross-border payment corridors that European providers depend on could
-    be reshaped by a BRICS+ recommendation for common technical standards and interoperable
-    national payment systems.
-  body: 'Delegates preparing for the 2026 BRICS summit in Delhi have produced a report
-    recommending a BRICS+ Digital Payments and Open Finance Framework, built on interoperable
-    national payment systems and common technical standards. The proposal would create
-    a structured pathway for connecting fast-payment systems across member nations.
+    - 'Headline: replaced ''six banks'' with ''major banks'' because the specific
+      banks are not named in the source material, and stating a precise count alongside
+      imprecise identification risks inaccuracy per house style on specificity.'
+    - 'Standfirst: revised opening to lead with the substantive action (''The addition
+      of…'') rather than repeating the headline''s subject and verb (''Switzerland''s
+      dominant exchange and mobile payment platform are joining'').'
+    - 'Body paragraph 1: replaced ''six of the country''s largest banks'' with ''several
+      of the country''s largest banks'' to avoid stating a precise count when the
+      banks are not individually named.'
+    - 'Body paragraph 3: rewrote opening to lead directly with the substantive point
+      about the global consortium rather than using a weak temporal connector (''The
+      project arrives as''). Corrected ''European banks'' to ''a global consortium
+      of 21 banks spanning North America, Europe, East Asia, the Middle East and Africa''
+      per fact-checking issue.'
+    - 'Editorial note: replaced ''six major banks'' with ''major domestic lenders''
+      for consistency with the revised body text, and changed ''European'' to ''globally''
+      to reflect the corrected scope of parallel initiatives.'
+- headline: FCA explores open finance for mortgage affordability in policy sprint
+  standfirst: A policy sprint examined what conditions would need to hold for open
+    finance data to improve mortgage journeys, moving the regulator's earlier signals
+    into practical territory.
+  body: 'The Financial Conduct Authority has published findings from a policy sprint
+    examining how open finance could reshape mortgage affordability assessments. The
+    exercise explored what would need to be true for transaction-level banking data,
+    shared with borrower consent, to replace or supplement the manual income and expenditure
+    checks that currently slow mortgage applications.
 
 
-    The framework builds on existing bilateral efforts – notably the ECB-Banco Central
-    do Brasil exploration of linking TIPS to Pix, and China''s mBridge project – but
-    aims to formalise cross-border payment interoperability at a multilateral level.
-    BRICS+ now encompasses economies responsible for a substantial share of global
-    remittance flows, and a coordinated approach to payment system interoperability
-    would create alternative corridors to those dominated by Western card networks
-    and correspondent banking chains.
+    The FCA signalled in June that open banking data would reshape mortgage affordability
+    checks. This sprint moves beyond that signal into specifics, bringing together
+    lenders, brokers, technology providers and consumer groups to stress-test the
+    practical barriers: data standardisation, liability frameworks, and the risk of
+    excluding borrowers whose financial lives do not fit neatly into algorithmic assessment.
 
 
-    European payment providers and infrastructure operators face a strategic question:
-    whether BRICS+ interoperability develops as a complement to existing global standards
-    such as ISO 20022 and Swift, or as a parallel architecture that fragments cross-border
-    payments further. The proposal''s emphasis on common technical standards suggests
-    alignment is possible, but the geopolitical context makes divergence equally plausible.'
-  editorial_note: The BRICS open finance framework proposal is new and has direct
-    implications for European cross-border payments strategy, particularly given parallel
-    ECB-Pix and mBridge developments already covered.
-  sources: '[BRICS 2026: India braces to host Xi, Putin in Delhi as it seeks to project
-    voice of developing ...](https://www.fortuneindia.com/india/brics-2026-india-braces-to-host-xi-putin-in-delhi-as-it-seeks-to-project-voice-of-developing-economies/157903)
-    — Fortuneindia'
+    Open finance in mortgages has long been cited as a high-value use case. The FCA''s
+    willingness to convene structured policy work around it, rather than leaving it
+    to market experimentation, suggests the regulator sees it as close enough to viability
+    to warrant active shaping. For lenders, the question is whether the resulting
+    framework will be permissive enough to justify investment in integration.'
+  editorial_note: Advances the FCA's June signal on open banking in mortgages into
+    a concrete policy sprint with published findings, relevant to lenders and open
+    finance providers tracking regulatory direction.
+  sources: '[Nearly 881000 borrowers secured mortgage deals early in H1, FCA finds](https://theintermediary.co.uk/2026/09/nearly-881000-borrowers-secured-mortgage-deals-early-in-h1-fca-finds/)
+    — The Intermediary | [Open finance meets mortgages: the FCA sets out its vision
+    – but the hard work starts now](https://www.tlt.com/insights-and-events/insight/open-finance-meets-mortgages-the-fca-sets-out-its-vision---but-the-hard-work-starts-now)
+    — Tlt'
   style_check:
     compliant: false
     warnings:
-    - 'Standfirst opens by naming the development (''A recommendation'') rather than
-      the substantive consequence or interpretive point. Per rule [1], standfirst
-      should begin with the interpretive point or action—here, ''could reshape cross-border
-      payment corridors'' should lead, not follow. Revise to: ''Could reshape cross-border
-      payment corridors that European providers depend on, a BRICS+ report recommends...''
-      or similar.'
-    - Body opening repeats the standfirst's phrasing too closely ('A report...recommends
-      developing a BRICS+ Digital Payments and Open Finance Framework' mirrors standfirst's
-      'A recommendation for...BRICS+ Digital Payments and Open Finance Framework').
-      Per rule [7], body must be self-contained and avoid near-verbatim repetition
-      of standfirst phrasing. Restructure the body's opening to vary the language
-      and narrative approach.
-    - Headline, standfirst, and body all open with 'A' (or 'A report'). Per rule [37],
-      do not start the headline, standfirst, and body opening sentence with the same
-      word or phrase. Vary the opening in at least one element.
+    - Standfirst opens by naming 'FCA' which is also the organisation named in the
+      headline. Per rule [1], the standfirst should begin with the substantive point
+      (eg, 'The sprint examined…') rather than naming the FCA. Revise to avoid redundant
+      repetition of the subject across headline and standfirst.
+    - Standfirst uses 'FCA' without spelling it out. Per rule [22], common and recognisable
+      abbreviations may be used on first mention in the standfirst without spelling
+      them out, so this is acceptable. However, the opening breach of rule [1] remains.
+    - Body text uses 'The FCA signalled in June' with vague temporal reference. Per
+      rule [25], avoid vague temporal references such as 'in June' when a specific
+      date is available. The standfirst mentions 'June' specifically, but the body
+      should use a precise date (eg, 'on June 15') or qualify it more clearly if the
+      exact date cannot be established.
   verification:
-    verified: false
+    verified: true
     stale: false
     duplicate: false
-    warnings:
-    - 'Could not independently verify: Could not locate the cited Fortune India source
-      or find evidence of a specific ''BRICS+ Digital Payments and Open Finance Framework''
-      report. Searches confirm India is pushing digital payments interoperability
-      at the summit, but the specific report mentioned in the headline could not be
-      confirmed.'
+    warnings: []
   revision:
     replaced: false
     resolved: true
     summary:
-    - Revised standfirst to lead with the interpretive consequence ('Cross-border
-      payment corridors…could be reshaped') rather than naming the recommendation
-      first, per rule [1].
-    - Restructured body opening sentence to vary phrasing from the standfirst, leading
-      with 'Delegates preparing for the 2026 BRICS summit' rather than 'A report…recommends',
-      avoiding near-verbatim repetition per rule [7].
-    - 'Varied the opening word across headline, standfirst and body: headline starts
-      with ''BRICS'', standfirst with ''Cross-border'', body with ''Delegates'', per
-      rule [37].'
-- headline: 'Lean Technologies raises $67.5m to scale open banking across MENA
-
-    '
-  standfirst: 'The Series B round, led by General Catalyst, is the largest open banking
-    funding in the Middle East and signals growing investor confidence in non-European
-    open finance markets.
-
-    '
-  body: 'Lean Technologies, a Riyadh-based open banking and pay-by-bank provider,
-    is raising $67.5 million in Series B funding led by General Catalyst. The capital
-    will support expansion of its open banking and pay-by-bank offerings across the
-    Middle East and North Africa.
+    - Revised standfirst to open with 'A policy sprint examined…' rather than naming
+      the FCA, avoiding redundant repetition of the subject across headline and standfirst
+      per rule [1].
+    - The vague temporal reference 'in June' in the body could not be replaced with
+      a specific date because the exact date is not provided in the source material
+      or the issue itself. The text is left unchanged on this point.
+- headline: Global standard-setters publish cyber resilience toolkit for payment infrastructures
+  standfirst: A new toolkit and discussion paper address third-party concentration
+    risk and operational resilience at financial market infrastructures, with direct
+    implications for payment system operators.
+  body: 'The Committee on Payments and Market Infrastructures (CPMI) and the International
+    Organization of Securities Commissions (IOSCO) have published a cyber resilience
+    toolkit for financial market infrastructures, accompanied by a discussion paper
+    on the risks of third-party service provider reliance. The publications give payment
+    system operators and central counterparties a structured framework for assessing
+    and managing cyber threats.
 
 
-    The round is notable for its size relative to the MENA open banking market, which
-    remains earlier-stage than its European and UK counterparts. Saudi Arabia''s open
-    banking framework, overseen by the Saudi Central Bank, has been operational since
-    2023, and the UAE''s Central Bank has been issuing open finance licences at an
-    accelerating pace – NymCard received its third regulatory approval from the UAE
-    central bank in the same week.
+    The toolkit addresses a gap that has widened as critical payment infrastructure
+    increasingly depends on a concentrated set of cloud providers and technology vendors.
+    The accompanying discussion paper on third-party concentration risk reflects concerns
+    that have been raised by the Bank of England, ECB and other central banks over
+    the past two years but have lacked a coordinated international treatment.
 
 
-    For European open banking firms eyeing geographic expansion, the MENA region represents
-    both opportunity and competition. Several European providers, including Yapily
-    and TrueLayer, have explored or entered Middle Eastern markets, and Lean''s funding
-    suggests that well-capitalised local players are building defensible positions.
-    The involvement of General Catalyst, a major US venture firm, also reflects broader
-    investor appetite for open banking infrastructure outside the saturated UK and
-    EU markets.
-
-    '
-  editorial_note: 'The largest open banking raise in MENA is relevant to European
-    providers evaluating geographic expansion and to strategists tracking where open
-    banking investment capital is flowing.
-
-    '
-  sources: '[Riyadh fintech Lean Technologies raises $67.5M Series B led by General
-    Catalyst](https://app.dealroom.co/news/feed/riyadh-fintech-lean-technologies-raises-67-5m-series-b-led-by-general-catalyst)
-    — Dealroom'
+    The guidance arrives as the instant payments regulation drives more transaction
+    volume onto always-on rails, raising the stakes of any outage or compromise. It
+    also aligns with the EU''s Digital Operational Resilience Act, which took effect
+    in January 2025, providing an international reference point that may influence
+    how national supervisors assess compliance.'
+  editorial_note: Commissioned because CPMI-IOSCO guidance on cyber resilience and
+    third-party concentration risk is directly relevant to the European payments audience
+    given rising instant payment volumes and regulatory expectations under DORA.
+  sources: '[Global standard-setting bodies publish toolkit for cyber resilience at
+    FMIs](https://www.finextra.com/pressarticle/110829/global-standard-setting-bodies-publish-toolkit-for-cyber-resilience-at-fmis?utm_medium=rssfinextra&utm_source=finextrafeed)
+    — Finextra'
   style_check:
     compliant: false
     warnings:
-    - Standfirst opens by naming 'The Series B round' which restates the headline's
-      subject (Lean Technologies' funding round). Per rule 1, the standfirst should
-      open with the substantive point or action rather than repeating the headline's
-      subject. Revise to open with the significance — eg, 'This signals growing investor
-      confidence…' or 'The capital will support…'
-    - Body paragraph 2 opens with 'The round is notable for its size relative to…'
-      This is an explicit significance announcement. Per the rule against flagging
-      significance explicitly, remove 'is notable for' and state the substantive comparison
-      directly — eg, 'The round's size relative to the MENA open banking market…'
-    - Body paragraph 3 opens with 'For European open banking firms eyeing geographic
-      expansion, the MENA region represents…' This frames the paragraph around its
-      relevance to a specific audience. Per the rule against 'For European payments
-      professionals…'-style constructions, state the relevance directly as part of
-      the narrative without the prefacing audience-address clause.
+    - Standfirst opens by naming CPMI and IOSCO, which are the organisations identified
+      in the headline. Per rule [1], the standfirst should begin with the substantive
+      point or action instead — e.g., 'A new toolkit addresses…' rather than opening
+      with the organisation names.
+    - 'Body paragraph three begins: ''For European payment operators, the guidance
+      arrives as…'' This frames the European dimension by opening with an audience-address
+      clause (''For European payment operators''). Per rule [22], the European dimension
+      should be stated directly as part of the narrative without prefacing it with
+      an audience-address construction.'
+    - Body paragraph two states 'a small number of cloud providers and technology
+      vendors' without specifying how many, yet the phrasing 'a small number of' implies
+      a precise but unspecified count. This risks vagueness; if examples are to follow,
+      use 'such as' or 'including' rather than asserting 'a small number' without
+      definition.
+    - 'The editorial note reads: ''International standard-setting guidance on cyber
+      resilience at payment infrastructures is directly relevant as European instant
+      payment volumes grow…'' Per rule [17], do not include editorial notes about
+      the story''s relevance or reasoning in the editorial note field itself if it
+      duplicates the standfirst''s role. The editorial note should explain the commissioning
+      rationale, not restate the story''s newsworthiness.'
   verification:
-    verified: false
-    stale: true
+    verified: true
+    stale: false
     duplicate: false
-    warnings:
-    - Core event (Lean's Series B funding) occurred November 11, 2024 — approximately
-      9 months old, far exceeding 5-day newsworthiness threshold
-    - Could not independently verify NymCard's 'third regulatory approval from the
-      UAE central bank in the same week' as Lean's announcement (May 2025 Open Finance
-      approval found, but no evidence of same-week approval with Lean's November 2024
-      funding)
+    warnings: []
   revision:
     replaced: false
-    resolved: false
+    resolved: true
     summary:
-    - Flagged as stale but no unused feed or web candidate was available — kept as-is,
-      editor should review.
-status: needs_review
-status_reasons:
-- 'Could not resolve: Lean Technologies raises $67.5m to scale open banking across
-  MENA'
+    - Standfirst rewritten to open with 'A new toolkit and discussion paper' rather
+      than naming CPMI and IOSCO, avoiding redundant repetition of the headline's
+      subject per rule [1].
+    - Body paragraph three rewritten to remove the audience-address clause 'For European
+      payment operators' per rule [22]; the European dimension is now stated directly
+      in the narrative.
+    - Replaced 'a small number of cloud providers and technology vendors' with 'a
+      concentrated set of cloud providers and technology vendors' to avoid implying
+      a precise but unspecified count.
+    - Editorial note rewritten to state the commissioning rationale rather than restating
+      the story's newsworthiness.
+- headline: Ukraine builds instant payments and digital identity infrastructure amid
+    conflict
+  standfirst: The country has launched instant payments and aligned its digital identity
+    framework with the EU's eIDAS standards, positioning its financial infrastructure
+    for eventual European integration.
+  body: 'Kyiv has moved to close the gap between its financial infrastructure and
+    European standards, deploying a domestic instant payments capability and bringing
+    its digital identity systems into line with the EU''s eIDAS framework. The effort
+    has accelerated since Ukraine''s EU candidate status was confirmed, with both
+    workstreams forming part of a broader convergence programme.
+
+
+    The instant payments rollout gives Ukraine a domestic capability that mirrors
+    what SEPA instant provides across the eurozone, though interoperability with European
+    systems remains a future step. The eIDAS alignment is arguably more immediately
+    consequential: it creates a pathway for Ukrainian digital identities to be recognised
+    across EU member states, with implications for cross-border account opening, KYC
+    and payment authentication.
+
+
+    Ukraine represents both a future market and a test case for how quickly a non-EU
+    country can converge on European payment and identity standards under political
+    pressure. The infrastructure work being done now will shape the terms on which
+    Ukrainian banks and fintechs eventually connect to European payment networks.'
+  editorial_note: ''
+  sources: '[Ukraine: Building the Future of Finance During a War](https://thefintechtimes.com/ukraine-building-the-future-of-finance-during-a-war/)
+    — The Fintech Times'
+  style_check:
+    compliant: false
+    warnings:
+    - 'Body opening: ''Ukraine has deployed instant payments infrastructure and aligned
+      its digital identity systems with the EU''s eIDAS framework'' — this near-verbatim
+      repeats the standfirst''s phrasing. While the body must be self-contained, avoid
+      this level of identical repetition. Revise to vary the wording meaningfully
+      while retaining the substantive point.'
+    - Paragraph 3 opens with 'For European payments firms, Ukraine represents…' —
+      this violates the rule against framing a paragraph's relevance to European readers
+      by opening with an audience-address clause. State the European dimension directly
+      as part of the narrative without prefacing it with 'For European payments professionals'
+      or equivalent constructions.
+    - Editorial note included — editorial notes about missing information or contextual
+      framing should not be included in the submitted copy. This note should be removed
+      or the relevant substantive point integrated into the body if it strengthens
+      the story.
+  verification:
+    verified: true
+    stale: false
+    duplicate: false
+    warnings: []
+  revision:
+    replaced: false
+    resolved: true
+    summary:
+    - Rewrote the body's opening sentence to vary wording from the standfirst while
+      retaining the substantive point, leading with 'Kyiv has moved to close the gap'
+      rather than near-verbatim repetition.
+    - Removed the audience-address clause 'For European payments firms' from the opening
+      of paragraph 3, stating the point directly.
+    - Removed the editorial note as instructed.
+status: ready
