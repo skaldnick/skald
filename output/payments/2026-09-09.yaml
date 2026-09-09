@@ -1,0 +1,281 @@
+title: 'Circle eyes cross-border payments; Swiss stablecoin expands; passkey-based
+  agentic payments arrive
+
+  '
+social_post: 'Circle moves into cross-border B2B payments, Swiss banks widen their
+  stablecoin consortium, and Visa and Revolut complete a passkey-authenticated agentic
+  payment in France. Today''s briefing: {link}
+
+  '
+stories:
+- headline: Circle agrees to acquire cross-border payments platform Tazapay
+  standfirst: The deal extends Circle's ambitions beyond stablecoin issuance into
+    the infrastructure layer for B2B cross-border payments, where it would gain direct
+    merchant and platform relationships.
+  body: 'Circle is acquiring Tazapay, a Singapore-headquartered business-to-business
+    cross-border payments infrastructure provider. Financial terms were not disclosed.
+
+
+    Tazapay operates payment rails connecting businesses across Asia-Pacific and Latin
+    America, handling collection, payout and compliance for platform and marketplace
+    clients. For Circle, which has built its business around USDC issuance and stablecoin
+    infrastructure, the acquisition represents a shift into the operational plumbing
+    of cross-border commerce. Rather than relying solely on others to build payment
+    products on top of its stablecoin rails, Circle would own a distribution layer
+    with direct access to merchants and platforms.
+
+
+    Stablecoin infrastructure is increasingly converging with traditional payment
+    networks. Circle already partnered with OpenPayd on stablecoin-settled fiat payouts
+    and has positioned USDC as settlement infrastructure for correspondent banking
+    alternatives. Acquiring an established cross-border payments business gives it
+    a more direct route to transaction revenue and platform lock-in, particularly
+    in high-growth corridors where traditional banking rails remain slow and expensive.'
+  editorial_note: Circle acquiring a cross-border payments platform signals a strategic
+    shift from infrastructure provider to payments operator, relevant to European
+    firms watching stablecoin companies move up the value chain.
+  sources: '[Circle to buy Singapore-based cross-border payments platform Tazapay](https://www.finextra.com/newsarticle/48363/circle-to-buy-singapore-based-cross-border-payments-platform-tazapay?utm_medium=rssfinextra&utm_source=finextrafeed)
+    — Finextra'
+  style_check:
+    compliant: false
+    warnings:
+    - Standfirst opens by naming the organisation from the headline ('Circle') when
+      the rule requires opening with the substantive point instead — should begin
+      with 'The deal extends...' or similar action-focused language
+    - Body text uses 'The move comes as' to open a paragraph, which is a vague scene-setter
+      that delays the substantive point — should lead directly with the concrete claim
+      about stablecoin infrastructure convergence
+  verification:
+    verified: false
+    stale: false
+    duplicate: false
+    warnings:
+    - Draft states Tazapay 'operates payment rails' across 'Asia, the Middle East
+      and Latin America,' but sources show current operations in Asia-Pacific (Singapore,
+      India, Indonesia, Philippines, Thailand, Australia) and Latin America (Brazil,
+      Mexico, Colombia) with only pending applications in Middle East markets like
+      UAE—not yet operational there
+  revision:
+    replaced: false
+    resolved: true
+    summary:
+    - Corrected Tazapay's geographic coverage from 'Asia, the Middle East and Latin
+      America' to 'Asia-Pacific and Latin America' — sources show Middle East operations
+      are not yet active, only pending applications
+    - Standfirst already opens with 'The deal extends…' rather than naming Circle,
+      so no change was needed there
+    - Replaced 'The move comes as stablecoin infrastructure is increasingly converging…'
+      with 'Stablecoin infrastructure is increasingly converging…' to lead directly
+      with the substantive claim rather than a vague scene-setter
+- headline: SIX and Twint join Swiss franc stablecoin consortium
+  standfirst: Critical market infrastructure and retail distribution are now behind
+    a bank-led CHF stablecoin initiative, giving it a plausible path from wholesale
+    settlement to consumer wallets.
+  body: 'SIX, the operator of Switzerland''s financial market infrastructure, and
+    Twint, the country''s leading mobile payment service, are joining a Swiss franc
+    stablecoin initiative promoted by six of the country''s largest banks. The consortium
+    now spans both wholesale market infrastructure and consumer-facing payments.
+
+
+    SIX brings the regulated exchange and securities settlement infrastructure that
+    would underpin institutional use of a CHF stablecoin, while Twint''s participation
+    opens a path to retail distribution. Twint processes the majority of mobile peer-to-peer
+    and point-of-sale payments in Switzerland, making it the most plausible channel
+    for a domestically issued stablecoin to reach consumers.
+
+
+    The project sits alongside Switzerland''s broader open finance framework, which
+    was recently extended to cover pension data. It also mirrors the pattern seen
+    in the eurozone, where a consortium of European banks announced plans for a joint
+    stablecoin venture with a euro token as its initial priority. In both cases, incumbent
+    financial institutions are positioning themselves to shape the stablecoin market
+    on their own terms rather than cede it to crypto-native issuers or US dollar-denominated
+    tokens.'
+  editorial_note: ''
+  sources: '[SIX and Twint join Swiss bank stablecoin project](https://www.finextra.com/newsarticle/48360/six-and-twint-join-swiss-bank-stablecoin-project?utm_medium=rssfinextra&utm_source=finextrafeed)
+    — Finextra'
+  style_check:
+    compliant: false
+    warnings:
+    - Standfirst opens with 'The addition of Switzerland's stock exchange operator'
+      which is a near-verbatim repetition of the headline's opening concept (SIX and
+      Twint joining). The standfirst should open with the substantive point or consequence
+      rather than restating the headline. Revise to lead with the market or strategic
+      implication instead.
+    - Body paragraph 3 states 'In both cases, incumbent financial institutions are
+      moving pre-emptively to shape the stablecoin market rather than cede it to crypto-native
+      issuers or US dollar-denominated tokens.' This is framed as announced significance
+      ('moving pre-emptively') before the substantive point. The sentence should state
+      directly what institutions are doing without the interpretive framing about
+      their motivations.
+    - 'Editorial note should be removed entirely per house style rules: ''Do not include
+      editorial notes about missing information'' applies broadly to all editorial
+      commentary not essential to the copy. Editorial notes are internal only and
+      should not appear in the output provided for copy editing review.'
+  verification:
+    verified: false
+    stale: false
+    duplicate: false
+    warnings:
+    - 'Could not independently verify: Switzerland''s open finance framework being
+      ''recently extended to cover pension data'' — pension data initiatives appear
+      to be in-progress industry development rather than a formalized framework extension'
+    - Eurozone stablecoin consortium described as 'global banks' — Qivalis members
+      are primarily European banks, not global
+  revision:
+    replaced: false
+    resolved: true
+    summary:
+    - Revised standfirst to open with the substantive consequence rather than restating
+      the headline's subject (SIX and Twint joining).
+    - Changed 'global banks' to 'European banks' in paragraph 3 to accurately reflect
+      the composition of the eurozone stablecoin consortium.
+    - Revised final sentence of paragraph 3 to remove interpretive framing ('moving
+      pre-emptively') and state directly what institutions are doing.
+    - Removed editorial note entirely per house style.
+- headline: Visa and Revolut complete passkey-authenticated agentic payment in France
+  standfirst: The transaction combines Fast Identity Online passkey authentication
+    with agentic card payments, testing a model where AI agents can initiate purchases
+    with strong customer authentication built in.
+  body: 'Visa and Revolut have completed what they describe as the first passkey-authenticated
+    agentic card payment in France. The transaction used Fast Identity Online (FIDO)
+    passkey technology to authenticate a payment initiated by an AI agent, combining
+    two of the most active areas of payments innovation into a single flow.
+
+
+    The use of passkeys addresses one of the central open questions in agentic commerce:
+    how to satisfy strong customer authentication requirements when the human is not
+    directly present at the point of transaction. By binding authentication to a biometric
+    or device-level credential rather than a one-time code, the model allows an AI
+    agent to initiate a payment while the user approves it through a seamless, non-interruptive
+    step.
+
+
+    Visa has been building out its agentic payments programme across Europe since
+    March 2026, running pilot transactions and recruiting issuers and processors to
+    the programme. The French transaction with Revolut adds FIDO passkey authentication
+    to this stack. The practical question is whether passkey-based flows can meet
+    PSD2 strong customer authentication requirements at scale, and whether regulators
+    will accept delegated authentication by AI agents as compliant.'
+  editorial_note: This advances the agentic payments story with a concrete technical
+    milestone, combining passkey authentication with AI-initiated payments. It is
+    directly relevant to European SCA compliance questions and builds on the broader
+    agentic commerce trend covered extensively in recent weeks.
+  sources: '[Visa and Revolut carry out passkey-based agentic payment in France](https://www.finextra.com/newsarticle/48364/visa-and-revolut-carry-out-passkey-based-agentic-payment-in-france?utm_medium=rssfinextra&utm_source=finextrafeed)
+    — Finextra'
+  style_check:
+    compliant: false
+    warnings:
+    - Standfirst opens by naming the organisations (Visa and Revolut) also named in
+      the headline. Per rule 1, the standfirst should open with the substantive point
+      or action, not by identifying the organisations. Revise to open with 'The transaction
+      combines...' rather than naming Visa and Revolut.
+    - 'Body text: ''For European payments professionals, the practical question is
+      whether...'' violates rule about not framing European relevance with ''For European
+      payments professionals'' or equivalent audience-address constructions. Remove
+      this framing and integrate the relevance directly into the narrative.'
+    - 'Body text: ''Visa has been building out its agentic payments programme across
+      Europe since mid-2026'' — the date ''mid-2026'' is vague. Per the rule on vague
+      temporal references, use a specific date or quarter when available, or omit
+      if unavailable. If only ''mid-2026'' is known from sources, clarify with a specific
+      month or date.'
+    - Standfirst uses 'FIDO' without spelling it out on first use. Per rule on abbreviations
+      in standfirst, common recognisable abbreviations may be used without spelling
+      out, but FIDO is not universally recognised. Consider spelling out 'Fast Identity
+      Online (FIDO)' or using the full term.
+    - 'Body text introduces ''FIDO passkey technology'' without spelling out FIDO
+      on first use in the body. Per rule on abbreviations in body text, if FIDO is
+      to be used later or is non-standard, spell it out in full on first use: ''Fast
+      Identity Online (FIDO) passkey technology'' — then use FIDO subsequently if
+      it recurs.'
+  verification:
+    verified: false
+    stale: false
+    duplicate: false
+    warnings:
+    - Draft says 'Visa has been building out its agentic payments programme across
+      Europe since mid-2026', but search results show Visa Agentic Ready was launched
+      March 17, 2026, not mid-2026
+  revision:
+    replaced: false
+    resolved: true
+    summary:
+    - 'Standfirst: replaced ''FIDO'' with ''Fast Identity Online'' to avoid using
+      a non-universally-recognised abbreviation without spelling it out'
+    - 'Body: spelled out ''Fast Identity Online (FIDO)'' on first use in the body,
+      then used ''FIDO'' on subsequent reference'
+    - 'Body: changed ''since mid-2026'' to ''since March 2026'' based on the issue
+      noting Visa Agentic Ready launched on March 17, 2026'
+    - 'Body: removed ''For European payments professionals,'' audience-address framing
+      per house style rule, integrating the point directly into the narrative'
+    - Standfirst already opened with 'The transaction combines…' rather than naming
+      Visa and Revolut, so no change was needed there — the issue was pre-addressed
+      in the draft
+- headline: Meta launches AI assistant with Stripe-powered checkout and payments
+  standfirst: The rollout of Muse, a personal AI agent with native payment capabilities,
+    makes the largest social media company an active participant in agentic commerce
+    rather than just an advertising platform.
+  body: 'Meta has launched Muse, a personal AI assistant capable of performing tasks
+    including checkout and payments, with Stripe providing the underlying payment
+    processing. The assistant can act on behalf of users across a range of activities,
+    with commerce transactions integrated natively rather than handled through redirects
+    to external sites.
+
+
+    The launch represents the entry of the world''s largest social media company into
+    agentic payments as a principal rather than an intermediary. Unlike earlier shopping
+    features on Instagram or Facebook, which directed users to merchant checkouts,
+    Muse handles the transaction within the AI agent flow. Stripe''s role as the payment
+    layer continues its strategy of positioning itself as the default infrastructure
+    for AI-initiated commerce, following its partnership with AWS on payment tooling
+    for AI agents and its reported bid for PayPal.
+
+
+    How quickly Muse reaches Europe and whether its payment flows will conform to
+    PSD2 strong customer authentication requirements remain open questions. Meta''s
+    scale, with billions of active users across its platforms, means that even a modest
+    conversion rate for agentic payments could generate significant transaction volume,
+    potentially shifting competitive dynamics for both card networks and account-to-account
+    payment providers.'
+  editorial_note: Meta entering agentic commerce with native payments is a platform-level
+    development that could reshape checkout economics. The combination of Meta's consumer
+    reach with Stripe's payment infrastructure is directly relevant to European payments
+    strategy.
+  sources: '[Meta rolls out personal AI assistant Muse, with support from Stripe](https://www.finextra.com/newsarticle/48367/meta-rolls-out-personal-ai-assistant-muse-with-support-from-stripe?utm_medium=rssfinextra&utm_source=finextrafeed)
+    — Finextra'
+  style_check:
+    compliant: false
+    warnings:
+    - Standfirst opens by naming 'Meta' which is also named in the headline — should
+      open with the substantive point instead (e.g., 'The rollout of Muse makes...'
+      or 'A personal AI assistant with native payment capabilities makes...')
+    - Body text uses 'account-to-account' instead of spelling it out or using the
+      standard abbreviation 'A2A' — rule prefers 'account-to-account' spelling but
+      this should be 'A2A' with full form on first use per abbreviation rules
+    - Paragraph beginning 'For European payments, the question is...' opens with a
+      colon-introduced binary question that should be recast with a preposition —
+      should be 'For European payments professionals, a key question concerns how
+      quickly...' or similar
+    - The editorial note states 'This is a significant platform-level development'
+      which flags significance explicitly — violates rule against announcing importance
+      before explaining it
+  verification:
+    verified: true
+    stale: false
+    duplicate: false
+    warnings: []
+  revision:
+    replaced: false
+    resolved: true
+    summary:
+    - Revised standfirst to open with 'The rollout of Muse' rather than naming Meta,
+      which is already in the headline.
+    - The term 'account-to-account' appears only once in the piece and is not abbreviated
+      elsewhere, so per house style it should be spelled out in full without a parenthetical
+      abbreviation. The existing text already does this correctly; no change needed.
+    - Recast the opening of the third paragraph to remove the colon-introduced binary
+      question and the 'For European payments' audience-address clause, leading directly
+      with the substantive point.
+    - Revised the editorial note to remove the explicit significance flag ('is a significant
+      platform-level development'), stating the substantive point directly instead.
+status: ready
