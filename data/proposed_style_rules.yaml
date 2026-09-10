@@ -2,4 +2,21 @@
 # Populated automatically by tools/extract_learning.py (via GitHub Actions on push
 # to data/feedback/). Review and promote/edit in the dashboard's 'Proposed style
 # rules' section — accepted rules move to prompts/payments/style_rules.yaml.
-[]
+- date: '2026-09-10'
+  rule: When a statistic or finding is attributed to a specific organisation, name
+    that organisation in the headline — eg, "Only 23% of consumers trust AI agents
+    to handle their payments, says Visa" rather than leaving the attribution implicit.
+    Do not omit the source from the headline when the credibility or origin of the
+    claim is material to the story.
+- date: '2026-09-10'
+  rule: 'Do not include source attribution lines (eg, "Sources: [Article title](URL)
+    — Publication") at the end of stories. Remove these trailing source blocks entirely
+    from published copy.'
+- date: '2026-09-10'
+  rule: When the lede sentence names an organisation and immediately states what it
+    has done, avoid the construction "X has published a report [doing Y]" when the
+    substance is the action, not the publication. Prefer "X has [done Y]" and move
+    the publication into a subordinate clause — eg, "Innovate Finance has called on
+    the UK government to move more quickly… In a newly published report, the trade
+    body positions…" rather than "Innovate Finance has published a report calling
+    on the UK government…".
