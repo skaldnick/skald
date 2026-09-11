@@ -2,8 +2,4 @@
 # Populated automatically by tools/extract_learning.py (via GitHub Actions on push
 # to data/feedback/). Review and promote/edit in the dashboard's 'Proposed style
 # rules' section — accepted rules move to prompts/payments/style_rules.yaml.
-- date: '2026-09-11'
-  rule: Prefer the simple past ("has delayed") over the periphrastic "has decided
-    to delay" when the action itself is what matters. Write the action directly rather
-    than framing it as a decision to act — eg, "The EPC has delayed…" not "The EPC
-    has decided to delay…".
+[]
