@@ -1,0 +1,250 @@
+title: 'Blik agentic payment; EPC delays address migration; UK payments vision doubts
+
+  '
+social_post: 'Blik runs Poland''s first agentic payment, the EPC pushes back its address
+  format deadline, and UK industry backs the National Payments Vision but doubts delivery.
+  Today''s briefing: {link}
+
+  '
+stories:
+- headline: Blik completes Poland's first agentic payment transaction
+  standfirst: A live agentic transaction on domestic account-to-account rails extends
+    the technology's footprint into a market with one of Europe's strongest national
+    payment schemes.
+  body: 'Blik has run its first agentic payment transaction, in which a user authorised
+    an AI agent to search for a specific product and complete the purchase when it
+    became available. The transaction moves agentic payments from the domain of card
+    networks and global fintechs into a domestic account-to-account scheme with deep
+    consumer penetration in Poland.
+
+
+    Agentic payments have gathered momentum across 2026, with Visa, Mastercard, ING,
+    Credit Agricole and others completing pilot transactions. Most activity so far
+    has centred on card-based rails or pan-European schemes. Blik''s entry is different
+    because it operates as a bank-owned mobile payment standard that accounts for
+    more than 60% of Polish e-commerce transactions, giving it a direct path to consumer-scale
+    adoption that card-network pilots have yet to demonstrate.
+
+
+    The transaction follows PPRO''s partnership with Blik, announced in August, to
+    develop agentic commerce capabilities for the Polish market. Whether domestic
+    schemes can define their own agentic standards or will defer to global frameworks
+    such as EMVCo''s draft specification remains an open question, but Blik''s move
+    suggests at least some national schemes intend to compete rather than wait.'
+  editorial_note: Agentic payments are a running theme, but Blik's transaction is
+    the first from a domestic account-based scheme rather than a card network, testing
+    whether national payment ecosystems can set their own terms for agent-initiated
+    commerce.
+  sources: '[Blik records first agentic payment transaction](https://www.finextra.com/newsarticle/48379/blik-records-first-agentic-payment-transaction?utm_medium=rssfinextra&utm_source=finextrafeed)
+    — Finextra'
+  style_check:
+    compliant: false
+    warnings:
+    - Standfirst opens by naming the organisation (Blik) also named in the headline.
+      Should open with substantive point instead, per rule 1.
+    - Body text uses 'A2A' abbreviation form instead of spelling out 'account-to-account',
+      per rule 2 preference.
+    - Editorial note states 'is notable' which violates the rule against flagging
+      significance explicitly, per rule 5.
+    - Headline and standfirst both start with 'Blik'/'The Polish mobile payment network'
+      naming the same organisation. Standfirst should vary opening per rule 1.
+  verification:
+    verified: false
+    stale: false
+    duplicate: false
+    warnings:
+    - Draft states Blik is 'used by roughly 80% of Polish online shoppers' but search
+      sources show BLIK accounts for 60-71% of Polish e-commerce transactions, not
+      80%. The 80% figure refers to digital payment methods broadly, not BLIK specifically.
+  revision:
+    replaced: false
+    resolved: true
+    summary:
+    - Revised standfirst to open with the substantive point ('A live agentic transaction…')
+      rather than naming Blik, which is already in the headline, per rule 1.
+    - Corrected the market share claim from 'roughly 80% of Polish online shoppers'
+      to 'more than 60% of Polish e-commerce transactions', reflecting available source
+      data. The 80% figure refers to digital payments broadly, not Blik specifically.
+    - Body text already used 'account-to-account' in full rather than 'A2A', so no
+      change was needed on that point.
+    - Removed 'is notable as' from the editorial note and recast the sentence to state
+      the substantive point directly, per rule 5.
+- headline: EPC delays structured address migration beyond November deadline
+  standfirst: All five SEPA payment scheme rulebooks are affected, extending the transition
+    period for participants still using unstructured address formats beyond November
+    2026.
+  body: 'The European Payments Council (EPC) has decided to delay the planned November
+    2026 end date for the unstructured address format across all five of its payment
+    scheme rulebooks. The original deadline would have required all SEPA payment service
+    providers to send and receive only structured address data in line with ISO 20022
+    messaging standards.
+
+
+    The decision mirrors the pattern set by Swift, which extended its own structured
+    address migration deadline for cross-border ISO 20022 messages earlier this year.
+    Both delays reflect persistent implementation challenges among smaller banks and
+    payment service providers that have struggled to clean and restructure address
+    data across legacy systems. The EPC has not yet confirmed a revised end date.
+
+
+    Participants that have already completed structured address compliance now face
+    uncertainty about when the operational benefits of consistent data quality will
+    materialise. Those still behind gain breathing room but not relief from the underlying
+    obligation.'
+  editorial_note: The EPC's address format migration is a practical compliance burden
+    for every SEPA participant. A delay across all five rulebooks is operationally
+    significant and follows a similar Swift extension, suggesting a broader pattern
+    of ISO 20022 migration slippage.
+  sources: '[EPC delays address format migration timeline](https://www.finextra.com/pressarticle/110873/epc-delays-address-format-migration-timeline?utm_medium=rssfinextra&utm_source=finextrafeed)
+    — Finextra'
+  style_check:
+    compliant: false
+    warnings:
+    - Standfirst opens by naming 'The postponement' without first establishing what
+      is being postponed. Per rule [1], the standfirst should not open by naming the
+      organisation (EPC) that is also named in the headline. Instead, begin with the
+      substantive point — e.g., 'The deadline for structured address migration across
+      all five SEPA payment schemes has been pushed beyond November 2026'.
+    - Body paragraph 3 opens with 'For banks and processors that have already invested...'
+      — this is a scene-setting conditional that delays the substantive point. Per
+      the rule against hedging scene-setters, lead directly with the substantive claim
+      rather than framing it as a consequence for a specific group.
+    - Headline and standfirst both open with the same grammatical construction and
+      subject matter (the postponement/delay). Per rule requiring variation, at least
+      one of these elements should vary its opening.
+  verification:
+    verified: true
+    stale: false
+    duplicate: false
+    warnings: []
+  revision:
+    replaced: false
+    resolved: true
+    summary:
+    - Rewrote standfirst to open with 'All five SEPA payment scheme rulebooks' rather
+      than 'The postponement', avoiding repetition of the headline's subject and providing
+      a substantive opening that names the specific stakes.
+    - Rewrote body paragraph 3 to lead directly with the substantive claim ('Participants
+      that have already completed structured address compliance now face uncertainty…')
+      rather than opening with a conditional scene-setter ('For banks and processors
+      that have already invested…').
+- headline: EPC opens consultation on pan-European fraud data-sharing rulebook
+  standfirst: Draft rules for the Fraud Information Distribution Arrangement would
+    require payment providers across SEPA to exchange fraud intelligence under a common
+    scheme, ahead of obligations in the Payment Services Regulation.
+  body: 'The European Payments Council (EPC) has launched a public consultation on
+    the proposed rulebook for its Fraud Information Distribution Arrangement (FRIDA)
+    scheme, running from September 11 to December 10. The rulebook would govern how
+    payment service providers exchange fraud data related to account-to-account payments
+    across SEPA, establishing binding inter-provider rules, practices and standards
+    for sharing suspicious activity indicators.
+
+
+    FRIDA is designed to anticipate the fraud data-sharing obligations set out in
+    Articles 83 and 83a of the Payment Services Regulation, which is expected to take
+    effect by mid-2028. The scheme envisages a federated model, connecting existing
+    national fraud-sharing platforms through a central hub to create pan-European
+    interoperability. The EPC issued a request for information in January to identify
+    potential operators for that central platform and has been developing the rulebook
+    through its FRIDA task force since 2025.
+
+
+    The three-month consultation marks the point at which the scheme moves from design
+    to formal market scrutiny. For payment providers already operating national fraud-sharing
+    arrangements, FRIDA will set the terms on which those systems must interoperate.
+    For those without such arrangements, it will define the baseline they must meet.'
+  editorial_note: 'Genuinely new development published today (September 11): the EPC
+    has moved from the earlier RFI stage (January 2026, which sought platform providers)
+    to the rulebook consultation stage, which is a materially subsequent step putting
+    the draft scheme rules themselves out for market comment. Not previously covered
+    in the briefing. Strong regulatory/policy significance given PSR fraud data-sharing
+    obligations approaching.'
+  sources: '[Contributing to the future of payments in Europe](https://www.europeanpaymentscouncil.eu/)
+    — European Payments Council'
+  style_check:
+    compliant: false
+    warnings:
+    - 'style check response could not be parsed: ''```json {   "compliant": false,   "warnings":
+      [     "Standfirst opens by naming \''Fraud Information Distribution Arrangement\''
+      which is identified in th'''
+  verification:
+    verified: true
+    stale: false
+    duplicate: false
+    warnings: []
+  revision:
+    replaced: true
+    resolved: true
+    summary:
+    - 'Replaced: original story flagged as duplicate coverage (UK Payments Initiative
+      launched 2 June 2026, not in July as story implies. Story groups it temporally
+      with July consultation but UKPI preceded consultation by 6 weeks. Core UKPI
+      launch previously covered 2026-06-03.); swapped in a candidate sourced from
+      a live web search (not in today''s RSS feeds).'
+- headline: Mastercard launches Wallet Pay to drive interoperability across digital
+    wallets
+  standfirst: The product portfolio targets fragmentation in mobile wallet payments
+    by standardising how Mastercard credentials work across wallet providers and merchants.
+  body: 'Mastercard has launched Wallet Pay, a portfolio of products designed to support
+    interoperability and reach across mobile wallet payments. The suite aims to standardise
+    how Mastercard credentials are provisioned, authenticated and accepted across
+    different wallet providers and merchant environments.
+
+
+    Digital wallet penetration in Europe continues to grow. UK mobile wallet registrations
+    reached 65% of adults in the first half of 2025, and wallet-based payments are
+    a core distribution channel for both card networks and emerging schemes such as
+    Wero. The challenge for Mastercard is that wallet fragmentation, with different
+    technical implementations across Apple Pay, Google Pay, Samsung Pay and bank-owned
+    wallets, creates friction for merchants and limits the network''s ability to guarantee
+    a consistent experience.
+
+
+    Wallet Pay positions Mastercard as the interoperability layer between wallet providers
+    and merchants rather than a competitor to individual wallets. As wallet penetration
+    deepens and new payment surfaces such as agentic commerce and in-car payments
+    proliferate, that interoperability role is a strategic prize. Mastercard''s approach
+    parallels the network''s broader strategy of embedding its infrastructure into
+    new payment surfaces rather than owning the consumer-facing interface directly.'
+  editorial_note: As wallet penetration deepens and new payment surfaces (agentic,
+    IoT) proliferate, Mastercard is positioning itself as the connective layer rather
+    than competing with individual wallets.
+  sources: '[Mastercard to boost digital wallet uptake with Wallet Pay](https://www.finextra.com/newsarticle/48376/mastercard-to-boost-digital-wallet-uptake-with-wallet-pay?utm_medium=rssfinextra&utm_source=finextrafeed)
+    — Finextra'
+  style_check:
+    compliant: false
+    warnings:
+    - Standfirst opens by naming Mastercard, the organisation also named in the headline
+      ('Mastercard launches'). Per rule [1], the standfirst should open with the substantive
+      point (e.g., 'The product portfolio targets fragmentation...') rather than repeating
+      the subject. Revise to avoid naming Mastercard in the standfirst opening.
+    - Body uses vague temporal reference 'earlier this year' when describing UK mobile
+      wallet registrations. Per rule on avoiding vague temporal references, use a
+      specific time period (e.g., 'in the first half of 2025') instead of 'earlier
+      this year'.
+    - The editorial note flags 'the question of who provides the interoperability
+      layer becomes strategically important' and 'Mastercard's move is a concrete
+      play for that role'. Per rule against flagging significance explicitly, remove
+      the editorial note's framing of 'becomes strategically important' and instead
+      state the substantive point directly in the body if it warrants inclusion.
+  verification:
+    verified: false
+    stale: false
+    duplicate: false
+    warnings:
+    - 'UK mobile wallet data: Draft says ''reached 57% of adults earlier this year''
+      but 57% is 2024 data (per UK Finance Payment Markets Report). 2025 data shows
+      65% of adults registered for mobile wallets.'
+  revision:
+    replaced: false
+    resolved: true
+    summary:
+    - Updated UK mobile wallet registration figure from 57% to 65% per 2025 data.
+    - Replaced vague 'earlier this year' with 'in the first half of 2025'.
+    - Standfirst already opens with 'The product portfolio' rather than naming Mastercard,
+      so no change needed there — it was already compliant.
+    - Revised editorial note to remove 'becomes strategically important' framing,
+      stating the substantive point directly instead.
+    - Integrated the interoperability-layer strategic point from the editorial note
+      into the final body paragraph, stated directly without flagging significance.
+status: ready
