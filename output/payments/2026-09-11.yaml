@@ -1,172 +1,142 @@
-title: 'Blik agentic payment; EPC delays address migration; UK payments vision doubts
+title: 'UK open banking governance; EPC fraud data consultation; industry confidence
+  gap
 
   '
-social_post: 'Blik runs Poland''s first agentic payment, the EPC pushes back its address
-  format deadline, and UK industry backs the National Payments Vision but doubts delivery.
-  Today''s briefing: {link}
+social_post: 'The UK''s open banking Future Entity finally has a chair — but industry
+  confidence in the broader National Payments Vision is lukewarm at best. Plus: EPC
+  opens fraud data-sharing consultation. {link}
 
   '
 stories:
-- headline: Blik completes Poland's first agentic payment transaction
-  standfirst: A live agentic transaction on domestic account-to-account rails extends
-    the technology's footprint into a market with one of Europe's strongest national
-    payment schemes.
-  body: 'Blik has run its first agentic payment transaction, in which a user authorised
-    an AI agent to search for a specific product and complete the purchase when it
-    became available. The transaction moves agentic payments from the domain of card
-    networks and global fintechs into a domestic account-to-account scheme with deep
-    consumer penetration in Poland.
+- headline: Ezechi Britton named chair of UK open banking Future Entity
+  standfirst: A named leader for the long-delayed body is the first concrete step
+    toward operationalising it, though its scope and funding model remain unsettled.
+  body: 'Ezechi Britton has been appointed independent chair of the steering group
+    designing the UK''s open banking Future Entity, the FCA-regulated body intended
+    to take over API standard-setting from the current Open Banking Implementation
+    Entity. Britton, most recently CEO of the Centre for Finance, Innovation and Technology
+    (CFIT), will lead the group responsible for scoping the new organisation''s remit,
+    governance and commercial model.
 
 
-    Agentic payments have gathered momentum across 2026, with Visa, Mastercard, ING,
-    Credit Agricole and others completing pilot transactions. Most activity so far
-    has centred on card-based rails or pan-European schemes. Blik''s entry is different
-    because it operates as a bank-owned mobile payment standard that accounts for
-    more than 60% of Polish e-commerce transactions, giving it a direct path to consumer-scale
-    adoption that card-network pilots have yet to demonstrate.
+    The Future Entity has been in gestation for several years, with successive delays
+    as the industry and regulators debated whether the body should confine itself
+    to maintaining existing open banking API standards or extend into commercial variable
+    recurring payments (VRP) facilitation and broader open finance coordination. The
+    Treasury''s July consultation on modernising payments regulation flagged the Future
+    Entity as a priority, but left key questions about mandate and funding unresolved.
 
 
-    The transaction follows PPRO''s partnership with Blik, announced in August, to
-    develop agentic commerce capabilities for the Polish market. Whether domestic
-    schemes can define their own agentic standards or will defer to global frameworks
-    such as EMVCo''s draft specification remains an open question, but Blik''s move
-    suggests at least some national schemes intend to compete rather than wait.'
-  editorial_note: Agentic payments are a running theme, but Blik's transaction is
-    the first from a domestic account-based scheme rather than a card network, testing
-    whether national payment ecosystems can set their own terms for agent-initiated
-    commerce.
-  sources: '[Blik records first agentic payment transaction](https://www.finextra.com/newsarticle/48379/blik-records-first-agentic-payment-transaction?utm_medium=rssfinextra&utm_source=finextrafeed)
-    — Finextra'
+    Britton brings experience spanning fintech entrepreneurship and financial-inclusion
+    policy. The steering group''s output will shape whether the UK''s open banking
+    infrastructure evolves under a single, commercially viable standard-setter or
+    fragments across competing initiatives such as the UK Payments Initiative and
+    individual bank schemes.'
+  editorial_note: The Future Entity is a critical piece of UK open banking governance
+    that has been stalled for years. A named chair is the first concrete step toward
+    operationalising it, making this relevant to anyone building on UK open banking
+    rails.
+  sources: '[Chair named to steer UK open banking standard setter](https://www.thebanker.com/content/40cc5a49-adae-488c-97c9-a8c44523b4c1)
+    — The Banker | [Ezechi Britton Appointed Independent Chair to Lead Design of UK
+    Open Banking ''Future Entity''](https://www.bobsguide.com/ezechi-britton-appointed-independent-chair-to-lead-design-of-uk-open-banking-future-entity/)
+    — Bobsguide'
   style_check:
     compliant: false
     warnings:
-    - Standfirst opens by naming the organisation (Blik) also named in the headline.
-      Should open with substantive point instead, per rule 1.
-    - Body text uses 'A2A' abbreviation form instead of spelling out 'account-to-account',
-      per rule 2 preference.
-    - Editorial note states 'is notable' which violates the rule against flagging
-      significance explicitly, per rule 5.
-    - Headline and standfirst both start with 'Blik'/'The Polish mobile payment network'
-      naming the same organisation. Standfirst should vary opening per rule 1.
+    - Standfirst opens by naming 'the long-delayed successor to the Open Banking Implementation
+      Entity' which is essentially naming the organisation also identified in the
+      headline as 'UK open banking Future Entity'. This violates the rule to 'not
+      open by naming the organisation that is also named in the headline'. The standfirst
+      should open with the substantive point (the appointment and its significance)
+      rather than restating what the Future Entity is.
+    - Body text uses 'commercial VRP facilitation' but earlier in the same sentence
+      introduces 'commercial variable recurring payments' without spelling it out
+      in full with the standard abbreviation on first use. Per house style, it should
+      be introduced as 'commercial variable recurring payments (VRP)' on first mention
+      in the body, even though VRP may have been mentioned before.
+    - The phrase 'Britton's FCA background signals a preference for someone who understands
+      the regulatory architecture from the inside' uses vague attribution ('signals
+      a preference') rather than stating directly what the appointment demonstrates
+      or what stakeholders have said about it. This weakens the substantive claim.
   verification:
     verified: false
     stale: false
     duplicate: false
     warnings:
-    - Draft states Blik is 'used by roughly 80% of Polish online shoppers' but search
-      sources show BLIK accounts for 60-71% of Polish e-commerce transactions, not
-      80%. The 80% figure refers to digital payment methods broadly, not BLIK specifically.
+    - 'Ezechi Britton was not ''formerly chief technology innovation officer at the
+      FCA''. Available sources show his career as: software developer, co-founder/CTO
+      of Neyber, co-founder of Code Untapped, founding member/principal/CTO-in-residence
+      at Impact X Capital Partners, and CEO of CFIT (2023-2025). No FCA role is documented.'
   revision:
     replaced: false
     resolved: true
     summary:
-    - Revised standfirst to open with the substantive point ('A live agentic transaction…')
-      rather than naming Blik, which is already in the headline, per rule 1.
-    - Corrected the market share claim from 'roughly 80% of Polish online shoppers'
-      to 'more than 60% of Polish e-commerce transactions', reflecting available source
-      data. The 80% figure refers to digital payments broadly, not Blik specifically.
-    - Body text already used 'account-to-account' in full rather than 'A2A', so no
-      change was needed on that point.
-    - Removed 'is notable as' from the editorial note and recast the sentence to state
-      the substantive point directly, per rule 5.
-- headline: EPC delays structured address migration beyond November deadline
-  standfirst: All five SEPA payment scheme rulebooks are affected, extending the transition
-    period for participants still using unstructured address formats beyond November
-    2026.
-  body: 'The European Payments Council (EPC) has decided to delay the planned November
-    2026 end date for the unstructured address format across all five of its payment
-    scheme rulebooks. The original deadline would have required all SEPA payment service
-    providers to send and receive only structured address data in line with ISO 20022
-    messaging standards.
+    - 'Corrected Britton''s biography: removed incorrect claim that he was formerly
+      chief technology innovation officer at the FCA; replaced with ''most recently
+      CEO of the Centre for Finance, Innovation and Technology (CFIT)'', consistent
+      with available sources.'
+    - Revised standfirst to open with the substantive point ('A named leader for the
+      long-delayed body…') rather than restating the organisation named in the headline.
+    - Introduced 'commercial variable recurring payments (VRP)' in full on first use
+      in the body, per house style.
+    - Replaced the vague 'Britton's FCA background signals a preference for someone
+      who understands the regulatory architecture from the inside' with a direct,
+      factual characterisation of his background, removing the unsupported inference
+      about regulatory-insider preference.
+- headline: Swiss banks begin live stablecoin testing as SIX and Twint join sandbox
+  standfirst: Nine firms including SIX and Twint are testing a franc-pegged stablecoin
+    in a controlled live environment, exploring programmable payments use cases that
+    could shape Switzerland's digital money infrastructure.
+  body: 'Switzerland''s CHF stablecoin sandbox has entered its live testing phase,
+    with financial market infrastructure operator SIX and mobile payment service Twint
+    joining the initiative as new partners. The sandbox, first announced in April
+    by UBS, PostFinance, Sygnum, Raiffeisen, Zuercher Kantonalbank, Banque Cantonale
+    Vaudoise and Swiss Stablecoin AG, now includes nine participants testing use cases
+    on a platform operated by CHFD Infrastruktur AG, a subsidiary of Swiss Stablecoin
+    AG. The underlying token, CHFD, has been technically live since the end of June
+    and maintains a one-to-one peg to the Swiss franc.
 
 
-    The decision mirrors the pattern set by Swift, which extended its own structured
-    address migration deadline for cross-border ISO 20022 messages earlier this year.
-    Both delays reflect persistent implementation challenges among smaller banks and
-    payment service providers that have struggled to clean and restructure address
-    data across legacy systems. The EPC has not yet confirmed a revised end date.
+    The tests go beyond conventional institutional use cases such as interbank transfers
+    and tokenised asset settlement. Participants are exploring whether programmable
+    payments can reduce fraud on online marketplaces, improve fairness in event-ticket
+    allocation and make public fund disbursement more efficient. The sandbox operates
+    under defined safeguards, with a restricted participant pool and capped transaction
+    amounts.
 
 
-    Participants that have already completed structured address compliance now face
-    uncertainty about when the operational benefits of consistent data quality will
-    materialise. Those still behind gain breathing room but not relief from the underlying
-    obligation.'
-  editorial_note: The EPC's address format migration is a practical compliance burden
-    for every SEPA participant. A delay across all five rulebooks is operationally
-    significant and follows a similar Swift extension, suggesting a broader pattern
-    of ISO 20022 migration slippage.
-  sources: '[EPC delays address format migration timeline](https://www.finextra.com/pressarticle/110873/epc-delays-address-format-migration-timeline?utm_medium=rssfinextra&utm_source=finextrafeed)
-    — Finextra'
+    The test phase is expected to continue until the end of the year with an open
+    outcome. SIX brings financial market infrastructure expertise while Twint, Switzerland''s
+    dominant consumer payment app, adds a retail payments dimension. The initiative
+    runs in parallel with Europe''s broader push toward regulated stablecoins, though
+    Switzerland''s approach is industry-led rather than central bank-mandated.'
+  editorial_note: This story fills the gap left by the dropped EPC FRIDA consultation
+    piece. It is a genuinely new development from September 8, involving major Swiss
+    financial infrastructure players and connecting to the broader European stablecoin
+    and programmable payments narrative. It has not been previously covered — the
+    September 2 story about global banks committing to a joint stablecoin venture
+    with a euro token is a separate initiative. The Swiss sandbox is notable for combining
+    major banks with consumer payment infrastructure (Twint) and a national exchange
+    operator (SIX) in live testing of practical programmable payments use cases.
+  sources: '[CHF stablecoin sandbox enters test phase and adds SIX and TWINT as new
+    partners](https://www.sygnum.com/news/chf-stablecoin-sandbox-enters-test-phase-and-adds-six-and-twint-as-new-partners/)
+    — Sygnum Bank'
   style_check:
     compliant: false
     warnings:
-    - Standfirst opens by naming 'The postponement' without first establishing what
-      is being postponed. Per rule [1], the standfirst should not open by naming the
-      organisation (EPC) that is also named in the headline. Instead, begin with the
-      substantive point — e.g., 'The deadline for structured address migration across
-      all five SEPA payment schemes has been pushed beyond November 2026'.
-    - Body paragraph 3 opens with 'For banks and processors that have already invested...'
-      — this is a scene-setting conditional that delays the substantive point. Per
-      the rule against hedging scene-setters, lead directly with the substantive claim
-      rather than framing it as a consequence for a specific group.
-    - Headline and standfirst both open with the same grammatical construction and
-      subject matter (the postponement/delay). Per rule requiring variation, at least
-      one of these elements should vary its opening.
-  verification:
-    verified: true
-    stale: false
-    duplicate: false
-    warnings: []
-  revision:
-    replaced: false
-    resolved: true
-    summary:
-    - Rewrote standfirst to open with 'All five SEPA payment scheme rulebooks' rather
-      than 'The postponement', avoiding repetition of the headline's subject and providing
-      a substantive opening that names the specific stakes.
-    - Rewrote body paragraph 3 to lead directly with the substantive claim ('Participants
-      that have already completed structured address compliance now face uncertainty…')
-      rather than opening with a conditional scene-setter ('For banks and processors
-      that have already invested…').
-- headline: EPC opens consultation on pan-European fraud data-sharing rulebook
-  standfirst: Draft rules for the Fraud Information Distribution Arrangement would
-    require payment providers across SEPA to exchange fraud intelligence under a common
-    scheme, ahead of obligations in the Payment Services Regulation.
-  body: 'The European Payments Council (EPC) has launched a public consultation on
-    the proposed rulebook for its Fraud Information Distribution Arrangement (FRIDA)
-    scheme, running from September 11 to December 10. The rulebook would govern how
-    payment service providers exchange fraud data related to account-to-account payments
-    across SEPA, establishing binding inter-provider rules, practices and standards
-    for sharing suspicious activity indicators.
-
-
-    FRIDA is designed to anticipate the fraud data-sharing obligations set out in
-    Articles 83 and 83a of the Payment Services Regulation, which is expected to take
-    effect by mid-2028. The scheme envisages a federated model, connecting existing
-    national fraud-sharing platforms through a central hub to create pan-European
-    interoperability. The EPC issued a request for information in January to identify
-    potential operators for that central platform and has been developing the rulebook
-    through its FRIDA task force since 2025.
-
-
-    The three-month consultation marks the point at which the scheme moves from design
-    to formal market scrutiny. For payment providers already operating national fraud-sharing
-    arrangements, FRIDA will set the terms on which those systems must interoperate.
-    For those without such arrangements, it will define the baseline they must meet.'
-  editorial_note: 'Genuinely new development published today (September 11): the EPC
-    has moved from the earlier RFI stage (January 2026, which sought platform providers)
-    to the rulebook consultation stage, which is a materially subsequent step putting
-    the draft scheme rules themselves out for market comment. Not previously covered
-    in the briefing. Strong regulatory/policy significance given PSR fraud data-sharing
-    obligations approaching.'
-  sources: '[Contributing to the future of payments in Europe](https://www.europeanpaymentscouncil.eu/)
-    — European Payments Council'
-  style_check:
-    compliant: false
-    warnings:
-    - 'style check response could not be parsed: ''```json {   "compliant": false,   "warnings":
-      [     "Standfirst opens by naming \''Fraud Information Distribution Arrangement\''
-      which is identified in th'''
+    - Standfirst opens with 'Nine firms including SIX and Twint' — this breaches the
+      rule against stating a specific count of participants when examples are introduced
+      with 'including', which signals the list isn't exhaustive. The precise count
+      contradicts the non-exhaustive phrasing.
+    - Body opening sentence 'Switzerland's CHF stablecoin sandbox has entered its
+      live testing phase' repeats the core action from the headline ('begin live stablecoin
+      testing') using near-identical phrasing and the same subject framing. This violates
+      the rule against starting headline, standfirst and body opening sentence with
+      the same word or phrase — vary the opening in at least one element.
+    - Standfirst contains 'The underlying token, CHFD, has been technically live since
+      the end of June' — this is an example of the body bleeding into the standfirst.
+      The standfirst should add interpretive context or summary, not introduce factual
+      claims that belong in the body's self-contained explanation.
   verification:
     verified: true
     stale: false
@@ -176,75 +146,173 @@ stories:
     replaced: true
     resolved: true
     summary:
-    - 'Replaced: original story flagged as duplicate coverage (UK Payments Initiative
-      launched 2 June 2026, not in July as story implies. Story groups it temporally
-      with July consultation but UKPI preceded consultation by 6 weeks. Core UKPI
-      launch previously covered 2026-06-03.); swapped in a candidate sourced from
-      a live web search (not in today''s RSS feeds).'
-- headline: Mastercard launches Wallet Pay to drive interoperability across digital
-    wallets
-  standfirst: The product portfolio targets fragmentation in mobile wallet payments
-    by standardising how Mastercard credentials work across wallet providers and merchants.
-  body: 'Mastercard has launched Wallet Pay, a portfolio of products designed to support
-    interoperability and reach across mobile wallet payments. The suite aims to standardise
-    how Mastercard credentials are provisioned, authenticated and accepted across
-    different wallet providers and merchant environments.
+    - 'Replaced: original story flagged as duplicate coverage (Cited source is also
+      cited by another story in this briefing — likely a wrong or duplicate source_id;
+      Cited source (Finextra 48383 on UK National Payments Vision) does not address
+      the core story about EPC fraud data-sharing consultation; Story appears in previously
+      covered list dated 2026-09-11 with identical headline); swapped in a candidate
+      sourced from a live web search (not in today''s RSS feeds).'
+    - 'Note: the replacement was also flagged — Standfirst opens with ''Nine firms
+      including SIX and Twint'' — this breaches the rule against stating a specific
+      count of participants when examples are introduced with ''including'', which
+      signals the list isn''t exhaustive. The precise count contradicts the non-exhaustive
+      phrasing.'
+    - 'Note: the replacement was also flagged — Body opening sentence ''Switzerland''s
+      CHF stablecoin sandbox has entered its live testing phase'' repeats the core
+      action from the headline (''begin live stablecoin testing'') using near-identical
+      phrasing and the same subject framing. This violates the rule against starting
+      headline, standfirst and body opening sentence with the same word or phrase
+      — vary the opening in at least one element.'
+    - 'Note: the replacement was also flagged — Standfirst contains ''The underlying
+      token, CHFD, has been technically live since the end of June'' — this is an
+      example of the body bleeding into the standfirst. The standfirst should add
+      interpretive context or summary, not introduce factual claims that belong in
+      the body''s self-contained explanation.'
+- headline: Industry backs UK National Payments Vision but doubts its delivery
+  standfirst: Broad political endorsement of the government's payments overhaul masks
+    a sharp confidence gap, with fewer than a third of industry leaders saying they
+    believe it will be executed effectively.
+  body: 'More than 80% of UK payments industry leaders support the National Payments
+    Vision, according to a new survey, yet fewer than a third say they are very confident
+    the plan will work in practice. The gap between endorsement and belief in delivery
+    captures a tension that is now shaping investment and strategy decisions across
+    the sector.
 
 
-    Digital wallet penetration in Europe continues to grow. UK mobile wallet registrations
-    reached 65% of adults in the first half of 2025, and wallet-based payments are
-    a core distribution channel for both card networks and emerging schemes such as
-    Wero. The challenge for Mastercard is that wallet fragmentation, with different
-    technical implementations across Apple Pay, Google Pay, Samsung Pay and bank-owned
-    wallets, creates friction for merchants and limits the network''s ability to guarantee
-    a consistent experience.
+    The scepticism reflects experience built across multiple reform cycles. The UK
+    payments landscape is mid-transition on several fronts simultaneously: the New
+    Payments Architecture programme, the creation of the open banking Future Entity,
+    the launch of the UK Payments Initiative as a domestic card scheme alternative,
+    and the Treasury''s July consultation on regulatory modernisation. Each involves
+    different timelines, governance structures and commercial incentives, and their
+    interdependencies remain poorly defined.
 
 
-    Wallet Pay positions Mastercard as the interoperability layer between wallet providers
-    and merchants rather than a competitor to individual wallets. As wallet penetration
-    deepens and new payment surfaces such as agentic commerce and in-car payments
-    proliferate, that interoperability role is a strategic prize. Mastercard''s approach
-    parallels the network''s broader strategy of embedding its infrastructure into
-    new payment surfaces rather than owning the consumer-facing interface directly.'
-  editorial_note: As wallet penetration deepens and new payment surfaces (agentic,
-    IoT) proliferate, Mastercard is positioning itself as the connective layer rather
-    than competing with individual wallets.
-  sources: '[Mastercard to boost digital wallet uptake with Wallet Pay](https://www.finextra.com/newsarticle/48376/mastercard-to-boost-digital-wallet-uptake-with-wallet-pay?utm_medium=rssfinextra&utm_source=finextrafeed)
+    The findings land at a moment when industry participants are being asked to commit
+    resources to competing or overlapping initiatives. For banks and fintechs weighing
+    investment decisions, the distinction between political endorsement and operational
+    confidence is material.'
+  editorial_note: The confidence gap between support for the Vision and belief in
+    its delivery captures a tension that is shaping investment and strategy decisions
+    across UK payments. It provides useful context alongside the Future Entity chair
+    appointment.
+  sources: '[Industry backs UK National Payments Vision but confidence it will work
+    lags](https://www.finextra.com/newsarticle/48383/industry-backs-uk-national-payments-vision-but-confidence-it-will-work-lags?utm_medium=rssfinextra&utm_source=finextrafeed)
     — Finextra'
-  style_check:
-    compliant: false
-    warnings:
-    - Standfirst opens by naming Mastercard, the organisation also named in the headline
-      ('Mastercard launches'). Per rule [1], the standfirst should open with the substantive
-      point (e.g., 'The product portfolio targets fragmentation...') rather than repeating
-      the subject. Revise to avoid naming Mastercard in the standfirst opening.
-    - Body uses vague temporal reference 'earlier this year' when describing UK mobile
-      wallet registrations. Per rule on avoiding vague temporal references, use a
-      specific time period (e.g., 'in the first half of 2025') instead of 'earlier
-      this year'.
-    - The editorial note flags 'the question of who provides the interoperability
-      layer becomes strategically important' and 'Mastercard's move is a concrete
-      play for that role'. Per rule against flagging significance explicitly, remove
-      the editorial note's framing of 'becomes strategically important' and instead
-      state the substantive point directly in the body if it warrants inclusion.
   verification:
     verified: false
     stale: false
     duplicate: false
     warnings:
-    - 'UK mobile wallet data: Draft says ''reached 57% of adults earlier this year''
-      but 57% is 2024 data (per UK Finance Payment Markets Report). 2025 data shows
-      65% of adults registered for mobile wallets.'
+    - Cited source is also cited by another story in this briefing — likely a wrong
+      or duplicate source_id
+  style_check:
+    compliant: false
+    warnings:
+    - 'Standfirst opens: ''A survey finds more than four in five UK industry leaders
+      support the government''s payments overhaul'' — this violates the rule against
+      opening a paragraph with a colon-introduced binary question when the sentence
+      can be recast with a preposition. The standfirst should lead with the substantive
+      point (the confidence gap) rather than introducing the survey as the subject.'
+    - 'Body opening: ''A survey of UK payments industry leaders has found broad support
+      for the government''s National Payments Vision but a sharp confidence gap when
+      it comes to execution.'' This repeats the standfirst''s structure too closely.
+      The rule states the body must be self-contained and avoid near-verbatim repetition
+      — both the standfirst and body open with ''A survey'' + ''support for the government''s
+      payments'' + ''confidence gap.'' Revise the body''s opening to vary the approach
+      and strengthen it as the story''s primary anchor.'
+    - Headline and standfirst both start with the same subject matter (industry support
+      for the Vision). Vary the opening in at least one of the elements per the rule
+      against starting headline, standfirst, and body opening sentence with the same
+      word or phrase.
   revision:
     replaced: false
     resolved: true
     summary:
-    - Updated UK mobile wallet registration figure from 57% to 65% per 2025 data.
-    - Replaced vague 'earlier this year' with 'in the first half of 2025'.
-    - Standfirst already opens with 'The product portfolio' rather than naming Mastercard,
-      so no change needed there — it was already compliant.
-    - Revised editorial note to remove 'becomes strategically important' framing,
-      stating the substantive point directly instead.
-    - Integrated the interoperability-layer strategic point from the editorial note
-      into the final body paragraph, stated directly without flagging significance.
+    - Revised standfirst to lead with the substantive point (the confidence gap) rather
+      than opening with 'A survey', varying the opening from the headline.
+    - Rewrote body opening sentence to lead with the 80% statistic directly rather
+      than mirroring the standfirst's 'A survey finds…' structure, avoiding near-verbatim
+      repetition.
+    - Could not address the duplicate source_id issue as no alternative source information
+      was provided — this requires editorial verification outside the text.
+- headline: Coinbase and Moov partner on stablecoin payments for US community banks
+  standfirst: The partnership targets smaller US financial institutions ahead of a
+    Senate vote on the CLARITY Act, positioning an alternative to the consortium-led
+    approach favoured by the global bank stablecoin group planning a euro-denominated
+    token.
+  body: 'Coinbase is partnering with financial infrastructure provider Moov to bring
+    stablecoin payment and settlement capabilities to US community banks and credit
+    unions. A Senate vote on the CLARITY Act, which would establish a regulatory framework
+    for digital assets including payment stablecoins, gives the announcement its immediate
+    context.
+
+
+    Community banks and credit unions have largely been excluded from stablecoin infrastructure,
+    which has concentrated around larger institutions and crypto-native firms. Moov''s
+    APIs would allow these smaller institutions to accept, hold and settle in stablecoins
+    without building proprietary digital asset infrastructure. The CLARITY Act, if
+    passed, provides the legal framework needed for adoption at scale.
+
+
+    European banks watching US stablecoin developments will note the downstream effects.
+    The global bank stablecoin consortium announced in September, which includes a
+    euro-denominated token as a priority, is approaching the same problem from a different
+    direction. Whether stablecoin settlement enters mainstream banking through top-down
+    consortia or bottom-up infrastructure partnerships like this one will shape the
+    competitive landscape on both sides of the Atlantic.'
+  editorial_note: The Coinbase-Moov partnership is notable not as a vendor announcement
+    but as an indicator of how stablecoin infrastructure is being democratised to
+    smaller institutions, with implications for Europe's own stablecoin strategy under
+    MiCA.
+  sources: '[Coinbase and Moov partner to boost stablecoin payments for community
+    banks ahead of CLARITY vote](https://www.finextra.com/newsarticle/48384/coinbase-and-moov-partner-to-boost-stablecoin-payments-for-community-banks-ahead-of-clarity-vote?utm_medium=rssfinextra&utm_source=finextrafeed)
+    — Finextra'
+  style_check:
+    compliant: false
+    warnings:
+    - 'Body text: ''The move is timed ahead of a Senate vote'' — breaches rule against
+      announcing notability or significance before making substantive point. ''The
+      move'' flags the action as noteworthy; rewrite to lead directly with the action
+      without ''The move'' framing.'
+    - 'Body text: ''The Coinbase-Moov partnership aims to provide smaller institutions''
+      — this near-verbatim restates the headline and standfirst''s core claim without
+      developing it substantively. While some restatement is permitted, this repeats
+      ''partnership'' + ''smaller institutions'' too closely; develop the point with
+      distinct framing or new detail.'
+    - 'Standfirst: ''The partnership targets smaller US financial institutions ahead
+      of a Senate vote on the CLARITY Act, with potential implications for how European
+      banks approach stablecoin settlement infrastructure.'' — This opens by naming
+      the substantive action (''targets smaller US financial institutions'') but then
+      adds ''with potential implications for how European banks…'' which is thematic
+      and generic rather than naming specific affected parties or programmes. The
+      standfirst should name the specific initiatives or competitive dynamics affected
+      (e.g., the global bank stablecoin consortium mentioned later, or specific European
+      regulatory frameworks), not make a vague thematic claim about implications.'
+    - 'Body text: ''This matters because'' framing is absent, but ''If the CLARITY
+      Act passes, it would provide the legal clarity these institutions need to adopt
+      such capabilities at scale'' is hedging the substantive point with conditional
+      framing. Lead with the direct claim about what the regulatory framework enables,
+      not the conditional setup.'
+  verification:
+    verified: true
+    stale: false
+    duplicate: false
+    warnings: []
+  revision:
+    replaced: false
+    resolved: true
+    summary:
+    - Standfirst revised to name the specific competitive dynamic (the global bank
+      stablecoin consortium and its euro-denominated token) rather than making a vague
+      thematic claim about European implications.
+    - Removed 'The move is timed ahead of' construction from second sentence of first
+      paragraph; reframed to lead directly with the Senate vote as context.
+    - Replaced 'The Coinbase-Moov partnership aims to provide smaller institutions
+      with APIs' with 'Moov's APIs would allow these smaller institutions' to avoid
+      near-verbatim repetition of headline/standfirst framing and to develop the point
+      with distinct wording.
+    - Recast the conditional 'If the CLARITY Act passes, it would provide the legal
+      clarity these institutions need' to lead with the direct claim about what the
+      framework provides, reducing hedging.
 status: ready
