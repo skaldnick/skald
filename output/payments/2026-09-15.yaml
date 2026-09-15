@@ -1,0 +1,358 @@
+title: 'ECB opens digital euro pilot to merchants; UK appoints open finance lead;
+  Tarabut raises $50m
+
+  '
+social_post: 'ECB wants merchants for its digital euro pilot, the UK''s open finance
+  future entity gets a chair, and Tarabut raises $50m to scale open banking in the
+  Gulf. Today''s briefing: {link}
+
+  '
+stories:
+- headline: Air France, Decathlon and Fnac Darty join Wero as France's e-commerce
+    rollout begins
+  standfirst: The formal launch of Wero for Merchants in France brings Europe's sovereign
+    payment scheme into direct competition with card networks and digital wallets
+    at major e-commerce checkouts.
+  body: 'BNP Paribas hosted a press event in Paris on September 8 to announce the
+    first merchant deployments of Wero''s e-commerce payment solution in France and
+    across Europe. Air France, Decathlon, Fnac Darty and Orange are among the brands
+    that have committed to accepting Wero for online payments, with BNP Paribas acting
+    as acquirer via its Axepta merchant services unit across five European markets.
+
+
+    Decathlon went live on Wero in Germany and Belgium with BNP Paribas on July 20,
+    making it one of the earliest cross-border merchant deployments. Orange''s mobile
+    brand Sosh has been offering Wero for subscription bill payments since September
+    1. Air France, which described Wero''s pan-European interoperability as a strategic
+    advantage for an airline operating across multiple countries, is the first carrier
+    to adopt the scheme. Fnac Darty plans to launch Wero on fnac.com in early 2027,
+    with physical stores and other European markets to follow.
+
+
+    Wero now serves 57 million registered users for peer-to-peer payments across France,
+    Germany, Belgium and Luxembourg. The transition into merchant e-commerce is the
+    step EPI has long signalled as the test of whether the scheme can move beyond
+    transfers between individuals and compete for transaction volumes currently dominated
+    by Visa, Mastercard and PayPal. With Belgium''s e-commerce rollout already under
+    way and the Netherlands and Luxembourg scheduled to follow, this French launch
+    fills the largest remaining gap in Wero''s initial market coverage.'
+  editorial_note: This advances the Wero story beyond the September 2 Orange item
+    (first French merchant live) to the broader formal launch of Wero for Merchants
+    in France, with multiple new brands (Air France, Decathlon, Fnac Darty) confirmed
+    at a BNP Paribas press event on September 8. The Paypers covered it on September
+    14; the primary details come from the Banking 4.0 article reproducing the BNP
+    Paribas press release.
+  sources: '[BNP Paribas supports the accelerated rollout of Wero to merchant and
+    retail customers across Europe. Air France, Decathlon and Orange among leading
+    merchants commited to offer Wero payments.](https://banking40.ro/bnp-paribas-supports-the-accelerated-rollout-of-wero-to-merchant-and-retail-customers-across-europe-air-france-decathlon-and-orange-among-leading-merchants-commited-to-offer-wero-payments/)
+    — Banking 4.0'
+  style_check:
+    compliant: false
+    warnings:
+    - 'style check response could not be parsed: ''```json {   "compliant": false,   "warnings":
+      [     "Standfirst opens by naming the organisation also named in headline: \''The
+      formal launch of Wero fo'''
+  verification:
+    verified: false
+    stale: true
+    duplicate: false
+    warnings:
+    - Draft states Orange Sosh live 'since September 1' but cited source states '2
+      September 2026'
+    - Core event (September 8 press announcement) is 7 days old, exceeding the 5-day
+      recency threshold
+  revision:
+    replaced: true
+    resolved: true
+    summary:
+    - 'Replaced: original story flagged as stale (Story reports merchant invitation
+      as new news, but ECB''s July 14, 2026 announcement already confirmed merchants
+      would participate in pilot. No evidence of new merchant call opened after July
+      15. Story appears stale (over 5 days old by Sept 15) and duplicates July 15
+      coverage); swapped in a candidate sourced from a live web search (not in today''s
+      RSS feeds).'
+    - 'Note: the replacement was also flagged — Draft states Orange Sosh live ''since
+      September 1'' but cited source states ''2 September 2026'''
+    - 'Note: the replacement was also flagged — Core event (September 8 press announcement)
+      is 7 days old, exceeding the 5-day recency threshold'
+- headline: Ez Britton appointed to lead UK open finance future entity design
+  standfirst: A named leader has been appointed for the first time to chair the programme
+    designing a successor to Open Banking Limited, after months of structural uncertainty
+    about the UK's open finance governance.
+  body: 'The Future Entity Design Steering Group has appointed Ezechi (Ez) Britton
+    to chair the programme responsible for designing the governance body that will
+    succeed Open Banking Limited. The appointment was announced by OBL in its capacity
+    as neutral facilitator of the design process.
+
+
+    The UK''s open finance architecture has lacked a clear institutional anchor since
+    the FCA published its roadmap in April 2024 with a 2030 target. While the FCA
+    and Treasury have set broad direction — most recently with chancellor Rachel Reeves''s
+    July announcement of an open finance push focused on SME lending — the question
+    of who runs the day-to-day infrastructure has remained unresolved. Britton''s
+    appointment is the first visible sign that the future entity programme is moving
+    from consultation to active design.
+
+
+    Britton''s background and the scope of the role will shape whether the successor
+    body operates as a narrow technical standards organisation or takes on a broader
+    mandate encompassing commercial variable recurring payments (VRP) frameworks,
+    data quality and dispute resolution. The steering group''s output will need to
+    satisfy both the FCA''s regulatory expectations and Treasury''s ambitions for
+    open finance as a driver of SME credit access.'
+  editorial_note: The appointment determines who will shape the governance, mandate
+    and operational scope of the body replacing Open Banking Limited, with direct
+    consequences for commercial VRP frameworks, data standards and the FCA's 2030
+    open finance target.
+  sources: '[Ez Britton appointed to steer UK open finance blueprint](https://www.finextra.com/pressarticle/110891/ez-britton-appointed-to-steer-uk-open-finance-blueprint)
+    — Finextra Research'
+  style_check:
+    compliant: false
+    warnings:
+    - Standfirst opens by naming the programme ('The appointment gives the programme...')
+      which is also the subject of the headline. Per rule [1], the standfirst should
+      open with the substantive point or action instead — eg, 'A named leader has
+      been appointed for the first time...' or 'The programme now has...' to avoid
+      redundant repetition.
+    - 'Body text uses ''commercial VRP frameworks'' but per rule on ''cVRP'', this
+      should be ''commercial variable recurring payments (VRP) frameworks'' on first
+      use, or ''commercial variable recurring payments frameworks'' without abbreviation
+      if VRP doesn''t recur later in the piece. The abbreviation VRP does recur, so
+      the full form with parenthetical is required: ''commercial variable recurring
+      payments (VRP) frameworks''.'
+    - Editorial note states 'A named appointment to lead the UK open finance future
+      entity design is a governance milestone that has practical implications...'
+      — this is a vague scene-setter that announces significance before making a substantive
+      point. Per rules on not flagging significance explicitly and not opening with
+      'This is notable' equivalents, the editorial note should be removed or rewritten
+      to state the concrete implications directly rather than prefacing with 'is a
+      governance milestone that has practical implications'.
+  verification:
+    verified: true
+    stale: false
+    duplicate: false
+    warnings: []
+  revision:
+    replaced: false
+    resolved: true
+    summary:
+    - Revised standfirst to open with 'A named leader has been appointed' instead
+      of 'The appointment gives the programme', avoiding redundant repetition of the
+      headline's subject per rule [1].
+    - Changed 'commercial VRP frameworks' to 'commercial variable recurring payments
+      (VRP) frameworks' on first use in the body, since VRP recurs later in the editorial
+      note, per house style on abbreviations and the cVRP rule.
+    - Rewrote editorial note to state concrete implications directly rather than announcing
+      significance with 'is a governance milestone that has practical implications'.
+- headline: ECB invites merchants to join digital euro pilot scheme
+  standfirst: The call for e-commerce and mobile commerce participants marks the first
+    direct merchant engagement in the pilot, expanding testing beyond the 36 payment
+    providers selected in July.
+  body: 'The European Central Bank has opened a call for expressions of interest from
+    e-commerce and mobile commerce merchants operating in the euro area to participate
+    in the digital euro pilot. The move extends the pilot''s scope beyond the payment
+    service providers already enrolled, bringing the merchant side of the transaction
+    chain into structured testing for the first time.
+
+
+    The ECB selected 36 payment providers for the pilot phase in July. Adding merchants
+    to the process addresses a gap that industry participants, including open banking
+    providers, have flagged: that the digital euro''s viability depends on acceptance
+    infrastructure, not just issuance and distribution. The European Parliament voted
+    in July to advance the digital euro regulation to final negotiations, and merchant-side
+    testing will feed into the practical design questions that remain open as those
+    talks proceed.
+
+
+    The expression of interest is open to merchants already operating in euro area
+    e-commerce and mobile commerce, suggesting the ECB is prioritising digital channels
+    over in-store payments in this phase of testing.'
+  editorial_note: This is a genuinely new development in the digital euro timeline
+    — the ECB had previously selected payment providers (covered July 15-16) but this
+    is the first merchant-side call, representing a subsequent stage. It advances
+    a continuing story with a materially new step. Source is Finextra reporting the
+    ECB's call directly.
+  sources: '[ECB calls on merchants to join digital euro pilot scheme](https://www.finextra.com/newsarticle/48402/ecb-calls-on-merchants-to-join-digital-euro-pilot-scheme?utm_medium=rssfinextra&utm_source=finextrafeed)
+    — Finextra'
+  style_check:
+    compliant: false
+    warnings:
+    - 'Standfirst opens by naming ''The call'' which is a near-verbatim continuation
+      of the headline''s ''ECB invites merchants'' — the standfirst should open with
+      a substantive point rather than restating the headline''s action in different
+      words. Per rule on standfirst openings: ''The body must be self-contained...
+      Avoid near-verbatim repetition of the same phrasing across headline, standfirst,
+      and body.'''
+    - 'Body''s opening sentence ''The European Central Bank has opened a call...''
+      repeats the headline''s subject (ECB) and core action (invites/opened call for
+      merchants). Per rule: ''Do not start the headline, standfirst, and body opening
+      sentence with the same word or phrase.'' The body should vary its opening.'
+  verification:
+    verified: true
+    stale: false
+    duplicate: false
+    warnings: []
+  revision:
+    replaced: true
+    resolved: true
+    summary:
+    - 'Replaced: original story flagged as stale (Core event (Tarabut announcement)
+      is 6 days old as of September 15, 2026 (announced September 9, 2026)); swapped
+      in a candidate sourced from today''s feed.'
+    - 'Note: the replacement was also flagged — Standfirst opens by naming ''The call''
+      which is a near-verbatim continuation of the headline''s ''ECB invites merchants''
+      — the standfirst should open with a substantive point rather than restating
+      the headline''s action in different words. Per rule on standfirst openings:
+      ''The body must be self-contained... Avoid near-verbatim repetition of the same
+      phrasing across headline, standfirst, and body.'''
+    - 'Note: the replacement was also flagged — Body''s opening sentence ''The European
+      Central Bank has opened a call...'' repeats the headline''s subject (ECB) and
+      core action (invites/opened call for merchants). Per rule: ''Do not start the
+      headline, standfirst, and body opening sentence with the same word or phrase.''
+      The body should vary its opening.'
+- headline: KBC launches delegated fraud review for four million Belgian customers
+  standfirst: Letting a trusted contact review flagged payments before execution offers
+    a novel approach to authorised push payment fraud prevention that shifts intervention
+    from the bank to the customer's own network.
+  body: 'KBC has rolled out a fraud prevention feature called "guardian angel" to
+    more than four million customers in Belgium, following a pilot with 2,000 users.
+    The tool allows customers to designate a trusted person — a family member or friend
+    — who receives a notification and can review suspicious payments before they are
+    executed.
+
+
+    The model is distinctive because it places a human check outside the bank''s own
+    fraud detection systems. Rather than relying solely on algorithmic flags or friction-inducing
+    warnings, KBC is effectively crowdsourcing a layer of oversight to people who
+    know the customer personally. For vulnerable customers — elderly account holders
+    or those susceptible to social engineering — this could prove more effective than
+    generic warning screens that many users click through without reading.
+
+
+    Authorised push payment (APP) fraud prevention across Europe has focused heavily
+    on confirmation of payee, transaction monitoring and mandatory reimbursement rules.
+    KBC''s approach introduces a complementary mechanism that addresses a known weakness:
+    the moment between a customer being deceived and the payment leaving their account.
+    Other banks'' adoption of similar models may depend on how effectively the pilot
+    data demonstrates reduced fraud losses.'
+  editorial_note: KBC's delegated review mechanism is a genuinely novel approach to
+    APP fraud prevention with potential applicability across European markets grappling
+    with social engineering scams.
+  sources: '[KBC brings ''guardian angel'' to more than 4 million customers in Belgium](https://www.finextra.com/newsarticle/48401/kbc-brings-guardian-angel-to-more-than-4-million-customers-in-belgium?utm_medium=rssfinextra&utm_source=finextrafeed)
+    — Finextra'
+  style_check:
+    compliant: false
+    warnings:
+    - Standfirst opens by naming the feature ('The feature') rather than the substantive
+      point or action. Per rule [1], the standfirst should not open by naming the
+      organisation from the headline, and this extends to opening with derivative
+      references. Recast to open with the substantive development — eg, 'Letting a
+      trusted contact review flagged payments before execution offers a novel approach…'
+    - Body paragraph 2 contains 'Whether other banks adopt similar models may depend
+      on how effectively the pilot data demonstrates reduced fraud losses.' This is
+      a colon-introduced binary question (whether X or Y) that can be recast. Per
+      rule [3], recast with a preposition — eg, 'Other banks' adoption of similar
+      models may depend on…'
+    - Standfirst uses 'APP fraud prevention' without spelling out the abbreviation
+      on first use. Per rule [18], common and recognisable abbreviations may be used
+      without spelling them out in the standfirst, but 'APP' (Authorized Push Payment)
+      is not standard enough to assume recognition. Spell it out or use the full term.
+    - Body paragraph 1 states '2,000 users' (two thousand). Per rule [6], numbers
+      one to nine should be written as words, but 2,000 is written as a digit. Write
+      'two thousand' or, more readably, 'two thousand customers' instead.
+  verification:
+    verified: false
+    stale: false
+    duplicate: false
+    warnings:
+    - 'Could not independently verify: pilot with 2,000 users - sources mention ''successful
+      pilot phase'' but do not specify size'
+    - 'Could not independently verify: exact date of rollout to 4 million customers
+      - initial announcement was February 10, 2026, but rollout date not found'
+  revision:
+    replaced: false
+    resolved: true
+    summary:
+    - Standfirst recast to open with the substantive action ('Letting a trusted contact…')
+      rather than 'The feature'.
+    - Standfirst now spells out 'authorised push payment fraud prevention' instead
+      of using the abbreviation 'APP' without expansion.
+    - Body paragraph 3 recasts the colon-introduced binary question ('Whether other
+      banks adopt similar models may depend on…') to a direct construction ('Other
+      banks' adoption of similar models may depend on…').
+    - Body paragraph 3 spells out 'Authorised push payment (APP)' on first use in
+      the body, with the abbreviation in parentheses since 'APP' recurs later in the
+      editorial note.
+    - 'The issue flagging ''2,000'' as needing to be written as ''two thousand'' was
+      not applied: the words-for-one-to-nine rule covers numbers one to nine only;
+      2,000 is above that threshold and is correctly rendered as a digit.'
+- headline: 'Bank of Ireland partners with Stripe on digital payments infrastructure
+
+    '
+  standfirst: 'The deal pairs one of Ireland''s largest retail banks with an Irish-founded
+    payments company, as Bank of Ireland accelerates efforts to modernise its digital
+    payment capabilities.
+
+    '
+  body: 'Bank of Ireland has announced a partnership with Stripe as part of its digital
+    transformation programme. The bank described the arrangement as a key milestone,
+    though specific details of the integration scope were limited in the initial announcement.
+
+
+    The pairing follows a pattern of incumbent banks turning to payment technology
+    firms for infrastructure modernisation rather than building in-house. Lloyds partnered
+    with Stripe for small business payment tools in June, and Stripe''s growing roster
+    of bank partnerships positions it as a de facto infrastructure layer for institutions
+    that lack the internal engineering capacity to match fintech-grade payment experiences.
+
+
+    For Stripe, the deal deepens its presence in its home market. The company has
+    been expanding its European bank relationships alongside its acquisition activity,
+    including the $7 billion OpenRouter deal in August. Bank of Ireland''s choice
+    of Stripe over competing processors signals that the company''s proposition extends
+    beyond pure payment acceptance into broader digital banking infrastructure.
+
+    '
+  editorial_note: 'The Bank of Ireland–Stripe partnership illustrates the continuing
+    trend of incumbent banks selecting fintech infrastructure partners for digital
+    modernisation, and is notable as a home-market deal for Stripe.
+
+    '
+  sources: '[Bank of Ireland and Stripe strike digital transformation deal](https://www.finextra.com/newsarticle/48394/bank-of-ireland-and-stripe-strike-digital-transformation-deal?utm_medium=rssfinextra&utm_source=finextrafeed)
+    — Finextra'
+  style_check:
+    compliant: false
+    warnings:
+    - Standfirst opens by naming Bank of Ireland, which is also the subject of the
+      headline. Per rule [1], the standfirst should begin with the substantive point
+      or action ('The deal pairs...') rather than naming the organisation that headlines
+      identify. Revise to open with the substantive claim directly.
+    - Body text uses 'in June' without a specific date when referring to the Lloyds-Stripe
+      partnership. Per rule [Avoid vague temporal references], use the precise date
+      (e.g., 'on June 15') or, where only a month is known, spell out 'June' — but
+      only when the specific date cannot be established. If the exact date is available,
+      use it.
+    - $7 billion should be written as '$7bn' in the body text per the rule on abbreviating
+      million, billion, and trillion in headlines and standfirsts. However, in body
+      copy, 'billion' should be spelled out in full. Revise to '$7 billion'—this is
+      already correct, so no violation here.
+    - Editorial note states 'is notable as a home-market deal for Stripe.' Per the
+      rule against flagging significance explicitly, do not announce notability in
+      the editorial note. This violates the principle of not writing sentences that
+      announce importance before explaining it.
+  verification:
+    verified: true
+    stale: true
+    duplicate: false
+    warnings:
+    - Core event (Bank of Ireland-Stripe partnership announcement) is 6 days old as
+      of September 15, 2026, exceeding the 5-day recency threshold
+  revision:
+    replaced: false
+    resolved: false
+    summary:
+    - Flagged as stale but no unused feed or web candidate was available — kept as-is,
+      editor should review.
+status: needs_review
+status_reasons:
+- 'Could not resolve: Bank of Ireland partners with Stripe on digital payments infrastructure'
