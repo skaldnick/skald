@@ -1,0 +1,286 @@
+title: 'FCA open finance roadmap; NatWest income verification; Ryft Series B
+
+  '
+social_post: 'FCA puts open finance at the centre of its SME lending strategy, NatWest
+  digitises mortgage income checks, and Ryft raises £20m for a European push. Today''s
+  briefing: {link}
+
+  '
+stories:
+- headline: FCA positions open finance as central to SME lending reform
+  standfirst: SME lending is identified as the priority use case for the regulator's
+    open finance programme, alongside planned Consumer Credit Act reforms.
+  body: 'The Financial Conduct Authority (FCA) has published a feedback statement
+    setting out steps to improve small business access to finance, placing open finance
+    prominently within its strategy. SME lending is identified as the leading use
+    case within the FCA''s broader open finance agenda, with the regulator signalling
+    it will prioritise work to unlock data-sharing that can streamline credit decisions
+    for smaller firms.
+
+
+    The statement also flags planned reforms to the Consumer Credit Act as part of
+    the same package. The FCA says it will monitor industry efforts to explore whether
+    existing open banking infrastructure can be extended to support commercial lending
+    workflows, and will consider regulatory intervention if voluntary progress stalls.
+
+
+    The publication follows the FCA''s open finance roadmap released in April, which
+    set a 2030 target and brought investment data into scope. By naming SME lending
+    as the first priority, the regulator is giving the market a clear signal about
+    where it expects commercial momentum to build. The feedback statement narrows
+    the field of regulatory expectation considerably for banks and fintechs positioning
+    products around open finance-enabled credit.'
+  editorial_note: 'This advances a continuing regulatory story: the FCA''s April open
+    finance roadmap now has a concrete priority use case in SME lending, giving the
+    market a sharper steer on where to focus.'
+  sources: '[FCA cites Open Finance among next steps to support SME access to finance](https://www.openbankingexpo.com/news/fca-cites-open-finance-among-next-steps-to-support-sme-access-to-finance/)
+    — Openbankingexpo | [FCA publishes feedback statement on supporting SME access
+    to finance](https://www.regulationtomorrow.com/2026/09/fca-publishes-feedback-statement-on-supporting-sme-access-to-finance/)
+    — Regulationtomorrow | [FCA Unveils Strategic Roadmap to Boost SME Access to Finance
+    via Open Finance and ...](https://ffnews.com/news/fca-sets-out-steps-to-support-small-businesses-access-to-finance-5804f678)
+    — FF News'
+  style_check:
+    compliant: false
+    warnings:
+    - Standfirst opens by naming 'the regulator' which refers to the FCA already named
+      in the headline. Per rule 1, the standfirst should begin with the substantive
+      point rather than restating the subject. Revise to open with something like
+      'SME lending is identified as the priority use case...' instead of 'A new feedback
+      statement names SME lending...'
+    - Body text uses 'FCA' on first mention without spelling it out. Per rule 8, on
+      first use of an abbreviation that must be retained, spell it out in full followed
+      by the abbreviation in parentheses — eg, 'Financial Conduct Authority (FCA)'.
+      The opening sentence should read 'The Financial Conduct Authority (FCA) has
+      published...'
+    - 'Sentence ''For banks and fintechs positioning products around open finance-enabled
+      credit, the feedback statement narrows the field of regulatory expectation considerably.''
+      violates rule 22: do not frame a paragraph around its relevance by opening with
+      ''For [audience]...'' Rewrite to state the substantive point directly without
+      the audience-address clause.'
+  verification:
+    verified: true
+    stale: false
+    duplicate: false
+    warnings: []
+  revision:
+    replaced: false
+    resolved: true
+    summary:
+    - Revised standfirst to open with the substantive point ('SME lending is identified
+      as the priority use case…') rather than restating the FCA, per rule 1.
+    - Spelled out 'Financial Conduct Authority (FCA)' on first use in the body, per
+      rule 8.
+    - Rewrote the final sentence to remove the audience-address clause ('For banks
+      and fintechs…'), stating the substantive point directly, per rule 22.
+- headline: NatWest adopts Equifax platform for open banking mortgage checks
+  standfirst: Digital income verification is gaining traction among major UK mortgage
+    lenders as the FCA's open finance agenda moves closer to operational reality.
+  body: 'Equifax''s Verification Exchange platform is being integrated into NatWest''s
+    mortgage application process to digitise income verification. The platform uses
+    open banking data to automate checks that have traditionally relied on manual
+    document review, reducing processing time and friction for applicants.
+
+
+    Digital income verification is an expanding segment within the broader affordability-data
+    market. Several credit reference agencies and open banking providers now offer
+    competing products, but adoption among the UK''s largest mortgage lenders has
+    been uneven. NatWest''s decision to integrate an Equifax-built solution rather
+    than developing in-house capabilities suggests that the buy-versus-build question
+    is tilting toward established data providers, at least for mainstream mortgage
+    use cases.
+
+
+    The adoption comes as the FCA has been actively exploring how open finance data
+    can reshape mortgage affordability assessments, including through a recent policy
+    sprint that convened 80 industry stakeholders. NatWest''s move gives that policy
+    direction a tangible commercial anchor.'
+  editorial_note: A top-four UK lender embedding open banking data into mortgage workflows
+    is a concrete signal that the FCA's open finance mortgage agenda is translating
+    into operational change.
+  sources: '[NatWest Adopts Equifax Verification Exchange for Mortgage Income Checks](https://thefintechtimes.com/natwest-adopts-equifax-verification-exchange-for-mortgage-income-checks/)
+    — Thefintechtimes'
+  style_check:
+    compliant: false
+    warnings:
+    - 'Standfirst opens by naming ''the move'' without first establishing what the
+      move is. Per rule [1], the standfirst should not open by naming the organisation
+      from the headline (NatWest), but it should open with the substantive point or
+      action — not a vague reference (''The move''). Rewrite to open with: ''Digital
+      income verification is expanding among UK mortgage lenders as...'' or similar.'
+    - Standfirst uses 'FCA's open finance vision' without spelling out the abbreviation.
+      Per rule [13], common abbreviations such as FCA may be used in the standfirst
+      without spelling out, so this is acceptable — no violation.
+    - Body text uses 'buy-versus-build' with hyphens. Per rule [30], do not use an
+      em-dash or en-dash to introduce a trailing clause, but this is a hyphenated
+      compound adjective used attributively ('the buy-versus-build question'), which
+      is standard and not a violation of that rule.
+    - 'The body''s opening sentence repeats the structure and subject (''NatWest has
+      adopted Equifax''s Verification Exchange platform'') almost identically to the
+      headline''s core claim (''NatWest adopts Equifax platform''). Per rule [27],
+      ''Do not weaken the body''s opening sentence in order to avoid repetition with
+      the standfirst'' — but the stronger concern here is that the body opening mirrors
+      the headline too directly. However, per rule [7], near-verbatim repetition across
+      headline and body is flagged as a violation. The headline ''adopts Equifax platform''
+      and the body ''NatWest has adopted Equifax''s Verification Exchange platform''
+      are very close. Consider revising the body to lead with a different angle: ''Equifax''s
+      Verification Exchange platform, now integrated into NatWest''s mortgage workflow,
+      uses open banking data to automate income checks...'' or similar.'
+  verification:
+    verified: false
+    stale: false
+    duplicate: false
+    warnings:
+    - 'verification response could not be parsed: "I''ll fact-check this story about
+      NatWest adopting Equifax''s platform for mortgage income verification. Let me
+      search for information about this announ"'
+  revision:
+    replaced: false
+    resolved: true
+    summary:
+    - Rewrote standfirst to open with the substantive point ('Digital income verification
+      is gaining traction…') rather than the vague 'The move', avoiding both naming
+      the headline's subject and using an unanchored reference.
+    - Rewrote the body's opening sentence to lead with Equifax's platform and the
+      integration action rather than near-verbatim repeating the headline's 'NatWest
+      has adopted Equifax's… platform' construction, per rule [7].
+- headline: Ryft raises £20m to take UK payments infrastructure into Europe
+  standfirst: A Series B round, described as the UK's largest in payments this year,
+    funds expansion into European and US markets.
+  body: 'Ryft, a UK payments infrastructure platform, is raising £20 million in a
+    Series B round that it says is the largest payments-focused Series B in the UK
+    this year. The Manchester-based company is targeting expansion into European and
+    US markets with the proceeds.
+
+
+    Ryft provides payment processing and orchestration tools aimed at platforms and
+    marketplaces. European payments infrastructure is consolidating, with larger players
+    acquiring specialist providers and smaller firms needing scale capital to remain
+    competitive. Investor appetite for payments infrastructure businesses has held
+    up despite broader fintech funding constraints.
+
+
+    European expansion for UK-based payments firms has taken on added significance
+    since Brexit introduced regulatory complexity for cross-border services. Ryft''s
+    ambition to operate across both European and US markets will require navigating
+    multiple licensing regimes simultaneously.'
+  editorial_note: ''
+  sources: '[Ryft secures £20m in UK''s largest payments Series B](https://fintech.global/2026/09/17/ryft-secures-20m-in-uks-largest-payments-series-b/)
+    — FinTech Global | [UK payments firm Ryft raises £20m for European push](https://www.finextra.com/newsarticle/48426/uk-payments-firm-ryft-raises-20m-for-european-push?utm_medium=rssfinextra&utm_source=finextrafeed)
+    — Finextra'
+  style_check:
+    compliant: false
+    warnings:
+    - Standfirst opens by naming the organisation ('The Manchester-based platform')
+      that is also named in the headline ('Ryft'). Per rule [1], avoid redundant repetition
+      of the subject across headline and standfirst; instead begin with the substantive
+      point or action — e.g., 'The Series B round, described as the UK's largest in
+      payments this year, funds expansion…'
+    - Body opening sentence 'Ryft, a UK payments infrastructure platform, has raised
+      £20 million in a Series B round that it says is the largest payments-focused
+      Series B in the UK this year.' uses 'has raised' (simple present) when the rule
+      prefers 'is raising' (present continuous) to signal currency for a newly announced
+      arrangement.
+    - Sentence 'The fundraise comes during a period of consolidation in European payments
+      infrastructure, with larger players acquiring specialist providers and smaller
+      firms needing scale capital to remain competitive.' announces significance ('The
+      fundraise comes during a period of consolidation') before making the substantive
+      point. Per rule on not flagging significance explicitly, state the substantive
+      claim directly.
+    - Sentence 'The round suggests investor appetite for payments infrastructure businesses
+      remains intact despite broader fintech funding constraints.' announces notability
+      ('suggests investor appetite remains intact') as a scene-setter. Lead directly
+      with the substantive claim.
+    - Editorial note 'A significant UK payments infrastructure funding round signals
+      continued investor confidence in the sector and highlights the cross-border
+      expansion dynamics facing post-Brexit UK fintechs.' should not be included in
+      the submitted text per rule against including editorial notes about missing
+      information. This note should be removed.
+  verification:
+    verified: true
+    stale: false
+    duplicate: false
+    warnings: []
+  revision:
+    replaced: false
+    resolved: true
+    summary:
+    - Standfirst revised to open with 'A Series B round' instead of 'The Manchester-based
+      platform' to avoid redundant repetition of the headline subject per rule [1].
+    - Changed 'has raised' to 'is raising' in the body opening sentence to use present
+      continuous for a newly announced arrangement.
+    - Rewrote second paragraph opening to remove scene-setting framing ('The fundraise
+      comes during a period of consolidation') and state the consolidation point directly.
+    - Rewrote 'The round suggests investor appetite…remains intact' to state the claim
+      directly without announcing notability.
+    - Removed the editorial note as it should not appear in the submitted text.
+- headline: Experian launches open banking affordability tool for credit underwriting
+  standfirst: By embedding open banking data into pre-application screening, the tool
+    signals that competition among credit reference agencies is shifting upstream
+    in the lending funnel.
+  body: 'Experian has launched Fast Track, a credit underwriting feature that uses
+    open banking data alongside enhanced affordability information to enable earlier
+    and broader assessment of loan applicants. The tool is designed to let lenders
+    analyse a wider range of borrowers at the pre-application stage, before committing
+    to a full credit check.
+
+
+    The product sits within a competitive and rapidly maturing market for open banking-powered
+    affordability tools. Credit reference agencies have been building adjacent capabilities:
+    Equifax launched its Affordability 360 product in November 2024, while TransUnion
+    released its Modelled Income tool in June, though the latter is positioned as
+    an alternative to open banking rather than an extension of it. The competitive
+    battleground is shifting upstream in the lending funnel, from verification at
+    application to qualification before it.
+
+
+    For lenders, the appeal is straightforward: open banking data can reveal income
+    patterns and spending behaviour that traditional credit files miss, potentially
+    expanding addressable markets while managing risk. The broader implication is
+    that open banking data is moving from a supplementary signal to a primary input
+    in mainstream consumer lending decisions.'
+  editorial_note: Experian embedding open banking into early-stage underwriting illustrates
+    how credit data incumbents are integrating open banking as a core input, not an
+    add-on, in consumer lending.
+  sources: '[Experian Enhances Credit Underwriting With Early Affordability Checks](https://www.pymnts.com/loans/2026/experian-enhances-credit-underwriting-with-early-affordability-checks/)
+    — PYMNTS.com'
+  style_check:
+    compliant: false
+    warnings:
+    - Standfirst opens by naming the organisation ('A new early-stage affordability
+      check') when the headline names Experian. Per rule [1], the standfirst should
+      open with the substantive point or action without redundantly repeating the
+      subject. Revise to open with 'The move…' or similar.
+    - Body paragraph two states 'Experian's entry with a product explicitly designed
+      for early-stage screening suggests the competitive battleground is shifting
+      upstream' — this is framed as an implication or inference rather than a direct
+      substantive claim. Per the rule against 'This matters because' framing, write
+      the substantive point directly about what the competitive shift means, rather
+      than using 'suggests' to announce significance.
+    - Headline, standfirst, and body opening sentence all begin with the subject (Experian/A
+      new tool/Experian). Per rule on not opening all three with the same word or
+      phrase, vary the opening in at least one element — consider revising the standfirst
+      or body lede.
+  verification:
+    verified: false
+    stale: false
+    duplicate: false
+    warnings:
+    - Story claims Equifax and TransUnion 'each built or acquired open banking capabilities
+      in recent months.' Equifax's Affordability 360 launched November 2024 (10 months
+      prior); TransUnion's June 2026 Modelled Income is described as an alternative
+      to open banking, not an expansion of it.
+  revision:
+    replaced: false
+    resolved: true
+    summary:
+    - Revised standfirst to avoid opening with the same subject as the headline (Experian)
+      and to open with the substantive point about competitive dynamics.
+    - 'Corrected the characterisation of Equifax and TransUnion: Equifax''s Affordability
+      360 is now dated to November 2024 rather than vaguely ''recent months'', and
+      TransUnion''s Modelled Income is accurately described as an alternative to open
+      banking, not an open banking capability.'
+    - Removed 'suggests' framing in paragraph two ('Experian's entry… suggests the
+      competitive battleground is shifting') and stated the competitive shift directly.
+    - Varied openings across headline, standfirst and body lede to comply with house
+      style.
+status: ready
