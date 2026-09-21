@@ -1,0 +1,203 @@
+title: 'ECB tokenisation project; Riverty opens Luxembourg bank
+
+  '
+social_post: 'ECB launches Project Pontes to bring tokenised settlement into the mainstream,
+  plus Riverty opens a Luxembourg bank to scale European BNPL. Today''s briefing:
+  {link}
+
+  '
+stories:
+- headline: ECB launches Project Pontes to connect tokenised assets with central bank
+    money
+  standfirst: The initiative aims to build permanent infrastructure linking distributed
+    ledger platforms to Eurosystem settlement, moving tokenisation from pilot to production.
+  body: 'The European Central Bank has launched Project Pontes, a new programme designed
+    to create interoperability between tokenised financial market platforms and central
+    bank money settlement systems. The project follows a series of exploratory trials
+    across the Eurosystem and represents a shift from experimentation to building
+    durable infrastructure.
+
+
+    Pontes sits alongside the ECB''s broader work on the digital euro and its existing
+    market infrastructure, including TARGET and TIPS. Where earlier initiatives such
+    as the ECB''s distributed ledger technology (DLT) trials tested whether tokenised
+    bonds and other instruments could settle against central bank liquidity, Pontes
+    is intended to provide a standing framework for doing so at scale. The goal is
+    to ensure that as European capital markets adopt tokenisation, settlement remains
+    anchored in sovereign money rather than migrating to private stablecoins or other
+    alternatives.
+
+
+    The project reinforces the Eurosystem''s strategy of maintaining central bank
+    relevance as financial market plumbing evolves. It also signals that European
+    regulators see tokenised settlement not as a distant prospect but as something
+    requiring production-grade infrastructure now. Banks and market infrastructure
+    operators will need to assess how Pontes interacts with their own technology roadmaps.'
+  editorial_note: The ECB moving from DLT experimentation to a named, permanent interoperability
+    programme is a material escalation in Europe's approach to tokenised settlement,
+    with direct implications for banks and infrastructure providers.
+  sources: '[ECB Launches Pontes to Drive Tokenization](https://www.financemagnates.com/cryptocurrency/ecb-launches-pontes-to-drive-tokenization/)
+    — Finance Magnates'
+  style_check:
+    compliant: false
+    warnings:
+    - Standfirst opens by naming the ECB, which is also named in the headline. Rule
+      1 requires opening with the substantive point instead — eg, 'The initiative
+      aims to build…' rather than 'The European Central Bank has launched…'
+    - Body paragraph 3 opens with 'For payments professionals, the project reinforces…'
+      This is a framing construction that prefacesEuropean relevance with an audience-address
+      clause. Rule about not framing with 'For European payments professionals' or
+      equivalent — state the relevance directly as part of the narrative.
+    - Body uses 'DLT' on first mention without spelling it out in full followed by
+      the abbreviation in parentheses. Rule 8 requires 'distributed ledger technology
+      (DLT)' on first use in body text.
+  verification:
+    verified: true
+    stale: false
+    duplicate: false
+    warnings: []
+  revision:
+    replaced: false
+    resolved: true
+    summary:
+    - Standfirst already opened with 'The initiative aims to build…' rather than naming
+      the ECB, so no change was needed there — the issue description appeared to misread
+      the existing text.
+    - 'Body paragraph 3: removed ''For payments professionals,'' audience-address
+      clause, now opens directly with ''The project reinforces…'''
+    - 'Body: spelled out ''distributed ledger technology (DLT)'' on first use in paragraph
+      2, per abbreviation rule.'
+- headline: Riverty opens Luxembourg bank to scale European payments and consumer
+    finance
+  standfirst: The new banking licence gives the Bertelsmann-owned BNPL provider a
+    platform to expand lending and payments across EU markets from a single regulated
+    entity.
+  body: 'Riverty has opened Riverty Bank S.A. in Luxembourg, establishing a fully
+    licensed banking entity to underpin its European consumer finance and payments
+    operations. The move gives the company, owned by Bertelsmann, a single regulatory
+    base from which to passport services across the EU.
+
+
+    Riverty operates primarily in the buy-now-pay-later and invoicing space across
+    several European markets including Germany, the Netherlands and Austria. Until
+    now, its operations have relied on a patchwork of national licences and partnerships.
+    A dedicated banking licence consolidates this, providing direct access to deposit-taking
+    and lending capabilities that can support product expansion, particularly as BNPL
+    regulation tightens across Europe.
+
+
+    The UK''s Financial Conduct Authority published its final BNPL rules on February
+    11 in Policy Statement PS26/1, and the EU''s revised Consumer Credit Directive
+    already brings many BNPL products into scope. Riverty''s choice of Luxembourg
+    follows a well-established pattern among fintechs and payment firms seeking a
+    flexible EU hub.'
+  editorial_note: A BNPL provider obtaining a full banking licence in Luxembourg reflects
+    the structural pressure BNPL firms face as European regulation tightens, making
+    this a trend story rather than a routine corporate announcement.
+  sources: '[Riverty opens bank in Luxembourg](https://www.finextra.com/pressarticle/110949/riverty-opens-bank-in-luxembourg?utm_medium=rssfinextra&utm_source=finextrafeed)
+    — Finextra'
+  style_check:
+    compliant: false
+    warnings:
+    - Standfirst opens by naming 'the Bertelsmann-owned BNPL provider' which directly
+      repeats the organisation's context from the headline. Per rule [1], the standfirst
+      should begin with the substantive point (the banking licence and its consequences)
+      rather than restating the organisation's identity. Revise to open with 'The
+      new banking licence gives…' without the preamble about Riverty's ownership.
+    - Body text states 'The timing aligns with broader regulatory developments' followed
+      by explanation. This is a form of scene-setting that delays the substantive
+      point. Per the rule against opening paragraphs with hedging scene-setters, lead
+      directly with the regulatory facts — eg, 'The UK's Financial Conduct Authority
+      confirmed on June 26 that BNPL regulation begins on July 15…' rather than prefacing
+      it with 'The timing aligns'.
+    - Sentence 'For BNPL providers, securing a banking licence is increasingly a structural
+      rather than optional step' frames significance before the substantive point.
+      Per the rule against explicit significance flagging, this announcement-of-importance
+      should be removed. The substantive claim (that regulation is tightening) stands
+      on its own; do not announce its importance.
+  verification:
+    verified: false
+    stale: false
+    duplicate: false
+    warnings:
+    - FCA published final BNPL rules on 11 February 2026 (Policy Statement PS26/1),
+      not June 26. June 26 was only a register update date.
+  revision:
+    replaced: false
+    resolved: true
+    summary:
+    - 'Corrected FCA BNPL rules date and reference: replaced ''confirmed on June 26
+      that BNPL regulation begins on July 15'' with ''published its final BNPL rules
+      on February 11 in Policy Statement PS26/1'' per the factual correction provided.'
+    - Removed the scene-setting opener 'The timing aligns with broader regulatory
+      developments' from the third paragraph, leading directly with the FCA regulatory
+      fact.
+    - Removed the sentence 'For BNPL providers, securing a banking licence is increasingly
+      a structural rather than optional step' as it flagged significance explicitly
+      before the substantive point.
+    - Standfirst was already compliant with rule [1] — it opens with 'The new banking
+      licence gives…' rather than naming the organisation first. No change needed.
+- headline: Ant International unveils AI-native product stack for global payments
+    and treasury
+  standfirst: The full-stack launch positions cross-border infrastructure as an integrated
+    AI platform rather than a collection of standalone services.
+  body: 'Ant International has launched what it describes as a full AI-native product
+    stack covering payments, accounts, foreign exchange, treasury and growth operations
+    for global businesses. The suite is designed to embed machine learning across
+    each layer of cross-border financial operations rather than bolting AI capabilities
+    onto existing workflows.
+
+
+    The release reflects a broader industry pattern in which infrastructure providers
+    are repackaging their services around AI orchestration. Ant International, the
+    overseas arm of Ant Group, already operates Alipay+ and processes cross-border
+    transactions for merchants and financial institutions across Asia, Europe and
+    the Middle East. Wrapping these capabilities in an AI-native framework is intended
+    to improve transaction routing, FX optimisation and fraud detection simultaneously.
+
+
+    The competitive implication extends well beyond Asia. Ant''s approach mirrors
+    moves by Visa, Mastercard and Stripe to position AI not as an add-on but as the
+    core operating layer. As agentic commerce gains traction, the providers that integrate
+    AI most deeply into their payment and treasury stacks are likely to set the terms
+    for how cross-border money movement evolves.'
+  editorial_note: Ant International's full-stack AI launch is relevant to European
+    professionals because it signals how Asian infrastructure providers are positioning
+    against Western incumbents in cross-border payments, particularly as agentic commerce
+    accelerates.
+  sources: '[Ant International launches financial AI stack](https://www.finextra.com/newsarticle/48436/ant-international-launches-financial-ai-stack?utm_medium=rssfinextra&utm_source=finextrafeed)
+    — Finextra'
+  style_check:
+    compliant: false
+    warnings:
+    - Standfirst opens by naming the organisation also named in the headline ('Ant's
+      cross-border infrastructure'). Per rule 1, avoid redundant repetition of the
+      subject — open with the substantive point instead, eg 'The full-stack launch
+      positions cross-border infrastructure as an integrated AI platform…'
+    - Body paragraph 3 opens with 'European payments firms and merchants with cross-border
+      exposure to Asian markets should note the competitive implication.' This frames
+      relevance for a specific audience ('should note'). Per rule on audience-address
+      framing, state the substantive competitive point directly without prefacing
+      it with an audience-address clause.
+    - Editorial note should not be included in the copy check output. Per instructions,
+      you are checking headline, standfirst, body and editorial note — but the editorial
+      note itself is not subject to house style rules for publication. This note explains
+      context but does not violate copyable rules.
+  verification:
+    verified: true
+    stale: false
+    duplicate: false
+    warnings: []
+  revision:
+    replaced: false
+    resolved: true
+    summary:
+    - 'Standfirst: removed ''Ant''s'' before ''cross-border infrastructure'' to avoid
+      redundant repetition of the organisation named in the headline, per rule 1.'
+    - 'Body paragraph 3: replaced audience-address opening (''European payments firms
+      and merchants with cross-border exposure to Asian markets should note the competitive
+      implication.'') with a direct substantive statement (''The competitive implication
+      extends well beyond Asia.''), per rule on avoiding audience-address framing.'
+    - 'Editorial note: left unchanged as it is not subject to house style rules for
+      publication.'
+status: ready
