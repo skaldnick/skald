@@ -1,56 +1,147 @@
-title: 'ECB tokenisation project; Riverty opens Luxembourg bank
+title: 'ECB launches Pontes; Danske Bank completes agentic payment; Riverty opens
+  Luxembourg bank
 
   '
-social_post: 'ECB launches Project Pontes to bring tokenised settlement into the mainstream,
-  plus Riverty opens a Luxembourg bank to scale European BNPL. Today''s briefing:
-  {link}
+social_post: 'ECB''s Project Pontes goes live, Danske Bank runs an agentic payment
+  with Mastercard, and Riverty opens a Luxembourg bank to scale European payments.
+  Today''s briefing: {link}
 
   '
 stories:
-- headline: ECB launches Project Pontes to connect tokenised assets with central bank
-    money
-  standfirst: The initiative aims to build permanent infrastructure linking distributed
-    ledger platforms to Eurosystem settlement, moving tokenisation from pilot to production.
-  body: 'The European Central Bank has launched Project Pontes, a new programme designed
-    to create interoperability between tokenised financial market platforms and central
-    bank money settlement systems. The project follows a series of exploratory trials
-    across the Eurosystem and represents a shift from experimentation to building
-    durable infrastructure.
+- headline: UK Payments Delivery Company opens £50m equity raise to fund infrastructure
+    build
+  standfirst: Nineteen banks and payment firms are backing the formal fundraise, moving
+    Britain's next-generation retail payments programme from consultation into capitalisation.
+  body: 'The UK Payments Delivery Company (UK PDC) launched an equity capital raise
+    on September 15, inviting eligible organisations across the payments ecosystem
+    to become shareholders in the industry-owned entity tasked with building the country''s
+    next retail payments infrastructure. The raise follows a call for initial funders
+    in the fourth quarter of 2025, which brought 19 organisations together to support
+    the programme''s mobilisation. Backers include the four largest high-street banks
+    – Barclays, HSBC, Lloyds Banking Group and NatWest Group – alongside Citi, JPMorgan
+    Chase, Nationwide, PayPal and Wise. Ernst & Young is administering expressions
+    of interest on behalf of UK Finance.
 
 
-    Pontes sits alongside the ECB''s broader work on the digital euro and its existing
-    market infrastructure, including TARGET and TIPS. Where earlier initiatives such
-    as the ECB''s distributed ledger technology (DLT) trials tested whether tokenised
-    bonds and other instruments could settle against central bank liquidity, Pontes
-    is intended to provide a standing framework for doing so at scale. The goal is
-    to ensure that as European capital markets adopt tokenisation, settlement remains
-    anchored in sovereign money rather than migrating to private stablecoins or other
-    alternatives.
+    The reported funding target of roughly £50 million, first disclosed by Sky News,
+    would finance the PDC through incorporation and mobilisation until 2028. Further
+    capital will be needed to build the infrastructure itself. The Bank of England’s
+    Retail Payments Infrastructure Board published a design consultation on June 25,
+    with responses due by September 11; the resulting high-level blueprint is expected
+    in the first quarter of 2027.
 
 
-    The project reinforces the Eurosystem''s strategy of maintaining central bank
-    relevance as financial market plumbing evolves. It also signals that European
-    regulators see tokenised settlement not as a distant prospect but as something
-    requiring production-grade infrastructure now. Banks and market infrastructure
-    operators will need to assess how Pontes interacts with their own technology roadmaps.'
-  editorial_note: The ECB moving from DLT experimentation to a named, permanent interoperability
-    programme is a material escalation in Europe's approach to tokenised settlement,
-    with direct implications for banks and infrastructure providers.
-  sources: '[ECB Launches Pontes to Drive Tokenization](https://www.financemagnates.com/cryptocurrency/ecb-launches-pontes-to-drive-tokenization/)
-    — Finance Magnates'
+    The equity raise marks a concrete step beyond the policy declarations that preceded
+    it. The Treasury’s National Payments Vision set the strategic direction, and the
+    Bank of England established the governance model, but the PDC is the vehicle that
+    must now translate ambition into engineering. The breadth of the initial backer
+    group – spanning incumbent banks, US correspondent banks, a building society and
+    fintechs – reflects the cross-industry consensus that underpins the programme,
+    though questions remain about how governance and commercial incentives will be
+    structured as the shareholder base widens.'
+  editorial_note: The UK PDC equity raise, launched September 15, is a genuinely subsequent
+    stage of the UK retail payments infrastructure story previously covered in May-June
+    (initial announcements, consultation launch). The new material facts are the formal
+    equity raise, the £50m target, the named 19-backer group, and the Q1 2027 blueprint
+    timeline. Source is the FinTech Futures report from September 18, which draws
+    on the UK PDC’s own announcement and Sky News reporting.
+  sources: '[UK PDC opens fundraising for national payments system](https://www.fintechfutures.com/paytech/uk-payments-delivery-company-opens-fundraising-for-new-national-payments-system)
+    — FinTech Futures'
   style_check:
     compliant: false
     warnings:
-    - Standfirst opens by naming the ECB, which is also named in the headline. Rule
-      1 requires opening with the substantive point instead — eg, 'The initiative
-      aims to build…' rather than 'The European Central Bank has launched…'
-    - Body paragraph 3 opens with 'For payments professionals, the project reinforces…'
-      This is a framing construction that prefacesEuropean relevance with an audience-address
-      clause. Rule about not framing with 'For European payments professionals' or
-      equivalent — state the relevance directly as part of the narrative.
-    - Body uses 'DLT' on first mention without spelling it out in full followed by
-      the abbreviation in parentheses. Rule 8 requires 'distributed ledger technology
-      (DLT)' on first use in body text.
+    - Standfirst opens by naming the 19 banks and payment firms, but the headline
+      already identifies 'UK Payments Delivery Company'. Per rule 1, the standfirst
+      should begin with the substantive point (the equity raise and its significance)
+      rather than restating the subject. Revise to open with 'The formal fundraise
+      moves Britain's next-generation retail payments programme…' or similar.
+    - Body paragraph 1 uses 'the fourth quarter of 2025' but the rule on vague temporal
+      references requires avoiding 'earlier this year' type phrasing and using specific
+      dates when available. 'Fourth quarter of 2025' is imprecise; if the specific
+      month or date is known from the source, use it instead.
+    - Standfirst contains 'UK PDC' without spelling out the abbreviation on first
+      use. Per rule 12, abbreviations should be introduced in parentheses on first
+      mention in the standfirst where they recur in the body ('UK Payments Delivery
+      Company (UK PDC)'). However, rule 24 allows common abbreviations to be used
+      without spelling out in the standfirst—but 'UK PDC' is not common enough to
+      warrant this exception.
+  verification:
+    verified: true
+    stale: true
+    duplicate: false
+    warnings:
+    - Core event (UK PDC equity raise launch) is 6 days old as of September 21, 2026,
+      exceeding the 5-day recency threshold
+  revision:
+    replaced: true
+    resolved: true
+    summary:
+    - 'Replaced: original story flagged as duplicate coverage (duplicate coverage);
+      swapped in a candidate sourced from a live web search (not in today''s RSS feeds).'
+    - 'Note: the replacement was also flagged — Core event (UK PDC equity raise launch)
+      is 6 days old as of September 21, 2026, exceeding the 5-day recency threshold'
+    - 'Note: the replacement was also flagged — Standfirst opens by naming the 19
+      banks and payment firms, but the headline already identifies ''UK Payments Delivery
+      Company''. Per rule 1, the standfirst should begin with the substantive point
+      (the equity raise and its significance) rather than restating the subject. Revise
+      to open with ''The formal fundraise moves Britain''s next-generation retail
+      payments programme…'' or similar.'
+    - 'Note: the replacement was also flagged — Body paragraph 1 uses ''the fourth
+      quarter of 2025'' but the rule on vague temporal references requires avoiding
+      ''earlier this year'' type phrasing and using specific dates when available.
+      ''Fourth quarter of 2025'' is imprecise; if the specific month or date is known
+      from the source, use it instead.'
+    - 'Note: the replacement was also flagged — Standfirst contains ''UK PDC'' without
+      spelling out the abbreviation on first use. Per rule 12, abbreviations should
+      be introduced in parentheses on first mention in the standfirst where they recur
+      in the body (''UK Payments Delivery Company (UK PDC)''). However, rule 24 allows
+      common abbreviations to be used without spelling out in the standfirst—but ''UK
+      PDC'' is not common enough to warrant this exception.'
+- headline: Danske Bank completes agentic payment with Mastercard
+  standfirst: The first publicly reported agentic payment involving a Nordic bank
+    signals the use case is spreading beyond early movers in France and southern Europe.
+  body: 'Danske Bank and Mastercard have completed a payment in which an AI agent,
+    acting on behalf of a consumer, carried out both the purchase and the payment.
+    The transaction represents the first publicly reported agentic payment involving
+    a Nordic bank.
+
+
+    Agentic payments, in which AI systems autonomously initiate and complete transactions
+    on a user''s behalf, have moved from concept to live execution over the past six
+    months. Credit Agricole completed France''s first production agentic payment in
+    June; ING, Worldline and Mastercard ran Europe''s first earlier that month. Danske
+    Bank''s completion extends the geographic footprint into the Nordics and adds
+    another issuing bank to the live roster.
+
+
+    Mastercard has been the most active card network in building out agentic infrastructure,
+    having launched its Agent Pay framework and partnered with multiple European banks
+    and fintechs. Visa has taken a parallel path through its partnership with OpenAI
+    and its own European pilots. The competitive dynamic between the two networks
+    is shaping how agentic commerce will settle, with implications for whether card
+    rails or account-to-account alternatives ultimately carry the volume.'
+  editorial_note: Agentic payments are rapidly moving from pilot to production across
+    Europe; Danske Bank's involvement extends the use case to the Nordics and adds
+    another data point to the Mastercard-Visa competitive dynamic.
+  sources: '[Danske Bank performs AI agent transaction with Mastercard](https://www.finextra.com/pressarticle/110960/danske-bank-performs-ai-agent-transaction-with-mastercard?utm_medium=rssfinextra&utm_source=finextrafeed)
+    — Finextra'
+  style_check:
+    compliant: false
+    warnings:
+    - 'Body text uses ''account-to-account'' instead of spelling it out per house
+      style rule on non-standard abbreviations. The rule states: ''Prefer spelling
+      out non-standard abbreviations/acronyms, such as "account-to-account" instead
+      of "A2A".'' The phrase ''account-to-account alternatives'' should be reconsidered
+      for clarity, or if abbreviated form is necessary, should be introduced as ''account-to-account
+      (A2A)'' on first use.'
+    - Standfirst opens with 'A Nordic bank' rather than the substantive point. Per
+      rule [1], the standfirst should not open by naming the organisation that is
+      also named in the headline (Danske Bank). Instead, begin with the substantive
+      point or action — eg, 'The completion signals...' rather than 'A Nordic bank
+      joining...'
+    - Body text contains 'earlier the same month' which is a vague temporal reference.
+      Per house style, avoid vague references like 'earlier this month' and use specific
+      dates instead — e.g., 'on June [specific date]'.
   verification:
     verified: true
     stale: false
@@ -60,144 +151,88 @@ stories:
     replaced: false
     resolved: true
     summary:
-    - Standfirst already opened with 'The initiative aims to build…' rather than naming
-      the ECB, so no change was needed there — the issue description appeared to misread
-      the existing text.
-    - 'Body paragraph 3: removed ''For payments professionals,'' audience-address
-      clause, now opens directly with ''The project reinforces…'''
-    - 'Body: spelled out ''distributed ledger technology (DLT)'' on first use in paragraph
-      2, per abbreviation rule.'
-- headline: Riverty opens Luxembourg bank to scale European payments and consumer
-    finance
-  standfirst: The new banking licence gives the Bertelsmann-owned BNPL provider a
-    platform to expand lending and payments across EU markets from a single regulated
-    entity.
-  body: 'Riverty has opened Riverty Bank S.A. in Luxembourg, establishing a fully
-    licensed banking entity to underpin its European consumer finance and payments
-    operations. The move gives the company, owned by Bertelsmann, a single regulatory
-    base from which to passport services across the EU.
+    - Standfirst revised to open with 'The first publicly reported agentic payment
+      involving a Nordic bank signals…' rather than 'A Nordic bank joining…', per
+      rule [1] on not opening the standfirst by naming the headline's subject.
+    - The phrase 'account-to-account' is already spelled out in full in the body text,
+      not abbreviated as 'A2A'. The house style rule prefers 'account-to-account'
+      over 'A2A', which is exactly what the text uses, so no change is needed.
+    - The vague temporal reference 'earlier the same month' could not be replaced
+      with a specific date because the exact date of the ING/Worldline/Mastercard
+      transaction is not available from the source material. The phrasing was adjusted
+      slightly to 'earlier that month' for marginally better flow, but a specific
+      date could not be confirmed.
+- headline: 'Riverty opens Luxembourg bank to scale European payments
+
+    '
+  standfirst: 'The new banking licence gives the Bertelsmann-owned fintech direct
+    access to euro payment infrastructure and a platform to expand consumer finance
+    across multiple markets.
+
+    '
+  body: 'Riverty has opened Riverty Bank in Luxembourg, securing a banking licence
+    that provides direct access to euro-denominated payment systems and the regulatory
+    passport to operate across the European Economic Area. The entity will serve as
+    the platform for expanding Riverty''s payments and consumer finance products across
+    Europe.
 
 
-    Riverty operates primarily in the buy-now-pay-later and invoicing space across
-    several European markets including Germany, the Netherlands and Austria. Until
-    now, its operations have relied on a patchwork of national licences and partnerships.
-    A dedicated banking licence consolidates this, providing direct access to deposit-taking
-    and lending capabilities that can support product expansion, particularly as BNPL
-    regulation tightens across Europe.
+    Riverty, owned by Bertelsmann, has been building out its position in European
+    buy-now-pay-later and payment services. A full banking licence in Luxembourg,
+    a jurisdiction favoured by fintechs for its passporting reach and regulatory familiarity
+    with payment institutions, gives Riverty the balance sheet flexibility and infrastructure
+    access that a payment institution licence alone does not.
 
 
-    The UK''s Financial Conduct Authority published its final BNPL rules on February
-    11 in Policy Statement PS26/1, and the EU''s revised Consumer Credit Directive
-    already brings many BNPL products into scope. Riverty''s choice of Luxembourg
-    follows a well-established pattern among fintechs and payment firms seeking a
-    flexible EU hub.'
-  editorial_note: A BNPL provider obtaining a full banking licence in Luxembourg reflects
-    the structural pressure BNPL firms face as European regulation tightens, making
-    this a trend story rather than a routine corporate announcement.
+    The move follows a pattern of European fintechs securing banking licences to reduce
+    reliance on partner banks and access clearing and settlement systems directly.
+    Revolut, Mollie (through its GoCardless acquisition) and others have pursued similar
+    strategies. For Riverty, the licence also supports its ambitions in consumer credit,
+    where holding deposits and lending on its own balance sheet provides structural
+    advantages over intermediated models.
+
+    '
+  editorial_note: 'Riverty''s Luxembourg bank opening is a concrete step in the broader
+    trend of European fintechs obtaining banking licences to gain infrastructure access
+    and reduce intermediation costs.
+
+    '
   sources: '[Riverty opens bank in Luxembourg](https://www.finextra.com/pressarticle/110949/riverty-opens-bank-in-luxembourg?utm_medium=rssfinextra&utm_source=finextrafeed)
     — Finextra'
   style_check:
     compliant: false
     warnings:
-    - Standfirst opens by naming 'the Bertelsmann-owned BNPL provider' which directly
-      repeats the organisation's context from the headline. Per rule [1], the standfirst
-      should begin with the substantive point (the banking licence and its consequences)
-      rather than restating the organisation's identity. Revise to open with 'The
-      new banking licence gives…' without the preamble about Riverty's ownership.
-    - Body text states 'The timing aligns with broader regulatory developments' followed
-      by explanation. This is a form of scene-setting that delays the substantive
-      point. Per the rule against opening paragraphs with hedging scene-setters, lead
-      directly with the regulatory facts — eg, 'The UK's Financial Conduct Authority
-      confirmed on June 26 that BNPL regulation begins on July 15…' rather than prefacing
-      it with 'The timing aligns'.
-    - Sentence 'For BNPL providers, securing a banking licence is increasingly a structural
-      rather than optional step' frames significance before the substantive point.
-      Per the rule against explicit significance flagging, this announcement-of-importance
-      should be removed. The substantive claim (that regulation is tightening) stands
-      on its own; do not announce its importance.
-  verification:
-    verified: false
-    stale: false
-    duplicate: false
-    warnings:
-    - FCA published final BNPL rules on 11 February 2026 (Policy Statement PS26/1),
-      not June 26. June 26 was only a register update date.
-  revision:
-    replaced: false
-    resolved: true
-    summary:
-    - 'Corrected FCA BNPL rules date and reference: replaced ''confirmed on June 26
-      that BNPL regulation begins on July 15'' with ''published its final BNPL rules
-      on February 11 in Policy Statement PS26/1'' per the factual correction provided.'
-    - Removed the scene-setting opener 'The timing aligns with broader regulatory
-      developments' from the third paragraph, leading directly with the FCA regulatory
-      fact.
-    - Removed the sentence 'For BNPL providers, securing a banking licence is increasingly
-      a structural rather than optional step' as it flagged significance explicitly
-      before the substantive point.
-    - Standfirst was already compliant with rule [1] — it opens with 'The new banking
-      licence gives…' rather than naming the organisation first. No change needed.
-- headline: Ant International unveils AI-native product stack for global payments
-    and treasury
-  standfirst: The full-stack launch positions cross-border infrastructure as an integrated
-    AI platform rather than a collection of standalone services.
-  body: 'Ant International has launched what it describes as a full AI-native product
-    stack covering payments, accounts, foreign exchange, treasury and growth operations
-    for global businesses. The suite is designed to embed machine learning across
-    each layer of cross-border financial operations rather than bolting AI capabilities
-    onto existing workflows.
-
-
-    The release reflects a broader industry pattern in which infrastructure providers
-    are repackaging their services around AI orchestration. Ant International, the
-    overseas arm of Ant Group, already operates Alipay+ and processes cross-border
-    transactions for merchants and financial institutions across Asia, Europe and
-    the Middle East. Wrapping these capabilities in an AI-native framework is intended
-    to improve transaction routing, FX optimisation and fraud detection simultaneously.
-
-
-    The competitive implication extends well beyond Asia. Ant''s approach mirrors
-    moves by Visa, Mastercard and Stripe to position AI not as an add-on but as the
-    core operating layer. As agentic commerce gains traction, the providers that integrate
-    AI most deeply into their payment and treasury stacks are likely to set the terms
-    for how cross-border money movement evolves.'
-  editorial_note: Ant International's full-stack AI launch is relevant to European
-    professionals because it signals how Asian infrastructure providers are positioning
-    against Western incumbents in cross-border payments, particularly as agentic commerce
-    accelerates.
-  sources: '[Ant International launches financial AI stack](https://www.finextra.com/newsarticle/48436/ant-international-launches-financial-ai-stack?utm_medium=rssfinextra&utm_source=finextrafeed)
-    — Finextra'
-  style_check:
-    compliant: false
-    warnings:
-    - Standfirst opens by naming the organisation also named in the headline ('Ant's
-      cross-border infrastructure'). Per rule 1, avoid redundant repetition of the
-      subject — open with the substantive point instead, eg 'The full-stack launch
-      positions cross-border infrastructure as an integrated AI platform…'
-    - Body paragraph 3 opens with 'European payments firms and merchants with cross-border
-      exposure to Asian markets should note the competitive implication.' This frames
-      relevance for a specific audience ('should note'). Per rule on audience-address
-      framing, state the substantive competitive point directly without prefacing
-      it with an audience-address clause.
-    - Editorial note should not be included in the copy check output. Per instructions,
-      you are checking headline, standfirst, body and editorial note — but the editorial
-      note itself is not subject to house style rules for publication. This note explains
-      context but does not violate copyable rules.
+    - Standfirst opens by naming 'The new banking licence' which restates the headline's
+      core action ('opens Luxembourg bank'). Per rule 1, the standfirst should begin
+      with a substantive point not already named in the headline. Recast to open with
+      the consequence or strategic point — eg, 'Direct access to euro payment infrastructure
+      and a regulatory passport give Riverty…'
+    - Body opening sentence 'Riverty has opened Riverty Bank in Luxembourg' repeats
+      the headline's core claim verbatim. Per rule on avoiding near-verbatim repetition,
+      the body must be self-contained and not duplicate the headline's phrasing. Recast
+      — eg, 'The new entity provides direct access to euro clearing and settlement
+      systems, and grants Riverty a regulatory passport to operate across the European
+      Economic Area.'
+    - Paragraph 2 opens with 'The move follows a pattern…' which is a scene-setter
+      that delays the substantive point. Per rule on not opening paragraphs with hedging
+      scene-setters, lead directly with the substantive claim — eg, 'European fintechs
+      including Revolut and Mollie (through its GoCardless acquisition) have secured
+      banking licences to reduce reliance on partner banks and access clearing and
+      settlement systems directly.'
+    - Editorial note included in submission. Per house style rules, do not include
+      editorial notes in the story submission; notes about context or background belong
+      in your communication to editors, not in the formatted copy.
   verification:
     verified: true
     stale: false
-    duplicate: false
+    duplicate: true
     warnings: []
   revision:
     replaced: false
-    resolved: true
+    resolved: false
     summary:
-    - 'Standfirst: removed ''Ant''s'' before ''cross-border infrastructure'' to avoid
-      redundant repetition of the organisation named in the headline, per rule 1.'
-    - 'Body paragraph 3: replaced audience-address opening (''European payments firms
-      and merchants with cross-border exposure to Asian markets should note the competitive
-      implication.'') with a direct substantive statement (''The competitive implication
-      extends well beyond Asia.''), per rule on avoiding audience-address framing.'
-    - 'Editorial note: left unchanged as it is not subject to house style rules for
-      publication.'
-status: ready
+    - Flagged as duplicate coverage but no unused feed or web candidate was available
+      — kept as-is, editor should review.
+status: needs_review
+status_reasons:
+- 'Could not resolve: Riverty opens Luxembourg bank to scale European payments'
