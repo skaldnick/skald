@@ -2,4 +2,20 @@
 # Populated automatically by tools/extract_learning.py (via GitHub Actions on push
 # to data/feedback/). Review and promote/edit in the dashboard's 'Proposed style
 # rules' section — accepted rules move to prompts/payments/style_rules.yaml.
-[]
+- date: '2026-09-21'
+  rule: When "ECB" or another well-known abbreviation is not spelled out in the standfirst
+    but appears as the subject of the body's opening sentence, introduce the full
+    name with the abbreviation in parentheses on first use in the body — eg, "The
+    European Central Bank (ECB) has launched…" — so the abbreviation is available
+    for subsequent references in the body without requiring the reader to infer it
+    from the headline.
+- date: '2026-09-21'
+  rule: Do not append legal-entity suffixes (such as "S.A.", "Ltd", "GmbH", "N.V.")
+    to a company name in body text unless the legal form is directly relevant to the
+    story (eg, a story about the legal structure itself). Use the plain trading name
+    — eg, "Riverty Bank" not "Riverty Bank S.A.".
+- date: '2026-09-21'
+  rule: In the standfirst, use a possessive or other attribution to avoid ambiguous
+    pronoun references when the subject differs from the headline's named organisation.
+    For example, write "Ant's cross-border infrastructure" rather than "cross-border
+    infrastructure" when the referent might otherwise be unclear.
