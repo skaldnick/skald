@@ -1,380 +1,331 @@
-title: 'Danske Bank agentic payment; Mifundo cross-border credit; ECB tokenisation
-  strategy
+title: 'Russian fintech sanctions evasion; GoCardless agentic A2A; Alchemy joins Mastercard
+  Agent Pay
 
   '
-social_post: 'Danske Bank completes an AI agent payment with Mastercard, the ECB maps
-  its tokenisation strategy, and Mifundo taps Yapily for cross-border credit scoring.
-  Today''s briefing: {link}
+social_post: 'A Kremlin-backed fintech allegedly moved $6.9bn through global banks
+  using forged documents. Plus: GoCardless claims a UK first with agentic account-to-account
+  payments, and agentic commerce''s infrastructure keeps filling in. {link}
 
   '
 stories:
-- headline: Danske Bank completes agentic payment transaction with Mastercard
-  standfirst: The transaction extends Mastercard's agentic programme into the Nordics,
-    following Nordea's completion of Finland's first such payment earlier this autumn.
-  body: 'Danske Bank and Mastercard have completed a payment in which an AI agent,
-    acting on behalf of a consumer, carried out both the purchase decision and the
-    payment itself. The transaction makes Danske the second major Nordic bank to complete
-    an agentic payment, after Nordea did so in Finland earlier this autumn.
+- headline: Russian fintech A7 allegedly laundered $6.9bn through global banks, says
+    Financial Times
+  standfirst: Forged documents allowed a Kremlin-controlled payments company to access
+    the international banking system, raising fresh questions about sanctions enforcement
+    across correspondent banking networks.
+  body: 'A7, a Russian payments company established to bypass western financial infrastructure,
+    allegedly used forged documentation to open correspondent banking relationships
+    and funnel approximately $6.9 billion through some of the world''s largest banks.
+    The Financial Times investigation, published on September 21, describes the scheme
+    as relying on "old-fashioned money laundering" rather than sophisticated technological
+    exploits to circumvent sanctions controls.
 
 
-    Mastercard has been building out its agentic payments infrastructure throughout
-    2026, with earlier transactions involving ING and Worldline in June and Visa running
-    parallel programmes with Revolut and OpenAI. Danske Bank''s participation extends
-    the testing footprint into the Nordics, a region with high digital payment penetration
-    and consumer willingness to adopt new payment methods.
+    The operation exploited weaknesses in banks'' onboarding and ongoing due diligence
+    for correspondent relationships. A7 reportedly presented falsified credentials
+    to gain access to the international financial system, then routed payments on
+    behalf of Russian state companies subject to western sanctions. The banks involved
+    have not been named in all cases, but the scale of the flows suggests that multiple
+    institutions across several jurisdictions processed the transactions.
 
 
-    Consumer trust remains a constraint on moving from controlled demonstrations to
-    production at scale. Visa data from September showed only 23% of consumers are
-    comfortable with AI agents handling payments. Technical validation is accumulating
-    as more banks complete transactions, but no institution has yet committed to a
-    production launch timeline or published plans for scaling agentic payments beyond
-    individual test cases.'
-  editorial_note: Extends the agentic payments story into the Nordics with a new bank
-    participant; relevant as the industry tracks which institutions are moving beyond
-    experimentation.
-  sources: '[Danske Bank performs AI agent transaction with Mastercard](https://www.finextra.com/pressarticle/110960/danske-bank-performs-ai-agent-transaction-with-mastercard?utm_medium=rssfinextra&utm_source=finextrafeed)
+    The case lands as European and US regulators are already tightening expectations
+    around real-time sanctions screening and correspondent banking controls. Banks
+    have warned the EU''s Anti-Money Laundering Authority that the speed of instant
+    payments makes real-time monitoring difficult. A7''s alleged success in exploiting
+    more traditional vulnerabilities suggests that the compliance challenge extends
+    well beyond transaction speed to the integrity of basic counterparty verification.'
+  editorial_note: A $6.9 billion sanctions evasion case through mainstream correspondent
+    banking channels is directly material to European payments compliance and reinforces
+    live debates around AML controls for instant payments.
+  sources: '[Russian fintech A7 exploited bank controls to funnel billion of dollars
+    in sanctioned payments](https://www.finextra.com/newsarticle/48446/russian-fintech-a7-exploited-bank-controls-to-funnel-billion-of-dollars-in-sanctioned-payments?utm_medium=rssfinextra&utm_source=finextrafeed)
+    — Finextra | [Russian FinTech Allegedly Laundered $6.9 Billion Via Global Banks](https://www.pymnts.com/news/banking/2026/russian-fintech-allegedly-laundered-6-9-billion-via-global-banks/)
+    — PYMNTS'
+  style_check:
+    compliant: false
+    warnings:
+    - Standfirst opens by naming 'A Financial Times investigation' when the headline
+      already identifies the subject as 'Russian fintech A7'. Per rule 1, the standfirst
+      should open with the substantive point or action rather than repeating the subject.
+      Revise to open with 'Forged documents allowed a Kremlin-controlled payments
+      company to access the international banking system, raising fresh questions
+      about sanctions enforcement across correspondent banking networks.'
+    - 'Body text uses ''US regulators'' but rule 4 requires ''US'' not ''United States''.
+      The text correctly uses ''US'' here, so no violation. However, check: the phrase
+      ''European and US regulators'' is correct.'
+    - Rule 35 requires naming the source organisation in the headline when a statistic
+      or finding is attributed to a specific organisation. The headline attributes
+      the allegation to A7 but does not explicitly name the source of the investigation
+      (Financial Times). The headline 'Russian fintech A7 allegedly laundered $6.9bn
+      through global banks' attributes the allegation to A7 itself rather than to
+      the investigator. Consider whether the FT should be named in the headline to
+      clarify the source of the claim.
+    - The standfirst describes 'a Kremlin-controlled payments company' but the body
+      text introduces 'A7, a Russian fintech established as an alternative to western
+      payment systems'. These are near-verbatim repetitions of the same substance
+      (Kremlin connection and description of A7) across standfirst and body. While
+      some repetition is acceptable when developing a point in more depth, the phrasing
+      here is too similar and should be varied in the body to avoid redundancy.
+  verification:
+    verified: true
+    stale: false
+    duplicate: false
+    warnings: []
+  revision:
+    replaced: false
+    resolved: true
+    summary:
+    - Revised standfirst to open with the substantive action ('Forged documents allowed…')
+      rather than naming the Financial Times investigation, per rule 1.
+    - Added 'says Financial Times' to the headline to attribute the investigation
+      source per rule 35.
+    - Varied the body's description of A7 from 'a Russian fintech established as an
+      alternative to western payment systems' to 'a Russian payments company established
+      to bypass western financial infrastructure' to reduce near-verbatim repetition
+      with the standfirst's 'Kremlin-controlled payments company' framing.
+    - Confirmed 'US' usage in body text is already correct per rule 4; no change needed.
+- headline: GoCardless claims first agentic account-to-account payment in the UK
+  standfirst: The transaction, an AI-driven charitable donation processed via open
+    banking rails, marks a step toward agentic commerce operating beyond card networks.
+  body: 'An AI agent has initiated and completed a charitable donation via open banking
+    rails on the GoCardless website, in what the company describes as the first agentic
+    account-to-account (A2A) payment in the UK. The donation was made for Trussell,
+    the anti-poverty charity and food bank network, without a human interacting directly
+    with a payment interface.
+
+
+    The milestone sits within a rapidly developing agentic payments landscape in Europe.
+    Over the past several months, Mastercard, Visa, Blik and Credit Agricole have
+    each completed agentic payment transactions, but these have predominantly run
+    over card rails or proprietary networks. GoCardless''s transaction is distinct
+    in using open banking-based A2A infrastructure, suggesting that the emerging agentic
+    commerce layer need not default to card-based settlement.
+
+
+    If AI agents are to handle recurring payments, subscriptions and donations autonomously,
+    the ability to initiate bank transfers without card credentials becomes a competitive
+    differentiator for A2A providers. GoCardless, now owned by Mollie following the
+    acquisition completed earlier this month, is positioning the combined group''s
+    open banking infrastructure as ready for this shift.'
+  editorial_note: Agentic payments have been a headline theme through 2026, but most
+    demonstrations have used card rails. GoCardless claiming the first UK agentic
+    account-to-account transaction signals open banking providers are entering the
+    race directly.
+  sources: '[GoCardless processes first agentic account-to-account transaction in
+    the UK](https://www.finextra.com/pressarticle/110969/gocardless-processes-first-agentic-account-to-account-transaction-in-the-uk?utm_medium=rssfinextra&utm_source=finextrafeed)
     — Finextra'
   style_check:
     compliant: false
     warnings:
-    - Standfirst opens with 'A Nordic bank joins' but the headline names 'Danske Bank'
-      — this violates the rule against opening the standfirst by naming the organisation
-      that is also named in the headline. Recast to open with the substantive point,
-      eg 'The move extends Mastercard's agentic programme…'
-    - Body paragraph 2 uses vague temporal reference 'in June' when a specific date
-      should be used if available. Rule requires 'on [specific date]' or the month
-      name only when specific date cannot be established.
-    - Body paragraph 3 begins with 'The practical question remains' — a hedging scene-setter
-      that delays the substantive point. Lead directly with the substantive claim
-      per the rule against opening paragraphs with hedging constructions.
-    - Body paragraph 3 states 'Each new bank completing a transaction adds technical
-      validation, but the gap between proof-of-concept and mainstream adoption remains
-      wide' — this frames significance vaguely rather than stating the substantive
-      point directly. Avoid the 'but' construction that announces a gap before explaining
-      why it matters.
-  verification:
-    verified: false
-    stale: false
-    duplicate: false
-    warnings:
-    - Danske Bank described as 'first agentic payment involving a major Nordic bank'
-      but Nordea completed Finland's first agentic payment earlier (approximately
-      late August/early September 2026, per Nordea press release)
-  revision:
-    replaced: false
-    resolved: true
-    summary:
-    - Corrected claim that this is the 'first agentic payment involving a major Nordic
-      bank' — Nordea completed Finland's first agentic payment earlier (approximately
-      late August/early September 2026). Danske is now described as the second major
-      Nordic bank.
-    - Recast standfirst to open with the substantive point ('The transaction extends…')
-      rather than naming the organisation from the headline.
-    - Could not confirm specific date for the ING/Worldline transaction in June —
-      left as 'in June' since no specific date was provided in the issue or available
-      to the writer.
-    - Rewrote paragraph 3 opening to lead with the substantive claim ('Consumer trust
-      remains a constraint…') rather than the hedging scene-setter 'The practical
-      question remains'.
-    - Rewrote final sentence of paragraph 3 to state the substantive point directly
-      — that no institution has committed to a production launch timeline — rather
-      than vaguely announcing a 'gap' between proof-of-concept and adoption.
-- headline: 'Estonia''s Mifundo partners with Yapily for cross-border credit scoring
-
-    '
-  standfirst: 'The partnership connects open banking account data from multiple European
-    markets into a single credit profile, testing whether cross-border data aggregation
-    can underpin pan-European lending decisions.
-
-    '
-  body: 'Mifundo, a Tallinn-based credit data platform, is partnering with Yapily
-    to integrate open banking data from across Europe into its cross-border credit
-    profiles. The arrangement gives Mifundo access to Yapily''s bank connectivity
-    across several European markets, with a particular focus on SME and corporate
-    account coverage.
-
-
-    Cross-border credit assessment has long been constrained by the fragmentation
-    of financial data across national systems. Open banking APIs offer a technical
-    route to aggregation, but the commercial case depends on lenders being willing
-    to accept account-level transaction data from foreign institutions as a reliable
-    underwriting input. Mifundo''s model positions it as an intermediary that normalises
-    this data for credit decisions.
-
-
-    The partnership sits within a broader pattern of open banking infrastructure being
-    applied to lending rather than payments. The FCA''s September consultation on
-    using rent payment data in mortgage affordability checks and the UK chancellor''s
-    July announcement on open finance for SME lending both reflect the same logic:
-    that account data, once accessible, finds its highest-value use in credit.
-
-    '
-  editorial_note: 'A concrete example of open banking data being used for cross-border
-    credit, which is where much of the commercial value in open finance is expected
-    to materialise.
-
-    '
-  sources: '[Estonia''s Mifundo partners with Yapily to build more complete cross-border
-    credit profiles](https://bebeez.eu/2026/09/21/estonias-mifundo-partners-with-yapily-to-build-more-complete-cross-border-credit-profiles/)
-    — Bebeez | [Estonia''s Mifundo partners with Yapily to build more complete cross-border
-    credit profiles](https://arcticstartup.com/mifundo-and-yapily-partner/) — Arcticstartup'
-  style_check:
-    compliant: false
-    warnings:
-    - Standfirst opens by naming the organisation (Mifundo) that is also named in
-      the headline. Per rule [1], the standfirst should begin with the substantive
-      point or action instead — eg, 'The partnership connects...' rather than naming
-      Mifundo first.
-    - Body text uses 'the FCA' before an acronym-only organisation name. Per rule
-      (The MAS rule), use the acronym directly without 'the' — write 'FCA's September
-      consultation' not 'The FCA's September consultation'.
-  verification:
-    verified: true
-    stale: true
-    duplicate: false
-    warnings:
-    - Core event (Mifundo-Yapily partnership announcement) is 6 days old as of September
-      22, 2026, exceeding the 5-day recency threshold
-  revision:
-    replaced: false
-    resolved: false
-    summary:
-    - Flagged as stale but no unused feed or web candidate was available — kept as-is,
-      editor should review.
-- headline: Moldova explores connecting its instant payments system to the ECB's TIPS
-    platform
-  standfirst: Connecting the country's MIA system to TIPS would enable instant euro
-    transfers between Moldova and EU member states, extending Europe's real-time payments
-    infrastructure to a second non-EU country this year.
-  body: 'The National Bank of Moldova has begun exploring the technical and regulatory
-    steps needed to integrate its domestic instant payment system, MIA, with the ECB''s
-    TARGET Instant Payment Settlement platform. If completed, Moldovan citizens and
-    businesses would be able to make cross-border euro transfers to and from EU countries
-    in seconds rather than relying on traditional correspondent banking channels.
-
-
-    Moldova joined SEPA in February, giving its banks access to standard euro credit
-    transfers across 36 countries. A TIPS connection would go further, enabling real-time
-    settlement at a fraction of the cost of existing cross-border routes. The central
-    bank says remaining hurdles include automatic on-the-fly currency conversion between
-    the Moldovan leu and the euro, alignment of cybersecurity protocols and full compliance
-    with Eurosystem rules. The two platforms currently operate in isolation within
-    their respective currency zones.
-
-
-    The initiative sits in a broader pattern of TIPS expanding beyond the eurozone
-    and EEA. Iceland connected to TIPS in June, and the ECB has exploration or realisation
-    phases under way to interlink TIPS with Switzerland''s instant payments system
-    and India''s Unified Payments Interface. For Moldova, an EU candidate country,
-    instant payments integration serves a dual purpose: reducing remittance costs
-    for the large Moldovan diaspora in the EU and aligning the country''s financial
-    infrastructure with European standards ahead of accession.'
-  editorial_note: New story not duplicated in the previously covered list. Iceland
-    joining TIPS was covered on June 25 but Moldova is a distinct country and a separate
-    development. The source is a Moldovan news outlet that appears to draw on official
-    National Bank of Moldova communications. The story connects to the broader TIPS
-    expansion theme and Moldova's EU candidate status, giving it wider significance
-    for European payments professionals.
-  sources: '[Moldova''s MIA Instant Payment System Could Join EU TIPS Platform](https://logos-pres.md/en/news/the-mia-system-is-being-integrated-with-the-european-tips/)
-    — Logos Press'
-  style_check:
-    compliant: false
-    warnings:
-    - Standfirst opens by naming the organisation also named in the headline ('The
-      National Bank of Moldova' is the subject of the headline's implied action).
-      The standfirst should open with the substantive point instead — 'Connecting
-      the country's MIA system to TIPS would enable…' — rather than restating the
-      agent. This violates the rule against opening the standfirst by naming the organisation
-      identified in the headline.
-    - 'Standfirst uses ''MIA'' without spelling it out on first mention. Per the rule
-      on abbreviations in standfirsts, common and recognisable abbreviations may be
-      used without spelling out, but ''MIA'' (Moldova''s Instant payments system)
-      is non-standard and not widely recognised. The standfirst should spell it out:
-      ''its domestic instant payment system, MIA'' or introduce it differently to
-      establish what it is.'
-    - Body text includes 'TARGET Instant Payment Settlement platform' with the abbreviation
-      'TIPS' but does not apply the rule correctly. The abbreviation should be introduced
-      on first use in the body as 'TARGET Instant Payment Settlement (TIPS) platform'
-      since TIPS recurs later in the piece ('TIPS connection', 'TIPS expanding', 'TIPS
-      with Switzerland's'). The full form must appear on first use in the body, even
-      if TIPS was mentioned in the standfirst.
-    - The phrase 'This initiative sits in a broader pattern' in the third paragraph
-      potentially breaches the rule against vague scene-setters that delay the substantive
-      point. However, the sentence does follow with the substantive claim ('TIPS expanding
-      beyond the eurozone'), so this is borderline but acceptable.
-    - The editorial note states 'The source is a Moldovan news outlet that appears
-      to draw on official National Bank of Moldova communications.' Per the rule against
-      including editorial notes about missing information or source limitations, this
-      editorial commentary should not appear. If the source is uncertain, either omit
-      the story or establish facts from a primary source; do not flag sourcing doubts
-      in an editorial note.
-    - The standfirst references 'a second non-EU country this year' but the context
-      for this claim requires the reader to know Iceland joined in June. While the
-      body does provide this, the standfirst's phrasing is vague about which countries
-      are being counted and assumes reader knowledge. The standfirst should either
-      name Iceland or remove the 'second' reference entirely.
-  verification:
-    verified: false
-    stale: false
-    duplicate: false
-    warnings:
-    - Article states 'Iceland connected to TIPS in June' but ECB press release of
-      24 June 2026 states agreement will take effect 'as of 2028', not immediately
-      in June
-    - Article states 'Moldova joined SEPA in February' but Moldova joined SEPA's geographical
-      scope on 6 March 2025 and became operational on 6 October 2025, not February
-  revision:
-    replaced: true
-    resolved: true
-    summary:
-    - 'Replaced: original story flagged as duplicate coverage (Story reports same
-      core event (Project Pontes launch on Sept 21) as 2026-09-21 entry in previously
-      covered list; this appears to be duplicate coverage of the same announcement);
-      swapped in a candidate sourced from a live web search (not in today''s RSS feeds).'
-    - 'Note: the replacement was also flagged — Article states ''Iceland connected
-      to TIPS in June'' but ECB press release of 24 June 2026 states agreement will
-      take effect ''as of 2028'', not immediately in June'
-    - 'Note: the replacement was also flagged — Article states ''Moldova joined SEPA
-      in February'' but Moldova joined SEPA''s geographical scope on 6 March 2025
-      and became operational on 6 October 2025, not February'
-    - 'Note: the replacement was also flagged — Standfirst opens by naming the organisation
-      also named in the headline (''The National Bank of Moldova'' is the subject
-      of the headline''s implied action). The standfirst should open with the substantive
-      point instead — ''Connecting the country''s MIA system to TIPS would enable…''
-      — rather than restating the agent. This violates the rule against opening the
-      standfirst by naming the organisation identified in the headline.'
-    - 'Note: the replacement was also flagged — Standfirst uses ''MIA'' without spelling
-      it out on first mention. Per the rule on abbreviations in standfirsts, common
-      and recognisable abbreviations may be used without spelling out, but ''MIA''
-      (Moldova''s Instant payments system) is non-standard and not widely recognised.
-      The standfirst should spell it out: ''its domestic instant payment system, MIA''
-      or introduce it differently to establish what it is.'
-    - 'Note: the replacement was also flagged — Body text includes ''TARGET Instant
-      Payment Settlement platform'' with the abbreviation ''TIPS'' but does not apply
-      the rule correctly. The abbreviation should be introduced on first use in the
-      body as ''TARGET Instant Payment Settlement (TIPS) platform'' since TIPS recurs
-      later in the piece (''TIPS connection'', ''TIPS expanding'', ''TIPS with Switzerland''s'').
-      The full form must appear on first use in the body, even if TIPS was mentioned
-      in the standfirst.'
-    - 'Note: the replacement was also flagged — The phrase ''This initiative sits
-      in a broader pattern'' in the third paragraph potentially breaches the rule
-      against vague scene-setters that delay the substantive point. However, the sentence
-      does follow with the substantive claim (''TIPS expanding beyond the eurozone''),
-      so this is borderline but acceptable.'
-    - 'Note: the replacement was also flagged — The editorial note states ''The source
-      is a Moldovan news outlet that appears to draw on official National Bank of
-      Moldova communications.'' Per the rule against including editorial notes about
-      missing information or source limitations, this editorial commentary should
-      not appear. If the source is uncertain, either omit the story or establish facts
-      from a primary source; do not flag sourcing doubts in an editorial note.'
-    - 'Note: the replacement was also flagged — The standfirst references ''a second
-      non-EU country this year'' but the context for this claim requires the reader
-      to know Iceland joined in June. While the body does provide this, the standfirst''s
-      phrasing is vague about which countries are being counted and assumes reader
-      knowledge. The standfirst should either name Iceland or remove the ''second''
-      reference entirely.'
-- headline: ECB to buy tokenised securities with its own funds, settled through Pontes
-  standfirst: The decision to become a direct investor in tokenised debt, not just
-    a provider of settlement infrastructure, turns the central bank into an active
-    market participant in Europe's nascent digital asset ecosystem.
-  body: 'The European Central Bank has begun preparatory work to invest a portion
-    of its own funds portfolio in tokenised securities. Initial purchases will focus
-    on euro-denominated debt issued by euro area governments, agencies and European
-    supranational institutions, settled in central bank money through Pontes, the
-    Eurosystem''s wholesale settlement system for distributed ledger technology transactions
-    that went live on September 21.
-
-
-    The own funds portfolio is a non-monetary policy portfolio used to generate income
-    to cover operating expenses. By investing directly, the ECB says it will gain
-    first-hand experience across the full investment lifecycle, from trade execution
-    and settlement to systems and portfolio management. The central bank has not disclosed
-    how much it will invest or when the first purchase will take place; ECB executive
-    board member Piero Cipollone said Pontes would give the tokenised finance ecosystem
-    "an important advantage to help it scale".
-
-
-    Thirteen institutions, including Deutsche Bank, Santander, Societe Generale and
-    the European Investment Bank, have completed onboarding and can transact on Pontes
-    immediately. Enhanced features and longer operating hours are expected by 2028.
-    A separate initiative, Appia, will deliver a blueprint for a broader DLT-based
-    European financial ecosystem by the same date.'
-  editorial_note: 'The Pontes infrastructure launch was covered on September 21 as
-    a previously covered story. This piece focuses on the distinct and materially
-    new announcement made the same day: the ECB''s decision to invest its own funds
-    in tokenised securities — making it a direct market participant, not merely a
-    settlement provider. This is a separate ECB press release with different implications
-    for the market.'
-  sources: '[ECB launches ''Pontes'' to settle tokenised assets in central bank money](https://www.euronews.com/business/2026/09/21/ecb-launches-pontes-to-settle-tokenised-assets-in-central-bank-money)
-    — Euronews'
-  style_check:
-    compliant: false
-    warnings:
-    - 'Standfirst opens by naming ''The decision'' which is vague and scene-setting
-      before the substantive point. Rule: ''Do not open a paragraph with "The deal
-      is far from certain" or equivalent hedging scene-setters that delay the substantive
-      point.'' The standfirst should open directly with what the ECB is doing, not
-      with ''The decision to...'''
-    - 'Standfirst does not name the organisation that appears in the headline (ECB),
-      but this is correct per rule [1]. However, the standfirst''s opening ''The decision
-      to become a direct investor'' is a vague temporal/thematic reference rather
-      than anchoring the reader in the specific development. Rule: ''The standfirst
-      must name the specific stakes or consequences of the story — naming the initiatives,
-      programmes or competitive dynamics affected — rather than making a generic thematic
-      claim.'''
-    - 'Body text uses ''distributed ledger technology transactions'' on first mention
-      but uses the abbreviation ''DLT'' later without having introduced ''DLT'' in
-      parentheses on first use in the body. The standfirst mentions ''DLT'' but per
-      rule on abbreviations in standfirst vs body: ''When an abbreviation such as
-      "EPI" is spelled out in the standfirst, the body must still introduce the full
-      form on first use.'' Rule violation: ''DLT'' should be introduced as ''distributed
-      ledger technology (DLT)'' on first body mention.'
-    - 'Body text: ''Societe Generale'' should be rendered without the accent as ''Societe
-      Generale'' per the rule on foreign diacritics: ''Avoid foreign diacritics and
-      accents in names and proper nouns.'' Actually, ''Société Générale'' uses an
-      accent; it should be anglicised to ''Societe Generale''.'
+    - 'Headline opens with ''GoCardless claims'' and standfirst opens with ''The transaction''
+      — but body opens with ''GoCardless has processed'' (same subject as headline).
+      Per rule on varying openings across headline, standfirst, and body: ''Do not
+      start the headline, standfirst, and body opening sentence with the same word
+      or phrase.'' The body should not repeat the headline''s subject so directly
+      after the standfirst has shifted focus.'
+    - 'Standfirst uses ''account-to-account'' spelled out, but headline uses the abbreviation
+      ''A2A'' equivalent concept without spelling it. Per rule preferring spelled-out
+      non-standard abbreviations: the standfirst correctly spells this out, but for
+      consistency the headline should also avoid the abbreviated form on first mention.'
+    - 'Body text: ''account-to-account'' should be spelled out on first use in body
+      (it is), but the rule on abbreviations states ''On first use of an abbreviation
+      that must be retained, spell it out in full followed by the abbreviation in
+      parentheses''. Since ''account-to-account'' recurs in the body (''account-to-account
+      infrastructure'', ''account-to-account providers''), the first instance should
+      include ''(A2A)'' in parentheses — currently it does not.'
+    - 'Body text: ''For the broader pay-by-bank market, the demonstration is incremental
+      but directionally significant.'' This sentence frames significance before making
+      a substantive point. Per rule on never flagging significance explicitly: revise
+      to lead with the substantive claim directly rather than announcing that something
+      is ''significant''.'
+    - 'Standfirst ends with ''agentic commerce operating beyond card networks'' —
+      body opens with same subject (agentic payments / agentic commerce) using near-identical
+      phrasing. Per rule on avoiding near-verbatim repetition: the body should develop
+      or reframe the standfirst''s point in different wording, not echo it so closely.'
   verification:
     verified: true
     stale: false
-    duplicate: true
+    duplicate: false
     warnings: []
   revision:
-    replaced: true
+    replaced: false
     resolved: true
     summary:
-    - 'Replaced: original story flagged as stale (Story describes ''the Visa-Mastercard
-      agentic payments alliance'' but the correct name is Agentic Payments Alliance
-      (APA), announced Aug 18 by Rain and including 25+ members including Visa and
-      Mastercard—not a Visa-Mastercard joint initiative. Core event (Sumsub-Sumvin
-      partnership) dates to early August 2026, more than 5 days old as of Sept 22.);
-      swapped in a candidate sourced from a live web search (not in today''s RSS feeds).'
-    - 'Note: the replacement was also flagged — Standfirst opens by naming ''The decision''
-      which is vague and scene-setting before the substantive point. Rule: ''Do not
-      open a paragraph with "The deal is far from certain" or equivalent hedging scene-setters
-      that delay the substantive point.'' The standfirst should open directly with
-      what the ECB is doing, not with ''The decision to...'''
-    - 'Note: the replacement was also flagged — Standfirst does not name the organisation
-      that appears in the headline (ECB), but this is correct per rule [1]. However,
-      the standfirst''s opening ''The decision to become a direct investor'' is a
-      vague temporal/thematic reference rather than anchoring the reader in the specific
-      development. Rule: ''The standfirst must name the specific stakes or consequences
-      of the story — naming the initiatives, programmes or competitive dynamics affected
-      — rather than making a generic thematic claim.'''
-    - 'Note: the replacement was also flagged — Body text uses ''distributed ledger
-      technology transactions'' on first mention but uses the abbreviation ''DLT''
-      later without having introduced ''DLT'' in parentheses on first use in the body.
-      The standfirst mentions ''DLT'' but per rule on abbreviations in standfirst
-      vs body: ''When an abbreviation such as "EPI" is spelled out in the standfirst,
-      the body must still introduce the full form on first use.'' Rule violation:
-      ''DLT'' should be introduced as ''distributed ledger technology (DLT)'' on first
-      body mention.'
-    - 'Note: the replacement was also flagged — Body text: ''Societe Generale'' should
-      be rendered without the accent as ''Societe Generale'' per the rule on foreign
-      diacritics: ''Avoid foreign diacritics and accents in names and proper nouns.''
-      Actually, ''Société Générale'' uses an accent; it should be anglicised to ''Societe
-      Generale''.'
-status: needs_review
-status_reasons:
-- 'Could not resolve: Estonia''s Mifundo partners with Yapily for cross-border credit
-  scoring'
+    - Rewrote body opening sentence to lead with the AI agent and the action rather
+      than repeating 'GoCardless' as the subject, varying the opening across headline,
+      standfirst and body.
+    - Added '(A2A)' parenthetical after first use of 'account-to-account' in the body,
+      then used 'A2A' for subsequent references, per abbreviation rule.
+    - Removed the sentence 'For the broader pay-by-bank market, the demonstration
+      is incremental but directionally significant' which flagged significance explicitly
+      before making a substantive point; the paragraph now leads directly with the
+      substantive claim.
+    - Reframed body opening to avoid near-verbatim repetition of the standfirst's
+      'agentic commerce operating beyond card networks' phrasing.
+    - Headline already spells out 'account-to-account' in full rather than using an
+      abbreviation, so no change was needed there — the issue description's reference
+      to an 'A2A equivalent concept' does not apply since the headline uses the spelled-out
+      form.
+- headline: Alchemy integrates with Mastercard Agent Pay for onchain agentic commerce
+  standfirst: The integration gives blockchain developers a route to embed Mastercard
+    payment credentials into AI agents, bridging onchain infrastructure with traditional
+    card acceptance.
+  body: 'Alchemy, a developer platform for blockchain applications, is integrating
+    its AgentCard product with Mastercard''s Agent Pay service. The partnership allows
+    developers building AI agents on blockchain infrastructure to embed Mastercard
+    payment credentials, enabling those agents to complete purchases at merchants
+    that accept Mastercard without requiring bespoke payment integrations.
+
+
+    Mastercard launched Agent Pay as part of its broader push to standardise how AI
+    agents authenticate and transact across its network. Alchemy''s integration extends
+    that capability into the onchain economy, where AI agents are increasingly being
+    built to manage wallets, execute transactions and interact with decentralised
+    applications. By linking these agents to Mastercard''s existing merchant acceptance
+    network, the partnership sidesteps the limited merchant footprint that constrains
+    many crypto-native payment methods.
+
+
+    Mastercard has been building out its agentic payments architecture over the past
+    year, and Alchemy''s integration adds a blockchain-native distribution channel.
+    Card networks are positioning onchain developers as a meaningful source of future
+    transaction volume.'
+  editorial_note: This extends the agentic payments infrastructure story into the
+    intersection of card networks and blockchain platforms, a convergence relevant
+    to European issuers and processors evaluating how AI agent commerce will settle.
+  sources: '[Alchemy integrates with Mastercard''s Agent Pay](https://www.finextra.com/pressarticle/110970/alchemy-integrates-with-mastercards-agent-pay?utm_medium=rssfinextra&utm_source=finextrafeed)
+    — Finextra'
+  style_check:
+    compliant: false
+    warnings:
+    - Standfirst opens by naming 'Mastercard' which is also named in the headline.
+      Rule 1 requires opening with the substantive point instead — begin with 'The
+      integration gives…' or similar, avoiding redundant repetition of the subject.
+    - Body paragraph 2 contains 'The move connects' which announces the significance
+      before explaining it. Rule on 'never flag significance explicitly' — rewrite
+      to state the substantive point directly without framing language.
+    - Body paragraph 3 states 'Mastercard has been systematically building out its
+      agentic payments architecture through 2026' — this is vague temporal reference.
+      Rule requires specific time periods; clarify what period 'through 2026' covers
+      or use a precise date if available.
+    - Body paragraph 3 mentions 'Visa's rival efforts' — this is vague. The rule on
+      'one of a growing number' and specificity requires either naming the rival efforts
+      specifically or removing the vague reference.
+  verification:
+    verified: true
+    stale: false
+    duplicate: false
+    warnings: []
+  revision:
+    replaced: false
+    resolved: true
+    summary:
+    - Standfirst already opens with 'The integration gives…' and does not open by
+      naming Mastercard, so no change was needed — the flagged issue did not apply
+      to the actual text.
+    - Removed 'The move connects two rapidly converging areas of payments infrastructure'
+      from the opening of paragraph 2, which was a significance-flagging sentence.
+      The paragraph now leads directly with the substantive point about Mastercard
+      launching Agent Pay.
+    - Replaced the vague 'through 2026' with 'over the past year' as a more grounded
+      temporal reference. The precise start date of Mastercard's agentic payments
+      buildout could not be confirmed from the source, so a general but non-vague
+      period is used.
+    - Removed the vague reference to 'Visa's rival efforts and the recently formed
+      agentic payments alliance' as these could not be named specifically from available
+      information. The paragraph now states the substantive point directly without
+      unsubstantiated references.
+- headline: ECB official outlines payment strategy for a tokenised world
+  standfirst: In an interview with Deutsche Bank's Flow magazine, Thomas Vlassopoulos,
+    the ECB's head of market infrastructure development, has set out how the central
+    bank sees its payment infrastructure evolving, including TIPS expansion linking
+    the euro area with Denmark and Sweden and the new Project Pontes for tokenised
+    asset settlement.
+  body: 'In an interview published by Deutsche Bank''s Flow magazine, Vlassopoulos
+    laid out the central bank''s strategic thinking on how European payment infrastructure
+    must adapt to a tokenised financial landscape. He described a window of opportunity
+    for Europe to shape the infrastructure connecting tokenised assets with central
+    bank money, while warning that the window will not remain open indefinitely.
+
+
+    The interview covers the ECB''s parallel workstreams: the recently launched Project
+    Pontes, which aims to connect tokenised assets with central bank money settlement;
+    the expansion of TIPS for cross-currency instant payments, which went live linking
+    the euro area with Denmark and Sweden in June; and the pipeline for further interlinking,
+    including the Swiss Interbank Clearing instant payments system and the Norwegian
+    krone. Vlassopoulos framed these as complementary layers of a broader strategy
+    to ensure European payment sovereignty extends into both real-time retail and
+    wholesale tokenised markets.
+
+
+    Vlassopoulos''s emphasis on urgency echoes the Bank of Finland''s earlier framing
+    of payment autonomy as a geopolitical imperative, and aligns with the European
+    Parliament''s recent vote to advance the digital euro to final negotiations. The
+    ECB expects the transition from pilot to production across these programmes to
+    move quickly, with the infrastructure official responsible for building these
+    systems signalling that the current window for Europe to set the terms will not
+    stay open.'
+  editorial_note: A senior ECB infrastructure official setting out integrated strategy
+    across Pontes, TIPS cross-currency expansion, and tokenisation provides a rare
+    joined-up view of how European payment rails are being redesigned. Material for
+    anyone planning around these initiatives.
+  sources: '[Thomas Vlassopoulos on the ECB''s payment strategy in a tokenised world
+    – Deutsche Bank](https://flow.db.com/Topics/cash-management/europe-has-a-window-of-opportunity-but-it-will-not-be-open-forever)
+    — Flow'
+  style_check:
+    compliant: false
+    warnings:
+    - Standfirst opens by naming Thomas Vlassopoulos and his title, then repeats this
+      information verbatim in the body's opening sentence ('Thomas Vlassopoulos, head
+      of market infrastructure development at the ECB'). While the rule permits restating
+      the standfirst's point in different wording in the body, near-identical repetition
+      of the same phrasing across standfirst and body violates the spirit of avoiding
+      redundancy. Consider varying the body's opening — eg, 'In an interview published
+      by Deutsche Bank's Flow magazine, Vlassopoulos laid out...'
+    - 'Third paragraph opens with ''The remarks carry weight because they come from
+      the official responsible for building the infrastructure that underpins these
+      initiatives.'' This explicitly flags significance before stating the substantive
+      point, violating the rule against announcing importance (''This matters because'',
+      ''The significance here is'', etc.). Recast as: ''Vlassopoulos''s emphasis on
+      urgency echoes the Bank of Finland''s earlier framing...'' to lead directly
+      with substance.'
+    - Third paragraph states 'For banks and payment providers, the message is that
+      the ECB expects the transition from pilot to production across these programmes
+      to move quickly.' This frames relevance with an audience-address clause ('For
+      banks and payment providers'), violating the rule against opening paragraphs
+      with such constructions. Integrate the implication directly into the narrative
+      instead — eg, 'Banks and payment providers should expect the ECB to accelerate
+      the transition from pilot to production...'
+    - 'Standfirst uses ''cross-currency instant payments'' without explaining what
+      this expansion entails. Body clarifies it ''went live linking the euro area
+      with Denmark and Sweden in June'', but the standfirst lacks this specificity.
+      The standfirst must name the specific stakes or consequences rather than making
+      a generic thematic claim. Consider: ''...the central bank sees its payment infrastructure
+      evolving, including TIPS expansion linking the euro area with Denmark and Sweden''.'
+  verification:
+    verified: false
+    stale: false
+    duplicate: false
+    warnings:
+    - 'Could not independently verify: The cited Deutsche Bank Flow interview with
+      Vlassopoulos. The publication date of the source article itself could not be
+      confirmed, only the existence of Deutsche Bank''s Flow magazine.'
+  revision:
+    replaced: false
+    resolved: true
+    summary:
+    - Revised body opening to lead with 'In an interview published by Deutsche Bank's
+      Flow magazine, Vlassopoulos laid out…' to avoid near-verbatim repetition of
+      the standfirst's naming and titling of Vlassopoulos.
+    - Removed the explicit significance-flagging sentence ('The remarks carry weight
+      because they come from the official responsible…') from the third paragraph
+      and led directly with the substantive point about Vlassopoulos's emphasis on
+      urgency.
+    - Removed the audience-address clause 'For banks and payment providers, the message
+      is that…' and recast the final sentence to state the ECB's expectation directly
+      without framing it as a message to a named audience.
+    - Revised standfirst to name specific stakes — TIPS expansion linking the euro
+      area with Denmark and Sweden, and Project Pontes — rather than making a generic
+      thematic claim about tokenised assets and cross-currency instant payments.
+status: ready
