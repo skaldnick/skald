@@ -2,12 +2,4 @@
 # Populated automatically by tools/extract_learning.py (via GitHub Actions on push
 # to data/feedback/). Review and promote/edit in the dashboard's 'Proposed style
 # rules' section — accepted rules move to prompts/payments/style_rules.yaml.
-- date: '2026-09-22'
-  rule: Do not cover stories that are very minor in significance — that is, developments
-    with little or no material impact on the European payments industry. If a story
-    would not meaningfully inform a payments professional's understanding of the sector,
-    reject it.
-- date: '2026-09-22'
-  rule: Do not cover a story that duplicates one already included in the same briefing
-    or recently covered. If the same development has already been reported, reject
-    the duplicate rather than running a second version.
+[]
