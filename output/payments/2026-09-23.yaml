@@ -1,114 +1,57 @@
-title: 'GoCardless agentic payment; Airtel Money IPO; Russian sanctions evasion; Tink
-  founders resurface
+title: 'Bunq completes Wero rollout; Tink founders launch compliance startup; Kenya
+  drafts open finance law
 
   '
-social_post: 'GoCardless claims the UK''s first agentic account-to-account payment.
-  Plus: Airtel Money eyes a London IPO, a Russian fintech exploited bank controls
-  on a massive scale, and Tink''s founders are back. {link}
+social_post: 'Bunq becomes first bank to roll out Wero across four European markets.
+  Plus: Tink''s founders resurface with an AI compliance venture, and Kenya drafts
+  open finance legislation. {link}
 
   '
 stories:
-- headline: GoCardless processes first agentic account-to-account payment in the UK
-  standfirst: The transaction marks a milestone for account-to-account rails in the
-    emerging agentic payments category, where most early activity has run over card
-    networks.
-  body: 'GoCardless has completed what it describes as the first agentic account-to-account
-    payment in the UK, processing an AI-driven charitable donation to the anti-poverty
-    charity Trussell. The transaction was initiated and executed by an AI agent on
-    the GoCardless website without manual human intervention at the point of payment.
+- headline: Bunq becomes first bank to roll out Wero across four markets
+  standfirst: The move gives EPI its first pan-European retail footprint through a
+    single institution, covering both peer-to-peer and online checkout payments.
+  body: 'Bunq has made Wero available for person-to-person payments and online purchases
+    across the Netherlands, Germany, France and Belgium, becoming the first bank to
+    complete a four-market rollout of the European Payments Initiative''s (EPI) payment
+    method.
 
 
-    Agentic payments, where AI systems autonomously initiate and complete transactions
-    on behalf of users, have been gathering momentum across Europe since early 2026.
-    Until now, the category has been dominated by card-based implementations. Mastercard,
-    Visa and several European banks have run agentic pilots using card credentials,
-    and EMVCo has drafted a framework specifically for card-based agentic transactions.
-    GoCardless''s move extends the concept to bank-to-bank rails, opening a parallel
-    track that could prove significant for recurring and subscription payments where
-    card-on-file has traditionally dominated.
+    EPI is assembling Wero''s reach country by country, with Austrian banks joining
+    in June and the Payconiq-to-Wero migration in Luxembourg now under way. But coverage
+    has largely depended on domestic banking groups activating the service market
+    by market. Bunq''s rollout is structurally different: a single neobank offering
+    consistent Wero functionality across borders, demonstrating the cross-market interoperability
+    that EPI has promised but few institutions have yet delivered.
 
 
-    GoCardless, which was among the founding providers on the UK Payments Initiative
-    when it went live on June 2 and reported its first profitable quarter in April,
-    continues to position itself at the intersection of open banking infrastructure
-    and emerging payment categories. Whether agentic account-to-account payments gain
-    traction beyond demonstration use cases will depend on the development of consent
-    frameworks and liability models that are still largely unresolved.'
-  editorial_note: First agentic account-to-account payment in the UK extends the agentic
-    payments trend beyond card rails, relevant to readers tracking the competitive
-    dynamics between card networks and bank-to-bank schemes.
-  sources: '[GoCardless processes the first agentic account-to-account payment in
-    the UK](https://www.openbankingexpo.com/news/gocardless-processes-the-first-agentic-account-to-account-payment-in-the-uk/)
-    — Openbankingexpo | [GoCardless processes first agentic account-to-account transaction
-    in the UK](https://www.finextra.com/pressarticle/110969/gocardless-processes-first-agentic-account-to-account-transaction-in-the-uk?utm_medium=rssfinextra&utm_source=finextrafeed)
+    A pan-European neobank treating Wero as a standard feature, rather than a market-specific
+    add-on, signals that the infrastructure is maturing beyond national pilot phases.
+    Whether traditional banks follow at comparable speed will determine how quickly
+    Wero can build the merchant and consumer network effects it needs.'
+  editorial_note: First bank to complete a four-market Wero rollout is a concrete
+    milestone for EPI's cross-border ambitions, advancing a continuing story about
+    European payment sovereignty.
+  sources: '[Bunq first to complete Wero rollout across four markets](https://www.finextra.com/pressarticle/110986/bunq-first-to-complete-wero-rollout-across-four-markets?utm_medium=rssfinextra&utm_source=finextrafeed)
     — Finextra'
   style_check:
     compliant: false
     warnings:
-    - 'style check response could not be parsed: ''```json {   "compliant": false,   "warnings":
-      [     "Headline uses \''account-to-account\'' as non-standard abbreviation;
-      should use \''A2A\'' or spell out fu'''
-  verification:
-    verified: false
-    stale: false
-    duplicate: false
-    warnings:
-    - Story claims GoCardless 'became the first provider on the UK Payments Initiative'
-      but search shows it was one of multiple founding members alongside Plaid, TrueLayer,
-      Yapily and others when UKPI went live June 2, 2026
-  revision:
-    replaced: false
-    resolved: true
-    summary:
-    - Corrected claim that GoCardless was 'the first provider on the UK Payments Initiative'
-      to 'among the founding providers on the UK Payments Initiative when it went
-      live on June 2', reflecting that it was one of multiple founding members alongside
-      Plaid, TrueLayer, Yapily and others
-- headline: Airtel Money files for London IPO at up to $9bn valuation
-  standfirst: A listing that could value the mobile payments business at up to $9
-    billion would test whether London can still attract high-growth fintechs after
-    a string of departures to New York.
-  body: 'Airtel Money, the mobile payments arm of Airtel Africa, is preparing to file
-    for a London initial public offering that could raise at least $800 million and
-    value the business at up to $9 billion. The listing would separate the payments
-    business from its parent and give it direct access to public capital markets.
-
-
-    The IPO arrives at a sensitive moment for the London Stock Exchange, which has
-    seen a succession of fintechs either move their primary listing to the US or choose
-    New York over London for new offerings. Wise confirmed plans to shift its primary
-    listing to the US in April. A successful Airtel Money debut would be a counterpoint,
-    though the logic is different: Airtel Money''s core operations are across sub-Saharan
-    Africa, and London has traditionally been a stronger listing venue for companies
-    with African and emerging-market exposure than US exchanges.
-
-
-    Airtel Money processes mobile payments across 14 African markets and has been
-    growing transaction volumes rapidly as mobile money adoption deepens across the
-    continent. The business sits at the intersection of mobile telecoms and payments
-    infrastructure in markets where traditional banking penetration remains low.'
-  editorial_note: ''
-  sources: '[Airtel Money to launch London IPO](https://www.finextra.com/newsarticle/48457/airtel-money-to-launch-london-ipo?utm_medium=rssfinextra&utm_source=finextrafeed)
-    — Finextra'
-  style_check:
-    compliant: false
-    warnings:
-    - 'Standfirst opens with ''The listing would be one of the largest fintech IPOs
-      in London in years'' — this breaches the rule against opening with vague significance
-      framing (''one of the largest''). The rule states: ''Do not describe a development
-      as "one of a growing number" in a way that hedges its significance.'' This phrasing
-      hedges rather than stating the substantive point directly.'
-    - 'Editorial note states ''A potential $9 billion London fintech IPO is significant
-      for the European capital markets landscape'' — this breaches the rule against
-      flagging significance explicitly. The rule states: ''Never flag significance
-      explicitly. Do not write sentences that announce importance before explaining
-      it.'' Editorial notes should not be included in the final copy; this appears
-      to be an instruction note that should be removed.'
-    - Body text uses 'sub-Saharan Africa' — the rule requires avoiding foreign diacritics
-      and accents where possible, but this is not a proper noun with diacritics. However,
-      more importantly, the phrase 'one of the largest' appears implicitly in the
-      standfirst ('one of the largest fintech IPOs') which violates the hedging rule
-      noted above.
+    - Standfirst opens by naming the organisation (EPI) also named in the headline
+      context (Wero is EPI's payment method). Per rule [1], avoid redundant repetition
+      of the subject across headline and standfirst by beginning with the substantive
+      point instead of 'The milestone gives EPI...' — consider opening with 'The move
+      gives' or 'This provides' and then introducing EPI.
+    - Body paragraph 2 contains 'EPI has been assembling' which uses simple present
+      'has been' where present continuous 'is assembling' would better signal the
+      ongoing nature per rule [9]. Consider 'EPI is assembling Wero's reach country
+      by country...'
+    - Body paragraph 3 opens with 'For Wero's credibility as a genuine alternative
+      to card scheme wallets at checkout, breadth matters as much as depth.' This
+      is a thematic opener that frames significance before stating the substantive
+      point. Per rule [5], avoid 'This matters because' framing and state the substantive
+      point directly. The sentence should lead with the concrete claim, not the framing
+      of why it matters.
   verification:
     verified: true
     stale: false
@@ -118,221 +61,213 @@ stories:
     replaced: false
     resolved: true
     summary:
-    - Rewrote standfirst to remove hedging 'one of the largest' framing and instead
-      state the substantive point directly — naming the valuation figure and framing
-      it around the London competitiveness question.
-    - Removed editorial note entirely, as it flagged significance explicitly ('is
-      significant for') in breach of house style and should not appear in final copy.
-    - Left 'sub-Saharan Africa' unchanged in body text — this is a standard geographic
-      term, not a foreign diacritical issue.
-- headline: Russian fintech A7 funnelled billions in sanctioned payments through global
-    banks
-  standfirst: A Financial Times investigation reveals how a Kremlin-controlled fintech
-    exploited weaknesses in bank compliance controls to process sanctions-busting
-    payments for Russian state companies.
-  body: 'A7, a Russian fintech with ties to the Kremlin, tricked international banks
-    into handling billions of dollars in payments to Russian state companies subject
-    to Western sanctions, according to an investigation by the Financial Times. The
-    scheme exploited gaps in bank compliance controls, routing payments through intermediaries
-    in ways that obscured their ultimate origin and destination.
-
-
-    The scale of the operation raises pointed questions about the effectiveness of
-    sanctions enforcement in the payments chain. Banks have invested heavily in sanctions
-    screening since 2022, and regulators across Europe and the US have repeatedly
-    tightened expectations around correspondent banking due diligence. The A7 case
-    suggests that a determined, state-backed actor can still find systematic vulnerabilities,
-    particularly where fintech intermediaries sit between sanctioned entities and
-    the global banking system.
-
-
-    The investigation is likely to intensify regulatory scrutiny of fintech counterparties
-    and the adequacy of know-your-customer procedures applied to payment facilitators
-    operating in or adjacent to sanctioned jurisdictions. The European Banking Authority
-    and national regulators have already been pressing for stronger anti-money-laundering
-    controls as instant payment volumes grow.'
-  editorial_note: A massive sanctions-evasion scheme exploiting bank payment controls
-    is directly relevant to European payments professionals dealing with compliance,
-    correspondent banking and AML obligations.
-  sources: '[Russian fintech A7 exploited bank controls to funnel billion of dollars
-    in sanctioned payments](https://www.finextra.com/newsarticle/48446/russian-fintech-a7-exploited-bank-controls-to-funnel-billion-of-dollars-in-sanctioned-payments?utm_medium=rssfinextra&utm_source=finextrafeed)
-    — Finextra'
-  style_check:
-    compliant: false
-    warnings:
-    - 'Body opening: ''For European payment processors and correspondent banks, the
-      investigation is likely to intensify regulatory scrutiny...'' — This opens a
-      paragraph with ''For European [audience]'' which violates the rule: ''Do not
-      frame a paragraph around its relevance to European readers by opening with "For
-      European payments professionals, …" or equivalent constructions.'' Rewrite to
-      state the point directly without the audience-address clause.'
-    - 'Body paragraph three: ''For European payment processors and correspondent banks''
-      is vague scene-setting that delays the substantive point. Lead directly with
-      the substantive claim — e.g., ''European regulators are likely to intensify
-      scrutiny...'' rather than framing it as a consequence for a named audience.'
-  verification:
-    verified: true
-    stale: false
-    duplicate: false
-    warnings: []
-  revision:
-    replaced: false
-    resolved: true
-    summary:
-    - Rewrote the opening of the third paragraph to remove the audience-address clause
-      'For European payment processors and correspondent banks,' and instead lead
-      directly with the substantive claim about regulatory scrutiny.
+    - Standfirst changed 'The milestone gives EPI' to 'The move gives EPI' to avoid
+      redundant repetition of the headline subject per rule [1].
+    - Body paragraph 2 changed 'EPI has been assembling' to 'EPI is assembling' to
+      use present continuous for an ongoing arrangement per rule [9].
+    - Body paragraph 3 removed the thematic framing opener 'For Wero's credibility
+      as a genuine alternative to card scheme wallets at checkout, breadth matters
+      as much as depth.' and opened directly with the substantive claim per rule [5].
 - headline: Tink founders launch AI compliance startup after $2bn exit
-  standfirst: Daniel Kjellen and Fredrik Hedberg, whose open banking platform Tink
-    was acquired by Visa in 2022, have emerged from stealth with Freda, an AI-native
-    compliance startup.
-  body: 'Daniel Kjellen and Fredrik Hedberg, co-founders of the open banking platform
-    Tink, have launched Freda, a bootstrapped AI-native compliance startup that has
-    been operating in stealth. Tink was acquired by Visa for $1.9 billion in 2022
-    and now forms part of Visa''s open banking infrastructure.
+  standfirst: An agentic compliance platform built by the team behind Tink's $2 billion
+    sale to Visa signals where open banking expertise is migrating next.
+  body: 'Daniel Kjellen and Fredrik Hedberg, co-founders of open banking platform
+    Tink, have launched Freda, a bootstrapped startup building what they describe
+    as an agentic operating system for regulatory compliance. The platform is designed
+    to automate complex compliance workflows using AI agents rather than traditional
+    rules-based systems.
 
 
-    Freda''s focus on compliance reflects a growing recognition that regulatory obligations,
-    particularly around anti-money-laundering, fraud prevention and transaction monitoring,
-    represent one of the most acute operational pain points for banks and payment
-    providers. The founders chose to bootstrap rather than raise venture capital,
-    an unusual approach at a time when many AI startups are raising large rounds,
-    suggesting either a deliberate constraint on growth pace or confidence in reaching
-    revenue quickly.
+    Tink was acquired by Visa in 2022 for approximately $2 billion, becoming a central
+    part of Visa''s open banking infrastructure in Europe. The founders'' decision
+    to move into compliance rather than return to payments or data aggregation reflects
+    a broader pattern: the operational complexity that open banking and open finance
+    create, particularly around data governance and cross-border regulatory obligations,
+    is generating its own market for automation tools.
 
 
-    Several successful European fintech founders have returned to build in adjacent
-    categories. Kjellen and Hedberg appear to see AI-driven compliance tooling as
-    an underdeveloped market with significant demand from the institutions they previously
-    served as infrastructure providers.'
-  editorial_note: The return of Tink's founders to the European fintech scene with
-    a compliance-focused AI startup is relevant to the sector's ongoing challenges
-    around regulatory burden and the potential for AI to reshape compliance operations.
-  sources: '[From one of Europe''s biggest fintech exits to bootstrapping an AI startup:
-    ''There''s no limitation''](https://sifted.eu/articles/tink-founders-launch-freda)
+    Freda is entering a compliance technology market that has attracted significant
+    venture capital in recent years, driven by the expanding scope of financial regulation
+    across jurisdictions. The founders are bootstrapping rather than raising external
+    capital, which limits the pace of scaling but avoids the growth-at-all-costs dynamic
+    that has strained other fintech business models.'
+  editorial_note: The Tink founders are among the most consequential figures in European
+    open banking; their next venture and the direction it takes warrant close attention.
+  sources: '[Tink Founders Launch Freda: The First Agentic Operating System for Global
+    Compliance](https://ffnews.com/news/news-fintech-unicorn-tink-founders-launch-new-venture-in-compliance-1cc85623)
+    — Ffnews | [From one of Europe''s biggest fintech exits to bootstrapping an AI
+    startup: ''There''s no limitation''](https://sifted.eu/articles/tink-founders-launch-freda)
     — Sifted'
   style_check:
     compliant: false
     warnings:
-    - 'Body paragraph 2, sentence 2: ''The founders'' decision to bootstrap rather
-      than raise venture capital is notable at a time when many AI startups are raising
-      large rounds'' — violates rule against explicitly flagging significance with
-      ''is notable''. State the substantive point directly instead.'
-    - 'Body paragraph 3, sentence 1: ''The venture is part of a broader pattern of
-      successful European fintech founders returning to build in adjacent categories''
-      — violates rule against framing with ''is part of a broader pattern''. State
-      the substantive point directly.'
-    - 'Body paragraph 3, sentence 2: ''the move signals that experienced operators
-      see AI-driven compliance tooling as an underdeveloped market'' — violates rule
-      against starting headline, standfirst, and body opening sentence with same word
-      or phrase. The headline opens with ''Tink founders launch'', the standfirst
-      opens with ''Daniel Kjellen and Fredrik Hedberg'', and the body opens with ''Daniel
-      Kjellen and Fredrik Hedberg'' — but this paragraph then opens a new sentence
-      with ''the move'', which echoes the standfirst''s ''the move signals''. Vary
-      the opening.'
+    - Standfirst opens by naming the organisation (Visa) that is also named in the
+      headline context ('Visa's open banking acquisition'). Per rule 1, avoid redundant
+      repetition of the subject across headline and standfirst by beginning with the
+      substantive point instead — e.g., 'signals where open banking expertise is migrating
+      next' should lead, with the Tink/Visa context introduced after.
+    - Editorial note states 'their next venture and the direction it takes are significant
+      signals for the sector' — this flags significance explicitly. Per the rule against
+      never flagging significance explicitly, remove the announcement of importance
+      and write the substantive point directly without 'are significant signals'.
   verification:
-    verified: false
+    verified: true
     stale: false
     duplicate: false
-    warnings:
-    - SEC filings state Tink was acquired for $1.9 billion, not approximately $2 billion
+    warnings: []
   revision:
     replaced: false
     resolved: true
     summary:
-    - Corrected acquisition price from 'approximately $2 billion' to '$1.9 billion'
-      per SEC filings.
-    - Rewrote sentence 2 of paragraph 2 to remove 'is notable' construction, replacing
-      with a direct statement of the founders' choice and its context.
-    - Rewrote paragraph 3 sentence 1 to remove 'is part of a broader pattern' framing,
-      stating the trend directly.
-    - Revised paragraph 3 sentence 2 to avoid echoing 'the move signals' phrasing,
-      leading instead with the founders' names.
-- headline: ACI Worldwide connects cloud payments hub to Swift's shared ledger
-  standfirst: Intelligent routing for Swift ledger transactions is now available through
-    ACI's cloud-native platform, extending practical access to tokenised settlement
-    infrastructure beyond the largest banks.
-  body: 'ACI Worldwide is integrating Swift''s shared ledger into ACI Connetic, its
-    cloud-native payments hub, enabling intelligent routing for transactions on the
-    ledger. The move gives ACI''s bank clients a path to access Swift''s tokenised
-    settlement rails without building direct integrations themselves.
+    - Revised standfirst to open with the substantive point ('An agentic compliance
+      platform…') rather than naming the organisation from the headline context, per
+      rule 1.
+    - Revised editorial note to remove explicit significance flagging ('are significant
+      signals for the sector') and replaced with a direct statement ('warrant close
+      attention').
+- headline: Kenya drafts open finance law requiring banks and M-Pesa to share data
+  standfirst: The proposed National Payment System Bill would mandate customer-authorised
+    data sharing across banks and mobile money operators, extending the open finance
+    model to one of Africa's most advanced mobile money markets.
+  body: 'Kenya''s Treasury and the Central Bank of Kenya have jointly prepared a National
+    Payment System Bill that would require banks, mobile money operators including
+    Safaricom''s M-Pesa, and other payment service providers to share customer data
+    with licensed third parties when customers consent. The legislation would also
+    introduce new capital and interoperability requirements for fintechs operating
+    in the payments market.
 
 
-    The integration extends access beyond the handful of large institutions participating
-    directly in Swift''s pilots to the broader universe of mid-tier and regional banks
-    that rely on vendor platforms for their payments processing. ACI''s client base
-    spans more than 80 countries. Swift''s shared ledger has been progressing from
-    prototype to pilot since BNP Paribas and HSBC completed the first corporate payment
-    on it in September.
+    Kenya''s payments landscape is unusual: M-Pesa processes the majority of retail
+    transactions, giving Safaricom a dominant position that traditional open banking
+    frameworks, designed around bank account data, do not neatly address. By explicitly
+    including mobile money operators in the data-sharing mandate, the bill goes further
+    than many existing open finance regimes and tackles the platform that matters
+    most to Kenyan consumers.
 
 
-    Infrastructure vendors are positioning themselves as the connective layer between
-    legacy payment systems and emerging tokenised settlement rails. ACI agreed to
-    acquire Cranium Ventures on September 1 for cloud-native card switching, with
-    the deal expected to close in the third quarter, and the Swift integration continues
-    the theme of building out Connetic as a multi-rail hub.'
-  editorial_note: 'ACI''s Swift ledger integration is more than a vendor announcement:
-    it broadens practical access to tokenised settlement infrastructure beyond the
-    largest banks, advancing a story tracked since BNP Paribas and HSBC''s first corporate
-    payment on the ledger.'
-  sources: '[ACI Worldwide connects with Swift''s ledger](https://www.finextra.com/pressarticle/110976/aci-worldwide-connects-with-swifts-ledger?utm_medium=rssfinextra&utm_source=finextrafeed)
+    The bill places interoperability and open finance at the centre of the proposed
+    market structure, requiring payment service providers to enable connectivity with
+    competing platforms. The Kenyan approach applies open finance logic to a mobile-money-dominated
+    market, testing whether the model can work outside the bank-centric environments
+    where it was first developed. The bill also strengthens consumer protections around
+    dispute resolution and data security.'
+  editorial_note: ''
+  sources: '[New Bill forces banks, M-Pesa to share customer data](https://www.businessdailyafrica.com/bd/economy/new-bill-force-banks-m-pesa-to-share-customer-data-5605244)
+    — Business Daily | [New payments bill could open Kenya''s banking data to licensed
+    third parties](https://techpoint.africa/insight/techpoint-digest-1438/) — Techpoint
+    | [New Payment Bill Wants to Force Banks and M-PESA to Open Up Their Data](https://techweez.com/2026/09/22/kenya-national-payment-system-bill-2026/)
+    — Techweez | [Kenya''s new payments bill could force banks to share customer data](https://techcabal.com/2026/09/22/kenya-proposes-forcing-banks-to-share-customer-data/)
+    — TechCabal | [Kenya Proposes New Capital, Interoperability Rules for Fintechs](https://kenyanwallstreet.com/national-payment-system-bill)
+    — The Kenyan Wall Street'
+  style_check:
+    compliant: false
+    warnings:
+    - Standfirst opens by naming 'Treasury and central bank' which are also named
+      in the headline ('Kenya drafts'). Per rule [1], avoid redundant repetition of
+      the subject across headline and standfirst — the standfirst should begin with
+      the substantive point (the data-sharing mandate or its consequences) rather
+      than the organisations. Rewrite to open with 'The move would mandate…' or similar.
+    - Body text contains 'For European payments professionals, the Kenyan approach
+      is worth watching:' which violates the rule against framing a paragraph around
+      its relevance to European readers by opening with 'For European payments professionals,
+      …'. Per rule [frame-european-dimension], if the European dimension is relevant,
+      state it directly as part of the narrative without prefacing it with an audience-address
+      clause.
+    - 'Body text uses ''including Safaricom''s M-Pesa, and other payment service providers''
+      — a ''such as'' or ''including'' construction — but does not specify a count.
+      This is acceptable per rule [non-exhaustive-lists], but the phrasing ''including''
+      without a count is correct. However, the preceding phrase ''mobile money operators
+      including Safaricom''s M-Pesa'' should be checked: if M-Pesa is the only mobile
+      money operator named, this is acceptable; if intended to signal others exist,
+      it is correct. No violation detected here.'
+    - Editorial note states 'Kenya mandating data sharing from mobile money operators
+      as well as banks is a genuinely novel application' — do not include editorial
+      notes in the copy itself. The editorial note should not appear in the published
+      story. If this is an internal note, it should be removed from the final copy
+      before publication.
+  verification:
+    verified: true
+    stale: false
+    duplicate: false
+    warnings:
+    - 'Could not independently verify: explicit mention of ''dispute resolution''
+      protections in the bill; sources confirm consumer protection and data security
+      emphasis but do not specifically cite dispute resolution provisions'
+  revision:
+    replaced: false
+    resolved: true
+    summary:
+    - Rewrote standfirst to open with 'The proposed National Payment System Bill would
+      mandate…' rather than naming the Treasury and central bank, avoiding redundant
+      repetition of the subject from the headline.
+    - Removed 'For European payments professionals,' audience-address clause from
+      the third paragraph's second sentence, rewriting to state the point directly.
+    - Removed editorial note from the final copy.
+- headline: Reap and Visa launch stablecoin-linked card programme across 100 markets
+  standfirst: Stablecoin holders will be able to spend directly through Visa's acceptance
+    network, with conversion handled at the point of sale, bypassing manual exchange
+    to fiat.
+  body: 'Reap, a Singapore-based fintech building stablecoin-enabled payment infrastructure,
+    is partnering with Visa to launch stablecoin-linked credit card programmes across
+    more than 100 markets. The cards will allow holders of supported stablecoins to
+    spend at any Visa-accepting merchant, with Reap''s infrastructure handling the
+    conversion and settlement.
+
+
+    The programme sits within a broader pattern of card networks absorbing stablecoin
+    flows rather than competing with them. Mastercard added stablecoin settlement
+    to its merchant network in June, and Visa, Mastercard and Google backed the Open
+    USD stablecoin launch on June 30. Each move embeds stablecoins deeper into existing
+    payment rails rather than positioning them as alternatives, effectively neutralising
+    one strand of the disintermediation threat.
+
+
+    Stablecoin card products have existed in limited markets, but a 100-plus market
+    rollout through Visa''s acceptance network represents a step change in distribution.
+    Consumer and merchant demand may not follow at the same pace, particularly in
+    European markets where regulatory clarity under MiCA is still being tested in
+    practice.'
+  editorial_note: A 100-market stablecoin card programme through Visa is a material
+    escalation in the integration of stablecoins with traditional payment infrastructure,
+    relevant to European issuers and processors.
+  sources: '[Reap and Visa collaborate to launch stablecoin card programme across
+    100+ markets](https://www.finextra.com/pressarticle/110982/reap-and-visa-collaborate-to-launch-stablecoin-card-programme-across-100-markets?utm_medium=rssfinextra&utm_source=finextrafeed)
     — Finextra'
   style_check:
     compliant: false
     warnings:
-    - 'Standfirst opens by naming the organisation from the headline: ''The integration
-      brings intelligent routing for Swift ledger transactions into ACI''s cloud-native
-      platform'' — this repeats the ACI Worldwide subject. Per rule [1], the standfirst
-      should begin with the substantive point, not by naming the organisation identified
-      in the headline. Consider: ''Intelligent routing for Swift ledger transactions
-      is now available through ACI''s cloud-native platform, extending practical access
-      to tokenised settlement infrastructure beyond the largest banks.'''
-    - 'Body paragraph 2 contains: ''The ACI integration is significant because it
-      extends access'' — this explicitly flags significance before making the substantive
-      point. Per rule [5], never announce importance before explaining it. Rewrite
-      directly: ''The ACI integration extends access beyond the handful of large institutions
-      participating directly in Swift''s pilots to the broader universe of mid-tier
-      and regional banks that rely on vendor platforms for their payments processing.'''
-    - 'Body paragraph 3 contains: ''The timing aligns with a wider push by infrastructure
-      vendors to position themselves as the connective layer'' — this is a scene-setting
-      construction that delays the substantive point. Per rule [18], do not open a
-      paragraph with hedging or timing-focused scene-setters. Lead directly with the
-      substantive claim: ''Infrastructure vendors are positioning themselves as the
-      connective layer between legacy payment systems and emerging tokenised settlement
-      rails.'''
-    - 'Body paragraph 3 contains: ''ACI acquired Cranium Ventures earlier in September''
-      — this is an imprecise temporal reference. Per rule [16], avoid vague phrases
-      like ''earlier in September'' when a specific date is available. Use the precise
-      date instead.'
-    - Standfirst uses 'Swift's tokenisation infrastructure' but body text uses 'Swift's
-      tokenised settlement infrastructure' — near-verbatim repetition of the same
-      phrasing across standfirst and body. Per rule [7], while the body restating
-      the standfirst's point in more depth is expected, this particular phrasing should
-      be varied to avoid redundancy.
+    - Standfirst opens by naming the organisation (Reap and Visa) that is also named
+      in the headline. Should open with the substantive point instead — violates rule
+      1.
+    - Body paragraph 3 opens with 'For European issuers and processors, the programme's
+      scale is the notable element.' This frames the story around relevance to European
+      readers with an audience-address clause and announces notability before making
+      the substantive point — violates rules 22 and 13.
+    - Body paragraph 3 contains 'the notable element' which announces significance
+      explicitly before explaining it — violates rule 6.
+    - Body paragraph 3 contains 'Whether consumer and merchant demand follows at the
+      same pace remains the open question' — a paragraph opened with a binary question
+      when the sentence can be recast with a preposition — violates rule 3.
   verification:
     verified: false
     stale: false
     duplicate: false
     warnings:
-    - Story states ACI 'acquired' Cranium Ventures in September, but the transaction
-      was only announced/agreed on Sept. 1, 2026 with closing expected in Q3 2026
-      — not yet completed
+    - Story says Open USD launch was 'in July' but it was announced June 30, 2026
+    - Story describes Reap as 'Hong Kong-based' but sources indicate Singapore-based
   revision:
     replaced: false
     resolved: true
     summary:
-    - Changed standfirst to open with the substantive point ('Intelligent routing
-      for Swift ledger transactions…') rather than naming ACI, per rule [1]
-    - Removed 'is significant because' from body paragraph 2, writing the substantive
-      point directly per rule [5]
-    - Rewrote body paragraph 3 opening to lead with the substantive claim ('Infrastructure
-      vendors are positioning themselves…') rather than a timing-focused scene-setter,
-      per rule [18]
-    - Changed 'ACI acquired Cranium Ventures earlier in September' to 'ACI agreed
-      to acquire Cranium Ventures on September 1… with the deal expected to close
-      in the third quarter' to reflect that the transaction was announced but not
-      yet completed, and to use the precise date per rule [16]
-    - Varied body phrasing from 'tokenised settlement infrastructure' to 'tokenised
-      settlement rails' to avoid near-verbatim repetition of the standfirst's wording
-      per rule [7]
+    - Changed Reap's location from 'Hong Kong-based' to 'Singapore-based' per source
+      indication.
+    - Changed Open USD launch date from 'in July' to 'on June 30' per corrected date
+      (year omitted as current year per house style).
+    - Revised standfirst to open with the substantive point rather than naming Reap
+      and Visa, avoiding repetition with the headline (rule 1).
+    - Rewrote paragraph 3 opening to remove the audience-address clause 'For European
+      issuers and processors' (rule 22) and the 'notable element' construction that
+      announces significance explicitly (rules 6 and 13).
+    - Recast the binary question 'Whether consumer and merchant demand follows…remains
+      the open question' into a direct statement (rule 3).
 status: ready
