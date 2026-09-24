@@ -1,301 +1,281 @@
-title: 'Trustly cuts quarter of staff; bunq rolls Wero across four markets; Kenya
-  proposes open finance law
+title: 'Trustly cuts staff; Solaris goes live on instant payments; Atum emerges from
+  stealth
 
   '
-social_post: 'Trustly cuts 200 jobs to chase profitability, bunq takes Wero to four
-  markets, and Kenya drafts open finance legislation. Today''s briefing: {link}
+social_post: 'Trustly cuts a quarter of its workforce, Solaris migrates to cloud-native
+  instant payments, and a former Visa crypto lead launches an open payments network.
+  Today''s briefing: {link}
 
   '
 stories:
-- headline: 'Trustly cuts a quarter of its workforce in profitability push
-
-    '
-  standfirst: 'The Swedish pay-by-bank firm is shedding 200 roles as it narrows its
-    focus to profitable markets, marking a sharp contraction for one of Europe''s
-    most prominent open banking players.
-
-    '
-  body: 'Trustly is cutting roughly 200 jobs, approximately a quarter of its workforce,
-    as part of a restructuring aimed at reducing costs and concentrating on markets
-    where it can achieve profitable growth. The move represents a significant retrenchment
-    for a company that had expanded aggressively across European and North American
-    pay-by-bank markets.
+- headline: Trustly cuts a quarter of its workforce in profitability push
+  standfirst: Around 200 roles are being shed as the pay-by-bank firm narrows its
+    focus to profitable markets, a contraction that underscores the margin pressures
+    facing mid-tier open banking infrastructure providers.
+  body: 'Trustly is cutting roughly 200 jobs, approximately a quarter of its staff,
+    as it moves to reduce costs and concentrate on markets where it can achieve sustainable
+    profitability. The company has not disclosed which geographies or functions are
+    most affected.
 
 
-    The restructuring comes at a moment of consolidation across the European open
-    banking sector. Mollie completed its acquisition of GoCardless earlier this month,
-    while several mid-tier players have struggled to translate transaction volume
-    growth into sustainable margins. Trustly had previously reported growing pay-by-bank
-    volumes but has evidently concluded that breadth of market coverage is no longer
-    viable without a corresponding improvement in unit economics.
+    The reductions come at a difficult moment for the pay-by-bank sector in Europe.
+    While transaction volumes have continued to grow, converting volume growth into
+    profitability has proved elusive for several infrastructure-layer providers that
+    sit between banks and merchants. Trustly''s decision to prioritise margin over
+    scale echoes similar moves across the sector, including GoCardless''s recent path
+    to its first profitable quarter and the consolidation triggered by Mollie''s acquisition
+    of GoCardless.
 
 
-    For the wider sector, the cuts underscore a maturing dynamic: the open banking
-    payments layer in Europe is moving past the phase where growth alone attracted
-    capital and patience. Providers now face pressure to demonstrate that account-to-account
-    payments can be operated profitably at scale, not merely processed at volume.
-
-    '
-  editorial_note: 'A 25% workforce reduction at one of Europe''s largest open banking
-    payments firms is a significant signal about the commercial pressures facing the
-    pay-by-bank sector as it matures.
-
-    '
+    The restructuring reinforces a pattern across European open banking: the firms
+    that built out aggressively during the post-PSD2 expansion phase are now rationalising.
+    The remaining question is about whether leaner operations will be enough or whether
+    further consolidation is inevitable.'
+  editorial_note: Previously covered on September 24 but the Finextra source published
+    today provides the concrete detail (200 jobs, quarter of staff) that warrants
+    a full briefing item. The story illustrates ongoing margin pressure in the European
+    pay-by-bank sector.
   sources: '[Trustly slashes 200 jobs](https://www.finextra.com/newsarticle/48460/trustly-slashes-200-jobs?utm_medium=rssfinextra&utm_source=finextrafeed)
     — Finextra'
   style_check:
     compliant: false
     warnings:
-    - 'Body opening: ''The move represents a significant retrenchment'' — breaches
-      rule against never flagging significance explicitly. Use ''Write the substantive
-      point directly'' without announcing importance.'
-    - 'Body paragraph two, sentence one: ''For the wider sector, the cuts underscore
-      a maturing dynamic'' — breaches rule against framing a paragraph around relevance
-      to European readers by opening with audience-address construction. State the
-      substantive point directly without this framing.'
-    - 'Body paragraph two, sentence two: ''Providers now face pressure to demonstrate
-      that account-to-account payments can be operated profitably at scale, not merely
-      processed at volume'' — breaches rule preferring preposition recast over colon-introduced
-      binary question/construction. Consider recasting with preposition to avoid the
-      ''not merely'' binary framing.'
-    - Standfirst opens with 'The Swedish pay-by-bank firm' but headline names 'Trustly'
-      — while standfirst doesn't repeat the exact name, it still names the organisation
-      from headline immediately. Per rule [1], standfirst should begin with substantive
-      point (the narrowing of focus to profitable markets) rather than reidentifying
-      the company.
+    - 'Standfirst opens by naming ''The Swedish pay-by-bank firm'' which directly
+      restates the subject from the headline ''Trustly''. Per rule [1], the standfirst
+      should begin with the substantive point (the margin pressures or strategic shift)
+      rather than reintroducing the organisation. Consider opening: ''The move signals
+      intensifying margin pressures facing mid-tier open banking infrastructure providers''
+      or similar.'
+    - Body paragraph 2 opens with 'For the broader European open banking market, the
+      restructuring reinforces a pattern:' which frames the point as a generic thematic
+      observation rather than stating the substantive claim directly. Per rule [21],
+      avoid framing with 'For European payments professionals' or equivalent audience-address
+      constructions. State the substantive point directly as part of the narrative.
+    - Body paragraph 2 contains 'The question is whether leaner operations will be
+      enough, or whether further consolidation is inevitable.' This opens a paragraph
+      with a colon-introduced binary question. Per rule [3], this should be recast
+      with a preposition — eg, 'face a strategic question about whether leaner operations
+      will be enough or whether further consolidation is inevitable' rather than introducing
+      it as a posed question.
   verification:
     verified: true
-    stale: true
+    stale: false
     duplicate: false
-    warnings:
-    - Trustly announcement was September 17, 2026 (7 days ago); exceeds 5-day recency
-      threshold
+    warnings: []
   revision:
     replaced: false
-    resolved: false
+    resolved: true
     summary:
-    - Flagged as stale but no unused feed or web candidate was available — kept as-is,
-      editor should review.
-- headline: bunq rolls out Wero across four European markets simultaneously
-  standfirst: A simultaneous four-market launch gives EPI its first pan-European neobank
-    integration, putting Wero in direct competition with iDEAL and card-based wallets
-    on a mobile-first platform.
-  body: 'bunq has launched Wero across the Netherlands, Germany, France and Belgium
-    in a single rollout, making the European Payments Initiative''s (EPI) instant
-    payment product available to its customer base in all four markets at once. The
-    deployment is Wero''s first integration by a pan-European neobank, in contrast
-    to the market-by-market approach taken by traditional banking groups.
+    - Standfirst revised to open with 'Around 200 roles are being shed' rather than
+      'The Swedish pay-by-bank firm', avoiding restating the headline subject per
+      rule [1].
+    - Final paragraph no longer opens with 'For the broader European open banking
+      market' audience-address construction; recast to lead with 'The restructuring
+      reinforces a pattern across European open banking' per rule [21].
+    - Binary question 'The question is whether X or whether Y' recast as 'The remaining
+      question is about whether X or whether Y' using a preposition per rule [3].
+- headline: Solaris migrates SEPA instant payments to ACI's cloud-native platform
+  standfirst: The migration to ACI's Connetic platform positions Solaris to meet the
+    EU Instant Payments Regulation deadline, and signals how banking-as-a-service
+    providers are retooling shared infrastructure ahead of the mandate.
+  body: 'Solaris has consolidated its SEPA instant payments processing onto ACI Worldwide''s
+    cloud-native Connetic platform. The migration brings Solaris''s instant payments
+    capability onto infrastructure purpose-built for the scale and availability requirements
+    of the EU Instant Payments Regulation, which mandates that eurozone payment service
+    providers offer instant euro transfers.
 
 
-    Wero has been steadily expanding its reach since its initial launch, with Austrian
-    banking groups joining earlier this year and the product going live in Luxembourg.
-    Rather than relying on domestic banking relationships, bunq''s rollout pushes
-    Wero through a mobile-first platform whose customers are accustomed to cross-border
-    functionality and digital wallets.
+    As a banking-as-a-service provider underpinning dozens of fintech and corporate
+    programmes, Solaris''s payments infrastructure is a shared dependency for a wide
+    range of downstream clients. Any compliance gap or processing limitation at the
+    platform level would cascade across its partner ecosystem.
 
 
-    The EU''s instant payments regulation, which requires payment service providers
-    to offer instant euro transfers, provides regulatory tailwind. Consumer willingness
-    to use Wero over established alternatives such as iDEAL and card-based wallets
-    remains the central barrier in markets where those incumbents are deeply embedded.'
-  editorial_note: A neobank launching Wero across multiple markets simultaneously
-    is a new distribution model for EPI and a meaningful test of whether the scheme
-    can scale beyond traditional banking channels.
-  sources: '[bunq Wero Rollout spans Four Markets as Neobank Flexes Scale](https://www.financexmagazine.com/post/bunq-wero-rollout-spans-four-markets-as-neobank-flexes-scale)
-    — FinanceX Magazine'
+    ACI''s selection also reflects the company''s growing footprint in European instant
+    payments infrastructure. ACI was chosen to process instant payments for the European
+    Payments Initiative. The Solaris deal extends that reach into the embedded finance
+    segment, where instant payment readiness has lagged behind traditional banks.'
+  editorial_note: A concrete example of how banking-as-a-service providers are retooling
+    ahead of the EU instant payments mandate, with implications for the broader embedded
+    finance ecosystem.
+  sources: '[Solaris goes live on ACI Connetic for instant payments](https://www.investing.com/news/company-news/solaris-goes-live-on-aci-connetic-for-instant-payments-93CH-4914818)
+    — Investing.com | [Solaris Goes Live on ACI Worldwide''s ACI Connetic for SEPA
+    Instant Payments](https://sg.finance.yahoo.com/news/solaris-goes-live-aci-worldwide-100000183.html)
+    — Sg | [Solaris adopts ACI Worldwide''s Connetic for SEPA Instant payments](https://www.streetinsider.com/Corporate+News/Solaris+adopts+ACI+Worldwides+Connetic+for+SEPA+Instant+payments/27098354.html)
+    — StreetInsider'
   style_check:
     compliant: false
     warnings:
-    - 'Body opening sentence: ''The deployment is significant as it represents...''
-      — violates rule against flagging significance explicitly. Remove ''is significant
-      as'' and lead with the substantive point directly.'
-    - 'Body paragraph 1: ''This represents Wero''s first integration by a pan-European
-      neobank'' would be stronger without the significance flag. Rewrite to state
-      the fact directly rather than announcing its importance.'
-    - 'Body paragraph 2: ''The bunq rollout offers a different test of adoption''
-      — this is weak framing. Lead with the substantive claim about the distribution
-      model, not the framing of what it ''offers as a test''.'
-    - 'Standfirst: ''tests whether Wero can gain traction'' — this is hedging language
-      that delays the substantive point. The standfirst should name specific stakes
-      or consequences (e.g., the competitive dynamics with iDEAL or implications for
-      EPI''s scaling strategy) rather than posing a testing scenario.'
-    - 'Body paragraph 2: ''whether bunq''s integration drives meaningful transaction
-      volume will depend on consumer willingness'' — opens with hedging (''will depend
-      on''). Lead directly with the substantive claim about market barriers.'
-    - Headline and standfirst both open with 'bunq/The neobank's' — both elements
-      identify bunq/the neobank in their openings. Vary at least one opening per the
-      rule against identical openings across headline, standfirst, and body.
+    - Standfirst opens by naming 'Germany's largest embedded finance platform' which
+      identifies Solaris, the same organisation named in the headline. Per rule [1],
+      the standfirst should open with the substantive point (e.g., 'The shift positions...')
+      rather than identifying the subject. Rewrite to begin with the action or consequence,
+      not the organisation.
+    - Body text uses vague temporal reference 'earlier this year' when describing
+      ACI's selection for EPI. Per rule [avoid vague temporal references], use a specific
+      date or month if available, or omit if unknown.
+    - 'Paragraph two opens with ''For Solaris, the shift is operationally significant''
+      which explicitly flags significance before explaining it. Per rule [never flag
+      significance explicitly], remove the significance announcement and state the
+      substantive point directly: e.g., ''As a banking-as-a-service provider underpinning
+      dozens of fintech and corporate programmes, Solaris''s payments infrastructure
+      is a shared dependency...'''
+    - Standfirst fails to name specific stakes or programmes affected beyond generic
+      reference to 'EU instant payments regulation deadline'. Per rule [standfirst
+      must name specific stakes], specify which programmes or initiatives are affected
+      (e.g., mention the EU Instant Payments Regulation deadline or reference specific
+      client ecosystems if relevant).
+  verification:
+    verified: true
+    stale: false
+    duplicate: false
+    warnings: []
+  revision:
+    replaced: false
+    resolved: true
+    summary:
+    - Standfirst rewritten to open with 'The migration to ACI's Connetic platform'
+      rather than identifying Solaris/Germany's largest embedded finance platform,
+      per rule [1]. Also named the EU Instant Payments Regulation specifically as
+      the stake, per standfirst specificity rule.
+    - Removed 'earlier this year' from the sentence about ACI's EPI selection. The
+      specific date could not be confirmed from the information available, so the
+      temporal reference was simply dropped rather than guessed at.
+    - Removed 'For Solaris, the shift is operationally significant' opening from paragraph
+      two, per rule against flagging significance explicitly. The paragraph now leads
+      directly with the substantive point about Solaris's role as a shared dependency.
+- headline: Former Visa crypto lead launches open payments network with $13.5m
+  standfirst: The launch adds another entrant to an increasingly crowded infrastructure
+    competition that includes the Linux Foundation's x402 initiative and EMVCo's agentic
+    payments framework, as incumbents and startups alike experiment with protocol-level
+    alternatives to existing rails.
+  body: 'Pete Cooling, formerly head of Visa''s crypto product team, has launched
+    Atum, an open payments network, with $13.5 million in funding. The company has
+    emerged from stealth positioning itself as infrastructure for a payments layer
+    that operates independently of existing card and banking networks.
+
+
+    The launch sits within a broader wave of protocol-level payments ventures. The
+    Linux Foundation''s x402 initiative, EMVCo''s agentic payments framework and the
+    growing number of stablecoin settlement pilots from incumbent networks all point
+    toward a period of experimentation around what the next generation of payment
+    rails might look like. Atum''s pitch is that an open network can achieve what
+    proprietary systems cannot: interoperability without intermediation.
+
+
+    The pedigree of the founding team and the timing of the launch, as both Visa and
+    Mastercard invest heavily in tokenised and AI-native payment capabilities, suggest
+    the competitive landscape for payment infrastructure is widening rather than consolidating.
+    A startup gaining traction against entrenched networks is far from assured, but
+    the volume of capital and talent flowing into alternative rails signals that incumbents
+    can no longer define the terms of competition unchallenged.'
+  editorial_note: A well-funded stealth launch by a credible payments technologist,
+    relevant to European professionals tracking the emerging infrastructure competition
+    beyond cards and traditional account-to-account rails.
+  sources: '[Former Visa crypto lead launches open payments network](https://www.finextra.com/newsarticle/48462/former-visa-crypto-lead-launches-open-payments-network?utm_medium=rssfinextra&utm_source=finextrafeed)
+    — Finextra'
+  style_check:
+    compliant: false
+    warnings:
+    - Headline and standfirst both open with the same subject/action framing ('Former
+      Visa crypto lead launches' / 'Atum has emerged'). Vary the opening in at least
+      one of the elements per rule on avoiding repetition across headline, standfirst,
+      and body opening.
+    - Body paragraph two uses 'Whether a startup can gain traction against entrenched
+      networks remains an open question' which is a hedging scene-setter that delays
+      the substantive point. Lead directly with the substantive claim per the rule
+      against 'The deal is far from certain' constructions.
+    - Standfirst does not name the specific stakes or consequences — it should name
+      the initiatives, programmes or competitive dynamics affected rather than making
+      a generic thematic claim about 'stablecoin settlement and open network design'.
+      Consider naming x402, EMVCo's framework, or other affected parties to anchor
+      reader in specific development.
+    - 'Standfirst uses ''aiming to build'' (future-oriented) when the body states
+      Atum ''has emerged from stealth positioning itself'' (present continuous describing
+      newly announced ongoing arrangement). Align tense: prefer ''is building'' to
+      signal currency per rule on present continuous for newly announced arrangements.'
+  verification:
+    verified: true
+    stale: false
+    duplicate: false
+    warnings: []
+  revision:
+    replaced: false
+    resolved: true
+    summary:
+    - Rewrote standfirst to name specific competitive dynamics (x402, EMVCo's framework)
+      and avoid generic thematic claim, per rule on naming specific stakes or consequences.
+    - Varied standfirst opening so it no longer mirrors headline/body subject framing
+      — now opens with 'The launch' rather than naming Atum again.
+    - Removed 'aiming to build' from standfirst, replacing with present-tense framing
+      per rule on present continuous for newly announced arrangements.
+    - Restructured final paragraph to lead with the substantive claim about competitive
+      landscape widening, removing the hedging scene-setter ('Whether a startup can
+      gain traction… remains an open question') per rule against delaying the substantive
+      point.
+- headline: Canada's largest banks team up to explore tokenised deposit system
+  standfirst: A joint initiative to build a Canadian-dollar tokenised deposit platform
+    adds to the growing body of central bank-adjacent experiments that could shape
+    how European institutions approach programmable money.
+  body: 'Canada''s largest banks have formed a consortium to explore a tokenised deposit
+    system denominated in Canadian dollars, aimed at enabling faster and more efficient
+    programmable payments. The initiative follows a series of similar projects globally,
+    including the ECB''s Project Pontes and Swift''s shared ledger pilots involving
+    BNP Paribas and HSBC.
+
+
+    The Canadian project is distinct in its focus on commercial bank deposits rather
+    than central bank digital currency. That positions it closer to the model being
+    pursued by the global bank consortium announced in September, which is prioritising
+    a euro-denominated stablecoin, and to the tokenised deposit trials run through
+    the BIS''s Project Agora.
+
+
+    The Canadian initiative serves as another data point in the contest between tokenised
+    deposits, stablecoins and CBDCs as the settlement layer for next-generation payments.
+    Each model carries different implications for monetary sovereignty, bank disintermediation
+    and interoperability, and the choices made by major-economy consortia will shape
+    the options available to European institutions weighing their own programmable
+    money strategies.'
+  editorial_note: A major-economy consortium exploring tokenised deposits adds comparative
+    context for European professionals tracking the ECB's Pontes project and the broader
+    debate over programmable money settlement models.
+  sources: '[Canadian banks join forces on tokenised deposits](https://www.finextra.com/newsarticle/48456/canadian-banks-join-forces-on-tokenised-deposits?utm_medium=rssfinextra&utm_source=finextrafeed)
+    — Finextra'
+  style_check:
+    compliant: false
+    warnings:
+    - Standfirst opens by naming the organisation ('Canada's major banks') that is
+      also named in the headline. Per rule 1, the standfirst should begin with the
+      substantive point instead — eg, 'A joint initiative to build a Canadian-dollar
+      tokenised deposit platform adds to...' rather than starting with 'A joint initiative
+      by Canada's major banks...'
+    - Body paragraph 3 opens with 'For European payments strategists, the Canadian
+      initiative is relevant...' This violates the rule against framing a paragraph
+      around its relevance to European readers by opening with audience-address clauses.
+      State the European dimension directly as part of the narrative instead.
+    - Body paragraph 3 contains 'the outcome is far from settled' — a hedging scene-setter
+      that delays the substantive point. Per rule against opening paragraphs with
+      'The deal is far from certain' or equivalent, lead directly with the substantive
+      claim rather than hedging language.
   verification:
     verified: false
     stale: false
     duplicate: false
     warnings:
-    - 'Draft states ''spanning the Netherlands, Germany, France and beyond'' but sources
-      confirm the rollout covers exactly four markets: Netherlands, Germany, France,
-      and Belgium—not a vague ''beyond'''
+    - 'verification response could not be parsed: "I''ll fact-check this story about
+      Canada''s largest banks exploring a tokenised deposit system. Let me search
+      for the key claims. Now let me verify the "'
   revision:
     replaced: false
     resolved: true
     summary:
-    - Replaced 'France and beyond' with 'France and Belgium' to reflect the confirmed
-      four markets.
-    - Removed 'is significant as it represents' from the second sentence of paragraph
-      1, rewriting to state the fact directly without flagging significance.
-    - Revised standfirst to name specific competitive dynamics (iDEAL, card-based
-      wallets) and EPI's scaling strategy rather than posing a hedging 'tests whether'
-      scenario. Also varied the standfirst opening so it no longer begins by identifying
-      bunq/the neobank, matching the rule against identical openings across headline,
-      standfirst, and body.
-    - Rewrote paragraph 2 opening to lead with the substantive claim about the distribution
-      model rather than framing it as 'a different test of adoption'.
-    - Rewrote final sentence of paragraph 3 to lead with the substantive market barrier
-      rather than hedging with 'Whether… will depend on'.
-- headline: Kenya proposes open finance legislation covering banks and mobile money
-  standfirst: A new payments bill would give the Central Bank of Kenya power to mandate
-    consent-based financial data sharing across banks and mobile money providers,
-    extending the open finance model to one of Africa's largest digital payments markets.
-  body: 'Kenya has introduced a payments bill that includes provisions for an open
-    finance framework, granting the Central Bank of Kenya (CBK) the authority to require
-    licensed payment providers to share customer data with authorised third parties,
-    subject to customer consent. The bill covers both banks and mobile money operators,
-    bringing services such as M-Pesa into scope.
-
-
-    Section 29 of the bill allows CBK to direct a provider to enable data sharing
-    for open finance purposes, a significant regulatory power in a market where mobile
-    money dominates consumer transactions. The legislation defines open finance broadly,
-    suggesting Kenya intends to move beyond narrow payment initiation use cases toward
-    a framework that could encompass credit, savings and insurance data.
-
-
-    Kenya''s mobile money ecosystem is one of the world''s most developed, and the
-    decision to bring it under a formal open finance framework, rather than leaving
-    data-sharing arrangements to bilateral commercial agreements, mirrors the regulatory
-    approach adopted in the EU''s Financial Data Access proposal. The bill''s treatment
-    of consent and CBK''s enforcement powers will be closely watched as a template
-    for other African and emerging markets.'
-  editorial_note: Kenya legislating open finance across banks and mobile money is
-    a significant regulatory development for the global open finance landscape, with
-    structural parallels to Europe's Financial Data Access framework.
-  sources: '[Kenya Payment Bill Lets CBK Order Data Sharing](https://khusoko.com/2026/09/23/kenya-payment-bill-open-banking-data-sharing/)
-    — Khusoko | [New CBK Rules: Banks, M-Pesa could get greenlight to share users''
-    financial data](https://www.pulse.co.ke/story/new-cbk-rules-banks-m-pesa-could-get-greenlight-to-share-users-financial-data-2026092318070533807)
-    — Pulse | [New law to require banks and payment providers to share customer data](https://citizen.digital/article/new-law-to-require-banks-and-payment-providers-to-share-customer-data-n390698)
-    — Citizen Digital'
-  style_check:
-    compliant: false
-    warnings:
-    - Standfirst opens by naming 'Central Bank of Kenya' which is also named in the
-      headline—violates rule on avoiding redundant repetition of the subject across
-      headline and standfirst. Rewrite to open with the substantive point, e.g., 'A
-      new payments bill would give…'
-    - 'Body text: ''The proposal is notable for European payments professionals tracking
-      the global diffusion of open finance models.'' This violates the rule against
-      framing relevance with ''For European payments professionals, …'' or equivalent
-      constructions. State the relevance directly as part of the narrative without
-      this audience-address preamble.'
-    - 'Body text: ''The proposal is notable'' violates the rule against announcing
-      notability before making a substantive point. Remove this phrase and state the
-      substantive point directly.'
-    - Editorial note references 'FiDA framework' without first spelling it out in
-      the body text. If 'FiDA' appears only in the editorial note and not in the body,
-      it should not be abbreviated there. If it should appear in the body, the body
-      must introduce it as 'Financial Data Access (FiDA)' on first use.
-  verification:
-    verified: false
-    stale: false
-    duplicate: false
-    warnings:
-    - Draft bill uses 'Section 29' not 'Clause 29(2)' as cited in body text
-  revision:
-    replaced: false
-    resolved: true
-    summary:
-    - Corrected 'Clause 29(2)' to 'Section 29' per the draft bill's actual terminology
-    - Standfirst already opens with 'A new payments bill would give…' rather than
-      naming the Central Bank of Kenya first — no change needed as it was compliant
-    - Removed 'The proposal is notable for European payments professionals tracking
-      the global diffusion of open finance models.' from the third paragraph opening,
-      which violated both the audience-address framing rule and the notability-announcement
-      rule. The paragraph now leads directly with the substantive point about Kenya's
-      mobile money ecosystem.
-    - Changed 'FiDA framework' in the editorial note to 'Financial Data Access framework'
-      since the abbreviation appeared only in the editorial note and was never introduced
-      in the body text
-- headline: 'Banca d''Italia tells payment firms to screen both parties on all transfers
-
-    '
-  standfirst: 'The directive tightens sanctions compliance for Italian payment service
-    providers and crypto-asset firms, requiring dual-party screening even where EU
-    instant payments rules create exemptions.
-
-    '
-  body: 'Banca d''Italia has instructed payment service providers and crypto-asset
-    service providers to screen both the sender and recipient of every transfer for
-    sanctions hits, going beyond the minimum requirements set by EU law. The directive
-    addresses a gap created by the instant payments regulation, which bars PSPs from
-    screening both parties on each individual instant transfer but requires them to
-    vet their own customers.
-
-
-    The Italian regulator''s position effectively sets a higher compliance bar for
-    firms operating in Italy. By requiring dual-party screening on all transfers,
-    including instant payments, it imposes an operational and technical burden that
-    may require PSPs to invest in faster screening infrastructure capable of operating
-    within instant payment processing windows.
-
-
-    The move comes as European regulators are preparing for the Anti-Money Laundering
-    Authority to assume supervisory powers. Italy''s decision to front-run harmonised
-    standards with a stricter national interpretation creates a compliance patchwork
-    that cross-border payment providers will need to navigate. It also highlights
-    the tension between the speed requirements of instant payments and the thoroughness
-    expected in sanctions screening, a friction point that banks flagged to the AMLA
-    earlier this year.
-
-    '
-  editorial_note: 'Italy setting a higher sanctions screening standard than the EU
-    minimum for instant payments creates immediate compliance implications for PSPs
-    operating across borders and illustrates the regulatory fragmentation risk around
-    the instant payments mandate.
-
-    '
-  sources: '[NEWS: Bank of Italy tells PSPs, CASPs to always screen both parties to
-    transfers for sanctions hits](https://www.amlintelligence.com/2026/09/news-bank-of-italy-tells-psps-casps-to-always-screen-both-parties-to-transfers-for-sanctions-hits/)
-    — Amlintelligence'
-  style_check:
-    compliant: false
-    warnings:
-    - 'Standfirst opens by naming ''The directive'' without first establishing what
-      directive or which organisation issued it. Per rule on standfirst opening: avoid
-      naming the organisation in the headline (Banca d''Italia) by opening with the
-      substantive point. The standfirst should open with the action/consequence, not
-      ''The directive'' which is vague without context.'
-    - Body text uses 'earlier this year' ("a friction point that banks flagged to
-      the AMLA earlier this year") which is a vague temporal reference. Rule requires
-      specific time periods or precise dates when available.
-    - 'Headline contains a diacritic in ''Banca d''Italia''. Per rule on foreign diacritics:
-      use the accepted British English equivalent or closest unaccented rendering
-      — should be ''Banca d''Italia'' rendered as ''Banca di''Italia'' or similar
-      anglicisation, or use ''Bank of Italy'' if appropriate.'
-  verification:
-    verified: false
-    stale: true
-    duplicate: false
-    warnings:
-    - Core event (Banca d'Italia September 7 communication) is 17 days old, exceeding
-      5-day recency threshold
-    - Story frames as new directive but sources indicate it primarily reiterates existing
-      EBA guidelines that took effect December 30, 2025; Banca d'Italia's September
-      7 communication was a supervisory reminder, not a novel requirement
-  revision:
-    replaced: false
-    resolved: false
-    summary:
-    - Flagged as stale but no unused feed or web candidate was available — kept as-is,
-      editor should review.
-status: needs_review
-status_reasons:
-- 'Could not resolve: Trustly cuts a quarter of its workforce in profitability push'
-- 'Could not resolve: Banca d''Italia tells payment firms to screen both parties on
-  all transfers'
+    - 'Standfirst: removed ''by Canada''s major banks'' so the standfirst no longer
+      opens by naming the organisation already named in the headline, per rule 1.'
+    - 'Body paragraph 3: removed the audience-address opening ''For European payments
+      strategists, the Canadian initiative is relevant as'' and recast to state the
+      point directly.'
+    - 'Body paragraph 3: removed the hedging construction ''the outcome is far from
+      settled'' and replaced with a direct substantive claim about major-economy consortia
+      shaping options for European institutions.'
+status: ready
