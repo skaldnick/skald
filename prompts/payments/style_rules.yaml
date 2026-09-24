@@ -323,3 +323,10 @@
     to a company name in body text unless the legal form is directly relevant to the
     story (eg, a story about the legal structure itself). Use the plain trading name
     — eg, "Riverty Bank" not "Riverty Bank S.A.".
+- id: 60
+  date: '2026-09-24'
+  rule: Do not select a story for inclusion solely on the basis that a non-European
+    jurisdiction's regulatory approach resembles or parallels the EU's. Similarity
+    to EU regulatory frameworks is not itself sufficient grounds for relevance to
+    a European payments audience. The story must have a direct or material connection
+    to European markets, institutions, or players.
