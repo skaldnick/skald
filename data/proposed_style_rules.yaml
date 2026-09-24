@@ -2,14 +2,4 @@
 # Populated automatically by tools/extract_learning.py (via GitHub Actions on push
 # to data/feedback/). Review and promote/edit in the dashboard's 'Proposed style
 # rules' section — accepted rules move to prompts/payments/style_rules.yaml.
-- date: '2026-09-24'
-  rule: Do not cover a story if the source article fails to identify what a named
-    company is. If a key organisation (eg, "bunq") is not described or contextualised
-    in the source, do not run the story — or do not run it until a source is available
-    that explains the company's nature and relevance.
-- date: '2026-09-24'
-  rule: Do not select a story for inclusion solely on the basis that a non-European
-    jurisdiction's regulatory approach resembles or parallels the EU's. Similarity
-    to EU regulatory frameworks is not itself sufficient grounds for relevance to
-    a European payments audience. The story must have a direct or material connection
-    to European markets, institutions, or players.
+[]
