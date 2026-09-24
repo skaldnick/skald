@@ -1,0 +1,301 @@
+title: 'Trustly cuts quarter of staff; bunq rolls Wero across four markets; Kenya
+  proposes open finance law
+
+  '
+social_post: 'Trustly cuts 200 jobs to chase profitability, bunq takes Wero to four
+  markets, and Kenya drafts open finance legislation. Today''s briefing: {link}
+
+  '
+stories:
+- headline: 'Trustly cuts a quarter of its workforce in profitability push
+
+    '
+  standfirst: 'The Swedish pay-by-bank firm is shedding 200 roles as it narrows its
+    focus to profitable markets, marking a sharp contraction for one of Europe''s
+    most prominent open banking players.
+
+    '
+  body: 'Trustly is cutting roughly 200 jobs, approximately a quarter of its workforce,
+    as part of a restructuring aimed at reducing costs and concentrating on markets
+    where it can achieve profitable growth. The move represents a significant retrenchment
+    for a company that had expanded aggressively across European and North American
+    pay-by-bank markets.
+
+
+    The restructuring comes at a moment of consolidation across the European open
+    banking sector. Mollie completed its acquisition of GoCardless earlier this month,
+    while several mid-tier players have struggled to translate transaction volume
+    growth into sustainable margins. Trustly had previously reported growing pay-by-bank
+    volumes but has evidently concluded that breadth of market coverage is no longer
+    viable without a corresponding improvement in unit economics.
+
+
+    For the wider sector, the cuts underscore a maturing dynamic: the open banking
+    payments layer in Europe is moving past the phase where growth alone attracted
+    capital and patience. Providers now face pressure to demonstrate that account-to-account
+    payments can be operated profitably at scale, not merely processed at volume.
+
+    '
+  editorial_note: 'A 25% workforce reduction at one of Europe''s largest open banking
+    payments firms is a significant signal about the commercial pressures facing the
+    pay-by-bank sector as it matures.
+
+    '
+  sources: '[Trustly slashes 200 jobs](https://www.finextra.com/newsarticle/48460/trustly-slashes-200-jobs?utm_medium=rssfinextra&utm_source=finextrafeed)
+    — Finextra'
+  style_check:
+    compliant: false
+    warnings:
+    - 'Body opening: ''The move represents a significant retrenchment'' — breaches
+      rule against never flagging significance explicitly. Use ''Write the substantive
+      point directly'' without announcing importance.'
+    - 'Body paragraph two, sentence one: ''For the wider sector, the cuts underscore
+      a maturing dynamic'' — breaches rule against framing a paragraph around relevance
+      to European readers by opening with audience-address construction. State the
+      substantive point directly without this framing.'
+    - 'Body paragraph two, sentence two: ''Providers now face pressure to demonstrate
+      that account-to-account payments can be operated profitably at scale, not merely
+      processed at volume'' — breaches rule preferring preposition recast over colon-introduced
+      binary question/construction. Consider recasting with preposition to avoid the
+      ''not merely'' binary framing.'
+    - Standfirst opens with 'The Swedish pay-by-bank firm' but headline names 'Trustly'
+      — while standfirst doesn't repeat the exact name, it still names the organisation
+      from headline immediately. Per rule [1], standfirst should begin with substantive
+      point (the narrowing of focus to profitable markets) rather than reidentifying
+      the company.
+  verification:
+    verified: true
+    stale: true
+    duplicate: false
+    warnings:
+    - Trustly announcement was September 17, 2026 (7 days ago); exceeds 5-day recency
+      threshold
+  revision:
+    replaced: false
+    resolved: false
+    summary:
+    - Flagged as stale but no unused feed or web candidate was available — kept as-is,
+      editor should review.
+- headline: bunq rolls out Wero across four European markets simultaneously
+  standfirst: A simultaneous four-market launch gives EPI its first pan-European neobank
+    integration, putting Wero in direct competition with iDEAL and card-based wallets
+    on a mobile-first platform.
+  body: 'bunq has launched Wero across the Netherlands, Germany, France and Belgium
+    in a single rollout, making the European Payments Initiative''s (EPI) instant
+    payment product available to its customer base in all four markets at once. The
+    deployment is Wero''s first integration by a pan-European neobank, in contrast
+    to the market-by-market approach taken by traditional banking groups.
+
+
+    Wero has been steadily expanding its reach since its initial launch, with Austrian
+    banking groups joining earlier this year and the product going live in Luxembourg.
+    Rather than relying on domestic banking relationships, bunq''s rollout pushes
+    Wero through a mobile-first platform whose customers are accustomed to cross-border
+    functionality and digital wallets.
+
+
+    The EU''s instant payments regulation, which requires payment service providers
+    to offer instant euro transfers, provides regulatory tailwind. Consumer willingness
+    to use Wero over established alternatives such as iDEAL and card-based wallets
+    remains the central barrier in markets where those incumbents are deeply embedded.'
+  editorial_note: A neobank launching Wero across multiple markets simultaneously
+    is a new distribution model for EPI and a meaningful test of whether the scheme
+    can scale beyond traditional banking channels.
+  sources: '[bunq Wero Rollout spans Four Markets as Neobank Flexes Scale](https://www.financexmagazine.com/post/bunq-wero-rollout-spans-four-markets-as-neobank-flexes-scale)
+    — FinanceX Magazine'
+  style_check:
+    compliant: false
+    warnings:
+    - 'Body opening sentence: ''The deployment is significant as it represents...''
+      — violates rule against flagging significance explicitly. Remove ''is significant
+      as'' and lead with the substantive point directly.'
+    - 'Body paragraph 1: ''This represents Wero''s first integration by a pan-European
+      neobank'' would be stronger without the significance flag. Rewrite to state
+      the fact directly rather than announcing its importance.'
+    - 'Body paragraph 2: ''The bunq rollout offers a different test of adoption''
+      — this is weak framing. Lead with the substantive claim about the distribution
+      model, not the framing of what it ''offers as a test''.'
+    - 'Standfirst: ''tests whether Wero can gain traction'' — this is hedging language
+      that delays the substantive point. The standfirst should name specific stakes
+      or consequences (e.g., the competitive dynamics with iDEAL or implications for
+      EPI''s scaling strategy) rather than posing a testing scenario.'
+    - 'Body paragraph 2: ''whether bunq''s integration drives meaningful transaction
+      volume will depend on consumer willingness'' — opens with hedging (''will depend
+      on''). Lead directly with the substantive claim about market barriers.'
+    - Headline and standfirst both open with 'bunq/The neobank's' — both elements
+      identify bunq/the neobank in their openings. Vary at least one opening per the
+      rule against identical openings across headline, standfirst, and body.
+  verification:
+    verified: false
+    stale: false
+    duplicate: false
+    warnings:
+    - 'Draft states ''spanning the Netherlands, Germany, France and beyond'' but sources
+      confirm the rollout covers exactly four markets: Netherlands, Germany, France,
+      and Belgium—not a vague ''beyond'''
+  revision:
+    replaced: false
+    resolved: true
+    summary:
+    - Replaced 'France and beyond' with 'France and Belgium' to reflect the confirmed
+      four markets.
+    - Removed 'is significant as it represents' from the second sentence of paragraph
+      1, rewriting to state the fact directly without flagging significance.
+    - Revised standfirst to name specific competitive dynamics (iDEAL, card-based
+      wallets) and EPI's scaling strategy rather than posing a hedging 'tests whether'
+      scenario. Also varied the standfirst opening so it no longer begins by identifying
+      bunq/the neobank, matching the rule against identical openings across headline,
+      standfirst, and body.
+    - Rewrote paragraph 2 opening to lead with the substantive claim about the distribution
+      model rather than framing it as 'a different test of adoption'.
+    - Rewrote final sentence of paragraph 3 to lead with the substantive market barrier
+      rather than hedging with 'Whether… will depend on'.
+- headline: Kenya proposes open finance legislation covering banks and mobile money
+  standfirst: A new payments bill would give the Central Bank of Kenya power to mandate
+    consent-based financial data sharing across banks and mobile money providers,
+    extending the open finance model to one of Africa's largest digital payments markets.
+  body: 'Kenya has introduced a payments bill that includes provisions for an open
+    finance framework, granting the Central Bank of Kenya (CBK) the authority to require
+    licensed payment providers to share customer data with authorised third parties,
+    subject to customer consent. The bill covers both banks and mobile money operators,
+    bringing services such as M-Pesa into scope.
+
+
+    Section 29 of the bill allows CBK to direct a provider to enable data sharing
+    for open finance purposes, a significant regulatory power in a market where mobile
+    money dominates consumer transactions. The legislation defines open finance broadly,
+    suggesting Kenya intends to move beyond narrow payment initiation use cases toward
+    a framework that could encompass credit, savings and insurance data.
+
+
+    Kenya''s mobile money ecosystem is one of the world''s most developed, and the
+    decision to bring it under a formal open finance framework, rather than leaving
+    data-sharing arrangements to bilateral commercial agreements, mirrors the regulatory
+    approach adopted in the EU''s Financial Data Access proposal. The bill''s treatment
+    of consent and CBK''s enforcement powers will be closely watched as a template
+    for other African and emerging markets.'
+  editorial_note: Kenya legislating open finance across banks and mobile money is
+    a significant regulatory development for the global open finance landscape, with
+    structural parallels to Europe's Financial Data Access framework.
+  sources: '[Kenya Payment Bill Lets CBK Order Data Sharing](https://khusoko.com/2026/09/23/kenya-payment-bill-open-banking-data-sharing/)
+    — Khusoko | [New CBK Rules: Banks, M-Pesa could get greenlight to share users''
+    financial data](https://www.pulse.co.ke/story/new-cbk-rules-banks-m-pesa-could-get-greenlight-to-share-users-financial-data-2026092318070533807)
+    — Pulse | [New law to require banks and payment providers to share customer data](https://citizen.digital/article/new-law-to-require-banks-and-payment-providers-to-share-customer-data-n390698)
+    — Citizen Digital'
+  style_check:
+    compliant: false
+    warnings:
+    - Standfirst opens by naming 'Central Bank of Kenya' which is also named in the
+      headline—violates rule on avoiding redundant repetition of the subject across
+      headline and standfirst. Rewrite to open with the substantive point, e.g., 'A
+      new payments bill would give…'
+    - 'Body text: ''The proposal is notable for European payments professionals tracking
+      the global diffusion of open finance models.'' This violates the rule against
+      framing relevance with ''For European payments professionals, …'' or equivalent
+      constructions. State the relevance directly as part of the narrative without
+      this audience-address preamble.'
+    - 'Body text: ''The proposal is notable'' violates the rule against announcing
+      notability before making a substantive point. Remove this phrase and state the
+      substantive point directly.'
+    - Editorial note references 'FiDA framework' without first spelling it out in
+      the body text. If 'FiDA' appears only in the editorial note and not in the body,
+      it should not be abbreviated there. If it should appear in the body, the body
+      must introduce it as 'Financial Data Access (FiDA)' on first use.
+  verification:
+    verified: false
+    stale: false
+    duplicate: false
+    warnings:
+    - Draft bill uses 'Section 29' not 'Clause 29(2)' as cited in body text
+  revision:
+    replaced: false
+    resolved: true
+    summary:
+    - Corrected 'Clause 29(2)' to 'Section 29' per the draft bill's actual terminology
+    - Standfirst already opens with 'A new payments bill would give…' rather than
+      naming the Central Bank of Kenya first — no change needed as it was compliant
+    - Removed 'The proposal is notable for European payments professionals tracking
+      the global diffusion of open finance models.' from the third paragraph opening,
+      which violated both the audience-address framing rule and the notability-announcement
+      rule. The paragraph now leads directly with the substantive point about Kenya's
+      mobile money ecosystem.
+    - Changed 'FiDA framework' in the editorial note to 'Financial Data Access framework'
+      since the abbreviation appeared only in the editorial note and was never introduced
+      in the body text
+- headline: 'Banca d''Italia tells payment firms to screen both parties on all transfers
+
+    '
+  standfirst: 'The directive tightens sanctions compliance for Italian payment service
+    providers and crypto-asset firms, requiring dual-party screening even where EU
+    instant payments rules create exemptions.
+
+    '
+  body: 'Banca d''Italia has instructed payment service providers and crypto-asset
+    service providers to screen both the sender and recipient of every transfer for
+    sanctions hits, going beyond the minimum requirements set by EU law. The directive
+    addresses a gap created by the instant payments regulation, which bars PSPs from
+    screening both parties on each individual instant transfer but requires them to
+    vet their own customers.
+
+
+    The Italian regulator''s position effectively sets a higher compliance bar for
+    firms operating in Italy. By requiring dual-party screening on all transfers,
+    including instant payments, it imposes an operational and technical burden that
+    may require PSPs to invest in faster screening infrastructure capable of operating
+    within instant payment processing windows.
+
+
+    The move comes as European regulators are preparing for the Anti-Money Laundering
+    Authority to assume supervisory powers. Italy''s decision to front-run harmonised
+    standards with a stricter national interpretation creates a compliance patchwork
+    that cross-border payment providers will need to navigate. It also highlights
+    the tension between the speed requirements of instant payments and the thoroughness
+    expected in sanctions screening, a friction point that banks flagged to the AMLA
+    earlier this year.
+
+    '
+  editorial_note: 'Italy setting a higher sanctions screening standard than the EU
+    minimum for instant payments creates immediate compliance implications for PSPs
+    operating across borders and illustrates the regulatory fragmentation risk around
+    the instant payments mandate.
+
+    '
+  sources: '[NEWS: Bank of Italy tells PSPs, CASPs to always screen both parties to
+    transfers for sanctions hits](https://www.amlintelligence.com/2026/09/news-bank-of-italy-tells-psps-casps-to-always-screen-both-parties-to-transfers-for-sanctions-hits/)
+    — Amlintelligence'
+  style_check:
+    compliant: false
+    warnings:
+    - 'Standfirst opens by naming ''The directive'' without first establishing what
+      directive or which organisation issued it. Per rule on standfirst opening: avoid
+      naming the organisation in the headline (Banca d''Italia) by opening with the
+      substantive point. The standfirst should open with the action/consequence, not
+      ''The directive'' which is vague without context.'
+    - Body text uses 'earlier this year' ("a friction point that banks flagged to
+      the AMLA earlier this year") which is a vague temporal reference. Rule requires
+      specific time periods or precise dates when available.
+    - 'Headline contains a diacritic in ''Banca d''Italia''. Per rule on foreign diacritics:
+      use the accepted British English equivalent or closest unaccented rendering
+      — should be ''Banca d''Italia'' rendered as ''Banca di''Italia'' or similar
+      anglicisation, or use ''Bank of Italy'' if appropriate.'
+  verification:
+    verified: false
+    stale: true
+    duplicate: false
+    warnings:
+    - Core event (Banca d'Italia September 7 communication) is 17 days old, exceeding
+      5-day recency threshold
+    - Story frames as new directive but sources indicate it primarily reiterates existing
+      EBA guidelines that took effect December 30, 2025; Banca d'Italia's September
+      7 communication was a supervisory reminder, not a novel requirement
+  revision:
+    replaced: false
+    resolved: false
+    summary:
+    - Flagged as stale but no unused feed or web candidate was available — kept as-is,
+      editor should review.
+status: needs_review
+status_reasons:
+- 'Could not resolve: Trustly cuts a quarter of its workforce in profitability push'
+- 'Could not resolve: Banca d''Italia tells payment firms to screen both parties on
+  all transfers'
