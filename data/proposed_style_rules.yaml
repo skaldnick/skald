@@ -2,9 +2,4 @@
 # Populated automatically by tools/extract_learning.py (via GitHub Actions on push
 # to data/feedback/). Review and promote/edit in the dashboard's 'Proposed style
 # rules' section — accepted rules move to prompts/payments/style_rules.yaml.
-- date: '2026-09-28'
-  rule: Do not open a paragraph with "The timing is pointed", "The timing is notable",
-    or any equivalent construction that frames the following content as significant
-    because of when it occurs. Write the substantive content directly without the
-    scene-setting announcement.
-  supersedes: 11
+[]
