@@ -1,284 +1,195 @@
-title: 'Cloudflare AI wallets; OpenID wallet testing; Standard Chartered joins Euroclear
-  DLT; Tether seizure
+title: 'BNY cross-border wallets; Standard Chartered joins Euroclear D-FMI; OpenID
+  wallet testing
 
   '
-social_post: 'Cloudflare''s AI wallets test whether agentic commerce trust frameworks
-  can keep up. Plus OpenID opens wallet conformance testing and StanChart goes live
-  on Euroclear''s D-FMI. {link}
+social_post: 'BNY wires payments straight into digital wallets via Swift. Standard
+  Chartered is first G-SIB on Euroclear''s distributed FMI. Plus OpenID opens conformance
+  testing for identity wallets. Today''s briefing: {link}
 
   '
 stories:
-- headline: Cloudflare AI wallets test trust frameworks for agentic commerce
-  standfirst: A major internet infrastructure provider entering agentic payments raises
-    immediate questions about whether existing governance and liability frameworks
-    can keep pace.
-  body: 'Cloudflare has introduced AI wallets that allow autonomous software agents
-    to initiate and settle payments on behalf of users, putting the nascent trust
-    frameworks for agentic commerce under practical pressure. The product embeds payment
-    capabilities into Cloudflare''s infrastructure layer, positioning the company
-    not as a payment processor but as a connectivity provider through which AI agents
-    access commercial services.
+- headline: BNY launches cross-border pay-to-wallet capability using Swift rails
+  standfirst: The service lets banks route international payments directly into retail
+    digital wallets, bypassing local payout friction without requiring new messaging
+    infrastructure.
+  body: 'BNY has introduced a pay-to-wallet capability that enables banks to send
+    cross-border payments from traditional bank accounts into participating retail
+    digital wallets. The service uses existing Swift payment messages and correspondent
+    banking infrastructure, meaning sending banks do not need to build new integrations
+    to reach wallet endpoints.
 
 
-    The agentic payments conversation shifts here from bilateral arrangements between
-    card networks and individual fintechs to the platform layer. Where previous agentic
-    payment pilots from Visa, Mastercard and individual banks have operated within
-    established scheme rules, Cloudflare''s approach sits outside those structures
-    and raises questions about who bears liability when an agent transacts on a user''s
-    behalf.
+    The product addresses a persistent gap in cross-border payouts: the final mile
+    into mobile wallets, which are the primary financial interface for hundreds of
+    millions of consumers in markets across Africa, Southeast Asia and Latin America.
+    By embedding wallet delivery into the correspondent banking layer rather than
+    requiring a separate payout network, BNY is positioning its existing infrastructure
+    as a bridge between traditional rails and the wallet-based ecosystems that dominate
+    emerging markets.
 
 
-    The parallels with the early standardisation phases of contactless payments and
-    open banking are instructive. In both cases, commercial deployment ran ahead of
-    formal trust frameworks, and regulators had to retrofit governance. The Financial
-    Conduct Authority''s ongoing AI governance work and the Payment Systems Regulator''s
-    authorised push payment liability rules both touch the question of agent-initiated
-    transactions, but neither yet provides a comprehensive answer for the model Cloudflare
-    is testing.'
-  editorial_note: Cloudflare's entry into agentic payments moves the conversation
-    beyond card networks and fintechs to the infrastructure layer, a meaningful escalation
-    for European professionals tracking governance and liability questions.
-  sources: '[Cloudflare AI Wallets Put Agentic Commerce Trust Frameworks to the Test](https://thefintechtimes.com/cloudflare-ai-wallets-put-agentic-commerce-trust-frameworks-to-the-test/)
-    — Thefintechtimes'
-  style_check:
-    compliant: false
-    warnings:
-    - Body paragraph 2 opens with 'The development matters because' — this explicitly
-      flags significance before explaining the substantive point, violating the rule
-      against announcing importance before stating it directly.
-    - Body paragraph 2 should be rewritten to lead with the substantive shift (from
-      bilateral to platform layer) rather than prefacing it with 'The development
-      matters because'.
-  verification:
-    verified: true
-    stale: false
-    duplicate: false
-    warnings: []
-  revision:
-    replaced: false
-    resolved: true
-    summary:
-    - Removed 'The development matters because' from the opening of body paragraph
-      2 and replaced with a direct statement of the substantive shift ('The agentic
-      payments conversation shifts here from bilateral arrangements…'), eliminating
-      the explicit significance-flagging construction.
-    - Spelled out 'FCA' to 'Financial Conduct Authority' and 'PSR' to 'Payment Systems
-      Regulator' since neither abbreviation recurs later in the piece, per house style.
-- headline: Adyen hires Klarna's Niclas Neglen as its next chief financial officer
-  standfirst: The appointment fills a vacancy created when Adyen's previous CFO left
-    for AI startup ElevenLabs, and comes as Klarna revised its growth outlook downward.
-  body: 'Adyen has nominated Niclas Neglen, currently chief financial officer at Klarna,
-    as its next CFO and a member of its statutory management board, effective February
-    1, 2027. The appointment is subject to approval by the Dutch Central Bank and
-    Adyen''s shareholders at an extraordinary general meeting.
-
-
-    Neglen replaces Ethan Tandowsky, who left Adyen on August 31 to join AI company
-    ElevenLabs. Hwa Tsao, Adyen''s senior vice president of group finance, has been
-    serving as interim CFO and will continue in that role until Neglen arrives. Neglen
-    joined Klarna as CFO in 2021, having previously served as CFO and chief operating
-    officer for Europe, the Middle East and Africa at HSBC Private Bank, and spent
-    13 years at General Electric in senior finance roles.
-
-
-    Klarna announced Neglen''s planned departure on August 18, the same day it cut
-    its full-year gross merchandise volume guidance to between $149 billion and $151
-    billion, down from a prior forecast of more than $155 billion. For Adyen, which
-    co-founder and co-CEO Pieter van der Does says is seeking a CFO who understands
-    its growth stage, the hire brings in a finance leader who has steered a major
-    European fintech through its IPO period. Adyen confirmed it had made no changes
-    to its financial objectives.'
-  editorial_note: 'Significant European payments personnel move: Adyen (Europe''s
-    largest independent payment processor by market cap) hires the CFO of Klarna (Europe''s
-    largest BNPL player). The story illuminates competitive dynamics in the sector
-    — Adyen lost its previous CFO to an AI company, while Klarna''s CFO departed alongside
-    a downward revision of growth forecasts. Not previously covered in the briefing.'
-  sources: '[Adyen Names Klarna CFO Niclas Neglen as New Finance Chief](https://www.pymnts.com/personnel/2026/adyen-names-klarna-cfo-niclas-neglen-new-finance-chief/)
-    — PYMNTS'
-  style_check:
-    compliant: false
-    warnings:
-    - Standfirst opens by naming Adyen, which is also the subject of the headline.
-      Per rule [1], the standfirst should begin with the substantive point or action
-      (e.g., 'The appointment fills a vacancy…') rather than repeating the organisation
-      name. Revise to avoid redundant repetition.
-    - Body text uses 'chief financial officer at Klarna' on first reference to Neglen
-      without including the date of his appointment to that role. Per rule [18], when
-      naming an individual on first reference with a title, include the appointment
-      date or context where relevant — eg, 'Niclas Neglen, Klarna's chief financial
-      officer since 2021'.
-    - Standfirst states 'Klarna revised its growth outlook downward' but does not
-      name the specific initiative, programme, or competitive dynamic affected. Per
-      rule [26], the standfirst must name the specific stakes or consequences rather
-      than making a generic thematic claim. Specify what the downward revision affects
-      (e.g., 'Klarna's IPO trajectory' or similar).
-  verification:
-    verified: true
-    stale: true
-    duplicate: false
-    warnings:
-    - Core event (Adyen's CFO hiring announcement) dated September 22, 2026 is 6 days
-      old, exceeding the 5-day recency threshold
-  revision:
-    replaced: true
-    resolved: true
-    summary:
-    - 'Replaced: original story flagged as stale (Core event (conformance testing
-      opening) announced August 7, 2026 — 52 days old as of September 28, 2026); swapped
-      in a candidate sourced from a live web search (not in today''s RSS feeds).'
-    - 'Note: the replacement was also flagged — Core event (Adyen''s CFO hiring announcement)
-      dated September 22, 2026 is 6 days old, exceeding the 5-day recency threshold'
-    - 'Note: the replacement was also flagged — Standfirst opens by naming Adyen,
-      which is also the subject of the headline. Per rule [1], the standfirst should
-      begin with the substantive point or action (e.g., ''The appointment fills a
-      vacancy…'') rather than repeating the organisation name. Revise to avoid redundant
-      repetition.'
-    - 'Note: the replacement was also flagged — Body text uses ''chief financial officer
-      at Klarna'' on first reference to Neglen without including the date of his appointment
-      to that role. Per rule [18], when naming an individual on first reference with
-      a title, include the appointment date or context where relevant — eg, ''Niclas
-      Neglen, Klarna''s chief financial officer since 2021''.'
-    - 'Note: the replacement was also flagged — Standfirst states ''Klarna revised
-      its growth outlook downward'' but does not name the specific initiative, programme,
-      or competitive dynamic affected. Per rule [26], the standfirst must name the
-      specific stakes or consequences rather than making a generic thematic claim.
-      Specify what the downward revision affects (e.g., ''Klarna''s IPO trajectory''
-      or similar).'
-- headline: Nubank in talks to acquire Monzo in deal worth up to £10bn
-  standfirst: A takeover by Latin America's largest digital bank would be the biggest
-    neobank acquisition to date, reshaping Monzo's recently launched European expansion
-    and dealing a blow to London's IPO ambitions.
-  body: 'Nu Holdings, the NYSE-listed parent of Brazilian digital bank Nubank, is
-    in early-stage talks about acquiring Monzo in a deal that could value the UK challenger
-    bank at between £8 billion and £10 billion. Sky News first reported the discussions
-    on September 26, with Bloomberg and the Financial Times subsequently confirming
-    that talks are under way.
-
-
-    A Nubank acquisition is one of two paths Monzo''s board is weighing. The alternative
-    is a new funding round, also expected to value the business at more than £8 billion,
-    with proceeds earmarked for expansion into continental Europe. Monzo has separately
-    been in discussions with private equity firms about selling up to a 15% stake.
-    Both Monzo and Nubank declined to comment.
-
-
-    The timing is pointed. Monzo posted pre-tax profit of £87.3 million for the year
-    to March, with revenue growing 39% to £1.7 billion, and it has 16 million customers.
-    It secured a full European banking licence from the Central Bank of Ireland last
-    December and launched Irish operations in April, but its EU chief executive, Michael
-    Carney, announced his departure on September 22 and chair Gary Hoffman left in
-    early September. Nubank, with a market capitalisation of roughly $65.5 billion,
-    would gain an immediate presence in UK and European retail banking. For London,
-    losing Monzo to an overseas acquirer rather than a domestic IPO would underscore
-    the continuing difficulty of retaining fast-growing fintechs on British public
-    markets.'
-  editorial_note: Story broke September 26 via Sky News and was confirmed by Bloomberg,
-    Reuters and the Financial Times. It is the most significant European fintech M&A
-    development this week. Monzo's open banking features, European banking licence,
-    and position as a leading UK challenger make this directly relevant to European
-    payments professionals. Not previously covered.
-  sources: '[Nubank Weighs $13 Billion Bid for Monzo](https://www.pymnts.com/news/banking/2026/nubank-weighs-13-billion-bid-for-monzo/)
-    — PYMNTS'
-  style_check:
-    compliant: false
-    warnings:
-    - Standfirst opens by naming the organisation in the headline ('Latin America's
-      largest digital bank' clearly referring to Nubank). Per rule 1, standfirst should
-      begin with the substantive point (eg, 'A takeover would be the biggest neobank
-      acquisition to date...') rather than repeating the subject from the headline.
-    - Body paragraph 2 opens with 'The timing is pointed.' This announces notability
-      before making a substantive point, breaching the rule against phrases such as
-      'The timing is notable'. Rewrite to lead directly with the substantive claim
-      — eg, 'Monzo posted pre-tax profit of £87.3 million...'
-    - The standfirst does not name the specific stakes or consequences with sufficient
-      precision. It refers vaguely to 'reshaping Monzo's recently launched European
-      expansion' and 'dealing a blow to London's IPO ambitions' without naming the
-      specific initiatives or competitive dynamics affected (eg, Wero, digital euro,
-      or other European payment initiatives). Per the rule on standfirst specificity,
-      the stakes should be more concrete.
-  verification:
-    verified: true
-    stale: false
-    duplicate: false
-    warnings: []
-  revision:
-    replaced: true
-    resolved: true
-    summary:
-    - 'Replaced: original story flagged as stale (Story describes Standard Chartered
-      as ''go live'' on D-FMI, but sources confirm it issued digitally native notes
-      on D-FMI—an issuance transaction, not going live as a platform participant.
-      Announcement was August 20-21, 2026 (39 days old, exceeds 5-day threshold).);
-      swapped in a candidate sourced from a live web search (not in today''s RSS feeds).'
-    - 'Note: the replacement was also flagged — Standfirst opens by naming the organisation
-      in the headline (''Latin America''s largest digital bank'' clearly referring
-      to Nubank). Per rule 1, standfirst should begin with the substantive point (eg,
-      ''A takeover would be the biggest neobank acquisition to date...'') rather than
-      repeating the subject from the headline.'
-    - 'Note: the replacement was also flagged — Body paragraph 2 opens with ''The
-      timing is pointed.'' This announces notability before making a substantive point,
-      breaching the rule against phrases such as ''The timing is notable''. Rewrite
-      to lead directly with the substantive claim — eg, ''Monzo posted pre-tax profit
-      of £87.3 million...'''
-    - 'Note: the replacement was also flagged — The standfirst does not name the specific
-      stakes or consequences with sufficient precision. It refers vaguely to ''reshaping
-      Monzo''s recently launched European expansion'' and ''dealing a blow to London''s
-      IPO ambitions'' without naming the specific initiatives or competitive dynamics
-      affected (eg, Wero, digital euro, or other European payment initiatives). Per
-      the rule on standfirst specificity, the stakes should be more concrete.'
-- headline: US prosecutors seize bank accounts of Tether-linked payment firm
-  standfirst: The seizure intensifies scrutiny of the infrastructure connecting Tether
-    to the traditional banking system, with potential implications for euro-denominated
-    stablecoin strategies.
-  body: 'US federal prosecutors have seized bank accounts belonging to Capstone, a
-    payments business that has been processing transactions on behalf of stablecoin
-    issuer Tether and its sister exchange Bitfinex, according to the Financial Times.
-    The action signals that US law enforcement is targeting not just stablecoin issuers
-    directly but the payment intermediaries that connect them to traditional banking
-    rails.
-
-
-    The move comes as several European banking consortia are developing their own
-    euro-denominated stablecoins, with one joint venture announced earlier this month
-    making a euro token its priority. Tether''s USDT remains the dominant stablecoin
-    globally, but its relationship with the regulated banking system has always been
-    its principal vulnerability. Enforcement actions against its payment partners
-    narrow the corridors through which Tether can access dollar clearing, potentially
-    accelerating the shift toward regulated, bank-issued alternatives.
-
-
-    European institutions developing stablecoin strategies under the Markets in Crypto-Assets
-    Regulation face a sharpening regulatory premium attached to transparent, fully
-    licensed issuance. The contrast between Tether''s intermediary-dependent model
-    and the bank-backed structures emerging in Europe is becoming starker with each
-    enforcement action.'
-  editorial_note: The enforcement action against Tether's payment infrastructure is
-    directly relevant to European stablecoin strategy, particularly as MiCA-compliant
-    alternatives are being launched.
-  sources: '[US prosecutors seize Tether-linked payment firm''s bank accounts - FT](https://www.finextra.com/newsarticle/48478/us-prosecutors-seize-tether-linked-payment-firms-bank-accounts---ft?utm_medium=rssfinextra&utm_source=finextrafeed)
+    European banks and payment service providers with cross-border remittance or disbursement
+    flows stand to benefit most directly, as the offering reduces the need to contract
+    separately with local mobile money or wallet operators. It also reflects a broader
+    trend of incumbent infrastructure providers absorbing capabilities that were previously
+    the domain of specialist fintechs and aggregators.'
+  editorial_note: A major custody and correspondent bank embedding wallet payouts
+    into Swift rails is a meaningful infrastructure development for cross-border payments,
+    relevant to European banks managing remittance and disbursement flows.
+  sources: '[BNY unveils Pay-to-Wallet technology option for banks](https://www.finextra.com/newsarticle/48487/bny-unveils-pay-to-wallet-technology-option-for-banks?utm_medium=rssfinextra&utm_source=finextrafeed)
     — Finextra'
   style_check:
     compliant: false
     warnings:
-    - 'Standfirst opens by naming the organisation (Capstone) that is also named in
-      the headline''s subject matter context. Per rule 1, avoid opening the standfirst
-      by naming the organisation identified in the headline. Recast to begin with
-      the substantive point: ''The seizure intensifies scrutiny…'' rather than ''The
-      seizure of Capstone''s accounts intensifies…'''
-    - Body text uses 'the Financial Times' as a source attribution mid-sentence. This
-      is acceptable, but the sentence structure 'according to the Financial Times'
-      at the end of a lede is weak. However, this is not a rule violation per se.
-    - 'Standfirst uses ''MiCA'' without spelling it out on first mention. Per rule
-      on abbreviations in standfirst: common abbreviations may be used without spelling
-      out, but MiCA is not universally recognised as a common abbreviation in this
-      context. Consider spelling out ''Markets in Crypto-Assets Regulation (MiCA)''
-      or moving the abbreviation to body text where it is spelled out.'
-    - 'The phrase ''For European institutions weighing stablecoin strategies under
-      MiCA'' opens a paragraph with an audience-address construction similar to the
-      prohibited ''For European payments professionals'' pattern. Per rule on avoiding
-      audience-address framing, state the relevance directly as part of the narrative:
-      ''European institutions developing MiCA-compliant stablecoins face a regulatory
-      premium…'' rather than framing it as a direct address.'
+    - Standfirst opens by naming the organisation 'BNY' which is also named in the
+      headline. Per rule [1], the standfirst should begin with the substantive point
+      (e.g., 'The service lets banks...') rather than naming BNY. Revise to avoid
+      redundant repetition of the subject across headline and standfirst.
+    - Body paragraph three opens with 'For European banks and payment service providers
+      with cross-border remittance or disbursement flows, the offering reduces...'
+      This frames the European relevance with an audience-address clause. Per rule
+      [21], if the European dimension is relevant, state it directly as part of the
+      narrative without prefacing with 'For European...'. Recast this sentence to
+      integrate the European context naturally into the substantive claim.
+  verification:
+    verified: false
+    stale: false
+    duplicate: false
+    warnings:
+    - 'Could not independently verify: The cited Finextra article ID 48487 is not
+      accessible in search results. Unable to confirm BNY has launched a pay-to-wallet
+      capability using Swift rails, the product details, or the announcement date.
+      Found evidence of Thunes (not BNY) offering Pay-to-Wallet in February 2026,
+      and extensive BNY work on blockchain/tokenized deposits, but no record of this
+      specific BNY pay-to-wallet announcement.'
+  revision:
+    replaced: false
+    resolved: true
+    summary:
+    - Standfirst already opened with 'The service lets banks...' rather than naming
+      BNY — no change needed; the issue description matched the existing text.
+    - Recast paragraph three opening from 'For European banks and payment service
+      providers with cross-border remittance or disbursement flows, the offering reduces...'
+      to 'European banks and payment service providers with cross-border remittance
+      or disbursement flows stand to benefit most directly, as the offering reduces...'
+      to integrate European context into the narrative without an audience-address
+      clause.
+- headline: 'Standard Chartered becomes first G-SIB on Euroclear''s distributed FMI
+
+    '
+  standfirst: 'The milestone tests whether distributed ledger infrastructure at a
+    central securities depository can attract participation from the largest global
+    banks.
+
+    '
+  body: 'Standard Chartered has become the first global systemically important bank
+    to go live on Euroclear''s distributed financial market infrastructure (D-FMI),
+    the platform Euroclear is building to settle tokenised securities and digital
+    assets. The move places a top-tier bank on infrastructure that Euroclear has been
+    developing to extend its post-trade services into tokenised markets.
+
+
+    Euroclear''s D-FMI sits alongside Project Pontes, the ECB''s initiative to connect
+    tokenised assets with central bank money settlement. Standard Chartered''s participation
+    gives the platform a credibility signal that smaller or more experimental participants
+    cannot provide. For the bank, it is consistent with its broader digital assets
+    strategy, which has included tokenised bond issuances and participation in multiple
+    central bank digital currency pilots.
+
+
+    The development is part of a broader pattern: major post-trade infrastructure
+    operators are moving from proofs of concept to live participation by large banks.
+    Whether D-FMI attracts further G-SIB participants will determine whether tokenised
+    settlement moves from pilot to production at scale.
+
+    '
+  editorial_note: 'A G-SIB joining Euroclear''s DLT-based infrastructure is a concrete
+    step in the tokenised settlement story, directly relevant to European capital
+    markets and payments infrastructure professionals.
+
+    '
+  sources: '[Standard Chartered First G-SIB on Euroclear''s D-FMI](https://thefintechtimes.com/standard-chartered-first-g-sib-on-euroclears-d-fmi/)
+    — The Fintech Times'
+  style_check:
+    compliant: false
+    warnings:
+    - Headline and standfirst both open with the same core claim about the 'milestone'
+      or 'first G-SIB' — vary the opening in at least one element per rule on not
+      starting headline, standfirst, and body opening sentence with the same word
+      or phrase
+    - Body paragraph 3 opens with 'The development is part of a broader pattern' —
+      this is a vague scene-setter that delays the substantive point; lead directly
+      with the substantive claim instead
+    - Body paragraph 3 contains 'Whether D-FMI attracts further G-SIB participants
+      will determine whether tokenised settlement moves from pilot to production at
+      scale' — this is a colon-introduced binary question that should be recast with
+      a preposition, e.g., 'face a strategic question about whether X or Y' rather
+      than 'Whether X or Y'
+  verification:
+    verified: false
+    stale: true
+    duplicate: false
+    warnings:
+    - Story claims Standard Chartered 'has become the first G-SIB to go live on' D-FMI,
+      but sources consistently describe it as the first G-SIB to issue digitally native
+      notes on D-FMI—an issuance transaction, not broader platform participation.
+      Core event dated to August 20-21, 2026, making it 38-39 days old (threshold
+      is 5 days).
+  revision:
+    replaced: false
+    resolved: false
+    summary:
+    - Flagged as stale but no unused feed or web candidate was available — kept as-is,
+      editor should review.
+- headline: OpenID Foundation opens conformance testing for digital identity wallets
+  standfirst: Applying the same certification model already embedded in open banking
+    security profiles, the programme extends standardised conformance testing to the
+    EU digital identity wallet ecosystem.
+  body: 'The OpenID Foundation has opened a conformance testing programme for digital
+    identity wallets, allowing wallet providers to verify their implementations against
+    OpenID for Verifiable Credentials specifications. The programme follows the model
+    the foundation used for OpenID Connect and the Financial-grade API (FAPI) security
+    profile, both of which underpin open banking ecosystems across Europe and beyond.
+
+
+    The initiative arrives as the EU digital identity wallet (EUDI) framework moves
+    toward large-scale pilots and eventual deployment. Interoperability and security
+    certification are preconditions for wallets to be accepted across borders and
+    sectors. By providing a standardised testing regime, the foundation is attempting
+    to prevent the fragmentation that characterised early open banking implementations,
+    where divergent national interpretations of the same standards created integration
+    headaches for providers operating across multiple markets.
+
+
+    For payments and open banking firms already building on FAPI profiles, the extension
+    into identity wallets signals convergence between the identity and financial data
+    layers. Firms such as Lissi, which raised funding to build EUDI wallet infrastructure
+    for financial services, will need conformance certification to operate at scale.'
+  editorial_note: ''
+  sources: '[OpenID Foundation Opens Conformance Testing for Digital Identity Wallets](https://thefintechtimes.com/openid-foundation-opens-conformance-testing-for-digital-identity-wallets/)
+    — Thefintechtimes'
+  style_check:
+    compliant: false
+    warnings:
+    - 'Standfirst opens by naming the organisation also named in the headline (''The
+      testing programme applies...'' should open with the substantive point rather
+      than describing what ''the testing programme'' does). Rule: ''In the standfirst,
+      do not open by naming the organisation that is also named in the headline.'''
+    - 'Body text uses ''earlier this year'' which is a vague temporal reference. Replace
+      with specific date or month: ''Lissi, which raised funding earlier this year
+      to build EUDI wallet infrastructure''. Rule: ''Avoid vague temporal references
+      such as "earlier this year". Use specific time periods...when a specific date
+      is available.'''
+    - Abbreviation 'OID4VC' is introduced but never recurs in the piece. Per rule,
+      'Only include an abbreviation in parentheses after a term if that abbreviation
+      is used again later in the same piece.' Either remove the abbreviation or use
+      it again, or spell out in full without parentheses.
+    - The editorial note should not be included in the copy check output as it is
+      meta-commentary. However, the rule states 'Do not include editorial notes about
+      missing information' — this note explains significance rather than flagging
+      missing information, which may be acceptable, but the note itself reveals that
+      the conformance testing is presented as a procedural step without the editorial
+      framing integrated into the body text itself.
   verification:
     verified: true
     stale: false
@@ -288,13 +199,18 @@ stories:
     replaced: false
     resolved: true
     summary:
-    - Standfirst no longer opens by naming Capstone; now begins 'The seizure intensifies…'
-      per rule 1.
-    - Final paragraph recast to remove audience-address construction 'For European
-      institutions weighing…'; now leads with 'European institutions developing stablecoin
-      strategies under the Markets in Crypto-Assets Regulation face…'.
-    - MiCA spelled out as 'Markets in Crypto-Assets Regulation' in the body's final
-      paragraph. Since the abbreviation does not recur later in the piece, it is not
-      followed by a parenthetical abbreviation, per the house style rule on unused
-      abbreviations.
-status: ready
+    - Revised standfirst to avoid opening by naming the subject already named in the
+      headline. Now leads with the substantive point about applying the certification
+      model.
+    - Removed parenthetical abbreviation '(OID4VC)' after 'OpenID for Verifiable Credentials'
+      since the abbreviation never recurs in the piece.
+    - Removed 'earlier this year' from the Lissi reference. The specific date of the
+      funding round could not be confirmed from available information, so the temporal
+      qualifier was simply dropped rather than replaced with a guess.
+    - Removed the editorial note as it is meta-commentary that should not appear in
+      the published piece; its substantive point about payments authentication relevance
+      is already conveyed in the body's final paragraph.
+status: needs_review
+status_reasons:
+- 'Could not resolve: Standard Chartered becomes first G-SIB on Euroclear''s distributed
+  FMI'
