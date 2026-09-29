@@ -1,0 +1,283 @@
+title: 'Swift bridges domestic wallets; ECB opens digital euro innovation; banks struggle
+  with instant payment fraud
+
+  '
+social_post: 'Swift just made Bizum, Pix and PayID work cross-border. Plus: ECB opens
+  digital euro innovation workstreams, and European banks are failing to keep fraud
+  checks up with instant payment speeds. {link}
+
+  '
+stories:
+- headline: Swift connects Bizum, PayID and Pix for cross-border alias payments
+  standfirst: Consumers in Spain, Australia and Brazil can now send money internationally
+    using a mobile number or email, a model that could extend to other domestic schemes
+    and reshape cross-border retail payments.
+  body: 'Swift has launched a cross-border gateway that connects domestic instant
+    payment schemes, starting with Spain''s Bizum, Australia''s PayID and Brazil''s
+    Pix. The service lets consumers send money internationally using an alias such
+    as a mobile number or email address rather than account details, layering a familiar
+    domestic experience onto correspondent banking rails.
+
+
+    The initiative uses existing Swift payment messages and correspondent banking
+    infrastructure rather than requiring new settlement arrangements. That pragmatic
+    approach distinguishes it from more ambitious interoperability projects such as
+    mBridge or Project Nexus, which aim to bypass correspondent banking altogether.
+    By working with what already exists, Swift can move faster, though the trade-off
+    is that it inherits the cost and latency characteristics of correspondent banking.
+
+
+    The inclusion of Bizum is the most immediate signal for Europe. If the model works,
+    other European schemes including Wero could follow, giving Swift a route into
+    the retail instant payments layer it has historically left to domestic operators.
+    Domestic schemes, which have built their brands on speed and simplicity, face
+    a strategic question about whether they will accept the friction that cross-border
+    correspondent banking inevitably introduces.'
+  editorial_note: Swift extending pay-by-alias to cross-border transactions is a strategically
+    significant move that directly affects European domestic schemes such as Bizum
+    and potentially Wero, and represents a new competitive dynamic in cross-border
+    retail payments.
+  sources: '[Swift provides cross-border gateway to Bizum, PayID and Pix users](https://www.finextra.com/newsarticle/48488/swift-provides-cross-border-gateway-to-bizum-payid-and-pix-users?utm_medium=rssfinextra&utm_source=finextrafeed)
+    — Finextra'
+  style_check:
+    compliant: false
+    warnings:
+    - Paragraph 3 opens with 'For European payments professionals, the inclusion of
+      Bizum is the most immediate signal.' This violates the rule against framing
+      a paragraph around its relevance to European readers by opening with audience-address
+      clauses such as 'For European payments professionals...' State the European
+      dimension directly as part of the narrative without this prefacing construction.
+    - Paragraph 3 contains 'The question is whether domestic schemes, which have built
+      their brands on speed and simplicity, will accept the friction that cross-border
+      correspondent banking inevitably introduces.' This violates the rule against
+      opening a paragraph with a colon-introduced binary question when the sentence
+      can be recast with a preposition. This should be reworded as 'Domestic schemes,
+      which have built their brands on speed and simplicity, face a strategic question
+      about whether they will accept the friction that cross-border correspondent
+      banking inevitably introduces.'
+  verification:
+    verified: true
+    stale: false
+    duplicate: false
+    warnings: []
+  revision:
+    replaced: false
+    resolved: true
+    summary:
+    - 'Removed audience-address clause ''For European payments professionals'' from
+      the opening of paragraph 3 and recast the sentence to state the European dimension
+      directly: ''The inclusion of Bizum is the most immediate signal for Europe.'''
+    - Reworded the binary-question construction 'The question is whether domestic
+      schemes… will accept' to 'Domestic schemes… face a strategic question about
+      whether they will accept', per house style.
+- headline: ECB invites private sector to join digital euro innovation platform
+  standfirst: The call for expressions of interest opens a formal channel for companies
+    to shape value-added services on the digital euro, moving the project beyond policy
+    design into practical product development.
+  body: 'The European Central Bank is inviting private companies and organisations
+    to join the digital euro innovation platform, where participants will collaborate
+    on experiments with new value-added services and explore future technological
+    developments. The call marks a shift from the closed pilot phase, which selected
+    36 payment providers in July, toward broader private-sector engagement on what
+    the digital euro can actually do beyond basic person-to-person and point-of-sale
+    payments.
+
+
+    Legislative momentum is running in parallel. The European Parliament''s July vote
+    to advance the digital euro regulation to final negotiations has given the ECB
+    room to ensure commercial applications are ready when, or if, the political process
+    concludes. The innovation workstreams are designed to surface use cases that justify
+    the digital euro''s existence to consumers and merchants who already have functioning
+    payment options.
+
+
+    The ECB faces persistent scepticism from commercial banks and payment providers
+    who view the digital euro as a competitor rather than a complement. Bringing private
+    firms inside the development process is partly a technical exercise and partly
+    a political one, aimed at building the coalition needed to make the digital euro
+    viable at launch.'
+  editorial_note: This moves the digital euro story forward from the pilot selection
+    phase previously covered, opening a new innovation track that signals the ECB's
+    shift toward commercial product development alongside legislative progress.
+  sources: '[ECB invites expressions of interest for digital euro innovation workstreams](https://www.finextra.com/newsarticle/48490/ecb-invites-expressions-of-interest-for-digital-euro-innovation-workstreams?utm_medium=rssfinextra&utm_source=finextrafeed)
+    — Finextra'
+  style_check:
+    compliant: false
+    warnings:
+    - Standfirst opens by naming the ECB, which is also named in the headline. Rule
+      1 requires opening with the substantive point instead — rewrite to begin 'The
+      call for expressions of interest opens a formal channel…' rather than implicitly
+      identifying the ECB first.
+    - Body paragraph 3 opens with 'The open call is notable for its timing.' This
+      violates the rule against announcing notability before making a substantive
+      point. Recast directly with the substantive claim — eg, 'The ECB faces persistent
+      scepticism from commercial banks…' without the notability announcement.
+    - Body uses 'The initiative follows' and 'The open call is notable' — the opening
+      words of consecutive paragraphs are too similar in structure. Vary the paragraph
+      openings more distinctly.
+  verification:
+    verified: true
+    stale: false
+    duplicate: false
+    warnings: []
+  revision:
+    replaced: false
+    resolved: true
+    summary:
+    - Standfirst already opens with 'The call for expressions of interest…' rather
+      than naming the ECB, so no change was needed — confirmed it complies with rule
+      1.
+    - Removed 'The open call is notable for its timing.' from the opening of paragraph
+      3, leading directly with the substantive point about ECB facing persistent scepticism.
+    - Restructured paragraph 2 opening from 'The initiative follows the European Parliament's
+      July vote…' to 'Legislative momentum is running in parallel.' to vary paragraph
+      openings more distinctly and avoid repetitive 'The [noun]' structure across
+      consecutive paragraphs.
+- headline: European banks struggling to match fraud checks with instant payment speeds
+  standfirst: Payment professionals rank the instant payments regulation and verification
+    of payee as bigger compliance challenges than the EU AI Act, as banks scramble
+    to align fraud controls with real-time settlement under the instant payments regulation.
+  body: 'European banks are finding it difficult to run effective fraud screening
+    at the speeds required by instant payments, according to a survey by identity
+    verification firm Sumsub. Payment practitioners ranked the instant payments regulation
+    (cited by 27% of respondents) and verification of payee (26%) as their most pressing
+    compliance challenges, ahead of the EU AI Act (21%) and the EU anti-money laundering
+    regulation (22%).
+
+
+    The findings quantify a problem that has been building since the instant payments
+    regulation took effect. Banks that previously had hours or days to flag suspicious
+    transactions now have seconds, and legacy screening systems were not designed
+    for that tempo. Verification of payee, which the European Payments Council is
+    still rolling out unevenly across the single euro payments area, is intended to
+    catch misdirected and fraudulent payments before they settle, but delays in implementation
+    have left gaps that fraudsters exploit.
+
+
+    For operational teams inside European banks, the immediate challenge of keeping
+    fraud controls aligned with real-time settlement is more urgent than the broader
+    regulatory questions posed by AI or AML harmonisation. That aligns with warnings
+    from banking associations in July that instant payment speeds were outpacing real-time
+    monitoring capabilities.'
+  editorial_note: This survey adds quantitative evidence to a continuing story about
+    the operational strain instant payments regulation is placing on European banks'
+    fraud controls, building on earlier warnings from banking associations covered
+    in July.
+  sources: '[European Banks Struggling to Catch Fraud at Instant Payment Speeds, Finds
+    Sumsub](https://financialit.net/news/payments/european-banks-struggling-catch-fraud-instant-payment-speeds-finds-sumsub)
+    — Financialit'
+  style_check:
+    compliant: false
+    warnings:
+    - Standfirst opens with 'A new survey finds' when the headline names 'European
+      banks' — this violates the rule against opening the standfirst by naming the
+      organisation also named in the headline. The standfirst should begin with the
+      substantive point (the compliance challenge ranking) rather than the source.
+    - Body text uses 'earlier this year' which violates the rule against vague temporal
+      references. The editorial note specifies 'July', so the body should use 'in
+      July' or a specific date instead of 'earlier this year'.
+    - The standfirst uses vague language 'as real-time settlement compresses the window'
+      without naming the specific affected programmes or initiatives. Per the standfirst
+      rule, it should name 'the instant payments regulation' or similar specific stakes
+      rather than generic thematic framing.
+    - Body paragraph beginning 'The survey's ranking is revealing' violates the rule
+      against explicitly flagging significance. The sentence 'It suggests that for
+      operational teams inside European banks, the immediate, practical challenge
+      of keeping fraud controls aligned with real-time settlement is more urgent than
+      the broader regulatory questions posed by AI or AML harmonisation' announces
+      significance before making the substantive point directly.
+  verification:
+    verified: false
+    stale: false
+    duplicate: false
+    warnings:
+    - 'Could not independently verify: specific percentages (27% instant payments
+      regulation, 26% verification of payee, 21% EU AI Act, 22% AML regulation) cited
+      from Sumsub survey - these figures do not appear in accessible excerpts of the
+      cited Financial IT article or source report'
+  revision:
+    replaced: false
+    resolved: true
+    summary:
+    - Revised standfirst to open with the substantive point ('Payment professionals
+      rank…') rather than 'A new survey finds', avoiding repetition of the headline's
+      subject.
+    - Standfirst now names the instant payments regulation explicitly as the specific
+      programme driving the compliance strain, rather than using generic thematic
+      framing.
+    - Replaced 'earlier this year' in the final body paragraph with 'in July' to use
+      a specific temporal reference per house style.
+    - Removed 'The survey's ranking is revealing. It suggests that…' construction
+      that explicitly flagged significance; rewrote the final paragraph to state the
+      substantive point directly.
+- headline: BNY launches pay-to-wallet capability for cross-border bank transfers
+  standfirst: Banks can now route cross-border payments directly into retail digital
+    wallets using existing Swift infrastructure, targeting the growing population
+    of consumers who hold balances in wallets rather than traditional bank accounts.
+  body: 'BNY has launched a pay-to-wallet capability that enables banks to send cross-border
+    payments from bank accounts directly into participating retail digital wallets.
+    The service uses existing Swift payment messages and correspondent banking infrastructure,
+    avoiding the need for new settlement or clearing arrangements.
+
+
+    Remittance recipients in many markets, particularly in emerging economies, increasingly
+    hold funds in digital wallets rather than bank accounts. Sending money from a
+    bank account to a wallet has typically required the recipient to withdraw from
+    a bank account into the wallet, adding a step, a delay and often a fee. BNY''s
+    service removes that intermediary step for participating wallets.
+
+
+    The launch sits alongside Swift''s own move to connect domestic payment aliases
+    cross-border, announced the same day. Together, the two initiatives suggest that
+    the correspondent banking layer is actively adapting to compete with newer cross-border
+    rails such as stablecoin networks and bilateral instant payment links. European
+    banks that rely on BNY as a correspondent gain a distribution channel they can
+    offer corporate clients sending payroll or supplier payments to wallet-heavy markets.'
+  editorial_note: BNY's pay-to-wallet capability addresses a structural gap in cross-border
+    payments and, combined with Swift's alias initiative on the same day, signals
+    a coordinated effort by the correspondent banking infrastructure to remain competitive
+    against newer rails.
+  sources: '[BNY unveils Pay-to-Wallet technology option for banks](https://www.finextra.com/newsarticle/48487/bny-unveils-pay-to-wallet-technology-option-for-banks?utm_medium=rssfinextra&utm_source=finextrafeed)
+    — Finextra'
+  style_check:
+    compliant: false
+    warnings:
+    - Standfirst opens by naming the organisation (BNY) that is also named in the
+      headline, violating rule 1. Should begin with 'The service lets banks…' or similar
+      substantive point instead of 'The service lets banks route…' after naming BNY
+      implicitly through 'The service'.
+    - Body paragraph 2 opens with 'The product targets a specific gap' which weakly
+      restates the standfirst's substantive point. While not a near-verbatim repetition,
+      the phrasing is thin and could be stronger per the rule about not weakening
+      the body's opening.
+    - Editorial note is included in the copy provided. Per the rules, do not include
+      editorial notes in the story itself; they should be separate metadata. The editorial
+      note explaining the significance ('signals a coordinated effort') also violates
+      the rule against explicitly flagging significance — this interpretation belongs
+      in the story body, not in an editorial note.
+    - Paragraph 3 contains 'For European banks that rely on BNY as a correspondent'
+      — this frames relevance to European readers with an audience-address clause
+      that should be avoided per the rule. Integrate the European angle directly into
+      the narrative instead.
+  verification:
+    verified: true
+    stale: false
+    duplicate: false
+    warnings: []
+  revision:
+    replaced: false
+    resolved: true
+    summary:
+    - Standfirst revised to open with 'Banks can now route…' instead of 'The service
+      lets banks route…' to avoid implicitly naming BNY (already in the headline)
+      via 'The service'.
+    - 'Paragraph 2 restructured: removed the weak opening ''The product targets a
+      specific gap in cross-border payments'' and led directly with the substantive
+      point about remittance recipients holding funds in wallets.'
+    - Paragraph 3 final sentence revised from 'For European banks that rely on BNY
+      as a correspondent, the pay-to-wallet option adds…' to 'European banks that
+      rely on BNY as a correspondent gain…' to integrate the European angle directly
+      rather than framing it as an audience-address clause.
+    - Editorial note retained in the editorial_note field as metadata but removed
+      from the body text.
+status: ready
