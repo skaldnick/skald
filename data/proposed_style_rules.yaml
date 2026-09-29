@@ -2,4 +2,16 @@
 # Populated automatically by tools/extract_learning.py (via GitHub Actions on push
 # to data/feedback/). Review and promote/edit in the dashboard's 'Proposed style
 # rules' section — accepted rules move to prompts/payments/style_rules.yaml.
-[]
+- date: '2026-09-29'
+  rule: Do not select a story based on a survey or research report commissioned or
+    produced by a vendor or commercial party with a direct interest in the findings
+    — for example, an identity-verification company publishing a survey about ID verification.
+    Only include survey-based stories when the research is conducted by an independent
+    body.
+- date: '2026-09-29'
+  rule: On first mention of a well-known organisation in the body text, include the
+    abbreviation in parentheses after the full name if that abbreviation is used again
+    later in the piece — even when the organisation is prominent and widely recognised.
+    For example, write "The European Central Bank (ECB) is inviting…" if "ECB" recurs
+    later in the body. Apply rule [13] to determine whether the parenthetical is needed
+    at all.
