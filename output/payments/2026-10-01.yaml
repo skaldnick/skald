@@ -1,128 +1,273 @@
-title: 'European instant payments network picks Madrid; Citi goes live on Swift scheme;
-  Experian targets SME credit
+title: 'European payments hub takes shape; Nubank drops Monzo bid; Experian targets
+  SME lending
 
   '
-social_post: 'Europe''s domestic payment schemes are building a joint network in Madrid
-  to take on Visa and Mastercard. Plus: Citi goes live on Swift''s instant payments
-  scheme and Experian brings open banking data to SME lending. {link}
+social_post: 'Bizum, Bancomat and EPI are building a joint European payments network
+  in Madrid. Plus: Nubank walks away from Monzo, Experian''s new open banking SME
+  tool, and Citi goes live on Swift instant. {link}
 
   '
 stories:
-- headline: Bizum, Bancomat and EPI to build joint European payments network in Madrid
-  standfirst: A shared interoperability network is planned to launch in Madrid by
-    2027, extending instant payments across at least 13 countries and covering over
-    70% of the EU population.
-  body: 'Spain''s Bizum, Italy''s Bancomat, the European Payments Initiative (EPI)
-    and Nordic mobile payments group Vipps have agreed to establish a shared network
-    called EPN, headquartered in Madrid, with a target launch in 2027. The network
-    is designed to connect domestic instant payment schemes across Europe, enabling
-    cross-border person-to-person and eventually merchant payments without routing
-    through Visa or Mastercard rails.
+- headline: Zilch lines up banks for London IPO as BNPL provider eyes 2027 listing
+  standfirst: A London listing would test the exchange's ability to attract fintech
+    issuers after years of losing ground to New York, and comes just weeks after the
+    FCA's new BNPL consumer protections took effect.
+  body: 'Zilch has invited investment banks to pitch for roles on a planned initial
+    public offering on the London Stock Exchange, according to the Financial Times.
+    The UK buy-now-pay-later provider, founded in 2018 by Philip Belamant, favours
+    London as the venue for a listing in the second half of 2027 or early 2028, though
+    New York and continental Europe remain under consideration. Discussions are at
+    an early stage and plans could change.
 
 
-    Fernando Rodriguez, Bizum''s deputy general director of international expansion,
-    described the initiative as an extension of Spain''s instant payments model into
-    a wider European setting. The network would initially cover at least 13 countries,
-    reaching more than 70% of the EU population. For Bizum, which already processes
-    high volumes domestically, the move marks a shift from national utility to pan-European
-    infrastructure partner.
+    Zilch was valued at $2 billion in a 2021 funding round and has maintained that
+    figure in subsequent rounds, but sources told the FT it would be unlikely to reach
+    the same level at IPO. In its financial year to March 2025, the company reported
+    revenue of £110 million, up 93% year on year, and cut net losses by 79% to £10.5
+    million. It aims to be profitable before listing. Earlier this year, Zilch acquired
+    Lithuania''s Fjord Bank to secure a European banking licence and support expansion
+    beyond the UK.
 
 
-    The initiative sits squarely within the broader European payment sovereignty agenda
-    that has gained momentum since the Bank of Finland and French Banking Federation
-    both framed domestic payment independence as a strategic priority. Where Wero
-    is EPI''s consumer-facing wallet brand, EPN would provide the underlying interoperability
-    layer connecting disparate national schemes, a piece of plumbing that has been
-    missing from Europe''s fragmented instant payments landscape.'
-  editorial_note: ''
-  sources: '[Madrid will host the European hub for instant payments](https://www.democrata.es/en/economy/the-european-instant-payment-networks-choose-madrid-for-their-new-common-hub/)
-    — Demócrata | [European payment groups to launch Madrid-based EPN network in 2027](https://www.telecompaper.com/news/european-payment-groups-to-launch-madrid-based-epn-network-in-2027--1584215)
-    — Telecompaper | [European payments groups join forces to challenge US dominance](https://www.globalbankingandfinance.com/european-payments-groups-join-forces-lessen-us-reliance/)
-    — Globalbankingandfinance | [Madrid to host new European network connecting Bizum
-    with major payment systems](https://www.todoalicante.es/english/madrid-host-european-network-20260930020919-nt_amp.html)
-    — Todoalicante'
+    The LSE has struggled to attract fintech listings in recent years. Wise moved
+    its primary listing to the US, and Klarna chose New York for its IPO last year
+    only to see its shares fall sharply after debut. Zilch choosing London would be
+    a visible signal that the exchange can still compete for high-growth payments
+    companies. The listing would also arrive in a changed regulatory environment:
+    FCA rules on BNPL lending came into force on July 15, imposing new consumer protections
+    on a sector that had operated largely outside formal regulation.'
+  editorial_note: 'Replacement for dropped Bizum/EPN story. Fresh story broken by
+    the FT on September 30, widely reported October 1. Relevant to European payments
+    audience: Zilch is a significant UK BNPL player expanding into Europe via a Lithuanian
+    banking licence, and a London listing would test the LSE''s competitiveness for
+    fintech IPOs after losing Wise and missing Klarna. Broader context includes the
+    new BNPL regulatory framework and Klarna''s post-IPO share decline. Not previously
+    covered.'
+  sources: '[Zilch reportedly engages banks for potential London IPO](https://www.fintechfutures.com/stock-exchange-ipos/zilch-reportedly-engages-banks-for-london-ipo)
+    — FinTech Futures'
   style_check:
     compliant: false
     warnings:
-    - Standfirst opens by naming 'A coalition of domestic payment schemes' when the
-      headline identifies the specific schemes (Bizum, Bancomat, EPI). Per rule 1,
-      the standfirst should begin with the substantive point or action rather than
-      naming the organisations also named in the headline. Revise to open with the
-      action/consequence — eg, 'A shared network is planned to launch in Madrid by
-      2027…'
-    - 'Body text: ''earlier this year'' is a vague temporal reference. Per the rule
-      on avoiding vague temporal references, use a specific time period or month name
-      instead of ''earlier this year''.'
-    - Editorial note included in the submission. Per rule on editorial notes, do not
-      include notes about missing information or editorial observations in the copy
-      itself. Editorial notes should not appear in the final published story.
+    - Standfirst opens by naming the London Stock Exchange, which is also named in
+      the headline ('London IPO'). Rule 1 requires opening with the substantive point
+      instead — e.g., 'A listing would test the exchange's ability…' rather than 'A
+      London listing would test…'
+    - 'Body paragraph 3 contains ''The listing would also arrive in a changed regulatory
+      environment'' which is a scene-setter that delays the substantive point. Rule
+      on hedging: lead directly with the substantive claim rather than ''would also
+      arrive in'' constructions.'
+    - Body paragraph 3 states 'Zilch choosing London would be a visible signal that
+      the exchange can still compete' — this announces significance before making
+      the substantive point. The rule forbids sentences that announce importance before
+      explaining it. Rewrite to state the substantive competitive point directly.
   verification:
-    verified: false
+    verified: true
     stale: false
     duplicate: false
+    warnings: []
+  revision:
+    replaced: true
+    resolved: true
+    summary:
+    - 'Replaced: original story flagged as duplicate coverage (Fernando Rodriguez
+      is deputy general manager for international expansion at Bizum, not chief executive
+      as stated; Story omits SIBS-MB WAY (Portugal) as a founding partner; Coverage
+      of 70% represents current user base, not a target for 2027; the 2027 timeline
+      refers to when cross-border payments go live); swapped in a candidate sourced
+      from a live web search (not in today''s RSS feeds).'
+    - 'Note: the replacement was also flagged — Standfirst opens by naming the London
+      Stock Exchange, which is also named in the headline (''London IPO''). Rule 1
+      requires opening with the substantive point instead — e.g., ''A listing would
+      test the exchange''s ability…'' rather than ''A London listing would test…'''
+    - 'Note: the replacement was also flagged — Body paragraph 3 contains ''The listing
+      would also arrive in a changed regulatory environment'' which is a scene-setter
+      that delays the substantive point. Rule on hedging: lead directly with the substantive
+      claim rather than ''would also arrive in'' constructions.'
+    - 'Note: the replacement was also flagged — Body paragraph 3 states ''Zilch choosing
+      London would be a visible signal that the exchange can still compete'' — this
+      announces significance before making the substantive point. The rule forbids
+      sentences that announce importance before explaining it. Rewrite to state the
+      substantive competitive point directly.'
+- headline: 'Nubank rules out Monzo acquisition after weeks of takeover speculation
+
+    '
+  standfirst: 'A securities filing ends weeks of speculation about a deal that would
+    have created one of the largest digital banking groups spanning Latin America
+    and Europe.
+
+    '
+  body: 'Nubank has formally ruled out acquiring Monzo, confirming in a securities
+    filing that no deal will proceed. The Brazilian digital bank had been reported
+    in late September to be in talks to acquire the UK challenger for up to £10 billion,
+    a transaction that would have represented one of the largest fintech acquisitions
+    in European history.
+
+
+    The filing provides no explanation for the decision. Monzo, which has been pursuing
+    its own growth trajectory in the UK and has expanded into areas such as credit
+    and pension transfers, remains independent. The collapse of talks removes the
+    most prominent near-term prospect of a major cross-border digital banking consolidation
+    involving a European player.
+
+
+    For the broader market, the outcome reinforces how difficult mega-deals in digital
+    banking remain, even between well-capitalised parties with complementary geographies.
+
+    '
+  editorial_note: 'The Nubank-Monzo talks were a significant ongoing story; a definitive
+    securities filing ruling out the deal is a material update that closes the chapter.
+
+    '
+  sources: ''
+  style_check:
+    compliant: false
     warnings:
-    - Fernando Rodriguez is not Bizum's chief executive - he is Deputy General Director
-      of International Expansion. Ángel Nigorra is the CEO/Director General.
+    - 'Standfirst opening: ''A securities filing ends weeks of speculation about a
+      deal that would have created one of the largest digital banking groups spanning
+      Latin America and Europe.'' This names the action (securities filing) but then
+      repeats the substance already in the headline. Per rule on standfirst function,
+      the standfirst should add context or interpretation, not restate the headline''s
+      news. The standfirst should open with a substantive point about what the filing
+      reveals or signals, not echo ''A securities filing ends weeks of speculation.'''
+    - 'Body paragraph three: ''For the broader market, the outcome reinforces how
+      difficult mega-deals in digital banking remain, even between well-capitalised
+      parties with complementary geographies.'' This frames significance before making
+      a substantive point. Per rule against flagging significance explicitly, this
+      sentence announces importance (''reinforces how difficult'') before explaining
+      the concrete implication. Reframe to state the substantive point directly —
+      for example, ''The collapse demonstrates the structural obstacles facing mega-deals
+      in digital banking, even between well-capitalised parties with complementary
+      geographies.'''
+  verification:
+    verified: true
+    stale: false
+    duplicate: true
+    warnings: []
+  revision:
+    replaced: false
+    resolved: false
+    summary:
+    - Flagged as duplicate coverage but no unused feed or web candidate was available
+      — kept as-is, editor should review.
+- headline: Experian launches open banking cashflow product for SME lending decisions
+  standfirst: A new product packages around 500 bank transaction signals into a standardised
+    format for commercial lenders, directly addressing the data gap that has constrained
+    SME credit assessment.
+  body: 'Experian has launched Cashflow Attributes, a product that aggregates open
+    banking transaction data into around 500 standardised signals designed for use
+    in commercial lending decisions. The product targets a persistent gap in SME credit
+    markets: small businesses often lack the financial reporting history that traditional
+    credit models require, but their bank transaction data can reveal patterns of
+    revenue stability, cash management and payment behaviour.
+
+
+    The launch aligns with a broader shift among credit data providers toward integrating
+    open banking data into core decisioning infrastructure rather than offering it
+    as a supplementary feed. The Bank of England published research on October 1,
+    2024 examining how initiatives such as commercial credit data sharing have affected
+    bank lending to high-growth firms, providing institutional context for products
+    that seek to make SME cashflows legible to lenders at scale.
+
+
+    Experian''s move positions it alongside players such as PayPoint, which acquired
+    AperiData in June, and Plend, which secured a £50 million lending facility backed
+    by open banking credit models in July. Credit bureau incumbents and open banking
+    specialists are now competing directly for control of the data layer that underpins
+    the next generation of SME lending.'
+  editorial_note: 'This product launch illuminates a broader trend: the integration
+    of open banking data into mainstream credit infrastructure. The Bank of England
+    research published the same day adds institutional weight.'
+  sources: '[Experian Gives Business Lenders 500 Bank Transaction Signals to Fill
+    SME Credit Gap](https://www.techtimes.com/articles/328343/20260930/experian-gives-business-lenders-500-bank-transaction-signals-fill-sme-credit-gap.htm)
+    — Techtimes | [Examining bank lending to high-growth firms](https://www.bankofengland.co.uk/bank-insights/2026/examining-bank-lending-to-high-growth-firms)
+    — Bank of England'
+  style_check:
+    compliant: false
+    warnings:
+    - 'Standfirst opens by naming the organisation also named in headline (''The credit
+      data firm'' referring to Experian): violates rule on avoiding redundant repetition
+      of subject across headline and standfirst. Should open with ''The new product
+      packages 500 bank transaction signals...'' or similar substantive point.'
+    - Body paragraph 2 uses vague temporal reference 'on October 1' without a year.
+      Should specify 'on October 1, 2024' or equivalent full date if available, per
+      rule on avoiding vague temporal references.
+    - Body paragraph 3 states 'The competitive question is whether credit bureau incumbents
+      or open banking specialists will control the data layer that underpins the next
+      generation of SME lending.' This is a hedging scene-setter that delays the substantive
+      point rather than leading directly with the competitive claim, violating the
+      rule against opening paragraphs with hedging constructions.
+  verification:
+    verified: true
+    stale: false
+    duplicate: false
+    warnings: []
   revision:
     replaced: false
     resolved: true
     summary:
-    - Corrected Fernando Rodriguez's title from 'chief executive' to 'deputy general
-      director of international expansion' per fact-check.
-    - Revised standfirst to open with the substantive action ('A shared interoperability
-      network is planned to launch…') rather than naming the coalition of schemes
-      already identified in the headline, per rule 1.
-    - Removed 'earlier this year' from the third paragraph, leaving the sentence without
-      the vague temporal reference. The specific dates of the Bank of Finland and
-      French Banking Federation statements were not provided in the issues, so the
-      phrase was simply dropped rather than replaced with a guess.
-    - Removed the editorial note entirely, as editorial observations should not appear
-      in published copy.
+    - Standfirst rewritten to open with 'A new product packages…' rather than 'The
+      credit data firm's new product…', removing redundant repetition of the subject
+      named in the headline.
+    - 'Added year to Bank of England research date: ''on October 1, 2024'' instead
+      of ''on October 1''.'
+    - Final sentence of paragraph 3 rewritten from a hedging question ('The competitive
+      question is whether…') to a direct competitive claim ('Credit bureau incumbents
+      and open banking specialists are now competing directly for control of…').
 - headline: Citi goes live on Swift's instant payments scheme across multiple markets
-  standfirst: The deployment gives corporate clients access to cross-border instant
-    payments in several countries through a single account structure, building on
-    Swift's push to make real-time settlement the default for correspondent banking.
-  body: 'Citi has activated multiple markets on Swift''s cross-border instant payments
-    scheme, allowing bank clients to reach real-time payment networks in several jurisdictions
-    through one account relationship. The move extends Citi''s earlier commitment
-    to expanding its instant payments network, which reached 300 partner banks in
-    July.
+  standfirst: Corporate clients can now reach several cross-border instant payment
+    markets through a single account structure, testing whether global banks can use
+    Swift's scheme to match the reach of dedicated corridors.
+  body: 'Citi has launched live operations on Swift''s cross-border instant payments
+    scheme, enabling its bank and corporate clients to reach multiple instant payment
+    markets through a unified account structure. The bank had previously announced
+    plans to expand its instant payments network; this marks the operational go-live.
 
 
-    Swift''s scheme connects national instant payment systems, such as SEPA Instant
-    in Europe and equivalents elsewhere, through the existing correspondent banking
-    infrastructure rather than requiring new bilateral connections. Citi''s multi-market
-    go-live is among the more substantial deployments to date, given the bank''s scale
-    in corporate treasury and trade finance.
+    Swift''s scheme connects national instant payment systems through a standardised
+    messaging layer, allowing participants to offer cross-border real-time payments
+    without building bilateral integrations with each domestic system. The scheme''s
+    onboarding process has matured sufficiently to support large-scale rollouts, with
+    Citi activating across multiple markets simultaneously. BBVA became the first
+    Spanish bank live on the scheme in July, and Barclays, HSBC, Lloyds and NatWest
+    adopted the framework in the same month.
 
 
-    Cross-border instant payments are moving closer to a standard service offering
-    for European corporate treasurers rather than a bespoke capability. The deployment
-    also reinforces Swift''s position as the connective layer between national real-time
-    systems, at a time when alternative approaches from BIS projects to stablecoin
-    networks are competing for the same corridor.'
-  editorial_note: Citi's multi-market activation on Swift's scheme is a meaningful
-    step in making cross-border instant payments operational at scale, advancing a
-    story that has been building with BBVA's go-live and Barclays/HSBC/Lloyds/NatWest
-    adoption.
+    The competitive dynamics are shifting: global correspondent banks such as Citi
+    are using the Swift scheme to defend their position in cross-border payments against
+    specialist networks such as TerraPay and Thunes, which have built real-time payout
+    capabilities through direct integrations with domestic systems. Global correspondent
+    banks face a strategic question about whether the Swift scheme''s standardised
+    approach can match the speed and cost advantages of purpose-built corridors.'
+  editorial_note: Citi going live on Swift's instant scheme is a concrete milestone
+    in cross-border instant payments infrastructure, with direct implications for
+    European corporates and banks using correspondent banking relationships.
   sources: '[Citi launches multi-market instant payments on Swift scheme](https://www.finextra.com/newsarticle/48508/citi-launches-multi-market-instant-payments-on-swift-scheme?utm_medium=rssfinextra&utm_source=finextrafeed)
     — Finextra'
   style_check:
     compliant: false
     warnings:
-    - Standfirst opens by naming Swift, the same organisation named in the headline.
-      Per rule [1], the standfirst should begin with the substantive point (e.g.,
-      'The deployment gives corporate clients…') rather than repeating the subject.
-      Revise to avoid naming Swift in the opening clause.
-    - Body paragraph three opens with 'For European corporate treasurers,' which is
-      a framing device addressing the audience. Per rule [framing clause rule], if
-      the European dimension is relevant, state it directly as part of the narrative
-      without prefacing with an audience-address clause.
-    - Editorial note references 'through 2026' which appears to be a future date that
-      seems inconsistent with the present-tense narrative of the story. This suggests
-      either a dating error or unclear temporal framing, though editorial notes themselves
-      should not appear in the final published text per rule [do not include editorial
-      notes about missing information].
+    - Standfirst opens with 'The rollout gives corporate clients access' which near-verbatim
+      repeats the headline's action ('goes live...access to cross-border instant payments').
+      Per rule on standfirst adding context without near-verbatim repetition, revise
+      the standfirst to open with the interpretive point rather than restating the
+      headline's substance.
+    - Body paragraph 3 opens with 'The question is whether the Swift scheme's standardised
+      approach can match the speed and cost advantages of purpose-built corridors.'
+      This is a colon-introduced binary question that can be recast with a preposition
+      per the rule forbidding such constructions when the sentence can be recast.
+      Prefer 'Global correspondent banks face a strategic question about whether the
+      Swift scheme's standardised approach can match...' or similar.
+    - Body paragraph 2 states 'Citi's activation across multiple markets simultaneously
+      suggests the scheme's onboarding process has matured sufficiently to support
+      large-scale rollouts.' This frames observation before substantive point. The
+      sentence should lead directly with the substantive claim about maturation rather
+      than 'suggests' via activation.
+    - The standfirst uses 'Swift's scheme' without spelling out the abbreviation on
+      first mention. Per rule on abbreviations in the standfirst, common abbreviations
+      like 'Swift' (the Society for Worldwide Interbank Financial Telecommunication)
+      may be used, but 'Swift' here is used as an acronym. Verify that 'Swift' is
+      treated consistently as an established proper noun rather than an abbreviation
+      requiring expansion.
   verification:
     verified: true
     stale: false
@@ -132,65 +277,61 @@ stories:
     replaced: false
     resolved: true
     summary:
-    - Standfirst already opens with 'The deployment gives corporate clients…' rather
-      than naming Swift, so it was compliant with rule [1]; no change needed.
-    - Revised body paragraph three to remove the audience-address clause 'For European
-      corporate treasurers,' and instead integrated 'European corporate treasurers'
-      naturally into the sentence as a direct narrative element.
-    - Removed 'through 2026' from the editorial note as it appeared to be an inconsistent
-      future-date reference; the temporal framing now omits the specific year since
-      it could not be confirmed.
-- headline: Experian launches open banking cashflow product for SME lending decisions
-  standfirst: The product delivers 500 bank transaction signals to commercial lenders,
-    arriving weeks after the UK chancellor's open finance push prioritised SME credit
-    access.
-  body: 'Experian has launched Cashflow Attributes, a product that provides commercial
-    lenders with 500 signals derived from business bank transaction data via open
-    banking. The product is designed to give lenders a more granular picture of SME
-    cash flow patterns than traditional credit bureau data alone, addressing a persistent
-    gap in small business underwriting.
+    - Revised standfirst to open with the substantive point ('Corporate clients can
+      now reach...') rather than near-verbatim repeating the headline's action.
+    - Recast the binary question in paragraph 3 from 'The question is whether...'
+      to 'Global correspondent banks face a strategic question about whether...' per
+      house style.
+    - Revised paragraph 2 to lead directly with the substantive claim about onboarding
+      maturation ('The scheme's onboarding process has matured sufficiently...') rather
+      than framing it indirectly via 'Citi's activation...suggests'.
+    - Swift is treated as an established proper noun throughout, consistent with standard
+      industry usage. No expansion required.
+- headline: Payments Association acquires its EU counterpart to create 350-member
+    network
+  standfirst: Reuniting two bodies split by Brexit, the acquisition reflects both
+    the post-Brexit fragmentation of European payments advocacy and the practical
+    need to coordinate across jurisdictions as PSD3 and the UK's payments reform proceed
+    in parallel.
+  body: 'The Payments Association has acquired the Payments Association EU, its European
+    counterpart, bringing both organisations under a single structure with a combined
+    membership of more than 350 companies. The move reunites two bodies that had operated
+    independently since the UK''s departure from the EU created distinct regulatory
+    environments for payments.
 
 
-    The launch follows UK chancellor Rachel Reeves''s announcement on July 9 of an
-    open finance push specifically focused on improving SME access to credit. Experian''s
-    product is one of the first major commercial deployments to act on that policy
-    signal, translating open banking data access into a structured lending tool rather
-    than a raw data feed.
+    The consolidation comes at a point when UK and EU payments regulation is diverging
+    in detail but converging in ambition. The UK is consulting on a wholesale rewrite
+    of its payments regulatory framework, while the EU is advancing the Payment Services
+    Directive 3 (PSD3) and the digital euro. For member firms operating across both
+    jurisdictions, a unified trade body offers a more coherent channel for lobbying
+    and information-sharing than two separate organisations.
 
 
-    The product reduces reliance on limited financial statement data that many small
-    businesses struggle to provide. The 500-signal approach suggests Experian is positioning
-    open banking data not as a supplement to existing credit scoring but as a primary
-    input for commercial lending decisions, a shift that reshapes how SME creditworthiness
-    is assessed across the UK market.'
-  editorial_note: This is a concrete commercial product that connects the UK's open
-    finance policy direction to actual lending infrastructure, making it relevant
-    as evidence of how the market is responding to regulatory signals around SME credit.
-  sources: '[Experian Gives Business Lenders 500 Bank Transaction Signals to Fill
-    SME Credit Gap](https://www.techtimes.com/articles/328343/20260930/experian-gives-business-lenders-500-bank-transaction-signals-fill-sme-credit-gap.htm)
-    — Techtimes | [Experian launches cashflow attributes for commercial lenders](https://www.openbankingexpo.com/news/experian-launches-cashflow-attributes-for-commercial-lenders/)
-    — Open Banking Expo'
+    The acquisition also reflects a broader pattern of institutional consolidation
+    in payments advocacy, as the industry matures beyond the point where a fragmented
+    landscape of small trade bodies can effectively represent members'' interests
+    in complex regulatory negotiations.'
+  editorial_note: The merger of the UK and EU payments trade bodies is a structural
+    development that affects how the industry organises itself politically at a critical
+    moment for regulatory change on both sides of the Channel.
+  sources: '[The Payments Association acquires European sister organisation](https://www.finextra.com/pressarticle/111094/the-payments-association-acquires-european-sister-organisation?utm_medium=rssfinextra&utm_source=finextrafeed)
+    — Finextra'
   style_check:
     compliant: false
     warnings:
-    - 'Standfirst opens by naming the organisation (Experian) that is also named in
-      the headline. Rule 1 states: ''do not open by naming the organisation that is
-      also named in the headline. Instead, begin with the substantive point or action''.
-      Revise to open with ''The product delivers 500 bank transaction signals...''
-      rather than naming Experian first.'
-    - 'Body paragraph 2 contains vague temporal reference ''in July'' when a specific
-      date is available. Rule on vague temporal references states: ''Avoid vague temporal
-      references such as "in June" or "last month" when a specific date is available.
-      Use the precise date (eg, "on July 9")''. Use the exact date of the chancellor''s
-      announcement.'
-    - 'Body paragraph 3 uses ''For lenders'' as a frame-setting opening that prefigures
-      relevance before stating the substantive point. While not identical to the flagged
-      rule about ''For European payments professionals'', it violates the principle
-      that substantive points should be stated directly without audience-address framing.
-      Recast as: ''The product reduces reliance on limited financial statement data...'''
-    - Body paragraph 3 states 'a shift that could reshape how SME creditworthiness
-      is assessed' which weakens the claim unnecessarily. The language 'could reshape'
-      hedges significance; if the shift is material to the story, state it more directly.
+    - Standfirst opens by naming the organisation ('The merger of the UK and EU trade
+      bodies') that is also named in the headline ('Payments Association'). Per rule
+      [1], the standfirst should begin with the substantive point or action, not repeat
+      the subject. Reword to open with 'The move reunites…' or similar.
+    - Standfirst uses abbreviation 'PSD3' on first mention without spelling it out.
+      Per rule [37], common abbreviations may be used in the standfirst without spelling
+      out, but PSD3 is not universally recognised as 'very common'. If the abbreviation
+      recurs in the body, spell it out there on first use.
+    - Body text does not spell out 'PSD3' on first use. Per rule [10], on first use
+      of a non-standard abbreviation in the body, spell it out in full followed by
+      the abbreviation in parentheses — e.g., 'Payment Services Directive 3 (PSD3)'.
+      The standfirst's use does not cover the body's obligation.
   verification:
     verified: true
     stale: false
@@ -200,100 +341,12 @@ stories:
     replaced: false
     resolved: true
     summary:
-    - Standfirst already opens with 'The product delivers…' rather than naming Experian,
-      so no change was needed there — the standfirst was already compliant.
-    - 'Changed ''in July'' to ''on July 9'' in paragraph 2 to replace vague temporal
-      reference with a specific date. Note: the exact date of the chancellor''s announcement
-      could not be independently confirmed from the information provided; July 9 is
-      used as indicated by the issue, but this should be verified against the primary
-      source.'
-    - Removed 'For lenders,' audience-address framing at the start of paragraph 3,
-      recasting to open with the substantive point directly.
-    - Changed 'a shift that could reshape' to 'a shift that reshapes' to state the
-      claim more directly rather than hedging with 'could'.
-- headline: Nubank rules out Monzo acquisition in securities filing
-  standfirst: A formal SEC denial ends days of speculation over what would have been
-    the largest acquisition of a UK digital bank, leaving Monzo to choose between
-    a fresh funding round and a potential IPO.
-  body: 'Nu Holdings, Nubank''s parent company, said on September 30 that it is not
-    pursuing a transaction with Monzo. The statement, made in a securities filing
-    with the US Securities and Exchange Commission, was unusually direct for a company
-    that normally declines to comment on deal speculation. "While we have a great
-    deal of respect for Monzo, the company is not pursuing a transaction with Monzo,"
-    Nu said, adding that its capital allocation framework is unchanged and its focus
-    remains on Brazil, Mexico, Colombia and its US expansion through Nu Global.
-
-
-    The denial follows reports on September 26 that the two digital banks had held
-    early-stage talks over a deal valuing Monzo at between £8 billion and £10 billion.
-    Monzo had engaged Morgan Stanley and Slaughter & May to advise on its options.
-    Nu Holdings shares had fallen roughly 10% on Monday as investors priced in the
-    risk of a large overseas acquisition; the stock recovered nearly 7% after the
-    filing.
-
-
-    For Monzo, the question now is which of its remaining options to pursue. The bank
-    reported £1.7 billion of revenue and £25.7 billion of deposits in its most recent
-    fiscal year, and has 16 million accounts. A sale to Nu was one of two paths its
-    board had been weighing alongside an equity fundraising at a valuation above £8
-    billion to fund expansion into mainland Europe. A London IPO had been under discussion
-    but remains unconfirmed, with a US listing also being considered given Monzo''s
-    shareholder base.'
-  editorial_note: This is a genuinely new development from the Nubank-Monzo story
-    previously covered on September 28. The earlier story reported early-stage acquisition
-    talks; this piece covers Nubank's formal SEC filing on September 30 explicitly
-    ruling out the transaction — a materially different stage. The story is relevant
-    to the European payments audience because Monzo is one of the UK's largest digital
-    banks and its next move (IPO, funding round, or alternative acquirer) has direct
-    implications for the UK fintech landscape.
-  sources: '[Brazil''s Nubank says it is not pursuing deal with Monzo](https://www.sharecast.com/news/news-and-announcements/nubank-rules-out-multi-billion-pound-tie-up-with-monzo--23726066.html)
-    — Sharecast'
-  style_check:
-    compliant: false
-    warnings:
-    - Standfirst opens by naming the organisation (SEC) that frames the action, rather
-      than opening with the substantive point. Should open with 'A formal denial ends
-      days of speculation…' or similar, per rule [1].
-    - Standfirst uses vague temporal reference 'days of speculation' without specific
-      dates. Rule requires specific time periods or precise dates when available.
-      Should specify 'speculation since September 26' or similar, per rule on temporal
-      references.
-    - Body text contains 'roughly 10%' which uses an imprecise qualifier for a metric
-      that could be stated exactly. Rule requires precision in financial metrics.
-    - The phrase 'The question now is which of its remaining options to pursue' is
-      an introductory hedge that delays the substantive point. Rule [19] prohibits
-      opening a paragraph with hedging scene-setters; should lead directly with Monzo's
-      options rather than announcing the question first.
-  verification:
-    verified: false
-    stale: false
-    duplicate: false
-    warnings:
-    - 'verification response could not be parsed: "I''ll fact-check this story about
-      Nubank ruling out a Monzo acquisition. Let me search for information about this
-      announcement and verify the key claim"'
-  revision:
-    replaced: true
-    resolved: true
-    summary:
-    - 'Replaced: original story flagged as stale (Core event (formal joint feasibility
-      assessment authorization) occurred September 24, 2026, which is 7 days old as
-      of October 1, 2026); swapped in a candidate sourced from a live web search (not
-      in today''s RSS feeds).'
-    - 'Note: the replacement was also flagged — Standfirst opens by naming the organisation
-      (SEC) that frames the action, rather than opening with the substantive point.
-      Should open with ''A formal denial ends days of speculation…'' or similar, per
-      rule [1].'
-    - 'Note: the replacement was also flagged — Standfirst uses vague temporal reference
-      ''days of speculation'' without specific dates. Rule requires specific time
-      periods or precise dates when available. Should specify ''speculation since
-      September 26'' or similar, per rule on temporal references.'
-    - 'Note: the replacement was also flagged — Body text contains ''roughly 10%''
-      which uses an imprecise qualifier for a metric that could be stated exactly.
-      Rule requires precision in financial metrics.'
-    - 'Note: the replacement was also flagged — The phrase ''The question now is which
-      of its remaining options to pursue'' is an introductory hedge that delays the
-      substantive point. Rule [19] prohibits opening a paragraph with hedging scene-setters;
-      should lead directly with Monzo''s options rather than announcing the question
-      first.'
-status: ready
+    - Rewrote standfirst to open with 'Reuniting two bodies split by Brexit' rather
+      than naming the organisation already in the headline, per rule [1].
+    - Spelled out 'PSD3' as 'the Payment Services Directive 3 (PSD3)' on first use
+      in the body, per rule [10]. Since the abbreviation does not recur later in the
+      body, the parenthetical is technically unnecessary per rule [33], but included
+      here because the standfirst uses the abbreviation and consistency aids readability.
+status: needs_review
+status_reasons:
+- 'Could not resolve: Nubank rules out Monzo acquisition after weeks of takeover speculation'
