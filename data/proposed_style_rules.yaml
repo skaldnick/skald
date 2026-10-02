@@ -2,18 +2,4 @@
 # Populated automatically by tools/extract_learning.py (via GitHub Actions on push
 # to data/feedback/). Review and promote/edit in the dashboard's 'Proposed style
 # rules' section — accepted rules move to prompts/payments/style_rules.yaml.
-- date: '2026-10-01'
-  rule: Do not use an ampersand ("&") in place of "and" when writing law firm names
-    or other proper nouns in body text. Write "Slaughter and May" not "Slaughter &
-    May".
-- date: '2026-10-01'
-  rule: When a direct quotation runs longer than one clause, break it into its own
-    paragraph rather than embedding it at the end of the preceding paragraph. Set
-    the quote off as a standalone paragraph so the attribution and the substance are
-    both clearly readable.
-- date: '2026-10-02'
-  rule: Do not select a story as a lead item if it represents only a minor update
-    or incremental development. A lead story must have substantive news value — a
-    significant announcement, policy change, major financial event, or material market
-    development. Minor updates, small amendments, or routine notices should be deprioritised
-    or excluded entirely.
+[]
