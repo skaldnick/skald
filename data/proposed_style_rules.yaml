@@ -11,3 +11,9 @@
     paragraph rather than embedding it at the end of the preceding paragraph. Set
     the quote off as a standalone paragraph so the attribution and the substance are
     both clearly readable.
+- date: '2026-10-02'
+  rule: Do not select a story as a lead item if it represents only a minor update
+    or incremental development. A lead story must have substantive news value — a
+    significant announcement, policy change, major financial event, or material market
+    development. Minor updates, small amendments, or routine notices should be deprioritised
+    or excluded entirely.
