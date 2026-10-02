@@ -330,3 +330,14 @@
     to EU regulatory frameworks is not itself sufficient grounds for relevance to
     a European payments audience. The story must have a direct or material connection
     to European markets, institutions, or players.
+- id: 61
+  date: '2026-10-01'
+  rule: Pay attention to company names and use the official form. For example, do
+    not use an ampersand ("&") when the official form uses "and". Write "Slaughter
+    and May" not "Slaughter & May".
+- id: 62
+  date: '2026-10-01'
+  rule: When a direct quotation runs longer than one clause, break it into its own
+    paragraph rather than embedding it at the end of the preceding paragraph. Set
+    the quote off as a standalone paragraph so the attribution and the substance are
+    both clearly readable.
