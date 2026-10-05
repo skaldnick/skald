@@ -2,4 +2,19 @@
 # Populated automatically by tools/extract_learning.py (via GitHub Actions on push
 # to data/feedback/). Review and promote/edit in the dashboard's 'Proposed style
 # rules' section — accepted rules move to prompts/payments/style_rules.yaml.
-[]
+- date: '2026-10-05'
+  rule: When introducing a named product or feature, do not place the product name
+    in apposition immediately after the company and verb in the same sentence. Instead,
+    lead with the company and a description of what it has done, then open the following
+    sentence with the product name as the subject — eg, "Constructor has launched
+    a tool that integrates Stripe… Agentic Checkout collapses the traditional funnel…"
+    rather than "Constructor has launched Agentic Checkout, a tool that integrates
+    Stripe…". This keeps the company as the active agent in the lede and gives the
+    product name its own sentence for clarity.
+  supersedes: 37
+- date: '2026-10-05'
+  rule: 'When an abbreviation such as "FCA" is not used again later in the same piece,
+    do not add the parenthetical abbreviation after the spelled-out term. Write "the
+    Financial Conduct Authority''s broader direction of travel" not "the Financial
+    Conduct Authority''s (FCA) broader direction of travel". Apply rule [13]: only
+    include the parenthetical if the short form recurs.'
