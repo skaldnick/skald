@@ -435,6 +435,11 @@
   - Zilch engages banks for potential London IPO in 2027
   - Verification of payee requirements diverge as US plans lag behind Europe
   - Payments Association acquires European counterpart to build cross-border advocacy
+- date: '2026-10-05'
+  stories:
+  - Constructor integrates Stripe to enable purchases within AI agent conversations
+  - Salad Finance uses open banking to underwrite borrowers excluded by credit scores
+  - Lloyds settles $750,000 with Visa using stablecoins in live cross-border pilot
 - date: '2026-10-06'
   stories:
   - Trustly raises new capital to fund AI platform after deep restructuring

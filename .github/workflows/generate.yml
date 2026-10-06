@@ -18,21 +18,39 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
+      # GitHub's cron routinely fires hours late (13:00-15:00 UTC instead of
+      # 06:30 seen Sep-Oct 2026), by which point the editor has usually already
+      # dispatched a run manually and may be mid-review. A late scheduled run
+      # would silently overwrite that draft (happened 2026-10-05), so scheduled
+      # runs skip if today's draft exists. Manual dispatch always regenerates.
+      - name: Skip if today's draft already exists
+        id: guard
+        if: github.event_name == 'schedule'
+        run: |
+          if [ -f "output/payments/$(date +%Y-%m-%d).yaml" ]; then
+            echo "Draft for $(date +%Y-%m-%d) already exists; skipping scheduled run."
+            echo "skip=true" >> "$GITHUB_OUTPUT"
+          fi
+
       - name: Set up Python
+        if: steps.guard.outputs.skip != 'true'
         uses: actions/setup-python@v5
         with:
           python-version: '3.12'
           cache: 'pip'
 
       - name: Install dependencies
+        if: steps.guard.outputs.skip != 'true'
         run: pip install -r requirements.txt
 
       - name: Generate briefing
+        if: steps.guard.outputs.skip != 'true'
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
         run: python -m generator.client
 
       - name: Commit draft
+        if: steps.guard.outputs.skip != 'true'
         run: |
           git config user.name "skald-bot"
           git config user.email "skald-bot@users.noreply.github.com"
