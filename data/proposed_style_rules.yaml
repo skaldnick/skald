@@ -2,4 +2,10 @@
 # Populated automatically by tools/extract_learning.py (via GitHub Actions on push
 # to data/feedback/). Review and promote/edit in the dashboard's 'Proposed style
 # rules' section — accepted rules move to prompts/payments/style_rules.yaml.
-[]
+- date: '2026-10-07'
+  rule: 'When an organisation is referred to by an abbreviation later in the same
+    piece, introduce the abbreviation in parentheses on first use in the body text
+    — even when the organisation''s name might seem well known. For example, write
+    "The Bank of England (BoE)" on first use in the body if "BoE" recurs later in
+    the piece. Apply rule [13]: only add the parenthetical if the abbreviation actually
+    recurs.'
