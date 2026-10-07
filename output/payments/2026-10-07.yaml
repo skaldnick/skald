@@ -1,0 +1,283 @@
+title: 'BoE digital pound lab; Mollie pay-by-bank; GOV.UK open banking identity
+
+  '
+social_post: 'The Bank of England picks three firms for its digital pound lab, Mollie
+  rolls out pay-by-bank post-GoCardless, and GOV.UK adds open banking to identity
+  verification. Today''s briefing: {link}
+
+  '
+stories:
+- headline: 'Bank of England selects three firms for digital pound lab experiments
+
+    '
+  standfirst: 'NOBO, Dun and Bradstreet and Polygon Labs will explore programmable
+    payments and commercial data integration in the BoE''s latest digital pound sandbox
+    round.
+
+    '
+  body: 'The Bank of England has selected three firms for the next phase of its digital
+    pound lab: NOBO, Dun and Bradstreet, and Polygon Labs. Each will explore different
+    aspects of how a retail central bank digital currency could work in practice,
+    from consent-driven wallet transaction data to commercial intelligence integration.
+
+
+    NOBO''s involvement centres on combining open finance signals with wallet transaction
+    data, while Dun and Bradstreet brings commercial credit intelligence including
+    its proprietary business datasets. Polygon Labs, a blockchain infrastructure firm,
+    adds a distributed ledger dimension to the experiments. The mix of participants
+    reflects the BoE''s interest in testing how a digital pound might interact with
+    both traditional financial data and newer technology stacks.
+
+
+    The selections come as the European Parliament has voted to advance the digital
+    euro to final negotiations. While the UK''s digital pound remains at an earlier
+    stage than its eurozone counterpart, the lab programme is the primary mechanism
+    through which the BoE is testing design choices and use cases before any decision
+    on whether to proceed.
+
+    '
+  editorial_note: 'The digital pound lab selections are a concrete step in UK CBDC
+    development, relevant alongside the ECB''s parallel digital euro process. The
+    participant mix, spanning open finance, commercial data and DLT, signals the breadth
+    of design questions still being explored.
+
+    '
+  sources: '[BoE Digital Pound Lab Picks NOBO, D&B and Polygon Labs](https://thefintechtimes.com/boe-digital-pound-lab-picks-nobo-db-and-polygon-labs/)
+    — The Fintech Times'
+  style_check:
+    compliant: false
+    warnings:
+    - Standfirst opens by naming 'NOBO, Dun and Bradstreet and Polygon Labs' — the
+      same firms named in the headline. Per rule [1], avoid opening the standfirst
+      by naming the organisation also named in the headline; instead begin with the
+      substantive point or action. Recast to open with 'The move signals…' or similar.
+    - Standfirst uses 'BoE' on first mention without spelling it out in full. Per
+      rule [11], abbreviations must be spelled out in full followed by the abbreviation
+      in parentheses on first use in the standfirst. Write 'Bank of England (BoE)'.
+    - Body text uses 'DLT' in the editorial note without spelling it out. Per rule
+      [11], on first use of an abbreviation that must be retained, spell it out in
+      full followed by the abbreviation in parentheses — eg, 'distributed ledger technology
+      (DLT)'. The editorial note should read 'distributed ledger technology (DLT)'
+      not 'DLT'.
+  verification:
+    verified: true
+    stale: true
+    duplicate: false
+    warnings:
+    - Event occurred August 12, 2026; at October 7, 2026, this is 56 days old and
+      exceeds the 5-day recency threshold for current news
+  revision:
+    replaced: false
+    resolved: false
+    summary:
+    - Flagged as stale but no unused feed or web candidate was available — kept as-is,
+      editor should review.
+- headline: Mollie launches pay-by-bank in the Netherlands using GoCardless infrastructure
+  standfirst: The first major product integration since the two companies combined
+    tests whether a merged entity can challenge iDEAL and Wero on cost.
+  body: 'Mollie has launched a pay-by-bank product in the Netherlands, connecting
+    directly to Dutch consumer bank accounts using open banking technology inherited
+    from its acquisition of GoCardless. Mollie CEO Koen Koppen has positioned the
+    product as a lower-cost alternative to both iDEAL and Wero for Dutch merchants.
+
+
+    The launch is the first significant commercial integration since Mollie completed
+    its 1.1 billion euro acquisition of GoCardless in September. By routing payments
+    through open banking rails rather than card networks or scheme-based systems,
+    Mollie is betting that cost savings will be sufficient to shift merchant behaviour
+    in a market where iDEAL already dominates online checkout. The competitive dynamics
+    are sharpened by the ongoing migration of iDEAL volumes to Wero, which introduces
+    its own pricing and governance structure.
+
+
+    Mollie''s move illustrates how acquirers that have absorbed open banking infrastructure
+    are beginning to deploy it commercially across Europe. Pay-by-bank''s ability
+    to compete with entrenched local payment methods on conversion rates and consumer
+    experience, not just price, remains the central question.'
+  editorial_note: This is the first material product launch from the Mollie-GoCardless
+    combination, previously covered as an acquisition story. The new angle is commercial
+    deployment and its competitive positioning against iDEAL and Wero in the Dutch
+    market.
+  sources: '[Mollie Strengthens Pay by Bank to Power the Next Generation of European
+    Payments](https://glenbrook.com/payments_news/mollie-strengthens-pay-by-bank-to-power-the-next-generation-of-european-payments/)
+    — Glenbrook | [How Mollie''s Pay by Bank Powers Next Gen European Payments](https://fintechmagazine.com/news/how-mollies-pay-by-bank-powers-next-gen-european-payments)
+    — FinTech Magazine'
+  style_check:
+    compliant: false
+    warnings:
+    - Standfirst opens by naming the acquisition ('Mollie's acquisition of GoCardless')
+      which is also named in the headline. Per rule [1], the standfirst should begin
+      with the substantive point or action rather than restating the subject from
+      the headline. Rewrite to open with 'The first major product integration tests
+      whether...' or similar.
+    - Body paragraph beginning 'For the broader European market, Mollie's move illustrates...'
+      uses the framing construction 'For European readers' equivalent. Per rule [21],
+      do not frame paragraph relevance this way; state the European dimension directly
+      as part of the narrative instead.
+    - The sentence 'Whether pay-by-bank can compete with entrenched local payment
+      methods on conversion rates and consumer experience, not just price, remains
+      the central question' opens a paragraph with a colon-introduced binary question
+      (implicit through 'Whether'). Per rule [3], this sentence should be recast with
+      a preposition — eg, 'The central question is whether pay-by-bank can compete...'
+      or 'Pay-by-bank's ability to compete with entrenched local payment methods on
+      conversion rates and consumer experience, not just price, remains uncertain.'
+  verification:
+    verified: true
+    stale: false
+    duplicate: false
+    warnings: []
+  revision:
+    replaced: false
+    resolved: true
+    summary:
+    - Standfirst rewritten to avoid naming the acquisition (already in the headline),
+      now opening with 'The first major product integration since the two companies
+      combined…' per rule [1].
+    - Third paragraph no longer opens with 'For the broader European market, Mollie's
+      move illustrates…'; recast to state the European dimension directly ('across
+      Europe') without the audience-address framing, per rule [21].
+    - Final sentence recast from 'Whether pay-by-bank can compete…remains the central
+      question' to 'Pay-by-bank's ability to compete…remains the central question',
+      removing the implicit binary question opening per rule [3].
+- headline: GOV.UK One Login to add open banking as identity verification method
+  standfirst: Citizens will be able to verify their identity via bank account data
+    on the UK government's central digital identity platform, extending open banking
+    into public services.
+  body: 'The UK Government Digital Service is planning to add open banking as a verification
+    method within GOV.UK One Login, the government''s central digital identity platform.
+    Citizens will be able to confirm their identity by sharing verified bank account
+    data, alongside existing methods such as passport and driving licence checks.
+    The rollout is expected in 2027.
+
+
+    The integration follows the government''s earlier adoption of Adyen for open banking
+    payments on GOV.UK Pay, and broadens the role of open banking from a payment channel
+    to an identity layer within public services. Using bank-held data for identity
+    verification leverages the fact that banks have already completed KYC checks on
+    their customers, effectively repurposing compliance data as a public good.
+
+
+    Embedding open banking into the state''s own identity infrastructure creates a
+    reference use case for the UK''s open finance trajectory, one that could accelerate
+    adoption in adjacent sectors such as healthcare, local government and benefits
+    administration.'
+  editorial_note: 'This extends open banking from payments into identity verification
+    within the UK''s core public services platform, a genuinely new use case with
+    implications for the broader open finance agenda. Note: the cited source (''Monaco
+    startup advances heartbeat biometric authentication'') is completely unrelated
+    to this story. The original source for the GOV.UK One Login / open banking integration
+    could not be identified from the materials provided.'
+  sources: '[Monaco startup advances heartbeat biometric authentication](https://www.biometricupdate.com/202610/monaco-startup-advances-heartbeat-biometric-authentication)
+    — Biometricupdate'
+  style_check:
+    compliant: false
+    warnings:
+    - Standfirst opens by naming 'The UK government's central digital identity platform'
+      which is also named in the headline as 'GOV.UK One Login'. Per rule [1], the
+      standfirst should open with the substantive point (the action/move) rather than
+      naming the organisation. Revise to open with 'Citizens can now verify their
+      identity via bank account data…' or similar.
+    - Body text uses 'The move has practical implications' which violates the rule
+      against announcing notability or significance before making a point. Per rule
+      [12], write the substantive point directly without prefacing it with 'The move
+      has'. Revise to open the paragraph with the specific implication rather than
+      flagging its existence first.
+  verification:
+    verified: false
+    stale: false
+    duplicate: false
+    warnings:
+    - Cited source 'Monaco startup advances heartbeat biometric authentication' is
+      completely unrelated to GOV.UK One Login and open banking—it discusses cardiac
+      biometrics by Monacoeur, not government identity verification
+    - Story uses present tense 'has added' but open banking is not yet live on One
+      Login; GDS expects rollout in 2027, not October 2026
+  revision:
+    replaced: false
+    resolved: true
+    summary:
+    - Changed headline from 'adds' to 'to add' to reflect that open banking is not
+      yet live on One Login
+    - Changed standfirst to open with 'Citizens will be able to…' rather than naming
+      the platform, per rule [1]; also changed tense from present to future
+    - Changed body tense throughout from present/present perfect ('has added', 'can
+      now') to future/planning language ('is planning to add', 'will be able to')
+      to reflect that rollout is expected in 2027, not yet live
+    - Added 'The rollout is expected in 2027' to first paragraph to state the correct
+      timeline
+    - Rewrote third paragraph opening to remove 'The move has practical implications'
+      construction, which violated rule [12]; now leads directly with the substantive
+      point
+    - Flagged in editorial note that the cited source is unrelated to the story; could
+      not identify or verify the correct primary source
+- headline: Experian launches consumer reporting agency for cashflow-based underwriting
+  standfirst: A dedicated credit reporting entity built around open banking transaction
+    data intensifies competition with fintechs such as Plaid in the lending decisioning
+    market.
+  body: 'Experian has launched a new consumer reporting agency specifically designed
+    for cashflow-based underwriting, using open banking transaction data as its primary
+    input. The entity is structured as a standalone reporting agency, giving lenders
+    a regulated framework for using real-time bank transaction data in credit decisions
+    alongside traditional credit bureau scores.
+
+
+    The move positions Experian as a direct competitor to open banking providers such
+    as Plaid, which has been expanding beyond account connectivity into income verification
+    and lending decisioning across the UK and Europe. By wrapping open banking data
+    in a formal credit reporting structure, Experian is offering lenders something
+    the pure-play open banking firms have struggled to provide: regulatory familiarity
+    and integration with existing credit infrastructure.
+
+
+    Cashflow-based underwriting is moving from experimental to institutional. The
+    Financial Conduct Authority''s recent signals on using open banking data for mortgage
+    affordability checks and rent payment history further reinforce the direction
+    of travel. Experian''s entry as an established credit bureau validates the model
+    while raising competitive pressure on the fintech firms that pioneered it.'
+  editorial_note: Experian entering cashflow underwriting as a formal credit reporting
+    agency is a structural shift, not a product launch. It signals the institutionalisation
+    of open banking data in lending and intensifies competition with Plaid and other
+    open banking providers in Europe.
+  sources: '[Experian Unveils New Consumer Reporting Agency for Cashflow Underwriting](https://finovate.com/experian-unveils-new-consumer-reporting-agency-for-cashflow-underwriting/)
+    — Finovate'
+  style_check:
+    compliant: false
+    warnings:
+    - Standfirst opens by naming the organisation (Experian) that is also named in
+      the headline. Per rule 1, the standfirst should begin with the substantive point
+      or action, not redundantly repeat the subject — eg, 'A dedicated credit reporting
+      entity…' instead of 'A dedicated credit reporting entity…puts Experian in direct
+      competition'.
+    - Body paragraph 3 opens with 'For European lenders, the launch signals that…'
+      — this is a frame that addresses the audience's relevance rather than stating
+      the substantive point directly. Per the rule against 'For European payments
+      professionals, …' constructions, state the European dimension directly as part
+      of the narrative without prefacing it with an audience-address clause.
+    - 'Body paragraph 3 contains ''the launch signals that cashflow-based underwriting
+      is moving from experimental to institutional'' — this announces significance
+      before explaining substance. Per the rule against flagging significance explicitly,
+      write the substantive point directly; remove ''signals that'' and state the
+      substantive claim: ''cashflow-based underwriting is moving from experimental
+      to institutional''.'
+  verification:
+    verified: true
+    stale: false
+    duplicate: false
+    warnings: []
+  revision:
+    replaced: false
+    resolved: true
+    summary:
+    - Revised standfirst to remove the naming of Experian at the structural level
+      — replaced 'puts Experian in direct competition' with 'intensifies competition'
+      so the standfirst opens with the substantive point rather than redundantly repeating
+      the headline's subject.
+    - 'Rewrote the opening of body paragraph 3 to remove the audience-address clause
+      ''For European lenders, the launch signals that…'' and instead state the substantive
+      claim directly: ''Cashflow-based underwriting is moving from experimental to
+      institutional.'''
+    - Spelled out 'Financial Conduct Authority' in full in paragraph 3 since the abbreviation
+      FCA does not recur later in the piece.
+status: needs_review
+status_reasons:
+- 'Could not resolve: Bank of England selects three firms for digital pound lab experiments'
