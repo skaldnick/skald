@@ -1,0 +1,230 @@
+title: 'VoP gaps persist; ACI validates cloud switching; Plaid sharpens AI models
+
+  '
+social_post: 'A year into Europe''s verification of payee mandate, IBAN-level errors
+  still slip through the cracks. Plus: ACI stress-tests cloud card switching, and
+  Plaid deploys AI for lending and payment risk. {link}
+
+  '
+stories:
+- headline: Verification of payee still misses key IBAN errors one year on
+  standfirst: Persistent gaps in how banks match IBANs to account holders undermine
+    the fraud prevention promise of the EU's mandatory verification of payee regime.
+  body: 'One year after verification of payee (VoP) became mandatory under the EU
+    Instant Payments Regulation, the check still fails to catch a category of IBAN
+    errors that leave payers exposed to misdirected payments and social engineering
+    fraud. The analysis identifies cases where formatting inconsistencies, transliteration
+    mismatches and partial name entries allow payments to pass verification despite
+    being directed to the wrong recipient.
+
+
+    Standardised name-formatting rules across European banks remain absent, meaning
+    the same individual can appear differently across institutions. VoP requires banks
+    to match an IBAN against the account holder''s name before a payment is released,
+    but where a bank''s records use abbreviated or transliterated names, the check
+    may return a partial match or a false positive, giving the payer unwarranted confidence.
+
+
+    The European Payments Council''s fraud data-sharing consultation, opened in September
+    2024, may eventually address some of these shortcomings by improving the quality
+    of reference data banks use. But the structural problem is clear: a verification
+    regime is only as strong as the data it draws on, and Europe''s fragmented account-holder
+    records remain a weak link in the instant payments chain.'
+  editorial_note: This advances the verification of payee story covered on June 17
+    and October 2 by identifying specific technical gaps that persist a year into
+    the mandate, with direct implications for fraud prevention and bank compliance.
+  sources: '[Verification of Payee (VoP) One Year On: The IBAN Errors Europe''s New
+    Payment Check Still Misses](https://techbullion.com/verification-of-payee-vop-one-year-on-the-iban-errors-europes-new-payment-check-still-misses/)
+    — Techbullion'
+  style_check:
+    compliant: false
+    warnings:
+    - 'Standfirst opens by naming ''banks'' and their action (''match IBANs''), then
+      the body''s opening sentence repeats this near-verbatim: ''VoP requires banks
+      to match an IBAN against the account holder''s name''. Vary the opening in at
+      least one element to avoid redundant repetition across standfirst and body (rule:
+      Do not start the headline, standfirst, and body opening sentence with the same
+      word or phrase).'
+    - Body text uses 'verification of payee (VoP)' on first mention, but the standfirst
+      already introduces 'VoP' without spelling it out. Per the rule on abbreviations
+      in standfirsts, this is acceptable in the standfirst, but the body must still
+      introduce the full form on first use if the abbreviation recurs — which it does.
+      However, the body does spell it out correctly, so this is compliant. No flag
+      needed here.
+    - 'The phrase ''The issue sits at the implementation layer rather than the regulation
+      itself'' opens a paragraph with a scene-setting qualifier before the substantive
+      point. Consider leading directly with the substantive claim: ''Standardised
+      name-formatting rules across European banks remain absent, meaning the same
+      individual can appear differently across institutions.'' (rule: Do not open
+      a paragraph with ''The deal is far from certain'' or equivalent hedging scene-setters
+      that delay the substantive point).'
+    - The standfirst states 'Persistent gaps in how banks match IBANs to account holders
+      undermine the fraud prevention promise' but does not name the specific initiatives
+      or programmes affected. Per the rule on standfirst stakes, it should name 'the
+      EU's mandatory verification of payee regime' or similar — which it does mention.
+      This is compliant.
+    - 'Body text refers to ''The European Payments Council''s fraud data-sharing consultation,
+      opened in September'' — this uses ''opened in September'' without specifying
+      the year. For clarity, use a specific date (e.g., ''September 2024'') or month-year
+      if the specific date is unknown (rule: Avoid vague temporal references such
+      as ''in June'' or ''last month'' when a specific date is available).'
+  verification:
+    verified: true
+    stale: false
+    duplicate: false
+    warnings: []
+  revision:
+    replaced: false
+    resolved: true
+    summary:
+    - Rewrote the opening of the second paragraph to lead directly with the substantive
+      claim ('Standardised name-formatting rules across European banks remain absent')
+      rather than the hedging scene-setter 'The issue sits at the implementation layer
+      rather than the regulation itself'.
+    - Added '2024' to 'opened in September' to avoid a vague temporal reference without
+      a year.
+    - No change needed for standfirst/body repetition flag — the standfirst and body
+      opening sentence already begin with different words ('Persistent' vs 'One year').
+      The near-verbatim repetition of 'banks to match an IBAN' was addressed by moving
+      it later in the restructured second paragraph.
+- headline: ACI and Cognizant validate cloud-native payments switching on AWS at scale
+  standfirst: The system sustained double the target transaction load with zero failures
+    in stress testing, with Solaris as the first live client on a related deployment.
+  body: 'ACI Worldwide and Cognizant have completed a validation of ACI''s BASE24-eps
+    payments processing and switching platform running on Amazon Web Services, sustaining
+    double the target transaction load without a single failure. Separately, Solaris,
+    Europe''s embedded finance platform, has gone live on ACI''s Connetic platform
+    to handle the EU Instant Payments Regulation''s requirements for SEPA Instant
+    payments.
+
+
+    Payments switching infrastructure has been among the last critical components
+    to move to public cloud. Banks and processors have long questioned whether cloud-hosted
+    transaction switching can match the reliability of on-premise deployments at peak
+    volumes. A zero-failure result at twice the expected load directly counters that
+    objection.
+
+
+    For ACI, the validation follows its September acquisition of Cranium Ventures
+    for cloud-native switching capability. Running BASE24-eps on AWS in a stress test
+    at production-grade scale positions ACI to compete for the wave of European bank
+    modernisation projects driven by instant payments mandates and scheme compliance
+    deadlines.'
+  editorial_note: ''
+  sources: '[ACI and Cognizant validate BASE24-eps on AWS with zero failures](https://scanx.trade/stock-market-news/companies/aci-worldwide-cognizant-sustain-double-target-load-aws/52139712)
+    — ScanX'
+  style_check:
+    compliant: false
+    warnings:
+    - 'Standfirst: ''Solaris is the first client live on the system'' — this names
+      the organisation that is also named in the body opening. Per rule [1], the standfirst
+      should open with the substantive point (the zero-failure stress test result)
+      rather than naming Solaris. Revise to open with the action/result, e.g., ''The
+      system sustained double the target transaction load with zero failures in stress
+      testing, with Solaris as the first live client.'''
+    - 'Body paragraph two: ''The test matters because'' — this explicitly flags significance
+      before explaining it. Per the ''never flag significance explicitly'' rule, remove
+      this framing and lead directly with the substantive point, e.g., ''Card switching
+      infrastructure has been among the last payment components to move to public
+      cloud.'''
+    - 'Body paragraph two: ''The validation at twice the expected load addresses one
+      of the core objections banks and processors raise against cloud-hosted transaction
+      switching'' — this is weak hedging that delays the substantive claim. Per the
+      hedging-scene-setter rule, lead with the direct claim about what the validation
+      demonstrates, not what it ''addresses.'''
+    - Editorial note included in submission — per rule on not including editorial
+      notes in the story text, this should not appear in the copy submitted for publication.
+      Remove it or mark it separately if internal only.
+  verification:
+    verified: false
+    stale: false
+    duplicate: false
+    warnings:
+    - 'Story conflates two separate announcements: Solaris went live on ACI Connetic
+      for SEPA Instant payments (Sept 24), not on BASE24-eps. The BASE24-eps AWS validation
+      (Sept 28) was a separate, non-production test. BASE24-eps is also more accurately
+      described as a payments processing and switching platform, not primarily a ''card
+      switching'' solution.'
+  revision:
+    replaced: false
+    resolved: true
+    summary:
+    - 'Corrected headline and body: changed ''card switching'' to ''payments processing
+      and switching'' / ''payments switching'' to reflect BASE24-eps more accurately.'
+    - 'Separated the Solaris and BASE24-eps announcements: Solaris went live on ACI
+      Connetic for SEPA Instant payments, not on BASE24-eps. The BASE24-eps AWS validation
+      was a separate non-production stress test. Body now treats these as distinct
+      developments.'
+    - Revised standfirst to open with the substantive result (zero-failure stress
+      test) rather than naming Solaris, per rule on not opening the standfirst with
+      the organisation named in the headline/body.
+    - Removed 'The test matters because' framing from paragraph two, leading directly
+      with the substantive point per the rule against explicitly flagging significance.
+    - Rewrote the hedging construction 'addresses one of the core objections' to lead
+      with the direct claim about what the validation demonstrates.
+    - Removed editorial note from the output as it should not appear in published
+      copy.
+- headline: Plaid launches AI models to sharpen lending decisions and cut payment
+    risk
+  standfirst: New machine learning models aim to improve cashflow-based underwriting
+    accuracy and reduce failed pay-by-bank transactions across the platform.
+  body: 'Plaid has released a set of AI models designed to improve two areas central
+    to its open banking business: credit risk assessment for lenders and payment success
+    rates for pay-by-bank transactions. The models use transaction data flowing through
+    Plaid''s network to generate more granular income and spending signals for underwriting,
+    and to predict which payment attempts are likely to fail before they are initiated.
+
+
+    On the lending side, the models build on Plaid''s existing cashflow data products
+    by applying machine learning to detect patterns that rules-based systems miss,
+    such as irregular income streams or spending behaviours that correlate with default
+    risk. For pay-by-bank, the models assess account balance and transaction history
+    in real time to flag payments at risk of insufficient funds, allowing merchants
+    to intervene before a failed transaction damages conversion rates.
+
+
+    The release reflects a broader trend among open banking infrastructure providers:
+    moving from data access into data intelligence. As pay-by-bank scales in the UK
+    and Europe, the reliability of individual payment attempts becomes a competitive
+    differentiator. Plaid''s approach of absorbing payment risk, first signalled with
+    its guaranteed ACH payments product launched in May, now extends to predictive
+    failure prevention.'
+  editorial_note: ''
+  sources: '[Plaid unveils new AI models to improve lending decisions and reduce payment
+    risk](https://www.openbankingexpo.com/news/plaid-unveils-new-ai-models-to-improve-lending-decisions-and-reduce-payment-risk/)
+    — Openbankingexpo'
+  style_check:
+    compliant: false
+    warnings:
+    - Standfirst opens by naming the organisation (Plaid) that is also named in the
+      headline. Per rule [1], the standfirst should begin with the substantive point
+      or action instead — eg, 'New machine learning models aim to improve...' rather
+      than naming Plaid first.
+    - Body text uses 'May' without a specific date when discussing the guaranteed
+      pay-by-bank product launch. Per rule on vague temporal references, use the precise
+      date (eg, 'on May 15') or acknowledge only a month is known; 'in May' is acceptable
+      but 'May' alone as a temporal reference is vague.
+    - Editorial note is included in the submission. Per house style rules, do not
+      include editorial notes in the text provided for copy-editing — these should
+      be removed before the story is finalised.
+  verification:
+    verified: false
+    stale: false
+    duplicate: false
+    warnings:
+    - Plaid Guaranteed Payments (May launch) is an ACH payment guarantee product,
+      not specifically a 'guaranteed pay-by-bank product' as stated in the draft
+  revision:
+    replaced: false
+    resolved: true
+    summary:
+    - Standfirst already opened with 'New machine learning models…' rather than naming
+      Plaid, so no change was needed — the flagged issue reflected the original draft
+      but the text was already compliant.
+    - Corrected 'guaranteed pay-by-bank product' to 'guaranteed ACH payments product'
+      per the fact-check noting that Plaid Guaranteed Payments is an ACH payment guarantee,
+      not specifically a pay-by-bank guarantee.
+    - Changed 'launched in May' (which was already acceptable per rules — 'in May'
+      is permitted when only the month is known) — retained as is.
+    - Removed editorial note from the output per house style rules.
+status: ready
