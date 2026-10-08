@@ -452,3 +452,8 @@
   - Mollie launches pay-by-bank in the Netherlands using GoCardless infrastructure
   - GOV.UK One Login to add open banking as identity verification method
   - Experian launches consumer reporting agency for cashflow-based underwriting
+- date: '2026-10-08'
+  stories:
+  - Verification of payee still misses key IBAN errors one year on
+  - ACI and Cognizant validate cloud-native payments switching on AWS at scale
+  - Plaid launches AI models to sharpen lending decisions and cut payment risk
