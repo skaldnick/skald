@@ -2,4 +2,14 @@
 # Populated automatically by tools/extract_learning.py (via GitHub Actions on push
 # to data/feedback/). Review and promote/edit in the dashboard's 'Proposed style
 # rules' section — accepted rules move to prompts/payments/style_rules.yaml.
-[]
+- date: '2026-10-09'
+  rule: Do not select a story for inclusion when it merely reiterates previously reported
+    information without adding new facts, developments, or angles. A story must contain
+    genuine news — a new event, decision, data point, or shift — not simply repackage
+    what has already been covered.
+- date: '2026-10-09'
+  rule: On first use of "PSR" (Payment Systems Regulator) in the body, spell it out
+    in full followed by the abbreviation in parentheses — "The Payment Systems Regulator
+    (PSR)" — then use "PSR" alone for subsequent references. Apply the standard abbreviation-introduction
+    rule even for well-known UK regulatory bodies.
+  supersedes: 9
