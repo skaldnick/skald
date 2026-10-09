@@ -457,3 +457,9 @@
   - Verification of payee still misses key IBAN errors one year on
   - ACI and Cognizant validate cloud-native payments switching on AWS at scale
   - Plaid launches AI models to sharpen lending decisions and cut payment risk
+- date: '2026-10-09'
+  stories:
+  - TrueLayer raises €23m with Italian state backing for pay-by-bank expansion
+  - Mastercard to mandate offline payment capability across Europe from 2027
+  - FCA taskforce maps open finance use cases and identifies infrastructure gaps
+  - Visa and Mastercard face £700m claim over post-Brexit interchange fee rises
