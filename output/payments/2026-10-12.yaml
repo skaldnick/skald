@@ -1,0 +1,148 @@
+title: 'Mastercard expands agentic commerce; T+1 deadline looms for EU and UK banks
+
+  '
+social_post: 'Mastercard builds out its agentic payments trust layer, and EU/UK banks
+  have one year to prove T+1 readiness. Today''s briefing: {link}
+
+  '
+stories:
+- headline: 'Mastercard adds trust and intelligence layer to agentic payments programme
+
+    '
+  standfirst: 'The expansion of Agent Pay moves beyond transaction execution to address
+    the verification and context gaps that have slowed enterprise adoption of AI-initiated
+    payments.
+
+    '
+  body: 'Mastercard has expanded Agent Pay, its agentic payments programme, with new
+    trust and intelligence services designed to give merchants and financial institutions
+    greater context about AI-initiated transactions. The services aim to verify the
+    identity and authorisation of AI agents acting on behalf of consumers or businesses
+    before a payment is processed.
+
+
+    Agentic commerce has moved rapidly from concept to live pilots over the past six
+    months, with Visa, Mastercard, Blik and several European banks all completing
+    agentic transactions. The bottleneck is no longer whether agents can initiate
+    payments but whether the surrounding infrastructure can authenticate them reliably.
+    Mastercard''s move addresses this directly, building a verification layer on top
+    of the payment rail rather than treating agent identity as someone else''s problem.
+
+
+    The announcement follows EMVCo''s draft framework for card-based agentic payments
+    published in September and the formation of a cross-industry agentic payments
+    alliance. Trust infrastructure is emerging as the competitive battleground: whoever
+    defines how agents are credentialled and monitored will shape the economics of
+    the channel.
+
+    '
+  editorial_note: 'Agentic payments are moving from proof-of-concept to infrastructure
+    build-out; Mastercard''s trust layer is a tangible step in that direction and
+    relevant to European issuers and processors evaluating their own agentic strategies.
+
+    '
+  sources: '[Mastercard rolls out trust and intelligence services for agentic commerce](https://www.finextra.com/pressarticle/111213/mastercard-rolls-out-trust-and-intelligence-services-for-agentic-commerce?utm_medium=rssfinextra&utm_source=finextrafeed)
+    — Finextra'
+  style_check:
+    compliant: false
+    warnings:
+    - Standfirst opens by naming the organisation ('Agent Pay') that is also the subject
+      of the headline ('Mastercard adds'). Per rule [1], the standfirst should begin
+      with the substantive point or action, not the programme name. Revise to open
+      with 'The expansion moves beyond…' or similar, avoiding redundant repetition
+      of the subject across headline and standfirst.
+    - Body paragraph 2 contains 'past six months' which is a vague temporal reference.
+      Per rule on vague temporal references, use a specific time period instead —
+      e.g., 'since March' or provide exact dates if available.
+    - 'Body paragraph 3 states ''Trust infrastructure is emerging as the competitive
+      battleground'' followed by ''whoever defines how agents are credentialled and
+      monitored will shape the economics of the channel.'' This frames significance
+      before the substantive point. Per the rule against explicit significance flagging,
+      write the substantive claim directly without announcing its importance beforehand.
+      Revise to lead with the concrete development: ''Whoever defines how agents are
+      credentialled and monitored will shape the economics of the channel, making
+      trust infrastructure the competitive battleground.'''
+  verification:
+    verified: true
+    stale: true
+    duplicate: false
+    warnings:
+    - Core event (Mastercard Agent Pay announcement) occurred September 30, 2026,
+      which is 12 days old as of October 12, 2026 — exceeds 5-day recency threshold
+      by 2 days
+  revision:
+    replaced: false
+    resolved: false
+    summary:
+    - Flagged as stale but no unused feed or web candidate was available — kept as-is,
+      editor should review.
+- headline: EU and UK banks face one-year countdown to T+1 settlement
+  standfirst: Treasury operations and liquidity management across European banks and
+    payment processors with capital markets exposure must be overhauled before the
+    October 2027 deadline for next-day securities settlement.
+  body: 'The transition to T+1 settlement, which compresses the post-trade window
+    from two business days to one, gives banks in the EU and the UK one year to demonstrate
+    operational readiness. The deadline, set for October 2027, follows the US move
+    to T+1 in May 2024 and brings European markets into alignment.
+
+
+    The operational burden falls disproportionately on firms that operate across time
+    zones or rely on manual processes for funding, foreign exchange and reconciliation.
+    For payments firms with treasury or liquidity functions tied to securities settlement,
+    the compressed cycle will tighten intraday liquidity requirements and demand more
+    automation in cash positioning. Banks already under pressure from the SEPA instant
+    payments regulation''s liquidity demands face a second, parallel squeeze.
+
+
+    Unlike the US transition, which applied to a single market, the European move
+    must be coordinated across multiple central securities depositories and national
+    regulators simultaneously. The complexity is structural, not just technical.'
+  editorial_note: ''
+  sources: '[EU and UK banks face 1 year deadline for T+1](https://www.finextra.com/newsarticle/48564/eu-and-uk-banks-face-1-year-deadline-for-t1?utm_medium=rssfinextra&utm_source=finextrafeed)
+    — Finextra'
+  style_check:
+    compliant: false
+    warnings:
+    - Standfirst opens by naming the action ('The shift to next-day securities settlement')
+      rather than beginning with the substantive point or consequence. Per rule [1],
+      when the headline names the subject (EU and UK banks), the standfirst should
+      open with the interpretive or substantive point, not restate the action. Revise
+      to open with the consequence — eg, 'This will force changes to treasury operations…'
+      rather than 'The shift to next-day securities settlement…'
+    - 'Body text uses ''two business days'' and ''one'' for numbers. Per the words-for-one-to-nine
+      rule, ''one'' should be written as ''one'' (correct), but ''two'' should also
+      be spelled out as ''two'' (correct as written). However, check: ''two business
+      days to one'' mixes word and digit unnecessarily. The rule requires ''two''
+      as a word, which is correct, but the phrasing is awkward. This is not a violation
+      but note the style.'
+    - 'Headline, standfirst, and body opening all begin with similar subject framing:
+      headline ''EU and UK banks face'', standfirst ''The shift'', body ''Banks in
+      the EU and the UK have''. Per rule on opening variety, at least one element
+      should vary significantly. The body opens with ''Banks in the EU and the UK''
+      which closely mirrors the headline''s ''EU and UK banks''. Revise body opening
+      to vary — eg, ''Operational readiness must be demonstrated within one year…'''
+    - Editorial note is included in the copy provided. Per the rules, editorial notes
+      about context or reasoning should not appear in the final story. This note explains
+      the relevance but should not be published as part of the piece itself. Remove
+      the editorial note from the final version.
+  verification:
+    verified: true
+    stale: false
+    duplicate: false
+    warnings: []
+  revision:
+    replaced: false
+    resolved: true
+    summary:
+    - Revised standfirst to open with the consequence (treasury operations and liquidity
+      management must be overhauled) rather than restating the action named in the
+      headline, per rule [1].
+    - Revised body opening sentence to lead with 'The transition to T+1 settlement'
+      rather than 'Banks in the EU and the UK', varying the opening from the headline's
+      'EU and UK banks face' per the rule on opening variety.
+    - Removed the editorial note from the final version, as editorial reasoning notes
+      should not appear in the published piece.
+status: needs_review
+status_reasons:
+- 'Could not resolve: Mastercard adds trust and intelligence layer to agentic payments
+  programme'
