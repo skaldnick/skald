@@ -2,4 +2,17 @@
 # Populated automatically by tools/extract_learning.py (via GitHub Actions on push
 # to data/feedback/). Review and promote/edit in the dashboard's 'Proposed style
 # rules' section — accepted rules move to prompts/payments/style_rules.yaml.
-[]
+- date: '2026-10-13'
+  rule: When an organisation has already been introduced by its full name earlier
+    in the same piece (for example, in the standfirst or a prior sentence), do not
+    spell it out again with its abbreviation in parentheses on the next reference.
+    Use the abbreviation alone on subsequent mentions. If the full name first appears
+    in the body, follow the standard spell-out-then-abbreviate rule; but do not re-introduce
+    the parenthetical if the full name has already been established.
+- date: '2026-10-13'
+  rule: Avoid repeating the specific country or organisation name as the grammatical
+    subject of consecutive sentences when a pronoun or descriptive noun phrase ("the
+    Gulf state", "the central bank") serves clearly. After naming a country or organisation,
+    use a referring expression ("The Gulf state", "the regulator", "the body") on
+    the next reference within the same paragraph to avoid mechanical repetition of
+    the proper noun.
