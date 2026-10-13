@@ -344,3 +344,16 @@
 - id: 63
   date: '2026-10-06'
   rule: No proposed rules pending review.
+- id: 64
+  date: '2026-10-13'
+  rule: 'Well-known organisations that do not need to spelled out in full include:
+    WTO, IFC, UN, OECD, IMF.'
+- id: 65
+  date: '2026-10-13'
+  rule: Avoid repeating the specific country or organisation name as the grammatical
+    subject of consecutive sentences when a pronoun or descriptive noun phrase ("the
+    Gulf state", "the central bank") serves clearly. After naming a country or organisation,
+    use a referring expression ("The Gulf state", "the regulator", "the body") on
+    the next reference within the same paragraph to avoid mechanical repetition of
+    the proper noun. Use the same technique to avoid starting consecutive paragraphs
+    with the same country or organisation name.
