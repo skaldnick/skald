@@ -2,8 +2,4 @@
 # Populated automatically by tools/extract_learning.py (via GitHub Actions on push
 # to data/feedback/). Review and promote/edit in the dashboard's 'Proposed style
 # rules' section — accepted rules move to prompts/payments/style_rules.yaml.
-- date: '2026-10-14'
-  rule: Do not select a story for inclusion if it is stale — that is, if the underlying
-    event, publication, or announcement was made more than a few weeks before the
-    briefing date. Stories published in a prior month or earlier should be excluded
-    unless they contain a genuinely new development that justifies revisiting them.
+[]
