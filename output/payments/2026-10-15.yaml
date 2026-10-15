@@ -1,0 +1,282 @@
+title: 'Neonomics rebuilds; Mastercard''s agentic patent tilt; Montenegro''s SEPA
+  savings materialise
+
+  '
+social_post: 'Neonomics raises $4m after halving costs — a case study in open banking
+  survival. Plus Mastercard''s patent portfolio tilts toward agentic payments, and
+  Montenegro counts its SEPA savings. {link}
+
+  '
+stories:
+- headline: Neonomics raises $4m after halving costs and growing customer base 60%
+  standfirst: A modest fundraise from existing shareholders after deep restructuring
+    illustrates the brutal economics facing mid-tier infrastructure players in European
+    open finance.
+  body: 'Neonomics has raised $4 million from existing shareholders after cutting
+    its operating cost base by almost 50% and growing new customer acquisition by
+    60%. The funding follows what the company describes as a strategic transformation,
+    shifting from growth-at-all-costs to a model focused on unit economics and service
+    quality.
+
+
+    The entire raise came from existing shareholders rather than new investors, suggesting
+    stabilisation rather than scaling. Neonomics was previously better known for its
+    acquisition of Ordo in January, which it shut down in August after the business
+    failed to gain traction. Access PaySuite subsequently picked up Ordo''s open banking
+    infrastructure.
+
+
+    For the broader European open banking infrastructure layer, the pattern is now
+    familiar: providers that expanded aggressively during the PSD2 build-out are retrenching,
+    cutting headcount and narrowing their focus to reach profitability. Neonomics
+    joins Trustly, which cut a quarter of its workforce before raising new capital
+    in the autumn, in demonstrating that survival in this segment increasingly requires
+    ruthless cost discipline rather than top-line growth.'
+  editorial_note: Neonomics' raise, coming after the Ordo acquisition and closure
+    covered earlier, is a meaningful data point on the economics of mid-tier open
+    banking infrastructure in Europe — an ongoing theme for this audience.
+  sources: '[Neonomics secures $4m for open banking](https://www.finextra.com/pressarticle/111265/neonomics-secures-4m-for-open-banking)
+    — Finextra Research | [Neonomics Secures $4m Funding as Customer Acquisition Surges
+    60% Post-Strategic Refocus](https://ffnews.com/news/neonomics-norwegian-open-banking-provider-secures-4m-in-funding-872b1cba)
+    — Ffnews | [Neonomics raises $4M after halving costs, with new customer acquisition
+    up 60%](https://app.dealroom.co/news/feed/neonomics-raises-4m-after-halving-costs-with-new-customer-acquisition-up-60)
+    — Dealroom | [Neonomics secures $4m for open banking](https://www.finextra.com/pressarticle/111265/neonomics-secures-4m-for-open-banking?utm_medium=rssfinextra&utm_source=finextrafeed)
+    — Finextra'
+  style_check:
+    compliant: false
+    warnings:
+    - 'Headline starts with a digit: ''Neonomics raises $4m'' violates the rule ''Apply
+      the standard words-for-one-to-nine / digits-from-10 rule but avoid starting
+      a headline, standfirst or sentence with digits.'' Should be reworded to avoid
+      starting with ''$4m''.'
+    - 'Body paragraph 2 opens: ''The raise is modest by any measure'' — this is a
+      scene-setting hedge that delays the substantive point. The rule states ''Do
+      not open a paragraph with "The deal is far from certain" or equivalent hedging
+      scene-setters that delay the substantive point.'' This sentence should lead
+      directly with the substantive claim instead.'
+    - 'Body paragraph 3: ''Neonomics joins Trustly, which cut a quarter of its workforce
+      in September before raising new capital in October'' — uses vague temporal reference
+      ''in September'' and ''in October'' when specific dates may be available. The
+      rule requires ''Avoid vague temporal references such as "in June" or "last month"
+      when a specific date is available. Use the precise date (eg, "on July 9") or,
+      where only a month is known, the month name.'''
+    - 'Body paragraph 2: ''which collapsed earlier this year when the combined entity
+      shut down'' — uses vague temporal reference ''earlier this year''. The rule
+      states ''Avoid vague temporal references such as "earlier this year". Use specific
+      time periods (eg, "the last quarter of 2025 (April-June)") when referring to
+      financial or business results.'''
+    - 'Standfirst: ''The Norwegian open banking provider''s fundraise after a deep
+      restructuring'' — the body''s opening sentence repeats this information nearly
+      verbatim (''Neonomics has raised $4 million from existing shareholders after
+      cutting its operating cost base''), which violates the rule about avoiding ''near-verbatim
+      repetition of the same phrasing across headline, standfirst, and body''.'
+  verification:
+    verified: false
+    stale: false
+    duplicate: false
+    warnings:
+    - Story describes Ordo as 'troubled merger with Ordo, which collapsed' - actually
+      Neonomics acquired Ordo in January 2025 and shut it down in August-autumn 2025
+      after failing to gain traction. Not a collapsed merger but a failed acquisition
+      followed by closure.
+  revision:
+    replaced: false
+    resolved: true
+    summary:
+    - Corrected Ordo reference from 'troubled merger which collapsed' to 'acquisition
+      in January, which it shut down in August after the business failed to gain traction',
+      reflecting the actual sequence of events.
+    - Revised standfirst to open with 'A modest fundraise' rather than naming the
+      organisation already in the headline, and reworded to reduce near-verbatim repetition
+      with the body's opening sentence.
+    - Rewrote body paragraph 2 opening to lead with the substantive point ('The entire
+      raise came from existing shareholders') rather than a hedging scene-setter ('The
+      raise is modest by any measure').
+    - Replaced vague temporal references 'in September' and 'in October' for Trustly
+      with 'before raising new capital in the autumn', since specific dates were not
+      available in the source and could not be confirmed.
+    - Replaced 'earlier this year' with specific timing ('in January' for acquisition,
+      'in August' for shutdown).
+    - 'Headline unchanged: while it contains ''$4m'', the headline does not start
+      with a digit — it starts with ''Neonomics''. The ''$4m'' appears mid-headline
+      and does not violate the rule about starting a headline with digits.'
+- headline: Mastercard's patent portfolio tilts toward agentic payments while Visa's
+    holds steady
+  standfirst: An analysis of patent filings shows a widening gap in intellectual property
+    strategy around agent-initiated payments, open banking and quantum security between
+    the two dominant card networks.
+  body: 'Mastercard''s recent patent activity is shifting toward agentic payments,
+    open banking and quantum-resistant security, according to an analysis of filing
+    trends published by Retail Banker International. The portfolio tilt aligns with
+    the company''s public moves — its agentic payments programme, its Wallet Pay interoperability
+    product and its partnership activity across Europe.
+
+
+    Visa''s patent mix, by contrast, has not moved materially in the same direction.
+    Its filings remain concentrated on core card processing and fraud detection. The
+    divergence reflects broader differences in their commercial strategies: Mastercard
+    has been more aggressive in positioning for a post-card payments landscape, while
+    Visa has focused on extending its existing network''s reach, including its recent
+    partnership with OpenAI and its Featurespace-powered account-to-account fraud
+    tools.
+
+
+    Patent portfolios are imperfect proxies for strategic intent — companies file
+    defensively as well as offensively — but the directional difference between the
+    two networks is consistent with their respective public positioning on agentic
+    commerce and open finance.'
+  editorial_note: The patent analysis offers a concrete, data-driven lens on how the
+    two dominant card networks are positioning for agentic payments — a theme this
+    audience is actively tracking.
+  sources: '[Mastercard''s patent mix has started to tilt toward agentic payments.
+    Visa''s has not moved](https://www.retailbankerinternational.com/sponsored/mastercards-patent-mix-has-started-to-tilt-toward-agentic-payments-visas-has-not-moved/)
+    — Retailbankerinternational'
+  style_check:
+    compliant: false
+    warnings:
+    - Standfirst opens by naming the organisation in the headline ('Mastercard building
+      intellectual property') — rule [1] requires opening with the substantive point
+      instead, e.g., 'An analysis of patent filings shows a shift toward agent-initiated
+      payments…'
+    - Body paragraph two uses 'account-to-account' instead of the abbreviated 'A2A'
+      form, contradicting rule [2] preference for standard abbreviations — however,
+      re-reading rule [2], it actually prefers spelling out non-standard abbreviations.
+      'Account-to-account' is correct here, so this is not a violation.
+    - Second paragraph opens with 'Visa's patent mix' and third paragraph opens with
+      'Patent portfolios' — while not identical, the sentence structure 'X's [noun],
+      by contrast' followed by a standalone noun phrase risks repetitive framing.
+      More importantly, the phrase 'This divergence is worth watching' in paragraph
+      two violates the rule against announcing significance — it should be recast
+      to state the substantive point directly without flagging its notability.
+    - '''This divergence is worth watching alongside both companies'' commercial strategies''
+      — this phrase flags significance before making the substantive point, violating
+      the rule against sentences that announce importance before explaining it. Rewrite
+      as ''The divergence reflects broader differences in their commercial strategies.'''
+  verification:
+    verified: true
+    stale: false
+    duplicate: false
+    warnings: []
+  revision:
+    replaced: false
+    resolved: true
+    summary:
+    - Revised standfirst to avoid opening by naming Mastercard (already named in headline),
+      now opens with the substantive finding ('a widening gap in intellectual property
+      strategy').
+    - Replaced 'This divergence is worth watching alongside both companies' commercial
+      strategies' with 'The divergence reflects broader differences in their commercial
+      strategies' to remove the significance-flagging construction.
+- headline: Qivalis secures Dutch e-money licence, clearing path for 37-bank euro
+    stablecoin
+  standfirst: The DNB authorisation brings the largest European banking consortium
+    behind a single stablecoin closer to issuance, though a MiCA white paper must
+    still be published before the token can launch.
+  body: 'De Nederlandsche Bank has authorised Qivalis as an electronic money institution,
+    giving the Amsterdam-based joint venture the regulatory foundation it needs to
+    issue a euro-denominated stablecoin under the Markets in Crypto-Assets Regulation
+    (MiCA). The consortium now counts 37 shareholder banks across 15 countries, including
+    ING, BNP Paribas, UniCredit, BBVA, ABN AMRO, Rabobank, Intesa Sanpaolo and Nordea.
+
+
+    The licence does not mean the token is ready to trade. Qivalis must still publish
+    the white paper that MiCA requires before any electronic money token can be issued,
+    setting out holder rights, reserve structure and risk disclosures. Jan-Oliver
+    Sell, the company''s chief executive, said issuance is planned for the coming
+    months, though no specific date has been given. The company had previously targeted
+    the second half of 2026.
+
+
+    Qivalis will distribute its stablecoin through a business-to-business model, with
+    banks, exchanges, payment service providers and market infrastructure participants
+    acting as intermediaries. It enters a euro stablecoin market that remains small
+    — roughly 728 million euros in total supply across all issuers as of late September,
+    according to the Digital Euro Association — but is growing rapidly. Circle''s
+    EURC and Societe Generale''s EURCV hold the early ground, but no existing issuer
+    has anything close to the distribution network that 37 European banks could provide.'
+  editorial_note: 'The previously covered September 2 story reported on banks committing
+    to the Qivalis joint stablecoin venture. This story is a materially subsequent
+    stage: the Dutch central bank has now granted the EMI licence, which is a concrete
+    regulatory milestone that was still pending at the time of the earlier coverage.
+    The licence is the prerequisite for issuance and represents a genuinely new development.'
+  sources: '[Qivalis secures EMI authorisation from De Nederlandsche Bank](https://thepaypers.com/fintech/news/qivalis-secures-emi-authorisation-from-de-nederlandsche-bank)
+    — The Paypers'
+  style_check:
+    compliant: false
+    warnings:
+    - Standfirst opens by naming 'DNB' without spelling it out on first use. Rule
+      requires abbreviations to be spelled out in full on first mention in the standfirst
+      (though common abbreviations like FCA may be excepted). 'De Nederlandsche Bank
+      (DNB)' should be used, or the rule on common abbreviations should be applied
+      if DNB qualifies.
+    - Standfirst states 'a MiCA white paper must still be published' without naming
+      the specific stakes or consequences as required. The rule requires the standfirst
+      to 'name the specific stakes or consequences of the story — naming the initiatives,
+      programmes or competitive dynamics affected' rather than making a generic thematic
+      claim. The white paper requirement should be framed in terms of what it blocks
+      or enables, not merely stated as a procedural hurdle.
+    - 'Body text uses ''roughly 728 million euros'' with a decimal-free number but
+      this is correctly formatted. However, the phrase ''as of late September'' is
+      a vague temporal reference. The rule requires specific dates when available:
+      use ''on September 30'' or the specific date rather than ''late September''.'
+    - Headline and standfirst both open with Qivalis/the authorisation as the subject.
+      Body also opens 'De Nederlandsche Bank has authorised Qivalis'. While not identical
+      phrasing, all three elements lead with the same structural focus. The rule states
+      'Do not start the headline, standfirst, and body opening sentence with the same
+      word or phrase. Vary the opening in at least one of the elements.' The body
+      should be recast to vary this — for example, leading with the regulatory milestone
+      or the consortium's readiness rather than the bank's action.
+    - Body text names 'Jan-Oliver Sell, the company's chief executive' but the rule
+      requires titles on first reference to be integrated more smoothly — either 'CEO
+      Jan-Oliver Sell' or 'Jan-Oliver Sell, Qivalis's chief executive'. The current
+      phrasing 'the company's chief executive' is indirect when the individual's title
+      and name should be more tightly integrated.
+  verification:
+    verified: true
+    stale: false
+    duplicate: false
+    warnings: []
+  revision:
+    replaced: true
+    resolved: true
+    summary:
+    - 'Replaced: original story flagged as duplicate coverage (Story reports Montenegro
+      SEPA savings as ''more than nine million euros'' but sources document €3.8m
+      in 6-month SEPA period (Oct 2025-Apr 2026) and €38m in annual projections; €9m
+      figure not found in sources; Story states ''Iceland''s connection to TIPS in
+      June'' but sources show June 2026 was agreement signing for 2028 settlement,
+      not actual connection; Story reports same underlying event as 2026-07-07 entry
+      (Montenegro instant payments launch on July 20)); swapped in a candidate sourced
+      from a live web search (not in today''s RSS feeds).'
+    - 'Note: the replacement was also flagged — Standfirst opens by naming ''DNB''
+      without spelling it out on first use. Rule requires abbreviations to be spelled
+      out in full on first mention in the standfirst (though common abbreviations
+      like FCA may be excepted). ''De Nederlandsche Bank (DNB)'' should be used, or
+      the rule on common abbreviations should be applied if DNB qualifies.'
+    - 'Note: the replacement was also flagged — Standfirst states ''a MiCA white paper
+      must still be published'' without naming the specific stakes or consequences
+      as required. The rule requires the standfirst to ''name the specific stakes
+      or consequences of the story — naming the initiatives, programmes or competitive
+      dynamics affected'' rather than making a generic thematic claim. The white paper
+      requirement should be framed in terms of what it blocks or enables, not merely
+      stated as a procedural hurdle.'
+    - 'Note: the replacement was also flagged — Body text uses ''roughly 728 million
+      euros'' with a decimal-free number but this is correctly formatted. However,
+      the phrase ''as of late September'' is a vague temporal reference. The rule
+      requires specific dates when available: use ''on September 30'' or the specific
+      date rather than ''late September''.'
+    - 'Note: the replacement was also flagged — Headline and standfirst both open
+      with Qivalis/the authorisation as the subject. Body also opens ''De Nederlandsche
+      Bank has authorised Qivalis''. While not identical phrasing, all three elements
+      lead with the same structural focus. The rule states ''Do not start the headline,
+      standfirst, and body opening sentence with the same word or phrase. Vary the
+      opening in at least one of the elements.'' The body should be recast to vary
+      this — for example, leading with the regulatory milestone or the consortium''s
+      readiness rather than the bank''s action.'
+    - 'Note: the replacement was also flagged — Body text names ''Jan-Oliver Sell,
+      the company''s chief executive'' but the rule requires titles on first reference
+      to be integrated more smoothly — either ''CEO Jan-Oliver Sell'' or ''Jan-Oliver
+      Sell, Qivalis''s chief executive''. The current phrasing ''the company''s chief
+      executive'' is indirect when the individual''s title and name should be more
+      tightly integrated.'
+status: ready
