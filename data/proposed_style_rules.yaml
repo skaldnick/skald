@@ -2,22 +2,4 @@
 # Populated automatically by tools/extract_learning.py (via GitHub Actions on push
 # to data/feedback/). Review and promote/edit in the dashboard's 'Proposed style
 # rules' section — accepted rules move to prompts/payments/style_rules.yaml.
-- date: '2026-10-16'
-  rule: 'When an abbreviation such as "MiCA" is introduced by spelling out the full
-    term in one article,
-
-    do not add the parenthetical abbreviation in a separate article that references
-    the same term.
-
-    Each piece is self-contained: apply rule [13] within the piece — only include
-    the parenthetical
-
-    abbreviation if it recurs later in that same piece. In the first diff, "(MiCA)"
-    was removed
-
-    because the abbreviation did not recur in that body; in the second diff, "(MiCA)"
-    was retained
-
-    because "MiCA" recurs later in that body. Follow rule [13] strictly on a per-piece
-    basis.'
-  supersedes: 13
+[]
