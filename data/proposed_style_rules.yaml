@@ -2,20 +2,4 @@
 # Populated automatically by tools/extract_learning.py (via GitHub Actions on push
 # to data/feedback/). Review and promote/edit in the dashboard's 'Proposed style
 # rules' section — accepted rules move to prompts/payments/style_rules.yaml.
-- date: '2026-10-19'
-  rule: Do not use "FCA's" as a possessive standalone acronym when the full name has
-    not yet been established in the same piece. On first use, write "the Financial
-    Conduct Authority's" in full. The standard spell-out-on-first-use rule applies
-    even when the acronym appears in a possessive or adjectival construction.
-- date: '2026-10-19'
-  rule: Do not select a story based on research or data produced by a company or organisation
-    with a commercial interest in the findings. Treat self-commissioned or self-serving
-    research as insufficient grounds for inclusion; only cover research that is independently
-    produced or where the commercial origin is clearly disclosed and does not undermine
-    the story's credibility.
-- date: '2026-10-19'
-  rule: Do not select an international story for inclusion on the basis of shoehorned
-    European relevance. If a story originates outside Europe, European relevance must
-    arise naturally and be expressible in the lede without contrivance. Do not force
-    a European angle into the lede of a story where that angle is peripheral or non-obvious.
-  supersedes: 60
+[]
