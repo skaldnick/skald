@@ -324,12 +324,11 @@
     story (eg, a story about the legal structure itself). Use the plain trading name
     — eg, "Riverty Bank" not "Riverty Bank S.A.".
 - id: 60
-  date: '2026-09-24'
-  rule: Do not select a story for inclusion solely on the basis that a non-European
-    jurisdiction's regulatory approach resembles or parallels the EU's. Similarity
-    to EU regulatory frameworks is not itself sufficient grounds for relevance to
-    a European payments audience. The story must have a direct or material connection
-    to European markets, institutions, or players.
+  date: '2026-10-19'
+  rule: Do not select an international story for inclusion on the basis of shoehorned
+    European relevance. If a story originates outside Europe, European relevance must
+    arise naturally and be expressible in the lede without contrivance. Do not force
+    a European angle into the lede of a story where that angle is peripheral or non-obvious.
 - id: 61
   date: '2026-10-01'
   rule: Pay attention to company names and use the official form. For example, do
@@ -357,3 +356,8 @@
     the next reference within the same paragraph to avoid mechanical repetition of
     the proper noun. Use the same technique to avoid starting consecutive paragraphs
     with the same country or organisation name.
+- id: 66
+  date: '2026-10-19'
+  rule: Do not use a possessive standalone acronym when the full name has not yet
+    been established in the same piece. The standard spell-out-on-first-use rule applies
+    even when the acronym appears in a possessive or adjectival construction.
