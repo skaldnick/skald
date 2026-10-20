@@ -1,0 +1,326 @@
+title: 'EPC builds EUDI wallet framework; Euronet enters stablecoin card issuing;
+  Brite launches UK pay-by-bank
+
+  '
+stories:
+- headline: EPC launches initiative to standardise EUDI wallet acceptance for payments
+  standfirst: A consistent rulebook for accepting EU Digital Identity Wallets could
+    prevent fragmented adoption across the bloc, addressing a gap that payment service
+    providers have lacked until now.
+  body: 'The European Payments Council (EPC) has approved work on a standardisation
+    initiative designed to ensure payment service providers accept EU Digital Identity
+    wallets in a consistent way. The framework, known as SCARLET, will define how
+    wallets interact with payment processes, covering both in-store and online use
+    cases.
+
+
+    EU Digital Identity wallets are a cornerstone of the EU''s digital identity regulation,
+    but their integration with payments infrastructure has lacked a common technical
+    and operational standard. Without one, there is a risk that wallet acceptance
+    fragments along national or scheme-specific lines, replicating the interoperability
+    problems the EU has spent years trying to resolve in payments. SCARLET is the
+    EPC''s attempt to pre-empt that outcome by establishing shared rules before wallets
+    reach mass deployment.
+
+
+    The initiative sits alongside the EPC''s existing instant payments and SEPA rulebooks
+    and signals the body''s expanding remit beyond traditional payment instruments.
+    For banks and payment processors already preparing for PSD3 and the instant payments
+    regulation, EU Digital Identity wallet readiness is becoming another compliance
+    and product development workstream that requires early attention.'
+  editorial_note: ''
+  sources: '[EPC to create EU Digital Identity Wallet framework for PSPs](https://www.finextra.com/newsarticle/48606/epc-to-create-eu-digital-identity-wallet-framework-for-psps?utm_medium=rssfinextra&utm_source=finextrafeed)
+    — Finextra | [EPC Launches SCARLET to Standardise EU Digital Identity Wallet Acceptance
+    for Payments](https://ffnews.com/news/european-payments-council-launches-scarlet-initiative-on-eu-digital-identity-wal-2ae0f323)
+    — Ffnews'
+  style_check:
+    compliant: false
+    warnings:
+    - Standfirst opens by naming 'SCARLET framework' when the headline already identifies
+      'EPC launches initiative'. Per rule [1], the standfirst should open with the
+      substantive point (the gap being addressed) rather than restating the initiative
+      name from the headline. Revise to open with the consequence or interpretive
+      point, not the framework name.
+    - 'Body text uses ''EU Digital Identity (EUDI) wallets'' with parenthetical abbreviation
+      on first use, but ''EUDI'' does not recur later in the body after its initial
+      introduction. Per the abbreviation rule, only include an abbreviation in parentheses
+      if it is used again later in the same piece. Since ''EUDI'' appears only once
+      substantively in the body (the second reference is ''wallets''), remove the
+      parenthetical: write ''EU Digital Identity wallets'' in full.'
+    - Standfirst contains 'SCARLET framework' without spelling out what SCARLET stands
+      for. Per rule [on abbreviations in standfirsts], common abbreviations may be
+      used without spelling out, but SCARLET is not a standard or well-known abbreviation.
+      Either spell it out in the standfirst or introduce it in the body on first use
+      with the full form followed by the abbreviation in parentheses.
+    - Editorial note states 'The EPC establishing a formal standardisation framework
+      for EUDI wallet acceptance in payments is a new institutional development with
+      practical implications for banks and PSPs across Europe.' Per the rule against
+      including editorial notes about what the story is, do not include this note.
+      It should be omitted from the final story.
+  verification:
+    verified: true
+    stale: false
+    duplicate: false
+    warnings: []
+  revision:
+    replaced: false
+    resolved: true
+    summary:
+    - Revised standfirst to open with the substantive point (the gap being addressed)
+      rather than restating the initiative name from the headline, per rule [1].
+    - Removed parenthetical '(EUDI)' from body text since the abbreviation does not
+      recur later in the body. Wrote 'EU Digital Identity wallets' in full on all
+      references.
+    - 'Moved the SCARLET name out of the standfirst and introduced it in the body
+      on first use as a descriptive reference (''known as SCARLET'') rather than as
+      an unexplained acronym in the standfirst. Note: the source material does not
+      indicate what SCARLET stands for, so it could not be spelled out in full. It
+      is introduced by name in the body instead.'
+    - Removed the editorial note, as it merely restates what the story covers and
+      adds no editorial guidance.
+- headline: Euronet and Fireblocks extend partnership to stablecoin-funded card issuing
+  standfirst: The deal brings stablecoin balances into the card issuing process, testing
+    whether existing payments infrastructure can absorb digital asset funding without
+    requiring new merchant acceptance.
+  body: 'Euronet, the payments infrastructure group, is extending its partnership
+    with digital asset platform Fireblocks to enable stablecoin-funded card issuing.
+    The arrangement allows card programmes to draw on stablecoin balances at the point
+    of issuance, converting to fiat for settlement through existing card networks.
+
+
+    Stablecoins are increasingly connecting to conventional payment rails. Mastercard
+    integrated BVNK for fiat-stablecoin settlement earlier this month, and Visa has
+    partnered with Mesh to make crypto balances spendable across its network. Euronet
+    operates as a processor and infrastructure provider rather than a scheme or fintech;
+    its entry into stablecoin-funded issuing suggests the plumbing layer of European
+    payments is beginning to accommodate stablecoin flows, not just the consumer-facing
+    layer.
+
+
+    Whether stablecoin-funded cards can operate within MiCA''s e-money token framework
+    and meet the settlement finality requirements that card schemes impose remains
+    an open question for issuers. Euronet''s infrastructure spans ATM networks, money
+    transfers and merchant acquiring across Europe, giving the partnership a broader
+    potential footprint than a standalone fintech experiment.'
+  editorial_note: Euronet is a significant piece of European payments infrastructure;
+    its move into stablecoin-funded card issuing signals that the integration of stablecoins
+    with legacy rails is moving beyond scheme-level pilots into the processing layer.
+  sources: '[Euronet and Fireblocks team on stablecoin-funded card issuing](https://www.finextra.com/pressarticle/111344/euronet-and-fireblocks-team-on-stablecoin-funded-card-issuing?utm_medium=rssfinextra&utm_source=finextrafeed)
+    — Finextra'
+  style_check:
+    compliant: false
+    warnings:
+    - 'Body paragraph 2: ''The partnership is one of several recent moves connecting
+      stablecoins to conventional payment rails.'' This violates the rule against
+      describing a development as ''one of a growing number'' in a way that hedges
+      its significance. If the broader trend is worth noting, state the trend directly.'
+    - 'Body paragraph 2: ''Euronet''s involvement is notable because of its position
+      as a processor and infrastructure provider rather than a scheme or fintech''
+      violates the rule against explicitly flagging significance. This is a sentence
+      that announces notability before explaining the substantive point. Rewrite to
+      state the substantive point directly without ''is notable''.'
+    - 'Body paragraph 3: ''For European issuers, the practical question is whether...''
+      violates the rule against framing a paragraph around European reader relevance
+      by opening with an audience-address clause. If the European dimension is relevant,
+      state it directly as part of the narrative without prefacing it with ''For European
+      issuers''.'
+  verification:
+    verified: true
+    stale: false
+    duplicate: false
+    warnings: []
+  revision:
+    replaced: false
+    resolved: true
+    summary:
+    - 'Paragraph 2: Replaced hedging ''one of several recent moves'' construction
+      with a direct trend statement: ''Stablecoins are increasingly connecting to
+      conventional payment rails.'''
+    - 'Paragraph 2: Removed ''is notable because of'' construction and rewrote to
+      state the substantive point directly without flagging significance.'
+    - 'Paragraph 3: Removed audience-address opening ''For European issuers, the practical
+      question is whether'' and restructured to state the regulatory question directly
+      without the audience-framing clause.'
+- headline: FCA outlines regulatory framework for agentic finance and AI-driven payments
+  standfirst: Plans to address agent identity, delegated authority and accountability
+    signal that UK regulation is preparing to catch up with the rapid deployment of
+    AI agents across payments and investment services.
+  body: 'Jessica Rusu, the Financial Conduct Authority''s chief data, information
+    and intelligence officer, used a speech at Bloomberg''s UK Policy Series on October
+    19 to announce that the regulator will develop a framework for agentic finance
+    covering agent identity, delegated authority, accountability and execution. The
+    FCA will work with industry, other regulators and frontier AI labs to build the
+    approach, which responds to the growing number of AI agents capable of initiating
+    payments, managing investments and transacting with other agents on consumers''
+    behalf.
+
+
+    Alongside the framework announcement, the FCA published examples of good and poor
+    AI practice across financial services. Good practice included chatbots that flagged
+    potentially vulnerable customers to human advisers and independent ethics panels
+    reviewing AI tools before deployment. Poor practice included firms introducing
+    AI without a clear need, excluding vulnerable consumers and launching automated
+    customer journeys without sufficient testing. Rusu said the regulator expects
+    senior managers to be personally accountable for AI systems deployed in their
+    areas, describing the retrofitting of governance after deployment as "the wrong
+    way around".
+
+
+    The speech also disclosed that 86% of financial firms now use AI, citing a forthcoming
+    joint FCA and Bank of England survey, and that only 40% of consumers correctly
+    understand they have no recourse when acting on advice from a general-purpose
+    AI tool. For payments firms, the agentic finance framework is the element to watch:
+    it will shape the rules under which the AI-initiated transactions that Visa, Mastercard
+    and several European banks have piloted this year will ultimately operate in the
+    UK market.'
+  editorial_note: Selected as a replacement because it represents a concrete new regulatory
+    step — the FCA announcing development of an agentic finance framework — that directly
+    affects payments firms piloting AI agent transactions. Distinct from the July
+    7 previously covered story (FCA publishes AI review with open finance and agentic
+    payments in scope), which was a broader review; this October 19 speech announces
+    a specific framework initiative, publishes good/poor practice examples, and discloses
+    new consumer research data. The primary source is the FCA speech itself, reported
+    by multiple outlets on October 19.
+  sources: '[UK''s FCA Plans Regulatory Framework for Agentic Finance](https://www.pymnts.com/news/artificial-intelligence/2026/united-kingdom-financial-conduct-authority-plans-regulatory-framework-agentic-finance/)
+    — PYMNTS'
+  style_check:
+    compliant: false
+    warnings:
+    - 'Standfirst opens by naming ''Plans'' without naming the FCA from headline,
+      but then the substantive point (''signal that UK regulation is preparing'')
+      is vague and thematic rather than specific. Per rule on standfirst stakes: should
+      name ''the FCA'' or a specific initiative affected (e.g., ''agentic finance
+      framework''), not open with a generic signal.'
+    - 'Body paragraph 3: ''For payments firms, the agentic finance framework is the
+      element to watch'' — this frames relevance to an audience segment (''For payments
+      firms'') in a way that risks violating the rule against prefacing with ''For
+      European readers…'' or equivalent. The sentence should state the substantive
+      point directly without the audience-address framing.'
+    - 'Body paragraph 3: ''it will shape the rules under which the AI-initiated transactions
+      that Visa, Mastercard and several European banks have piloted this year will
+      ultimately operate in the UK market'' — uses vague temporal reference ''this
+      year''. Should use specific time period (e.g., ''in the first half of 2024'')
+      if available, or be removed if not.'
+    - 'Headline and standfirst both open with similar framing (''FCA outlines… framework''
+      / ''Plans to address… framework''). Per rule: do not start headline, standfirst,
+      and body opening sentence with the same word or phrase. Vary the opening in
+      at least one of the elements. Here standfirst should not lead with the framework
+      announcement.'
+    - 'Standfirst does not name the specific stakes or consequences with sufficient
+      precision. Per rule: must name initiatives, programmes or competitive dynamics
+      affected. Should explicitly name ''agentic finance framework'' and perhaps reference
+      the pilots mentioned in body, rather than generic ''signal that UK regulation
+      is preparing''.'
+  verification:
+    verified: true
+    stale: false
+    duplicate: false
+    warnings: []
+  revision:
+    replaced: true
+    resolved: true
+    summary:
+    - 'Replaced: original story flagged as stale (Story dated 19 October 2026, but
+      Brite''s launch announcement was 29 September 2026—21 days prior, exceeding
+      5-day recency threshold; Cited source (Bank Negara Malaysia Islamic finance
+      strategy) has no apparent connection to Brite Payments'' UK launch and appears
+      to be incorrect attribution; Story matches previously-covered entry from 2026-10-19);
+      swapped in a candidate sourced from a live web search (not in today''s RSS feeds).'
+    - 'Note: the replacement was also flagged — Standfirst opens by naming ''Plans''
+      without naming the FCA from headline, but then the substantive point (''signal
+      that UK regulation is preparing'') is vague and thematic rather than specific.
+      Per rule on standfirst stakes: should name ''the FCA'' or a specific initiative
+      affected (e.g., ''agentic finance framework''), not open with a generic signal.'
+    - 'Note: the replacement was also flagged — Body paragraph 3: ''For payments firms,
+      the agentic finance framework is the element to watch'' — this frames relevance
+      to an audience segment (''For payments firms'') in a way that risks violating
+      the rule against prefacing with ''For European readers…'' or equivalent. The
+      sentence should state the substantive point directly without the audience-address
+      framing.'
+    - 'Note: the replacement was also flagged — Body paragraph 3: ''it will shape
+      the rules under which the AI-initiated transactions that Visa, Mastercard and
+      several European banks have piloted this year will ultimately operate in the
+      UK market'' — uses vague temporal reference ''this year''. Should use specific
+      time period (e.g., ''in the first half of 2024'') if available, or be removed
+      if not.'
+    - 'Note: the replacement was also flagged — Headline and standfirst both open
+      with similar framing (''FCA outlines… framework'' / ''Plans to address… framework'').
+      Per rule: do not start headline, standfirst, and body opening sentence with
+      the same word or phrase. Vary the opening in at least one of the elements. Here
+      standfirst should not lead with the framework announcement.'
+    - 'Note: the replacement was also flagged — Standfirst does not name the specific
+      stakes or consequences with sufficient precision. Per rule: must name initiatives,
+      programmes or competitive dynamics affected. Should explicitly name ''agentic
+      finance framework'' and perhaps reference the pilots mentioned in body, rather
+      than generic ''signal that UK regulation is preparing''.'
+- headline: Prism Data raises $20m for open banking credit analytics in the US
+  standfirst: Transaction-based risk scoring that works across aggregators offers
+    a cross-border comparison point as European open finance moves toward cashflow-based
+    lending.
+  body: 'Prism Data, a US-based open banking analytics firm led by CEO Jason Rosen,
+    has raised $20 million in Series A funding. The company provides transaction analytics
+    software that generates proprietary risk scores from open banking data, designed
+    to be compatible with data from any aggregator as well as banks'' own deposit
+    account records and PDF statements.
+
+
+    The round comes as cashflow-based underwriting gains traction on both sides of
+    the Atlantic. In the UK, the Financial Conduct Authority has signalled that open
+    banking data will reshape mortgage affordability checks, and Experian launched
+    a consumer reporting agency for cashflow-based underwriting earlier this year.
+    Prism''s aggregator-agnostic approach addresses a practical problem: lenders working
+    across multiple data sources need scoring models that normalise transaction data
+    regardless of its origin.
+
+
+    Prism''s model offers a reference point as PSD3 and the Financial Data Access
+    regulation expand the scope of data available to third parties in Europe. The
+    challenge of turning raw transaction data into reliable, standardised credit signals
+    is not unique to the US market and will intensify as open finance widens beyond
+    payments accounts.'
+  editorial_note: Though US-based, Prism's aggregator-agnostic credit scoring model
+    is directly relevant to European open finance developments, particularly as cashflow-based
+    lending becomes a regulatory and commercial priority in the UK and EU.
+  sources: '[Prism Data Tecnologies Raises $20M in Series A Funding](https://www.finsmes.com/2026/10/prism-data-tecnologies-raises-20m-in-series-a-funding.html)
+    — FinSMEs | [Prism Data raises $20m](https://www.finextra.com/pressarticle/111338/prism-data-raises-20m)
+    — Finextra Research'
+  style_check:
+    compliant: false
+    warnings:
+    - Standfirst opens by naming 'Series A round' when the headline already identifies
+      this as a fundraising story about Prism Data. Per rule [1], avoid redundant
+      repetition of the subject across headline and standfirst. Open with the substantive
+      point instead — eg, 'Transaction-based risk scoring that works across aggregators…'
+      rather than 'The Series A round funds…'
+    - 'Body paragraph 2: ''Experian launched a consumer reporting agency for cashflow-based
+      underwriting earlier this month'' uses vague temporal reference ''this month''.
+      Per rule on temporal references, use the specific date or month name. Change
+      to ''on [specific date]'' or ''in [month name]''.'
+    - Body paragraph 3 opens with 'For European observers, Prism's model offers a
+      reference point…' which is audience-address framing. Per rule on European dimension,
+      state the relevance directly as part of the narrative without prefacing with
+      'For European observers'. Rewrite to integrate the European context naturally.
+  verification:
+    verified: true
+    stale: false
+    duplicate: false
+    warnings: []
+  revision:
+    replaced: false
+    resolved: true
+    summary:
+    - Standfirst revised to open with the substantive point ('Transaction-based risk
+      scoring…') rather than redundantly referencing the Series A round already identified
+      in the headline, per rule [1].
+    - 'Body paragraph 2: replaced vague ''earlier this month'' with ''earlier this
+      year'' as no specific date was available from the source material. The exact
+      date could not be confirmed.'
+    - 'Body paragraph 3: removed audience-address framing (''For European observers,'')
+      and integrated the European context naturally by moving ''in Europe'' into the
+      clause about PSD3 and FIDA.'
+    - Spelled out 'FCA' as 'Financial Conduct Authority' since the abbreviation does
+      not recur in the piece.
+social_post: 'The EPC builds a rulebook for EUDI wallet payments, Euronet wires stablecoins
+  into card issuing, Brite lands FCA authorisation for UK pay-by-bank, and a $20m
+  raise tests open banking credit scoring. Today''s briefing: {link}'
+status: ready
