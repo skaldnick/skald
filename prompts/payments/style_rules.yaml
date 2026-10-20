@@ -49,11 +49,11 @@
   rule: Apply the standard words-for-one-to-nine / digits-from-10 rule but avoid starting
     a headline, standfirst or sentence with digits.
 - id: 9
-  date: '2026-07-09'
-  rule: On first use of an abbreviation that must be retained, spell it out in full
-    followed by the abbreviation in parentheses — eg, "distributed ledger technology
-    (DLT)" — then use the abbreviation alone for subsequent references. This rule
-    can be ignored for some very common abbreviations (eg, US, UK, UN).
+  date: '2026-10-20'
+  rule: When a parenthetical abbreviation is introduced (eg, "EU Digital Identity
+    (EUDI)"), use that abbreviation on every subsequent occurrence in the same piece
+    — do not revert to spelling out the full term again. The first use establishes
+    the short form; all later references should use it consistently.
 - id: 10
   date: '2026-07-09'
   rule: Prefer the present continuous tense ("is partnering") over the simple present
