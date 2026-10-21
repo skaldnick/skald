@@ -2,9 +2,4 @@
 # Populated automatically by tools/extract_learning.py (via GitHub Actions on push
 # to data/feedback/). Review and promote/edit in the dashboard's 'Proposed style
 # rules' section — accepted rules move to prompts/payments/style_rules.yaml.
-- date: '2026-10-21'
-  rule: Do not use an em-dash or en-dash to introduce a list of examples mid-sentence.
-    Instead, use "such as" or "including" to integrate the examples grammatically.
-    For example, prefer "Traditional credential-testing methods such as making small
-    purchases or donations carry costs" over "Traditional credential-testing methods
-    — making small purchases or donations — carry costs".
+[]
