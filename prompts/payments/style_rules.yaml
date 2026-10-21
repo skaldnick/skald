@@ -361,3 +361,10 @@
   rule: Do not use a possessive standalone acronym when the full name has not yet
     been established in the same piece. The standard spell-out-on-first-use rule applies
     even when the acronym appears in a possessive or adjectival construction.
+- id: 67
+  date: '2026-10-21'
+  rule: Do not use an em-dash or en-dash to introduce a list of examples mid-sentence.
+    Instead, use "such as" or "including" to integrate the examples grammatically.
+    For example, prefer "Traditional credential-testing methods such as making small
+    purchases or donations carry costs" over "Traditional credential-testing methods
+    — making small purchases or donations — carry costs".
