@@ -2,7 +2,4 @@
 # Populated automatically by tools/extract_learning.py (via GitHub Actions on push
 # to data/feedback/). Review and promote/edit in the dashboard's 'Proposed style
 # rules' section — accepted rules move to prompts/payments/style_rules.yaml.
-- date: '2026-10-22'
-  rule: 'Do not append source citations or hyperlinked source lines (eg, "*Sources:
-    [Title](URL) — Publication*") to the end of stories. Source references should
-    be omitted entirely from published body text.'
+[]
