@@ -1,0 +1,300 @@
+title: 'BIS cost data; agentic data governance; credential-testing via open banking
+
+  '
+social_post: 'BIS research puts hard numbers on fintechs vs banks vs stablecoins for
+  cross-border costs. Plus: criminals weaponise open banking APIs, and a new framework
+  for AI agents accessing bank data. {link}
+
+  '
+stories:
+- headline: BIS finds fintechs far cheaper than banks or stablecoins for cross-border
+    payments
+  standfirst: Fintechs such as Wise and Remitly cost substantially less than bank
+    wires for cross-border retail payments, while stablecoins continue to suffer from
+    on- and off-ramp friction that limits their competitiveness.
+  body: 'The Bank for International Settlements has published research comparing the
+    cost and speed of cross-border retail payments across traditional bank channels,
+    fintech providers and stablecoins. The findings show that fintechs such as Wise
+    and Remitly have substantially cut costs relative to bank wires, while stablecoins
+    continue to suffer from friction that limits their competitiveness.
+
+
+    The research provides an empirical baseline against which European policymakers
+    and scheme operators can measure the ambitions of initiatives such as Swift''s
+    retail payments scheme, the ECB''s cross-currency TIPS pilot and the various stablecoin
+    ventures now seeking European licences. If fintechs already deliver materially
+    cheaper cross-border payments, the case for new infrastructure rests less on cost
+    reduction and more on reach, interoperability or sovereignty.
+
+
+    For banks, the data underlines a competitive gap that regulatory modernisation
+    alone is unlikely to close. Fintechs have built cost advantages through lean operating
+    models and direct FX access, not simply through regulatory arbitrage. Tokenised
+    money remains uncompetitive as a retail remittance solution while on- and off-ramp
+    friction persists, undercutting the case made by stablecoin ventures positioning
+    themselves in this space.'
+  editorial_note: BIS research carrying hard cost comparisons across payment channels
+    is rare and directly relevant to multiple live European infrastructure debates.
+  sources: '[Fintechs top banks and stablecoins for cheap cross-border payment - BIS
+    research](https://www.finextra.com/newsarticle/48630/fintechs-top-banks-and-stablecoins-for-cheap-cross-border-payment---bis-research?utm_medium=rssfinextra&utm_source=finextrafeed)
+    — Finextra'
+  style_check:
+    compliant: false
+    warnings:
+    - 'Second paragraph opens: ''The research is notable for European policymakers…''
+      — violates rule against flagging significance explicitly. Use ''Never flag significance
+      explicitly. Do not write sentences that announce importance before explaining
+      it — no "This matters because", "The significance here is", "What this means
+      is", "Why this is notable", or equivalent framing.'''
+    - 'Second paragraph: ''framing that announces notability (''is notable for'')
+      before making a substantive point — recast to lead with the substantive claim
+      directly about what the research provides for European policymakers.'
+    - 'Fourth paragraph opens: ''The stablecoin finding may temper enthusiasm among
+      those positioning tokenised money as a retail remittance solution'' — this is
+      a hedging scene-setter that delays the substantive point. Rule states: ''Do
+      not open a paragraph with "The deal is far from certain" or equivalent hedging
+      scene-setters that delay the substantive point. Lead directly with the substantive
+      claim.'''
+    - 'Standfirst violates rule 1: Opens with ''New research quantifies'' rather than
+      opening with the substantive point or action. The standfirst should not open
+      by naming the implicit organisation (BIS, named in headline). Should begin with
+      the substantive finding — ''Fintechs such as Wise and Remitly cost substantially
+      less than bank wires…'' or similar.'
+  verification:
+    verified: true
+    stale: false
+    duplicate: false
+    warnings: []
+  revision:
+    replaced: false
+    resolved: true
+    summary:
+    - Standfirst rewritten to open with the substantive finding rather than implicitly
+      naming the BIS via 'New research'.
+    - Second paragraph recast to remove 'The research is notable for' framing, now
+      leads directly with what the research provides.
+    - Final sentence of third paragraph rewritten to lead with the substantive claim
+      about tokenised money rather than opening with hedging scene-setter 'The stablecoin
+      finding may temper enthusiasm…'.
+- headline: Ninth Wave launches control layer governing AI agent access to bank data
+  standfirst: 'A gap that banks and regulators have flagged but no one has yet standardised
+    is now being addressed: how to govern what AI agents can see and do with financial
+    account data.'
+  body: 'Ninth Wave, a US open finance platform that connects financial institutions
+    with third-party applications, has introduced what it calls an Agentic Control
+    Layer, a framework for governing how AI agents access financial account data.
+    The product is designed to give banks and data holders granular controls over
+    AI-initiated data requests, including consent verification, scope limits and audit
+    trails.
+
+
+    The announcement arrives as agentic commerce moves rapidly from concept to production.
+    European banks including ING, Danske Bank and Credit Agricole have completed live
+    agentic payment transactions in recent months, and the Financial Conduct Authority''s
+    chief information and digital officer, Jessica Rusu, outlined a framework for
+    agentic finance in a speech on October 19 that envisaged future collaboration
+    between regulators and industry. Yet most of that activity has focused on the
+    payment leg. The data access side, where AI agents query account balances, transaction
+    histories or identity attributes, remains largely ungoverned beyond existing open
+    banking consent frameworks that were designed for human-initiated flows.
+
+
+    Ninth Wave''s product is US-focused, but the problem it addresses is universal.
+    European regulators working on PSD3 and open finance legislation will need to
+    decide whether existing strong customer authentication and consent models are
+    adequate when the "customer" initiating access is a software agent acting on a
+    human''s behalf.'
+  editorial_note: First dedicated product for governing AI agent access to bank data,
+    directly relevant to the agentic finance frameworks European regulators are now
+    developing.
+  sources: '[Ninth Wave launches Agentic Control Layer to govern AI access to bank
+    data](https://app.dealroom.co/news/feed/ninth-wave-launches-agentic-control-layer-to-govern-ai-access-to-bank-data)
+    — Dealroom.co | [Ninth Wave Introduces Agentic Control Layer™ to Govern AI Access
+    to Financial Account Data](https://finance.yahoo.com/technology/ai/articles/ninth-wave-introduces-agentic-control-120000144.html)
+    — Finance | [Ninth Wave Introduces Agentic Control Layer™ to Govern AI Access
+    to Financial Account Data](https://www.businesswire.com/news/home/20261021603767/en/Ninth-Wave-Introduces-Agentic-Control-Layer-to-Govern-AI-Access-to-Financial-Account-Data)
+    — Businesswire'
+  style_check:
+    compliant: false
+    warnings:
+    - Headline opens with 'Ninth Wave' and standfirst then names 'The framework' —
+      this violates the rule that opening words/phrases should vary across headline,
+      standfirst, and body opening sentence. Consider revising the standfirst to open
+      with a more substantive or action-oriented phrase.
+    - Body text uses 'US' correctly, but the standfirst should also use 'US' not 'United
+      States' for consistency (the rule applies across all text). However, the standfirst
+      does not mention 'United States' explicitly, so this is not a violation.
+    - 'The phrase ''most of that activity has focused on the payment leg. The data
+      access side, where AI agents query account balances, transaction histories or
+      identity attributes, remains largely ungoverned'' uses a dash-introduced phrase
+      that should be recast. The rule states: ''Do not use an em-dash or en-dash to
+      introduce a trailing participial or resultative clause'' — here the clause after
+      the period works, but consider whether ''remains largely ungoverned beyond existing
+      open banking consent frameworks'' could be tightened.'
+    - Editorial note includes 'agentic commerce frameworks' but the body text uses
+      'agentic finance' in the FCA reference and 'agentic payment transactions' —
+      verify consistency of terminology or clarify whether these are distinct concepts.
+  verification:
+    verified: false
+    stale: false
+    duplicate: false
+    warnings:
+    - FCA did not 'publish a regulatory framework' on October 20 - Jessica Rusu delivered
+      a speech on October 19 outlining a framework under development through future
+      collaboration, not a finalized published framework
+  revision:
+    replaced: false
+    resolved: true
+    summary:
+    - 'Corrected FCA reference: Jessica Rusu delivered a speech on October 19 outlining
+      a framework under development, not a published regulatory framework on October
+      20. Named her and her title per house style.'
+    - Revised standfirst opening to avoid starting with 'The framework', varying the
+      opening phrase across headline, standfirst and body.
+    - Aligned editorial note terminology from 'agentic commerce frameworks' to 'agentic
+      finance frameworks' for consistency with the FCA reference in the body.
+- headline: Google Cloud outage triggers first real test of EU and UK critical third-party
+    oversight
+  standfirst: A power failure at a single London data centre disrupted banking services
+    for millions across Europe, prompting the EBA, the FCA and the UK Treasury Committee
+    to demand answers from Google under newly established cloud supervision regimes.
+  body: 'A power event in Google Cloud''s London region on October 20 knocked out
+    digital banking services at Revolut, Lloyds and HSBC for up to eight hours, disabling
+    card payments, transfers and ATM withdrawals for millions of customers. Google
+    attributed the disruption to a fault at a third-party facility in its europe-west2
+    availability zone and said services had been restored by mid-afternoon.
+
+
+    The European Banking Authority confirmed it had contacted Google Cloud to assess
+    the incident''s implications for financial entities across the EU. In the UK,
+    the Financial Conduct Authority said it was engaging with Google and affected
+    firms, while Dame Meg Hillier, chair of the Treasury Committee, wrote to the Bank
+    of England and FCA seeking details of the regulators'' response, the scale of
+    disruption and any financial harm caused. The EBA underlined that designation
+    as a critical third-party provider "does not transfer responsibility for incident
+    management from the provider or relieve financial entities of their own regulatory
+    obligations".
+
+
+    The outage is the first major incident since both regimes came into force. The
+    EU designated 19 technology firms as critical third-party providers under the
+    Digital Operational Resilience Act in 2025, subjecting them to joint oversight
+    by the EBA, ESMA and EIOPA. The UK designated Google Cloud, AWS, Microsoft and
+    Oracle under its own critical third-party regime in July this year. That a single-zone
+    power failure at one provider could simultaneously disable services at four banks
+    underlines the concentration risk both frameworks were designed to address.'
+  editorial_note: 'This is a genuinely new story: the outage occurred on October 20
+    and regulatory responses from the EBA, FCA and UK Treasury Committee followed
+    on October 21-22. It is the first real-world test of both the EU''s DORA critical
+    third-party oversight framework and the UK''s parallel regime introduced in July
+    2026. While a Lloyds/Barclays outage was covered on July 28, that was a different
+    incident unrelated to cloud provider concentration risk. The Payward/Saldo Bank
+    acquisition (October 14-15) was considered but is a week old and primarily a crypto
+    licensing story rather than a European payments development.'
+  sources: '[Europe''s financial regulators query Google over cloud outage that hit
+    banks](https://www.investing.com/news/stock-market-news/europes-financial-regulators-query-google-over-cloud-outage-that-hit-banks-4963664)
+    — Reuters via Investing.com'
+  style_check:
+    compliant: false
+    warnings:
+    - Standfirst opens by naming 'EBA, the FCA and the UK Treasury Committee' when
+      the headline already identifies 'EU and UK critical third-party oversight'.
+      Per rule [1], the standfirst should open with the substantive point (the disruption
+      and its scale) rather than naming the organisations whose oversight is already
+      identified in the headline.
+    - Body text uses 'europe-west2' (lowercase) but this appears to be a proper noun/technical
+      identifier that should be verified for correct capitalisation; however, if this
+      is the official Google format, it is acceptable.
+    - Editorial note states 'UK's parallel regime introduced in July 2026' but the
+      body text says 'in July this year'. These dates conflict. If the current date
+      context is October 2026, 'this year' is acceptable, but the editorial note's
+      2026 reference to a July introduction creates ambiguity. The body should use
+      a specific date or year (e.g., 'in July 2026') rather than 'this year' per rule
+      on avoiding vague temporal references.
+    - The standfirst names 'the EBA, the FCA and the UK Treasury Committee' as demanding
+      answers, but 'the UK Treasury Committee' is not part of either regulatory regime
+      mentioned in the headline. This specificity adds detail but risks obscuring
+      the main point about the two critical third-party oversight regimes themselves.
+  verification:
+    verified: true
+    stale: false
+    duplicate: false
+    warnings: []
+  revision:
+    replaced: true
+    resolved: true
+    summary:
+    - 'Replaced: original story flagged as duplicate coverage (Story reports same
+      Group-IB research already listed as previously covered on 2026-10-21); swapped
+      in a candidate sourced from a live web search (not in today''s RSS feeds).'
+    - 'Note: the replacement was also flagged — Standfirst opens by naming ''EBA,
+      the FCA and the UK Treasury Committee'' when the headline already identifies
+      ''EU and UK critical third-party oversight''. Per rule [1], the standfirst should
+      open with the substantive point (the disruption and its scale) rather than naming
+      the organisations whose oversight is already identified in the headline.'
+    - 'Note: the replacement was also flagged — Body text uses ''europe-west2'' (lowercase)
+      but this appears to be a proper noun/technical identifier that should be verified
+      for correct capitalisation; however, if this is the official Google format,
+      it is acceptable.'
+    - 'Note: the replacement was also flagged — Editorial note states ''UK''s parallel
+      regime introduced in July 2026'' but the body text says ''in July this year''.
+      These dates conflict. If the current date context is October 2026, ''this year''
+      is acceptable, but the editorial note''s 2026 reference to a July introduction
+      creates ambiguity. The body should use a specific date or year (e.g., ''in July
+      2026'') rather than ''this year'' per rule on avoiding vague temporal references.'
+    - 'Note: the replacement was also flagged — The standfirst names ''the EBA, the
+      FCA and the UK Treasury Committee'' as demanding answers, but ''the UK Treasury
+      Committee'' is not part of either regulatory regime mentioned in the headline.
+      This specificity adds detail but risks obscuring the main point about the two
+      critical third-party oversight regimes themselves.'
+- headline: 'Industry panel flags reliability and data gaps as barriers to pay-by-bank
+    growth
+
+    '
+  standfirst: 'Executives from Plaid, Barclays, HSBC and Open Banking Limited identified
+    payment success rates and post-payment data as the principal obstacles to scaling
+    account-to-account payments in the UK.
+
+    '
+  body: 'A panel at Open Banking Expo brought together executives from Plaid, Barclays,
+    HSBC and Open Banking Limited to assess the practical barriers preventing pay-by-bank
+    from competing with cards at scale in the UK. The discussion centred on two persistent
+    problems: payment reliability, where success rates still fall short of card benchmarks,
+    and the data gap after payment initiation, where merchants lack the confirmation
+    and reconciliation information they receive from card networks.
+
+
+    The panel identified commercial variable recurring payments as a key measure of
+    progress under the National Payments Vision, but cautioned that the commercial
+    case for merchants remains difficult to make when reliability is inconsistent
+    across banks and payment corridors. HSBC and Barclays representatives acknowledged
+    that bank-side infrastructure improvements are needed, not just better front-end
+    experiences.
+
+
+    The discussion reflects a tension at the heart of the UK''s open banking payments
+    ambitions. The UK Payments Initiative launched in June with GoCardless as its
+    first provider and Moneyhub as its first non-shareholder participant, but scaling
+    beyond early adopters requires solving operational problems that sit with the
+    account-servicing banks rather than with the initiating fintechs.
+
+    '
+  editorial_note: 'Named industry executives identifying specific, practical barriers
+    to pay-by-bank. Advances the continuing story on UK open banking payments adoption
+    with fresh detail from a multi-bank panel.
+
+    '
+  sources: '[Open Banking payments face reliability and data barriers, industry warns](https://www.openbankingexpo.com/news/open-banking-payments-must-overcome-reliability-and-data-gaps-to-compete-with-cards-industry-leaders-warn/)
+    — Openbankingexpo'
+  style_check:
+    compliant: false
+    warnings:
+    - 'style check response could not be parsed: ''```json {   "compliant": false,   "warnings":
+      [     "Standfirst opens by naming \''Executives from Plaid, Barclays, HSBC and
+      Open Banking Limited\'' — the'''
+  verification:
+    verified: true
+    stale: false
+    duplicate: false
+    warnings: []
+status: ready
