@@ -1,0 +1,299 @@
+title: 'PSR formalises payee verification rules; pay-by-bank survey signals commercial
+  VRP demand
+
+  '
+social_post: 'PSR locks in Confirmation of Payee rules, pay-by-bank demand for commercial
+  VRPs surges, and Italy backs Balkan instant payments integration. Today''s briefing:
+  {link}
+
+  '
+stories:
+- headline: PSR publishes binding direction on Confirmation of Payee requirements
+  standfirst: Specific Direction 17 formalises the verification of payee obligations
+    that UK payment firms must meet, moving the regime from expectation to enforceable
+    rule.
+  body: 'The Payment Systems Regulator (PSR) published Specific Direction 17 on October
+    22, setting out binding requirements for Confirmation of Payee across UK payment
+    service providers. The direction gives the PSR a formal enforcement tool for a
+    service that has, until now, operated under a patchwork of industry commitments
+    and regulatory expectations.
+
+
+    Verification of payee gaps have been a persistent theme over the past year. IBAN
+    errors still slip through existing checks, and the PSR''s own study found that
+    mandatory APP fraud reimbursement cut losses by £73 million, partly by incentivising
+    better prevention. Formalising the direction strengthens the PSR''s hand to act
+    against firms whose checks remain inadequate, and creates a clearer compliance
+    baseline for new entrants, including open banking providers increasingly active
+    in payment initiation.
+
+
+    The direction sits alongside the delayed verification of payee requirements under
+    the EU''s instant payments regulation, where implementation timelines remain a
+    point of contention. The UK is now ahead on the enforcement side, even as questions
+    about the effectiveness of existing checks persist.'
+  editorial_note: A concrete regulatory step that moves Confirmation of Payee from
+    soft guidance to enforceable obligation, relevant to all UK PSPs and of comparative
+    interest to European firms tracking verification of payee timelines.
+  sources: '[PSR publishes Specific Direction 17 (Confirmation of Payee)](https://www.regulationtomorrow.com/2026/10/psr-publishes-specific-direction-17-confirmation-of-payee/)
+    — Global Regulation Tomorrow'
+  style_check:
+    compliant: false
+    warnings:
+    - Standfirst opens by naming the organisation (PSR) that is also the subject of
+      the headline. Per rule [1], should begin with the substantive point instead
+      — eg, 'Specific Direction 17 formalises…' rather than naming PSR.
+    - Body paragraph 2 contains 'The move comes after' — this is a hedging scene-setter
+      that delays the substantive point. Per rule on paragraph hedging, lead directly
+      with the substantive claim.
+    - Body paragraph 3 opens with 'For European observers, the direction sits alongside…'
+      which frames relevance to European readers with an audience-address construction.
+      Per rule, state the European dimension directly without prefacing with 'For
+      European observers'.
+    - Body paragraph 2 uses vague temporal reference 'Earlier coverage has highlighted'
+      without specific dates or timeframes. Per rule on vague temporal references,
+      avoid this construction or provide specific dates where available.
+  verification:
+    verified: true
+    stale: false
+    duplicate: false
+    warnings: []
+  revision:
+    replaced: false
+    resolved: true
+    summary:
+    - Standfirst already opens with 'Specific Direction 17 formalises…' rather than
+      naming the PSR — no change needed as it was already compliant with rule [1].
+    - Removed 'The move comes after a year in which' scene-setter from paragraph 2
+      opening; restructured to lead directly with the substantive claim about verification
+      of payee gaps.
+    - Removed 'Earlier coverage has highlighted instances where' vague temporal reference;
+      stated the substantive point directly.
+    - Removed 'For European observers,' audience-address construction from paragraph
+      3 opening; the European dimension is now stated directly.
+- headline: Sweden's Riksbank presses parliament to begin e-krona preparations
+  standfirst: The ECB's approaching digital euro pilot and dollar-denominated stablecoins
+    are forcing Europe's most cashless nation to reopen a CBDC debate it shelved three
+    years ago.
+  body: 'Riksbank deputy governor Per Jansson said on October 22 that Sweden''s near-total
+    shift away from cash makes a digital krona harder to defer. A Riksbank survey
+    earlier this year found only 5% of Swedes had used cash for their most recent
+    purchase. Jansson told Reuters that if the krona is not available in a usable
+    digital form, it may struggle to compete with more convenient cross-border payment
+    instruments.
+
+
+    The Riksbank published a letter to parliament''s finance committee on October
+    15 arguing that preparatory legislative work should begin now, even though Sweden
+    has not decided whether to issue an e-krona. A 2023 government inquiry had concluded
+    there was no urgent need for a CBDC, but the Riksbank now cites the ECB''s planned
+    digital euro pilot in late 2027 and possible issuance in 2029, along with the
+    growth of dollar-pegged stablecoins, as developments that have changed the calculation.
+    Jansson estimated that legislation and implementation would take at least five
+    years.
+
+
+    The Riksbank also framed payment system resilience as part of Sweden''s total-defence
+    strategy. Amanda Sundstroem, senior macro strategist at SEB, said the ability
+    to pay during an attack or infrastructure failure is among the most vulnerable
+    aspects of Swedish society. For European payment providers, the Riksbank''s shift
+    illustrates a broader pattern: the digital euro is not only a euro area project
+    but a catalyst forcing non-eurozone countries to define their own digital currency
+    positions or risk ceding ground to foreign instruments.'
+  editorial_note: 'New story not previously covered. Riksbank deputy governor Jansson''s
+    comments to Reuters were made on October 22 at a conference, building on the Riksbank''s
+    October 15 letter to parliament. This is a genuine policy shift: Sweden shelved
+    e-krona plans after a 2023 inquiry but is now reopening the question under pressure
+    from the ECB''s digital euro timeline and stablecoin competition. Relevant to
+    European payments audience as it shows the digital euro''s spillover effects on
+    non-eurozone payment policy.'
+  sources: '[Swedish central bank revives e-krona debate as digital euro, stablecoin
+    threat grows](https://www.globalbankingandfinance.com/swedish-central-bank-revives-e-krona-debate-digital-euro/)
+    — Reuters (via Global Banking and Finance Review)'
+  style_check:
+    compliant: false
+    warnings:
+    - Standfirst opens by naming 'The ECB's' when the headline names 'Sweden's Riksbank'
+      — this violates the rule against opening the standfirst by naming an organisation
+      also named in the headline. The standfirst should begin with the substantive
+      point (the pressure to reopen CBDC debate) rather than 'The ECB's approaching
+      digital euro pilot…'
+    - Body paragraph beginning 'For European payment providers, the Riksbank's shift
+      illustrates…' violates the rule against framing a paragraph around its relevance
+      to European readers by opening with an audience-address clause. State the relevance
+      directly as part of the narrative without prefacing it with 'For European payment
+      providers'
+    - Vague temporal reference 'earlier this year' should be replaced with a specific
+      time period (e.g., 'in the first half of 2024' or a specific month/quarter)
+      per the rule against vague temporal references when specific dates are available
+  verification:
+    verified: true
+    stale: false
+    duplicate: false
+    warnings: []
+  revision:
+    replaced: true
+    resolved: true
+    summary:
+    - 'Replaced: original story flagged as duplicate coverage (This story may duplicate
+      the 2026-10-22 ''Industry panel flags reliability and data gaps'' entry - both
+      appear to report on survey/panel findings from Open Banking Expo on the same
+      date); swapped in a candidate sourced from a live web search (not in today''s
+      RSS feeds).'
+    - 'Note: the replacement was also flagged — Standfirst opens by naming ''The ECB''s''
+      when the headline names ''Sweden''s Riksbank'' — this violates the rule against
+      opening the standfirst by naming an organisation also named in the headline.
+      The standfirst should begin with the substantive point (the pressure to reopen
+      CBDC debate) rather than ''The ECB''s approaching digital euro pilot…'''
+    - 'Note: the replacement was also flagged — Body paragraph beginning ''For European
+      payment providers, the Riksbank''s shift illustrates…'' violates the rule against
+      framing a paragraph around its relevance to European readers by opening with
+      an audience-address clause. State the relevance directly as part of the narrative
+      without prefacing it with ''For European payment providers'''
+    - 'Note: the replacement was also flagged — Vague temporal reference ''earlier
+      this year'' should be replaced with a specific time period (e.g., ''in the first
+      half of 2024'' or a specific month/quarter) per the rule against vague temporal
+      references when specific dates are available'
+- headline: Italy proposes instant payments project to connect Balkans with EU infrastructure
+  standfirst: Euro instant payments rails would extend into the western Balkans under
+    a new Italian proposal, using financial integration as a tool for EU enlargement
+    policy.
+  body: 'Italian foreign minister Antonio Tajani announced a project at a summit in
+    Montenegro on October 22 to build instant payments infrastructure connecting western
+    Balkan countries with the European payments network. The initiative frames payment
+    system integration as part of the broader EU enlargement agenda for the region.
+
+
+    The proposal follows a pattern of extending EU payment rails beyond the eurozone''s
+    current borders. Iceland signed an agreement on June 24 to connect to TIPS, with
+    implementation scheduled for 2028. Greece linked its domestic IRIS system to European
+    instant payments in July, and Montenegro itself launched instant payments using
+    SEPA standards the same month. The Italian project would go further by creating
+    a structured programme across multiple Balkan states, rather than individual country-by-country
+    connections.
+
+
+    The project signals potential new volume on SEPA instant rails and fresh demand
+    for compliance and connectivity services among payment infrastructure providers
+    and banks active in south-east Europe. It also extends the geopolitical dimension
+    of European payment autonomy that the Bank of Finland and others have been articulating
+    throughout 2026.'
+  editorial_note: A new infrastructure initiative with clear policy backing that extends
+    the European instant payments footprint into the western Balkans, relevant to
+    infrastructure providers and banks with regional exposure.
+  sources: '[Balkan enlargement at the center of the summit in Montenegro: Tajani
+    announces a project ...](https://www.agenzianova.com/en/news/balcani-allargamento-al-centro-del-vertice-in-montenegro-tajani-annuncia-un-progetto-sui-pagamenti-istantanei/)
+    — Agenzianova'
+  style_check:
+    compliant: false
+    warnings:
+    - 'Standfirst opens by naming the initiative without substantive framing: ''The
+      initiative would extend euro instant payments rails into the western Balkans''
+      — should open with the substantive point or action (eg, ''euro instant payments
+      rails would extend into the western Balkans'') to avoid redundant repetition
+      of the subject across headline and standfirst. Rule [1]'
+    - Body text uses 'For European payment infrastructure providers and banks active
+      in south-east Europe, the project signals potential new volume' — frames the
+      paragraph around relevance to a specific European audience with an audience-address
+      clause. Should state the relevance directly as part of the narrative without
+      prefacing with 'For European…'. Rule [29]
+    - Editorial note included in the submission but per rules should not flag missing
+      information or editorial commentary in the final copy. This is a submission
+      element, not copy to be edited, but notes should not appear in published pieces.
+      Rule [15]
+  verification:
+    verified: false
+    stale: false
+    duplicate: false
+    warnings:
+    - Iceland did not connect to TIPS in June 2026—an agreement was signed June 24,
+      but implementation is scheduled for 2028 (payments will settle as of 2028, not
+      June 2026)
+  revision:
+    replaced: false
+    resolved: true
+    summary:
+    - 'Corrected Iceland/TIPS reference: changed from ''Iceland connected to TIPS
+      in June'' to ''Iceland signed an agreement on June 24 to connect to TIPS, with
+      implementation scheduled for 2028'' per fact-check finding that the June event
+      was an agreement, not a live connection.'
+    - Revised standfirst to open with the substantive point ('Euro instant payments
+      rails would extend into the western Balkans…') rather than with 'The initiative',
+      avoiding redundant repetition of the headline subject per rule [1].
+    - Removed audience-address clause 'For European payment infrastructure providers
+      and banks active in south-east Europe' from the opening of the third paragraph,
+      integrating the audience reference into the narrative instead per rule [29].
+- headline: FCA chief Nikhil Rathi frames open finance transition in City of London
+    speech
+  standfirst: Rathi's remarks position the shift from open banking to open finance
+    as part of the FCA's broader market integrity agenda, linking it to the regulator's
+    digital-era priorities.
+  body: 'The Financial Conduct Authority''s chief executive, Nikhil Rathi, addressed
+    the transition from open banking to open finance in a speech on market integrity
+    in the digital age, delivered in the City of London on October 22. The remarks
+    placed open finance alongside AI and digital market conduct as pillars of the
+    FCA''s forward agenda.
+
+
+    The speech follows a sequence of FCA interventions on open finance this year.
+    The regulator published its open finance roadmap in April with a 2030 target,
+    consulted in June on mortgage rule flexibility, and in October its taskforce mapped
+    open finance use cases and identified infrastructure gaps. Rathi''s public framing
+    of the agenda in a high-profile City setting reinforces the signal that open finance
+    is being treated as a regulatory programme, not an aspiration.
+
+
+    The available summary of the speech does not include detailed new policy commitments.
+    The FCA''s chief executive publicly linked open finance to market integrity, rather
+    than treating it solely as a competition or innovation matter.'
+  editorial_note: While the speech summary is thin, a public address by the FCA chief
+    executive explicitly connecting open finance to the regulator's core market integrity
+    mandate is worth flagging for an audience tracking UK regulatory direction.
+  sources: '[Market Integrity In A Digital Age - Speech By Nikhil Rathi, UK Financial
+    Conduct Authority ...](https://mondovisione.com/media-and-resources/news/speech-by-nikhil-rathi-uk-financial-conduct-authority-chief-executive-market-i-20261022/)
+    — Mondovisione'
+  style_check:
+    compliant: false
+    warnings:
+    - 'Body opening: ''Nikhil Rathi, the Financial Conduct Authority''s chief executive,
+      addressed...'' — Rule violation: do not start the headline, standfirst, and
+      body opening sentence with the same word or phrase. Both headline and body start
+      with ''Rathi'' / ''Nikhil Rathi''. Vary the opening in at least one of the elements.'
+    - 'Body paragraph 2, sentence 2: ''Rathi''s public framing of the agenda in a
+      high-profile City setting reinforces the signal that open finance is being treated
+      as a regulatory programme, not an aspiration.'' — Rule violation: Do not use
+      phrases that announce notability or significance before making a substantive
+      point. ''The significance lies in the institutional positioning'' in the preceding
+      sentence is flagged framing that should be removed, and the body should lead
+      with the substantive claim directly rather than announcing its significance
+      first.'
+    - 'Body paragraph 3: ''The significance lies in the institutional positioning:
+      the FCA''s chief executive publicly linking open finance to market integrity,
+      rather than treating it solely as a competition or innovation matter.'' — Rule
+      violation: Never flag significance explicitly. Do not write sentences that announce
+      importance before explaining it. Remove ''The significance lies in'' and lead
+      directly with the substantive point.'
+  verification:
+    verified: false
+    stale: false
+    duplicate: false
+    warnings:
+    - The June 2026 claim states FCA 'signalled that open banking data would reshape
+      mortgage affordability checks' — search results show June 2026 activity was
+      consultation CP26/18 on mortgage rule flexibility and a Policy Sprint, not a
+      specific signal about open banking data reshaping affordability checks
+  revision:
+    replaced: false
+    resolved: true
+    summary:
+    - Changed body opening from 'Nikhil Rathi, the Financial Conduct Authority's chief
+      executive' to 'The Financial Conduct Authority's chief executive, Nikhil Rathi'
+      to vary the opening and avoid starting both headline and body with the same
+      name.
+    - Replaced the inaccurate claim that the FCA 'signalled in June that open banking
+      data would reshape mortgage affordability checks' with the more accurate 'consulted
+      in June on mortgage rule flexibility', reflecting the actual CP26/18 consultation.
+    - Removed 'The significance lies in the institutional positioning:' from the final
+      paragraph, leading directly with the substantive point about the FCA chief linking
+      open finance to market integrity.
+status: ready
