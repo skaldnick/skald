@@ -80,10 +80,12 @@
     Reeves, the UK chancellor" rather than just "the UK chancellor". Name individuals
     wherever possible to personalise the writing.
 - id: 15
-  date: '2026-07-15'
-  rule: When naming an individual on first reference, include their title immediately
-    — eg, "chancellor Rachel Reeves" or "Rachel Reeves, the chancellor" — when the
-    title is needed for context.
+  date: '2026-10-23'
+  rule: When introducing an individual on first reference, lead with their name rather
+    than their title. Write "Nikhil Rathi, chief executive of the Financial Conduct
+    Authority (FCA)" rather than "The Financial Conduct Authority's chief executive,
+    Nikhil Rathi". The name should be the grammatical subject; the title follows as
+    an appositive.
 - id: 16
   date: '2026-07-15'
   rule: Do not use "The move is notable", "The move is significant", or equivalent
@@ -303,14 +305,14 @@
     Do not omit the source from the headline when the credibility or origin of the
     claim is material to the story.
 - id: 57
-  date: '2026-09-10'
-  rule: When the lede sentence names an organisation and immediately states what it
-    has done, avoid the construction "X has published a report [doing Y]" when the
-    substance is the action, not the publication. Prefer "X has [done Y]" and move
-    the publication into a subordinate clause — eg, "Innovate Finance has called on
-    the UK government to move more quickly… In a newly published report, the trade
-    body positions…" rather than "Innovate Finance has published a report calling
-    on the UK government…".
+  date: '2026-10-23'
+  rule: Do not lead the body's opening sentence with the publication of a document
+    when the substantive action is what matters. Name the organisation and state the
+    action directly; move the document name and publication date into the following
+    sentence as context. For example, prefer "The Payment Systems Regulator (PSR)
+    has set out binding requirements for Confirmation of Payee… Specific Direction
+    17, published on October 22, gives…" over "The Payment Systems Regulator (PSR)
+    published Specific Direction 17 on October 22, setting out binding requirements…".
 - id: 58
   date: '2026-09-11'
   rule: Prefer the simple past ("has delayed") over the periphrastic "has decided
@@ -368,3 +370,19 @@
     For example, prefer "Traditional credential-testing methods such as making small
     purchases or donations carry costs" over "Traditional credential-testing methods
     — making small purchases or donations — carry costs".
+- id: 68
+  date: '2026-10-23'
+  rule: When an organisation name will be initialised in parentheses on first use,
+    avoid introducing it in a possessive construction (eg, "The Financial Conduct
+    Authority's chief executive"). Possessive constructions make it awkward to place
+    the parenthetical abbreviation cleanly. Instead, restructure so the organisation
+    name appears as a noun — eg, "chief executive of the Financial Conduct Authority
+    (FCA)" — allowing the abbreviation to be introduced naturally.
+- id: 69
+  date: '2026-10-23'
+  rule: Avoid cluttering articles with industry abbreviations such as "APP fraud",
+    "TIPS" and "SEPA", especially if such terms are only used once or are only mentioned
+    in passing. Apply the standard spell-out-on-first-use rule (and introduce the
+    abbreviation in parentheses only if it recurs) or spell it out descriptively if
+    only used once — eg, "Europe's instant payment settlement system" — rather than
+    using the initialism.
