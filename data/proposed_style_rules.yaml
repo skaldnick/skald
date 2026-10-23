@@ -2,41 +2,4 @@
 # Populated automatically by tools/extract_learning.py (via GitHub Actions on push
 # to data/feedback/). Review and promote/edit in the dashboard's 'Proposed style
 # rules' section — accepted rules move to prompts/payments/style_rules.yaml.
-- date: '2026-10-23'
-  rule: When introducing an individual on first reference, lead with their name rather
-    than their title. Write "Nikhil Rathi, chief executive of the Financial Conduct
-    Authority (FCA)" rather than "The Financial Conduct Authority's chief executive,
-    Nikhil Rathi". The name should be the grammatical subject; the title follows as
-    an appositive.
-  supersedes: 15
-- date: '2026-10-23'
-  rule: When an organisation name will be initialised in parentheses on first use,
-    avoid introducing it in a possessive construction (eg, "The Financial Conduct
-    Authority's chief executive"). Possessive constructions make it awkward to place
-    the parenthetical abbreviation cleanly. Instead, restructure so the organisation
-    name appears as a noun — eg, "chief executive of the Financial Conduct Authority
-    (FCA)" — allowing the abbreviation to be introduced naturally.
-- date: '2026-10-23'
-  rule: Do not lead the body's opening sentence with the publication of a document
-    when the substantive action is what matters. Name the organisation and state the
-    action directly; move the document name and publication date into the following
-    sentence as context. For example, prefer "The Payment Systems Regulator (PSR)
-    has set out binding requirements for Confirmation of Payee… Specific Direction
-    17, published on October 22, gives…" over "The Payment Systems Regulator (PSR)
-    published Specific Direction 17 on October 22, setting out binding requirements…".
-  supersedes: 57
-- date: '2026-10-23'
-  rule: Spell out standard industry abbreviations such as "APP fraud" as "authorised
-    push payment fraud" on first use in the body, even when the abbreviated form is
-    widely understood in the industry. Apply the standard spell-out-on-first-use rule;
-    introduce the abbreviation in parentheses only if it recurs.
-- date: '2026-10-23'
-  rule: When a well-known system or infrastructure name such as "TIPS" is used in
-    the body, spell it out descriptively on first reference if the abbreviation has
-    not been formally introduced — eg, "Europe's instant payment settlement system"
-    — rather than using the acronym without introduction. Apply the standard spell-out-on-first-use
-    principle.
-- date: '2026-10-23'
-  rule: Spell out "SEPA" as "Single Euro Payments Area (SEPA)" on first use in the
-    body, then use "SEPA" on all subsequent references. Do not treat SEPA as a self-evident
-    acronym that needs no introduction in body text.
+[]
