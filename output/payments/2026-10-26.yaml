@@ -1,0 +1,227 @@
+title: 'Riksbank revives e-krona; NatWest flags open banking trust gap; Wells Fargo
+  sets AI agent terms
+
+  '
+social_post: 'Sweden''s Riksbank reopens the e-krona question as stablecoins and the
+  digital euro close in. Plus: NatWest surfaces a trust problem in open banking, and
+  Wells Fargo draws a line on AI agents. {link}
+
+  '
+stories:
+- headline: Checkout.com enters in-person payments through Mollie partnership
+  standfirst: After 14 years as an online-only acquirer, the move into physical retail
+    through Mollie's terminal infrastructure signals a broader consolidation of omnichannel
+    acquiring in Europe.
+  body: 'Checkout.com has extended its acquiring platform to physical stores, partnering
+    with Mollie to combine its processing infrastructure with Mollie''s terminal hardware
+    and 350,000-merchant base. Merchants will be able to run in-person and online
+    payments through a single acquiring relationship, using one API, contract and
+    settlement flow. The service launches first in the UK and European Economic Area
+    before expanding to the US next year.
+
+
+    The partnership''s structure is telling. Mollie retains control of its customer-facing
+    experience and hardware strategy, while Checkout.com provides the underlying acquiring
+    layer. The arrangement reflects a model increasingly common in European payments:
+    specialist acquirers providing processing power to platforms that own the merchant
+    relationship, rather than competing for it directly.
+
+
+    Checkout.com says it expects to process $480 billion in global e-commerce payments
+    this year. Entering physical commerce opens a second front in a market where enterprise
+    merchants are pressing to consolidate their payment providers across channels.
+    Mollie, which completed its acquisition of GoCardless in September, is building
+    a pan-European payments group that now spans pay-by-bank, card acquiring and in-store
+    acceptance.'
+  editorial_note: Not covered in any previous briefing. The story is from October
+    20-21 but is still within a reasonable recency window. It is editorially significant
+    because Checkout.com's move into in-person payments marks a strategic shift for
+    a major European acquirer and illustrates how acquiring consolidation is playing
+    out post-Mollie/GoCardless merger. Source is Checkout.com's own announcement and
+    supporting coverage from The Paypers and Finovate.
+  sources: '[Checkout.com expands into in-person payments as merchant demand drives
+    next phase of growth](https://www.checkout.com/newsroom/checkout-com-expands-into-in-person-payments)
+    — Checkout.com'
+  style_check:
+    compliant: false
+    warnings:
+    - Standfirst opens by naming the action ('the move into physical retail') without
+      first naming the organisation from the headline, but then the body's opening
+      sentence repeats this same action ('has extended its acquiring platform to physical
+      stores'). This creates near-verbatim repetition across standfirst and body opening.
+      Per the rule on self-contained bodies, the body must not be a continuation of
+      the standfirst's sentence; consider revising the standfirst to make a different
+      interpretive point.
+    - Headline and standfirst both open with 'Checkout.com'/'the move' and body opens
+      with 'Checkout.com has extended'. All three elements begin with the same subject
+      or action frame. Per the rule on varying openings, vary the opening in at least
+      one of the elements.
+    - Body text uses 'the US' instead of 'US'. Rule requires 'US' not 'United States',
+      which extends to the abbreviation form as well.
+  verification:
+    verified: true
+    stale: true
+    duplicate: false
+    warnings:
+    - Core event announced October 20, 2026 — 6 days old, exceeds 5-day freshness
+      threshold
+  revision:
+    replaced: true
+    resolved: true
+    summary:
+    - 'Replaced: original story flagged as stale (Core event (Riksbank Oct 7-15 announcement)
+      is 8-11 days old, exceeding 5-day threshold; Story appears to duplicate 2026-10-23
+      coverage of same announcement with no materially new fact); swapped in a candidate
+      sourced from a live web search (not in today''s RSS feeds).'
+    - 'Note: the replacement was also flagged — Core event announced October 20, 2026
+      — 6 days old, exceeds 5-day freshness threshold'
+    - 'Note: the replacement was also flagged — Standfirst opens by naming the action
+      (''the move into physical retail'') without first naming the organisation from
+      the headline, but then the body''s opening sentence repeats this same action
+      (''has extended its acquiring platform to physical stores''). This creates near-verbatim
+      repetition across standfirst and body opening. Per the rule on self-contained
+      bodies, the body must not be a continuation of the standfirst''s sentence; consider
+      revising the standfirst to make a different interpretive point.'
+    - 'Note: the replacement was also flagged — Headline and standfirst both open
+      with ''Checkout.com''/''the move'' and body opens with ''Checkout.com has extended''.
+      All three elements begin with the same subject or action frame. Per the rule
+      on varying openings, vary the opening in at least one of the elements.'
+    - 'Note: the replacement was also flagged — Body text uses ''the US'' instead
+      of ''US''. Rule requires ''US'' not ''United States'', which extends to the
+      abbreviation form as well.'
+- headline: NatWest survey finds businesses want open banking providers held to bank-level
+    regulation
+  standfirst: Equivalent regulatory oversight for open banking providers is regarded
+    as essential by 93% of business respondents, surfacing a trust gap that could
+    shape the UK's open finance framework.
+  body: 'A NatWest survey has found that an overwhelming majority of businesses regard
+    equivalent regulatory oversight as essential for open banking providers, with
+    93% saying it is very or extremely important. Nearly half of respondents flagged
+    ongoing concerns about the security and reliability of open banking services.
+
+
+    The findings land as the UK''s regulatory landscape is in flux. The Treasury is
+    consulting on a modernised payments regime, the Financial Conduct Authority is
+    mapping open finance use cases, and the UK Payments Initiative is building out
+    a domestic alternative to card networks. Each of these workstreams will need to
+    address questions of trust and regulatory parity between banks and non-bank providers.
+
+
+    The survey underscores a recurring tension in open banking''s expansion: adoption
+    is growing, but business confidence has not kept pace. For providers seeking to
+    move beyond consumer payments into areas such as invoice finance, payroll and
+    treasury, the trust deficit is a commercial problem as much as a regulatory one.'
+  editorial_note: The 93% figure on regulatory parity is a concrete data point that
+    speaks directly to the open finance framework debate in the UK and the broader
+    question of how non-bank providers earn institutional trust.
+  sources: '[NatWest : As Open Banking adoption grows, trust becomes the next challenge
+    for ...](https://www.marketscreener.com/news/natwest-as-open-banking-adoption-grows-trust-becomes-the-next-challenge-for-businesses-amid-ongoi-ce785cdcd88af025)
+    — MarketScreener'
+  style_check:
+    compliant: false
+    warnings:
+    - Standfirst opens by naming the organisation ('Ninety-three per cent of business
+      respondents') when the headline already names 'NatWest survey'. Per rule [1],
+      the standfirst should open with the substantive point or action, not by re-establishing
+      the subject. Consider opening with 'A trust gap is surfacing...' or 'Equivalent
+      regulatory oversight is regarded as essential...'
+    - Body text uses 'the Financial Conduct Authority' without introducing the abbreviation
+      in parentheses on first use, even though the rule requires spell-out-plus-parenthetical
+      for first mention in body text when the abbreviation may be used later. If 'FCA'
+      does not recur in the body, this is acceptable, but if it does, the rule is
+      broken.
+    - Body text uses 'the UK Payments Initiative' without checking whether this should
+      be abbreviated on recurrence. If this acronym or shorthand recurs later in the
+      piece, it must be introduced in parentheses on first mention.
+  verification:
+    verified: false
+    stale: false
+    duplicate: false
+    warnings:
+    - 'Could not independently verify: Draft states ''Nearly half of respondents flagged
+      ongoing concerns about the security and reliability of open banking services''
+      — cited source reports 59% cite late payments and 55% cite inefficient integration,
+      but does not specify a percentage for security/reliability concerns matching
+      ''nearly half'''
+  revision:
+    replaced: false
+    resolved: true
+    summary:
+    - Rewrote standfirst to open with the substantive point ('Equivalent regulatory
+      oversight for open banking providers is regarded as essential by 93% of business
+      respondents') rather than re-establishing the survey subject already named in
+      the headline, per rule [1].
+    - 'Reviewed body text for abbreviation usage: ''Financial Conduct Authority''
+      and ''UK Payments Initiative'' each appear only once and their abbreviations
+      do not recur, so no parenthetical abbreviation is needed and the text is left
+      unchanged.'
+- headline: Wells Fargo sets customer liability terms for AI agent access to accounts
+  standfirst: Customers bear responsibility for transactions initiated by AI agents
+    acting on their behalf, marking an early attempt to define the liability boundary
+    in agentic finance.
+  body: 'Wells Fargo has published terms governing customer use of AI agents to interact
+    with bank accounts, establishing that customers bear responsibility for actions
+    taken by agents operating under their authorisation. The terms draw a distinction
+    between the bank''s own data access rights and the limited read-only access available
+    through open banking providers.
+
+
+    Existing legal and regulatory frameworks offer little clarity on how liability
+    applies to agentic commerce. The FCA published its framework for agentic finance
+    and AI-driven payments earlier this month, while EMVCo has drafted a card-based
+    agentic payments framework. Wells Fargo''s approach is among the first from a
+    major bank to address the liability question through customer-facing contractual
+    terms rather than waiting for regulatory prescription.
+
+
+    European banks and payment firms designing agentic payment capabilities face the
+    same fundamental question about where liability sits when an AI agent, rather
+    than a human, initiates a transaction. Wells Fargo''s terms offer an early reference
+    point, though European regulators may take a different view on the allocation
+    of risk.'
+  editorial_note: Wells Fargo's customer liability terms for AI agents are among the
+    first from a major bank, providing a concrete reference point as European institutions
+    design their own agentic payment frameworks and regulators consider liability
+    allocation.
+  sources: '[Wells Fargo Sets Customer Responsibility Terms for AI Agent Use](https://www.tokenpost.com/news/technology/40685)
+    — TokenPost'
+  style_check:
+    compliant: false
+    warnings:
+    - 'Standfirst opens by naming the organisation that is also named in the headline
+      (''The agreement'' should open with substantive point, not reference to Wells
+      Fargo''s terms). Rule: ''In the standfirst, do not open by naming the organisation
+      that is also named in the headline.'''
+    - 'Body paragraph 2 opens with ''The move comes as'' — this is a weak scene-setter
+      that delays the substantive point. Should lead directly with the substantive
+      claim about industry grappling with frameworks. Rule: ''Do not open a paragraph
+      with "The deal is far from certain" or equivalent hedging scene-setters that
+      delay the substantive point.'''
+    - 'The phrase ''The implications extend beyond the US'' announces relevance before
+      making the substantive point. Should state the substantive claim directly about
+      European banks and regulators rather than prefacing with ''The implications''.
+      Rule: ''Never flag significance explicitly. Do not write sentences that announce
+      importance before explaining it.'''
+    - 'US should be abbreviated as ''US'' not ''the US'' per house style. Rule: ''Use
+      "US" not "United States" in body text.'' (Though ''the US'' uses correct abbreviation,
+      the definite article is non-standard usage in this context.)'
+  verification:
+    verified: true
+    stale: false
+    duplicate: false
+    warnings: []
+  revision:
+    replaced: false
+    resolved: true
+    summary:
+    - Revised standfirst to open with the substantive point ('Customers bear responsibility…')
+      rather than referencing the organisation named in the headline.
+    - Rewrote opening of paragraph 2 to lead with the substantive claim ('Existing
+      legal and regulatory frameworks offer little clarity…') instead of the scene-setting
+      'The move comes as'.
+    - Removed 'The implications extend beyond the US' framing sentence from paragraph
+      3, leading directly with the substantive point about European banks and payment
+      firms.
+    - The issue about 'the US' was noted but the phrase was removed entirely as part
+      of the paragraph 3 rewrite, so no separate correction was needed.
+status: ready
