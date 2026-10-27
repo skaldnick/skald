@@ -1,0 +1,313 @@
+title: 'Token.io VRP demand; Noda card-to-bank routing; Riksbank e-krona; NatWest
+  open banking survey
+
+  '
+social_post: '89% of UK providers report merchant demand for commercial VRPs. Plus:
+  Noda routes card checkouts to open banking, Sweden''s e-krona debate revives, and
+  NatWest finds trust is the next barrier. {link}
+
+  '
+stories:
+- headline: Token.io survey finds strong merchant demand for commercial variable recurring
+    payments
+  standfirst: Merchant appetite for commercial variable recurring payments is running
+    well ahead of availability, with 89% of UK providers reporting demand following
+    the UK Payments Initiative launch.
+  body: 'Token.io has published survey findings showing broad merchant interest in
+    recurring pay-by-bank payments, with 89% of UK respondents reporting demand for
+    commercial variable recurring payments (VRP). The results come as the UK Payments
+    Initiative scheme, which launched in April, begins to create a live environment
+    for commercial VRP beyond the original sweeping use case.
+
+
+    The findings reinforce a pattern visible across the UK market: merchants want
+    the lower cost and reduced chargeback exposure of account-to-account payments,
+    but need the flexibility of card-like recurring billing to make them work at checkout.
+    Commercial VRP is the mechanism designed to bridge that gap, allowing variable-amount
+    collections with customer-consented mandates.
+
+
+    Whether supply can match this stated demand depends on bank implementation. Modulr
+    launched commercial VRP capability in June, and Ozone API released a product for
+    non-CMA9 banks in July, but coverage remains patchy. The survey suggests the constraint
+    is now infrastructure readiness, not merchant willingness.'
+  editorial_note: Commercial VRP is a pivotal capability for scaling pay-by-bank beyond
+    one-off transactions. Survey data quantifying merchant demand adds substance to
+    a story that has so far been driven by provider announcements.
+  sources: '[Token.io survey finds demand for recurring Pay by Bank payments](https://thepaypers.com/payments/news/tokenio-survey-finds-demand-for-recurring-pay-by-bank-payments)
+    — The Paypers'
+  style_check:
+    compliant: false
+    warnings:
+    - Standfirst opens with 'Merchant appetite for commercial VRP is running well
+      ahead of availability' but the headline names Token.io as the subject. Per rule
+      [1], the standfirst should not open by naming the organisation that is also
+      named in the headline. The standfirst should begin with the substantive point
+      rather than repeating Token.io's action.
+    - Body text uses 'earlier this year' when referring to the UK Payments Initiative
+      launch. Per rule [avoid vague temporal references], use specific time periods
+      or dates instead of 'earlier this year'.
+    - Body text uses 'commercial VRP' in the second paragraph without introducing
+      the full form in parentheses on first use in the body. Per rule [parenthetical
+      abbreviation], the first use should be 'commercial variable recurring payments
+      (VRP)' to establish the abbreviation for subsequent uses.
+    - Standfirst uses 'commercial VRP' without spelling out the full term. Per rule
+      [do not apply abbreviation-in-parentheses rule to standfirst], common abbreviations
+      may be used in standfirst without spelling out, but 'commercial VRP' is non-standard.
+      Per rule [do not use cVRP], 'commercial variable recurring payments' or 'commercial
+      VRP' should be used, but the standfirst should spell this out or use the full
+      form since 'VRP' alone is not a recognisable standalone abbreviation without
+      context.
+  verification:
+    verified: true
+    stale: false
+    duplicate: false
+    warnings: []
+  revision:
+    replaced: false
+    resolved: true
+    summary:
+    - Standfirst now spells out 'commercial variable recurring payments' in full instead
+      of using the non-standard abbreviation 'commercial VRP', since VRP alone is
+      not a widely recognised standalone abbreviation in the standfirst context.
+    - Body first use now reads 'commercial variable recurring payments (VRP)' to establish
+      the parenthetical abbreviation for subsequent uses.
+    - 'Replaced ''earlier this year'' with ''in April'' as the launch date of the
+      UK Payments Initiative scheme. Note: the exact launch date could not be independently
+      confirmed from the source material provided; ''April'' is used based on available
+      context but should be verified against the primary source.'
+- headline: Noda launches product to route card checkouts to open banking payments
+  standfirst: BIN-to-Bank intercepts card transactions at checkout and reroutes them
+    as bank transfers, challenging the assumption that open banking must compete for
+    a separate button alongside card schemes.
+  body: 'Noda, a Cyprus-based open banking provider, has launched a product called
+    BIN-to-Bank that identifies card payments eligible for conversion to bank transfers
+    during checkout. The system uses the bank identification number on a customer''s
+    card to determine whether an open banking payment can be initiated instead, routing
+    the transaction accordingly without requiring the customer to leave the existing
+    checkout flow.
+
+
+    The product is available across 26 countries and targets merchants looking to
+    reduce interchange fees and chargeback exposure. It represents a different tactical
+    approach to the card-versus-account-to-account competition: rather than asking
+    merchants to add a separate pay-by-bank button, it intercepts card transactions
+    and diverts them where possible.
+
+
+    The model carries risks. Customer consent and experience at the point of redirection
+    will determine whether it feels seamless or disruptive. Strong customer authentication
+    requirements in Europe also add friction that card-present transactions may not
+    face. But embedding open banking within card checkout flows, rather than alongside
+    them, is a distinct variation on the standard pay-by-bank proposition, and one
+    that could reshape how merchants weigh the economics of each payment method.'
+  editorial_note: This product takes a genuinely different approach to account-to-account
+    conversion — intercepting card flows rather than adding a parallel button — which
+    has broader implications for how open banking competes with cards at checkout.
+  sources: '[Noda Launches BIN-to-Bank to Help Online Merchants Reduce Card Payment
+    Costs](https://www.globenewswire.com/news-release/2026/10/27/3388798/0/en/noda-launches-bin-to-bank-to-help-online-merchants-reduce-card-payment-costs.html)
+    — Globenewswire | [Noda launches BIN-to-Bank to move card checkouts to Open Banking
+    in 26 countries](https://app.dealroom.co/news/feed/noda-launches-bin-to-bank-to-move-card-checkouts-to-open-banking-in-26-countries)
+    — Dealroom | [Noda launches BIN-to-Bank to help online merchants reduce card payment
+    costs](https://www.einpresswire.com/article/952369310/noda-launches-bin-to-bank-to-help-online-merchants-reduce-card-payment-costs)
+    — Einpresswire'
+  style_check:
+    compliant: false
+    warnings:
+    - 'Body text uses ''account-to-account'' instead of spelling it out as ''A2A''
+      or preferred form. Rule: ''Prefer spelling out non-standard abbreviations/acronyms,
+      such as "account-to-account" instead of "A2A".'' The editorial note also uses
+      ''account-to-account'' but body should spell out fully.'
+    - Sentence 'But the concept of embedding open banking within card checkout flows,
+      rather than alongside them, is a notable variation on the standard pay-by-bank
+      proposition.' violates the rule against announcing notability explicitly. Remove
+      'is a notable variation' and state the substantive point directly.
+    - 'Standfirst uses ''A2A'' abbreviation without spelling it out first. Rule states:
+      ''In the standfirst, common and recognisable abbreviations (such as FCA, EPI)
+      may be used on first mention without spelling them out'' — but A2A (account-to-account)
+      is not a common/recognisable abbreviation like FCA or EPI, so should be spelled
+      out.'
+    - 'The standfirst opens with a thematic claim about ''A new approach'' rather
+      than naming specific stakes or consequences. Rule requires: ''The standfirst
+      must name the specific stakes or consequences of the story — naming the initiatives,
+      programmes or competitive dynamics affected'' — should name Noda or reference
+      the product/competitive dynamic more specifically.'
+  verification:
+    verified: true
+    stale: false
+    duplicate: false
+    warnings: []
+  revision:
+    replaced: false
+    resolved: true
+    summary:
+    - Revised standfirst to name the product (BIN-to-Bank) and the specific competitive
+      dynamic (competing for a separate button alongside card schemes) rather than
+      opening with a generic thematic claim.
+    - The standfirst previously did not use 'A2A' — it used 'open banking' and 'bank
+      transfers' — so no A2A abbreviation issue existed there. Confirmed no change
+      needed on that point.
+    - Body text already uses 'account-to-account' spelled out in full, which is the
+      preferred form per house style. No change needed.
+    - Replaced 'is a notable variation' with 'is a distinct variation' and extended
+      the sentence with a substantive claim, removing the explicit announcement of
+      notability.
+- headline: Checkout.com enters in-person payments through Mollie partnership
+  standfirst: The move marks a significant shift for one of Europe's largest online-only
+    acquirers, signalling that omnichannel capability is becoming a baseline expectation
+    for enterprise payment processors.
+  body: 'Checkout.com is expanding into in-person payment acceptance for the first
+    time, partnering with Mollie to combine its acquiring infrastructure with Mollie''s
+    terminal hardware and point-of-sale technology. The service will launch first
+    in the UK and European Economic Area, followed by the US, with additional card
+    schemes and markets planned for 2027. Mollie, which serves more than 350,000 businesses
+    across Europe, will retain control of its hardware strategy and customer experience
+    while Checkout.com provides the processing layer.
+
+
+    The partnership reflects a broader convergence in European merchant acquiring.
+    Enterprise merchants increasingly want a single provider for online and in-store
+    transactions, reducing the operational complexity of managing separate systems
+    for reporting, settlement and support. For Checkout.com, which expects to process
+    $480 billion in global e-commerce payments this year, the expansion follows what
+    the company describes as a period of sustained profitability.
+
+
+    Antoine Nougue, chief revenue officer at Checkout.com, said the expansion was
+    driven by merchant demand.
+
+
+    "Our merchants know Checkout.com for our speed, reliability and pace of innovation,
+    and they asked us to bring that to in-person payments," he said.'
+  editorial_note: 'This story was announced on October 20 but received continued coverage
+    through October 23. It has not been previously covered in the briefing. It qualifies
+    because it goes beyond a vendor announcement: it signals a structural shift in
+    European acquiring, where formerly online-only processors are entering physical
+    commerce via partnerships rather than building terminal ecosystems from scratch.
+    The Mollie partnership is also notable given Mollie''s recent acquisition of GoCardless,
+    making it a significant European payments consolidator.'
+  sources: '[Checkout.com launches in-person payments and partners with Mollie](https://thepaypers.com/payments/news/checkoutcom-launches-in-person-payments-and-partners-with-mollie)
+    — The Paypers'
+  style_check:
+    compliant: false
+    warnings:
+    - 'Standfirst: ''The move marks a significant shift'' — violates rule against
+      opening with ''The move is significant'' or equivalent constructions that announce
+      notability before making a substantive point. Write the substantive point directly.'
+    - 'Standfirst: ''The move marks a significant shift for one of Europe''s largest
+      online-only acquirers, signalling that omnichannel capability is becoming a
+      baseline expectation'' — violates rule against never flagging significance explicitly.
+      The phrase ''signalling that omnichannel capability is becoming a baseline expectation''
+      announces importance rather than stating the substantive point directly.'
+    - 'Body: ''$480 billion in global e-commerce payments this year'' — violates rule
+      requiring financial metrics to be qualified with basis of measurement where
+      relevant. No basis (e.g., ''gross payment value'', ''transaction volume'') is
+      provided.'
+    - 'Headline and standfirst: Both open with the subject (Checkout.com / ''The move''),
+      violating rule that ''Do not start the headline, standfirst, and body opening
+      sentence with the same word or phrase.'' The body also opens with ''Checkout.com'',
+      creating repetition across all three elements.'
+  verification:
+    verified: true
+    stale: true
+    duplicate: false
+    warnings:
+    - Core event (announcement of Checkout.com-Mollie partnership) occurred October
+      20, 2026, making it 7 days old at publication date of October 27, 2026—exceeds
+      5-day recency threshold
+  revision:
+    replaced: true
+    resolved: true
+    summary:
+    - 'Replaced: original story flagged as stale (Draft claims Riksbank ''pressed
+      parliament in October 2023, urging legislators to begin preparatory work'' —
+      sources show a 2023 government inquiry found insufficient need for e-krona at
+      that time; Riksbank''s first push for preparatory work was March 2026; This
+      story is duplicate of Previously covered item from 2026-10-23: ''Sweden''s Riksbank
+      presses parliament to begin e-krona preparations''; The core event (Riksbank
+      letter dated Oct 7, published Oct 15) is 12–22 days old as of Oct 27, 2026,
+      exceeding 5-day recency threshold); swapped in a candidate sourced from a live
+      web search (not in today''s RSS feeds).'
+    - 'Note: the replacement was also flagged — Core event (announcement of Checkout.com-Mollie
+      partnership) occurred October 20, 2026, making it 7 days old at publication
+      date of October 27, 2026—exceeds 5-day recency threshold'
+    - 'Note: the replacement was also flagged — Standfirst: ''The move marks a significant
+      shift'' — violates rule against opening with ''The move is significant'' or
+      equivalent constructions that announce notability before making a substantive
+      point. Write the substantive point directly.'
+    - 'Note: the replacement was also flagged — Standfirst: ''The move marks a significant
+      shift for one of Europe''s largest online-only acquirers, signalling that omnichannel
+      capability is becoming a baseline expectation'' — violates rule against never
+      flagging significance explicitly. The phrase ''signalling that omnichannel capability
+      is becoming a baseline expectation'' announces importance rather than stating
+      the substantive point directly.'
+    - 'Note: the replacement was also flagged — Body: ''$480 billion in global e-commerce
+      payments this year'' — violates rule requiring financial metrics to be qualified
+      with basis of measurement where relevant. No basis (e.g., ''gross payment value'',
+      ''transaction volume'') is provided.'
+    - 'Note: the replacement was also flagged — Headline and standfirst: Both open
+      with the subject (Checkout.com / ''The move''), violating rule that ''Do not
+      start the headline, standfirst, and body opening sentence with the same word
+      or phrase.'' The body also opens with ''Checkout.com'', creating repetition
+      across all three elements.'
+- headline: NatWest research finds trust is the main barrier to open banking business
+    adoption
+  standfirst: More than nine in 10 UK businesses say they are open to trialling open
+    banking payments, but trust and understanding remain the primary obstacles to
+    conversion.
+  body: 'Research published by Payit, NatWest''s open banking payments service, found
+    that 94% of UK businesses are open to trialling open banking payments. But the
+    same survey identified trust as the main barrier preventing trial from converting
+    to adoption, with businesses citing concerns about security, reliability and unfamiliarity
+    with the payment method.
+
+
+    The gap between willingness to experiment and willingness to commit mirrors a
+    pattern seen on the consumer side. In April, consumer warnings highlighted similar
+    growing pains around pay-by-bank adoption in the UK, with users uncertain about
+    payment protections and dispute resolution compared with card payments.
+
+
+    The challenge facing open banking payments has shifted. Technical capability and
+    regulatory frameworks are largely in place; the constraint is now commercial trust-building,
+    which requires consistent reliability, clear consumer protections and merchant
+    education rather than further product development.'
+  editorial_note: Complements the consumer-side adoption friction story covered in
+    April with a business-side data point. The 94% headline willingness figure paired
+    with trust as the binding constraint is a useful framing for the industry's current
+    phase.
+  sources: '[Payit by NatWest research finds 94% of businesses open to trialling Open
+    Banking payments](https://www.openbankingexpo.com/news/payit-by-natwest-research-finds-94-of-businesses-open-to-trialling-open-banking-payments/)
+    — Openbankingexpo'
+  style_check:
+    compliant: false
+    warnings:
+    - Standfirst opens with 'Nine in 10' (90%) when the body states '94%' — these
+      figures don't match. The standfirst should accurately reflect the research findings.
+    - Body text uses 'Earlier this year' which violates the rule against vague temporal
+      references. Replace with specific date or month (e.g., 'in April').
+    - Paragraph opening with 'For the open banking payments sector, the finding underlines
+      that the challenge has shifted' violates the rule against prefacing with audience-address
+      clauses like 'For [sector/audience]'. State the point directly without this
+      framing.
+    - The phrase 'the finding underlines that' combined with 'the constraint is now
+      commercial trust-building' risks announcing significance before the substantive
+      point. Restructure to lead with the substantive claim directly rather than announcing
+      what the finding 'underlines'.
+  verification:
+    verified: true
+    stale: false
+    duplicate: false
+    warnings: []
+  revision:
+    replaced: false
+    resolved: true
+    summary:
+    - Changed standfirst from 'Nine in 10' to 'More than nine in 10' to accurately
+      reflect the 94% figure cited in the body.
+    - Replaced 'Earlier this year' with 'In April' to provide a specific temporal
+      reference.
+    - Removed 'For the open banking payments sector, the finding underlines that'
+      audience-address framing and rewrote the paragraph opening to lead directly
+      with the substantive claim.
+status: ready
