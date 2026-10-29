@@ -1,0 +1,265 @@
+title: 'Zen.com pay-by-bank rollout; Neonomics adds Nordic VoP; Ripple wins US bank
+  charter
+
+  '
+social_post: 'Pay-by-bank keeps spreading across Europe, Neonomics tackles the VoP
+  gap in the Nordics, and Ripple lands a US bank charter with BNY and Robinhood deals
+  attached. Today''s briefing: {link}
+
+  '
+stories:
+- headline: Zen.com launches pay-by-bank in nine European markets via Mastercard
+  standfirst: The integration extends Mastercard's open finance platform into a mid-tier
+    European fintech, a test case for whether the scheme's account-to-account distribution
+    strategy can challenge standalone providers such as Tink and Token.
+  body: 'Zen.com has enabled pay-by-bank for merchant payment acceptance and digital
+    wallet top-ups across nine markets: Germany, Austria, Spain, Belgium, the Netherlands,
+    Italy, Portugal, Ireland and Lithuania. The service runs on Mastercard Open Finance
+    infrastructure.
+
+
+    The deployment is part of Mastercard''s broader push to position its open finance
+    platform as the connective layer for account-to-account payments across fragmented
+    European banking systems. For Zen.com, which operates primarily in central and
+    southern Europe, the move adds a non-card checkout option at a time when merchant
+    interest in reducing card scheme fees continues to grow.
+
+
+    Pay-by-bank adoption in Europe remains uneven. The UK leads by volume, but continental
+    markets have been slower to move beyond domestic schemes such as iDEAL and Bizum.
+    Mastercard''s strategy of embedding pay-by-bank within its existing merchant relationships
+    offers a distribution channel that standalone open banking providers struggle
+    to match. Zen.com''s transaction volumes will be a useful signal for whether that
+    channel advantage converts at the mid-tier merchant level.'
+  editorial_note: The rollout across nine markets is a concrete data point on how
+    Mastercard is using its open finance platform to distribute pay-by-bank at scale,
+    relevant to the ongoing European debate about card scheme versus account-to-account
+    economics.
+  sources: '[Zen.com and Mastercard expand Pay By Bank for merchants and consumers
+    across Europe](https://www.finextra.com/newsarticle/48659/zencom-and-mastercard-expand-pay-by-bank-for-merchants-and-consumers-across-europe?utm_medium=rssfinextra&utm_source=finextrafeed)
+    — Finextra | [ZEN.COM launches pay-by-bank in nine European markets via Mastercard](https://thepaypers.com/payments/news/zencom-launches-pay-by-bank-in-nine-european-markets-via-mastercard)
+    — The Paypers | [Zen.com rolls out pay-by-bank in nine European markets with Mastercard](https://www.electronicpaymentsinternational.com/news/zen-com-pay-by-bank-european-markets/)
+    — Electronicpaymentsinternational'
+  style_check:
+    compliant: false
+    warnings:
+    - Headline and standfirst both open with the same subject (Mastercard/Mastercard's).
+      Rule [24] requires varying the opening in at least one of the elements. Standfirst
+      should not begin 'The rollout extends Mastercard's...' when the headline names
+      Mastercard as the active agent.
+    - Body text uses 'account-to-account' without abbreviation on first use in paragraph
+      two ('account-to-account payments'), but Rule [2] prefers avoiding non-standard
+      abbreviations like 'A2A'. Should clarify whether this term recurs; if not, the
+      full term is appropriate, but the phrasing should be consistent with house style
+      preference for spelled-out forms.
+    - 'Standfirst fails Rule [16]: it makes a generic thematic claim (''testing whether
+      pay-by-bank can gain traction beyond the largest merchants'') without naming
+      the specific stakes or initiatives affected. The standfirst should name the
+      affected programmes or competitive dynamics — e.g., reference to Mastercard''s
+      open finance platform strategy, or specific rival schemes.'
+    - Final paragraph opens with 'Whether that translates into meaningful transaction
+      volumes...' — a hedging scene-setter that delays the substantive point. Rule
+      [15] prohibits opening paragraphs with hedging constructions like this. Should
+      lead directly with the substantive claim about what the deployment signals.
+  verification:
+    verified: true
+    stale: false
+    duplicate: false
+    warnings: []
+  revision:
+    replaced: false
+    resolved: true
+    summary:
+    - Revised standfirst to avoid opening with 'The rollout extends Mastercard's'
+      (same subject framing as headline) and to name specific competitive dynamics
+      (Mastercard's distribution strategy versus standalone providers such as Tink
+      and Token), addressing rules 24 and 16.
+    - Verified 'account-to-account' is used only in spelled-out form and does not
+      recur as an abbreviation, consistent with house style preference for spelled-out
+      non-standard terms.
+    - Rewrote final paragraph's closing sentence to lead with the substantive claim
+      rather than the hedging 'Whether that translates…' construction, per rule 15.
+- headline: 'Neonomics integrates verification of payee into Finnish pay-by-bank service
+
+    '
+  standfirst: 'Nordic expansion of payee verification addresses a gap that European
+    regulators have flagged as a fraud risk for instant payments.
+
+    '
+  body: 'Neonomics has integrated verification of payee technology from Movitz Payments
+    into its Nello Pay service in Finland, with plans to extend the capability to
+    Sweden, Denmark and Norway in 2027. The integration enables payers to confirm
+    the identity of the recipient before a transaction completes.
+
+
+    European regulators have repeatedly warned that the absence of payee verification
+    in many markets undermines the fraud protections that should accompany the EU''s
+    instant payments mandate. While the European Payments Council''s verification
+    of payee framework applies to SEPA credit transfers and instant payments, implementation
+    has been patchy. The Nordic markets, which have high instant payment adoption,
+    have been among those where verification infrastructure has lagged.
+
+
+    Neonomics raised €3.6 million from existing shareholders in October after a strategic
+    pivot. The verification of payee integration signals a shift toward building differentiated
+    infrastructure rather than competing purely on basic payment initiation, where
+    margins have proved thin.
+
+    '
+  editorial_note: 'Verification of payee remains a live issue across Europe, with
+    previous coverage noting delays and gaps. Neonomics extending this to Finland
+    with Nordic expansion planned is a concrete step that advances this continuing
+    story.
+
+    '
+  sources: '[Neonomics and Movitz Payments strengthen Pay by Bank security](https://www.finextra.com/pressarticle/111501/neonomics-and-movitz-payments-strengthen-pay-by-bank-security?utm_medium=rssfinextra&utm_source=finextrafeed)
+    — Finextra'
+  style_check:
+    compliant: false
+    warnings:
+    - 'style check response could not be parsed: ''```json {   "compliant": false,   "warnings":
+      [     "Standfirst opens by naming \''Nordic expansion of payee verification\''
+      without first establishing wh'''
+  verification:
+    verified: true
+    stale: false
+    duplicate: false
+    warnings: []
+- headline: Ripple secures US national bank charter and signs BNY and Robinhood deals
+  standfirst: Gaining a national trust bank charter, paired with partnerships with
+    BNY and Robinhood, marks a step change in institutional crypto infrastructure
+    that European competitors will need to reckon with.
+  body: 'Ripple has received approval to establish a national trust bank in the US
+    and has signed separate partnership agreements with BNY and Robinhood. The charter
+    gives Ripple direct access to the US banking system rather than relying on sponsor
+    bank relationships, a structural upgrade that has eluded most digital asset firms.
+
+
+    The BNY partnership is particularly consequential. As a core node in global securities
+    settlement and the largest custodian bank by assets under custody, BNY''s formal
+    relationship with Ripple suggests institutional appetite for digital asset infrastructure
+    is moving beyond pilot programmes. The Robinhood deal extends Ripple''s reach
+    into retail brokerage, though the details of both partnerships were not fully
+    disclosed.
+
+
+    European digital asset firms face a different regulatory environment under MiCA,
+    which provides a licensing framework but does not offer an equivalent to a US
+    national bank charter. Ripple''s ability to embed itself within the US banking
+    system could accelerate the competitive gap between US and European crypto infrastructure
+    providers, particularly in cross-border payments where Ripple has historically
+    focused.'
+  editorial_note: Ripple obtaining a national bank charter with BNY and Robinhood
+    partnerships is a structural development in digital asset infrastructure with
+    direct competitive implications for European firms operating under MiCA.
+  sources: '[Ripple secures national bank charter; inks deals with BNY and Robinhood](https://www.finextra.com/newsarticle/48655/ripple-secures-national-bank-charter-inks-deals-with-bny-and-robinhood?utm_medium=rssfinextra&utm_source=finextrafeed)
+    — Finextra'
+  style_check:
+    compliant: false
+    warnings:
+    - 'Standfirst opens by naming the action (''A US digital asset firm gaining a
+      national trust bank charter'') without first naming the organisation, but the
+      headline names ''Ripple'' prominently. Per rule [1], the standfirst should not
+      open by naming the organisation from the headline, but here the substantive
+      point is properly foregrounded. However, the standfirst uses ''A US digital
+      asset firm'' as a vague descriptor when ''Ripple'' has already been named in
+      the headline — this violates the spirit of rule [1] by using a circumlocution
+      instead of simply beginning with the substantive point. Revise to open directly
+      with the action: ''Gaining a national trust bank charter, paired with partnerships
+      with BNY and Robinhood, marks a step change…'''
+    - Body text contains 'BNY is the world's largest custodian bank' — the phrase
+      'world's largest' states significance without establishing the substantive point
+      first. Per rule [5], avoid announcing importance before explaining it. Revise
+      to lead with the substantive claim about what BNY does and why the partnership
+      matters, without the superlative framing.
+    - The editorial note should not be included in the copy check output — it is a
+      note for internal purposes and should not be assessed against house style rules
+      as if it were published text.
+  verification:
+    verified: true
+    stale: false
+    duplicate: false
+    warnings: []
+  revision:
+    replaced: false
+    resolved: true
+    summary:
+    - Revised standfirst to open with the action ('Gaining a national trust bank charter…')
+      rather than the circumlocution 'A US digital asset firm gaining…', per rule
+      [1] guidance.
+    - Revised the BNY sentence to lead with BNY's functional role ('a core node in
+      global securities settlement and the largest custodian bank by assets under
+      custody') rather than opening with the bare superlative 'world's largest custodian
+      bank', integrating the significance into the substantive claim.
+    - Editorial note left unchanged as flagged issue noted it is for internal purposes
+      and should not be assessed against house style.
+- headline: Idemia achieves first EMVCo certification for quantum-resistant payment
+    cards
+  standfirst: Banks using Idemia's platform can now begin future-proofing card portfolios
+    against quantum computing threats, after the French firm became the first card
+    platform provider to meet EMVCo's post-quantum cryptography standards.
+  body: 'Idemia has become the first company to achieve EMVCo certification for a
+    payment card platform with access to post-quantum cryptography and crypto-agility
+    services. The certification allows banks using Idemia''s platform to begin future-proofing
+    their card portfolios against the eventual threat posed by quantum computers to
+    current encryption standards.
+
+
+    The timeline for quantum computers capable of breaking existing cryptographic
+    protections remains uncertain, but major standards bodies and regulators have
+    begun requiring migration plans. EMVCo''s decision to certify post-quantum capabilities
+    signals that the card industry is moving from theoretical preparation to practical
+    product availability. Card issuers now face a strategic question about when to
+    begin deploying quantum resilience, not whether to plan for it.
+
+
+    The French provider is one of the largest payment card platform vendors globally.
+    Being first to certification gives it a commercial advantage in conversations
+    with issuers who face pressure from regulators and scheme operators to demonstrate
+    quantum readiness.'
+  editorial_note: First EMVCo certification for post-quantum cryptography on a payment
+    card platform is a concrete industry milestone, relevant to European issuers beginning
+    to plan for quantum-era security requirements.
+  sources: '[Idemia prepares payment cards for quantum threats with EMVCo certification](https://www.finextra.com/newsarticle/48666/idemia-prepares-payment-cards-for-quantum-threats-with-emvco-certification?utm_medium=rssfinextra&utm_source=finextrafeed)
+    — Finextra'
+  style_check:
+    compliant: false
+    warnings:
+    - Standfirst opens by naming 'The certification' which repeats the subject from
+      the headline ('Idemia achieves first EMVCo certification'). Per rule 1, the
+      standfirst should open with the substantive point or action, not restate the
+      headline subject. Revise to open with 'Post-quantum cryptography standards...'
+      or 'Banks using Idemia's platform can now...'
+    - Body paragraph 2 contains 'For card issuers, the question shifts from whether
+      to plan for quantum resilience to when to begin deploying it.' This is a colon-introduced
+      binary question that can be recast with a preposition. Prefer 'Card issuers
+      face a strategic question about when to begin deploying quantum resilience'
+      per rule on binary questions.
+    - Body paragraph 3 opens with 'Idemia' immediately after the previous paragraph
+      also focuses on Idemia as subject. Use a pronoun or descriptive phrase ('The
+      French provider', 'The platform vendor') to avoid mechanical repetition of the
+      proper noun in consecutive paragraphs, per the rule on avoiding repeated grammatical
+      subjects.
+  verification:
+    verified: false
+    stale: false
+    duplicate: false
+    warnings:
+    - 'Could not independently verify: The cited Finextra source could not be located
+      or accessed. Unable to confirm the core event (Idemia achieving first EMVCo
+      certification for quantum-resistant payment cards), its date, or specific claims
+      about EMVCo''s decision and its implications.'
+  revision:
+    replaced: false
+    resolved: true
+    summary:
+    - Revised standfirst to open with 'Banks using Idemia's platform can now...' rather
+      than restating the headline subject ('The certification'), per rule 1.
+    - Recast the binary question in paragraph 2 from 'the question shifts from whether
+      to plan for quantum resilience to when to begin deploying it' to 'Card issuers
+      now face a strategic question about when to begin deploying quantum resilience,
+      not whether to plan for it', per rule on binary questions.
+    - Changed paragraph 3 opening from 'Idemia, headquartered in France,' to 'The
+      French provider' to avoid repeating the proper noun as grammatical subject of
+      consecutive paragraphs.
+status: ready
