@@ -1,0 +1,271 @@
+title: 'Visa-Tencent agentic deal; PSR makes CoP permanent; Idemia preps cards for
+  quantum era
+
+  '
+social_post: 'Visa and Tencent team up on agentic commerce, the PSR locks in Confirmation
+  of Payee permanently, and Idemia gets the first quantum-ready card certification.
+  Today''s briefing: {link}
+
+  '
+stories:
+- headline: Visa and Tencent partner on agentic commerce and cross-border payments
+  standfirst: The partnership pairs Visa's Intelligent Commerce programme with Tencent's
+    WeChat Pay ecosystem, opening a channel between Chinese consumers and international
+    merchants as agentic payments move from pilots to high-volume commercial corridors.
+  body: 'Visa has signed a memorandum of understanding (MoU) with Tencent covering
+    cross-border payments and AI-powered commerce. The agreement comes weeks after
+    Visa secured expanded regulatory approval for its operations in China, giving
+    the partnership immediate operational scope.
+
+
+    The MoU spans agentic commerce, where AI agents initiate and complete transactions
+    on behalf of users, alongside more conventional cross-border payment flows. For
+    Visa, the tie-up extends its agentic payments strategy into one of the world''s
+    largest digital ecosystems. For Tencent, it adds an international payments layer
+    to WeChat Pay and its broader platform.
+
+
+    The partnership follows a string of agentic payment announcements across the industry
+    in recent months, including Visa''s own live agentic transaction between buyer
+    and supplier platforms in October. Linking that capability to Tencent''s scale
+    in China suggests the technology is moving beyond controlled pilots toward commercial
+    deployment in high-volume corridors.'
+  editorial_note: This advances the agentic payments story materially by connecting
+    Visa's programme to Tencent's massive Chinese consumer base, signalling the technology's
+    shift toward commercial scale in a major cross-border corridor.
+  sources: '[Visa and Tencent ink agentic commerce and cross-border payments MoU](https://www.finextra.com/newsarticle/48672/visa-and-tencent-ink-agentic-commerce-and-cross-border-payments-mou?utm_medium=rssfinextra&utm_source=finextrafeed)
+    — Finextra'
+  style_check:
+    compliant: false
+    warnings:
+    - Standfirst opens by naming Visa, which is also named in the headline. Rule 1
+      requires opening with the substantive point instead — eg, 'The partnership pairs…'
+      rather than 'The deal pairs Visa's…'
+    - Body text uses 'MoU' without spelling out the full form on first use. Rule on
+      abbreviations requires 'memorandum of understanding (MoU)' on first introduction
+      in body text, even though it was spelled out in the previous sentence.
+    - Standfirst does not name the specific stakes or consequences with sufficient
+      precision. Rule requires naming 'the initiatives, programmes or competitive
+      dynamics affected' — the standfirst should identify what Visa's agentic payments
+      programme or Tencent's specific services are concretely advancing, not just
+      describe the moment generically as 'when AI-initiated commerce is moving from
+      pilots to production.'
+  verification:
+    verified: true
+    stale: false
+    duplicate: false
+    warnings: []
+  revision:
+    replaced: false
+    resolved: true
+    summary:
+    - Standfirst revised to open with 'The partnership' rather than naming Visa, avoiding
+      redundant repetition of the headline subject per rule 1.
+    - Standfirst now names Visa's Intelligent Commerce programme and Tencent's WeChat
+      Pay specifically, and replaces the generic 'moving from pilots to production'
+      with 'move from pilots to high-volume commercial corridors' to identify concrete
+      stakes per the standfirst-specificity rule.
+    - Introduced 'memorandum of understanding (MoU)' on first use in the body's second
+      paragraph where the abbreviation recurs, per the abbreviation rule. The first
+      paragraph already spelled out the full term; the parenthetical abbreviation
+      is now placed there to cover subsequent uses.
+- headline: Adyen scraps medium-term margin target as it invests beyond payments
+  standfirst: A 12% share price drop and the withdrawal of the company's 2028 profitability
+    goal signal a strategic pivot from pure-play processing to a broader commerce
+    platform.
+  body: 'Adyen has cut its 2026 EBITDA margin target to 50%, down from around 52%,
+    and withdrawn its medium-term ambition to exceed 55% by 2028. The company said
+    it was accelerating investment in staff, platform development and the integration
+    of two recent acquisitions – billing platform Orb and loyalty technology provider
+    Talon.One – to capture what it called a larger opportunity across payments, billing
+    and financial products. Shares fell roughly 12% in Amsterdam trading on October
+    28, extending year-to-date losses to approximately 40%.
+
+
+    The margin cut overshadowed third-quarter results that beat analyst expectations.
+    Net revenue rose 23% year on year to €738 million, while processed volume grew
+    30% to €451 billion. Platforms, which now serves 312,000 businesses, was the fastest-growing
+    segment: its revenue jumped 46% to €100 million. The two acquisitions contributed
+    approximately two percentage points to constant-currency revenue growth.
+
+
+    Adyen is effectively telling investors it will trade short-term profitability
+    for scale in adjacent markets. Co-CEO Ingo Uytdehaage framed the shift around
+    demand from merchants for a single provider covering payments, billing, loyalty
+    and financial products. The risk is that Adyen ends up running at roughly the
+    same margin as Nexi, which reported a first-half EBITDA margin of around 50% while
+    growing merchant revenue less than 1%. Whether the growth rate justifies the margin
+    compression will determine whether the market sees this as ambition or overreach.'
+  editorial_note: Adyen is one of Europe's most significant independent payment processors
+    and its decision to scrap its medium-term margin target while pivoting into billing
+    and loyalty represents a notable strategic shift. The 12% share drop and 40% year-to-date
+    decline make this genuinely notable under the house rule that results are only
+    covered when they are remarkable at a significant company. Story published October
+    28, within the recency window.
+  sources: '[Adyen publishes Q3 2026 Business Update](https://www.adyen.com/press-and-media/adyen-publishes-q3-2026-business-update-6r9vz0)
+    — Adyen'
+  style_check:
+    compliant: false
+    warnings:
+    - 'style check response could not be parsed: ''```json {   "compliant": false,   "warnings":
+      [     "Body paragraph 4 opens with \''Whether the growth rate justifies the
+      margin compression will determ'''
+  verification:
+    verified: false
+    stale: false
+    duplicate: false
+    warnings:
+    - 'verification response could not be parsed: "I''ll fact-check this story about
+      Adyen''s Q3 2026 results and margin targets. Let me search for the cited source
+      and verify the key facts. Now let me s"'
+  revision:
+    replaced: true
+    resolved: true
+    summary:
+    - 'Replaced: original story flagged as stale (This story reports the PSR''s October
+      22, 2026 decision on removing SD17''s expiry date, which was already covered
+      in the briefing on 2026-10-23 as ''PSR publishes binding direction on Confirmation
+      of Payee requirements''. Story is 8 days old, exceeding the 5-day recency threshold.);
+      swapped in a candidate sourced from a live web search (not in today''s RSS feeds).'
+- headline: Idemia achieves first EMVCo certification for quantum-resistant payment
+    cards
+  standfirst: Banks can now begin issuing cards designed to resist quantum computing
+    attacks, removing the argument that quantum-safe payment hardware is not yet commercially
+    available.
+  body: 'Idemia has become the first company to receive EMVCo certification for a
+    payment card platform incorporating post-quantum cryptography and crypto-agility
+    services. The certification means banks can begin issuing cards designed to resist
+    attacks from quantum computers, which are expected eventually to break widely
+    used encryption methods.
+
+
+    The timeline for quantum threats to payment security remains uncertain, but the
+    industry has been moving pre-emptively. EMVCo published security position statements
+    on quantum computing in August 2026, and Idemia''s certification is the first
+    product to demonstrate compliance with post-quantum expectations. Crypto-agility,
+    the ability to switch between cryptographic algorithms without replacing hardware,
+    is a central feature, allowing issuers to adapt as standards evolve.
+
+
+    For European card issuers, the certification removes the argument that quantum-safe
+    cards are not yet commercially available. Regulators including the ECB have flagged
+    quantum preparedness as a supervisory expectation, and having a certified product
+    on the market shifts the conversation from theoretical planning to procurement
+    decisions.'
+  editorial_note: First-of-its-kind certification for quantum-resistant payment cards
+    is a concrete milestone in an area European regulators are increasingly focused
+    on, making it directly relevant to card issuers and payment processors.
+  sources: '[Idemia prepares payment cards for quantum threats with EMVCo certification](https://www.finextra.com/newsarticle/48666/idemia-prepares-payment-cards-for-quantum-threats-with-emvco-certification?utm_medium=rssfinextra&utm_source=finextrafeed)
+    — Finextra'
+  style_check:
+    compliant: false
+    warnings:
+    - 'Standfirst opens by naming the substantive point (certification providing a
+      migration path) rather than beginning with the action or consequence after naming
+      the organisation. Per rule on standfirst opening: should lead with the action/consequence,
+      not the organisation context. The organisation ''Idemia'' is named in the headline,
+      so the standfirst should not begin by restating what the certification does
+      without first establishing the news itself.'
+    - 'Body paragraph beginning ''For European card issuers, the certification matters
+      because...'' uses the framing ''the certification matters because'' which violates
+      the rule against announcing significance explicitly before making the substantive
+      point. Rewrite to state the substantive point directly: ''For European card
+      issuers, the certification removes the argument that quantum-safe cards are
+      not yet commercially available'' without the signposting phrase.'
+    - Vague temporal reference 'earlier this year' should be replaced with a specific
+      date or month. The rule requires avoiding vague temporal references like 'earlier
+      this year' when a specific time period is available.
+  verification:
+    verified: false
+    stale: false
+    duplicate: false
+    warnings:
+    - Draft states 'EMVCo published its framework for quantum readiness earlier this
+      year' but sources show EMVCo published Security Position Statements on quantum
+      computing (August 24, 2026), not a formal quantum-readiness framework. No evidence
+      of published EMVCo framework for quantum-ready payment cards that Idemia's certification
+      meets.
+  revision:
+    replaced: false
+    resolved: true
+    summary:
+    - Revised standfirst to open with the substantive consequence rather than restating
+      the certification, avoiding redundant repetition of the headline's subject.
+    - Replaced 'EMVCo published its framework for quantum readiness earlier this year'
+      with 'EMVCo published security position statements on quantum computing in August
+      2026' to correct the characterisation (not a formal framework) and replace the
+      vague temporal reference with a specific date.
+    - Changed 'Idemia's certification is the first product to meet that standard'
+      to 'Idemia's certification is the first product to demonstrate compliance with
+      post-quantum expectations' to avoid implying a formal framework exists.
+    - Removed 'the certification matters because' signposting phrase from the third
+      paragraph opening, stating the substantive point directly.
+- headline: ACI Worldwide and Circle integrate stablecoin settlement into bank payment
+    rails
+  standfirst: USDC settlement can slot into existing banking infrastructure in Latin
+    America, with implications for how European banks approach stablecoin integration.
+  body: 'ACI Worldwide and Circle have announced a collaboration to show how stablecoin
+    settlement can be embedded into conventional banking and payment infrastructure.
+    The initial focus is Latin America, where ACI''s payment processing platform connects
+    banks and payment providers to domestic and cross-border rails.
+
+
+    The integration uses Circle''s USDC stablecoin to settle transactions processed
+    through ACI''s infrastructure, aiming to reduce the cost and delay associated
+    with traditional correspondent banking in the region. Rather than requiring banks
+    to build new systems, the approach layers stablecoin settlement onto existing
+    payment workflows.
+
+
+    ACI''s position as a major infrastructure provider to European banks and payment
+    schemes, including its recent selection to process instant payments for the European
+    Payments Initiative, means European banks using ACI''s platform could face pressure
+    to adopt similar capabilities as USDC gains regulatory standing under the Markets
+    in Crypto-Assets Regulation (MiCA). Circle''s USDC was designated as the EU''s
+    first significant e-money token under MiCA earlier this month.'
+  editorial_note: ''
+  sources: '[ACI Worldwide and Circle collaborate on LatAm payments](https://www.finextra.com/pressarticle/111519/aci-worldwide-and-circle-collaborate-on-latam-payments?utm_medium=rssfinextra&utm_source=finextrafeed)
+    — Finextra'
+  style_check:
+    compliant: false
+    warnings:
+    - Standfirst opens by naming the organisations in the headline ('The collaboration
+      demonstrates') rather than leading with the substantive point or action. Per
+      rule 1, the standfirst should begin with the substantive point, not repeat the
+      subject from the headline. Revise to open with the action—e.g., 'USDC settlement
+      can slot into existing banking infrastructure in Latin America, with implications
+      for how European banks approach stablecoin integration.'
+    - Body text uses 'MiCA' without spelling out the full term on first use. Per rule
+      20 (spell-out-on-first-use), the first mention should read 'Markets in Crypto-Assets
+      Regulation (MiCA)' to establish the abbreviation before using it subsequently.
+    - The phrase 'makes this more than a regional story' is a significance announcement
+      that should be removed or rewritten to state the substantive point directly
+      per rule 5. Revise to lead directly with the consequence—e.g., 'ACI's position
+      as a major infrastructure provider to European banks means European banks using
+      ACI's platform could face pressure to adopt similar capabilities as USDC gains
+      regulatory standing under MiCA.'
+    - Editorial note contains an instruction ('makes this stablecoin integration directly
+      relevant to European payments infrastructure') that should not appear in the
+      editorial note itself per rule 23 (do not include editorial notes about missing
+      information or editorial direction). The editorial note should only provide
+      context about sourcing or verification; strategic relevance should be evident
+      in the story itself.
+  verification:
+    verified: true
+    stale: false
+    duplicate: false
+    warnings: []
+  revision:
+    replaced: false
+    resolved: true
+    summary:
+    - Revised standfirst to open with the substantive point ('USDC settlement can
+      slot into…') rather than repeating the collaboration named in the headline,
+      per rule 1.
+    - Spelled out 'Markets in Crypto-Assets Regulation (MiCA)' on first use in the
+      body, with the abbreviation used on the subsequent mention, per rule 20.
+    - Removed the phrase 'makes this more than a regional story' and restructured
+      the sentence to state the consequence directly, per rule 5.
+    - Removed the editorial note content, as the strategic relevance is already conveyed
+      in the body text.
+status: ready
