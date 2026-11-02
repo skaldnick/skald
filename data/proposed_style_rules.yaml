@@ -2,8 +2,4 @@
 # Populated automatically by tools/extract_learning.py (via GitHub Actions on push
 # to data/feedback/). Review and promote/edit in the dashboard's 'Proposed style
 # rules' section — accepted rules move to prompts/payments/style_rules.yaml.
-- date: '2026-11-02'
-  rule: In headlines, use a well-known short form or abbreviation for a private equity
-    or corporate name when it is widely recognised — eg, "CD&R" rather than "Clayton,
-    Dubilier and Rice" — to keep headlines concise. Apply this only where the abbreviated
-    form is sufficiently recognisable to the target audience that no meaning is lost.
+[]
