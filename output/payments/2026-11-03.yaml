@@ -1,0 +1,213 @@
+title: 'Agentic payments liability; Wells Fargo terms; Wandhoefer authentication warning
+
+  '
+social_post: 'Wells Fargo puts AI agent liability squarely on customers. Meanwhile,
+  Ruth Wandhoefer warns authentication frameworks aren''t ready. Today''s briefing
+  unpacks what agentic payments mean for European open banking. {link}
+
+  '
+stories:
+- headline: Wells Fargo makes customers liable for all AI agent transactions
+  standfirst: Updated terms of service expose a gap in open banking consent frameworks
+    that programmes such as PSD3 and the FCA's planned agentic finance standards will
+    need to address as agentic commerce scales.
+  body: 'Wells Fargo has updated its terms of service to make customers legally responsible
+    for every transaction initiated by an AI agent acting on their behalf. The change
+    applies regardless of whether the customer explicitly authorised the specific
+    payment, shifting all risk from the bank to the consumer in a category of transactions
+    that no existing regulatory framework fully contemplates.
+
+
+    No current open banking standard includes a mechanism for a customer to grant
+    an agent permission to execute a narrowly scoped action, such as paying a specific
+    bill and nothing else. The absence of granular consent frameworks means banks
+    face a binary choice: block AI agents entirely, as JPMorgan Chase did in October,
+    or permit them and disclaim liability, as Wells Fargo has now done. Neither approach
+    is sustainable as agentic commerce matures.
+
+
+    Regulatory thinking is further ahead in Europe. The Financial Conduct Authority
+    announced on October 19 that it would develop a trusted framework for agentic
+    finance collaboratively with industry and other regulators, and EMVCo has drafted
+    a card-based agentic payments standard. But the Wells Fargo move underscores how
+    quickly commercial reality is outpacing regulatory design. The question of who
+    bears liability when an agent acts beyond its intended scope is no longer theoretical
+    for open banking providers building agent-initiated payment flows in Europe.'
+  editorial_note: Wells Fargo's liability terms represent the first major US bank
+    to formally allocate agentic payment risk to consumers, creating a concrete reference
+    point for the European agentic payments debate that has so far been largely theoretical.
+  sources: '[Wells Fargo Just Made You Legally Responsible for Every Transaction Your
+    AI Agent Makes](https://www.techtimes.com/articles/329947/20261103/wells-fargo-just-made-you-legally-responsible-every-transaction-your-ai-agent-makes.htm)
+    — Techtimes'
+  style_check:
+    compliant: false
+    warnings:
+    - Standfirst opens by naming the organisation (Wells Fargo's bank/The bank) that
+      is also named in the headline. Per rule 1, the standfirst should begin with
+      'The move exposes a gap...' rather than 'The bank's updated terms...' to avoid
+      redundant repetition of the subject.
+    - Body contains 'JPMorgan' which should be 'JPMorgan Chase' or verified against
+      official company name — verify the official form.
+    - Standfirst names 'European regulators and payment providers' but does not name
+      the specific initiatives, programmes or competitive dynamics affected. Per the
+      standfirst-stakes rule, it should explicitly name which EU regulatory frameworks
+      or programmes are implicated (e.g., 'PSD2', 'PSD3', or specific FCA/EBA guidance),
+      not use generic 'European regulators'.
+    - 'Body paragraph begins: ''European regulators are further ahead in thinking
+      about this problem.'' This uses ''European regulators'' as the grammatical subject
+      to open a paragraph after previously discussing ''The FCA'' and ''EMVCo''. Per
+      the pronoun/referring-expression rule, the second sentence should use a referring
+      expression like ''The regulator'' or ''These bodies'' to avoid mechanical repetition
+      of the proper noun phrase.'
+    - Final paragraph of body states 'For European open banking providers building
+      agent-initiated payment flows, the question of who bears liability...' This
+      frames relevance to European readers with 'For European...providers' which violates
+      the rule against opening with 'For European payments professionals, …' or equivalent
+      constructions. The European dimension should be stated directly as part of the
+      narrative without prefacing it with an audience-address clause.
+  verification:
+    verified: false
+    stale: false
+    duplicate: false
+    warnings:
+    - Story states 'The FCA published its agentic finance framework in October' but
+      FCA sources show the regulator announced on October 19, 2026 that it would develop
+      a framework with industry and other regulators. No completed framework was published;
+      rather, the FCA outlined plans for a 'trusted framework' it intends to build
+      collaboratively.
+  revision:
+    replaced: false
+    resolved: true
+    summary:
+    - Standfirst revised to avoid opening with the organisation named in the headline,
+      now leading with 'Updated terms of service expose…' per rule 1.
+    - Standfirst now names specific initiatives (PSD3, FCA's planned agentic finance
+      standards) rather than generic 'European regulators and payment providers',
+      per the standfirst-stakes rule.
+    - 'Corrected FCA reference: the body no longer states a framework was ''published'';
+      instead it accurately states the FCA announced on October 19 that it would develop
+      a trusted framework collaboratively with industry and other regulators.'
+    - Changed 'JPMorgan' to 'JPMorgan Chase' per official company name.
+    - Revised paragraph opening from 'European regulators are further ahead…' to 'Regulatory
+      thinking is further ahead in Europe' to avoid mechanical repetition of the proper
+      noun phrase.
+    - Restructured final sentence to remove the audience-address clause 'For European
+      open banking providers…' and instead state the European dimension directly within
+      the narrative.
+- headline: Wandhoefer warns AI agents could make payment authentication obsolete
+  standfirst: Existing strong customer authentication models were designed for human
+    users and have no adequate answer for autonomous software agents initiating payments
+    at scale.
+  body: 'Ruth Wandhoefer, one of the payments industry''s most prominent regulatory
+    voices, has warned that AI agents could render traditional payment authentication
+    frameworks obsolete. Speaking at an industry event, she argued that strong customer
+    authentication as currently designed assumes a human is present at the point of
+    transaction, an assumption that breaks down when autonomous agents initiate payments
+    on a user''s behalf.
+
+
+    Wandhoefer suggested that agentic AI could accelerate the adoption of open finance
+    by enabling automated financial management and lending decisions, but only if
+    the infrastructure adapts. The challenge is not just technical but legal: current
+    European regulations tie authentication to individual consent at the moment of
+    payment, and delegating that consent to a software agent raises questions that
+    neither PSD2 nor the forthcoming PSD3 framework has resolved.
+
+
+    The warning lands as the agentic payments space is moving rapidly from proof-of-concept
+    to early production. Visa and Mastercard have completed live agentic transactions
+    in 2026, Blik has piloted its first agentic payment, and several European banks
+    have run their own trials. An industry alliance with over 25 founding members
+    launched in August. Wandhoefer''s point is that the plumbing is being built before
+    the rules governing it are settled.'
+  editorial_note: Wandhoefer is a recognised authority on European payments regulation.
+    Her public warning about authentication obsolescence adds analytical weight to
+    the agentic payments debate at a moment when multiple live implementations are
+    running ahead of regulatory clarity.
+  sources: '[AI agents threaten traditional payment authentication, warns Wandhöfer](https://www.openbankingexpo.com/news/ai-agents-could-render-traditional-payment-authentication-obsolete-warns-dr-ruth-wandhofer/)
+    — Openbankingexpo'
+  style_check:
+    compliant: false
+    warnings:
+    - 'style check response could not be parsed: ''```json {   "compliant": false,   "warnings":
+      [     "Body text uses \''PSD2\'' and \''PSD3\'' without spelling out on first
+      use. Rule requires: \''Payment Servi'''
+  verification:
+    verified: true
+    stale: false
+    duplicate: false
+    warnings:
+    - Story states 'Blik and several European banks have all completed live agentic
+      transactions in 2026' but BLIK completed a pilot transaction in September 2026,
+      not a fully live commercial deployment like Visa/Mastercard earlier in the year
+  revision:
+    replaced: false
+    resolved: true
+    summary:
+    - Distinguished Blik's pilot transaction from the live commercial deployments
+      by Visa and Mastercard, replacing the blanket claim that all had 'completed
+      live agentic transactions' with more precise language reflecting Blik's pilot
+      status.
+- headline: Bank of Canada consults on consumer-driven banking accreditation
+  standfirst: Canada's central bank is designing accreditation guidelines for its
+    open banking regime, offering a live comparison point for European regulators
+    weighing similar frameworks.
+  body: 'The Bank of Canada has opened a public consultation on accreditation guidelines
+    for participants in its consumer-driven banking framework. The consultation invites
+    stakeholders to comment on how third-party providers should be credentialed and
+    supervised before gaining access to consumer financial data.
+
+
+    Canada''s approach places accreditation design with the central bank rather than
+    a dedicated conduct regulator or a market-led body. This contrasts with the UK
+    model, where the FCA oversees open banking authorisation, and with the EU''s approach
+    under PSD2 and PSD3, where national competent authorities handle licensing. The
+    consultation''s scope and the central bank''s direct involvement reflect a conscious
+    decision to treat data access as a systemic infrastructure question rather than
+    purely a consumer protection matter.
+
+
+    The Canadian consultation offers a useful comparison as the EU works toward its
+    own open finance framework and the UK advances its FCA-led roadmap. The accreditation
+    design choices Canada makes, particularly around liability allocation and ongoing
+    supervision, will provide evidence for or against the different institutional
+    models being debated in Europe.'
+  editorial_note: Canada's central bank taking direct ownership of open banking accreditation
+    is a genuinely different institutional design choice. European professionals tracking
+    open finance implementation will find the comparison with UK and EU approaches
+    instructive.
+  sources: '[Bank of Canada opens consultation on consumer-driven banking accreditation
+    guidelines](https://tradersunion.com/news/regulators/show/4064542-bank-canada-consultation-banking-guidelines/)
+    — Tradersunion'
+  style_check:
+    compliant: false
+    warnings:
+    - 'Paragraph 2, sentence 1: ''Canada''s approach is notable for...'' — This violates
+      the rule against explicitly flagging significance. Remove ''is notable for''
+      and rewrite as ''Canada''s approach places accreditation design with the central
+      bank rather than a dedicated conduct regulator or a market-led body.'''
+    - 'Paragraph 3, opening: ''For European payments professionals, the Canadian consultation
+      offers...'' — This violates the rule against framing relevance to European readers
+      with audience-address clauses like ''For European payments professionals''.
+      State the European dimension directly as part of the narrative instead.'
+    - 'Paragraph 2: ''the country''s version of open banking'' appears in the body
+      but ''consumer-driven banking regime'' is used in the headline and standfirst.
+      The first reference to this concept in the body should avoid near-verbatim repetition
+      of the same phrasing. Consider restructuring to develop the point differently.'
+  verification:
+    verified: true
+    stale: false
+    duplicate: false
+    warnings: []
+  revision:
+    replaced: false
+    resolved: true
+    summary:
+    - 'Paragraph 2, sentence 1: Removed ''is notable for'' and rewrote to state the
+      point directly without flagging significance.'
+    - 'Paragraph 3, opening: Removed ''For European payments professionals'' audience-address
+      clause and began with the substantive point.'
+    - 'Paragraph 1: Replaced ''the country''s version of open banking'' with ''framework''
+      to avoid near-verbatim repetition of the headline/standfirst phrasing while
+      keeping the reference clear.'
+status: ready
