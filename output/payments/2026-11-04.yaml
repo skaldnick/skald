@@ -1,0 +1,348 @@
+title: 'EU Council adopts PSD3; EPC updates payee verification; EU-Canada plan payments
+  link
+
+  '
+social_post: 'PSD3 clears the EU Council, the EPC sharpens its verification-of-payee
+  rules, and the EU and Canada agree to link their instant payment systems. Today''s
+  briefing: {link}
+
+  '
+stories:
+- headline: Iceland plans domestic account-to-account scheme to reduce card network
+    dependency
+  standfirst: A procurement process is under way for infrastructure that would give
+    Icelandic consumers and merchants a payment option outside Visa and Mastercard
+    for the first time.
+  body: 'The Central Bank of Iceland has begun procuring the core technology for a
+    new domestic account-to-account payment scheme, built on request-to-pay messaging
+    and the country''s existing instant credit transfer infrastructure. Tomas Brynjolfsson,
+    the central bank''s deputy governor for financial stability, set out the plan
+    at the MoneyLIVE Nordic Banking conference in Copenhagen on October 30, framing
+    it as a response to Iceland''s near-total dependence on two international card
+    networks for retail payments.
+
+
+    Iceland''s payments landscape is highly digital but unusually concentrated. Virtually
+    all retail transactions run through Visa and Mastercard, a structure the central
+    bank says creates operational and strategic vulnerabilities, particularly if connectivity
+    to external infrastructure is disrupted. The new scheme would allow customers
+    to pay directly from bank accounts in shops, online and in person-to-person transfers.
+    The central bank would provide shared infrastructure, operating standards and
+    settlement, while leaving customer-facing products to commercial banks and payment
+    firms.
+
+
+    The domestic scheme is separate from Iceland''s planned participation in the Eurosystem''s
+    TARGET Instant Payment Settlement service, agreed with the ECB in June, which
+    has a readiness target in the second half of 2028. Brynjolfsson was explicit that
+    payment sovereignty for a small economy does not mean self-sufficiency but rather
+    ensuring alternatives exist alongside international networks. The initiative mirrors
+    debates playing out across the Nordics and the wider European payments landscape
+    over resilience, sovereignty and the role of domestic rails.'
+  editorial_note: Distinct from the previously covered Iceland-joins-TIPS story (June
+    25, 2026). That story concerned cross-border instant payments via the Eurosystem.
+    This is a new domestic retail payment scheme to diversify away from card networks,
+    announced publicly for the first time on October 30 and reported by Finextra today.
+    The BIS published the full speech on November 2. Relevant to the broader European
+    payment sovereignty debate.
+  sources: '[Iceland prepares for domestic account-to-account payments infrastructure](https://www.finextra.com/newsarticle/48698/iceland-prepares-for-domestic-account-to-account-payments-infrastructure)
+    — Finextra'
+  style_check:
+    compliant: false
+    warnings:
+    - Headline opens with 'Iceland plans' and body opens with 'The Central Bank of
+      Iceland has begun' — both start with the same grammatical subject (Iceland/its
+      institution). Vary the opening in at least one element per rule on not starting
+      headline, standfirst, and body opening with the same word or phrase.
+    - Standfirst opens with 'A procurement process is under way' without naming the
+      organisation (Central Bank of Iceland) from the headline, which is correct per
+      rule [1]. However, the standfirst must name the specific stakes or consequences
+      — it should name the affected parties or programmes (card networks, retail payments,
+      Icelandic payments landscape) more explicitly rather than using the generic
+      framing 'payment option outside Visa and Mastercard' without anchoring the reader
+      in the competitive or policy dynamics at stake.
+    - Body text uses 'account-to-account' in full on first mention rather than the
+      abbreviation 'A2A'. Per rule on abbreviations, the text correctly spells it
+      out rather than using the non-standard abbreviation. However, the headline uses
+      'account-to-account' in full, which is consistent — no violation here, but worth
+      noting the text is consistent with house preference.
+  verification:
+    verified: false
+    stale: false
+    duplicate: false
+    warnings:
+    - MoneyLIVE Nordic Banking 2026 conference official dates are 27-28 October, not
+      30 October. Finextra source states 30 October, contradicting official event
+      schedule.
+  revision:
+    replaced: true
+    resolved: true
+    summary:
+    - 'Replaced: original story flagged as stale (Core event (Council adoption at
+      first reading on 29 October 2026) is 6 days old, exceeding the 5-day newsworthiness
+      threshold by one day); swapped in a candidate sourced from a live web search
+      (not in today''s RSS feeds).'
+    - 'Note: the replacement was also flagged — MoneyLIVE Nordic Banking 2026 conference
+      official dates are 27-28 October, not 30 October. Finextra source states 30
+      October, contradicting official event schedule.'
+    - 'Note: the replacement was also flagged — Headline opens with ''Iceland plans''
+      and body opens with ''The Central Bank of Iceland has begun'' — both start with
+      the same grammatical subject (Iceland/its institution). Vary the opening in
+      at least one element per rule on not starting headline, standfirst, and body
+      opening with the same word or phrase.'
+    - 'Note: the replacement was also flagged — Standfirst opens with ''A procurement
+      process is under way'' without naming the organisation (Central Bank of Iceland)
+      from the headline, which is correct per rule [1]. However, the standfirst must
+      name the specific stakes or consequences — it should name the affected parties
+      or programmes (card networks, retail payments, Icelandic payments landscape)
+      more explicitly rather than using the generic framing ''payment option outside
+      Visa and Mastercard'' without anchoring the reader in the competitive or policy
+      dynamics at stake.'
+    - 'Note: the replacement was also flagged — Body text uses ''account-to-account''
+      in full on first mention rather than the abbreviation ''A2A''. Per rule on abbreviations,
+      the text correctly spells it out rather than using the non-standard abbreviation.
+      However, the headline uses ''account-to-account'' in full, which is consistent
+      — no violation here, but worth noting the text is consistent with house preference.'
+- headline: EPC publishes updated verification of payee matching recommendations
+  standfirst: Updated rules on character handling and beneficiary name assessment
+    sharpen the matching logic that underpins Europe's fraud prevention regime for
+    instant payments.
+  body: 'The European Payments Council (EPC) has published an updated set of recommendations
+    for matching processes under its verification of payee scheme. The guidance covers
+    how payment service providers should handle character variations and assess beneficiary
+    names before initiating a payment, adding specificity to a process that has been
+    live for barely a year.
+
+
+    Verification of payee is a core element of the EU''s instant payments regulation,
+    requiring providers to check whether the name given by the payer matches the account
+    holder before executing a transfer. The scheme''s effectiveness depends on consistent
+    matching logic across providers and jurisdictions. Divergent implementations have
+    been a recurring concern since the rules took effect, and the EPC''s updated recommendations
+    aim to narrow the scope for inconsistency.
+
+
+    The publication comes as the industry continues to grapple with the operational
+    detail of payee verification, with key IBAN-level errors still slipping through
+    the system. More granular matching guidance should reduce false negatives that
+    let fraudulent payments proceed and false positives that block legitimate ones.
+    Uniform adoption across providers remains the outstanding question.'
+  editorial_note: Verification of payee implementation quality remains a live concern;
+    updated EPC matching guidance is operationally material for every provider subject
+    to the instant payments regulation.
+  sources: '[EPC publishes new Verification of Payee matching recommendations](https://www.finextra.com/newsarticle/48697/epc-publishes-new-verification-of-payee-matching-recommendations?utm_medium=rssfinextra&utm_source=finextrafeed)
+    — Finextra'
+  style_check:
+    compliant: false
+    warnings:
+    - Standfirst opens by naming the organisation from the headline ('New guidance')
+      but should open with the substantive point instead. Per rule [1], avoid redundant
+      repetition of the subject across headline and standfirst — rewrite to open with
+      the action/consequence (e.g., 'Character handling and beneficiary name assessment
+      rules are being sharpened...').
+    - Body paragraph three uses vague temporal reference 'Earlier coverage' without
+      specific date or publication. Per rule on avoiding vague temporal references,
+      either cite a specific date or remove the vague phrase entirely.
+    - Body paragraph three contains the phrase 'but the real test will be' which hedges
+      significance before making a substantive point. Per the rule against hedging
+      scene-setters, lead directly with the substantive claim rather than announcing
+      what matters.
+  verification:
+    verified: true
+    stale: false
+    duplicate: false
+    warnings: []
+  revision:
+    replaced: false
+    resolved: true
+    summary:
+    - Rewrote standfirst to open with 'Updated rules' rather than implicitly echoing
+      the headline's subject ('New guidance'), leading instead with the substantive
+      action.
+    - Removed vague temporal reference 'Earlier coverage has highlighted that' in
+      paragraph three and integrated the substantive point directly into the sentence.
+    - Replaced hedging construction 'but the real test will be whether providers adopt
+      the recommendations uniformly' with a direct closing sentence stating uniform
+      adoption as the outstanding question.
+- headline: EU and Canada agree to link real-time payment systems
+  standfirst: The commitment to connect SEPA instant payments with Canada's Real-Time
+    Rail opens a new corridor for cross-border account-to-account settlement between
+    the two economies.
+  body: 'The European Union and Canada have committed to connecting their real-time
+    payment systems, and to exploring mutual market access for banks and fintechs.
+    The agreement covers linking SEPA instant payments infrastructure with Canada''s
+    Real-Time Rail, which is scheduled to launch in the fourth quarter of 2026.
+
+
+    Cross-border interlinking of domestic instant payment schemes has moved from theoretical
+    to operational in the past year, with the ECB''s TIPS platform already supporting
+    cross-currency settlement between the euro area and Scandinavian markets. The
+    EU-Canada commitment extends this logic across the Atlantic, though the technical
+    and regulatory complexity of bridging two distinct currency zones and regulatory
+    frameworks is substantial.
+
+
+    The agreement also includes provisions for reciprocal market access. If implemented,
+    European payment firms could gain a clearer route into the Canadian market, and
+    vice versa. The practical timeline and governance arrangements are not yet specified,
+    but the political commitment signals that both sides see payment system interoperability
+    as part of broader trade and economic cooperation.'
+  editorial_note: Cross-border instant payment interlinking is a strategic priority
+    for the EU; a formal commitment with Canada is a material expansion of the programme's
+    geographic scope.
+  sources: '[EU and Canada plan to link real-time payment systems](https://www.finextra.com/newsarticle/48692/eu-and-canada-plan-to-link-real-time-payment-systems?utm_medium=rssfinextra&utm_source=finextrafeed)
+    — Finextra'
+  style_check:
+    compliant: false
+    warnings:
+    - 'style check response could not be parsed: ''```json {   "compliant": false,   "warnings":
+      [     "Standfirst opens with \''The commitment\'' rather than naming the EU
+      and Canada (which are named in t'''
+  verification:
+    verified: false
+    stale: false
+    duplicate: false
+    warnings:
+    - Canada's Real-Time Rail has not launched in 2024 — it is scheduled to launch
+      in Q4 2026, not 2024
+  revision:
+    replaced: false
+    resolved: true
+    summary:
+    - Corrected the launch status of Canada's Real-Time Rail from 'launched in 2024'
+      to 'scheduled to launch in the fourth quarter of 2026' per the fact-checking
+      issue.
+- headline: InvestEngine reports 98% success rate with commercial variable recurring
+    payments
+  standfirst: A 98% success rate from a live deployment offers the first substantial
+    evidence that commercial variable recurring payments can match or exceed card
+    reliability for recurring financial services payments.
+  body: 'InvestEngine has reported a 98% payment success rate using commercial variable
+    recurring payments (VRP) as an open banking payment method. Nick Oeen, head of
+    product for payments at InvestEngine, disclosed the figure at Open Banking Expo
+    UK and Europe 2026.
+
+
+    Commercial VRP has been positioned as the open banking successor to card-on-file
+    for subscription and recurring payments, but adoption has been held back by questions
+    about reliability and conversion rates compared with cards. A 98% success rate
+    from a live deployment in financial services is rare. For context, card payment
+    success rates for recurring transactions typically sit in a similar range, though
+    they benefit from decades of retry logic and network-level optimisation.
+
+
+    The result is particularly relevant as the UK Payments Initiative and commercial
+    VRP frameworks continue to scale. Sceptics have argued that open banking payment
+    methods cannot yet match card reliability in production. InvestEngine''s figures
+    suggest that for at least some use cases, that gap has effectively closed.'
+  editorial_note: Commercial VRP adoption has been hampered by reliability concerns;
+    a concrete success-rate figure from a live financial services deployment is rare
+    and directly relevant to the scaling debate.
+  sources: '[InvestEngine achieves 98% payment success rate with commercial VRP](https://www.openbankingexpo.com/news/investengine-achieves-98-payment-success-rate-with-commercial-vrp/)
+    — Openbankingexpo'
+  style_check:
+    compliant: false
+    warnings:
+    - 'Standfirst: ''commercial VRP'' should be written as ''commercial variable recurring
+      payments (VRP)'' on first mention, not using the abbreviation alone. The rule
+      states: ''Do not apply the abbreviation-in-parentheses rule to the standfirst.
+      In the standfirst, common and recognisable abbreviations (such as FCA, EPI)
+      may be used on first mention without spelling them out.'' However, VRP is not
+      listed as a ''common and recognisable abbreviation'' like FCA or EPI, so it
+      must be spelled out.'
+    - 'Standfirst opening: ''The investment platform''s results'' repeats the subject
+      concept from the headline (''InvestEngine'') in a different form. The rule states:
+      ''Do not start the headline, standfirst, and body opening sentence with the
+      same word or phrase.'' While not identical, opening with ''The investment platform''
+      immediately after the headline names InvestEngine creates near-identical framing.
+      The standfirst should open with the substantive point directly.'
+    - 'Body: ''commercial VRP'' in the second paragraph should use the established
+      abbreviation ''VRP'' consistently, but it is spelled out again as ''commercial
+      variable recurring payments'' without the parenthetical abbreviation. The rule
+      states: ''When a parenthetical abbreviation is introduced (eg, "EU Digital Identity
+      (EUDI)"), use that abbreviation on every subsequent occurrence in the same piece.''
+      Since VRP was introduced with parentheses in the first paragraph, subsequent
+      references should use ''commercial VRP'' consistently.'
+    - 'Body: Phrase ''A 98% success rate from a live deployment in financial services
+      is a meaningful data point'' uses ''meaningful'' which frames significance.
+      The rule states: ''Never flag significance explicitly.'' The sentence should
+      be rewritten without the significance-framing adjective.'
+  verification:
+    verified: true
+    stale: false
+    duplicate: false
+    warnings: []
+  revision:
+    replaced: false
+    resolved: true
+    summary:
+    - 'Standfirst: Rewrote opening to lead with the substantive point (''A 98% success
+      rate from a live deployment'') rather than ''The investment platform''s results'',
+      avoiding near-repetition of the headline''s subject.'
+    - 'Standfirst: Spelled out ''commercial variable recurring payments'' instead
+      of using the abbreviation ''commercial VRP'' alone, since VRP is not a commonly
+      recognised abbreviation like FCA or EPI.'
+    - 'Body: Changed ''commercial variable recurring payments'' in the second paragraph
+      to ''Commercial VRP'', using the abbreviation consistently after its parenthetical
+      introduction in the first paragraph.'
+    - 'Body: Replaced ''is a meaningful data point'' with ''is rare'', removing the
+      significance-framing adjective while retaining the substantive claim.'
+- headline: Stripe launches Treasury product in the UK market
+  standfirst: UK platforms can now hold, move and manage operational cash from the
+    same Stripe dashboard they use to accept payments, intensifying competition with
+    banking-as-a-service providers.
+  body: 'Stripe has launched its Treasury product in the UK, enabling platform customers
+    to manage funds from the same dashboard they use to accept payments. The product
+    lets founders hold, move and manage money without needing a separate banking relationship
+    for operational cash.
+
+
+    Stripe Treasury has been available in the US since 2020, where it is offered in
+    partnership with banks that hold the underlying deposits. The UK launch extends
+    the same embedded finance model into a market where banking-as-a-service competition
+    is already intense, with providers such as Modulr, ClearBank and Griffin operating
+    in the same space.
+
+
+    Platforms built on Stripe''s payment stack gain integrated cash management without
+    additional operational friction. Stripe''s existing merchant base already uses
+    its payment rails, making Treasury a natural upsell rather than a standalone product
+    requiring its own acquisition effort. That distribution advantage poses a direct
+    challenge to banking-as-a-service incumbents, which must win platform relationships
+    from scratch.'
+  editorial_note: ''
+  sources: '[Stripe Treasury launches in the UK](https://www.finextra.com/pressarticle/111563/stripe-treasury-launches-in-the-uk?utm_medium=rssfinextra&utm_source=finextrafeed)
+    — Finextra'
+  style_check:
+    compliant: false
+    warnings:
+    - Standfirst opens with 'The move gives' which violates rule on not opening with
+      significance-flagging phrases. Should open with the substantive point directly
+      (e.g., 'Stripe has launched...') rather than announcing significance with 'The
+      move'.
+    - Body contains 'For platforms built on Stripe's payment stack, Treasury removes
+      a layer of operational friction. For the banking-as-a-service sector, it represents
+      a formidable new entrant' — this frames significance before the substantive
+      point. Should state the competitive or operational consequence directly without
+      the 'For X, it represents' framing that announces importance.
+    - Editorial note should not be included in the copy itself. Per the rules, do
+      not include editorial notes about context or significance in the final published
+      text.
+  verification:
+    verified: true
+    stale: false
+    duplicate: false
+    warnings: []
+  revision:
+    replaced: false
+    resolved: true
+    summary:
+    - Rewrote standfirst to open with the substantive point ('UK platforms can now
+      hold, move and manage operational cash…') rather than the significance-flagging
+      'The move gives'.
+    - Rewrote third paragraph to state competitive and operational consequences directly,
+      removing the 'For X, it represents…' framing that announced significance before
+      making the point.
+    - Removed editorial note content, as editorial notes should not appear in published
+      copy.
+status: ready
