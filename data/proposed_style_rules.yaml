@@ -2,11 +2,4 @@
 # Populated automatically by tools/extract_learning.py (via GitHub Actions on push
 # to data/feedback/). Review and promote/edit in the dashboard's 'Proposed style
 # rules' section — accepted rules move to prompts/payments/style_rules.yaml.
-- date: '2026-11-06'
-  rule: When an abbreviation such as "SEPA" is introduced in parentheses on first
-    use, only do so if that abbreviation recurs later in the same piece. If the short
-    form never appears again, spell out the term in full without adding the abbreviation
-    in brackets. This applies even to well-known industry abbreviations — if "SEPA"
-    appears only once in the body, write "Single Euro Payments Area" without the parenthetical
-    "(SEPA)".
-  supersedes: 13
+[]
