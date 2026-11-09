@@ -2,19 +2,4 @@
 # Populated automatically by tools/extract_learning.py (via GitHub Actions on push
 # to data/feedback/). Review and promote/edit in the dashboard's 'Proposed style
 # rules' section — accepted rules move to prompts/payments/style_rules.yaml.
-- date: '2026-11-09'
-  rule: Do not join two independent clauses with a participial or resultative phrase
-    using a comma and present participle when the second clause is substantively distinct
-    and benefits from standing alone. Split into two sentences instead. For example,
-    prefer "Payments Canada has launched its instant payments network. The move brings
-    one of Europe's largest trade and remittance partners into line…" over "Payments
-    Canada has launched its instant payments network, bringing one of Europe's largest
-    trade and remittance partners into line…".
-- date: '2026-11-09'
-  rule: Use the percentage symbol (%) rather than spelling out "per cent" in body
-    text. Write "32%" not "32 per cent".
-- date: '2026-11-09'
-  rule: When referring to a national regulator, include the country adjective on first
-    reference to disambiguate — eg, "the UK's Financial Conduct Authority" rather
-    than "the Financial Conduct Authority" — when the country has not been established
-    as the clear subject of the surrounding passage.
+[]
