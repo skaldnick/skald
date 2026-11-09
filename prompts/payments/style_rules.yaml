@@ -400,3 +400,13 @@
 - id: 72
   date: '2026-11-04'
   rule: No proposed rules pending review.
+- id: 73
+  date: '2026-11-09'
+  rule: Use the percentage symbol (%) rather than spelling out "per cent" in body
+    text. Write "32%" not "32 per cent".
+- id: 74
+  date: '2026-11-09'
+  rule: When referring to a national regulator, include the country adjective on first
+    reference to disambiguate — eg, "the UK's Financial Conduct Authority" rather
+    than "the Financial Conduct Authority" — when the country has not been established
+    as the clear subject of the surrounding passage.
