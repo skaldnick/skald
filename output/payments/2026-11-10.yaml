@@ -1,0 +1,252 @@
+title: 'Euro area VoP coverage; UK benefits surveillance dropped; PSD3 compliance
+  looms
+
+  '
+social_post: 'Euro area verification of payee nears full coverage, the UK quietly
+  drops open banking benefits surveillance, and PSD3''s compliance clock is ticking.
+  Today''s briefing: {link}
+
+  '
+stories:
+- headline: Most euro area payment providers now respond to verification of payee
+    checks
+  standfirst: The instant payments regulation's verification of payee mandate is being
+    met across most of the euro area, though gaps remain in smaller markets.
+  body: 'The majority of euro area payment service providers are now answering verification
+    of payee requests, according to data reported by The Paypers. The figures indicate
+    that the mechanism, which matches a payee''s name to their IBAN before a transfer
+    is executed, has reached broad operational coverage ahead of the regulation''s
+    full enforcement timeline.
+
+
+    Coverage varies by market. Larger euro area economies appear to have achieved
+    near-complete participation, while some smaller or more recently integrated markets
+    still show gaps. The data provides the first clear picture of how far the industry
+    has come since the instant payments regulation mandated the service, and where
+    remediation work remains.
+
+
+    The practical question is now shifting from whether providers can answer checks
+    to how accurately they do so. Persistent matching errors in IBAN-name verification
+    have been a recurring concern, and the quality of responses will matter as much
+    as their availability once enforcement intensifies.'
+  editorial_note: Follows up on earlier coverage of verification of payee delays and
+    matching errors with new data on actual euro area coverage levels, advancing the
+    story from policy to implementation.
+  sources: '[Most euro area payment providers now answer VoP checks, data shows](https://thepaypers.com/payments/news/most-euro-area-payment-providers-now-answer-vop-checks-data-shows)
+    — The Paypers'
+  style_check:
+    compliant: false
+    warnings:
+    - Standfirst opens with 'Coverage data suggests' when the headline names the subject
+      (euro area payment providers). Per rule [1], the standfirst should open with
+      the substantive point or action, not a vague scene-setter. Rewrite to lead with
+      the concrete finding — eg, 'The instant payments regulation's verification of
+      payee mandate is being met across most of the euro area, though gaps remain
+      in smaller markets.'
+    - 'Body text: ''earlier reporting flagged'' uses vague temporal reference. Per
+      rule on vague temporal references, avoid ''earlier'' without specifics. Either
+      provide a specific date/period or restructure without temporal hedging.'
+    - 'Body text: ''For payment service providers and their compliance teams, the
+      practical question is shifting from whether they can answer checks to how accurately
+      they do so.'' This frames the paragraph around relevance to a specific audience
+      using a prefatory clause. Per the rule against ''For European payments professionals…''
+      constructions, state the substantive point directly without audience-address
+      framing.'
+  verification:
+    verified: true
+    stale: false
+    duplicate: false
+    warnings: []
+  revision:
+    replaced: false
+    resolved: true
+    summary:
+    - Standfirst rewritten to lead with the substantive finding rather than opening
+      with the vague scene-setter 'Coverage data suggests', per rule [1].
+    - Removed audience-address framing ('For payment service providers and their compliance
+      teams') from the final paragraph's opening sentence, stating the substantive
+      point directly.
+    - Replaced vague temporal reference 'Earlier reporting flagged persistent matching
+      errors' with 'Persistent matching errors in IBAN-name verification have been
+      a recurring concern', removing the unspecific temporal hedge.
+- headline: ECB approves Revolut's partial transfer of Lithuanian banking operations
+    to France
+  standfirst: The approval formalises a dual-hub model that will see Western European
+    customers migrate from Vilnius to Paris, reshaping Revolut's regulatory footprint
+    across the EU.
+  body: 'The European Central Bank has approved the cross-border reorganisation of
+    Revolut Bank UAB, enabling the fintech to transfer part of its Lithuanian entity''s
+    assets and liabilities to Revolut Bank SA, the French banking subsidiary licensed
+    in August. The Bank of Lithuania''s Legal and Licensing Department submitted the
+    formal notice to Lithuania''s Centre of Registers on November 6, following the
+    ECB''s approval on October 22.
+
+
+    French customers will be the first to migrate to Revolut Bank SA, with Germany,
+    Ireland, Italy, Portugal and Spain to follow in subsequent phases. Revolut Bank
+    UAB will continue serving customers across the rest of the European Economic Area.
+    Revolut has said that neither Lithuanian employees nor Lithuanian customers will
+    be affected, and that its plans to expand and launch new services in Lithuania
+    remain unchanged.
+
+
+    The restructuring marks a significant evolution in how Europe''s largest neobank
+    organises itself within the single market. Rather than passporting services from
+    a single licence — the approach most fintechs have used since PSD2 — Revolut is
+    building a two-centre model with separate supervised entities in Vilnius and Paris.
+    With more than 75 million customers globally, the company''s decision to anchor
+    its Western European operations under direct French and ECB supervision reflects
+    both the scale it has reached and the regulatory complexity that comes with it.'
+  editorial_note: 'This story is genuinely new — published today (November 10) by
+    The Paypers and yesterday by Lithuanian news agency BNS via LRT. It moves forward
+    the Revolut licensing story from August (French licence granted) to a concrete
+    next stage: ECB-approved cross-border restructuring and formal customer migration.
+    Not previously covered in the briefing.'
+  sources: '[ECB clears partial move of Revolut''s Lithuanian operations to France](https://thepaypers.com/fintech/news/ecb-clears-partial-move-of-revoluts-lithuanian-operations-to-france)
+    — The Paypers'
+  style_check:
+    compliant: false
+    warnings:
+    - Standfirst opens by naming the organisation ('The approval') that is also named
+      in the headline ('ECB'). Per rule on standfirst structure, should open with
+      the substantive point or action instead — e.g., 'The move formalises a dual-hub
+      model...' rather than 'The approval formalises...'
+    - Body contains 'This marks a significant evolution' — this flags significance
+      explicitly before making the substantive point. Per rule on never flagging significance
+      explicitly, should state the substantive point directly without the hedging
+      framing.
+    - Standfirst uses vague temporal reference 'will see' without grounding in specific
+      time. Should specify when customer migration phases occur if dates are known,
+      or acknowledge the phased timeline more explicitly.
+  verification:
+    verified: true
+    stale: false
+    duplicate: false
+    warnings: []
+  revision:
+    replaced: true
+    resolved: true
+    summary:
+    - 'Replaced: original story flagged as duplicate coverage (duplicate coverage);
+      swapped in a candidate sourced from a live web search (not in today''s RSS feeds).'
+    - 'Note: the replacement was also flagged — Standfirst opens by naming the organisation
+      (''The approval'') that is also named in the headline (''ECB''). Per rule on
+      standfirst structure, should open with the substantive point or action instead
+      — e.g., ''The move formalises a dual-hub model...'' rather than ''The approval
+      formalises...'''
+    - 'Note: the replacement was also flagged — Body contains ''This marks a significant
+      evolution'' — this flags significance explicitly before making the substantive
+      point. Per rule on never flagging significance explicitly, should state the
+      substantive point directly without the hedging framing.'
+    - 'Note: the replacement was also flagged — Standfirst uses vague temporal reference
+      ''will see'' without grounding in specific time. Should specify when customer
+      migration phases occur if dates are known, or acknowledge the phased timeline
+      more explicitly.'
+- headline: Affirm acquires Nexi's Ratepay to enter Germany's pay-by-invoice market
+  standfirst: The deal gives the US buy now, pay later provider an established position
+    in German-speaking Europe's distinctive invoice payments segment, while Nexi sheds
+    another non-core asset.
+  body: 'Nexi has agreed to sell Ratepay, a Berlin-based pay-by-invoice specialist
+    serving merchants in Germany, Austria and Switzerland, to Affirm. The two companies
+    have also signed a memorandum of understanding to expand their existing commercial
+    partnership across the DACH region. Financial terms were not disclosed. Completion
+    is expected in the first half of 2027, subject to regulatory approvals.
+
+
+    Bernardo Mingrone, chief executive of Nexi, said the divestment was "in line with
+    our strategy focused on core activities and optimized portfolio". Nexi had already
+    classified Ratepay as non-core and restructured the business, reducing its workforce
+    by roughly 20%. The sale continues the pattern set at Nexi''s capital markets
+    day: disciplined disposal of peripheral operations in favour of payment processing
+    and acquiring.
+
+
+    For Affirm, Ratepay offers a ready-made route into a market where paying after
+    receiving goods remains a dominant checkout method. Pat Suh, Affirm''s senior
+    vice president and managing director of global markets, said the company''s focus
+    is on expanding merchant and consumer trust. Under Affirm''s ownership, Ratepay
+    plans to add instalment products alongside its existing invoice capability. Affirm
+    said the acquisition is not expected to materially affect its financial results
+    or its outlook for the 2027 financial year.'
+  editorial_note: 'Genuinely new story announced November 9, 2026. Nexi''s disposal
+    of Ratepay to Affirm illuminates two broader trends: European payments infrastructure
+    groups streamlining around core acquiring and processing, and US BNPL providers
+    using M&A to enter distinctive European payment segments rather than building
+    from scratch. Nexi''s earlier first-half results were covered July 29 but that
+    piece dealt with financial performance, not portfolio strategy. This is a distinct
+    corporate action.'
+  sources: '[Nexi agrees Ratepay sale to Affirm, signs MoU on DACH partnership](https://thepaypers.com/mergers-aquisitions-and-investments/news/nexi-agrees-ratepay-sale-to-affirm-signs-mou-on-dach-partnership)
+    — The Paypers'
+  style_check:
+    compliant: false
+    warnings:
+    - 'Body text uses ''US'' in headline form in standfirst: ''the US buy now, pay
+      later provider'' should be ''the US buy-now-pay-later provider'' or similar,
+      but more importantly, per rule on acronyms in standfirst: ''BNPL'' appears in
+      editorial note but is introduced without spelling out in body text. First use
+      in body should be ''buy-now-pay-later (BNPL)'' if the acronym recurs.'
+    - Standfirst opens by naming organisation from headline (Nexi) indirectly via
+      'the US buy now, pay later provider' reference to Affirm, which is acceptable,
+      but the structure 'The deal gives the US buy now, pay later provider' opens
+      with 'The deal' rather than the substantive point. Per rule [1], should begin
+      with substantive point or action, not 'The deal gives'.
+    - 'Body text: ''Bernardo Mingrone, chief executive of Nexi'' — per rule on possessive
+      constructions with initialised organisations, this should be restructured to
+      avoid possessive, but the organisation name is not being initialised here, so
+      this is acceptable. However, the rule on leading with name rather than title
+      has been followed correctly.'
+    - 'Body text: ''Affirm said the acquisition is not expected to materially affect
+      its financial results'' — this is a hedging statement that weakens the claim.
+      The rule against hedging scene-setters suggests stating substantive points directly,
+      but this is Affirm''s own qualifier, so it may be reportage rather than editorial
+      hedging. Acceptable as direct attribution.'
+    - 'Potential issue: ''first half of 2027'' — rule requires specific time periods
+      for financial/business results, eg ''(April-June)''. The phrase ''first half
+      of 2027'' is vague without specification of which months. Should be ''the first
+      half of 2027 (January-June)'' or similar.'
+    - 'Body text: ''reducing its workforce by roughly 20%'' — ''roughly'' is vague.
+      If the exact figure is available, use it; if not, this may be acceptable as
+      reported, but ''around 20%'' or a specific number would be clearer.'
+  verification:
+    verified: true
+    stale: false
+    duplicate: false
+    warnings: []
+  revision:
+    replaced: true
+    resolved: true
+    summary:
+    - 'Replaced: original story flagged as stale (stale); swapped in a candidate sourced
+      from a live web search (not in today''s RSS feeds).'
+    - 'Note: the replacement was also flagged — Body text uses ''US'' in headline
+      form in standfirst: ''the US buy now, pay later provider'' should be ''the US
+      buy-now-pay-later provider'' or similar, but more importantly, per rule on acronyms
+      in standfirst: ''BNPL'' appears in editorial note but is introduced without
+      spelling out in body text. First use in body should be ''buy-now-pay-later (BNPL)''
+      if the acronym recurs.'
+    - 'Note: the replacement was also flagged — Standfirst opens by naming organisation
+      from headline (Nexi) indirectly via ''the US buy now, pay later provider'' reference
+      to Affirm, which is acceptable, but the structure ''The deal gives the US buy
+      now, pay later provider'' opens with ''The deal'' rather than the substantive
+      point. Per rule [1], should begin with substantive point or action, not ''The
+      deal gives''.'
+    - 'Note: the replacement was also flagged — Body text: ''Bernardo Mingrone, chief
+      executive of Nexi'' — per rule on possessive constructions with initialised
+      organisations, this should be restructured to avoid possessive, but the organisation
+      name is not being initialised here, so this is acceptable. However, the rule
+      on leading with name rather than title has been followed correctly.'
+    - 'Note: the replacement was also flagged — Body text: ''Affirm said the acquisition
+      is not expected to materially affect its financial results'' — this is a hedging
+      statement that weakens the claim. The rule against hedging scene-setters suggests
+      stating substantive points directly, but this is Affirm''s own qualifier, so
+      it may be reportage rather than editorial hedging. Acceptable as direct attribution.'
+    - 'Note: the replacement was also flagged — Potential issue: ''first half of 2027''
+      — rule requires specific time periods for financial/business results, eg ''(April-June)''.
+      The phrase ''first half of 2027'' is vague without specification of which months.
+      Should be ''the first half of 2027 (January-June)'' or similar.'
+    - 'Note: the replacement was also flagged — Body text: ''reducing its workforce
+      by roughly 20%'' — ''roughly'' is vague. If the exact figure is available, use
+      it; if not, this may be acceptable as reported, but ''around 20%'' or a specific
+      number would be clearer.'
+status: ready
