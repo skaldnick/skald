@@ -545,3 +545,9 @@
   - Most euro area payment providers now respond to verification of payee checks
   - ECB approves Revolut's partial transfer of Lithuanian banking operations to France
   - Affirm acquires Nexi's Ratepay to enter Germany's pay-by-invoice market
+- date: '2026-11-11'
+  stories:
+  - Bank of England sets design direction for UK retail payments overhaul
+  - Klarna prepares XS2A v2 to replace its legacy open banking API
+  - Mastercard integrates open finance data into mortgage lending via Tidalwave
+  - Bottomline adds stablecoin payments to its corporate treasury platform
