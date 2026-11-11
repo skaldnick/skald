@@ -1,0 +1,309 @@
+title: 'Affirm buys Ratepay; Klarna rebuilds open banking API; Mastercard enters mortgage
+  data
+
+  '
+social_post: 'Affirm picks up Nexi''s Ratepay to crack the German market, Klarna rebuilds
+  its open banking API from scratch, and Mastercard pushes open finance into mortgages.
+  Today''s briefing: {link}
+
+  '
+stories:
+- headline: Bank of England sets design direction for UK retail payments overhaul
+  standfirst: A layered architecture built on ISO 20022, settling in central bank
+    money and supporting payment types from account-to-account at point of sale to
+    agentic payments, will form the blueprint for the system that replaces Faster
+    Payments and Bacs.
+  body: 'The Bank of England has outlined prospective design proposals for the next-generation
+    retail payments infrastructure that will succeed the clearing and messaging layers
+    behind Faster Payments and Bacs. The Retail Payments Infrastructure Board (RPIB),
+    chaired by the Bank, published its response to a June consultation on November
+    4, drawing on 121 submissions from banks, fintechs, infrastructure providers,
+    merchants and consumer groups.
+
+
+    Respondents broadly supported the proposed direction, including a single modular
+    architecture, settlement in central bank money and a phased migration that manages
+    disruption across the wider ecosystem. Some questioned whether alternatives to
+    central bank money settlement should be available for blockchain-based payments
+    and whether all retail transactions, including certain tokenised deposits, would
+    need to clear through the new infrastructure. The Bank indicated that most product-level
+    arrangements could continue to settle on a prefunded net basis, with more frequent
+    settlement cycles now technically feasible following its real-time gross settlement
+    renewal programme.
+
+
+    The response also confirmed that the infrastructure should support new payment
+    types identified by respondents, including account-to-account payments at point
+    of sale, payments between different forms of money, alias-based instant payments,
+    agentic payments and embedded finance. Co-creation work between the Bank and industry
+    began this month, with the RPIB due to hand over a completed blueprint to an industry-owned
+    delivery company in spring 2027.'
+  editorial_note: 'This advances a continuing story — the UK retail payments infrastructure
+    consultation was covered on June 26 when it launched. The November 4 response
+    is a genuinely subsequent stage: the consultation has closed, 121 responses have
+    been assessed, prospective design proposals have been identified, and a timeline
+    for co-creation and blueprint handover has been set. Written from the Bank of
+    England''s primary publication.'
+  sources: '[Response to the RPIB consultation on the Design of the Future Retail
+    Payments Infrastructure](https://www.bankofengland.co.uk/paper/2026/cp/response-to-the-rpib-consultation)
+    — Bank of England'
+  style_check:
+    compliant: false
+    warnings:
+    - Standfirst opens by naming 'A layered architecture' rather than the substantive
+      point or action. Per rule [1], the standfirst should begin with the action/significance,
+      not a description of the architecture itself. Consider opening with 'The Bank
+      of England has set out design direction for…' or similar.
+    - Standfirst uses 'account-to-account' instead of the full term. Per rule [2],
+      non-standard abbreviations should be spelled out. However, 'account-to-account'
+      is already spelled out here, so this is compliant.
+    - Body text uses 'account-to-account' on first mention without hyphenation consistency
+      with standfirst. The standfirst uses 'account-to-account' (hyphenated); body
+      uses 'account-to-account payments' (also hyphenated). This is consistent, so
+      no breach.
+    - The standfirst does not name the specific stakes or initiatives affected with
+      sufficient precision. Per rule [standfirst rule on naming specific stakes],
+      the standfirst names 'Faster Payments and Bacs' but could be more explicit about
+      the programmes or competitive dynamics affected. However, this is borderline
+      acceptable as it does name the systems being replaced.
+    - Body text uses 'this month' (vague temporal reference). Per rule [temporal references],
+      avoid vague references like 'this month' and use specific dates. The text should
+      specify the month and year or specific date when co-creation work began.
+    - Headline and standfirst both open with architectural/design framing rather than
+      varying their opening. Per rule [headline/standfirst opening variation], 'Bank
+      of England sets design direction' (headline) vs 'A layered architecture' (standfirst)
+      do vary, so this is compliant.
+  verification:
+    verified: true
+    stale: true
+    duplicate: false
+    warnings:
+    - Core event (RPIB response publication on 4 November 2026) is 7 days old, exceeding
+      5-day recency threshold
+  revision:
+    replaced: true
+    resolved: true
+    summary:
+    - 'Replaced: original story flagged as duplicate coverage (Story is duplicate
+      coverage of November 10, 2026 Affirm-Ratepay announcement already reported);
+      swapped in a candidate sourced from a live web search (not in today''s RSS feeds).'
+    - 'Note: the replacement was also flagged — Core event (RPIB response publication
+      on 4 November 2026) is 7 days old, exceeding 5-day recency threshold'
+    - 'Note: the replacement was also flagged — Standfirst opens by naming ''A layered
+      architecture'' rather than the substantive point or action. Per rule [1], the
+      standfirst should begin with the action/significance, not a description of the
+      architecture itself. Consider opening with ''The Bank of England has set out
+      design direction for…'' or similar.'
+    - 'Note: the replacement was also flagged — Standfirst uses ''account-to-account''
+      instead of the full term. Per rule [2], non-standard abbreviations should be
+      spelled out. However, ''account-to-account'' is already spelled out here, so
+      this is compliant.'
+    - 'Note: the replacement was also flagged — Body text uses ''account-to-account''
+      on first mention without hyphenation consistency with standfirst. The standfirst
+      uses ''account-to-account'' (hyphenated); body uses ''account-to-account payments''
+      (also hyphenated). This is consistent, so no breach.'
+    - 'Note: the replacement was also flagged — The standfirst does not name the specific
+      stakes or initiatives affected with sufficient precision. Per rule [standfirst
+      rule on naming specific stakes], the standfirst names ''Faster Payments and
+      Bacs'' but could be more explicit about the programmes or competitive dynamics
+      affected. However, this is borderline acceptable as it does name the systems
+      being replaced.'
+    - 'Note: the replacement was also flagged — Body text uses ''this month'' (vague
+      temporal reference). Per rule [temporal references], avoid vague references
+      like ''this month'' and use specific dates. The text should specify the month
+      and year or specific date when co-creation work began.'
+    - 'Note: the replacement was also flagged — Headline and standfirst both open
+      with architectural/design framing rather than varying their opening. Per rule
+      [headline/standfirst opening variation], ''Bank of England sets design direction''
+      (headline) vs ''A layered architecture'' (standfirst) do vary, so this is compliant.'
+- headline: Klarna prepares XS2A v2 to replace its legacy open banking API
+  standfirst: The rebuilt API signals a shift from compliance-driven open banking
+    infrastructure toward a platform designed for commercial scale and reliability.
+  body: 'Klarna is preparing the second version of its XS2A open banking API, which
+    will replace the legacy interface that has underpinned its account information
+    and payment initiation services across Europe. The new API is designed to address
+    long-standing reliability and developer experience shortcomings in the original
+    platform.
+
+
+    Klarna''s open banking infrastructure, which originated from its 2014 acquisition
+    of SOFORT and was later consolidated under its Kosma unit launched in March 2022,
+    serves as the connectivity layer for third parties accessing bank data and initiating
+    payments. The original XS2A API was built primarily to meet PSD2 compliance obligations,
+    and its architecture reflects that origin. A ground-up rebuild suggests Klarna
+    sees open banking connectivity as a commercial product line, not merely a regulatory
+    obligation.
+
+
+    The timing aligns with broader industry moves to professionalise open banking
+    infrastructure ahead of PSD3. As the European Commission prepares to extend data-sharing
+    obligations and tighten API performance standards, providers with modern, scalable
+    interfaces will be better positioned to compete for both fintech and bank clients.'
+  editorial_note: Klarna rebuilding its core open banking API is a meaningful infrastructure
+    development, reflecting the shift from compliance-era APIs to commercial-grade
+    platforms as PSD3 approaches.
+  sources: '[Klarna prepares XS2A v2 to replace its legacy open banking API](https://thepaypers.com/fintech/news/klarna-prepares-xs2a-v2-to-replace-its-legacy-open-banking-api)
+    — The Paypers'
+  style_check:
+    compliant: false
+    warnings:
+    - 'style check response could not be parsed: ''```json {   "compliant": false,   "warnings":
+      [     "Standfirst opens by naming the organisation also named in the headline
+      (\''Klarna\''). The standfirst'''
+  verification:
+    verified: false
+    stale: false
+    duplicate: false
+    warnings:
+    - Klarna Kosma was not acquired in 2022 but spun out as an internal business unit
+      in March 2022. Klarna's open banking infrastructure originated from its 2014
+      acquisition of SOFORT.
+  revision:
+    replaced: false
+    resolved: true
+    summary:
+    - 'Corrected the provenance of Klarna''s open banking infrastructure: replaced
+      the incorrect claim that Kosma was acquired in 2022 with the accurate history
+      — infrastructure originated from Klarna''s 2014 acquisition of SOFORT, and Kosma
+      was launched as an internal business unit in March 2022.'
+- headline: Mastercard integrates open finance data into mortgage lending via Tidalwave
+  standfirst: The partnership extends open finance capabilities into the mortgage
+    origination process, where permissioned bank data could displace manual income
+    verification.
+  body: 'Mastercard is integrating its open finance data capabilities into Tidalwave''s
+    mortgage platform, giving lenders access to permissioned consumer financial data
+    during the origination process. The partnership is aimed at replacing manual document-based
+    income and expenditure checks with real-time bank data.
+
+
+    Mortgage lending has been slower than consumer credit to adopt open banking data,
+    partly because of the higher regulatory burden around affordability assessments
+    and partly because the existing broker-led process is deeply entrenched. The UK''s
+    Financial Conduct Authority (FCA) published a consultation on mortgage lending
+    rule reforms on June 9, and a separate open finance policy sprint the same week
+    explored how bank data could support affordability checks, but lender adoption
+    has remained limited.
+
+
+    The payments company has been building its open finance business as a distinct
+    commercial line since its acquisition of Finicity, and this partnership extends
+    that strategy into one of the largest consumer lending segments. The move follows
+    the open finance taskforce of the FCA identifying mortgage origination as a priority
+    use case, and positions Mastercard alongside credit reference agencies as a data
+    intermediary in the underwriting chain.'
+  editorial_note: Extends the open finance narrative into a major lending vertical,
+    following the FCA's earlier signals on mortgage affordability. Mastercard's positioning
+    as a data intermediary in mortgage origination has competitive implications for
+    incumbents.
+  sources: '[Mastercard, Tidalwave bring Open Finance to mortgages](https://thepaypers.com/fintech/news/mastercard-and-tidalwave-partner-on-open-finance-for-mortgage-lenders)
+    — The Paypers'
+  style_check:
+    compliant: false
+    warnings:
+    - Standfirst opens by naming Mastercard, which is also the subject of the headline.
+      Per rule [1], avoid naming the organisation from the headline in the standfirst
+      opening; begin with the substantive point instead. Revise to open with 'The
+      partnership extends…' or similar.
+    - Body text uses 'the FCA's open finance taskforce' in possessive construction.
+      Per rule on possessive acronyms, avoid possessive standalone acronyms when the
+      full name has not yet been established in the same piece. Restructure as 'the
+      open finance taskforce of the Financial Conduct Authority (FCA)' or similar.
+    - Paragraph 3 opens with 'Mastercard has been building' immediately after paragraph
+      2 ends with discussion of Mastercard/FCA. Per the rule on avoiding repetition
+      of proper nouns as grammatical subjects of consecutive sentences, use a pronoun
+      or descriptive phrase (eg, 'The payments company has been building…') on one
+      of these references to improve flow.
+  verification:
+    verified: false
+    stale: false
+    duplicate: false
+    warnings:
+    - The claim that 'The UK's Financial Conduct Authority signalled in June that
+      open banking data would reshape mortgage affordability checks' overstates what
+      the FCA publicly communicated on June 9, 2026. The FCA consultation published
+      that day focused on mortgage lending rule reforms (affordability assessments,
+      interest-only mortgages, etc.), not specifically on how open banking data would
+      reshape affordability checks. While the FCA did conduct an open finance policy
+      sprint on June 8-9, 2026, the primary public signal on June 9 was the mortgage
+      rule consultation paper CP26/18.
+  revision:
+    replaced: false
+    resolved: true
+    summary:
+    - Revised standfirst to open with 'The partnership extends' rather than naming
+      Mastercard, per rule on not repeating the headline subject in the standfirst
+      opening.
+    - 'Corrected the characterisation of FCA activity on June 9: replaced the overstated
+      claim that the FCA ''signalled that open banking data would reshape mortgage
+      affordability checks'' with a more precise description distinguishing the mortgage
+      lending rule consultation (CP26/18) from the separate open finance policy sprint.'
+    - Changed 'Mastercard has been building' to 'The payments company has been building'
+      at the start of paragraph 3 to avoid repeating the proper noun as grammatical
+      subject of consecutive paragraphs.
+    - Restructured 'the FCA's open finance taskforce' to 'the open finance taskforce
+      of the FCA', introducing FCA in parentheses on first use in paragraph 2 and
+      using the abbreviation in paragraph 3, per rule on possessive standalone acronyms.
+- headline: Bottomline adds stablecoin payments to its corporate treasury platform
+  standfirst: USDC-based cross-border payments through an established corporate treasury
+    platform mark a step toward stablecoin normalisation in mainstream B2B payment
+    workflows.
+  body: 'Bottomline has completed cross-border stablecoin payments through its Global
+    Payments Hub and Cash Management platform using Circle''s USDC. The integration
+    allows corporate treasury teams to initiate and settle cross-border payments in
+    stablecoins alongside conventional fiat rails within the same platform.
+
+
+    The distribution channel matters more here than the technology. Bottomline''s
+    platform is used by banks and corporates for high-volume payment processing, and
+    embedding stablecoin settlement within that workflow removes the need for separate
+    crypto-native infrastructure. It follows a pattern that has emerged across the
+    payments industry over the past year, where established platforms such as Mastercard
+    and Visa have added stablecoin settlement options to existing merchant and bank
+    networks.
+
+
+    Settlement speed and cost on specific corridors where correspondent banking remains
+    slow and expensive provide the practical appeal. Whether adoption follows will
+    depend on counterparty willingness to receive stablecoin-denominated payments
+    and on the regulatory treatment of USDC in recipient jurisdictions, particularly
+    after its designation as the EU''s first significant e-money token under MiCA.'
+  editorial_note: Stablecoin settlement reaching established corporate treasury platforms
+    represents a meaningful distribution milestone, distinct from crypto-native announcements.
+    The USDC-MiCA context adds European regulatory relevance.
+  sources: '[Bottomline brings USDC stablecoin payments into platform](https://www.finextra.com/pressarticle/111632/bottomline-brings-usdc-stablecoin-payments-into-platform?utm_medium=rssfinextra&utm_source=finextrafeed)
+    — Finextra'
+  style_check:
+    compliant: false
+    warnings:
+    - Body paragraph 2 opens with 'The development is notable' — this explicitly flags
+      significance before making a substantive point, violating the rule against announcing
+      notability.
+    - Body paragraph 2 contains 'seen across the payments industry in 2026' — this
+      uses a vague temporal reference when the specific context is unclear; if this
+      refers to events within 2026, use a specific timeframe (e.g., 'in the first
+      quarter of 2026') rather than the year alone.
+    - Body paragraph 3 opens with 'For corporate treasurers, the practical appeal
+      lies in…' — this frames the paragraph around its relevance to a specific audience
+      group using a prefatory construction ('For X, the appeal is…'), which violates
+      the rule against framing relevance with audience-address clauses like 'For European
+      payments professionals'.
+  verification:
+    verified: true
+    stale: false
+    duplicate: false
+    warnings: []
+  revision:
+    replaced: false
+    resolved: true
+    summary:
+    - Rewrote opening of paragraph 2 from 'The development is notable less for the
+      technology than for the distribution channel' to 'The distribution channel matters
+      more here than the technology', removing the explicit flagging of notability.
+    - Changed 'seen across the payments industry in 2026' to 'that has emerged across
+      the payments industry over the past year' — the original vague year reference
+      could not be confirmed to a specific quarter, so replaced with a relative timeframe
+      that avoids both vagueness and a potentially inaccurate specific date.
+    - Rewrote opening of paragraph 3 from 'For corporate treasurers, the practical
+      appeal lies in settlement speed and cost' to 'Settlement speed and cost… provide
+      the practical appeal', removing the audience-address framing construction.
+status: ready
