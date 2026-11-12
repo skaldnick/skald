@@ -72,6 +72,27 @@ def _assemble_web_story(headline: str, standfirst: str, body: str, sources: str)
     return "\n\n".join(parts)
 
 
+def _fill_missing_sources(sources_list: list[str]) -> list[str]:
+    """Restore any story's sources that came back empty from the hidden
+    per-story gr.State, using today's draft (matched by story index). Sources
+    aren't editable in the UI, so the draft is always the right value, and the
+    State can be silently lost on a long-open session while the visible
+    textboxes keep their content client-side. That published the 2026-10-22 and
+    2026-11-10 briefings with every story's source links missing, and the
+    resulting feedback diffs then taught extract_learning.py a bogus "don't add
+    source citations" rule."""
+    if all((src or "").strip() for src in sources_list):
+        return sources_list
+    draft = load_draft()
+    draft_stories = draft.get("stories", []) if draft else []
+    filled = []
+    for i, src in enumerate(sources_list):
+        if not (src or "").strip() and i < len(draft_stories):
+            src = (draft_stories[i].get("sources") or "").strip()
+        filled.append(src)
+    return filled
+
+
 def compute_diff(original: str, edited: str) -> str:
     orig_lines = original.splitlines(keepends=True)
     edit_lines = edited.splitlines(keepends=True)
@@ -334,13 +355,17 @@ def _save_feedback(headlines, standfirsts, bodies, sources_list, decisions, note
     ):
         if not headline.strip():
             continue
-        edited = _assemble_web_story(headline, standfirst, body, sources)
+        # Sources are left out of both sides: the editor can't edit them, so any
+        # difference there is never an editorial change, and a vanished source
+        # line otherwise reads to extract_learning.py like the editor deleting
+        # it from the article.
+        edited = _assemble_web_story(headline, standfirst, body, "")
         original = ""
         if i < len(original_stories):
             s = original_stories[i]
             original = _assemble_web_story(
                 s.get("headline", ""), s.get("standfirst", ""),
-                s.get("body", "").strip(), s.get("sources", ""),
+                s.get("body", "").strip(), "",
             )
         records.append({
             "original": original,
@@ -384,7 +409,7 @@ def on_publish(*args):
     headlines = list(rest[0:MAX_STORIES])
     standfirsts = list(rest[MAX_STORIES:MAX_STORIES * 2])
     bodies = list(rest[MAX_STORIES * 2:MAX_STORIES * 3])
-    sources_list = list(rest[MAX_STORIES * 3:MAX_STORIES * 4])
+    sources_list = _fill_missing_sources(list(rest[MAX_STORIES * 3:MAX_STORIES * 4]))
     decisions = list(rest[MAX_STORIES * 4:MAX_STORIES * 5])
     notes = list(rest[MAX_STORIES * 5:])
 
