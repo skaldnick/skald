@@ -2,7 +2,4 @@
 # Populated automatically by tools/extract_learning.py (via GitHub Actions on push
 # to data/feedback/). Review and promote/edit in the dashboard's 'Proposed style
 # rules' section — accepted rules move to prompts/payments/style_rules.yaml.
-- date: '2026-11-10'
-  rule: 'Do not append a source citation line (eg, "*Sources: [Title](URL) — Publication*")
-    at the end of a story. Remove any trailing source attribution from the published
-    text.'
+[]
