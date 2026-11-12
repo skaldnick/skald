@@ -244,10 +244,17 @@ def _rule_snippet(rule_text: str, limit: int = 60) -> str:
     return text[:limit] + ("…" if len(text) > limit else "")
 
 
+NO_PENDING_RULES_MSG = "No proposed rules pending review."
+
+
 def on_load_proposed_rules():
+    """Returns (textbox text, status message). The empty-queue message goes to
+    the status line, never the textbox: everything in the textbox is promoted
+    as a rule on save, which is how this message got saved as rules 63, 71 and
+    72 when Save was clicked on an empty queue."""
     proposed = _read_repo_yaml_list(PROPOSED_RULES_REL)
     if not proposed:
-        return "No proposed rules pending review."
+        return "", NO_PENDING_RULES_MSG
     # Show what an existing rule currently says next to a proposal that would
     # replace it, so the editor doesn't have to cross-reference style_rules.yaml
     # by id — the snippet is just context and is discarded again on save.
@@ -263,7 +270,7 @@ def on_load_proposed_rules():
             if supersedes in by_id:
                 tag += f': "{_rule_snippet(by_id[supersedes]["rule"])}"'
         lines.append(f"{tag}] {r['rule']}")
-    return "\n".join(lines)
+    return "\n".join(lines), ""
 
 
 def on_save_reviewed_rules(text: str):
@@ -277,7 +284,9 @@ def on_save_reviewed_rules(text: str):
     parsed = []
     for line in text.splitlines():
         line = line.strip().lstrip("-").strip()
-        if not line:
+        # Also skip the message itself, in case a tab opened before this fix
+        # still shows it in the textbox.
+        if not line or line == NO_PENDING_RULES_MSG:
             continue
         m = line_re.match(line)
         if m:
@@ -729,7 +738,7 @@ with gr.Blocks(title="Skald — Editorial Dashboard") as app:
             outputs=[briefing_title_input, social_post_input, status_md],
         )
 
-        load_rules_btn.click(on_load_proposed_rules, outputs=proposed_rules_box)
+        load_rules_btn.click(on_load_proposed_rules, outputs=[proposed_rules_box, rules_status_md])
         save_rules_btn.click(on_save_reviewed_rules, inputs=proposed_rules_box, outputs=rules_status_md)
 
 
