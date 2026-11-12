@@ -8,6 +8,8 @@ import os
 
 import anthropic
 
+from generator.client import cached_block, log_cache_usage
+
 MODEL = "claude-haiku-4-5-20251001"
 # Warnings quote the offending text, so a story with several breaches can run
 # long — 512 proved tight enough to risk truncation (see stop_reason check below).
@@ -76,9 +78,13 @@ def check_story(story: dict, style_rules: list[dict], client: anthropic.Anthropi
         message = client.messages.create(
             model=MODEL,
             max_tokens=MAX_TOKENS,
-            system=_system_prompt(style_rules),
+            # Identical for every story in a run. At ~3.7k tokens it's just under
+            # Haiku 4.5's 4096-token caching minimum, so this is a no-op until the
+            # rules grow or the model changes — harmless (no write premium) until then.
+            system=[cached_block(_system_prompt(style_rules))],
             messages=[{"role": "user", "content": user_prompt}],
         )
+        log_cache_usage("style_check", message)
         if message.stop_reason == "max_tokens":
             # Truncated JSON would surface as a bogus "could not be parsed"
             # warning — treat truncation like an API failure and fail open,

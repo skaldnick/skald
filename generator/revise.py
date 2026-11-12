@@ -17,6 +17,8 @@ from generator.client import (
     _covered_section,
     _rejected_section,
     build_system_prompt,
+    cached_block,
+    log_cache_usage,
     load_prompts,
     load_style_rules,
 )
@@ -60,10 +62,15 @@ def _unparseable_json(text: str) -> dict | None:
     return data if isinstance(data, dict) else None
 
 
-def _fix_system_prompt(house_style_system: str) -> str:
-    return house_style_system + """
+def _with_house_style(house_style_system: str, task: str) -> list[dict]:
+    """System prompt for a revise-pass call: the house-style block, byte-identical
+    to (and cached by) the generation call in client.py, then the task-specific
+    instructions as a separate uncached block after the breakpoint."""
+    return [cached_block(house_style_system), {"type": "text", "text": task}]
 
-## Task
+
+def _fix_system_prompt(house_style_system: str) -> list[dict]:
+    return _with_house_style(house_style_system, """## Task
 You will be given a previously drafted story and a list of specific issues raised by
 fact-checking and house-style review. Rewrite ONLY what's necessary to fix each listed
 issue — preserve the wording, structure and every fact that isn't flagged. If an issue
@@ -84,7 +91,7 @@ preamble, no commentary, no code fences, before or after it:
 
 Keep paragraph breaks in the body and a single-sentence standfirst, consistent with the
 original. If truly nothing could be fixed, return the original text unchanged with a
-"changes" entry explaining why."""
+"changes" entry explaining why.""")
 
 
 def revise_story(story: dict, warnings: list[str], house_style_system: str, client: anthropic.Anthropic | None = None) -> dict | None:
@@ -105,6 +112,7 @@ def revise_story(story: dict, warnings: list[str], house_style_system: str, clie
             system=_fix_system_prompt(house_style_system),
             messages=[{"role": "user", "content": user_prompt}],
         )
+        log_cache_usage("revise_fix", message)
         data = _unparseable_json(message.content[0].text)
         if data is None:
             print(f"Warning: revision response could not be parsed for {story.get('headline', '')!r}")
@@ -121,10 +129,8 @@ def revise_story(story: dict, warnings: list[str], house_style_system: str, clie
         return None
 
 
-def _replacement_system_prompt(house_style_system: str) -> str:
-    return house_style_system + """
-
-## Task
+def _replacement_system_prompt(house_style_system: str) -> list[dict]:
+    return _with_house_style(house_style_system, """## Task
 A story originally selected for today's briefing has been dropped (reason given below).
 Select ONE replacement from the candidate stories provided, following the same
 selection criteria, or report that none of them qualify.
@@ -138,7 +144,7 @@ otherwise:
  "editorial_note": "...", "source_ids": [3]}
 
 source_ids must cite only IDs from the candidate list below — never invent one, and
-never cite an entry from the "Previously covered" or "Editorially rejected" lists."""
+never cite an entry from the "Previously covered" or "Editorially rejected" lists.""")
 
 
 def generate_replacement(
@@ -180,6 +186,7 @@ def generate_replacement(
             system=_replacement_system_prompt(house_style_system),
             messages=[{"role": "user", "content": user_prompt}],
         )
+        log_cache_usage("revise_replace", message)
         data = _unparseable_json(message.content[0].text)
         if data is None or data.get("no_candidate"):
             return None
@@ -205,10 +212,8 @@ def generate_replacement(
         return None
 
 
-def _web_replacement_system_prompt(house_style_system: str) -> str:
-    return house_style_system + """
-
-## Task
+def _web_replacement_system_prompt(house_style_system: str) -> list[dict]:
+    return _with_house_style(house_style_system, """## Task
 A story originally selected for today's briefing has been dropped (reason given below),
 and today's RSS feeds have no other unused candidate that qualifies as a replacement.
 Use web search to find ONE genuinely new, significant European payments or open banking
@@ -227,7 +232,7 @@ source_url must be a URL your search actually surfaced — never invent one. sou
 is that outlet's own headline for the piece (not your rewritten headline), and
 source_publisher is the outlet's name (e.g. "Finextra", "Reuters"). Never cite a URL
 listed below as already used elsewhere in today's briefing, and never select a story
-matching the "Previously covered" or "Editorially rejected" lists."""
+matching the "Previously covered" or "Editorially rejected" lists.""")
 
 
 def generate_web_replacement(
@@ -269,6 +274,7 @@ def generate_web_replacement(
             tools=[{"type": "web_search_20250305", "name": "web_search"}],
             messages=[{"role": "user", "content": user_prompt}],
         )
+        log_cache_usage("revise_web_replace", message)
         text_blocks = [b.text for b in message.content if getattr(b, "type", None) == "text"]
         data = _unparseable_json("\n".join(text_blocks))
         if data is None or data.get("no_candidate"):

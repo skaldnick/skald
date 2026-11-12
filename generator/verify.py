@@ -9,6 +9,8 @@ from datetime import datetime
 
 import anthropic
 
+from generator.client import cached_block, log_cache_usage
+
 MODEL = "claude-haiku-4-5-20251001"
 MAX_TOKENS = 1024
 STALE_DAYS = 5
@@ -139,8 +141,16 @@ def verify_story(
         f"Body:\n{story.get('body', '')}\n\n"
         f"Cited sources: {story.get('sources', '')}"
     )
+    # The covered list (~5-6k tokens and growing — it's the full history) is the
+    # same for every story in a run, so it lives in the cached system prefix
+    # rather than after the per-story text, where it could never be reused.
+    # Marking a breakpoint also turns on caching inside each call's web-search
+    # loop: the server re-reads the prompt plus accumulated search results on
+    # every search iteration, and caches after each tool result once a request
+    # uses caching at all.
+    system_text = _system_prompt(today, has_covered_list=bool(recently_covered))
     if recently_covered:
-        user_prompt += f"\n\nPreviously covered:\n{_covered_text(recently_covered)}"
+        system_text += f"\n\nPreviously covered:\n{_covered_text(recently_covered)}"
 
     last_error = None
     for attempt in range(MAX_ATTEMPTS):
@@ -148,10 +158,11 @@ def verify_story(
             message = client.messages.create(
                 model=MODEL,
                 max_tokens=MAX_TOKENS,
-                system=_system_prompt(today, has_covered_list=bool(recently_covered)),
+                system=[cached_block(system_text)],
                 tools=[{"type": "web_search_20250305", "name": "web_search", "max_uses": MAX_SEARCHES}],
                 messages=[{"role": "user", "content": user_prompt}],
             )
+            log_cache_usage("verify", message)
             text_blocks = [b.text for b in message.content if getattr(b, "type", None) == "text"]
             return _parse_response("\n".join(text_blocks))
         except Exception as e:

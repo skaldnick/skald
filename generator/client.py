@@ -66,6 +66,28 @@ def load_recently_rejected(days: int = 28) -> list[dict]:
     return [e for e in entries if e["date"] >= cutoff]
 
 
+def cached_block(text: str) -> dict:
+    """A system text block marked as a prompt-cache breakpoint. Caching is a
+    prefix match, so whatever precedes this marker must be byte-identical
+    across calls for a hit — keep per-call content (the story, the warnings)
+    in the user message, after it. Prefixes below the model's minimum (4096
+    tokens on Opus 4.6 and Haiku 4.5) silently don't cache; no error, no
+    write premium."""
+    return {"type": "text", "text": text, "cache_control": {"type": "ephemeral"}}
+
+
+def log_cache_usage(label: str, message) -> None:
+    """Print a call's cache activity — the only ground truth that caching is
+    actually working, so a later prompt-assembly change that silently breaks
+    it shows up in the Actions log."""
+    u = message.usage
+    print(
+        f"  [{label}] input={u.input_tokens} "
+        f"cache_write={u.cache_creation_input_tokens or 0} "
+        f"cache_read={u.cache_read_input_tokens or 0}"
+    )
+
+
 def build_system_prompt(system: dict, style_rules: list[dict]) -> str:
     parts = [
         system["role"],
@@ -230,9 +252,13 @@ def generate_briefing(beat_name: str, entries: list[dict]) -> tuple[dict, list[d
         message = client.messages.create(
             model=MODEL,
             max_tokens=MAX_TOKENS,
-            system=system_prompt,
+            # Same house-style block revise.py opens its system prompt with, so
+            # its fix/replacement calls read this entry instead of re-writing it
+            # (when they start within the 5-minute TTL), as do parse retries.
+            system=[cached_block(system_prompt)],
             messages=[{"role": "user", "content": user_prompt}],
         )
+        log_cache_usage("generate", message)
         if message.stop_reason == "max_tokens":
             # Fail loudly: YAML truncated mid-block-scalar usually still parses
             # cleanly, so a capped response would otherwise become a briefing with
