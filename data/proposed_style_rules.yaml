@@ -2,13 +2,4 @@
 # Populated automatically by tools/extract_learning.py (via GitHub Actions on push
 # to data/feedback/). Review and promote/edit in the dashboard's 'Proposed style
 # rules' section — accepted rules move to prompts/payments/style_rules.yaml.
-- date: '2026-11-13'
-  rule: When an abbreviation or acronym is sufficiently self-explanatory from context
-    — for example, because it immediately follows the full name it derives from, or
-    because its meaning is transparent from surrounding text — do not introduce it
-    in parentheses on first use. Only add a parenthetical abbreviation if the short
-    form will recur later in the piece and is not self-evident. Avoid wasting space
-    on a parenthetical that adds no clarity — eg, write "Western Union's USDPT token"
-    rather than spelling out the token name in full if the initialism is clear from
-    context.
-  supersedes: 13
+[]
