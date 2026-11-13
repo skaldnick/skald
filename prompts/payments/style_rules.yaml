@@ -401,3 +401,13 @@
     reference to disambiguate — eg, "the UK's Financial Conduct Authority" rather
     than "the Financial Conduct Authority" — when the country has not been established
     as the clear subject of the surrounding passage.
+- id: 75
+  date: '2026-11-13'
+  rule: When an abbreviation or acronym is sufficiently self-explanatory from context
+    — for example, because it immediately follows the full name it derives from, or
+    because its meaning is transparent from surrounding text — do not introduce it
+    in parentheses on first use. Only add a parenthetical abbreviation if the short
+    form will recur later in the piece and is not self-evident. Avoid wasting space
+    on a parenthetical that adds no clarity — eg, write "Western Union's USDPT token"
+    rather than spelling out the token name in full if the initialism is clear from
+    context.
