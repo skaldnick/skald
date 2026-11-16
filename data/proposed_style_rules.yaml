@@ -2,4 +2,11 @@
 # Populated automatically by tools/extract_learning.py (via GitHub Actions on push
 # to data/feedback/). Review and promote/edit in the dashboard's 'Proposed style
 # rules' section — accepted rules move to prompts/payments/style_rules.yaml.
-[]
+- date: '2026-11-16'
+  rule: Do not open the body with the publication of a document or report as the grammatical
+    subject when the substantive finding is what matters. Lead with the finding or
+    data point, then attribute it to the report as a source. For example, prefer "Half
+    of cross-border payments on Swift's network reach recipient banks within 40 seconds…
+    according to Swift's latest Spotlight on Speed report" over "Swift has published
+    its latest Spotlight on Speed report, revealing that half of cross-border payments…".
+  supersedes: 57
