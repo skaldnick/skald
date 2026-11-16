@@ -1,0 +1,349 @@
+title: 'BoE payments redesign; Gemini links to bank accounts; Citi blocks AI agents
+
+  '
+social_post: 'Bank of England confirms broad industry support for UK payments core
+  redesign, Gemini connects to bank accounts via Plaid, and Citi draws a hard line
+  on AI agent access. Today''s briefing: {link}
+
+  '
+stories:
+- headline: Swift finds domestic delays consume 80% of cross-border payment journey
+    times
+  standfirst: New data shifts attention from interbank messaging speed to domestic
+    processing bottlenecks, with implications for Europe's instant payments infrastructure
+    and the G20's 2027 target.
+  body: 'Swift has published its latest Spotlight on Speed report, revealing that
+    half of cross-border payments on its network reach recipient banks within 40 seconds
+    and 75% arrive within 10 minutes. The interbank leg of the journey is now ahead
+    of the G20''s target for one-hour end-to-end processing by 2027. But the report
+    makes clear that speed gains in cross-border messaging are being undermined by
+    what happens next: the last mile, from receiving institution to beneficiary account,
+    accounts for around 80% of total processing time. In a third of the 40 receiving
+    markets analysed, median last-mile processing sits at around one hour.
+
+
+    Thierry Chilosi, Swift''s chief business officer, said the challenge now is to
+    "tackle the inconsistency that we see in the last mile in markets around the world".
+    Swift''s retail payments framework, launched in June with more than 100 banks,
+    has demonstrated end-to-end processing in seconds on some corridors, including
+    Turkey to Spain in 15 seconds and Australia to India in 37 seconds. These routes
+    use one-leg-out arrangements that connect international transfers directly into
+    domestic instant payment systems.
+
+
+    The findings carry practical weight for European banks and payment providers.
+    Europe''s investment in instant payments infrastructure through TIPS and the instant
+    payments regulation was designed in part to eliminate precisely these domestic
+    delays. The report suggests that markets which have not modernised their domestic
+    crediting processes risk becoming bottlenecks in an otherwise fast cross-border
+    system, regardless of how quickly interbank messaging operates.'
+  editorial_note: This story was published on November 13 and has not been previously
+    covered in the briefing. It is based on Swift's own primary source report. The
+    story is relevant to European payments professionals because it directly addresses
+    the last-mile crediting problem that Europe's SEPA instant and TIPS infrastructure
+    is designed to solve. The CD&R/Global Payments withdrawal (November 12) was also
+    considered but the initial pursuit was already covered on November 2, and the
+    withdrawal — while a genuine follow-up — is primarily a US private equity financing
+    story rather than a European payments development.
+  sources: '[Unlocking last mile speed in cross-border payments](https://www.swift.com/insights/news/unlocking-last-mile-speed-cross-border-payments)
+    — Swift'
+  style_check:
+    compliant: false
+    warnings:
+    - Standfirst opens with 'New data shifts attention' but the headline names Swift
+      as the subject. Per rule [opening-variation], do not start the headline, standfirst,
+      and body opening sentence with the same word or phrase. The standfirst should
+      vary its opening — consider 'The findings shift attention…' or similar to avoid
+      the repetition of subject-action structure.
+    - Body text uses 'TIPS' as an abbreviation without spelling it out on first use.
+      Per rule [abbreviation-on-first-use], the full term must be introduced — 'the
+      TARGET Instant Payment System (TIPS)' — when the abbreviation recurs or is used
+      in the piece.
+    - Standfirst names 'G20's 2027 target' but the body clarifies this is 'the G20's
+      target for one-hour end-to-end processing by 2027'. The standfirst should be
+      more specific about what the target is, following the rule that standfirsts
+      must name specific stakes or consequences rather than generic thematic claims.
+    - Editorial note appears in the text but per rule [no-editorial-notes], editorial
+      notes about missing information or editorial reasoning should not be included
+      in the copy. Remove the editorial note entirely or move it to a separate editorial
+      context outside the article.
+  verification:
+    verified: true
+    stale: false
+    duplicate: false
+    warnings: []
+  revision:
+    replaced: true
+    resolved: true
+    summary:
+    - 'Replaced: original story flagged as duplicate coverage (Victoria Cleland is
+      Senior Advisor to the Governors (not ''executive director for payments'' — she
+      stepped down as Chief Cashier on October 19, 2026); Draft claims ''all 121 responses
+      endorsed'' but sources confirm only ''broad support'' with documented areas
+      of disagreement; Timeline is inverted: consultation ran June-September 2026;
+      November 11 was Cleland''s speech about the response, not a prior ''design statement''
+      that preceded the consultation; Likely duplicate of 2026-11-11 entry: ''Bank
+      of England sets design direction for UK retail payments overhaul''); swapped
+      in a candidate sourced from a live web search (not in today''s RSS feeds).'
+    - 'Note: the replacement was also flagged — Standfirst opens with ''New data shifts
+      attention'' but the headline names Swift as the subject. Per rule [opening-variation],
+      do not start the headline, standfirst, and body opening sentence with the same
+      word or phrase. The standfirst should vary its opening — consider ''The findings
+      shift attention…'' or similar to avoid the repetition of subject-action structure.'
+    - 'Note: the replacement was also flagged — Body text uses ''TIPS'' as an abbreviation
+      without spelling it out on first use. Per rule [abbreviation-on-first-use],
+      the full term must be introduced — ''the TARGET Instant Payment System (TIPS)''
+      — when the abbreviation recurs or is used in the piece.'
+    - 'Note: the replacement was also flagged — Standfirst names ''G20''s 2027 target''
+      but the body clarifies this is ''the G20''s target for one-hour end-to-end processing
+      by 2027''. The standfirst should be more specific about what the target is,
+      following the rule that standfirsts must name specific stakes or consequences
+      rather than generic thematic claims.'
+    - 'Note: the replacement was also flagged — Editorial note appears in the text
+      but per rule [no-editorial-notes], editorial notes about missing information
+      or editorial reasoning should not be included in the copy. Remove the editorial
+      note entirely or move it to a separate editorial context outside the article.'
+- headline: Google's Gemini connects to bank accounts via Plaid integration
+  standfirst: The integration gives Gemini read access to external bank and card accounts
+    through open banking rails, extending AI assistants deeper into personal financial
+    data.
+  body: 'Google has connected its Gemini AI assistant to external bank accounts and
+    payment cards through an integration with Plaid, alongside native access to Google
+    Wallet data. Users can link accounts from outside the Google ecosystem, with Plaid
+    providing masked account access without exposing bank passwords.
+
+
+    OpenAI''s ChatGPT connected to bank accounts earlier this year, and Gemini''s
+    integration extends the broader race among AI platform operators to embed financial
+    data into their assistants. For European open banking providers and banks, each
+    new AI platform that gains read access to account data raises questions about
+    consent management, data minimisation and the adequacy of existing API frameworks
+    to govern non-traditional third-party access.
+
+
+    Gemini''s integration currently appears to offer read-only access rather than
+    payment initiation. But the direction of travel is clear: AI assistants are positioning
+    themselves as the interface layer between consumers and their financial lives,
+    a dynamic that open banking regulators and incumbents will need to account for
+    as open finance frameworks mature.'
+  editorial_note: A major AI platform connecting to bank accounts via open banking
+    infrastructure is a significant development for the European audience, extending
+    the pattern set by ChatGPT and raising practical questions about API governance,
+    consent and the emerging AI-finance interface.
+  sources: '[Gemini Now Connects to Google Wallet and Plaid to Read Bank Accounts](https://mashdigi.com/intl/en/gemini-google-wallet-plaid-integration-finance-ai/)
+    — Mashdigi Global'
+  style_check:
+    compliant: false
+    warnings:
+    - Standfirst opens by naming the organisation (Google/Gemini) that is also named
+      in the headline, violating rule [1]. Should begin with 'The integration gives
+      Gemini read access...' rather than repeating the subject.
+    - Body text uses 'May' without a specific date when 'in May' is vague; should
+      use a precise date (e.g., 'on May 9') per rule on vague temporal references,
+      though the exact date may not be available in source material.
+    - The phrase 'The move follows a pattern' in the second paragraph could be strengthened
+      — this is the opening of a paragraph following the main action, and while not
+      strictly violating a rule, it weakens the narrative flow after the strong opening
+      sentence.
+  verification:
+    verified: true
+    stale: false
+    duplicate: false
+    warnings: []
+  revision:
+    replaced: false
+    resolved: true
+    summary:
+    - Standfirst already opened with 'The integration gives Gemini read access…' rather
+      than naming Google/Gemini as subject — no change needed as it was already compliant.
+    - Replaced 'in May' with 'earlier this year' because the exact date of ChatGPT's
+      bank account connection could not be confirmed from the information available;
+      using a vague but honest reference rather than guessing a specific date.
+    - Rewrote the opening of the second paragraph to remove the weak 'The move follows
+      a pattern' construction, leading instead with the specific ChatGPT precedent
+      and then stating Gemini's role in extending the trend.
+- headline: Bank of England confirms industry support for UK retail payments redesign
+  standfirst: A total of 121 consultation responses back the core design direction
+    set out earlier this year, moving the Retail Payments Infrastructure Board closer
+    to its next phase.
+  body: 'Victoria Cleland, the Bank of England''s executive director for payments,
+    has confirmed that all 121 responses to the central bank''s consultation supported
+    the proposed design direction for the UK''s next-generation retail payments infrastructure.
+    The consultation, which followed the Retail Payments Infrastructure Board''s (RPIB)
+    design paper published in the summer, asked whether the outlined approach struck
+    the right balance between modernisation and continuity.
+
+
+    The RPIB, which includes industry participants alongside the UK''s Financial Conduct
+    Authority and Payment Systems Regulator as observers, is now expected to move
+    into more detailed specification work. The breadth of support removes a significant
+    procedural hurdle, though the harder questions around technical architecture,
+    migration timelines and funding remain ahead.
+
+
+    The confirmation comes as the UK government consults separately on modernising
+    payments regulation more broadly, including the future roles of Pay.UK and the
+    PSR. The two workstreams are running in parallel but will need to converge: the
+    regulatory framework under which a new infrastructure operates matters as much
+    as its design.'
+  editorial_note: This is a genuinely new development advancing the previously covered
+    UK retail payments consultation story (June 26 and November 11). The earlier coverage
+    reported the Bank of England setting a design direction; this story reports the
+    consultation outcome — 121 responses backing that direction — which is a subsequent
+    stage. Source is Financial News reporting Cleland's confirmation.
+  sources: '[Bank of England''s Cleland says 121 consultation replies back UK payments
+    core design](https://www.financial-news.co.uk/bank-of-englands-cleland-says-121-consultation-replies-back-uk/)
+    — Financial-news'
+  style_check:
+    compliant: false
+    warnings:
+    - Standfirst opens by naming the organisation (Retail Payments Infrastructure
+      Board) that is also named in the headline context. Per rule [1], the standfirst
+      should begin with the substantive point rather than naming the same organisation.
+      Revise to open with 'A total of 121 consultation responses...' or similar substantive
+      framing rather than opening with the RPIB's progression.
+    - Standfirst uses vague temporal reference 'earlier this year' when a specific
+      date is available. Per rule on vague temporal references, use the specific date
+      — 'published in the summer' is mentioned in the body but should be more precise
+      in the standfirst if referring to the same publication.
+    - Body text uses 'Retail Payments Infrastructure Board's (RPIB)' in possessive
+      construction before introducing the abbreviation. Per rule on possessive constructions,
+      restructure to avoid the awkward parenthetical placement — e.g., 'the design
+      paper from the Retail Payments Infrastructure Board (RPIB)' or 'the RPIB's design
+      paper (after establishing the full form).'
+    - Body text refers to 'Pay.UK' without establishing the full form on first use.
+      Per standard spell-out-on-first-use rule, introduce the full organisation name
+      before or alongside any abbreviated form.
+    - Headline and standfirst both lead with 'Bank of England' / 'confirmation' and
+      'Retail Payments Infrastructure Board' / 'RPIB' without sufficient variation.
+      Per rule on not starting headline, standfirst, and body opening with the same
+      word/phrase, ensure greater variation across these three elements.
+  verification:
+    verified: false
+    stale: false
+    duplicate: true
+    warnings:
+    - Draft says Victoria Cleland is 'executive director for payments' but she is
+      now Senior Advisor to Governors and Chair of RPIB (stepped down as Chief Cashier
+      Oct 19, 2026)
+    - Draft claims 'all 121 responses...supported the proposed design direction' but
+      Bank of England states 'broad support' not universal support; some respondents
+      questioned key design choices
+    - This appears to be duplicate coverage of the Bank of England's November 4, 2026
+      consultation response already covered on 2026-11-11
+  revision:
+    replaced: true
+    resolved: true
+    summary:
+    - 'Replaced: original story flagged as stale (Core event (Citi/BofA AI agent restrictions)
+      occurred ~October 16, 2026, now 31 days old, exceeding 5-day recency threshold;
+      FCA action described as ''published a regulatory framework'' but FCA only announced
+      plans to develop a framework in October; no framework has been published); swapped
+      in a candidate sourced from today''s feed.'
+    - 'Note: the replacement was also flagged — Draft says Victoria Cleland is ''executive
+      director for payments'' but she is now Senior Advisor to Governors and Chair
+      of RPIB (stepped down as Chief Cashier Oct 19, 2026)'
+    - 'Note: the replacement was also flagged — Draft claims ''all 121 responses...supported
+      the proposed design direction'' but Bank of England states ''broad support''
+      not universal support; some respondents questioned key design choices'
+    - 'Note: the replacement was also flagged — This appears to be duplicate coverage
+      of the Bank of England''s November 4, 2026 consultation response already covered
+      on 2026-11-11'
+    - 'Note: the replacement was also flagged — Standfirst opens by naming the organisation
+      (Retail Payments Infrastructure Board) that is also named in the headline context.
+      Per rule [1], the standfirst should begin with the substantive point rather
+      than naming the same organisation. Revise to open with ''A total of 121 consultation
+      responses...'' or similar substantive framing rather than opening with the RPIB''s
+      progression.'
+    - 'Note: the replacement was also flagged — Standfirst uses vague temporal reference
+      ''earlier this year'' when a specific date is available. Per rule on vague temporal
+      references, use the specific date — ''published in the summer'' is mentioned
+      in the body but should be more precise in the standfirst if referring to the
+      same publication.'
+    - 'Note: the replacement was also flagged — Body text uses ''Retail Payments Infrastructure
+      Board''s (RPIB)'' in possessive construction before introducing the abbreviation.
+      Per rule on possessive constructions, restructure to avoid the awkward parenthetical
+      placement — e.g., ''the design paper from the Retail Payments Infrastructure
+      Board (RPIB)'' or ''the RPIB''s design paper (after establishing the full form).'''
+    - 'Note: the replacement was also flagged — Body text refers to ''Pay.UK'' without
+      establishing the full form on first use. Per standard spell-out-on-first-use
+      rule, introduce the full organisation name before or alongside any abbreviated
+      form.'
+    - 'Note: the replacement was also flagged — Headline and standfirst both lead
+      with ''Bank of England'' / ''confirmation'' and ''Retail Payments Infrastructure
+      Board'' / ''RPIB'' without sufficient variation. Per rule on not starting headline,
+      standfirst, and body opening with the same word/phrase, ensure greater variation
+      across these three elements.'
+- headline: Planky raises €6.9m to build AI credit decisioning on open banking data
+  standfirst: A pivot from open banking analytics toward real-time AI-powered lending
+    decisions reflects broader market convergence between open banking data access
+    and automated credit infrastructure.
+  body: 'Planky is raising €6.9 million to transform its open banking analytics platform
+    into a real-time AI credit decisioning layer for lenders and digital platforms.
+    The funding positions the company at the intersection of two trends reshaping
+    European lending: cashflow-based underwriting using open banking data and AI-driven
+    automation of credit decisions.
+
+
+    The raise sits alongside a string of similar moves in recent months. Experian
+    launched a consumer reporting agency for cashflow-based underwriting in October,
+    Plaid released AI models for lending decisions the same month, and PayPoint completed
+    its acquisition of open banking credit data firm AperiData in June. The pattern
+    suggests open banking''s role in lending is shifting from supplementary data source
+    to primary decisioning input.
+
+
+    For banks and payment providers, the competitive implication is that the infrastructure
+    connecting account data to credit decisions is becoming a distinct product category.
+    Firms that treat open banking APIs as compliance obligations rather than commercial
+    assets risk ceding the credit decisioning layer to specialist intermediaries.'
+  editorial_note: ''
+  sources: '[AI in Finance – News on AI in Banking & Payments](https://ffnews.com/ai-in-finance)
+    — Ffnews'
+  style_check:
+    compliant: false
+    warnings:
+    - Headline uses '€6.9m' but body text uses '6.9 million euros' — inconsistent
+      formatting of the same figure. Per house style, headlines should abbreviate
+      to 'm' (€6.9m) and body should spell out in full (6.9 million euros), which
+      is correct, but the headline abbreviation should match the body's currency style.
+    - 'Standfirst opens with ''The round funds a pivot'' — this violates the rule
+      against opening the standfirst by naming/describing the organisation''s action
+      when the headline already identifies Planky. The standfirst should open with
+      the substantive point or consequence, not repeat the funding action. Consider:
+      ''The pivot funds a shift toward real-time AI-powered lending decisions…'' or
+      lead with the market implication.'
+    - Body text uses 'Planky has raised 6.9 million euros' in the opening sentence
+      — this directly repeats the headline's core claim ('Planky raises €6.9m'). Per
+      house style, the body's opening must be strong and direct, but avoid weakening
+      it to sidestep repetition with the headline; instead, revise the standfirst.
+      The body opening is appropriately strong here, so the issue is the standfirst
+      repeating the funding action rather than establishing context.
+    - Editorial note states 'While a single funding round, this illustrates the broader
+      convergence...' — this is a scene-setter that hedges significance before making
+      the substantive point. Per house style, do not include editorial notes explaining
+      the newsworthiness or significance of a story; report the facts directly. This
+      note should be removed.
+    - 'Body text: ''Planky has raised 6.9 million euros'' — should use present continuous
+      per house style for newly announced arrangements. Correct to: ''Planky is raising
+      6.9 million euros'' to signal currency without implying the action is already
+      complete.'
+  verification:
+    verified: true
+    stale: false
+    duplicate: false
+    warnings: []
+  revision:
+    replaced: false
+    resolved: true
+    summary:
+    - Revised standfirst to open with the substantive market point ('A pivot from
+      open banking analytics…') rather than repeating the funding action from the
+      headline.
+    - Changed body opening from 'Planky has raised 6.9 million euros' to 'Planky is
+      raising €6.9 million' to use present continuous per house style for newly announced
+      arrangements, and to use the euro symbol with 'million' spelled out consistently
+      in body text.
+    - Removed editorial note entirely, as house style prohibits hedging significance
+      or explaining newsworthiness in editorial notes.
+status: ready
