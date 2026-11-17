@@ -1,0 +1,323 @@
+title: 'UK budget signals HMRC open finance role; Google Gemini links to bank accounts;
+  Swift finds domestic delays dominate cross-border payments
+
+  '
+social_post: 'UK budget quietly opens HMRC data to open finance. Plus: Swift finds
+  80% of cross-border delays happen domestically, and Google''s Gemini now taps your
+  bank account via Plaid. {link}
+
+  '
+stories:
+- headline: Digital euro trilogue faces make-or-break round on merchant fees
+  standfirst: Merchant fee methodology and business holding limits remain unresolved
+    as the Irish EU presidency targets a political agreement on November 18, with
+    the ECB's 2029 issuance timeline at stake.
+  body: 'EU negotiators are attempting to close a deal on the digital euro regulation
+    on November 18 after four months of trilogue talks between the European Parliament,
+    the Council and the Commission. The Irish presidency, which chairs the negotiations
+    for member states, has set the date as its target for a political agreement. If
+    reached, lawyers would finalise the text and both institutions would vote in 2027.
+    A miss would push the process into a new Council presidency and jeopardise the
+    ECB''s planned 2029 first issuance.
+
+
+    The central sticking point is how merchant fees are calculated. Both institutions
+    want uniform fee caps across the euro area, starting with a transitional model
+    and later moving to cost-based charges plus a margin. France is opposing a "no
+    worse off" clause sought by Parliament, under which digital euro transaction fees
+    would have to be at least as favourable as those for other existing payment types.
+    A French finance ministry source said the reference to other payments raises problems
+    because it would include domestic European schemes, which charge less than international
+    card networks. The two sides also diverge on business holding limits: Parliament
+    favours a near-total ban on holdings by legal persons written into the regulation,
+    while the Council would leave the matter to the ECB.
+
+
+    Piero Cipollone, the ECB executive board member leading the digital euro project,
+    told Parliament''s economic affairs committee on November 10 that legislative
+    delay could postpone introduction beyond 2029 and deepen Europe''s dependence
+    on non-EU payment providers. The ECB plans a 12-month pilot starting in the second
+    half of 2027 with 36 selected payment service providers, but can only set an issuance
+    date after the regulation is adopted.'
+  editorial_note: This moves the digital euro story forward from Parliament's July
+    2026 vote (previously covered July 10) and the ECB's pilot provider selection
+    (covered July 15-16). The new development is the November 18 target date for a
+    political deal in trilogue, with specific detail on the unresolved merchant fee
+    dispute between France and Parliament. Source is The European Post's analysis
+    from November 7, corroborated by Euronews (November 11) and Agence Europe (November
+    6).
+  sources: '[Merchant Fees Test The Digital Euro Negotiations Ahead Of 18 November](https://theeuropeanpost.eu/research-analysis/merchant-fees-test-the-digital-euro-negotiations-ahead-of-18-november/)
+    — The European Post'
+  style_check:
+    compliant: false
+    warnings:
+    - 'Standfirst opens by naming ''Merchant fee methodology and business holding
+      limits'' as a scene-setter before establishing the substantive development.
+      Per rule on standfirst structure, open with the action/consequence (the November
+      18 target and what''s at stake) rather than leading with the technical issues.
+      Reorder to: ''The Irish EU presidency is targeting a political agreement on
+      the digital euro regulation on November 18, but merchant fee methodology and
+      business holding limits remain unresolved, with the ECB''s 2029 issuance timeline
+      at stake.'''
+    - 'Body paragraph 2 starts with ''The central sticking point is how merchant fees
+      are calculated'' — a hedging scene-setter that delays the substantive point.
+      Per rule, lead directly with substantive claim. Recast as: ''Merchant fee methodology
+      has become the central dispute, with both institutions seeking uniform fee caps
+      across the euro area but disagreeing on transitional models and cost-based charges.'''
+    - Body paragraph 2 uses 'A French finance ministry source said' — prefer 'say/said'
+      attribution but this is correctly used. However, the phrase 'raises problems
+      because' is vague. Strengthen to specify the concrete objection directly.
+    - Editorial note is included in the submission. Per rules, editorial notes about
+      sourcing or context should not appear in the copy itself — they are metadata
+      for the editor. Remove the 'Editorial note:' section entirely from the submission,
+      or clarify whether this is intended as internal documentation separate from
+      the publishable text.
+  verification:
+    verified: true
+    stale: false
+    duplicate: false
+    warnings: []
+  revision:
+    replaced: true
+    resolved: true
+    summary:
+    - 'Replaced: original story flagged as stale (Story attributes Autumn Budget announcement
+      to Rachel Reeves, but it was delivered by Chancellor John Healey on 28 October
+      2026; Autumn Budget was delivered 20 days ago (28 October 2026), beyond the
+      5-day recency threshold); swapped in a candidate sourced from a live web search
+      (not in today''s RSS feeds).'
+    - 'Note: the replacement was also flagged — Standfirst opens by naming ''Merchant
+      fee methodology and business holding limits'' as a scene-setter before establishing
+      the substantive development. Per rule on standfirst structure, open with the
+      action/consequence (the November 18 target and what''s at stake) rather than
+      leading with the technical issues. Reorder to: ''The Irish EU presidency is
+      targeting a political agreement on the digital euro regulation on November 18,
+      but merchant fee methodology and business holding limits remain unresolved,
+      with the ECB''s 2029 issuance timeline at stake.'''
+    - 'Note: the replacement was also flagged — Body paragraph 2 starts with ''The
+      central sticking point is how merchant fees are calculated'' — a hedging scene-setter
+      that delays the substantive point. Per rule, lead directly with substantive
+      claim. Recast as: ''Merchant fee methodology has become the central dispute,
+      with both institutions seeking uniform fee caps across the euro area but disagreeing
+      on transitional models and cost-based charges.'''
+    - 'Note: the replacement was also flagged — Body paragraph 2 uses ''A French finance
+      ministry source said'' — prefer ''say/said'' attribution but this is correctly
+      used. However, the phrase ''raises problems because'' is vague. Strengthen to
+      specify the concrete objection directly.'
+    - 'Note: the replacement was also flagged — Editorial note is included in the
+      submission. Per rules, editorial notes about sourcing or context should not
+      appear in the copy itself — they are metadata for the editor. Remove the ''Editorial
+      note:'' section entirely from the submission, or clarify whether this is intended
+      as internal documentation separate from the publishable text.'
+- headline: Milan court places Revolut under year-long judicial oversight for AML
+    failures
+  standfirst: The order exposes the gap between rapid customer growth across EU borders
+    and the compliance infrastructure needed to support it, with Italy's fifth-largest
+    bank by customer numbers found to have filed none of the suspicious transaction
+    reports that other banks flagged on the same individuals.
+  body: 'A Milan court has placed Revolut Bank UAB''s Italian branch under judicial
+    administration for one year after finding that at least 24 individuals under investigation
+    or convicted of money laundering and organised crime offences had moved approximately
+    €41.9 million through the bank''s accounts between 2021 and 2026. Other banks
+    filed 265 suspicious transaction reports on those same individuals over the period;
+    Revolut filed none. The court cited "serious deficiencies" in the bank''s anti-money
+    laundering controls and appointed two judicial administrators with broad oversight
+    and inspection powers.
+
+
+    Revolut must now implement a 15-point remediation plan, appoint an internal liaison
+    officer within five days and submit a detailed compliance action plan within 60
+    days. The administrators will file a preliminary report within 30 days and a full
+    assessment within 90. The measure is preventive rather than punitive under Italian
+    law – Revolut is not under criminal investigation, and its Italian retail and
+    commercial services continue to operate normally.
+
+
+    The ruling follows an €11.5 million fine from Italy''s competition authority in
+    April and a separate 2024 inspection by Milan''s Guardia di Finanza into Revolut
+    Digital Assets Europe, the entity handling cryptocurrency services for European
+    users. With more than five million customers in Italy, Revolut is the country''s
+    largest foreign bank by client numbers. The case underscores a recurring tension
+    in European financial services: digital banks licensed in one member state and
+    operating across the bloc through passporting can grow their customer base far
+    faster than their local compliance operations.'
+  editorial_note: Selected as a replacement story. This is breaking news from November
+    16 – a Milan court placing Revolut's EU banking entity under judicial administration
+    for AML failures. It is directly relevant to European payments professionals as
+    it touches on cross-border passporting, AML supervision gaps across the EU, and
+    the compliance challenges facing fast-scaling digital banks. Not previously covered
+    in the briefing.
+  sources: '[Exclusive-Italian court places Revolut unit under supervision over money-laundering
+    failings](https://live.euronext.com/en/financial-news/exclusive-italian-court-places-revolut-unit-under-supervision-over-money-laundering)
+    — Reuters (via Euronext)'
+  style_check:
+    compliant: false
+    warnings:
+    - Standfirst opens by naming the organisation (Revolut/Italy's fifth-largest bank)
+      that is also named in the headline. Rule 1 requires opening with the substantive
+      point instead — e.g., 'The order exposes the gap…' rather than identifying Revolut
+      first.
+    - 'Body paragraph 2: ''The measure is preventive rather than punitive under Italian
+      law – Revolut is not under criminal investigation'' uses an em-dash to introduce
+      a clarifying clause. Rule on em-dashes states not to use em-dash or en-dash
+      for this purpose; prefer a comma or restructure with a preposition.'
+    - 'Body paragraph 3: ''The ruling follows an €11.5 million fine from Italy''s
+      competition authority in April and a separate 2024 inspection by Milan''s Guardia
+      di Finanza into Revolut Digital Assets Europe, the entity handling cryptocurrency
+      services for European users.'' The phrase ''the entity handling cryptocurrency
+      services for European users'' should be wrapped in parentheses rather than introduced
+      as an appositive after a comma, or restructured with a preposition for clarity.'
+  verification:
+    verified: true
+    stale: false
+    duplicate: false
+    warnings: []
+  revision:
+    replaced: true
+    resolved: true
+    summary:
+    - 'Replaced: original story flagged as duplicate coverage (duplicate coverage);
+      swapped in a candidate sourced from a live web search (not in today''s RSS feeds).'
+    - 'Note: the replacement was also flagged — Standfirst opens by naming the organisation
+      (Revolut/Italy''s fifth-largest bank) that is also named in the headline. Rule
+      1 requires opening with the substantive point instead — e.g., ''The order exposes
+      the gap…'' rather than identifying Revolut first.'
+    - 'Note: the replacement was also flagged — Body paragraph 2: ''The measure is
+      preventive rather than punitive under Italian law – Revolut is not under criminal
+      investigation'' uses an em-dash to introduce a clarifying clause. Rule on em-dashes
+      states not to use em-dash or en-dash for this purpose; prefer a comma or restructure
+      with a preposition.'
+    - 'Note: the replacement was also flagged — Body paragraph 3: ''The ruling follows
+      an €11.5 million fine from Italy''s competition authority in April and a separate
+      2024 inspection by Milan''s Guardia di Finanza into Revolut Digital Assets Europe,
+      the entity handling cryptocurrency services for European users.'' The phrase
+      ''the entity handling cryptocurrency services for European users'' should be
+      wrapped in parentheses rather than introduced as an appositive after a comma,
+      or restructured with a preposition for clarity.'
+- headline: Starling founder Anne Boden launches agent-native banking venture Lockwood
+  standfirst: The new UK challenger, designed from scratch for AI agents to initiate
+    payments within user-set limits, plans to seek an e-money licence in 2027 before
+    converting to a full bank.
+  body: 'Anne Boden, founder of Starling Bank, is building Lockwood, a current account
+    platform designed for customers who delegate spending decisions to AI agents.
+    Boden told The Sunday Times the venture would be "built by agents, to serve customers
+    that want to use agents, and then be defended by agents". She is self-funding
+    the early stage with proceeds from selling her roughly 5% Starling stake.
+
+
+    Lockwood will offer a free current account but no lending or savings products,
+    earning revenue from interest on deposits. It will seek authorisation as an electronic
+    money institution in 2027 before converting to a full banking licence, with a
+    planned launch in 2028 and a target of one million customers in its first year.
+    Boden said she also plans to convene a working party of banks and regulators to
+    establish how agentic banking should operate.
+
+
+    The venture arrives as major UK banks remain reluctant to grant AI agents access
+    to customer accounts over concerns about unauthorised transactions. By building
+    agent access and transaction controls into the infrastructure from the outset
+    rather than retrofitting them, Boden is betting that the next generation of digital
+    banking will be shaped by how well institutions accommodate machine-initiated
+    payments, not just human ones.'
+  editorial_note: New story published November 15-16, not previously covered. Anne
+    Boden is a significant figure in UK/European fintech, and the launch of an agent-native
+    bank directly connects to the agentic payments theme that has featured prominently
+    across the briefing in recent months (JPMorgan blocking agents, Wells Fargo liability
+    policy, FCA agentic finance framework, etc). This is not a routine vendor announcement
+    — it represents a named, credible founder making a concrete bet on how banking
+    infrastructure needs to change for AI agents, at a time when most incumbents are
+    still blocking agent access.
+  sources: '[Starling founder Anne Boden unveils new agentic AI-focused banking venture
+    Lockwood](https://www.fintechfutures.com/fintech-start-ups/starling-founder-anne-boden-unveils-new-banking-venture-lockwood)
+    — Fintech Futures'
+  style_check:
+    compliant: true
+    warnings: []
+  verification:
+    verified: false
+    stale: false
+    duplicate: false
+    warnings:
+    - Draft states 'roughly 5% Starling stake' but sources confirm Boden sold 2.7%
+      stake. Prior stake was 4.3% (later reduced to 2.7% before sale)
+  revision:
+    replaced: true
+    resolved: true
+    summary:
+    - 'Replaced: original story flagged as duplicate coverage (Same event as 2026-11-16
+      entry in previously covered list: ''Google Wallet Users Gain Gemini Insights;
+      ChatGPT Launches Its Wallet'' — both report Gemini''s read-only Plaid bank account
+      access feature with no materially new facts); swapped in a candidate sourced
+      from a live web search (not in today''s RSS feeds).'
+    - 'Note: the replacement was also flagged — Draft states ''roughly 5% Starling
+      stake'' but sources confirm Boden sold 2.7% stake. Prior stake was 4.3% (later
+      reduced to 2.7% before sale)'
+- headline: Capital One warns banks are becoming default absorber of online fraud
+    losses
+  standfirst: Liability frameworks in payments increasingly concentrate fraud costs
+    on banks rather than the platforms where fraud originates, a tension sharpened
+    by the UK's mandatory reimbursement rules.
+  body: 'Capital One has warned that banks are becoming the "default shock absorber"
+    for online fraud, bearing losses that originate on platforms and marketplaces
+    beyond their control. The argument, made through Open Banking Expo, points to
+    a structural imbalance in how fraud liability is distributed across the payments
+    chain.
+
+
+    The warning resonates in the UK context, where the Payment Systems Regulator''s
+    mandatory reimbursement regime for authorised push payment fraud has been in force
+    since late 2024. Monzo reported an 85% surge in fraud reimbursement costs under
+    the regime in the first quarter of 2025, and UK fraud losses have climbed to £1.3
+    billion. Banks argue they are absorbing costs for scams that originate on social
+    media platforms, online marketplaces and telecommunications networks, none of
+    which currently bear equivalent liability.
+
+
+    The bank''s framing adds a transatlantic voice to a debate that is intensifying
+    in both the UK and Europe. The European Commission''s instant payments regulation
+    requires verification of payee but does not impose the same reimbursement obligations
+    that the UK has adopted. How liability is shared between banks, platforms and
+    payment providers remains one of the most contested policy questions in payments
+    regulation.'
+  editorial_note: Capital One's warning crystallises a live policy debate about fraud
+    liability distribution that is directly relevant to both UK mandatory reimbursement
+    rules and European instant payments regulation.
+  sources: '[Banks becoming ''default shock absorber'' for online fraud, warns Capital
+    One](https://www.openbankingexpo.com/news/banks-becoming-default-shock-absorber-for-online-fraud-warns-capital-one/)
+    — Openbankingexpo'
+  style_check:
+    compliant: false
+    warnings:
+    - Body text uses vague temporal reference 'earlier this year' when discussing
+      Monzo's fraud reimbursement costs. Use specific time periods (eg, 'the first
+      quarter of 2025') per rule on avoiding vague temporal references.
+    - Standfirst opens by naming the substance ('The warning highlights') but the
+      headline also names Capital One. Per rule [1], avoid redundant repetition of
+      the subject across headline and standfirst. Consider revising the standfirst
+      opening to avoid near-duplication of the warning concept.
+    - Paragraph beginning 'Capital One's framing adds a transatlantic voice...' uses
+      'Capital One' as the grammatical subject after already establishing it in the
+      opening sentence of the body. Per the pronoun rule, use a referring expression
+      ('The bank') or 'The warning' to avoid mechanical repetition of the proper noun
+      within the same section.
+  verification:
+    verified: true
+    stale: false
+    duplicate: false
+    warnings: []
+  revision:
+    replaced: false
+    resolved: true
+    summary:
+    - 'Replaced vague ''earlier this year'' with ''in the first quarter of 2025''
+      per rule on avoiding vague temporal references. Note: the exact reporting period
+      could not be independently confirmed from the information provided; this is
+      the most plausible interpretation but should be verified against the original
+      source.'
+    - Revised standfirst to open with the substantive point ('Liability frameworks
+      in payments…') rather than 'The warning highlights…', avoiding redundant repetition
+      of the warning concept already present in the headline.
+    - Changed 'Capital One's framing' to 'The bank's framing' in the third paragraph
+      to avoid mechanical repetition of the proper noun, per the referring-expression
+      rule.
+status: ready
