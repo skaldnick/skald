@@ -306,14 +306,13 @@
     Do not omit the source from the headline when the credibility or origin of the
     claim is material to the story.
 - id: 57
-  date: '2026-10-23'
-  rule: Do not lead the body's opening sentence with the publication of a document
-    when the substantive action is what matters. Name the organisation and state the
-    action directly; move the document name and publication date into the following
-    sentence as context. For example, prefer "The Payment Systems Regulator (PSR)
-    has set out binding requirements for Confirmation of Payee… Specific Direction
-    17, published on October 22, gives…" over "The Payment Systems Regulator (PSR)
-    published Specific Direction 17 on October 22, setting out binding requirements…".
+  date: '2026-11-16'
+  rule: Do not open the body with the publication of a document or report as the grammatical
+    subject when the substantive finding is what matters. Lead with the finding or
+    data point, then attribute it to the report as a source. For example, prefer "Half
+    of cross-border payments on Swift's network reach recipient banks within 40 seconds…
+    according to Swift's latest Spotlight on Speed report" over "Swift has published
+    its latest Spotlight on Speed report, revealing that half of cross-border payments…".
 - id: 58
   date: '2026-09-11'
   rule: Prefer the simple past ("has delayed") over the periphrastic "has decided
