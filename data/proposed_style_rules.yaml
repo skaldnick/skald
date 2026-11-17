@@ -2,4 +2,11 @@
 # Populated automatically by tools/extract_learning.py (via GitHub Actions on push
 # to data/feedback/). Review and promote/edit in the dashboard's 'Proposed style
 # rules' section — accepted rules move to prompts/payments/style_rules.yaml.
-[]
+- date: '2026-11-17'
+  rule: When introducing a named subject who is building or leading a named product
+    or venture, do not open by naming both the person and the product as co-subjects
+    in the same clause. Instead, introduce the person and their action first, then
+    bring in the product name as a secondary identification — eg, "Anne Boden… is
+    building a current account platform… known as Lockwood" rather than "Anne Boden…
+    is building Lockwood, a current account platform…". This keeps the person as the
+    clear agent and introduces the product name in a subordinate or appositive position.
