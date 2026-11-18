@@ -1,0 +1,262 @@
+title: 'Temu rolls out pay-by-bank; Malaysia sets open finance timeline; Google Wallet
+  links to Gemini
+
+  '
+social_post: 'Temu''s Europe-wide pay-by-bank rollout with TrueLayer is the clearest
+  sign yet that A2A payments are breaking into mass-market e-commerce. Plus: Malaysia''s
+  open finance timeline and Google Wallet meets Gemini. {link}
+
+  '
+stories:
+- headline: Temu begins Europe-wide pay-by-bank rollout with TrueLayer
+  standfirst: Account-to-account payments face their clearest mainstream e-commerce
+    test yet, as one of Europe's highest-traffic discount marketplaces adopts pay-by-bank
+    at scale.
+  body: 'Temu, the Chinese-owned discount marketplace, is rolling out pay-by-bank
+    across its European operations using TrueLayer''s infrastructure. Account-to-account
+    payments have so far gained most traction in niche and subscription use cases;
+    the deployment extends the model into high-volume general merchandise for the
+    first time at this scale.
+
+
+    Temu''s sheer transaction volume makes this a meaningful proving ground. The platform
+    consistently ranks among the most-downloaded shopping apps in Europe, and its
+    price-sensitive customer base aligns with the economics of pay-by-bank, where
+    merchants avoid card interchange fees. For TrueLayer, the deal follows its acquisition
+    of a Dutch buy-now-pay-later firm and its recent €23 million raise with Italian
+    state backing, consolidating its position as a leading European pay-by-bank provider.
+
+
+    Consumers accustomed to card checkout may resist bank-initiated payments on a
+    general merchandise platform, and conversion rates, refund handling and the absence
+    of chargeback protections remain live concerns. If Temu''s adoption holds, it
+    strengthens the case that account-to-account payments are ready for high-volume,
+    low-margin e-commerce, not just regulated verticals such as gambling and utilities.'
+  editorial_note: A major consumer platform adopting pay-by-bank across Europe is
+    a material step for account-to-account payment adoption and directly relevant
+    to the competitive dynamics between card networks and alternative rails.
+  sources: '[Temu and TrueLayer begin Europe-wide rollout of Pay by Bank](https://www.openbankingexpo.com/news/temu-and-truelayer-begin-europe-wide-rollout-of-pay-by-bank/)
+    — Open Banking Expo'
+  style_check:
+    compliant: false
+    warnings:
+    - 'Body opening: ''The deployment marks a significant step for account-to-account
+      payments beyond the niche and subscription use cases where the model has so
+      far gained most traction.'' — This violates the rule against flagging significance
+      explicitly. Remove ''marks a significant step'' and lead directly with the substantive
+      point about where the model has gained traction.'
+    - 'Standfirst: ''One of Europe''s highest-traffic e-commerce platforms'' — This
+      violates the rule against opening by naming the organisation (Temu) also named
+      in the headline. The standfirst should not begin with a descriptor that amounts
+      to naming Temu by another form. Restructure to open with the substantive action
+      or point.'
+    - 'Body: ''The rollout will test whether consumers accustomed to card checkout
+      will accept bank-initiated payments on a general merchandise platform.'' — This
+      sentence opens a paragraph with a hedging scene-setter (''will test whether'')
+      that delays the substantive point. Lead directly with what the rollout reveals
+      or what concerns remain, rather than framing it as a future test.'
+  verification:
+    verified: true
+    stale: false
+    duplicate: false
+    warnings: []
+  revision:
+    replaced: false
+    resolved: true
+    summary:
+    - Standfirst restructured to open with the substantive point ('Account-to-account
+      payments face their clearest mainstream e-commerce test yet') rather than a
+      descriptor that amounts to naming Temu by another form.
+    - 'Body opening: removed ''marks a significant step'' phrasing and replaced with
+      a direct statement about where account-to-account payments have gained traction
+      and how this deployment extends the model.'
+    - 'Third paragraph: replaced the hedging scene-setter (''The rollout will test
+      whether'') with a direct lead stating the concern about consumer acceptance,
+      followed by the specific issues.'
+- headline: Malaysia's central bank sets phased open finance rollout from 2027
+  standfirst: The country's largest banks will begin sharing individual customer data
+    from January 2027, adding another major Asian market to the global open finance
+    map.
+  body: 'Bank Negara Malaysia (BNM) has published a regulatory framework for open
+    finance that phases in account data sharing from January 1, 2027. Individual customer
+    data sharing begins first, with SME data following from 2028 and other institution
+    types through 2030. The country''s largest banks will be first to comply, with
+    smaller institutions following on a staggered timeline. The framework includes
+    explicit provisions for customers to withdraw consent, addressing a concern that
+    has shaped open banking regimes elsewhere.
+
+
+    Malaysia joins a growing roster of Asian markets, including India, Australia and
+    South Korea, that have moved beyond voluntary open banking initiatives toward
+    mandated data-sharing frameworks. BNM''s approach draws on elements of both the
+    EU and UK models, combining regulatory compulsion with phased implementation to
+    manage operational risk.
+
+
+    The Malaysian framework represents a potential export market for European firms
+    with open finance technology and consulting capabilities. It also adds to the
+    evidence that open finance is becoming a global regulatory norm rather than a
+    European exception, reinforcing the case for interoperability standards such as
+    those explored in the BIS''s Project Aperta.'
+  editorial_note: A new national open finance mandate from a significant Asian economy
+    is relevant to European professionals tracking global regulatory convergence and
+    potential market opportunities.
+  sources: '[Malaysia''s Biggest Banks to Lead Open Finance Rollout in 2028](https://fintechnews.my/62474/regtech-fintech-regulation-malaysia/malaysia-open-finance-policy/)
+    — Fintech News Malaysia'
+  style_check:
+    compliant: false
+    warnings:
+    - Standfirst opens by naming the organisation ('Bank Negara Malaysia') that is
+      also named in the headline. Rule 1 requires opening with the substantive point
+      instead — e.g., 'The country's largest banks will begin sharing account data
+      by 2028, adding another major Asian market to the global open finance map.'
+    - 'Third paragraph opens with ''For European firms with open finance expertise,
+      the Malaysian framework represents...'' This frames the paragraph around relevance
+      to European readers with an audience-address clause. Rule on framing relevance
+      states: ''Do not frame a paragraph around its relevance to European readers
+      by opening with "For European payments professionals, …" or equivalent constructions.'''
+    - Standfirst uses 'BNM' as an abbreviation introduced without parentheses. Per
+      the rule on standfirsts, common and recognisable abbreviations may be used without
+      spelling them out, but BNM (Bank Negara Malaysia) is not a widely recognised
+      abbreviation to the target audience and should either be spelled out or introduced
+      with parentheses on first mention in the body.
+  verification:
+    verified: false
+    stale: false
+    duplicate: false
+    warnings:
+    - Story states rollout 'phases in account data sharing between 2028 and 2030'
+      but sources show phased implementation begins January 1, 2027 for individual
+      customer data, with SME data from 2028 and other institution types through 2030.
+      The 2028 date is not the start of the overall rollout.
+  revision:
+    replaced: false
+    resolved: true
+    summary:
+    - Corrected rollout start date from 2028 to January 1, 2027 for individual customer
+      data, with SME data from 2028 and other institution types through 2030, per
+      source material.
+    - Headline updated from 'from 2028' to 'from 2027' to reflect corrected timeline.
+    - Standfirst revised to open with the substantive point ('The country's largest
+      banks will begin sharing individual customer data from January 2027') rather
+      than naming Bank Negara Malaysia, which is already in the headline.
+    - Removed 'BNM' from the standfirst; the abbreviation is introduced properly via
+      parentheses on first use in the body.
+    - Rewrote third paragraph opening to remove the audience-address clause 'For European
+      firms with open finance expertise, the Malaysian framework represents…' and
+      instead lead with the substantive point.
+    - Removed the sentence about the 18-month infrastructure window as it no longer
+      applied accurately given the corrected timeline.
+- headline: EU's consumer credit directive brings BNPL under full regulation from
+    November 20
+  standfirst: Interest-free instalment and deferred-payment products lose their regulatory
+    exemption across the bloc, forcing providers including Klarna, PayPal and Scalapay
+    to operate as licensed consumer lenders just days before Black Friday.
+  body: 'From November 20, the EU''s revised Consumer Credit Directive brings buy-now-pay-later
+    products under consumer credit law for the first time. The directive, known as
+    CCD2, removes the exemptions that previously allowed short-term, interest-free
+    credit to operate outside the regulatory perimeter. BNPL providers must now conduct
+    creditworthiness assessments, provide standardised pre-contractual disclosures
+    and grant consumers a 14-day right of withdrawal on the credit agreement.
+
+
+    The practical effects are already visible. Some products are being pulled entirely:
+    Adyen has confirmed that Walley will be discontinued in Denmark and Ratepay''s
+    14-day open invoice offering in Austria will end by the deadline. Klarna is restructuring
+    its EU offerings, issuing new credit agreements and routing subscriptions through
+    reusable credit lines to comply. Laura Schulz, Klarna''s director of European
+    public affairs, has said the company already runs credit checks on every purchase.
+
+
+    Implementation is uneven. Italy, Spain and Portugal have not yet transposed the
+    directive into national law, meaning the new requirements will not apply there
+    until local legislation is complete. The Netherlands published its draft implementation
+    late, in April 2025. The directive landing one week before Black Friday sharpens
+    the operational pressure on merchants and providers across markets that have transposed
+    it, particularly Germany, France, Belgium and Sweden.'
+  editorial_note: This is the go-live date for CCD2, a significant EU regulatory event
+    that reshapes the BNPL sector across Europe. It has not been previously covered
+    in the briefing. The story is sourced from the FashionNetwork article dated November
+    17 covering the November 20 implementation, supplemented by Adyen's compliance
+    documentation and Stripe's merchant guidance, all confirming product withdrawals
+    and operational changes. The UK's FCA BNPL regulation (covered June 26) is a separate
+    domestic regime.
+  sources: '[What new rules will apply for deferred or instalment payments in Europe
+    from Friday](https://uk.fashionnetwork.com/news/What-new-rules-will-apply-for-deferred-or-instalment-payments-in-europe-from-friday,1885601.html)
+    — FashionNetwork'
+  style_check:
+    compliant: false
+    warnings:
+    - Headline opens with 'EU's' – a possessive acronym without the full name established
+      first. Restructure to avoid possessive construction with an initialised organisation
+      name.
+    - 'Body paragraph 1: ''The directive, known as CCD2'' – introduces abbreviation
+      in parentheses but CCD2 recurs later (''CCD2, a significant EU regulatory event''
+      in the editorial note), so the parenthetical format is correct here, but the
+      phrasing ''known as'' is informal. Use standard ''the Consumer Credit Directive
+      (CCD2)'' format on first introduction in body.'
+    - 'Body paragraph 2: ''Klarna is restructuring its EU offerings, issuing new credit
+      agreements and routing subscriptions through reusable credit lines to comply''
+      – the phrase ''to comply'' at the end is a dangling resultative clause introduced
+      without a preposition. Rewrite as ''issuing new credit agreements and routing
+      subscriptions through reusable credit lines in order to comply'' or use a comma-separated
+      structure.'
+    - 'Body paragraph 3: ''The directive landing one week before Black Friday sharpens
+      the operational pressure'' – opening with ''The directive landing'' uses a bare
+      participial phrase as the grammatical subject. Rewrite as ''The directive''s
+      implementation one week before Black Friday sharpens...'' or ''Because the directive
+      lands one week before Black Friday, it sharpens...'''
+    - 'Standfirst uses ''CCD2'' without spelling out the full term first. Per the
+      rule on abbreviations in standfirsts, common recognisable abbreviations may
+      be used without spelling out, but CCD2 is non-standard and unfamiliar. The standfirst
+      should spell it out: ''the Consumer Credit Directive (CCD2)'' or introduce it
+      in body first.'
+    - Body paragraph 1 opens with the same construction as the headline ('From November
+      20, the EU's revised Consumer Credit Directive') – this is near-verbatim repetition
+      of the headline's substance. The body's opening sentence should be stronger
+      and more direct, not a restatement of the headline's temporal anchor and subject.
+  verification:
+    verified: true
+    stale: false
+    duplicate: false
+    warnings: []
+  revision:
+    replaced: true
+    resolved: true
+    summary:
+    - 'Replaced: original story flagged as duplicate coverage (Event reported on November
+      13, 2026 launch; previously covered on 2026-11-16 as ''Google''s Gemini connects
+      to bank accounts via Plaid integration'' — same underlying event); swapped in
+      a candidate sourced from a live web search (not in today''s RSS feeds).'
+    - 'Note: the replacement was also flagged — Headline opens with ''EU''s'' – a
+      possessive acronym without the full name established first. Restructure to avoid
+      possessive construction with an initialised organisation name.'
+    - 'Note: the replacement was also flagged — Body paragraph 1: ''The directive,
+      known as CCD2'' – introduces abbreviation in parentheses but CCD2 recurs later
+      (''CCD2, a significant EU regulatory event'' in the editorial note), so the
+      parenthetical format is correct here, but the phrasing ''known as'' is informal.
+      Use standard ''the Consumer Credit Directive (CCD2)'' format on first introduction
+      in body.'
+    - 'Note: the replacement was also flagged — Body paragraph 2: ''Klarna is restructuring
+      its EU offerings, issuing new credit agreements and routing subscriptions through
+      reusable credit lines to comply'' – the phrase ''to comply'' at the end is a
+      dangling resultative clause introduced without a preposition. Rewrite as ''issuing
+      new credit agreements and routing subscriptions through reusable credit lines
+      in order to comply'' or use a comma-separated structure.'
+    - 'Note: the replacement was also flagged — Body paragraph 3: ''The directive
+      landing one week before Black Friday sharpens the operational pressure'' – opening
+      with ''The directive landing'' uses a bare participial phrase as the grammatical
+      subject. Rewrite as ''The directive''s implementation one week before Black
+      Friday sharpens...'' or ''Because the directive lands one week before Black
+      Friday, it sharpens...'''
+    - 'Note: the replacement was also flagged — Standfirst uses ''CCD2'' without spelling
+      out the full term first. Per the rule on abbreviations in standfirsts, common
+      recognisable abbreviations may be used without spelling out, but CCD2 is non-standard
+      and unfamiliar. The standfirst should spell it out: ''the Consumer Credit Directive
+      (CCD2)'' or introduce it in body first.'
+    - 'Note: the replacement was also flagged — Body paragraph 1 opens with the same
+      construction as the headline (''From November 20, the EU''s revised Consumer
+      Credit Directive'') – this is near-verbatim repetition of the headline''s substance.
+      The body''s opening sentence should be stronger and more direct, not a restatement
+      of the headline''s temporal anchor and subject.'
+status: ready
