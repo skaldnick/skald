@@ -81,12 +81,16 @@
     Reeves, the UK chancellor" rather than just "the UK chancellor". Name individuals
     wherever possible to personalise the writing.
 - id: 15
-  date: '2026-10-23'
-  rule: When introducing an individual on first reference, lead with their name rather
-    than their title. Write "Nikhil Rathi, chief executive of the Financial Conduct
-    Authority (FCA)" rather than "The Financial Conduct Authority's chief executive,
-    Nikhil Rathi". The name should be the grammatical subject; the title follows as
-    an appositive.
+  date: '2026-11-20'
+  rule: When introducing an individual on first reference alongside their organisation,
+    do not lead with the person's name and title as the grammatical subject when the
+    organisation itself is the agent of the action. Lead with the organisation as
+    subject, then introduce the individual's statement or announcement in a following
+    clause — eg, "The Monetary Authority of Singapore (MAS) will develop… Announced
+    on November 19, MAS managing director Chia Der Jiun said…" rather than "Chia Der
+    Jiun, managing director of the Monetary Authority of Singapore (MAS), announced…".
+    Reserve the name-first construction (rule [15]) for contexts where the individual,
+    not the organisation, is the primary agent.
 - id: 16
   date: '2026-07-15'
   rule: Do not use "The move is notable", "The move is significant", or equivalent
