@@ -2,14 +2,4 @@
 # Populated automatically by tools/extract_learning.py (via GitHub Actions on push
 # to data/feedback/). Review and promote/edit in the dashboard's 'Proposed style
 # rules' section — accepted rules move to prompts/payments/style_rules.yaml.
-- date: '2026-11-20'
-  rule: When introducing an individual on first reference alongside their organisation,
-    do not lead with the person's name and title as the grammatical subject when the
-    organisation itself is the agent of the action. Lead with the organisation as
-    subject, then introduce the individual's statement or announcement in a following
-    clause — eg, "The Monetary Authority of Singapore (MAS) will develop… Announced
-    on November 19, MAS managing director Chia Der Jiun said…" rather than "Chia Der
-    Jiun, managing director of the Monetary Authority of Singapore (MAS), announced…".
-    Reserve the name-first construction (rule [15]) for contexts where the individual,
-    not the organisation, is the primary agent.
-  supersedes: 15
+[]
