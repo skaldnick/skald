@@ -1,0 +1,237 @@
+title: 'Canada names open banking standards body; Italian digital euro build begins;
+  Worldline shares tumble
+
+  '
+social_post: 'Canada finally picks FDX as its open banking standards body, Italy''s
+  payments heavyweights start building digital euro infrastructure, and Worldline
+  drops 20% on a damaging FT report. Plus: Monzo''s ex-fraud team raises for a new
+  venture. {link}
+
+  '
+stories:
+- headline: Canada appoints FDX as technical standards body for open banking
+  standfirst: Selecting an existing North American data-sharing standard over a bespoke
+    national approach gives the country's long-delayed open banking regime a concrete
+    technical foundation and positions FDX as a cross-border standard-setter.
+  body: 'Canada''s federal government has appointed Financial Data Exchange (FDX)
+    as the technical standards authority for the country''s emerging open banking
+    system. FDX, which already underpins data-sharing standards for most major US
+    financial institutions, will define the API specifications and security protocols
+    that Canadian banks and fintechs must follow.
+
+
+    The appointment follows years of delays in Canada''s open banking programme, which
+    has repeatedly slipped past announced timelines. Naming a standards body is a
+    prerequisite for the accreditation and licensing regime that will govern third-party
+    access to consumer financial data. Canada''s choice of FDX over a bespoke national
+    standard reflects a preference for North American interoperability, an approach
+    that contrasts with Europe''s more fragmented API landscape under PSD2.
+
+
+    The decision adds weight to FDX''s position as the dominant open banking standard
+    outside Europe. It also comes 11 days after Canada launched its Real-Time Rail
+    instant payments system on November 9, suggesting the country is now moving on
+    multiple fronts to modernise its payments infrastructure after a prolonged period
+    of inaction.'
+  editorial_note: ''
+  sources: '[Canada gives open banking its rulebook as FDX becomes technical standards
+    authority](https://www.digitaljournal.com/article/canada-gives-open-banking-its-rulebook-as-fdx-becomes-technical-standards-authority/)
+    — Digitaljournal'
+  style_check:
+    compliant: false
+    warnings:
+    - Standfirst opens by naming the organisation also named in headline ('Canada's
+      long-delayed open banking regime'). Should open with the substantive point instead,
+      per rule [1].
+    - Body paragraph beginning 'For European observers, the decision adds weight to
+      FDX's position...' uses the phrasing 'For European observers' which is an audience-address
+      clause. Rule [32] prohibits framing by opening with 'For European payments professionals,
+      …' or equivalent constructions.
+    - Editorial note should not be included in the copy provided for checking. Per
+      rule [23], do not include editorial notes about missing information or context
+      — editorial commentary belongs outside the story itself.
+  verification:
+    verified: false
+    stale: false
+    duplicate: false
+    warnings:
+    - Story states FDX appointment 'arrives just weeks after Canada launched its instant
+      payments system,' but Canada's Real-Time Rail launched November 9, 2026 and
+      FDX appointment was announced November 20, 2026 — the payments system preceded
+      the FDX announcement by 11 days, not followed it
+  revision:
+    replaced: false
+    resolved: true
+    summary:
+    - Revised standfirst to avoid opening by naming Canada, which is already named
+      in the headline, per rule [1]. Now opens with the substantive point.
+    - Removed 'For European observers,' audience-address clause from the opening of
+      the final paragraph, per rule [32].
+    - 'Corrected the temporal claim: replaced ''arrives just weeks after Canada launched
+      its instant payments system'' with ''comes 11 days after Canada launched its
+      Real-Time Rail instant payments system on November 9'', reflecting the actual
+      timeline.'
+    - Removed editorial note entirely, as editorial commentary belongs outside the
+      story itself.
+- headline: CBI, Bancomat and Nexi team up to build Italy's digital euro infrastructure
+  standfirst: Three of Italy's core payments organisations are collaborating to prepare
+    the domestic plumbing needed if the ECB proceeds with a digital euro, as trilogue
+    negotiations continue in Brussels.
+  body: 'CBI, Bancomat and Nexi have agreed to jointly build the Italian infrastructure
+    required to support a digital euro. The partnership covers the technical systems
+    that would connect Italian payment service providers to the ECB''s digital euro
+    platform, including distribution, acceptance and settlement components.
+
+
+    The collaboration brings together CBI''s interbank network, Bancomat''s domestic
+    card and payment scheme, and Nexi''s processing capabilities. Italy is the first
+    euro area market where three major domestic payments organisations have publicly
+    committed to a coordinated digital euro build, moving beyond the pilot participation
+    phase into infrastructure preparation.
+
+
+    The initiative comes as the European Parliament''s trilogue negotiations on digital
+    euro legislation enter a critical phase, with merchant compensation and holding
+    limits among the unresolved issues. Italy''s early infrastructure commitment suggests
+    its payments industry is positioning on the assumption that the digital euro will
+    proceed, regardless of the final legislative details. It also reflects Bancomat''s
+    February memorandum of understanding with Bizum and EPI to build a joint European
+    payments network, further embedding Italian infrastructure into broader continental
+    initiatives.'
+  editorial_note: Italy's coordinated infrastructure build is the first national-level
+    commitment of its kind and signals how the payments industry is preparing for
+    the digital euro despite ongoing legislative uncertainty.
+  sources: '[CBI, Bancomat and Nexi  to build Italian digital euro infrastructure](https://www.finextra.com/newsarticle/48792/cbi-bancomat-and-nexi--to-build-italian-digital-euro-infrastructure?utm_medium=rssfinextra&utm_source=finextrafeed)
+    — Finextra'
+  style_check:
+    compliant: true
+    warnings: []
+  verification:
+    verified: false
+    stale: false
+    duplicate: false
+    warnings:
+    - Story states Bancomat's 'October agreement with Bizum and EPI' — the MoU was
+      signed in February 2026; October 2026 refers to European Network for Payments
+      entity launch, not the agreement date
+  revision:
+    replaced: false
+    resolved: true
+    summary:
+    - Corrected the date of Bancomat's agreement with Bizum and EPI from 'October'
+      to 'February', as the MoU was signed in February 2026; October 2026 refers to
+      the planned entity launch, not the agreement date. Also described it as a 'memorandum
+      of understanding' for precision.
+- headline: Worldline shares fall 20% after report on delayed supplier payments
+  standfirst: A Financial Times investigation into cash management practices at Worldline
+    has triggered a sharp sell-off, deepening concerns about the French processor's
+    financial health.
+  body: 'The Financial Times reported on November 20 that Worldline delayed payments
+    to suppliers and sought cash advances from customers in the years preceding its
+    2023 profit warning, sending shares down by as much as 20%. The report raises
+    questions about Worldline''s working capital management and the transparency of
+    its financial reporting during that period.
+
+
+    Worldline has been under sustained pressure since its October 2023 profit warning,
+    which wiped billions from its market capitalisation and triggered a leadership
+    change. The company has since undertaken restructuring under chairman Wilfried
+    Verstraete and CEO Pierre-Antoine Vacheron, including asset disposals and cost-cutting
+    measures. Credit Agricole''s decision earlier this year to take full ownership
+    of its joint merchant payments venture with Worldline further reduced the firm''s
+    operational footprint.
+
+
+    Worldline remains one of Europe''s largest independent payment processors, and
+    European policymakers and industry bodies have cited it as a pillar of the continent''s
+    payments sovereignty ambitions. Its financial stability has implications for the
+    merchants and banks that rely on its infrastructure across dozens of markets.'
+  editorial_note: ''
+  sources: '[Worldline shares plummet on FT report on cash advances](https://www.finextra.com/newsarticle/48791/worldline-shares-plummet-on-ft-report-on-cash-advances?utm_medium=rssfinextra&utm_source=finextrafeed)
+    — Finextra'
+  style_check:
+    compliant: false
+    warnings:
+    - 'Body opening: ''Shares in Worldline fell by as much as 20% on November 20''
+      — avoids a strong substantive lede by leading with the share price movement
+      rather than the Financial Times investigation and its findings about delayed
+      supplier payments. Per rule on body openings: ''Do not weaken the body''s opening
+      sentence in order to avoid repetition with the standfirst. The body''s first
+      sentence is the most important element and must always be strong and direct.''
+      The investigation itself—the revelations about cash management practices—is
+      the substantive point; the share price is a consequence.'
+    - 'Third paragraph: ''The sell-off is a setback for a company that European policymakers
+      and industry bodies have cited as a pillar of the continent''s payments sovereignty
+      ambitions.'' This frames significance before making a substantive point. Per
+      rule: ''Do not state a development is a setback, challenge, or problem without
+      explaining why first.'' Lead directly with the substantive claim (Worldline''s
+      role in European payments infrastructure and the implications of the investigation),
+      not with a significance-announcing frame.'
+    - 'Editorial note included in submission. Per rule: ''Do not include editorial
+      notes about missing information.'' Editorial notes should not appear in the
+      final copy provided for review; if included here for context, it should be noted
+      that such commentary does not belong in published material.'
+  verification:
+    verified: false
+    stale: false
+    duplicate: false
+    warnings:
+    - Story identifies Wilfried Verstraete as CEO, but he is Chairman; Pierre-Antoine
+      Vacheron is CEO
+  revision:
+    replaced: false
+    resolved: true
+    summary:
+    - 'Corrected leadership reference: Wilfried Verstraete is chairman, not CEO; added
+      Pierre-Antoine Vacheron as CEO.'
+    - Restructured body opening to lead with the Financial Times investigation and
+      its findings as the substantive point, with the share price drop as a consequence
+      rather than the lede.
+    - Revised third paragraph to remove the significance-announcing frame ('The sell-off
+      is a setback for a company that…') and instead lead directly with Worldline's
+      role and the implications.
+    - Removed editorial note from final copy.
+- headline: 'Former Monzo fraud team raises £1.8m for scam prevention startup
+
+    '
+  standfirst: 'Acorda''s pre-seed round signals growing investor appetite for specialist
+    fraud tools as mandatory reimbursement rules increase the cost of scams for payment
+    providers.
+
+    '
+  body: 'The former leaders of Monzo''s scam detection team have raised £1.8 million
+    in pre-seed funding for Acorda, a startup that helps payment providers detect
+    and prevent fraud. The founding team built the fraud systems at Monzo during a
+    period when the neobank''s fraud reimbursement costs surged 85% following the
+    introduction of mandatory reimbursement rules by the Payment Systems Regulator.
+
+
+    The timing reflects a broader market dynamic: since the PSR''s mandatory reimbursement
+    framework took effect, UK payment firms face direct financial liability for authorised
+    push payment fraud losses. That shift has turned fraud prevention from a compliance
+    function into a bottom-line concern, creating demand for specialist tooling that
+    sits outside the capabilities of most in-house teams.
+
+
+    Acorda enters a market where UK fraud losses have risen to £1.3 billion, with
+    authorised push payment scams rebounding sharply. The startup''s focus on helping
+    payment providers, rather than end consumers, positions it as infrastructure rather
+    than a consumer-facing product.
+
+    '
+  editorial_note: 'This story connects the PSR''s mandatory reimbursement regime to
+    commercial consequences — fraud prevention startups emerging because payment firms
+    now bear the cost directly.
+
+    '
+  sources: '[Ex-Monzo scam fighting team raises £1.8m for startup Acorda](https://www.finextra.com/newsarticle/48794/ex-monzo-scam-fighting-team-raises-18m-for-startup-acorda?utm_medium=rssfinextra&utm_source=finextrafeed)
+    — Finextra'
+  style_check:
+    compliant: true
+    warnings: []
+  verification:
+    verified: true
+    stale: false
+    duplicate: false
+    warnings: []
+status: ready
