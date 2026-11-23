@@ -423,3 +423,9 @@
     building a current account platform… known as Lockwood" rather than "Anne Boden…
     is building Lockwood, a current account platform…". This keeps the person as the
     clear agent and introduces the product name in a subordinate or appositive position.
+- id: 77
+  date: '2026-11-23'
+  rule: When a specific date from the past week is given in the form "on [Month Day]",
+    include the day of the week and put the date in parentheses immediately after
+    — eg, "on Friday (November 20)" rather than "on November 20" alone — provided
+    the day of the week is known and adds useful orientation for the reader.
