@@ -2,4 +2,8 @@
 # Populated automatically by tools/extract_learning.py (via GitHub Actions on push
 # to data/feedback/). Review and promote/edit in the dashboard's 'Proposed style
 # rules' section — accepted rules move to prompts/payments/style_rules.yaml.
-[]
+- date: '2026-11-23'
+  rule: When a specific date is given in the form "on [Month Day]", include the day
+    of the week in parentheses immediately after the preposition and before the date
+    — eg, "on Friday (November 20)" rather than "on November 20" alone — provided
+    the day of the week is known and adds useful orientation for the reader.
