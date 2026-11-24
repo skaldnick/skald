@@ -1,0 +1,302 @@
+title: 'FIDA withdrawal; Western Balkans instant payments; Experian cashflow bureau;
+  ECON PSD3 recommendations
+
+  '
+social_post: 'Brussels shelved open finance legislation — now Europe''s fintechs must
+  build it on contracts alone. Plus: Western Balkans go live on TIPS, Experian''s
+  cashflow bureau, and ECON''s PSD3 second reading. {link}
+
+  '
+stories:
+- headline: ECB opens collateral framework to tokenised assets on licensed DLT platforms
+  standfirst: Qualifying securities issued under the EU's DLT Pilot Regime can be
+    pledged for Eurosystem credit operations from June 2027, the second step in the
+    central bank's roadmap toward accepting natively tokenised collateral.
+  body: 'The ECB''s Governing Council on Monday (November 23) approved the acceptance
+    of marketable assets issued on distributed ledger technology platforms licensed
+    under the EU DLT Pilot Regime as eligible Eurosystem collateral, subject to specific
+    requirements. The assets must meet all standard collateral eligibility criteria
+    and be made available through an eligible link to a central securities depository
+    settling on the TARGET2-Securities platform. Executive Board member Isabel Schnabel
+    said the Eurosystem would "support innovation without lowering our standards".
+    Fellow board member Piero Cipollone framed the decision as part of the broader
+    Pontes and Appia programmes, which are designed to deliver a model for a tokenised
+    European financial ecosystem.
+
+
+    The decision builds on a January 27 announcement that the Eurosystem would accept
+    collateral issued in central securities depositories using DLT-based services,
+    a framework that took effect on March 30. That earlier step covered assets held
+    in conventional depositories that happened to use distributed ledger infrastructure;
+    this one extends eligibility to assets issued directly on licensed DLT platforms.
+    The ECB described it as a new milestone in its roadmap toward accepting and mobilising
+    tokenised assets in their native form.
+
+
+    Detailed eligibility requirements are expected in spring 2027 ahead of a June
+    2027 implementation date. For euro area banks exploring tokenised bond issuance,
+    the practical effect is that a DLT Pilot Regime licence now offers a conditional
+    route into the Eurosystem collateral framework, provided the settlement infrastructure
+    connects to TARGET2-Securities. The ECB said it is still exploring whether assets
+    issued and settled entirely on DLT networks, without passing through a central
+    securities depository, could eventually become eligible.'
+  editorial_note: New ECB Governing Council decision announced November 23 — the second
+    step in the ECB's staged DLT collateral roadmap, extending eligibility from CSD-held
+    DLT assets (January 2026) to assets on licensed DLT Pilot Regime platforms. Not
+    previously covered. The earlier Project Pontes story (September 21) was about
+    connecting tokenised assets to central bank money; this is a distinct decision
+    expanding the collateral framework. Source is the ECB's own press release.
+  sources: '[ECB expands acceptance of DLT-based assets as eligible Eurosystem collateral](https://www.ecb.europa.eu/press/pr/date/2026/html/ecb.pr261123~76b6f57b74.en.html)
+    — European Central Bank'
+  style_check:
+    compliant: false
+    warnings:
+    - 'style check response could not be parsed: ''```json {   "compliant": false,   "warnings":
+      [     "Standfirst opens by naming \''Qualifying securities issued under the
+      EU\''s DLT Pilot Regime\'' — a sub'''
+  verification:
+    verified: true
+    stale: false
+    duplicate: false
+    warnings: []
+  revision:
+    replaced: true
+    resolved: true
+    summary:
+    - 'Replaced: original story flagged as stale (FIDA withdrawal announced November
+      4, 2026; story is 20 days old, exceeding 5-day threshold for recency); swapped
+      in a candidate sourced from a live web search (not in today''s RSS feeds).'
+- headline: Western Balkans launch TIPS-based instant payments across five economies
+  standfirst: A regional instant payment system has gone live across five Western
+    Balkan economies, extending euro-area payment rails into non-EU markets using
+    the ECB's settlement infrastructure.
+  body: 'Five Western Balkan economies have launched a regional instant payment system
+    based on the ECB''s TARGET Instant Payment Settlement (TIPS) platform, enabling
+    cross-border bank transfers to settle within seconds. Kosovo and Montenegro are
+    among the first markets to go live, with the system designed to support both consumer
+    and business payments across the region.
+
+
+    The project connects Western Balkan payment systems to European instant payments
+    infrastructure without requiring EU membership or eurozone participation. It follows
+    the same model as Iceland''s earlier connection to TIPS and Albania''s preparations,
+    extending the reach of euro-denominated instant settlement beyond the bloc''s
+    formal borders. The ECB has framed such connections as contributing to Europe''s
+    economic security and financial independence.
+
+
+    The expansion widens the geography over which TIPS-based settlement is available
+    and creates new corridors for real-time cross-border payments. The system could
+    also serve as a template for other non-EU markets seeking interoperability with
+    European payment infrastructure.'
+  editorial_note: This extends the TIPS footprint into five new non-EU markets simultaneously,
+    a meaningful expansion of European instant payments infrastructure with practical
+    implications for cross-border payment routing.
+  sources: '[Regional instant payment system TIPS Clone launched](https://en.vijesti.me/news-b/economy-d/837753/regional-instant-payment-system-launched-tips-clone)
+    — Vijesti | [Bank transfers within seconds launch in Kosovo: How does the new
+    system work?](https://kohajone.com/en/kosova/nisin-transferet-bankare-brenda-sekondash-ne-kosove-si-funksionon-sistemi-i-ri/)
+    — Kohajone'
+  style_check:
+    compliant: false
+    warnings:
+    - 'Standfirst opens by naming the organisation (ECB) that is also the subject
+      of the headline context. Rule 1 requires opening with the substantive point,
+      not the organisation. Consider: ''A regional instant payment system has gone
+      live across five Western Balkan economies…'' instead of leading with infrastructure
+      details.'
+    - 'Body paragraph 2 opens with ''For European payments firms, the expansion is
+      operationally relevant:'' — this is a frame that announces relevance before
+      making a substantive point. Rule 23 prohibits this construction. Rewrite directly:
+      ''The expansion widens the geography over which TIPS-based settlement is available…'''
+    - 'Abbreviation ''TIPS'' is used throughout without being spelled out in full
+      on first use in the body. Rule 11 requires the full form on first use in body
+      text: ''TARGET Instant Payment Settlement (TIPS)''.'
+    - The editorial note should not be included in the response to the copy editor.
+      Editorial notes are internal and should not be flagged as style violations in
+      the published piece.
+  verification:
+    verified: true
+    stale: false
+    duplicate: false
+    warnings: []
+  revision:
+    replaced: false
+    resolved: true
+    summary:
+    - Revised standfirst to open with the substantive point ('A regional instant payment
+      system has gone live…') rather than naming specific countries and the ECB infrastructure
+      first, per rule 1.
+    - Removed 'For European payments firms, the expansion is operationally relevant:'
+      framing from the third paragraph opening, replacing it with a direct substantive
+      statement per rule 23.
+    - Spelled out 'TARGET Instant Payment Settlement (TIPS)' on first use in the body,
+      with subsequent references using the abbreviation, per rule 11.
+- headline: GTCR revives $50bn Global Payments bid days after joint pursuit collapsed
+  standfirst: The solo approach by its largest shareholder reopens the question of
+    private equity control over Europe's biggest merchant acquirer, now at a higher
+    price.
+  body: 'GTCR is exploring a takeover of Global Payments worth approximately $50 billion
+    including debt, according to Bloomberg, citing people familiar with the matter.
+    GTCR, which holds a 16% stake in Global Payments after selling its majority interest
+    in Worldpay to the company in January, is working with a group of other private
+    equity firms to finance the deal. No formal offer has been made and GTCR has not
+    decided whether to proceed.
+
+
+    The approach comes barely a week after GTCR and Clayton, Dubilier and Rice abandoned
+    a joint pursuit of Global Payments on November 12, reportedly because of the difficulty
+    of financing a transaction of this scale. GTCR has now returned without its former
+    partner, at a valuation roughly $10 billion above the enterprise value discussed
+    in the earlier consortium effort. Global Payments'' shares rose more than 10%
+    on the report.
+
+
+    Global Payments is the parent of Worldpay, which processes more than $2 trillion
+    in annual transaction volume across 146 countries and ranks among the largest
+    merchant acquirers operating in Europe. A shareholder agreement signed during
+    the Worldpay acquisition restricts GTCR from buying additional shares, meaning
+    any takeover would require a negotiated deal. For European payments professionals,
+    the ownership structure of a processor of this scale has direct implications for
+    pricing, integration strategy and competitive dynamics across the continent.'
+  editorial_note: New angle on previously covered story (CD&R targets buyout, November
+    2). The joint CD&R-GTCR bid collapsed on November 12; GTCR revived a solo approach
+    on November 20 at a materially higher valuation ($50bn vs ~$40bn), with a different
+    PE consortium. This is a genuinely subsequent stage. European relevance is natural
+    through Worldpay, one of Europe's largest merchant acquirers.
+  sources: '[Global Payments shares jump on report of $50B GTCR deal](https://uk.finance.yahoo.com/news/global-payments-shares-jump-report-193410757.html)
+    — Yahoo Finance (via Investing.com)'
+  style_check:
+    compliant: false
+    warnings:
+    - 'Paragraph 3: ''For European payments professionals, the ownership structure
+      of a processor of this scale has direct implications for pricing, integration
+      strategy and competitive dynamics across the continent.'' — This violates the
+      rule against framing relevance with ''For European payments professionals, …''
+      or equivalent audience-address clauses. State the European dimension directly
+      as part of the narrative instead.'
+    - 'Paragraph 3: ''The ownership structure of a processor of this scale has direct
+      implications for pricing, integration strategy and competitive dynamics across
+      the continent.'' — This violates the rule against flagging significance explicitly.
+      Rather than announcing that something ''has direct implications'', state the
+      substantive point directly — what those implications actually are.'
+    - 'Standfirst: ''The solo approach by its largest shareholder reopens the question
+      of private equity control over Europe''s biggest merchant acquirer, now at a
+      higher price.'' — The phrasing ''reopens the question of'' is a vague scene-setter
+      that hedges the substantive point. Lead directly with what is at stake — for
+      example, ''GTCR''s solo revival of a takeover bid for Global Payments raises
+      fresh questions about private equity control over Europe''s largest merchant
+      acquirer.'''
+  verification:
+    verified: true
+    stale: false
+    duplicate: false
+    warnings: []
+  revision:
+    replaced: true
+    resolved: true
+    summary:
+    - 'Replaced: original story flagged as stale (Story is headlined as UK launch
+      but product was launched for US market under FCRA (not UK FCA); Core event (Oct
+      6, 2026) is 49 days old, exceeding 5-day threshold; Appears to duplicate previously
+      covered entry from 2026-10-01 on same announcement); swapped in a candidate
+      sourced from a live web search (not in today''s RSS feeds).'
+    - 'Note: the replacement was also flagged — Paragraph 3: ''For European payments
+      professionals, the ownership structure of a processor of this scale has direct
+      implications for pricing, integration strategy and competitive dynamics across
+      the continent.'' — This violates the rule against framing relevance with ''For
+      European payments professionals, …'' or equivalent audience-address clauses.
+      State the European dimension directly as part of the narrative instead.'
+    - 'Note: the replacement was also flagged — Paragraph 3: ''The ownership structure
+      of a processor of this scale has direct implications for pricing, integration
+      strategy and competitive dynamics across the continent.'' — This violates the
+      rule against flagging significance explicitly. Rather than announcing that something
+      ''has direct implications'', state the substantive point directly — what those
+      implications actually are.'
+    - 'Note: the replacement was also flagged — Standfirst: ''The solo approach by
+      its largest shareholder reopens the question of private equity control over
+      Europe''s biggest merchant acquirer, now at a higher price.'' — The phrasing
+      ''reopens the question of'' is a vague scene-setter that hedges the substantive
+      point. Lead directly with what is at stake — for example, ''GTCR''s solo revival
+      of a takeover bid for Global Payments raises fresh questions about private equity
+      control over Europe''s largest merchant acquirer.'''
+- headline: ECON publishes draft recommendations for PSD3 and payment services regulation
+    second reading
+  standfirst: Draft recommendations for the second reading of PSD3 and the accompanying
+    payment services regulation approve the Council's first-reading position without
+    amendments, moving the payments framework overhaul toward formal adoption.
+  body: 'The European Parliament''s Committee on Economic and Monetary Affairs (ECON)
+    has published draft recommendations for the second reading of PSD3 and the proposed
+    payment services regulation. The recommendations endorse the Council''s first-reading
+    position without amendments, reflecting the text already agreed during trilogue
+    negotiations that concluded in November 2025.
+
+
+    The Council of the EU formally adopted its first-reading position on the PSD3
+    and payment services regulation package on October 29. ECON''s draft recommendations
+    now clear the path for Parliament to approve that position at second reading,
+    the final legislative stage before the new framework is formally adopted. The
+    package covers a broad range of provisions including strong customer authentication
+    requirements, liability rules, open banking access conditions and the treatment
+    of electronic money services.
+
+
+    The timeline aligns with broader momentum on European payments legislation: the
+    digital euro regulation is also advancing through trilogue, and the instant payments
+    regulation is already in its enforcement phase. For payment service providers,
+    the ECON recommendations confirm that the text agreed in trilogue will pass through
+    Parliament without further changes, removing a remaining source of uncertainty
+    over the final shape of the framework.'
+  editorial_note: ''
+  sources: '[ECON draft recommendations for second reading on proposed PSD3 and PSR](https://www.regulationtomorrow.com/2026/11/econ-draft-recommendations-for-second-reading-on-proposed-psd3-and-psr/)
+    — Regulationtomorrow | [EU Lets Shops Dispense Cash Without Purchase](https://wisevoter.com/world/2026/11/23/eu-shops-dispense-cash-without-purchase)
+    — Wisevoter'
+  style_check:
+    compliant: false
+    warnings:
+    - Standfirst opens by naming the European Parliament's Committee on Economic and
+      Monetary Affairs, which is also the subject of the headline. Per rule [1], the
+      standfirst should open with the substantive point (the draft recommendations
+      and their scope) rather than naming the committee. Rewrite to begin with 'Draft
+      recommendations for the second reading of PSD3...' or similar.
+    - 'Body text uses ''The European Parliament''s Committee on Economic and Monetary
+      Affairs (ECON)'' but the standfirst already established ''The European Parliament''s
+      economic affairs committee'' without the abbreviation. Per rule [23], when an
+      abbreviation is introduced in parentheses on first use in the body, it should
+      only be done if it recurs later. ECON does recur (second paragraph), so the
+      parenthetical is justified, but ensure consistency: the body''s first reference
+      should match the level of formality established by the standfirst or introduce
+      the abbreviation cleanly on first body use.'
+    - Editorial note should not be included in the copy submission. Per house rules,
+      editorial notes are metadata for internal use only and should not appear in
+      the final published text. Remove this section.
+  verification:
+    verified: false
+    stale: false
+    duplicate: false
+    warnings:
+    - Story mischaracterizes ECON's action as establishing Parliament's 'counterpart
+      position' for trilogue negotiations; in fact, ECON recommendations approve Council's
+      first-reading position without amendments (trilogue concluded November 2025)
+    - Council adopted its first-reading position on 29 October 2026, not 'at the start
+      of November' as stated
+    - Story presents this as ECON establishing negotiating positions for new trilogue
+      talks, but the agreed text from trilogue is what Parliament is approving at
+      second reading
+  revision:
+    replaced: false
+    resolved: true
+    summary:
+    - 'Corrected characterisation: ECON recommendations approve the Council''s first-reading
+      position without amendments, rather than establishing a separate negotiating
+      position for new trilogue talks'
+    - Corrected Council date from 'at the start of November' to 'October 29', per
+      the issue stating 29 October 2026 (rendered without year per house style as
+      the current year is assumed)
+    - Clarified that trilogue concluded in November 2025 and the second reading is
+      a formal approval of the agreed text, not the start of new negotiations
+    - Rewrote standfirst to open with 'Draft recommendations…' rather than naming
+      the committee, per rule [1]
+    - Removed editorial note section from the final copy
+    - Retained ECON parenthetical abbreviation on first body use as it recurs later
+      in the piece
+status: ready
