@@ -40,6 +40,14 @@ def _actionable(warnings: list[str]) -> list[str]:
     return [w for w in warnings if not any(m in w.lower() for m in _NON_ACTIONABLE_MARKERS)]
 
 
+def _inconclusive(warnings: list[str]) -> list[str]:
+    """The "could not independently verify" warnings _actionable() drops. They're
+    not safe to auto-fix, but the editor still needs to see them — and once a
+    story has a `revision`, the dashboard shows that instead of the raw warnings,
+    so they're carried into `revision.remaining` to keep them visible."""
+    return [w for w in warnings if "could not independently verify" in w.lower()]
+
+
 def _source_urls(sources_md: str) -> set[str]:
     """Extract cited URLs from a story's `sources` markdown string (the format
     _build_source_links produces), since source_ids no longer exist once a
@@ -304,6 +312,101 @@ def _used_source_urls(stories: list[dict]) -> set[str]:
     return used_urls
 
 
+def _apply_fix(story: dict, warnings: list[str], house_style_system: str, client: anthropic.Anthropic) -> list[str] | None:
+    """Run revise_story() and write the fixed text back onto `story`. Returns the
+    change summary, or None if the fix call failed (story left untouched)."""
+    fixed = revise_story(story, warnings, house_style_system, client=client)
+    if not fixed:
+        return None
+    for field in ("headline", "standfirst", "body", "editorial_note"):
+        story[field] = fixed[field]
+    return fixed["changes"] or ["Applied fixes for flagged issues."]
+
+
+def _replace_story(
+    story: dict,
+    kind: str,
+    reason: str,
+    stories: list[dict],
+    entries: list[dict],
+    beat_name: str,
+    style_rules: list,
+    house_style_system: str,
+    recently_covered: list[dict] | None,
+    recently_rejected: list[dict] | None,
+    client: anthropic.Anthropic,
+) -> dict:
+    """Find, check and fix a replacement for a story flagged stale/duplicate.
+    Returns the story to put in its slot: the replacement, or the original with
+    an unresolved `revision` note if no acceptable replacement was found.
+
+    A replacement gets the same treatment as a first-pass story: style-checked,
+    fact-checked, and then rewritten to fix whatever those checks flag. A
+    candidate that is *itself* stale or duplicate is discarded and the next tier
+    tried (feed, then web search), since fixing the text can't fix a bad pick.
+    Before 2026-11-24 a replacement was checked but never fixed, and was marked
+    resolved regardless — flagged errors shipped under a green "Auto-corrected"
+    tick (eg, the 2026-11-16 Bank of England story, itself a duplicate)."""
+    used_urls = _used_source_urls(stories)
+    discarded: list[str] = []
+    accepted = None
+
+    tiers = [
+        ("today's feed", lambda excluded: generate_replacement(
+            beat_name,
+            [(i, e) for i, e in enumerate(entries, start=1) if e["url"] not in excluded],
+            reason, recently_covered, recently_rejected, client=client,
+        )),
+        ("a live web search (not in today's RSS feeds)", lambda excluded: generate_web_replacement(
+            beat_name, excluded, reason, recently_covered, recently_rejected, client=client,
+        )),
+    ]
+    excluded = set(used_urls)
+    for origin, make in tiers:
+        candidate = make(excluded)
+        if not candidate:
+            continue
+        candidate["style_check"] = check_story(candidate, style_rules, client=client)
+        candidate["verification"] = verify_story(candidate, client=client, recently_covered=recently_covered)
+        cv = candidate["verification"]
+        if cv.get("stale") or cv.get("duplicate"):
+            cand_kind = "stale" if cv.get("stale") else "duplicate coverage"
+            discarded.append(
+                f"A replacement from {origin} ({candidate.get('headline', '').strip()!r}) "
+                f"was discarded: it was itself flagged as {cand_kind}."
+            )
+            excluded |= _source_urls(candidate.get("sources", ""))
+            continue
+        accepted = (origin, candidate)
+        break
+
+    if not accepted:
+        story["revision"] = {
+            "replaced": False,
+            "resolved": False,
+            "summary": [f"Flagged as {kind}, but no acceptable replacement was found in the feed or by web search. Kept as-is."] + discarded,
+            "remaining": _actionable((story.get("verification") or {}).get("warnings") or []),
+        }
+        return story
+
+    origin, replacement = accepted
+    summary = [f"Replaced: original story flagged as {kind} ({reason}); swapped in a candidate sourced from {origin}."] + discarded
+    rv = replacement["verification"]
+    warnings = _actionable(rv.get("warnings") or []) + _actionable(replacement["style_check"].get("warnings") or [])
+    remaining = _inconclusive(rv.get("warnings") or [])
+    resolved = True
+    if warnings:
+        changes = _apply_fix(replacement, warnings, house_style_system, client)
+        if changes is None:
+            resolved = False
+            summary.append("Auto-fix of the replacement failed to run. Its flagged issues remain.")
+            remaining = warnings + remaining
+        else:
+            summary += [f"Fixed in the replacement: {c}" for c in changes]
+    replacement["revision"] = {"replaced": True, "resolved": resolved, "summary": summary, "remaining": remaining}
+    return replacement
+
+
 def revise_briefing(
     briefing: dict,
     entries: list[dict],
@@ -328,52 +431,28 @@ def revise_briefing(
         if v.get("stale") or v.get("duplicate"):
             kind = "stale" if v.get("stale") else "duplicate coverage"
             reason = "; ".join(v_warnings) or kind
-            used_urls = _used_source_urls(stories)
-            unused = [(i, e) for i, e in enumerate(entries, start=1) if e["url"] not in used_urls]
-            replacement = generate_replacement(
-                beat_name, unused, reason, recently_covered, recently_rejected, client=client,
+            stories[idx] = _replace_story(
+                story, kind, reason, stories, entries, beat_name, style_rules,
+                house_style_system, recently_covered, recently_rejected, client,
             )
-            source = "feed"
-            if not replacement:
-                replacement = generate_web_replacement(
-                    beat_name, used_urls, reason, recently_covered, recently_rejected, client=client,
-                )
-                source = "web search"
-            if replacement:
-                replacement["style_check"] = check_story(replacement, style_rules, client=client)
-                replacement["verification"] = verify_story(replacement, client=client, recently_covered=recently_covered)
-                origin = "today's feed" if source == "feed" else "a live web search (not in today's RSS feeds)"
-                summary = [f"Replaced: original story flagged as {kind} ({reason}); swapped in a candidate sourced from {origin}."]
-                new_warnings = _actionable(replacement["verification"].get("warnings") or []) + _actionable(replacement["style_check"].get("warnings") or [])
-                summary += [f"Note: the replacement was also flagged — {w}" for w in new_warnings]
-                replacement["revision"] = {"replaced": True, "resolved": True, "summary": summary}
-                stories[idx] = replacement
-            else:
-                story["revision"] = {
-                    "replaced": False,
-                    "resolved": False,
-                    "summary": [f"Flagged as {kind} but no unused feed or web candidate was available — kept as-is, editor should review."],
-                }
             continue
 
         all_warnings = v_warnings + sc_warnings
         if all_warnings:
-            fixed = revise_story(story, all_warnings, house_style_system, client=client)
-            if fixed:
-                story["headline"] = fixed["headline"]
-                story["standfirst"] = fixed["standfirst"]
-                story["body"] = fixed["body"]
-                story["editorial_note"] = fixed["editorial_note"]
+            changes = _apply_fix(story, all_warnings, house_style_system, client)
+            if changes is not None:
                 story["revision"] = {
                     "replaced": False,
                     "resolved": True,
-                    "summary": fixed["changes"] or ["Applied fixes for flagged issues."],
+                    "summary": changes,
+                    "remaining": _inconclusive(v.get("warnings") or []),
                 }
             else:
                 story["revision"] = {
                     "replaced": False,
                     "resolved": False,
-                    "summary": ["Auto-fix failed to run — original flagged issues remain, editor should review."],
+                    "summary": ["Auto-fix failed to run. The original flagged issues remain."],
+                    "remaining": all_warnings,
                 }
 
     briefing["stories"] = stories
