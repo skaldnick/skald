@@ -134,9 +134,22 @@ def on_load_draft():
     for i in range(MAX_STORIES):
         if i < len(stories):
             s = stories[i]
-            revision_summary = (s.get("revision") or {}).get("summary") or []
+            revision = s.get("revision") or {}
+            revision_summary = revision.get("summary") or []
             if revision_summary:
-                warning_md = "".join(f"\n\n✓ **Auto-corrected:** {w}" for w in revision_summary)
+                # A resolved revision's summary lines are fixes (✓). An unresolved
+                # one's are problems that remain (⚠️), never shown under a tick.
+                # Drafts from before 2026-11-24 mixed unfixed replacement flags
+                # into a "resolved" summary as "Note: the replacement was also
+                # flagged — ..." lines; those are shown as ⚠️ too.
+                resolved = revision.get("resolved", True)
+                warning_md = ""
+                for w in revision_summary:
+                    if resolved and not w.startswith("Note: the replacement was also flagged"):
+                        warning_md += f"\n\n✓ **Auto-corrected:** {w}"
+                    else:
+                        warning_md += f"\n\n⚠️ **Not resolved:** {w}"
+                warning_md += "".join(f"\n\n⚠️ **Still flagged:** {w}" for w in revision.get("remaining") or [])
             else:
                 v_warnings = (s.get("verification") or {}).get("warnings") or []
                 sc_warnings = (s.get("style_check") or {}).get("warnings") or []
