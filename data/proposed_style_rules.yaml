@@ -2,4 +2,18 @@
 # Populated automatically by tools/extract_learning.py (via GitHub Actions on push
 # to data/feedback/). Review and promote/edit in the dashboard's 'Proposed style
 # rules' section — accepted rules move to prompts/payments/style_rules.yaml.
-[]
+- date: '2026-11-24'
+  rule: 'Do not base a story on inaccurate or incomplete secondary sources when a
+    primary source
+
+    is available. Before drafting, verify the core facts — including which specific
+    entities
+
+    are involved and what the precise news event is — against the primary source document
+
+    (eg, an official press release, central bank announcement, or regulatory statement).
+
+    Fabricated or assumed details (such as a list of countries not named in the source)
+
+    must never appear in the draft.'
+  supersedes: 39
