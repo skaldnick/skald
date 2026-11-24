@@ -1,0 +1,56 @@
+name: Update site metrics
+
+# Weekly refresh of the "How Skald works" page on vikingmedia.org: regenerates
+# site/data/skald_metrics.json in skaldnick/vikingmedia-site from this repo's
+# feedback, drafts and style-rule history, and pushes it if anything changed.
+# Cloudflare Pages rebuilds the site on that push.
+#
+# Needs secret SITE_REPO_TOKEN: a fine-grained PAT with Contents read/write on
+# skaldnick/vikingmedia-site only. The default GITHUB_TOKEN can't push to
+# another repo.
+
+on:
+  schedule:
+    - cron: '0 8 * * 6'   # Saturdays 08:00 UTC, after the Mon-Fri briefings
+  workflow_dispatch:
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          # site_metrics.py reads style_rules.yaml at each past month end from
+          # git history, so it needs the full history, not a shallow clone.
+          fetch-depth: 0
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install dependencies
+        run: pip install pyyaml
+
+      - name: Generate metrics
+        run: python tools/site_metrics.py > /tmp/skald_metrics.json
+
+      - uses: actions/checkout@v4
+        with:
+          repository: skaldnick/vikingmedia-site
+          token: ${{ secrets.SITE_REPO_TOKEN }}
+          path: site-repo
+
+      - name: Commit to vikingmedia-site if changed
+        working-directory: site-repo
+        run: |
+          cp /tmp/skald_metrics.json site/data/skald_metrics.json
+          git config user.name "skald-bot"
+          git config user.email "skald-bot@users.noreply.github.com"
+          git add site/data/skald_metrics.json
+          if git diff --cached --quiet; then
+            echo "Metrics unchanged; nothing to push."
+            exit 0
+          fi
+          git commit -m "Update Skald workflow metrics $(date +%Y-%m-%d)"
+          git pull --rebase origin main
+          git push
