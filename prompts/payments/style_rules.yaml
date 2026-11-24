@@ -215,13 +215,13 @@
     The "c" prefix abbreviation is non-standard; prefer the adjective "commercial"
     spelled out in full before the standard abbreviation.
 - id: 39
-  date: '2026-08-03'
-  rule: Do not base a story on a summary or snippet when the primary source document
-    is available. Use the actual source — the full letter, report, or statement —
-    and write the story from its content directly. If the original source contains
-    named individuals, specific arguments, and concrete claims, these must be reflected
-    in the body rather than paraphrased vaguely as "a letter from an open banking
-    payments company".
+  date: '2026-11-24'
+  rule: Do not base a story on inaccurate or incomplete secondary sources when a primary
+    source is available. Before drafting, verify the core facts — including which
+    specific entities are involved and what the precise news event is — against the
+    primary source document (eg, an official press release, central bank announcement,
+    or regulatory statement). Fabricated or assumed details (such as a list of countries
+    not named in the source) must never appear in the draft.
 - id: 40
   date: '2026-08-18'
   rule: The standfirst must name the specific stakes or consequences of the story
