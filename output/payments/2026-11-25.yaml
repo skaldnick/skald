@@ -1,0 +1,352 @@
+title: 'APP fraud rises; Adyen leadership change; Kosovo instant payments; FCA open
+  finance
+
+  '
+stories:
+- headline: UK authorised push payment fraud losses rise 22% to £316m in first half
+    of 2026
+  standfirst: The increase reverses early signs that mandatory reimbursement was suppressing
+    fraud volumes, raising questions about the PSR regime's deterrent effect.
+  body: 'UK Finance figures show a 22% year-on-year increase in authorised push payment
+    fraud losses, which reached £316 million in the first half of 2026.
+
+
+    PSR''s mandatory reimbursement framework, which took effect in late 2024, initially
+    appeared to be reducing fraud volumes. A PSR study published in July found that
+    the rules had cut losses by £73 million in their first months of operation. The
+    latest figures suggest that effect may have been temporary, or that fraudsters
+    have adapted their methods to circumvent the controls that banks put in place
+    to comply with the new regime.
+
+
+    The reimbursement model''s core premise was that shifting liability to sending
+    banks would create stronger incentives to prevent fraud. With losses climbing
+    despite those incentives, regulators are examining whether the scheme''s calibration,
+    including the £85,000 reimbursement cap, needs revisiting.'
+  editorial_note: Follows the previously covered PSR study from July showing early
+    success of mandatory reimbursement. The new angle is that H1 2026 data now shows
+    losses rebounding sharply, challenging the narrative that the regime is working.
+  sources: '[UK APP fraud losses continue to rise](https://www.finextra.com/newsarticle/48799/uk-app-fraud-losses-continue-to-rise?utm_medium=rssfinextra&utm_source=finextrafeed)
+    — Finextra'
+  style_check:
+    compliant: false
+    warnings:
+    - Headline uses 'APP fraud' without spelling out the abbreviation. Per rule on
+      avoiding industry abbreviations, should use 'authorised push payment fraud'
+      or introduce as 'authorised push payment (APP) fraud' if the abbreviation will
+      recur in body.
+    - Body opens with 'Losses from authorised push payment fraud' — this is a near-verbatim
+      restatement of the headline's substantive point. Per rule on varying opening
+      across headline and body, the body's first sentence should lead with a stronger,
+      more direct angle rather than repeating the headline's framing.
+    - Paragraph 2 uses 'The PSR's mandatory reimbursement framework' — 'The PSR' is
+      an acronym-only organisation name and should not take 'The' as an article per
+      rule. Should read 'PSR's mandatory reimbursement framework'.
+    - Paragraph 3 opens 'The data will intensify scrutiny' — this is a weakened opening
+      that announces significance ('intensify scrutiny') before making the substantive
+      point. Per rule, lead directly with the substantive claim rather than framing
+      it as a matter of heightened attention.
+    - Paragraph 3 uses 'regulators face pressure to consider whether' — this hedges
+      the substantive point with 'face pressure' language. Per rule against opening
+      with hedging scene-setters, lead directly with the substantive claim — e.g.,
+      'regulators are examining whether the scheme's calibration needs revisiting.'
+  verification:
+    verified: true
+    stale: false
+    duplicate: false
+    warnings: []
+  revision:
+    replaced: false
+    resolved: true
+    summary:
+    - Spelled out 'authorised push payment fraud' in headline instead of abbreviation
+      'APP fraud', per rule on avoiding unexpanded industry abbreviations.
+    - Rewrote body's opening sentence to lead with the UK Finance attribution and
+      percentage increase rather than near-verbatim repeating the headline's framing.
+    - Removed article 'The' before 'PSR's' in paragraph 2, per rule that acronym-only
+      organisation names do not take 'The'.
+    - Rewrote paragraph 3 opening to lead with the substantive point about the reimbursement
+      model's premise rather than announcing significance with 'The data will intensify
+      scrutiny'.
+    - Replaced hedging construction 'regulators face pressure to consider whether'
+      with direct 'regulators are examining whether'.
+    remaining: []
+- headline: Adyen co-founder Pieter van der Does retires as sole CEO takes charge
+  standfirst: Single leadership at one of Europe's largest independent payment processors
+    follows a period of active dealmaking and competitive pressure from Stripe.
+  body: 'Pieter van der Does, co-founder and co-CEO of Adyen, is retiring from the
+    Dutch payments processor, leaving Ingo Uytdehaage as sole chief executive. Van
+    der Does co-founded Adyen in 2006 and has led the company through its 2018 Amsterdam
+    listing and its expansion into a full-stack platform serving global merchants.
+
+
+    The transition comes during a period of active dealmaking for Adyen, which agreed
+    a $335 million acquisition of billing platform Orb in June and recently appointed
+    Klarna''s Niclas Neglen as chief financial officer. The sole CEO structure consolidates
+    decision-making as the company integrates acquisitions and competes with Stripe,
+    which is itself pursuing large-scale M&A including its reported $53 billion approach
+    for PayPal.
+
+
+    Adyen''s market capitalisation stands at roughly €28 billion. Van der Does''s
+    departure removes one of the last founder-executives still running a major European
+    payments company and marks a generational shift in leadership at the continent''s
+    largest independent payment processor.'
+  editorial_note: A founder departure at this scale reshapes Adyen's governance from
+    founder-led to institutionally managed, with implications for strategic direction
+    during a period of consolidation across European payments.
+  sources: '[Adyen co-CEO van der Does retires](https://www.finextra.com/newsarticle/48801/adyen-co-ceo-van-der-does-retires?utm_medium=rssfinextra&utm_source=finextrafeed)
+    — Finextra'
+  style_check:
+    compliant: false
+    warnings:
+    - Standfirst opens by naming the organisation ('Adyen') which is also the subject
+      of the headline. Rule 1 requires opening with the substantive point instead
+      — e.g., 'Single leadership simplifies decision-making...' rather than naming
+      the company upfront.
+    - Body paragraph 2 uses 'Moving to a single CEO structure simplifies decision-making'
+      — a weak opening that hedges significance before stating the point. Rule 21
+      requires leading directly with substantive claims rather than qualifying phrases
+      like 'moving to' that delay the main point.
+    - Editorial note states 'A founder departure at Europe's largest independent payments
+      processor is a significant leadership event' — this explicitly flags significance
+      ('significant leadership event'). Rule 11 prohibits announcing importance before
+      explaining it; the note should state the substantive consequences directly without
+      the significance framing.
+  verification:
+    verified: false
+    stale: false
+    duplicate: false
+    warnings:
+    - Market capitalisation stated as €50bn but sources show approximately €26-30bn
+      as of November 2026
+  revision:
+    replaced: false
+    resolved: true
+    summary:
+    - Revised standfirst to open with the substantive point ('Single leadership…')
+      rather than naming Adyen, per rule 1.
+    - Corrected market capitalisation from '€50 billion' to '€28 billion' to reflect
+      approximate current valuation range (€26-30bn) indicated by fact-check sources.
+    - Rewrote body paragraph 2 opening to lead with the substantive claim ('The sole
+      CEO structure consolidates decision-making…') rather than the hedging 'Moving
+      to' construction.
+    - Revised editorial note to remove explicit significance framing ('significant
+      leadership event') and instead state the substantive consequence directly, per
+      rule 11.
+    remaining: []
+- headline: Four Kosovo banks go live on instant payments via TIPS Clone
+  standfirst: The launch extends the Western Balkans' TIPS-based rollout, connecting
+    a further economy to ECB-linked instant payment infrastructure.
+  body: 'Four banks in Kosovo launched instant payment services on Sunday (November
+    23) using the TIPS Clone system, a local instance of the ECB''s TARGET Instant
+    Payment Settlement (TIPS) platform. The launch follows Albania''s connection to
+    the same infrastructure earlier in November and brings a further Western Balkans
+    economy onto euro-denominated real-time rails.
+
+
+    The rollout is part of a broader programme, supported by the World Bank, to connect
+    non-EU Balkans economies to European instant payment infrastructure. Three additional
+    Western Balkans economies joined the TIPS-based network in late November. Kosovo''s
+    four participating banks represent a subset of the country''s ten licensed banks,
+    with further institutions expected to follow.
+
+
+    The progressive buildout of TIPS-connected infrastructure across south-east Europe
+    creates a wider potential reach for pan-European payment products such as Wero,
+    even in markets outside the EU. It also reinforces the ECB''s strategy of extending
+    euro payment rails beyond the eurozone''s formal borders.'
+  editorial_note: Advances the previously covered Western Balkans TIPS expansion story
+    with a specific new go-live event in Kosovo, providing concrete evidence of the
+    infrastructure buildout progressing market by market.
+  sources: '[Four Kosovo banks launch instant payment service](https://seenews.com/news/four-kosovo-banks-launch-instant-payment-service-1305506)
+    — SeeNews'
+  style_check:
+    compliant: false
+    warnings:
+    - Standfirst opens by naming 'Kosovo' as the subject when the headline already
+      identifies it. Per rule [1], the standfirst should open with the substantive
+      point (the action/consequence) rather than the geographic subject. Recast to
+      open with 'The move extends…' or 'Four banks have gone live…'
+    - Body paragraph 3 opens with 'For EPI and Wero, the progressive buildout…' —
+      this is a audience-address construction similar to 'For European payments professionals,'
+      which rule [26] prohibits. State the relevance directly as part of the narrative
+      without prefacing it with this framing.
+    - Abbreviation 'TIPS' is introduced in the headline and standfirst without being
+      spelled out. Per rule [12], when an abbreviation recurs in the piece, it must
+      be introduced in full on first use in the body — eg, 'TARGET Instant Payment
+      Settlement (TIPS)' — before using the short form. The body does spell it out
+      on first mention, but the headline and standfirst use it unintroduced.
+    - The phrase 'as previously reported' in paragraph 2 references coverage not included
+      in this piece. Per rule [24], do not include editorial notes or references to
+      missing information in the body text itself. Either integrate the context directly
+      or omit the reference.
+  verification:
+    verified: false
+    stale: false
+    duplicate: false
+    warnings:
+    - Headline states 'Monday (November 24)' but launch occurred November 23, 2026
+      (Sunday). Official presentation ceremony was November 23; banks' TIPS-K operations
+      began same day.
+  revision:
+    replaced: false
+    resolved: true
+    summary:
+    - Corrected launch day from 'Monday (November 24)' to 'Sunday (November 23)' per
+      the official presentation ceremony date.
+    - Recast standfirst to open with 'The launch extends…' rather than naming Kosovo,
+      avoiding redundant repetition of the headline's subject per rule [1].
+    - Removed 'For EPI and Wero,' audience-address framing from paragraph 3 opening
+      per rule [26]; restated the point directly as part of the narrative.
+    - Introduced TIPS abbreviation in parentheses on first use in the body — 'TARGET
+      Instant Payment Settlement (TIPS)' — per rule [12], since the abbreviation recurs
+      throughout the piece. Headline and standfirst use of TIPS is acceptable per
+      rule [24a] allowing recognisable abbreviations in standfirsts without spell-out.
+    - Removed 'as previously reported' from paragraph 2, integrating the context directly
+      without referencing prior coverage.
+    remaining: []
+- headline: FCA to launch stakeholder engagement on open finance at turn of the year
+  standfirst: Planned outreach follows the October taskforce report identifying infrastructure
+    gaps, moving the UK closer to a formal open finance framework.
+  body: 'The UK''s Financial Conduct Authority (FCA) will begin targeted stakeholder
+    engagement on open finance at the start of 2027, according to Open Banking Expo.
+    The engagement follows the FCA''s October taskforce report, which mapped use cases
+    and identified infrastructure gaps that would need to be addressed before broadening
+    data-sharing obligations beyond payments accounts.
+
+
+    The FCA published its original open finance roadmap in April, setting a 2030 target
+    and placing investment data in scope. Since then, the regulator has signalled
+    through speeches by Nikhil Rathi, the FCA''s chief executive, and through the
+    taskforce''s work that the pace of delivery will depend on resolving practical
+    questions around liability, consent management and API standards for non-payments
+    data such as pensions and insurance.
+
+
+    The move toward structured engagement suggests the FCA is preparing to consult
+    formally in 2027, likely before the summer. For firms building on open banking
+    infrastructure, the strategic question is whether the FCA will mandate participation
+    from data holders in new sectors or rely on voluntary adoption, which has historically
+    produced uneven coverage.'
+  editorial_note: Advances the FCA open finance story beyond the October taskforce
+    report with a concrete next step — stakeholder engagement at the turn of the year
+    — indicating the regulatory timeline is tightening.
+  sources: '[FCA sets out next steps on Open Finance as regulatory plans gather pace](https://www.openbankingexpo.com/news/fca-sets-out-next-steps-on-open-finance-as-regulatory-plans-gather-pace/)
+    — Openbankingexpo'
+  style_check:
+    compliant: false
+    warnings:
+    - Standfirst opens by naming the organisation ('The regulator') that is also the
+      subject of the headline ('FCA'). Per rule [1], the standfirst should open with
+      the substantive point or action, not re-identify the subject. Recast to begin
+      with 'The planned outreach follows...' or similar.
+    - Body paragraph 2 uses 'chief executive Nikhil Rathi' in a possessive construction
+      ('speeches by chief executive Nikhil Rathi'). Per rule [45], avoid introducing
+      organisation names in possessive constructions when they will be initialised
+      in parentheses. Restructure to 'speeches by Nikhil Rathi, the FCA's chief executive'
+      or similar.
+    - The sentence 'For firms building on open banking infrastructure, the question
+      is whether...' opens a paragraph with a colon-introduced binary question. Per
+      rule [3], this should be recast with a preposition — e.g., 'For firms building
+      on open banking infrastructure, the key strategic question is whether the FCA
+      will mandate...' or similar.
+  verification:
+    verified: true
+    stale: false
+    duplicate: false
+    warnings: []
+  revision:
+    replaced: false
+    resolved: true
+    summary:
+    - Standfirst recast to open with 'Planned outreach follows…' instead of 'The regulator's
+      planned outreach…', removing the redundant re-identification of the FCA per
+      rule [1].
+    - Restructured 'speeches by chief executive Nikhil Rathi' to 'speeches by Nikhil
+      Rathi, the FCA's chief executive' to avoid possessive construction issues per
+      rule [45].
+    - Recast 'the question is whether' to 'the strategic question is whether', removing
+      the colon-introduced binary question pattern per rule [3].
+    remaining: []
+- headline: Payoneer wins conditional OCC nod to form US stablecoin national trust
+    bank
+  standfirst: The cross-border payments firm's preliminary approval from the Office
+    of the Comptroller of the Currency positions it to issue and custody stablecoins
+    under a federal banking charter, adding a new entrant to the US stablecoin banking
+    race.
+  body: 'Payoneer has received preliminary conditional approval from the Office of
+    the Comptroller of the Currency (OCC) to form a stablecoin national trust bank.
+    The approval would allow the company to issue and custody stablecoins under a
+    federal charter, joining a small but growing cohort of payments firms seeking
+    direct access to US banking infrastructure for digital asset services.
+
+
+    The OCC has become more receptive to fintech and stablecoin-related charter applications
+    under the current administration. Itau received preliminary national bank approval
+    in August, and Wise refiled its own charter application in July after an initial
+    rejection. Payoneer''s application is distinct in its focus on stablecoins specifically,
+    rather than a general-purpose banking licence.
+
+
+    Payoneer processes cross-border payments for merchants and freelancers across
+    more than 190 countries. A stablecoin banking capability would allow the company
+    to settle cross-border flows in tokenised dollars without relying on third-party
+    stablecoin issuers, potentially reducing costs and settlement times for its core
+    customer base. Payoneer must still meet further OCC requirements before commencing
+    operations.'
+  editorial_note: Payoneer's OCC approval is a material development in the growing
+    intersection of cross-border payments and stablecoins, relevant to European firms
+    watching US regulatory signals and the competitive positioning of cross-border
+    payment providers.
+  sources: '[Payoneer scores preliminarily OCC approval for stablecoin bank](https://www.finextra.com/newsarticle/48798/payoneer-scores-preliminarily-occ-approval-for-stablecoin-bank?utm_medium=rssfinextra&utm_source=finextrafeed)
+    — Finextra'
+  style_check:
+    compliant: false
+    warnings:
+    - Headline starts with 'Payoneer receives preliminary US approval' and body opens
+      with 'Payoneer has received preliminary conditional approval' — the headline
+      and body opening share the same subject and near-identical phrasing. Per rule
+      [26], do not weaken the body's opening to avoid repetition; revise the headline
+      or standfirst instead.
+    - Paragraph 2 opens with 'The move comes as the OCC has become more receptive…'
+      — this uses 'The move' as a scene-setter before the substantive point. Per rule
+      [16], do not use 'The move is notable' or equivalent constructions; write the
+      substantive point directly.
+    - Body paragraph 3 contains 'The conditional nature of the approval means Payoneer
+      must still meet further regulatory requirements before commencing operations.'
+      This is a hedging scene-setter that delays the substantive point. Per rule [20],
+      do not lead with hedging constructions like 'The deal is far from certain';
+      lead directly with the substantive claim.
+    - The standfirst references 'OCC approval' without spelling out the abbreviation
+      on first use, then the body spells it out as 'Office of the Comptroller of the
+      Currency (OCC)'. Per rule [32], when an abbreviation is spelled out in the standfirst,
+      the body must still introduce the full form on first use if the abbreviation
+      recurs in the body — however, the standfirst should not use an abbreviation
+      without spelling it out first. The standfirst should read 'the Office of the
+      Comptroller of the Currency (OCC)' or avoid the abbreviation.
+  verification:
+    verified: true
+    stale: false
+    duplicate: false
+    warnings: []
+  revision:
+    replaced: false
+    resolved: true
+    summary:
+    - Revised headline to 'Payoneer wins conditional OCC nod to form US stablecoin
+      national trust bank' to differentiate phrasing from the body's opening sentence,
+      per rule [26].
+    - Standfirst now spells out 'the Office of the Comptroller of the Currency' rather
+      than using the bare abbreviation 'OCC', per rule [32].
+    - Removed 'The move comes as' scene-setter opening paragraph 2; the paragraph
+      now leads directly with the substantive point about OCC receptivity, per rule
+      [16].
+    - Reworded the final sentence of paragraph 3 to remove hedging scene-setter ('The
+      conditional nature of the approval means…') and state the remaining requirement
+      directly, per rule [20].
+    remaining: []
+social_post: 'UK APP fraud losses jump 22% — so much for mandatory reimbursement as
+  a deterrent. Plus: Adyen''s co-founder retires, Kosovo goes live on TIPS, and the
+  FCA readies open finance engagement. {link}'
+status: ready
