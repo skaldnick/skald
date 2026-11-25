@@ -2,4 +2,51 @@
 # Populated automatically by tools/extract_learning.py (via GitHub Actions on push
 # to data/feedback/). Review and promote/edit in the dashboard's 'Proposed style
 # rules' section — accepted rules move to prompts/payments/style_rules.yaml.
-[]
+- date: '2026-11-25'
+  rule: 'Do not use a possessive acronym (eg, "PSR''s") when the full name has not
+    yet been established
+
+    in the same paragraph or when a clearer construction is available. Write out the
+    full
+
+    organisation name as the grammatical subject — eg, "The Payment System Regulator''s
+    mandatory
+
+    reimbursement framework" — and on subsequent references within the same piece,
+    use a
+
+    descriptive noun phrase ("the regulator") rather than repeating either the acronym
+    possessive
+
+    or the full name.'
+  supersedes: 66
+- date: '2026-11-25'
+  rule: 'When attributing a study or publication to an organisation that has already
+    been named and
+
+    abbreviated in the same piece, use a descriptive phrase ("a study published by
+    the regulator")
+
+    rather than repeating the acronym possessive ("A PSR study"). This avoids mechanical
+    acronym
+
+    repetition and keeps attribution natural.'
+- date: '2026-11-25'
+  rule: 'When an individual''s title includes a possessive reference to an organisation
+    that has already
+
+    been named and abbreviated, replace the repeated organisation name or acronym
+    with a
+
+    possessive pronoun — eg, "its chief executive" rather than "the FCA''s chief executive"
+    — when
+
+    the referent is unambiguous from context.'
+- date: '2026-11-25'
+  rule: 'Do not select a story if it substantially duplicates or retreads ground covered
+    by a story
+
+    already published in the previous day''s briefing. Avoid part-duplicates even
+    if the angle
+
+    or framing differs slightly.'
