@@ -429,3 +429,33 @@
     include the day of the week and put the date in parentheses immediately after
     — eg, "on Friday (November 20)" rather than "on November 20" alone — provided
     the day of the week is known and adds useful orientation for the reader.
+- id: 78
+  date: '2026-11-25'
+  rule: When attributing a study or publication to an organisation that has already
+    been named and
+- id: 79
+  date: '2026-11-25'
+  rule: abbreviated in the same piece, use a descriptive phrase ("a study published
+    by the regulator")
+- id: 80
+  date: '2026-11-25'
+  rule: rather than repeating the acronym possessive ("A PSR study"). This avoids
+    mechanical acronym
+- id: 81
+  date: '2026-11-25'
+  rule: repetition and keeps attribution natural.
+- id: 82
+  date: '2026-11-25'
+  rule: When an individual's title includes a possessive reference to an organisation
+    that has already
+- id: 83
+  date: '2026-11-25'
+  rule: been named and abbreviated, replace the repeated organisation name or acronym
+    with a
+- id: 84
+  date: '2026-11-25'
+  rule: possessive pronoun — eg, "its chief executive" rather than "the FCA's chief
+    executive" — when
+- id: 85
+  date: '2026-11-25'
+  rule: the referent is unambiguous from context.
