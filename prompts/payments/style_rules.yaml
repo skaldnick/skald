@@ -459,3 +459,9 @@
 - id: 85
   date: '2026-11-25'
   rule: the referent is unambiguous from context.
+- id: 86
+  date: '2026-11-26'
+  rule: Do not make factual corrections to dates or years based on assumed context
+    when the source material specifies the date explicitly. Verify against the source
+    before changing any date, day of week, or year — do not "correct" a date that
+    is in fact accurate.
