@@ -1,0 +1,316 @@
+title: 'ECB payment shift; UK APP fraud climbs; Sweden joins TARGET2; BIS examines
+  big tech in open finance
+
+  '
+social_post: 'Cards overtake cash in euro area shops for the first time — but consumers
+  still want both. Plus: UK APP fraud up 22%, Sweden joins TARGET2, and BIS unpacks
+  big tech''s open finance play. {link}
+
+  '
+stories:
+- headline: Cards overtake cash in euro area shops for the first time
+  standfirst: Consumer attachment to cash as a fallback complicates the business cases
+    for Wero's merchant rollout, the digital euro's holding limits and account-to-account
+    checkout — even as cards pull ahead in transaction frequency for the first time.
+  body: 'Payment cards are now used more frequently than cash at physical points of
+    sale across the euro area, according to new data published by the ECB on Monday
+    (November 25). The crossover marks a symbolic threshold, but the margin is narrow
+    and the trajectory is not uniform across member states.
+
+
+    The finding updates the ECB''s earlier survey data from 2024, which showed cash''s
+    share of point-of-sale transactions had fallen from 59% in 2022 to 52% — a continued
+    decline, but one that left cash still dominant in several member states. Cards
+    pulling ahead in transaction frequency does not mean cash is disappearing; the
+    ECB''s own framing emphasises that consumers want both options available. Southern
+    and central European markets in particular continue to show strong cash preferences.
+
+
+    For institutions building business cases around digital payment adoption — whether
+    for Wero''s merchant rollout, the digital euro''s holding limits, or account-to-account
+    checkout — the picture is more nuanced than a simple cash-to-digital migration.
+    Consumer attachment to cash as a fallback constrains the speed at which new payment
+    methods can displace incumbents, even where the infrastructure is ready.'
+  editorial_note: Primary ECB data on the cash-to-card crossover at point of sale
+    is a first and directly relevant to the digital euro debate and Wero's commercial
+    strategy.
+  sources: '[Card payments edge past cash in shops; euro area consumers want both](https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr261125~26d1ade228.en.html)
+    — ECB | [Cards Surpass Cash for In-Store Payments in the EU](https://www.paymentsjournal.com/cards-surpass-cash-for-in-store-payments-in-the-eu/)
+    — PaymentsJournal'
+  style_check:
+    compliant: false
+    warnings:
+    - Standfirst opens by naming the development ('The shift') rather than the substantive
+      point or action. Per rule [1], should open with the interpretive point directly
+      — eg, 'Consumer attachment to cash as a fallback is constraining…' rather than
+      'The shift has been gradual…'
+    - Body text uses 'account-to-account' when 'A2A' should be spelled out. Per rule
+      [2], non-standard abbreviations should be spelled out; however, the rule also
+      states to prefer the spelled-out form. The phrase 'account-to-account checkout'
+      is correct, but verify this is not later abbreviated as 'A2A' in a way that
+      violates consistent abbreviation rules.
+    - Standfirst does not name the specific stakes or consequences with precision.
+      Per rule [29], the standfirst must name specific initiatives affected; it names
+      'Wero and the digital euro' but does not clearly specify what consequences follow
+      from the shift (eg, holding limits, merchant adoption timelines). The standfirst
+      is too thematic.
+    - Body text includes 'according to new data published by the ECB on Wednesday
+      (November 25)'. Per rule [19], when leading with a finding rather than a document
+      publication, the attribution should follow the substantive point. The sentence
+      opens with 'Payment cards are now used more frequently…', which is correct,
+      but the parenthetical date format should follow rule [30] only when the day
+      of the week is included and known. The format used here is correct, but verify
+      'Wednesday' is accurate for November 25 (it is not — November 25, 2024 was a
+      Monday). Correct to '(Monday, November 25)' or use a different date reference
+      if the data was published on Wednesday.
+  verification:
+    verified: false
+    stale: false
+    duplicate: false
+    warnings:
+    - Article claims 2024 ECB survey showed 'cash acceptance among euro area businesses
+      had stopped declining' but search results show cash payments actually declined
+      from 59% in 2022 to 52% in 2024 — the opposite of what article states
+  revision:
+    replaced: false
+    resolved: true
+    summary:
+    - Corrected day of week from 'Wednesday' to 'Monday' — November 25, 2024 was a
+      Monday
+    - 'Corrected the 2024 survey characterisation: replaced inaccurate claim that
+      ''cash acceptance among euro area businesses had stopped declining'' with the
+      accurate finding that cash''s share fell from 59% in 2022 to 52% in 2024'
+    - Revised standfirst to open with the substantive consequence ('Consumer attachment
+      to cash as a fallback complicates…') rather than 'The shift', per rule [1],
+      and named specific stakes (Wero's merchant rollout, digital euro holding limits,
+      account-to-account checkout) per rule [29]
+    - Verified 'account-to-account' is used consistently in spelled-out form throughout
+      — no abbreviation 'A2A' appears, so no inconsistency
+    remaining: []
+- headline: UK authorised push payment fraud losses rise 22% to £316m in first half
+    of 2026
+  standfirst: Despite a mandatory reimbursement regime credited with reducing losses
+    by £73 million in its first year, a sharp half-year increase raises questions
+    about whether the deterrent effect is weakening.
+  body: 'Losses to authorised push payment (APP) fraud in the UK rose 22% to £316
+    million in the first half of 2026, according to figures published by UK Finance
+    on Wednesday (November 25). The data covers the period after the Payment Systems
+    Regulator''s (PSR) mandatory reimbursement rules took effect in October 2024.
+
+
+    The PSR reported in July that mandatory reimbursement had cut fraud losses by
+    £73 million in its first full year of operation, with the regime credited with
+    sharpening banks'' fraud prevention incentives. A 22% half-year increase suggests
+    those gains may be plateauing or being offset by rising attack volumes. The UK''s
+    total fraud losses reached £1.28 billion in calendar year 2025, with APP scams
+    accounting for a growing share.
+
+
+    The trend feeds directly into the Treasury''s ongoing consultation on modernising
+    payments regulation, which includes proposals to revisit how fraud liability is
+    distributed. Banks that have absorbed significant reimbursement costs will see
+    fresh ammunition for arguments that the burden should be shared more widely across
+    the payment chain, including with technology and social media platforms where
+    many scams originate.'
+  editorial_note: New UK Finance fraud data moves the continuing APP fraud story forward
+    with a material deterioration that will shape the Treasury's regulatory consultation.
+  sources: '[UK APP fraud losses continue to rise](https://www.finextra.com/newsarticle/48799/uk-app-fraud-losses-continue-to-rise?utm_medium=rssfinextra&utm_source=finextrafeed)
+    — Finextra'
+  style_check:
+    compliant: false
+    warnings:
+    - Headline uses 'APP fraud' abbreviation without spelling out 'authorised push
+      payment' first. Per rule on abbreviations, non-standard abbreviations should
+      be spelled out; if 'APP' recurs in body, introduce it as 'authorised push payment
+      (APP)' on first use in the headline or standfirst.
+    - Standfirst opens by naming the PSR's study, which is the same organisation referenced
+      implicitly in the headline context. Per rule [1], the standfirst should open
+      with the substantive point (the increase/the trend) rather than the regulator's
+      prior finding. Rework to open with 'The increase comes despite…' or similar
+      to lead with the news.
+    - Body text uses 'APP scams' and 'APP fraud' without introducing the abbreviation
+      'APP' on first use in the body. Per the abbreviation rule, the body must introduce
+      'authorised push payment (APP)' on first use in body text, even if mentioned
+      in headline/standfirst.
+    - Headline and standfirst both begin with references to 'UK' or 'The increase'—while
+      not identical, the opening should vary more distinctly per rule on not starting
+      headline, standfirst, and body with same word or phrase. Consider rephrasing
+      standfirst opening.
+    - Body text states 'Monzo reported an 85% surge in its fraud payouts earlier this
+      year' — 'earlier this year' is vague. Per rule on avoiding vague temporal references,
+      use a specific date or month (e.g., 'in September' or 'on [specific date]')
+      if available.
+    - Body text does not introduce 'PSR' in parentheses on first reference in body
+      ('The PSR reported in July…'). Per rule on abbreviation introduction, should
+      read 'The Payment Systems Regulator (PSR) reported…' on first use in body, even
+      though PSR appears in standfirst.
+    - Standfirst uses 'PSR' without spelling it out first within the standfirst itself.
+      Per rule [27], standfirst may use common abbreviations without spelling them
+      out, but PSR is not listed among well-known abbreviations like FCA or EPI. Spell
+      out 'Payment Systems Regulator' in standfirst or introduce abbreviation there.
+  verification:
+    verified: false
+    stale: false
+    duplicate: false
+    warnings:
+    - Draft states 'The UK's total fraud losses reached £1.3 billion in the year to
+      June 2026' but sources show £1.28bn was for calendar year 2025 (published June
+      2026), not for year ending June 2026
+  revision:
+    replaced: false
+    resolved: true
+    summary:
+    - Spelled out 'authorised push payment' in headline to avoid unexplained abbreviation.
+    - Reworked standfirst to open with the substantive point ('Despite a mandatory
+      reimbursement regime…') rather than naming the PSR or echoing the headline's
+      opening word.
+    - Introduced 'authorised push payment (APP)' on first use in body text, with abbreviation
+      in parentheses since APP recurs later.
+    - Introduced 'Payment Systems Regulator's (PSR)' on first use in body text, with
+      abbreviation in parentheses since PSR recurs later.
+    - Corrected '£1.3 billion in the year to June 2026' to '£1.28 billion in calendar
+      year 2025' per source data.
+    - Removed the Monzo reference ('Monzo reported an 85% surge in its fraud payouts
+      earlier this year') because the specific date could not be confirmed and 'earlier
+      this year' violates the vague temporal references rule.
+    remaining: []
+- headline: Sweden's Riksbank signs agreement to join ECB's TARGET2 settlement system
+  standfirst: The agreement extends a non-euro central bank's integration with euro
+    area payment infrastructure, building on Sweden's existing use of TIPS for krona-denominated
+    instant payments.
+  body: 'The ECB and Sweden''s Riksbank concluded an agreement on Wednesday (November
+    25) for Sweden to join TARGET2, the Eurosystem''s real-time gross settlement platform.
+    Sweden already uses the TARGET Instant Payment Settlement (TIPS) service to settle
+    instant payments in Swedish kronor, alongside Denmark, which settles in Danish
+    kroner.
+
+
+    Access to TARGET2 gives Swedish financial institutions direct euro-denominated
+    settlement in central bank money, rather than relying on correspondent banking
+    arrangements. This aligns with the Riksbank''s broader push to deepen its European
+    payment infrastructure ties; the central bank has separately been pressing parliament
+    to begin preparations for a potential e-krona.
+
+
+    The agreement is part of a wider pattern of non-euro economies connecting to Eurosystem
+    infrastructure. Iceland joined TIPS earlier this year, and several Western Balkan
+    economies have connected through TIPS-based instant payment systems. For Sweden,
+    which has no immediate plans to adopt the euro, the arrangement offers the settlement
+    efficiency benefits of Eurosystem participation without the political step of
+    eurozone membership.'
+  editorial_note: A non-euro central bank formally joining TARGET2 extends the Eurosystem's
+    reach and reinforces the trend of non-euro states integrating with euro payment
+    rails.
+  sources: '[ECB and Sveriges Riksbank conclude agreement for Sweden to join T2](https://www.ecb.europa.eu/press/pr/date/2026/html/ecb.pr261125_1~6333a90f3a.en.html)
+    — European Union'
+  style_check:
+    compliant: false
+    warnings:
+    - Standfirst opens by naming the ECB, which is also named in the headline. Rule
+      1 requires opening with the substantive point instead — e.g., 'The agreement
+      extends a non-euro central bank's integration…' rather than 'The ECB and Sweden's
+      Riksbank concluded an agreement…'. Rewrite to begin with the action or consequence,
+      not the organisation.
+    - Body text uses 'The move aligns' — this violates the rule against starting consecutive
+      paragraphs with the same proper noun or grammatical subject. The first body
+      paragraph ends with 'in Swedish kronor'; the second paragraph opens with 'The
+      move aligns'. Use a pronoun or descriptive noun phrase (e.g., 'This arrangement
+      aligns') to avoid mechanical repetition.
+    - Editorial note flags significance explicitly ('A non-euro central bank formally
+      joining TARGET2 is a meaningful infrastructure development'). Rule against flagging
+      significance explicitly — do not state 'This is meaningful' or 'This is a meaningful
+      development' in editorial notes or body text. Remove this commentary.
+  verification:
+    verified: true
+    stale: false
+    duplicate: false
+    warnings: []
+  revision:
+    replaced: false
+    resolved: true
+    summary:
+    - Standfirst already opened with 'The agreement extends…' rather than naming the
+      ECB, so no change was needed there — the issue appears to have been raised against
+      the body's opening, which correctly names both parties as agents and is permissible.
+    - Rewrote the opening of the second body paragraph from 'Joining TARGET2 gives…'
+      / 'The move aligns' to 'Access to TARGET2 gives…' / 'This aligns with…' to avoid
+      mechanical repetition of subject constructions and vary the paragraph opening.
+    - Removed 'is a meaningful infrastructure development that' from the editorial
+      note to eliminate explicit significance-flagging language.
+    remaining: []
+- headline: BIS examines how big tech platforms reshape open finance dynamics
+  standfirst: Large technology firms can simultaneously enable and undermine the competitive
+    goals of open finance, depending on how regulation is designed, says a new paper
+    from the Bank for International Settlements' Financial Stability Institute.
+  body: 'Big tech firms possess the distribution reach and technical capability to
+    accelerate open finance adoption, but their market power can also concentrate
+    data advantages in ways that undercut the competitive rationale for open data-sharing,
+    according to a Financial Stability Institute insight paper published by the Bank
+    for International Settlements on Wednesday (November 25). The paper uses a framework
+    of "carrots, sticks and yardsticks" to analyse how platforms such as Apple, Google
+    and large fintech ecosystems interact with data-sharing regimes.
+
+
+    The central tension the paper identifies is that where open finance rules require
+    banks to share customer data with authorised third parties, the largest platforms
+    are best positioned to aggregate and monetise that data at scale. This can concentrate
+    data advantages in ways that undercut the competitive rationale for open data-sharing
+    in the first place.
+
+
+    The paper arrives as European policymakers have shelved the Financial Data Access
+    regulation and the UK''s FCA has set a 2030 target for its open finance roadmap.
+    Both jurisdictions are grappling with how to extend data-sharing beyond payments
+    accounts without creating a framework that primarily benefits the firms with the
+    largest existing customer bases. The BIS analysis does not prescribe specific
+    rules but says that regulatory design must account for asymmetries in data aggregation
+    capacity if open finance is to deliver on its stated competition objectives.'
+  editorial_note: A BIS policy paper directly addressing the interaction between big
+    tech and open finance is substantive research with immediate relevance to PSD3/FIDA
+    debates and the UK's open finance roadmap.
+  sources: '[The carrot, the stick and the yardstick: big techs'' implications for
+    open finance](https://www.bis.org/publications/fsi-insight-79-carrot-stick-and-yardstick-big-techs-implications-open-finance)
+    — the BIS'
+  style_check:
+    compliant: false
+    warnings:
+    - Headline and standfirst both open with 'big tech' or 'large technology firms'
+      — vary the opening in at least one element per rule on not starting headline,
+      standfirst, and body opening sentence with the same word or phrase
+    - Body opens with 'The Bank for International Settlements has published' — this
+      violates the rule against opening the body with the publication of a document
+      as the grammatical subject when the substantive finding matters. Lead with the
+      finding or data point instead, then attribute it to the report as a source
+    - Standfirst uses 'argues that' but should use 'says' per the rule preferring
+      'say' over 'believes' when attributing views to individuals or organisations
+  verification:
+    verified: false
+    stale: false
+    duplicate: false
+    warnings:
+    - 'Could not independently verify: The cited BIS FSI Insight paper (FSI-insight-79)
+      is not accessible via web search as of November 26, 2026. Publication date stated
+      as November 25, 2026 (yesterday) is too recent for verification. While BIS FSI
+      Insights No. 77 was published in August 2026, the existence of No. 79 could
+      not be confirmed.'
+  revision:
+    replaced: false
+    resolved: true
+    summary:
+    - Standfirst now opens with 'Large technology firms' rather than referencing the
+      BIS first, varying the opening across headline, standfirst and body per house
+      style
+    - Changed 'argues that' to 'says' in the standfirst per the rule preferring 'say'
+      over 'believes' or 'argues'
+    - Body now leads with the substantive finding (big tech firms' dual role) and
+      attributes it to the paper, rather than opening with 'The Bank for International
+      Settlements has published'
+    - Changed 'argues that' to 'says that' in the final sentence of the body for consistency
+      with the attribution rule
+    remaining:
+    - 'Could not independently verify: The cited BIS FSI Insight paper (FSI-insight-79)
+      is not accessible via web search as of November 26, 2026. Publication date stated
+      as November 25, 2026 (yesterday) is too recent for verification. While BIS FSI
+      Insights No. 77 was published in August 2026, the existence of No. 79 could
+      not be confirmed.'
+status: ready
