@@ -2,8 +2,4 @@
 # Populated automatically by tools/extract_learning.py (via GitHub Actions on push
 # to data/feedback/). Review and promote/edit in the dashboard's 'Proposed style
 # rules' section — accepted rules move to prompts/payments/style_rules.yaml.
-- date: '2026-11-26'
-  rule: Do not make factual corrections to dates or years based on assumed context
-    when the source material specifies the date explicitly. Verify against the source
-    before changing any date, day of week, or year — do not "correct" a date that
-    is in fact accurate.
+[]
