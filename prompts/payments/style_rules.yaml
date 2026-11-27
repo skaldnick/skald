@@ -465,3 +465,16 @@
     when the source material specifies the date explicitly. Verify against the source
     before changing any date, day of week, or year — do not "correct" a date that
     is in fact accurate.
+- id: 87
+  date: '2026-11-27'
+  rule: Do not use "ongoing" to describe continuing discussions or processes. Prefer
+    "continuing" — eg, "With trilogue discussions continuing" rather than "With trilogue
+    discussions ongoing".
+- id: 88
+  date: '2026-11-27'
+  rule: 'When an introductory sentence becomes overloaded with attribution, split
+    it into two sentences: the first stating the news development, the second providing
+    the attribution and source detail. For example, prefer "Subscription payments,
+    one-click checkout and optional buyer protection are now available or imminent
+    for Sparkassen customers using Wero. This follows an announcement on Monday (November
+    24) by S-Payment…" over combining both into a single long sentence.'
