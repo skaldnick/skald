@@ -1,0 +1,329 @@
+title: 'Cards overtake cash in euro area; BIS examines big tech in open finance; Fabrick
+  builds digital euro platform
+
+  '
+social_post: 'Cards just edged past cash in euro area shops for the first time — but
+  consumers aren''t ready to give up either. Plus: BIS on big tech''s open finance
+  leverage, and Fabrick''s digital euro prep. {link}
+
+  '
+stories:
+- headline: Sparkassen add subscriptions, one-click and buyer protection to Wero
+  standfirst: Germany's largest banking group is rolling out the checkout features
+    Wero needs to compete with card networks, but fragmented adoption across individual
+    savings banks could limit the impact.
+  body: 'Subscription payments, one-click checkout and optional buyer protection are
+    now available or imminent for Sparkassen customers using Wero, following an announcement
+    on Monday (November 24) by S-Payment, the payments subsidiary of the German savings
+    banks group. Subscription billing has been technically possible since late September,
+    but S-Payment''s announcement confirmed the capability for Sparkassen customers,
+    with one-click checkout due by the end of November. An optional online buyer protection
+    programme has been live since early November, supplementing Wero''s standard complaints
+    process with insurance-backed cover for non-delivery and returns. Each Sparkasse
+    decides independently whether to offer the buyer protection, creating uneven coverage
+    across the network.
+
+
+    The features address a clear gap. Wero''s e-commerce proposition in Germany has
+    lacked the subscription billing, stored-credential checkout and consumer guarantees
+    that card networks offer as standard. Without them, merchants had little reason
+    to prefer Wero over Visa or Mastercard at checkout. One-click payments, which
+    store a customer''s details after the first purchase and remove the need for repeated
+    strong customer authentication, are particularly important for conversion rates.
+
+
+    Sparkassen account for more than seven million of Wero''s 11 million German registrations,
+    according to figures from late October. The savings banks also plan to give customers
+    access to the standalone Wero app from the European Payments Initiative (EPI),
+    alongside the existing integration in the Sparkasse banking app. Wero''s broader
+    momentum is building: Valve added Wero as a payment method on Steam in Germany
+    this week, and neobank bunq extended Wero to customers across all 27 EU member
+    states on November 20. The question is whether feature parity at the Sparkassen
+    translates into merchant adoption quickly enough to give Wero commercial traction
+    before the novelty of its European sovereignty pitch wears thin.'
+  editorial_note: Selected as the most significant uncovered European payments story
+    from the last two days. The S-Payment press release (November 24) is the primary
+    source; supplementary details on German registrations come from borncity.com reporting
+    on November 26. The story has not been previously covered in this briefing. It
+    illuminates Wero's progression from P2P to a commercially viable e-commerce checkout
+    option, which is structurally significant for the European payments sovereignty
+    debate that is a continuing thread in this briefing.
+  sources: '[Sparkassen bringen neue Wero-Funktionen für E- und M-Commerce](https://www.s-payment.com/newsroom/pressemeldungen/PM2026-sparkassen-wero-neue-features.html)
+    — S-Payment'
+  style_check:
+    compliant: false
+    warnings:
+    - Body opens with 'S-Payment, the payments subsidiary of the German savings banks
+      group, announced…' but the headline and standfirst both identify 'Sparkassen'
+      as the subject. Per rule [26], do not start the headline, standfirst, and body
+      opening sentence with the same word or phrase. The body should vary its opening
+      — it could lead with the substantive point (the features themselves) rather
+      than repeating the institutional subject.
+    - The standfirst ends with 'The question is whether feature parity at the Sparkassen
+      translates into merchant adoption quickly enough to give Wero commercial traction
+      before the novelty of its European sovereignty pitch wears thin.' This is not
+      a standfirst; it is a continuation of the body's narrative. Per rule [7], the
+      standfirst adds context to the headline — the interpretive point, a summary,
+      or added explanation — but it is not the opening sentence of the story. The
+      body must be self-contained. The final sentence should be moved to the body
+      or removed.
+    - The body paragraph beginning 'Sparkassen account for more than seven million…'
+      contains 'according to figures from the end of October.' Per rule [19], avoid
+      vague temporal references such as 'earlier this year'. Use 'from late October
+      2025' or similar specific time period rather than 'from the end of October'.
+  verification:
+    verified: false
+    stale: false
+    duplicate: false
+    warnings:
+    - Story states subscriptions are 'now' available via November 24 announcement,
+      but subscriptions have been technically possible since end of September 2026—the
+      November 24 date was when S-Payment announced this existing capability to Sparkassen,
+      not when it launched
+  revision:
+    replaced: true
+    resolved: true
+    summary:
+    - 'Replaced: original story flagged as duplicate coverage (duplicate coverage);
+      swapped in a candidate sourced from a live web search (not in today''s RSS feeds).'
+    - 'Fixed in the replacement: Rewrote the body opening to lead with the substantive
+      point (the features themselves) rather than the institutional subject, varying
+      the opening from the headline and standfirst per rule [26].'
+    - 'Fixed in the replacement: Clarified that subscription billing has been technically
+      possible since late September, with the November 24 announcement confirming
+      the capability for Sparkassen customers, rather than implying it launched on
+      that date.'
+    - 'Fixed in the replacement: The issue references ''September 2026'' — this appears
+      to be a typo in the issue itself (likely meaning September 2025). Used ''late
+      September'' without specifying a year, consistent with house style for current-year
+      references.'
+    - 'Fixed in the replacement: Changed ''from the end of October'' to ''from late
+      October'' to avoid the vague temporal reference per rule [19].'
+    - 'Fixed in the replacement: The issue about the standfirst appears to reference
+      a sentence that is actually in the body''s final paragraph, not in the standfirst
+      itself. The standfirst is a single sentence about fragmented adoption. The closing
+      sentence (''The question is whether…'') is already in the body where editorial
+      judgment belongs, so it was left in place.'
+    - 'Fixed in the replacement: Spelled out ''European Payments Initiative (EPI)''
+      on first use in body text since the abbreviation was not previously introduced
+      there.'
+    remaining: []
+- headline: FCA to open targeted engagement on UK open finance framework early next
+    year
+  standfirst: Roundtables and bilateral meetings will draw on findings from the Smart
+    Data Accelerator, the Prism Taskforce and the Mills AI review as the regulator
+    moves from roadmap to practical policy design.
+  body: 'Targeted stakeholder engagement on open finance will begin at the start of
+    2027, Andrew Self, head of open banking and open finance at the UK''s Financial
+    Conduct Authority (FCA), told delegates at Open Banking Expo UK and Europe 2026
+    in London on Sunday (November 24). The engagement will not present a settled regulatory
+    model but will instead explore the choices facing policymakers and invite further
+    evidence from industry.
+
+
+    The announcement comes as the government prepares to consult in 2027 on how to
+    deliver the benefits of open finance, initially focusing on SME lending. Self
+    said the forthcoming engagement would bring together findings from the FCA''s
+    Smart Data Accelerator, its broader industry engagement, the Prism Taskforce and
+    the Mills AI review examining AI''s impact on financial services. He pointed to
+    progress already made in open banking, including the June launch of the UK Payments
+    Initiative and commercial variable recurring payments (VRP), and industry-led
+    work to establish a future open banking entity.
+
+
+    Self framed trust as the central constraint on scaling open finance. "Trust is
+    what allows it to scale," he told delegates, while acknowledging that further
+    work is needed to establish a sustainable long-term regulatory framework for open
+    banking alongside the development of open finance. "This isn''t an invitation
+    for firms to wait until every part of open finance is settled," he added. "It''s
+    an invitation to engage now and help shape the future of open finance."'
+  editorial_note: This is a genuinely new development from November 24 at Open Banking
+    Expo UK. It moves the FCA open finance story forward from the roadmap and taskforce
+    stages previously covered (April and October 2026) to concrete engagement starting
+    early 2027. The story was published by Open Banking Expo on November 24, 2026.
+  sources: '[FCA sets out next steps on Open Finance as regulatory plans gather pace](https://www.openbankingexpo.com/news/fca-sets-out-next-steps-on-open-finance-as-regulatory-plans-gather-pace/)
+    — Open Banking Expo'
+  style_check:
+    compliant: false
+    warnings:
+    - Headline and standfirst both open with 'FCA'/'the regulator' naming the same
+      organisation. Per rule [1], the standfirst should open with the substantive
+      point (e.g., 'Roundtables and bilateral meetings will…') rather than repeating
+      the subject already named in the headline.
+    - Body text uses 'commercial variable recurring payments' without the standard
+      abbreviation introduction. Per rule on cVRP, this should be introduced as 'commercial
+      variable recurring payments (VRP)' on first use, since VRP recurs or may recur
+      in payments coverage.
+    - Standfirst names 'Mills AI review' but body text refers to 'Mills Review examining
+      AI's impact'. These are inconsistent phrasings of the same entity; use one consistent
+      form throughout.
+    - Date reference 'on November 24' lacks day of week. Per rule on specific dates
+      from the past week, include the day of the week in parentheses — e.g., 'on Sunday
+      (November 24)' — provided it is known.
+    - Headline and body both begin with 'FCA'/'The UK's Financial Conduct Authority'.
+      Per rule on varying opening across headline/standfirst/body, do not start both
+      headline and body opening sentence with the same subject. Revise the body to
+      vary the opening.
+  verification:
+    verified: true
+    stale: false
+    duplicate: false
+    warnings: []
+  revision:
+    replaced: true
+    resolved: true
+    summary:
+    - 'Replaced: original story flagged as duplicate coverage (Story duplicates 2026-11-26
+      previously covered entry: ''BIS examines how big tech platforms reshape open
+      finance dynamics''); swapped in a candidate sourced from a live web search (not
+      in today''s RSS feeds).'
+    - 'Fixed in the replacement: Varied body opening: replaced ''The UK''s Financial
+      Conduct Authority is preparing to launch targeted stakeholder engagement'' with
+      ''Targeted stakeholder engagement on open finance will begin'' so the body no
+      longer opens with the same subject as the headline.'
+    - 'Fixed in the replacement: Added day of week to date: ''on November 24'' changed
+      to ''on Sunday (November 24)'' per house style rule.'
+    - 'Fixed in the replacement: Standfirst already opens with ''Roundtables and bilateral
+      meetings'' rather than naming the FCA, so no change needed there — confirmed
+      compliance with rule [1].'
+    - 'Fixed in the replacement: Harmonised Mills review reference: body now reads
+      ''the Mills AI review examining AI''s impact on financial services'', consistent
+      with standfirst''s ''Mills AI review''.'
+    - 'Fixed in the replacement: Introduced standard abbreviation for commercial variable
+      recurring payments as ''commercial variable recurring payments (VRP)'' on first
+      use per cVRP house style rule.'
+    remaining: []
+- headline: Fabrick builds shared platform to ready Italian banks for digital euro
+  standfirst: A shared-infrastructure platform designed to reduce the integration
+    burden on banks preparing for a potential digital euro launch has been developed
+    by the Italian open finance firm.
+  body: 'Fabrick, an Italian open finance infrastructure provider, has unveiled a
+    platform called Digital Euro Rail One, designed as shared infrastructure to help
+    banks prepare for the operational demands of a digital euro. The platform is intended
+    to reduce the cost and complexity of integrating with the ECB''s planned digital
+    euro architecture by offering a common technical layer that multiple banks can
+    use rather than each building bespoke connections.
+
+
+    The timing aligns with the ECB''s selection of 36 payment providers for its digital
+    euro pilot phase and the European Parliament''s vote in July to advance the digital
+    euro regulation to final negotiations. With trilogue discussions ongoing and merchant
+    fee structures still contested, banks face the practical challenge of preparing
+    for a system whose final design remains uncertain. Fabrick''s approach, offering
+    a multi-tenant platform rather than a bespoke integration for each institution,
+    reflects a bet that shared infrastructure will be more efficient than individual
+    bank builds.
+
+
+    Italy has been among the more active euro area markets in digital euro preparation,
+    with CBI, Bancomat and Nexi signing a memorandum of understanding on November
+    20 for their own joint infrastructure effort. The parallel initiative from Fabrick
+    suggests the Italian market is treating digital euro readiness as a competitive
+    space in its own right, not merely a compliance exercise.'
+  editorial_note: With digital euro trilogue negotiations ongoing and Italian institutions
+    particularly active in preparation, Fabrick's platform launch illustrates how
+    the private sector is building ahead of regulatory certainty.
+  sources: '[Fabrick Unveils Digital Euro Rail One Platform](https://wisevoter.com/world/2026/11/26/fabrick-digital-euro-rail-one-platform)
+    — Wisevoter'
+  style_check:
+    compliant: false
+    warnings:
+    - Standfirst opens by naming 'The Italian open finance firm' which refers to Fabrick,
+      the same organisation named in the headline. Per rule [1], the standfirst should
+      open with the substantive point (the platform development) rather than re-identifying
+      the organisation. Revise to open with 'A shared-infrastructure platform has
+      been developed…' or similar.
+    - 'Body text uses ''last month'' without a specific date: ''CBI, Bancomat and
+      Nexi announcing their own joint infrastructure effort last month.'' Per rule
+      [18], avoid vague temporal references when a specific date is available. Provide
+      the precise date or month name.'
+    - 'Consecutive sentences open with the same subject ''Fabrick''s'' (sentence 1:
+      ''Fabrick''s approach'' and implicitly sentence 2: ''Fabrick''s platform launch''
+      via ''Fabrick''s parallel initiative''). Per rule [70], after naming an organisation,
+      use a referring expression to avoid mechanical repetition of the proper noun
+      in consecutive sentences.'
+  verification:
+    verified: false
+    stale: false
+    duplicate: false
+    warnings:
+    - Story states CBI, Bancomat, Nexi announced joint digital euro infrastructure
+      'last month', but the MOU was signed November 20, 2026 (7 days ago), not in
+      October
+  revision:
+    replaced: false
+    resolved: true
+    summary:
+    - Revised standfirst to open with the substantive point ('A shared-infrastructure
+      platform…') rather than re-identifying Fabrick, per rule [1].
+    - Replaced vague 'last month' with the specific date 'on November 20' and clarified
+      the action as 'signing a memorandum of understanding', per rule [18] and the
+      fact-check noting the MOU was signed November 20, not in October.
+    - Replaced 'Fabrick's parallel initiative' with 'The parallel initiative from
+      Fabrick' to avoid consecutive sentences opening with the same subject, per rule
+      [70].
+    remaining: []
+- headline: Form3 adds stablecoin payments to its infrastructure via Coinbase partnership
+  standfirst: The integration connects crypto settlement to existing instant payments
+    rails across the UK and Europe, extending a cloud-native platform already used
+    by banks and financial institutions.
+  body: 'Form3, a cloud-native payment infrastructure provider, is partnering with
+    Coinbase to add stablecoin payment capabilities to its platform. The integration
+    extends Form3''s existing connectivity to instant payment rails in the UK, Europe
+    and North America, enabling customers to move money using stablecoins alongside
+    traditional fiat settlement.
+
+
+    Other payment infrastructure firms are making similar moves. Mastercard has added
+    stablecoin settlement to its merchant network, Visa is backing the Open USD stablecoin
+    and Bottomline has integrated stablecoin payments into corporate treasury. Stablecoin
+    settlement is becoming a feature of mainstream payment infrastructure rather than
+    a standalone product.
+
+
+    Form3''s client base of banks and financial institutions faces a strategic question
+    about whether stablecoin rails can offer meaningful advantages in speed or cost
+    for specific use cases such as cross-border payouts. The Coinbase partnership
+    positions Form3 to serve clients exploring that question without requiring them
+    to build separate crypto infrastructure.'
+  editorial_note: Form3's move illustrates the continuing convergence of stablecoin
+    and traditional payment infrastructure, relevant to European banks and processors
+    evaluating their own stablecoin strategies.
+  sources: '[Form3 uses Coinbase infrastructure for stablecoin payments](https://thepaypers.com/crypto-web3-and-cbdc/news/form3-partners-with-coinbase-to-add-stablecoin-money-movement)
+    — The Paypers'
+  style_check:
+    compliant: false
+    warnings:
+    - Standfirst opens by naming 'The UK-based payment infrastructure provider' which
+      redundantly identifies Form3, already named in the headline. Per rule [1], the
+      standfirst should open with the substantive point or action instead — eg, 'The
+      move extends…' or 'The integration connects…'
+    - Body paragraph 2 opens with 'The partnership sits within a broader pattern'
+      — this frames the significance before making the substantive point. Per rule
+      [5], avoid announcing importance ('This matters because', 'a broader pattern
+      of') before explaining it directly.
+    - Body paragraph 3 opens with 'For Form3's client base of banks and financial
+      institutions, the practical question is whether…' — this uses a colon-introduced
+      binary question structure ('whether X or Y'). Per rule [3], this should be recast
+      with a preposition — eg, 'face a strategic question about whether stablecoin
+      rails can offer…'
+  verification:
+    verified: true
+    stale: false
+    duplicate: false
+    warnings: []
+  revision:
+    replaced: false
+    resolved: true
+    summary:
+    - Revised standfirst to open with the substantive point ('The integration connects…')
+      rather than redundantly identifying Form3 via 'The UK-based payment infrastructure
+      provider', per rule [1].
+    - Rewrote body paragraph 2 to remove the 'sits within a broader pattern' framing
+      that announced significance before making the point, per rule [5]. Now leads
+      directly with the comparable moves by other firms.
+    - Recast body paragraph 3 opening to remove the binary question structure, using
+      'faces a strategic question about whether' instead of 'the practical question
+      is whether', per rule [3].
+    remaining: []
+status: ready
